@@ -1,0 +1,310 @@
+// Prisma schema for Sulo Training System
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Seed script configuration
+
+model Grade {
+  id        Int       @id @default(autoincrement())
+  name      String
+  level     Int       // 1-12
+  subjects  Subject[]
+  classes   Class[]
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  @@map("grades")
+}
+
+model Subject {
+  id          Int       @id @default(autoincrement())
+  name        String
+  gradeId     Int       @map("grade_id")
+  description String?
+  order       Int       @default(0)
+  grade       Grade     @relation(fields: [gradeId], references: [id])
+  chapters    Chapter[]
+  classes     Class[]
+  userLevels  UserLevel[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("subjects")
+}
+
+model Chapter {
+  id          Int       @id @default(autoincrement())
+  name        String
+  subjectId   Int       @map("subject_id")
+  description String?
+  order       Int       @default(0)
+  subject     Subject   @relation(fields: [subjectId], references: [id])
+  sections    Section[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("chapters")
+}
+
+model Section {
+  id          Int       @id @default(autoincrement())
+  name        String
+  chapterId   Int       @map("chapter_id")
+  description String?
+  order       Int       @default(0)
+  chapter     Chapter   @relation(fields: [chapterId], references: [id])
+  lessons     Lesson[]
+  exercises   Exercise[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("sections")
+}
+
+model Lesson {
+  id          Int       @id @default(autoincrement())
+  title       String
+  content     String    @db.Text
+  sectionId   Int       @map("section_id")
+  type        String    // video/pdf/text/slide
+  mediaUrl    String?   @map("media_url")
+  attachments Json?     // Array of attachment URLs
+  order       Int       @default(0)
+  section     Section   @relation(fields: [sectionId], references: [id])
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("lessons")
+}
+
+model Exercise {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String    @db.Text
+  sectionId   Int       @map("section_id")
+  difficulty  String    // easy/medium/hard
+  type        String    // multiple_choice/essay
+  points      Int       @default(10)
+  timeLimit   Int?      @map("time_limit") // minutes
+  section     Section   @relation(fields: [sectionId], references: [id])
+  questions   ExerciseQuestion[]
+  assignments Assignment[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("exercises")
+}
+
+model ExerciseQuestion {
+  id         Int       @id @default(autoincrement())
+  exerciseId Int      @map("exercise_id")
+  question   String   @db.Text
+  answer     String   @db.Text
+  options    Json?    // For multiple choice: { A: "...", B: "...", C: "...", D: "..." }
+  order      Int      @default(0)
+  points     Int      @default(1)
+  exercise   Exercise @relation(fields: [exerciseId], references: [id])
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  @@map("exercise_questions")
+}
+
+model User {
+  id           Int       @id @default(autoincrement())
+  username     String    @unique
+  passwordHash String    @map("password_hash")
+  email        String?
+  name         String
+  role         String    // admin/teacher/student/parent
+  phone        String?
+  parentEmail  String?   @map("parent_email")
+  parentPhone  String?   @map("parent_phone")
+  avatarUrl    String?   @map("avatar_url")
+  isActive     Boolean   @default(true) @map("is_active")
+  userLevels   UserLevel[]
+  assignments  Assignment[]
+  submissions  Submission[]
+  notifications Notification[]
+  classStudents ClassStudent[]
+  classTeachers ClassTeacher[]
+  conversations Conversation[]
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model UserLevel {
+  id              Int      @id @default(autoincrement())
+  userId          Int      @map("user_id")
+  subjectId       Int      @map("subject_id")
+  levelScore      Decimal  @default(0) @map("level_score") @db.Decimal(5, 2)
+  totalExercises  Int      @default(0) @map("total_exercises")
+  correctExercises Int     @default(0) @map("correct_exercises")
+  accuracyRate    Decimal  @default(0) @map("accuracy_rate") @db.Decimal(5, 2)
+  user            User     @relation(fields: [userId], references: [id])
+  subject         Subject  @relation(fields: [subjectId], references: [id])
+  lastUpdated     DateTime @default(now()) @map("last_updated")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  @@unique([userId, subjectId])
+  @@map("user_levels")
+}
+
+model Class {
+  id           Int       @id @default(autoincrement())
+  name         String
+  gradeId      Int       @map("grade_id")
+  subjectId    Int       @map("subject_id")
+  academicYear String    @map("academic_year")
+  description  String?   @db.Text
+  grade        Grade     @relation(fields: [gradeId], references: [id])
+  subject      Subject   @relation(fields: [subjectId], references: [id])
+  students     ClassStudent[]
+  teachers     ClassTeacher[]
+  assignments  Assignment[]
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+
+  @@map("classes")
+}
+
+model ClassStudent {
+  id         Int      @id @default(autoincrement())
+  classId    Int      @map("class_id")
+  studentId  Int      @map("student_id")
+  enrolledAt DateTime @default(now()) @map("enrolled_at")
+  class      Class    @relation(fields: [classId], references: [id])
+  student    User     @relation(fields: [studentId], references: [id])
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@unique([classId, studentId])
+  @@map("class_students")
+}
+
+model ClassTeacher {
+  id            Int      @id @default(autoincrement())
+  classId       Int      @map("class_id")
+  teacherId     Int      @map("teacher_id")
+  isMainTeacher Boolean  @default(false) @map("is_main_teacher")
+  assignedAt    DateTime @default(now()) @map("assigned_at")
+  class         Class    @relation(fields: [classId], references: [id])
+  teacher       User     @relation(fields: [teacherId], references: [id])
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@unique([classId, teacherId])
+  @@map("class_teachers")
+}
+
+model Assignment {
+  id          Int         @id @default(autoincrement())
+  title       String
+  description String      @db.Text
+  exerciseId  Int         @map("exercise_id")
+  classId     Int?        @map("class_id")
+  userId      Int?        @map("user_id")
+  assignedBy  Int         @map("assigned_by") // Teacher ID
+  deadline    DateTime
+  minScore    Int         @default(0) @map("min_score")
+  isActive    Boolean     @default(true) @map("is_active")
+  exercise    Exercise    @relation(fields: [exerciseId], references: [id])
+  class       Class?      @relation(fields: [classId], references: [id])
+  student     User?       @relation(fields: [userId], references: [id])
+  submissions Submission[]
+  createdAt   DateTime    @default(now()) @map("created_at")
+  updatedAt   DateTime    @updatedAt @map("updated_at")
+
+  @@map("assignments")
+}
+
+model Submission {
+  id          Int         @id @default(autoincrement())
+  assignmentId Int        @map("assignment_id")
+  userId      Int         @map("user_id")
+  answers     Json?       // For multiple choice: { questionId: "answer" }
+  images      Json?       // Array of image URLs for essay
+  aiFeedback  String?     @db.Text @map("ai_feedback")
+  score       Decimal?    @db.Decimal(5, 2)
+  status      String      @default("pending") // pending/graded/completed
+  submittedAt DateTime?   @map("submitted_at")
+  gradedAt    DateTime?   @map("graded_at")
+  assignment  Assignment  @relation(fields: [assignmentId], references: [id])
+  user        User        @relation(fields: [userId], references: [id])
+  conversations Conversation[]
+  createdAt   DateTime    @default(now()) @map("created_at")
+  updatedAt   DateTime    @updatedAt @map("updated_at")
+
+  @@map("submissions")
+}
+
+model Notification {
+  id          Int      @id @default(autoincrement())
+  userId      Int      @map("user_id")
+  type        String   // deadline_reminder/deadline_passed/grade_released/progress_report
+  title       String
+  message     String   @db.Text
+  channel     String   // email/sms/push
+  isSent      Boolean  @default(false) @map("is_sent")
+  sentAt      DateTime? @map("sent_at")
+  scheduledAt DateTime? @map("scheduled_at")
+  user        User     @relation(fields: [userId], references: [id])
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  @@map("notifications")
+}
+
+model ConversationConfig {
+  id          Int       @id @default(autoincrement())
+  name        String
+  systemPrompt String   @db.Text @map("system_prompt")
+  responseFormat Json?   @map("response_format") // Config for response format
+  metadata    Json?     // Additional config options
+  isDefault   Boolean   @default(false) @map("is_default")
+  conversations Conversation[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("conversation_configs")
+}
+
+model Conversation {
+  id            Int       @id @default(autoincrement())
+  userId        Int       @map("user_id")
+  submissionId  Int?      @map("submission_id") // Nullable - for essay review
+  configId      Int       @map("config_id")
+  type          String     // essay_review/free_chat
+  title         String     // Conversation title
+  status        String     @default("active") // active/completed/archived
+  metadata      Json?     // Additional metadata
+  lastMessageAt DateTime?  @map("last_message_at")
+  user          User       @relation(fields: [userId], references: [id])
+  submission    Submission? @relation(fields: [submissionId], references: [id])
+  config        ConversationConfig @relation(fields: [configId], references: [id])
+  messages      Message[]
+  createdAt     DateTime   @default(now()) @map("created_at")
+  updatedAt     DateTime   @updatedAt @map("updated_at")
+
+  @@map("conversations")
+}
+
+model Message {
+  id             Int          @id @default(autoincrement())
+  conversationId Int          @map("conversation_id")
+  role           String       // user/assistant/system
+  content        String       @db.Text
+  metadata       Json?        // Additional data (tokens, model, etc.)
+  order          Int          // Message order in conversation
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  createdAt      DateTime     @default(now()) @map("created_at")
+
+  @@index([conversationId, order])
+  @@map("messages")
+}
+

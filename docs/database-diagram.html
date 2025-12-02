@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Schema - Hệ Thống Dạy Học</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .mermaid {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .legend {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .legend-item {
+            margin: 10px 0;
+            padding: 8px;
+            background: white;
+            border-radius: 3px;
+        }
+        .legend-item strong {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗄️ Database Schema Diagram</h1>
+        <p class="subtitle">Hệ Thống Dạy Học và Quản Lý Việc Học</p>
+        
+        <div class="mermaid">
+erDiagram
+    %% Core Education Structure
+    GRADES ||--o{ SUBJECTS : "has"
+    SUBJECTS ||--o{ CHAPTERS : "contains"
+    CHAPTERS ||--o{ SECTIONS : "contains"
+    SECTIONS ||--o{ LESSONS : "has"
+    SECTIONS ||--o{ EXERCISES : "has"
+    
+    %% Exercise Structure
+    EXERCISES ||--o{ EXERCISE_QUESTIONS : "contains"
+    
+    %% User Management
+    USERS ||--o{ USER_LEVELS : "has"
+    USERS ||--o{ ASSIGNMENTS : "assigned_to"
+    USERS ||--o{ SUBMISSIONS : "submits"
+    USERS ||--o{ NOTIFICATIONS : "receives"
+    USERS ||--o{ CLASS_STUDENTS : "enrolled_in"
+    USERS ||--o{ CLASS_TEACHERS : "teaches"
+    USERS ||--o{ CONVERSATIONS : "has"
+    
+    %% Class Management
+    CLASSES ||--o{ CLASS_STUDENTS : "has"
+    CLASSES ||--o{ CLASS_TEACHERS : "has"
+    CLASSES ||--o{ ASSIGNMENTS : "assigned_to"
+    
+    %% Assignment & Submission
+    ASSIGNMENTS ||--o{ SUBMISSIONS : "has"
+    EXERCISES ||--o{ ASSIGNMENTS : "used_in"
+    
+    %% Level Tracking
+    SUBJECTS ||--o{ USER_LEVELS : "tracked_for"
+    
+    %% Conversation & Chat System
+    USERS ||--o{ CONVERSATIONS : "has"
+    SUBMISSIONS ||--o| CONVERSATIONS : "linked_to (optional)"
+    CONVERSATION_CONFIGS ||--o{ CONVERSATIONS : "uses"
+    CONVERSATIONS ||--o{ MESSAGES : "contains"
+    
+    %% Table Definitions
+    GRADES {
+        int id PK
+        string name
+        int level "1-12"
+        datetime created_at
+        datetime updated_at
+    }
+    
+    SUBJECTS {
+        int id PK
+        string name
+        int grade_id FK
+        string description
+        int order
+        datetime created_at
+        datetime updated_at
+    }
+    
+    CHAPTERS {
+        int id PK
+        string name
+        int subject_id FK
+        string description
+        int order
+        datetime created_at
+        datetime updated_at
+    }
+    
+    SECTIONS {
+        int id PK
+        string name
+        int chapter_id FK
+        string description
+        int order
+        datetime created_at
+        datetime updated_at
+    }
+    
+    LESSONS {
+        int id PK
+        string title
+        text content
+        int section_id FK
+        string type "video/pdf/text/slide"
+        string media_url
+        json attachments
+        int order
+        datetime created_at
+        datetime updated_at
+    }
+    
+    EXERCISES {
+        int id PK
+        string title
+        text description
+        int section_id FK
+        string difficulty "easy/medium/hard"
+        string type "multiple_choice/essay"
+        int points
+        int time_limit "minutes"
+        datetime created_at
+        datetime updated_at
+    }
+    
+    EXERCISE_QUESTIONS {
+        int id PK
+        int exercise_id FK
+        text question
+        text answer
+        json options "For multiple choice"
+        int order
+        int points
+        datetime created_at
+        datetime updated_at
+    }
+    
+    USERS {
+        int id PK
+        string username UK "Login credential"
+        string password_hash
+        string email "Nullable - optional"
+        string name
+        string role "admin/teacher/student/parent"
+        string phone "Nullable - optional"
+        string parent_email "For students - nullable"
+        string parent_phone "For students - nullable"
+        string avatar_url
+        boolean is_active
+        datetime created_at
+        datetime updated_at
+    }
+    
+    USER_LEVELS {
+        int id PK
+        int user_id FK
+        int subject_id FK
+        decimal level_score "0-100"
+        int total_exercises
+        int correct_exercises
+        decimal accuracy_rate
+        datetime last_updated
+        datetime created_at
+    }
+    
+    CLASSES {
+        int id PK
+        string name
+        int grade_id FK
+        int subject_id FK
+        string academic_year
+        string description
+        datetime created_at
+        datetime updated_at
+    }
+    
+    CLASS_STUDENTS {
+        int id PK
+        int class_id FK
+        int student_id FK
+        datetime enrolled_at
+        datetime created_at
+    }
+    
+    CLASS_TEACHERS {
+        int id PK
+        int class_id FK
+        int teacher_id FK
+        boolean is_main_teacher
+        datetime assigned_at
+        datetime created_at
+    }
+    
+    ASSIGNMENTS {
+        int id PK
+        string title
+        text description
+        int exercise_id FK
+        int class_id FK "Nullable if assigned to individual"
+        int user_id FK "Nullable if assigned to class"
+        int assigned_by FK "Teacher ID"
+        datetime deadline
+        int min_score
+        boolean is_active
+        datetime created_at
+        datetime updated_at
+    }
+    
+    SUBMISSIONS {
+        int id PK
+        int assignment_id FK
+        int user_id FK
+        json answers "For multiple choice"
+        json images "For essay - array of image URLs"
+        text ai_feedback "OpenAI feedback"
+        decimal score
+        string status "pending/graded/completed"
+        datetime submitted_at
+        datetime graded_at
+        datetime created_at
+        datetime updated_at
+    }
+    
+    NOTIFICATIONS {
+        int id PK
+        int user_id FK
+        string type "deadline_reminder/deadline_passed/grade_released/progress_report"
+        string title
+        text message
+        string channel "email/sms/push"
+        boolean is_sent
+        datetime sent_at
+        datetime scheduled_at
+        datetime created_at
+    }
+    
+    CONVERSATION_CONFIGS {
+        int id PK
+        string name
+        text system_prompt "System prompt for OpenAI"
+        json response_format "Config for response format"
+        json metadata "Additional config options"
+        boolean is_default
+        datetime created_at
+        datetime updated_at
+    }
+    
+    CONVERSATIONS {
+        int id PK
+        int user_id FK
+        int submission_id FK "Nullable - for essay review"
+        int config_id FK "Conversation config"
+        string type "essay_review/free_chat"
+        string title "Conversation title"
+        string status "active/completed/archived"
+        json metadata "Additional metadata"
+        datetime last_message_at
+        datetime created_at
+        datetime updated_at
+    }
+    
+    MESSAGES {
+        int id PK
+        int conversation_id FK
+        string role "user/assistant/system"
+        text content "Message content"
+        json metadata "Additional data (tokens, model, etc.)"
+        int order "Message order in conversation"
+        datetime created_at
+    }
+        </div>
+        
+        <div class="legend">
+            <h3>📋 Legend & Notes</h3>
+            <div class="legend-item">
+                <strong>Core Structure:</strong> GRADES → SUBJECTS → CHAPTERS → SECTIONS → LESSONS/EXERCISES
+            </div>
+            <div class="legend-item">
+                <strong>User Levels:</strong> Tracked per subject, calculated based on exercise history
+            </div>
+            <div class="legend-item">
+                <strong>Assignments:</strong> Can be assigned to individual users or entire classes
+            </div>
+            <div class="legend-item">
+                <strong>Submissions:</strong> Supports both multiple choice (JSON answers) and essay (image uploads)
+            </div>
+            <div class="legend-item">
+                <strong>Notifications:</strong> Supports email, SMS, and push notifications with scheduling
+            </div>
+            <div class="legend-item">
+                <strong>AI Integration:</strong> SUBMISSIONS.ai_feedback stores OpenAI API response for essay grading
+            </div>
+            <div class="legend-item">
+                <strong>Authentication:</strong> Users login with username (email is optional, used for notifications only)
+            </div>
+            <div class="legend-item">
+                <strong>Conversations:</strong> Each essay submission creates a conversation for review/explanation. Users can also have free chat conversations
+            </div>
+            <div class="legend-item">
+                <strong>Messages:</strong> All messages in conversations are stored for history and context
+            </div>
+            <div class="legend-item">
+                <strong>Conversation Configs:</strong> Configurable response formats and system prompts for different conversation types
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            },
+            er: {
+                fontSize: 12,
+                layoutDirection: 'TB'
+            }
+        });
+    </script>
+</body>
+</html>
+
