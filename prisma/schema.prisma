@@ -5,7 +5,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 // Seed script configuration
@@ -122,7 +121,8 @@ model User {
   passwordHash String    @map("password_hash")
   email        String?
   name         String
-  role         String    // admin/teacher/student/parent
+  displayName  String?   @map("display_name") // Optional display name
+  role         String    @default("student") // admin/teacher/student/parent
   phone        String?
   parentEmail  String?   @map("parent_email")
   parentPhone  String?   @map("parent_phone")

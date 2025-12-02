@@ -2,7 +2,12 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { prisma } from './prisma';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
+// Support multiple JWT Secret formats
+// Priority: JWT_SECRET > SUPABASE_JWT_SECRET
+const JWT_SECRET = 
+  process.env.JWT_SECRET || 
+  process.env.SUPABASE_JWT_SECRET || 
+  'your-secret-key-change-in-production';
 
 export interface JWTPayload {
   userId: number;
