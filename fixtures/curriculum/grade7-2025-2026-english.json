@@ -1,0 +1,41 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "My House and My School",
+      "lessons": [
+        {
+          "code": "ENG7-CH1-L1",
+          "title": "Rooms in the house"
+        },
+        {
+          "code": "ENG7-CH1-L2",
+          "title": "Places at school"
+        },
+        {
+          "code": "ENG7-CH1-L3",
+          "title": "Daily routines – Present Simple"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Health and Hobbies",
+      "lessons": [
+        {
+          "code": "ENG7-CH2-L1",
+          "title": "Health problems and advice"
+        },
+        {
+          "code": "ENG7-CH2-L2",
+          "title": "Talking about hobbies"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}

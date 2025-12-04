@@ -1,0 +1,336 @@
+{
+  "grade": {
+    "name": "Lớp 7",
+    "level": 7,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Toán",
+    "code": "MATH7",
+    "description": "Chương trình Toán lớp 7 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "Chương 1: Số hữu tỉ",
+      "order": 1,
+      "description": "Ôn tập và mở rộng kiến thức về số hữu tỉ, các phép toán với số hữu tỉ",
+      "sections": [
+        {
+          "name": "Ôn tập khái niệm số hữu tỉ",
+          "order": 1,
+          "description": "Nhắc lại định nghĩa, biểu diễn và so sánh số hữu tỉ",
+          "lessons": [
+            {
+              "title": "Nhắc lại khái niệm số hữu tỉ",
+              "type": "text",
+              "order": 1,
+              "content": "Nhắc lại định nghĩa số hữu tỉ, biểu diễn số hữu tỉ trên trục số, so sánh số hữu tỉ.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập số hữu tỉ cơ bản",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Phép toán với số hữu tỉ",
+          "order": 2,
+          "description": "Cộng, trừ, nhân, chia số hữu tỉ",
+          "lessons": [
+            {
+              "title": "Phép toán với số hữu tỉ",
+              "type": "text",
+              "order": 1,
+              "content": "Cộng, trừ, nhân, chia số hữu tỉ. Quy tắc đổi dấu, rút gọn biểu thức.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập nâng cao về số hữu tỉ",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 2: Số thực",
+      "order": 2,
+      "description": "Mở rộng từ số hữu tỉ sang số thực, căn bậc hai và các tính chất liên quan",
+      "sections": [
+        {
+          "name": "Khái niệm căn bậc hai",
+          "order": 1,
+          "description": "Định nghĩa căn bậc hai và căn bậc hai số học",
+          "lessons": [
+            {
+              "title": "Căn bậc hai và số vô tỉ",
+              "type": "text",
+              "order": 1,
+              "content": "Định nghĩa căn bậc hai, căn bậc hai số học; ví dụ về số vô tỉ như căn 2, căn 3.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập căn bậc hai",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        },
+        {
+          "name": "Biểu diễn số thực trên trục số",
+          "order": 2,
+          "description": "Biểu diễn số hữu tỉ và số vô tỉ trên trục số",
+          "lessons": [
+            {
+              "title": "Số thực trên trục số",
+              "type": "text",
+              "order": 1,
+              "content": "Biểu diễn số thực trên trục số; liên hệ giữa số hữu tỉ và số vô tỉ.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập biểu diễn số thực",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 3: Góc và đường thẳng song song",
+      "order": 3,
+      "description": "Các loại góc và tính chất của góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+      "sections": [
+        {
+          "name": "Các loại góc cơ bản",
+          "order": 1,
+          "description": "Góc nhọn, góc tù, góc vuông, góc bẹt, góc kề bù, góc đối đỉnh",
+          "lessons": [
+            {
+              "title": "Phân loại các loại góc",
+              "type": "text",
+              "order": 1,
+              "content": "Nhận biết và phân loại các loại góc cơ bản, tính số đo góc đơn giản.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập phân loại góc",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+          "order": 2,
+          "description": "Góc so le trong, đồng vị, trong cùng phía",
+          "lessons": [
+            {
+              "title": "Góc so le trong, đồng vị, trong cùng phía",
+              "type": "text",
+              "order": 1,
+              "content": "Định nghĩa và tính chất của các cặp góc khi một đường thẳng cắt hai đường thẳng song song.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về góc và đường thẳng song song",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 4: Tam giác bằng nhau",
+      "order": 4,
+      "description": "Các trường hợp bằng nhau của tam giác và ứng dụng",
+      "sections": [
+        {
+          "name": "Các trường hợp bằng nhau của tam giác",
+          "order": 1,
+          "description": "Các trường hợp cạnh - cạnh - cạnh, cạnh - góc - cạnh, góc - cạnh - góc",
+          "lessons": [
+            {
+              "title": "Các trường hợp bằng nhau của tam giác",
+              "type": "text",
+              "order": 1,
+              "content": "Nêu và minh họa các trường hợp bằng nhau của tam giác, ví dụ minh họa.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về tam giác bằng nhau",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        },
+        {
+          "name": "Ứng dụng tam giác bằng nhau",
+          "order": 2,
+          "description": "Vận dụng tính bằng nhau để giải toán hình học",
+          "lessons": [
+            {
+              "title": "Giải bài toán dùng tam giác bằng nhau",
+              "type": "text",
+              "order": 1,
+              "content": "Áp dụng các trường hợp tam giác bằng nhau để chứng minh các đoạn thẳng, góc bằng nhau.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập ứng dụng tam giác bằng nhau",
+              "difficulty": "hard",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 5: Thu thập và biểu diễn dữ liệu",
+      "order": 5,
+      "description": "Cách thu thập, tổ chức và biểu diễn dữ liệu thống kê đơn giản",
+      "sections": [
+        {
+          "name": "Thu thập và tổ chức dữ liệu",
+          "order": 1,
+          "description": "Thu thập dữ liệu từ thực tế, lập bảng tần số",
+          "lessons": [
+            {
+              "title": "Thu thập dữ liệu",
+              "type": "text",
+              "order": 1,
+              "content": "Các bước thu thập dữ liệu, ví dụ về điều tra đơn giản trong lớp học.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập thu thập dữ liệu",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Biểu diễn dữ liệu",
+          "order": 2,
+          "description": "Biểu diễn dữ liệu bằng biểu đồ cột, biểu đồ đoạn thẳng",
+          "lessons": [
+            {
+              "title": "Biểu đồ cột và biểu đồ đoạn thẳng",
+              "type": "text",
+              "order": 1,
+              "content": "Cách vẽ và đọc biểu đồ cột, biểu đồ đoạn thẳng từ bảng số liệu.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập biểu diễn dữ liệu",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 6: Ôn tập tổng hợp",
+      "order": 6,
+      "description": "Ôn tập và hệ thống hóa kiến thức Toán 7",
+      "sections": [
+        {
+          "name": "Ôn tập đại số",
+          "order": 1,
+          "description": "Ôn lại các kiến thức về số hữu tỉ, số thực",
+          "lessons": [
+            {
+              "title": "Ôn tập chương Số hữu tỉ và Số thực",
+              "type": "text",
+              "order": 1,
+              "content": "Hệ thống lại các dạng bài tập quan trọng về số hữu tỉ và số thực.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Đề ôn tập đại số tổng hợp",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 40
+            }
+          ]
+        },
+        {
+          "name": "Ôn tập hình học và thống kê",
+          "order": 2,
+          "description": "Ôn tập tam giác, đường thẳng song song và biểu diễn dữ liệu",
+          "lessons": [
+            {
+              "title": "Ôn tập hình học và dữ liệu",
+              "type": "text",
+              "order": 1,
+              "content": "Tóm tắt kiến thức về góc, đường thẳng song song, tam giác bằng nhau và thống kê đơn giản.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Đề ôn tập hình học và dữ liệu",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 40
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

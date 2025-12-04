@@ -1,0 +1,131 @@
+{
+  "grade": {
+    "name": "Lớp 7",
+    "level": 7,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Tiếng Anh",
+    "code": "ENG7",
+    "description": "Chương trình Tiếng Anh lớp 7 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "My House and My School",
+      "order": 1,
+      "description": "Vocabulary and grammar around house, school and daily routines",
+      "sections": [
+        {
+          "name": "Vocabulary: Rooms and Furniture",
+          "order": 1,
+          "description": "Basic words for rooms, furniture and school places",
+          "lessons": [
+            {
+              "title": "Rooms in the house",
+              "type": "text",
+              "order": 1,
+              "content": "Vocabulary: living room, bedroom, kitchen, bathroom, garden, balcony, etc. Simple sentences describing your house.",
+              "attachments": []
+            },
+            {
+              "title": "Places at school",
+              "type": "text",
+              "order": 2,
+              "content": "Vocabulary: classroom, library, playground, canteen, laboratory, etc. Practice with \"There is / There are\".",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Vocabulary check: House and School",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Grammar: Present Simple",
+          "order": 2,
+          "description": "Present Simple for daily routines and habits",
+          "lessons": [
+            {
+              "title": "Present Simple: form and use",
+              "type": "text",
+              "order": 1,
+              "content": "Affirmative, negative and question forms of Present Simple. Adverbs of frequency (always, usually, often, sometimes, never).",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Present Simple practice",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health and Hobbies",
+      "order": 2,
+      "description": "Talking about health problems and free-time activities",
+      "sections": [
+        {
+          "name": "Vocabulary: Health problems",
+          "order": 1,
+          "description": "Common health problems and advice",
+          "lessons": [
+            {
+              "title": "Health problems and advice",
+              "type": "text",
+              "order": 1,
+              "content": "Vocabulary: headache, stomachache, toothache, fever, flu, etc. Using \"should / shouldn't\" to give advice.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Health problems – multiple choice",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Speaking: Hobbies and free time",
+          "order": 2,
+          "description": "Talking about hobbies and free-time activities",
+          "lessons": [
+            {
+              "title": "Talking about hobbies",
+              "type": "text",
+              "order": 1,
+              "content": "Expressions: \"I like / love / enjoy\", \"I am interested in\", \"My favourite hobby is ...\". Simple dialogue examples.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Choose the best answer – hobbies",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

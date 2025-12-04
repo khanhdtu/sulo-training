@@ -133,6 +133,21 @@ async function createSchema() {
         `,
       },
       {
+        name: 'curricula',
+        sql: `
+          CREATE TABLE IF NOT EXISTS curricula (
+            id SERIAL PRIMARY KEY,
+            grade_id INTEGER NOT NULL REFERENCES grades(id),
+            course_year VARCHAR(50) NOT NULL,
+            subject VARCHAR(255) NOT NULL,
+            lessons JSONB NOT NULL,
+            created_at TIMESTAMP DEFAULT NOW() NOT NULL,
+            updated_at TIMESTAMP DEFAULT NOW() NOT NULL,
+            UNIQUE(grade_id, course_year, subject)
+          )
+        `,
+      },
+      {
         name: 'subjects',
         sql: `
           CREATE TABLE IF NOT EXISTS subjects (

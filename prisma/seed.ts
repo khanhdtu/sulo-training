@@ -1,6 +1,55 @@
 import { PrismaClient } from '@prisma/client';
+import { Pool } from 'pg';
+import { PrismaPg } from '@prisma/adapter-pg';
+import { config } from 'dotenv';
 
-const prisma = new PrismaClient();
+// Load .env file
+config();
+
+// Support multiple DATABASE_URL formats
+let databaseUrl =
+  process.env.POSTGRES_PRISMA_URL ||
+  process.env.POSTGRES_URL_NON_POOLING ||
+  process.env.DATABASE_URL;
+
+if (!databaseUrl) {
+  throw new Error(
+    'Missing DATABASE_URL. Please set one of: POSTGRES_PRISMA_URL, POSTGRES_URL_NON_POOLING, or DATABASE_URL'
+  );
+}
+
+// Ensure SSL is properly configured for Supabase
+if (databaseUrl.includes('supabase.com') && !databaseUrl.includes('sslmode')) {
+  databaseUrl += (databaseUrl.includes('?') ? '&' : '?') + 'sslmode=require';
+}
+
+// Create PostgreSQL connection pool
+const poolConfig: any = {
+  connectionString: databaseUrl,
+};
+
+// Configure SSL for Supabase connections
+const shouldAllowInsecureSsl =
+  databaseUrl.includes('supabase.com') ||
+  process.env.ALLOW_INSECURE_DB_SSL === 'true' ||
+  process.env.NODE_ENV === 'development';
+
+if (shouldAllowInsecureSsl) {
+  poolConfig.ssl = {
+    rejectUnauthorized: false,
+  };
+  if (!process.env.NODE_TLS_REJECT_UNAUTHORIZED) {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+  }
+}
+
+const pool = new Pool(poolConfig);
+const adapter = new PrismaPg(pool);
+
+const prisma = new PrismaClient({
+  adapter,
+  log: ['error', 'warn'],
+});
 
 async function main() {
   console.log('Seeding database...');
@@ -72,5 +121,6 @@ main()
   })
   .finally(async () => {
     await prisma.$disconnect();
+    await pool.end();
   });
 

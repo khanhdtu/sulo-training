@@ -3,14 +3,36 @@ import { getUserFromToken } from './auth';
 
 /**
  * Get authenticated user from request
+ * First tries to get from middleware headers (set by middleware.ts)
+ * Falls back to extracting token from Authorization header or cookie
  */
 export async function getAuthUser(request: NextRequest) {
+  // Try to get user ID from middleware headers (fastest path)
+  const userIdFromHeader = request.headers.get('x-user-id');
+  if (userIdFromHeader) {
+    // Middleware already verified the token, just get user from DB
+    const token = 
+      request.headers.get('authorization')?.substring(7) || 
+      request.cookies.get('token')?.value;
+    
+    if (token) {
+      return getUserFromToken(token);
+    }
+  }
+
+  // Fallback: extract token from Authorization header or cookie
   const authHeader = request.headers.get('authorization');
-  if (!authHeader || !authHeader.startsWith('Bearer ')) {
+  const tokenFromHeader = authHeader?.startsWith('Bearer ') 
+    ? authHeader.substring(7) 
+    : null;
+  
+  const tokenFromCookie = request.cookies.get('token')?.value;
+  const token = tokenFromHeader || tokenFromCookie;
+
+  if (!token) {
     return null;
   }
 
-  const token = authHeader.substring(7);
   return getUserFromToken(token);
 }
 

@@ -1,0 +1,1330 @@
+{
+  "grade": {
+    "id": 2,
+    "name": "Lớp 7",
+    "level": 7
+  },
+  "subject": {
+    "id": 3,
+    "name": "Toán",
+    "code": "MATH7",
+    "description": "Chương trình Toán lớp 7 năm 2025"
+  },
+  "chapters": [
+    {
+      "id": 9,
+      "name": "Chương 1: Số hữu tỉ",
+      "description": "Ôn tập và mở rộng kiến thức về số hữu tỉ, các phép toán với số hữu tỉ",
+      "order": 1,
+      "sections": [
+        {
+          "id": 17,
+          "name": "Ôn tập khái niệm số hữu tỉ",
+          "description": "Nhắc lại định nghĩa, biểu diễn và so sánh số hữu tỉ",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 18,
+              "code": "MATH7-CH1-L1",
+              "title": "Nhắc lại khái niệm số hữu tỉ",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 210,
+              "title": "Nhận diện số hữu tỉ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": 20,
+              "order": 1,
+              "questions": [
+                {
+                  "id": 38,
+                  "question": "Số nào sau đây là số hữu tỉ?",
+                  "answer": "B",
+                  "options": {
+                    "A": "\\\\sqrt{2}",
+                    "B": "\\\\frac{1}{3}",
+                    "C": "\\\\pi",
+                    "D": "\\\\sqrt{3}"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 222,
+              "title": "Biểu diễn số hữu tỉ trên trục số",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": [
+                {
+                  "id": 39,
+                  "question": "Trên trục số, điểm biểu diễn số $-\\\\frac{1}{2}$ nằm:",
+                  "answer": "B",
+                  "options": {
+                    "A": "Giữa 0 và 1",
+                    "B": "Bên trái 0, cách 0 một khoảng bằng 1/2 đơn vị",
+                    "C": "Tại 0",
+                    "D": "Bên phải 1"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 223,
+              "title": "So sánh hai số hữu tỉ đơn giản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 224,
+              "title": "Chuyển đổi số thập phân sang phân số",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 225,
+              "title": "Xác định số hữu tỉ dương và số hữu tỉ âm",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 226,
+              "title": "Tự luận: Rút gọn các phân số sau: a) $\\frac{18}{24}$   b) $-\\frac{21}{49}$   c) $\\frac{45}{-60}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": [
+                {
+                  "id": 40,
+                  "question": "Rút gọn các phân số sau: a) $\\\\frac{18}{24}$   b) $-\\\\frac{21}{49}$   c) $\\\\frac{45}{-60}$",
+                  "answer": "a) $\\\\frac{3}{4}$   b) $-\\\\frac{3}{7}$   c) $-\\\\frac{3}{4}$",
+                  "options": null,
+                  "points": 2,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 227,
+              "title": "Tự luận: So sánh và sắp xếp các số hữu tỉ sau theo thứ tự tăng dần: $-\\frac{1}{2}$, $\\frac{3}{4}$, $-\\frac{2}{3}$, $0$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Phép toán với số hữu tỉ",
+          "description": "Cộng, trừ, nhân, chia số hữu tỉ",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 19,
+              "code": "MATH7-CH1-L2",
+              "title": "Phép toán với số hữu tỉ",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 228,
+              "title": "Cộng hai số hữu tỉ cùng mẫu",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": [
+                {
+                  "id": 41,
+                  "question": "Giá trị của $\\\\frac{3}{7} + \\\\frac{2}{7}$ là:",
+                  "answer": "B",
+                  "options": {
+                    "A": "3/14",
+                    "B": "5/7",
+                    "C": "5/14",
+                    "D": "1/7"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 229,
+              "title": "Trừ hai số hữu tỉ khác mẫu",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": [
+                {
+                  "id": 42,
+                  "question": "Giá trị của $\\\\frac{5}{6} - \\\\frac{1}{3}$ là:",
+                  "answer": "B",
+                  "options": {
+                    "A": "$\\\\frac{4}{3}$",
+                    "B": "$\\\\frac{1}{2}$",
+                    "C": "$\\\\frac{1}{3}$",
+                    "D": "$\\\\frac{1}{6}$"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 230,
+              "title": "Nhân số hữu tỉ với một số nguyên",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": [
+                {
+                  "id": 43,
+                  "question": "Giá trị của $3 \\\\times \\\\frac{2}{5}$ là:",
+                  "answer": "C",
+                  "options": {
+                    "A": "$\\\\frac{6}{15}$",
+                    "B": "$\\\\frac{5}{6}$",
+                    "C": "$\\\\frac{6}{5}$",
+                    "D": "$\\\\frac{2}{15}$"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 231,
+              "title": "Chia hai số hữu tỉ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 232,
+              "title": "Tính giá trị biểu thức đơn giản với số hữu tỉ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 233,
+              "title": "Tự luận: Thực hiện các phép tính sau và rút gọn kết quả: a) $\\frac{3}{4} + \\frac{2}{3}$   b) $\\frac{5}{6} - \\frac{1}{4}$   c) $-\\frac{2}{5} + \\frac{7}{10}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": [
+                {
+                  "id": 44,
+                  "question": "Thực hiện các phép tính sau và rút gọn kết quả: a) $\\\\frac{3}{4} + \\\\frac{2}{3}$   b) $\\\\frac{5}{6} - \\\\frac{1}{4}$   c) $-\\\\frac{2}{5} + \\\\frac{7}{10}$",
+                  "answer": "a) $\\\\frac{17}{12}$   b) $\\\\frac{7}{12}$   c) $\\\\frac{3}{10}$",
+                  "options": null,
+                  "points": 2,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 234,
+              "title": "Tự luận: Tính giá trị biểu thức: $\\frac{2}{3} \\times \\frac{9}{4} - \\frac{1}{2} \\div \\frac{3}{4}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Chương 2: Số thực",
+      "description": "Mở rộng từ số hữu tỉ sang số thực, căn bậc hai và các tính chất liên quan",
+      "order": 2,
+      "sections": [
+        {
+          "id": 19,
+          "name": "Khái niệm căn bậc hai",
+          "description": "Định nghĩa căn bậc hai và căn bậc hai số học",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 20,
+              "code": "MATH7-CH2-L1",
+              "title": "Căn bậc hai và số vô tỉ",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 235,
+              "title": "Nhận diện căn bậc hai của số chính phương",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": [
+                {
+                  "id": 45,
+                  "question": "Giá trị của $\\\\sqrt{81}$ là:",
+                  "answer": "C",
+                  "options": {
+                    "A": "7",
+                    "B": "8",
+                    "C": "9",
+                    "D": "10"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 236,
+              "title": "Điền kết quả căn bậc hai đơn giản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": [
+                {
+                  "id": 46,
+                  "question": "Giá trị của $\\\\sqrt{49}$ là:",
+                  "answer": "B",
+                  "options": {
+                    "A": "6",
+                    "B": "7",
+                    "C": "8",
+                    "D": "9"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 237,
+              "title": "Phân biệt số hữu tỉ và số vô tỉ (dạng nhận biết)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": [
+                {
+                  "id": 47,
+                  "question": "Số nào sau đây là số vô tỉ?",
+                  "answer": "C",
+                  "options": {
+                    "A": "$\\\\frac{1}{2}$",
+                    "B": "$\\\\sqrt{4}$",
+                    "C": "$\\\\sqrt{2}$",
+                    "D": "$0{,}5$"
+                  },
+                  "points": 1,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 238,
+              "title": "Tính căn bậc hai của phân số",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 239,
+              "title": "So sánh căn bậc hai của các số",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 240,
+              "title": "Tự luận: Tính và rút gọn (nếu có thể): a) $\\sqrt{25}$   b) $\\sqrt{36}$   c) $\\sqrt{\\frac{1}{49}}$   d) $\\sqrt{\\frac{4}{9}}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": [
+                {
+                  "id": 48,
+                  "question": "Tính và rút gọn (nếu có thể): a) $\\\\sqrt{25}$   b) $\\\\sqrt{36}$   c) $\\\\sqrt{\\\\frac{1}{49}}$   d) $\\\\sqrt{\\\\frac{4}{9}}$",
+                  "answer": "a) $5$   b) $6$   c) $\\\\frac{1}{7}$   d) $\\\\frac{2}{3}$",
+                  "options": null,
+                  "points": 2,
+                  "order": 0
+                }
+              ]
+            },
+            {
+              "id": 241,
+              "title": "Tự luận: Chứng minh rằng $\\sqrt{2}$ là số vô tỉ bằng cách giải thích tại sao không thể viết dưới dạng phân số",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Biểu diễn số thực trên trục số",
+          "description": "Biểu diễn số hữu tỉ và số vô tỉ trên trục số",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 21,
+              "code": "MATH7-CH2-L2",
+              "title": "Số thực trên trục số",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 213,
+              "title": "Đặt số thực vào đúng vị trí trên trục số (mốc đơn giản)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": 20,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 242,
+              "title": "So sánh hai số thực bằng trực quan trên trục số",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 243,
+              "title": "Chọn phát biểu đúng về vị trí số thực",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 244,
+              "title": "Xác định số thực nằm giữa hai số cho trước",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 245,
+              "title": "Biểu diễn số thực dưới dạng thập phân",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 246,
+              "title": "Tự luận: Trên cùng một trục số, biểu diễn các số sau: $-1, 0, \\frac{1}{2}, \\frac{3}{2}$ và ghi lại thứ tự tăng dần của chúng",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 247,
+              "title": "Tự luận: Sắp xếp các số thực sau theo thứ tự tăng dần: $\\sqrt{2}, 1.5, -\\frac{3}{2}, 0, \\frac{5}{4}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Chương 3: Góc và đường thẳng song song",
+      "description": "Các loại góc và tính chất của góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+      "order": 3,
+      "sections": [
+        {
+          "id": 21,
+          "name": "Các loại góc cơ bản",
+          "description": "Góc nhọn, góc tù, góc vuông, góc bẹt, góc kề bù, góc đối đỉnh",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 22,
+              "code": "MATH7-CH3-L1",
+              "title": "Phân loại các loại góc",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 214,
+              "title": "Nhận biết góc nhọn, góc tù, góc vuông, góc bẹt qua hình vẽ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": 15,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 248,
+              "title": "Chọn tên đúng cho một góc cho trước",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 249,
+              "title": "Nhận biết góc kề bù và góc đối đỉnh (mức cơ bản)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 250,
+              "title": "Tính số đo góc kề bù",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 251,
+              "title": "Xác định góc đối đỉnh trong hình vẽ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 252,
+              "title": "Tự luận: Cho hình vẽ có hai đường thẳng cắt nhau tạo thành bốn góc. Gọi số đo một góc là 50°. Tính số đo ba góc còn lại",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 253,
+              "title": "Tự luận: Cho hai góc kề bù, biết số đo góc thứ nhất bằng $\\frac{2}{3}$ số đo góc thứ hai. Tính số đo mỗi góc",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+          "description": "Góc so le trong, đồng vị, trong cùng phía",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 23,
+              "code": "MATH7-CH3-L2",
+              "title": "Góc so le trong, đồng vị, trong cùng phía",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 254,
+              "title": "Nhận diện các cặp góc so le trong trên hình vẽ có hai đường song song",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 255,
+              "title": "Nhận diện các cặp góc đồng vị",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 256,
+              "title": "Chọn phát biểu đúng về quan hệ số đo giữa các cặp góc",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 257,
+              "title": "Tính số đo góc so le trong khi biết góc đồng vị",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 258,
+              "title": "Xác định góc trong cùng phía",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 259,
+              "title": "Tự luận: Cho hai đường thẳng song song a, b và đường thẳng c cắt chúng. Biết một góc so le trong có số đo 60°. Tính số đo các góc so le trong và đồng vị còn lại",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 260,
+              "title": "Tự luận: Cho hình vẽ có hai đường thẳng song song bị cắt bởi một đường thẳng thứ ba. Biết một góc đồng vị bằng 75°. Tính số đo tất cả các góc còn lại",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Chương 4: Tam giác bằng nhau",
+      "description": "Các trường hợp bằng nhau của tam giác và ứng dụng",
+      "order": 4,
+      "sections": [
+        {
+          "id": 23,
+          "name": "Các trường hợp bằng nhau của tam giác",
+          "description": "Các trường hợp cạnh - cạnh - cạnh, cạnh - góc - cạnh, góc - cạnh - góc",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 24,
+              "code": "MATH7-CH4-L1",
+              "title": "Các trường hợp bằng nhau của tam giác",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 261,
+              "title": "Nhận diện tam giác bằng nhau qua hình vẽ (trường hợp đơn giản)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 262,
+              "title": "Chọn đúng trường hợp bằng nhau (c.c.c, c.g.c, g.c.g) cho một cặp tam giác",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 263,
+              "title": "Kết luận hai tam giác bằng nhau từ dữ kiện đã cho",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 264,
+              "title": "Xác định cạnh hoặc góc tương ứng bằng nhau",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 265,
+              "title": "Nhận biết điều kiện đủ để hai tam giác bằng nhau",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 266,
+              "title": "Tự luận: Cho tam giác $ABC$ có $AB = AC = 5\\text{ cm}$, $BC = 6\\text{ cm}$. Chứng minh tam giác $ABC$ là tam giác cân tại $A$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 267,
+              "title": "Tự luận: Cho tam giác $ABC$ và tam giác $DEF$ có $AB = DE$, $BC = EF$, $\\angle B = \\angle E$. Chứng minh $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Ứng dụng tam giác bằng nhau",
+          "description": "Vận dụng tính bằng nhau để giải toán hình học",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 25,
+              "code": "MATH7-CH4-L2",
+              "title": "Giải bài toán dùng tam giác bằng nhau",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 268,
+              "title": "Tìm cạnh bằng nhau dựa vào tam giác bằng nhau (bài đơn giản)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 269,
+              "title": "Tìm góc bằng nhau trong hai tam giác bằng nhau",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 270,
+              "title": "Chọn kết luận đúng sau khi chứng minh được hai tam giác bằng nhau",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 271,
+              "title": "Áp dụng tính chất tam giác bằng nhau để tính độ dài cạnh",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 272,
+              "title": "Sử dụng tam giác bằng nhau để chứng minh hai đoạn thẳng bằng nhau",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 273,
+              "title": "Tự luận: Cho tam giác $ABC$ và tam giác $A'B'C'$ có $AB = A'B'$, $AC = A'C'$, $\\angle A = \\angle A'$. Chứng minh $\\triangle ABC = \\triangle A'B'C'$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 274,
+              "title": "Tự luận: Cho tam giác $ABC$ có $M$ là trung điểm của $BC$. Chứng minh rằng nếu $AM$ là đường trung tuyến thì $AM$ chia tam giác thành hai tam giác bằng nhau",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Chương 5: Thu thập và biểu diễn dữ liệu",
+      "description": "Cách thu thập, tổ chức và biểu diễn dữ liệu thống kê đơn giản",
+      "order": 5,
+      "sections": [
+        {
+          "id": 25,
+          "name": "Thu thập và tổ chức dữ liệu",
+          "description": "Thu thập dữ liệu từ thực tế, lập bảng tần số",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 26,
+              "code": "MATH7-CH5-L1",
+              "title": "Thu thập dữ liệu",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 218,
+              "title": "Chọn cách thu thập dữ liệu phù hợp cho một tình huống đơn giản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": 15,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 275,
+              "title": "Hoàn thiện bảng số liệu từ mô tả bằng lời",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 276,
+              "title": "Nhận diện lỗi đơn giản trong việc thu thập dữ liệu",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 277,
+              "title": "Phân loại dữ liệu định tính và định lượng",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 278,
+              "title": "Xác định phương pháp thu thập dữ liệu phù hợp",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 279,
+              "title": "Tự luận: Lập bảng thống kê số quyển sách Toán mỗi bạn trong 5 bạn A, B, C, D, E có (dữ liệu do em tự đặt) và tính tổng số sách",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 280,
+              "title": "Tự luận: Thu thập và ghi lại dữ liệu về số điểm kiểm tra Toán của 10 học sinh trong lớp, sau đó tính điểm trung bình",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Biểu diễn dữ liệu",
+          "description": "Biểu diễn dữ liệu bằng biểu đồ cột, biểu đồ đoạn thẳng",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 27,
+              "code": "MATH7-CH5-L2",
+              "title": "Biểu đồ cột và biểu đồ đoạn thẳng",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 281,
+              "title": "Đọc giá trị từ biểu đồ cột đơn giản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 282,
+              "title": "So sánh hai cột trong biểu đồ cột",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 283,
+              "title": "Nhận xét cơ bản từ một biểu đồ đoạn thẳng",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 284,
+              "title": "Tính tổng hoặc hiệu từ biểu đồ cột",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 285,
+              "title": "Xác định giá trị lớn nhất và nhỏ nhất từ biểu đồ",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 286,
+              "title": "Tự luận: Cho bảng số liệu số học sinh giỏi Toán của một lớp trong 4 năm liên tiếp (dữ liệu do em tự chọn). Hãy vẽ biểu đồ cột và nêu nhận xét",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 287,
+              "title": "Tự luận: Vẽ biểu đồ đoạn thẳng biểu diễn nhiệt độ trung bình các tháng trong năm (dữ liệu tự chọn) và nhận xét xu hướng thay đổi",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Chương 6: Ôn tập tổng hợp",
+      "description": "Ôn tập và hệ thống hóa kiến thức Toán 7",
+      "order": 6,
+      "sections": [
+        {
+          "id": 27,
+          "name": "Ôn tập đại số",
+          "description": "Ôn lại các kiến thức về số hữu tỉ, số thực",
+          "order": 1,
+          "lessons": [
+            {
+              "id": 28,
+              "code": "MATH7-CH6-L1",
+              "title": "Ôn tập chương Số hữu tỉ và Số thực",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 288,
+              "title": "Bài tập trộn: nhận diện và so sánh số hữu tỉ, số thực (mức dễ)",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 289,
+              "title": "Tính giá trị biểu thức đơn giản với số hữu tỉ và căn bậc hai cơ bản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 290,
+              "title": "Chọn phát biểu đúng về quan hệ giữa số hữu tỉ và số thực",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 291,
+              "title": "Kết hợp các phép toán với số hữu tỉ và số thực",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 292,
+              "title": "So sánh và sắp xếp số hữu tỉ và số thực",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 293,
+              "title": "Tự luận: Tính giá trị các biểu thức sau: a) $\\frac{1}{2} + \\sqrt{4}$   b) $\\frac{3}{5} - \\sqrt{\\frac{9}{25}}$   c) $\\sqrt{9} - \\frac{7}{3}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 294,
+              "title": "Tự luận: Sắp xếp các số sau theo thứ tự tăng dần: $\\sqrt{2}, \\frac{3}{2}, -1, 0, \\sqrt{9}, -\\frac{1}{2}$",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Ôn tập hình học và thống kê",
+          "description": "Ôn tập tam giác, đường thẳng song song và biểu diễn dữ liệu",
+          "order": 2,
+          "lessons": [
+            {
+              "id": 29,
+              "code": "MATH7-CH6-L2",
+              "title": "Ôn tập hình học và dữ liệu",
+              "type": "text",
+              "order": 1
+            }
+          ],
+          "exercises": [
+            {
+              "id": 295,
+              "title": "Nhận diện loại góc và quan hệ góc trong hình vẽ đơn giản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 1,
+              "questions": []
+            },
+            {
+              "id": 296,
+              "title": "Chọn kết luận đúng về tam giác bằng nhau trong bài toán cơ bản",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 2,
+              "questions": []
+            },
+            {
+              "id": 297,
+              "title": "Đọc và nhận xét đơn giản từ một biểu đồ cột / đoạn thẳng",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 3,
+              "questions": []
+            },
+            {
+              "id": 298,
+              "title": "Tính số đo góc dựa vào các quan hệ góc đã học",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 4,
+              "questions": []
+            },
+            {
+              "id": 299,
+              "title": "Áp dụng tính chất tam giác bằng nhau để giải bài toán",
+              "description": "",
+              "type": "multiple_choice",
+              "difficulty": "easy",
+              "points": 1,
+              "timeLimit": null,
+              "order": 5,
+              "questions": []
+            },
+            {
+              "id": 300,
+              "title": "Tự luận: Cho biểu đồ cột thể hiện số bài tập Toán, Văn, Anh một học sinh làm trong tuần (dữ liệu do em tự đặt). Hãy cho biết môn nào được làm nhiều nhất và ít nhất",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 6,
+              "questions": []
+            },
+            {
+              "id": 301,
+              "title": "Tự luận: Cho hình vẽ có hai đường thẳng song song bị cắt bởi một đường thẳng thứ ba. Biết một góc bằng 45°. Tính số đo tất cả các góc còn lại và chứng minh hai tam giác tạo thành bằng nhau",
+              "description": "",
+              "type": "essay",
+              "difficulty": "easy",
+              "points": 2,
+              "timeLimit": null,
+              "order": 7,
+              "questions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

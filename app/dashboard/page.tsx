@@ -1,54 +1,38 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-
-interface User {
-  id: number;
-  username: string;
-  name: string;
-  email?: string;
-  role: string;
-}
+import SubjectSelector from '@/components/SubjectSelector';
+import UpdateProfileSection from '@/components/UpdateProfileSection';
+import { useUser } from '@/contexts/UserContext';
+import { authRepository } from '@/repositories/auth.repository';
 
 export default function DashboardPage() {
   const router = useRouter();
-  const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
+  const { user, loading } = useUser();
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (!token) {
-      router.push('/login');
-      return;
-    }
-
-    // Get user info
-    fetch('/api/auth/me', {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.user) {
-          setUser(data.user);
-        } else {
+    // Update localStorage when user data changes
+    if (user) {
+      localStorage.setItem('user', JSON.stringify(user));
+    } else if (!loading) {
+      // Only redirect if we're done loading and no user
           router.push('/login');
         }
-      })
-      .catch(() => {
-        router.push('/login');
-      })
-      .finally(() => {
-        setLoading(false);
-      });
-  }, [router]);
+  }, [user, loading, router]);
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await authRepository.logout();
+    } catch (err) {
+      console.error('Logout error:', err);
+    } finally {
+      // Clear localStorage
     localStorage.removeItem('token');
     localStorage.removeItem('user');
+      // Redirect to login
     router.push('/login');
+    }
   };
 
   if (loading) {
@@ -82,15 +66,17 @@ export default function DashboardPage() {
       </nav>
 
       <div className="container mx-auto px-4 py-8 relative z-10">
-        <div className="card mb-6">
-          <h2 className="text-2xl font-semibold mb-4 text-gradient">Thông tin tài khoản</h2>
-          <div className="space-y-2">
-            <p><strong>Tên đăng nhập:</strong> {user.username}</p>
-            <p><strong>Họ và tên:</strong> {user.name}</p>
-            <p><strong>Email:</strong> {user.email || 'Chưa cập nhật'}</p>
-            <p><strong>Vai trò:</strong> {user.role}</p>
-          </div>
+        {/* Update Profile Section */}
+        <div className="mb-6">
+          <UpdateProfileSection />
         </div>
+
+        {/* Show subject selector if user has grade */}
+        {user.gradeId && (
+          <div className="mb-6">
+            <SubjectSelector gradeId={user.gradeId} />
+          </div>
+        )}
 
         <div className="grid md:grid-cols-2 gap-6">
           <div className="card">

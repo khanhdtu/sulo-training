@@ -10,11 +10,14 @@ const addMessageSchema = z.object({
 
 export async function POST(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    // Await params (Next.js 15+ requires params to be awaited)
+    const { id } = await params;
+    
     const user = await requireAuth(request);
-    const conversationId = parseInt(params.id);
+    const conversationId = parseInt(id);
     const body = await request.json();
     const { message, imageUrls } = addMessageSchema.parse(body);
 
@@ -59,11 +62,14 @@ export async function POST(
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    // Await params (Next.js 15+ requires params to be awaited)
+    const { id } = await params;
+    
     const user = await requireAuth(request);
-    const conversationId = parseInt(params.id);
+    const conversationId = parseInt(id);
 
     const conversation = await getConversation(conversationId, user.id);
     if (!conversation) {

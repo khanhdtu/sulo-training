@@ -1,0 +1,1363 @@
+{
+  "grade": {
+    "id": 1,
+    "name": "Lớp 7",
+    "level": 7
+  },
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Toán",
+      "description": "Chương trình Toán lớp 7 năm 2025",
+      "chapters": [
+        {
+          "id": 1,
+          "name": "Chương 1: Số hữu tỉ",
+          "description": "Ôn tập và mở rộng kiến thức về số hữu tỉ, các phép toán với số hữu tỉ",
+          "order": 1,
+          "sections": [
+            {
+              "id": 1,
+              "name": "Ôn tập khái niệm số hữu tỉ",
+              "description": "Nhắc lại định nghĩa, biểu diễn và so sánh số hữu tỉ",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 1,
+                  "code": "MATH7-CH1-L1",
+                  "title": "Nhắc lại khái niệm số hữu tỉ",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 1,
+                  "title": "Nhận diện số hữu tỉ",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 20,
+                  "order": 1,
+                  "questions": [
+                    {
+                      "id": 14,
+                      "question": "Số nào sau đây là số hữu tỉ?",
+                      "answer": "B",
+                      "options": {
+                        "A": "\\\\sqrt{2}",
+                        "B": "\\\\frac{1}{3}",
+                        "C": "\\\\pi",
+                        "D": "\\\\sqrt{3}"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 202,
+                  "title": "Bài tập số hữu tỉ cơ bản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 20,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 122,
+                  "title": "Biểu diễn số hữu tỉ trên trục số",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": [
+                    {
+                      "id": 15,
+                      "question": "Trên trục số, điểm biểu diễn số $-\\\\frac{1}{2}$ nằm:",
+                      "answer": "B",
+                      "options": {
+                        "A": "Giữa 0 và 1",
+                        "B": "Bên trái 0, cách 0 một khoảng bằng 1/2 đơn vị",
+                        "C": "Tại 0",
+                        "D": "Bên phải 1"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 123,
+                  "title": "So sánh hai số hữu tỉ đơn giản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 124,
+                  "title": "Tự luận: Rút gọn các phân số sau: a) $\\frac{18}{24}$   b) $-\\frac{21}{49}$   c) $\\frac{45}{-60}$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": [
+                    {
+                      "id": 36,
+                      "question": "Rút gọn các phân số sau: a) $\\\\frac{18}{24}$   b) $-\\\\frac{21}{49}$   c) $\\\\frac{45}{-60}$",
+                      "answer": "a) $\\\\frac{3}{4}$   b) $-\\\\frac{3}{7}$   c) $-\\\\frac{3}{4}$",
+                      "options": null,
+                      "points": 2,
+                      "order": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Phép toán với số hữu tỉ",
+              "description": "Cộng, trừ, nhân, chia số hữu tỉ",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 2,
+                  "code": "MATH7-CH1-L1",
+                  "title": "Phép toán với số hữu tỉ",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 13,
+                  "title": "Cộng hai số hữu tỉ cùng mẫu",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": [
+                    {
+                      "id": 1,
+                      "question": "Số nào sau đây là số hữu tỉ?",
+                      "answer": "B",
+                      "options": {
+                        "A": "\\\\sqrt{2}",
+                        "B": "\\\\frac{1}{3}",
+                        "C": "\\\\pi",
+                        "D": "\\\\sqrt{3}"
+                      },
+                      "points": 1,
+                      "order": 0
+                    },
+                    {
+                      "id": 16,
+                      "question": "Giá trị của $\\\\frac{3}{7} + \\\\frac{2}{7}$ là:",
+                      "answer": "B",
+                      "options": {
+                        "A": "3/14",
+                        "B": "5/7",
+                        "C": "5/14",
+                        "D": "1/7"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 14,
+                  "title": "Trừ hai số hữu tỉ khác mẫu",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": [
+                    {
+                      "id": 2,
+                      "question": "Trên trục số, điểm biểu diễn số $-\\\\frac{1}{2}$ nằm:",
+                      "answer": "B",
+                      "options": {
+                        "A": "Giữa 0 và 1",
+                        "B": "Bên trái 0, cách 0 một khoảng bằng 1/2 đơn vị",
+                        "C": "Tại 0",
+                        "D": "Bên phải 1"
+                      },
+                      "points": 1,
+                      "order": 0
+                    },
+                    {
+                      "id": 17,
+                      "question": "Giá trị của $\\\\frac{5}{6} - \\\\frac{1}{3}$ là:",
+                      "answer": "B",
+                      "options": {
+                        "A": "$\\\\frac{4}{3}$",
+                        "B": "$\\\\frac{1}{2}$",
+                        "C": "$\\\\frac{1}{3}$",
+                        "D": "$\\\\frac{1}{6}$"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 15,
+                  "title": "Nhân số hữu tỉ với một số nguyên",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": [
+                    {
+                      "id": 18,
+                      "question": "Giá trị của $3 \\\\times \\\\frac{2}{5}$ là:",
+                      "answer": "C",
+                      "options": {
+                        "A": "$\\\\frac{6}{15}$",
+                        "B": "$\\\\frac{5}{6}$",
+                        "C": "$\\\\frac{6}{5}$",
+                        "D": "$\\\\frac{2}{15}$"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 16,
+                  "title": "Tự luận: Thực hiện các phép tính sau và rút gọn kết quả: a) $\\frac{3}{4} + \\frac{2}{3}$   b) $\\frac{5}{6} - \\frac{1}{4}$   c) $-\\frac{2}{5} + \\frac{7}{10}$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": [
+                    {
+                      "id": 19,
+                      "question": "Thực hiện các phép tính sau và rút gọn kết quả: a) $\\\\frac{3}{4} + \\\\frac{2}{3}$   b) $\\\\frac{5}{6} - \\\\frac{1}{4}$   c) $-\\\\frac{2}{5} + \\\\frac{7}{10}$",
+                      "answer": "a) $\\\\frac{17}{12}$   b) $\\\\frac{7}{12}$   c) $\\\\frac{3}{10}$",
+                      "options": null,
+                      "points": 2,
+                      "order": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Chương 2: Số thực",
+          "description": "Mở rộng từ số hữu tỉ sang số thực, căn bậc hai và các tính chất liên quan",
+          "order": 2,
+          "sections": [
+            {
+              "id": 3,
+              "name": "Khái niệm căn bậc hai",
+              "description": "Định nghĩa căn bậc hai và căn bậc hai số học",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 3,
+                  "code": "MATH7-CH2-L1",
+                  "title": "Căn bậc hai và số vô tỉ",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 125,
+                  "title": "Nhận diện căn bậc hai của số chính phương",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": [
+                    {
+                      "id": 20,
+                      "question": "Giá trị của $\\\\sqrt{81}$ là:",
+                      "answer": "C",
+                      "options": {
+                        "A": "7",
+                        "B": "8",
+                        "C": "9",
+                        "D": "10"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 126,
+                  "title": "Điền kết quả căn bậc hai đơn giản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": [
+                    {
+                      "id": 21,
+                      "question": "Giá trị của $\\\\sqrt{49}$ là:",
+                      "answer": "B",
+                      "options": {
+                        "A": "6",
+                        "B": "7",
+                        "C": "8",
+                        "D": "9"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 127,
+                  "title": "Phân biệt số hữu tỉ và số vô tỉ (dạng nhận biết)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": [
+                    {
+                      "id": 22,
+                      "question": "Số nào sau đây là số vô tỉ?",
+                      "answer": "C",
+                      "options": {
+                        "A": "$\\\\frac{1}{2}$",
+                        "B": "$\\\\sqrt{4}$",
+                        "C": "$\\\\sqrt{2}$",
+                        "D": "$0{,}5$"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 128,
+                  "title": "Tự luận: Tính và rút gọn (nếu có thể): a) $\\sqrt{25}$   b) $\\sqrt{36}$   c) $\\sqrt{\\frac{1}{49}}$   d) $\\sqrt{\\frac{4}{9}}$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": [
+                    {
+                      "id": 23,
+                      "question": "Tính và rút gọn (nếu có thể): a) $\\\\sqrt{25}$   b) $\\\\sqrt{36}$   c) $\\\\sqrt{\\\\frac{1}{49}}$   d) $\\\\sqrt{\\\\frac{4}{9}}$",
+                      "answer": "a) $5$   b) $6$   c) $\\\\frac{1}{7}$   d) $\\\\frac{2}{3}$",
+                      "options": null,
+                      "points": 2,
+                      "order": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Biểu diễn số thực trên trục số",
+              "description": "Biểu diễn số hữu tỉ và số vô tỉ trên trục số",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 4,
+                  "code": "MATH7-CH2-L1",
+                  "title": "Số thực trên trục số",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 4,
+                  "title": "Đặt số thực vào đúng vị trí trên trục số (mốc đơn giản)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 20,
+                  "order": 1,
+                  "questions": [
+                    {
+                      "id": 3,
+                      "question": "Giá trị của $\\\\sqrt{81}$ là:",
+                      "answer": "C",
+                      "options": {
+                        "A": "7",
+                        "B": "8",
+                        "C": "9",
+                        "D": "10"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 117,
+                  "title": "Bài tập biểu diễn số thực",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 20,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 17,
+                  "title": "So sánh hai số thực bằng trực quan trên trục số",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": [
+                    {
+                      "id": 4,
+                      "question": "Giá trị của $\\\\sqrt{49}$ là:",
+                      "answer": "B",
+                      "options": {
+                        "A": "6",
+                        "B": "7",
+                        "C": "8",
+                        "D": "9"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 18,
+                  "title": "Chọn phát biểu đúng về vị trí số thực",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": [
+                    {
+                      "id": 5,
+                      "question": "Số nào sau đây là số vô tỉ?",
+                      "answer": "C",
+                      "options": {
+                        "A": "$\\\\frac{1}{2}$",
+                        "B": "$\\\\sqrt{4}$",
+                        "C": "$\\\\sqrt{2}$",
+                        "D": "$0{,}5$"
+                      },
+                      "points": 1,
+                      "order": 0
+                    }
+                  ]
+                },
+                {
+                  "id": 19,
+                  "title": "Tự luận: Trên cùng một trục số, biểu diễn các số sau: $-1, 0, \\frac{1}{2}, \\frac{3}{2}$ và ghi lại thứ tự tăng dần của chúng",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": [
+                    {
+                      "id": 6,
+                      "question": "Tính và rút gọn (nếu có thể): a) $\\\\sqrt{25}$   b) $\\\\sqrt{36}$   c) $\\\\sqrt{\\\\frac{1}{49}}$   d) $\\\\sqrt{\\\\frac{4}{9}}$",
+                      "answer": "a) $5$   b) $6$   c) $\\\\frac{1}{7}$   d) $\\\\frac{2}{3}$",
+                      "options": null,
+                      "points": 2,
+                      "order": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Chương 3: Góc và đường thẳng song song",
+          "description": "Các loại góc và tính chất của góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+          "order": 3,
+          "sections": [
+            {
+              "id": 5,
+              "name": "Các loại góc cơ bản",
+              "description": "Góc nhọn, góc tù, góc vuông, góc bẹt, góc kề bù, góc đối đỉnh",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 5,
+                  "code": "MATH7-CH3-L1",
+                  "title": "Phân loại các loại góc",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 5,
+                  "title": "Nhận biết góc nhọn, góc tù, góc vuông, góc bẹt qua hình vẽ",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 204,
+                  "title": "Bài tập phân loại góc",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 129,
+                  "title": "Chọn tên đúng cho một góc cho trước",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 130,
+                  "title": "Nhận biết góc kề bù và góc đối đỉnh (mức cơ bản)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 131,
+                  "title": "Tự luận: Cho hình vẽ có hai đường thẳng cắt nhau tạo thành bốn góc. Gọi số đo một góc là 50°. Tính số đo ba góc còn lại",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "name": "Góc tạo bởi đường thẳng cắt hai đường thẳng song song",
+              "description": "Góc so le trong, đồng vị, trong cùng phía",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 6,
+                  "code": "MATH7-CH3-L1",
+                  "title": "Góc so le trong, đồng vị, trong cùng phía",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 20,
+                  "title": "Nhận diện các cặp góc so le trong trên hình vẽ có hai đường song song",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 21,
+                  "title": "Nhận diện các cặp góc đồng vị",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 22,
+                  "title": "Chọn phát biểu đúng về quan hệ số đo giữa các cặp góc",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 23,
+                  "title": "Tự luận: Cho hai đường thẳng song song a, b và đường thẳng c cắt chúng. Biết một góc so le trong có số đo 60°. Tính số đo các góc so le trong và đồng vị còn lại",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Chương 4: Tam giác bằng nhau",
+          "description": "Các trường hợp bằng nhau của tam giác và ứng dụng",
+          "order": 4,
+          "sections": [
+            {
+              "id": 7,
+              "name": "Các trường hợp bằng nhau của tam giác",
+              "description": "Các trường hợp cạnh - cạnh - cạnh, cạnh - góc - cạnh, góc - cạnh - góc",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 7,
+                  "code": "MATH7-CH4-L1",
+                  "title": "Các trường hợp bằng nhau của tam giác",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 132,
+                  "title": "Nhận diện tam giác bằng nhau qua hình vẽ (trường hợp đơn giản)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 133,
+                  "title": "Chọn đúng trường hợp bằng nhau (c.c.c, c.g.c, g.c.g) cho một cặp tam giác",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 134,
+                  "title": "Kết luận hai tam giác bằng nhau từ dữ kiện đã cho",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 135,
+                  "title": "Tự luận: Cho tam giác $ABC$ có $AB = AC = 5\\text{ cm}$, $BC = 6\\text{ cm}$. Chứng minh tam giác $ABC$ là tam giác cân tại $A$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "name": "Ứng dụng tam giác bằng nhau",
+              "description": "Vận dụng tính bằng nhau để giải toán hình học",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 8,
+                  "code": "MATH7-CH4-L1",
+                  "title": "Giải bài toán dùng tam giác bằng nhau",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 24,
+                  "title": "Tìm cạnh bằng nhau dựa vào tam giác bằng nhau (bài đơn giản)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 25,
+                  "title": "Tìm góc bằng nhau trong hai tam giác bằng nhau",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 26,
+                  "title": "Chọn kết luận đúng sau khi chứng minh được hai tam giác bằng nhau",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 27,
+                  "title": "Tự luận: Cho tam giác $ABC$ và tam giác $A'B'C'$ có $AB = A'B'$, $AC = A'C'$, $\\angle A = \\angle A'$. Chứng minh $\\triangle ABC = \\triangle A'B'C'$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Chương 5: Thu thập và biểu diễn dữ liệu",
+          "description": "Cách thu thập, tổ chức và biểu diễn dữ liệu thống kê đơn giản",
+          "order": 5,
+          "sections": [
+            {
+              "id": 9,
+              "name": "Thu thập và tổ chức dữ liệu",
+              "description": "Thu thập dữ liệu từ thực tế, lập bảng tần số",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 9,
+                  "code": "MATH7-CH5-L1",
+                  "title": "Thu thập dữ liệu",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 9,
+                  "title": "Chọn cách thu thập dữ liệu phù hợp cho một tình huống đơn giản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 206,
+                  "title": "Bài tập thu thập dữ liệu",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 136,
+                  "title": "Hoàn thiện bảng số liệu từ mô tả bằng lời",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 137,
+                  "title": "Nhận diện lỗi đơn giản trong việc thu thập dữ liệu",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 138,
+                  "title": "Tự luận: Lập bảng thống kê số quyển sách Toán mỗi bạn trong 5 bạn A, B, C, D, E có (dữ liệu do em tự đặt) và tính tổng số sách",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Biểu diễn dữ liệu",
+              "description": "Biểu diễn dữ liệu bằng biểu đồ cột, biểu đồ đoạn thẳng",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 10,
+                  "code": "MATH7-CH5-L1",
+                  "title": "Biểu đồ cột và biểu đồ đoạn thẳng",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 28,
+                  "title": "Đọc giá trị từ biểu đồ cột đơn giản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 29,
+                  "title": "So sánh hai cột trong biểu đồ cột",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 30,
+                  "title": "Nhận xét cơ bản từ một biểu đồ đoạn thẳng",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 31,
+                  "title": "Tự luận: Cho bảng số liệu số học sinh giỏi Toán của một lớp trong 4 năm liên tiếp (dữ liệu do em tự chọn). Hãy vẽ biểu đồ cột và nêu nhận xét",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Chương 6: Ôn tập tổng hợp",
+          "description": "Ôn tập và hệ thống hóa kiến thức Toán 7",
+          "order": 6,
+          "sections": [
+            {
+              "id": 11,
+              "name": "Ôn tập đại số",
+              "description": "Ôn lại các kiến thức về số hữu tỉ, số thực",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 11,
+                  "code": "MATH7-CH6-L1",
+                  "title": "Ôn tập chương Số hữu tỉ và Số thực",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 139,
+                  "title": "Bài tập trộn: nhận diện và so sánh số hữu tỉ, số thực (mức dễ)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 140,
+                  "title": "Tính giá trị biểu thức đơn giản với số hữu tỉ và căn bậc hai cơ bản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 141,
+                  "title": "Chọn phát biểu đúng về quan hệ giữa số hữu tỉ và số thực",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 142,
+                  "title": "Tự luận: Tính giá trị các biểu thức sau: a) $\\frac{1}{2} + \\sqrt{4}$   b) $\\frac{3}{5} - \\sqrt{\\frac{9}{25}}$   c) $\\sqrt{9} - \\frac{7}{3}$",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "name": "Ôn tập hình học và thống kê",
+              "description": "Ôn tập tam giác, đường thẳng song song và biểu diễn dữ liệu",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 12,
+                  "code": "MATH7-CH6-L1",
+                  "title": "Ôn tập hình học và dữ liệu",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 32,
+                  "title": "Nhận diện loại góc và quan hệ góc trong hình vẽ đơn giản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 33,
+                  "title": "Chọn kết luận đúng về tam giác bằng nhau trong bài toán cơ bản",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 34,
+                  "title": "Đọc và nhận xét đơn giản từ một biểu đồ cột / đoạn thẳng",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 35,
+                  "title": "Tự luận: Cho biểu đồ cột thể hiện số bài tập Toán, Văn, Anh một học sinh làm trong tuần (dữ liệu do em tự đặt). Hãy cho biết môn nào được làm nhiều nhất và ít nhất",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tiếng Anh",
+      "description": "Chương trình Tiếng Anh lớp 7 năm 2025",
+      "chapters": [
+        {
+          "id": 7,
+          "name": "My House and My School",
+          "description": "Vocabulary and grammar around house, school and daily routines",
+          "order": 1,
+          "sections": [
+            {
+              "id": 13,
+              "name": "Vocabulary: Rooms and Furniture",
+              "description": "Basic words for rooms, furniture and school places",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 13,
+                  "code": "ENG7-CH1-L1",
+                  "title": "Rooms in the house",
+                  "type": "text",
+                  "order": 1
+                },
+                {
+                  "id": 14,
+                  "code": "ENG7-CH1-L2",
+                  "title": "Places at school",
+                  "type": "text",
+                  "order": 2
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 188,
+                  "title": "Choose the correct word: This is the ______ (kitchen / pencil).",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 209,
+                  "title": "Vocabulary check: House and School",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 79,
+                  "title": "Choose the correct place: We read books in the ______ (library / bathroom).",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 87,
+                  "title": "Choose the correct answer: We have lunch in the ______ (canteen / garden).",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 88,
+                  "title": "Choose the correct sentence: (A) There is a playground at my school. (B) There are a playground at my school.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 89,
+                  "title": "Writing: Write 3 sentences about your school using \"There is / There are\" (for example: There is a library. There are 20 classrooms. ...).",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "name": "Grammar: Present Simple",
+              "description": "Present Simple for daily routines and habits",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 15,
+                  "code": "ENG7-CH1-L1",
+                  "title": "Present Simple: form and use",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 83,
+                  "title": "Choose the correct form: She ______ (get / gets) up at 6 a.m.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 84,
+                  "title": "Choose the correct adverb: He ______ (always / never) does his homework.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 85,
+                  "title": "Choose the correct sentence: (A) I go to school every day. (B) I goes to school every day.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 86,
+                  "title": "Writing: Write 4 sentences about your daily routine using Present Simple (for example: I get up at 6 a.m. I have breakfast at 6:30. ...).",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Health and Hobbies",
+          "description": "Talking about health problems and free-time activities",
+          "order": 2,
+          "sections": [
+            {
+              "id": 15,
+              "name": "Vocabulary: Health problems",
+              "description": "Common health problems and advice",
+              "order": 1,
+              "lessons": [
+                {
+                  "id": 16,
+                  "code": "ENG7-CH2-L1",
+                  "title": "Health problems and advice",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 81,
+                  "title": "Choose the correct word: I have a ______ (headache / homework).",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 208,
+                  "title": "Health problems – multiple choice",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 10,
+                  "timeLimit": 15,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 191,
+                  "title": "Choose the best advice: I have a fever. I ______ (should / shouldn't) go to school.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 192,
+                  "title": "Choose the correct answer: I have a toothache. I should go to the ______ (dentist / teacher).",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 193,
+                  "title": "Writing: Write 3 sentences giving advice using \"should / shouldn't\" (for example: You should drink water. You shouldn't eat too much fast food. ...).",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "name": "Speaking: Hobbies and free time",
+              "description": "Talking about hobbies and free-time activities",
+              "order": 2,
+              "lessons": [
+                {
+                  "id": 17,
+                  "code": "ENG7-CH2-L1",
+                  "title": "Talking about hobbies",
+                  "type": "text",
+                  "order": 1
+                }
+              ],
+              "exercises": [
+                {
+                  "id": 90,
+                  "title": "Choose the correct word: My favourite ______ is reading. (hobby / healthy)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 1,
+                  "questions": []
+                },
+                {
+                  "id": 91,
+                  "title": "Choose the best answer: I ______ playing football. (like / am interested)",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 2,
+                  "questions": []
+                },
+                {
+                  "id": 92,
+                  "title": "Choose the correct phrase: (A) I am interested in music. (B) I am interest in music.",
+                  "description": "",
+                  "type": "multiple_choice",
+                  "difficulty": "easy",
+                  "points": 1,
+                  "timeLimit": null,
+                  "order": 3,
+                  "questions": []
+                },
+                {
+                  "id": 93,
+                  "title": "Writing: Write 4 sentences about your hobby (what it is, when you do it, why you like it).",
+                  "description": "",
+                  "type": "essay",
+                  "difficulty": "easy",
+                  "points": 2,
+                  "timeLimit": null,
+                  "order": 4,
+                  "questions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

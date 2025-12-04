@@ -68,6 +68,7 @@
 erDiagram
     %% Core Education Structure
     GRADES ||--o{ SUBJECTS : "has"
+    GRADES ||--o{ CURRICULA : "has"
     SUBJECTS ||--o{ CHAPTERS : "contains"
     CHAPTERS ||--o{ SECTIONS : "contains"
     SECTIONS ||--o{ LESSONS : "has"
@@ -78,28 +79,20 @@ erDiagram
     
     %% User Management
     USERS ||--o{ USER_LEVELS : "has"
-    USERS ||--o{ ASSIGNMENTS : "assigned_to"
-    USERS ||--o{ SUBMISSIONS : "submits"
+    USERS ||--o{ USER_LESSON_PROGRESS : "tracks"
+    USERS ||--o{ USER_EXERCISE_ATTEMPTS : "attempts"
     USERS ||--o{ NOTIFICATIONS : "receives"
-    USERS ||--o{ CLASS_STUDENTS : "enrolled_in"
-    USERS ||--o{ CLASS_TEACHERS : "teaches"
     USERS ||--o{ CONVERSATIONS : "has"
+    GRADES ||--o{ USERS : "enrolled_in"
     
-    %% Class Management
-    CLASSES ||--o{ CLASS_STUDENTS : "has"
-    CLASSES ||--o{ CLASS_TEACHERS : "has"
-    CLASSES ||--o{ ASSIGNMENTS : "assigned_to"
-    
-    %% Assignment & Submission
-    ASSIGNMENTS ||--o{ SUBMISSIONS : "has"
-    EXERCISES ||--o{ ASSIGNMENTS : "used_in"
+    %% Progress Tracking
+    LESSONS ||--o{ USER_LESSON_PROGRESS : "tracked_by"
+    EXERCISES ||--o{ USER_EXERCISE_ATTEMPTS : "attempted_by"
     
     %% Level Tracking
     SUBJECTS ||--o{ USER_LEVELS : "tracked_for"
     
     %% Conversation & Chat System
-    USERS ||--o{ CONVERSATIONS : "has"
-    SUBMISSIONS ||--o| CONVERSATIONS : "linked_to (optional)"
     CONVERSATION_CONFIGS ||--o{ CONVERSATIONS : "uses"
     CONVERSATIONS ||--o{ MESSAGES : "contains"
     
@@ -108,6 +101,16 @@ erDiagram
         int id PK
         string name
         int level "1-12"
+        datetime created_at
+        datetime updated_at
+    }
+    
+    CURRICULA {
+        int id PK
+        int grade_id FK
+        string course_year "Khóa học, ví dụ: 2025-2026"
+        string subject "Môn học, ví dụ: Toán, Tiếng Anh"
+        json lessons "Array of lessons (không chứa exercises)"
         datetime created_at
         datetime updated_at
     }
@@ -164,6 +167,7 @@ erDiagram
         string type "multiple_choice/essay"
         int points
         int time_limit "minutes"
+        int order
         datetime created_at
         datetime updated_at
     }
@@ -174,6 +178,7 @@ erDiagram
         text question
         text answer
         json options "For multiple choice"
+        text hint "Hint for the question"
         int order
         int points
         datetime created_at
@@ -186,12 +191,13 @@ erDiagram
         string password_hash
         string email "Nullable - optional"
         string name
-        string role "admin/teacher/student/parent"
+        string display_name "Optional display name"
+        string role "admin/student"
         string phone "Nullable - optional"
-        string parent_email "For students - nullable"
-        string parent_phone "For students - nullable"
         string avatar_url
         boolean is_active
+        int grade_id FK "Reference to Grade"
+        int level "User level 1-12"
         datetime created_at
         datetime updated_at
     }
@@ -208,60 +214,28 @@ erDiagram
         datetime created_at
     }
     
-    CLASSES {
+    USER_LESSON_PROGRESS {
         int id PK
-        string name
-        int grade_id FK
-        int subject_id FK
-        string academic_year
-        string description
-        datetime created_at
-        datetime updated_at
-    }
-    
-    CLASS_STUDENTS {
-        int id PK
-        int class_id FK
-        int student_id FK
-        datetime enrolled_at
-        datetime created_at
-    }
-    
-    CLASS_TEACHERS {
-        int id PK
-        int class_id FK
-        int teacher_id FK
-        boolean is_main_teacher
-        datetime assigned_at
-        datetime created_at
-    }
-    
-    ASSIGNMENTS {
-        int id PK
-        string title
-        text description
-        int exercise_id FK
-        int class_id FK "Nullable if assigned to individual"
-        int user_id FK "Nullable if assigned to class"
-        int assigned_by FK "Teacher ID"
-        datetime deadline
-        int min_score
-        boolean is_active
-        datetime created_at
-        datetime updated_at
-    }
-    
-    SUBMISSIONS {
-        int id PK
-        int assignment_id FK
         int user_id FK
-        json answers "For multiple choice"
-        json images "For essay - array of image URLs"
-        text ai_feedback "OpenAI feedback"
-        decimal score
-        string status "pending/graded/completed"
-        datetime submitted_at
-        datetime graded_at
+        int lesson_id FK
+        string status "not_started/in_progress/completed"
+        int progress "Percentage 0-100"
+        datetime last_accessed_at
+        datetime completed_at
+        datetime created_at
+        datetime updated_at
+    }
+    
+    USER_EXERCISE_ATTEMPTS {
+        int id PK
+        int user_id FK
+        int exercise_id FK
+        json answers "For multiple choice and essay"
+        json images "Array of image URLs for essay"
+        decimal score "Score out of total points"
+        int total_points
+        boolean is_completed
+        datetime completed_at
         datetime created_at
         datetime updated_at
     }
@@ -269,7 +243,7 @@ erDiagram
     NOTIFICATIONS {
         int id PK
         int user_id FK
-        string type "deadline_reminder/deadline_passed/grade_released/progress_report"
+        string type "progress_update/achievement/reminder"
         string title
         text message
         string channel "email/sms/push"
@@ -293,7 +267,6 @@ erDiagram
     CONVERSATIONS {
         int id PK
         int user_id FK
-        int submission_id FK "Nullable - for essay review"
         int config_id FK "Conversation config"
         string type "essay_review/free_chat"
         string title "Conversation title"
@@ -321,31 +294,40 @@ erDiagram
                 <strong>Core Structure:</strong> GRADES → SUBJECTS → CHAPTERS → SECTIONS → LESSONS/EXERCISES
             </div>
             <div class="legend-item">
-                <strong>User Levels:</strong> Tracked per subject, calculated based on exercise history
+                <strong>Curriculum:</strong> CURRICULA stores the learning program (chương trình học) shared across all difficulty levels. Each curriculum is unique per grade, course year, and subject. Contains lessons structure without exercises.
             </div>
             <div class="legend-item">
-                <strong>Assignments:</strong> Can be assigned to individual users or entire classes
+                <strong>User Flow:</strong> User đăng ký → chọn Grade (lớp) → chọn Subject → xem Curriculum/Lessons → làm Exercises (theo difficulty level)
             </div>
             <div class="legend-item">
-                <strong>Submissions:</strong> Supports both multiple choice (JSON answers) and essay (image uploads)
+                <strong>Progress Tracking:</strong> USER_LESSON_PROGRESS tracks status (not_started/in_progress/completed) and progress percentage for each lesson
             </div>
             <div class="legend-item">
-                <strong>Notifications:</strong> Supports email, SMS, and push notifications with scheduling
+                <strong>Exercise Attempts:</strong> USER_EXERCISE_ATTEMPTS stores all attempts with answers, scores, and completion status
             </div>
             <div class="legend-item">
-                <strong>AI Integration:</strong> SUBMISSIONS.ai_feedback stores OpenAI API response for essay grading
+                <strong>User Levels:</strong> Tracked per subject, calculated based on exercise history and accuracy rate
+            </div>
+            <div class="legend-item">
+                <strong>Exercise Questions:</strong> Supports both multiple choice (JSON options) and essay questions, includes hint field for guidance
+            </div>
+            <div class="legend-item">
+                <strong>Notifications:</strong> Supports email, SMS, and push notifications with scheduling for progress updates and achievements
             </div>
             <div class="legend-item">
                 <strong>Authentication:</strong> Users login with username (email is optional, used for notifications only)
             </div>
             <div class="legend-item">
-                <strong>Conversations:</strong> Each essay submission creates a conversation for review/explanation. Users can also have free chat conversations
+                <strong>Conversations:</strong> Users can have free chat conversations or essay review conversations with AI assistant
             </div>
             <div class="legend-item">
                 <strong>Messages:</strong> All messages in conversations are stored for history and context
             </div>
             <div class="legend-item">
                 <strong>Conversation Configs:</strong> Configurable response formats and system prompts for different conversation types
+            </div>
+            <div class="legend-item">
+                <strong>Removed Models:</strong> Class, ClassStudent, ClassTeacher, Assignment, Submission (no longer needed for self-paced learning)
             </div>
         </div>
     </div>
@@ -367,4 +349,3 @@ erDiagram
     </script>
 </body>
 </html>
-

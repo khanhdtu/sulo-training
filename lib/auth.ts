@@ -61,9 +61,12 @@ export async function getUserFromToken(token: string) {
       username: true,
       email: true,
       name: true,
+      displayName: true,
       role: true,
       avatarUrl: true,
       isActive: true,
+      gradeId: true,
+      level: true,
     },
   });
 

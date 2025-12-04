@@ -1,0 +1,1233 @@
+{
+  "grade": 7,
+  "subject": "Toán",
+  "subjectCode": "MATH7",
+  "difficulty": "medium",
+  "description": "Medium exercises for Grade 7 Math (Lớp 7 Toán) - standard practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Số hữu tỉ",
+      "lessons": [
+        {
+          "code": "MATH7-CH1-L1",
+          "title": "Nhắc lại khái niệm số hữu tỉ",
+          "exercises": [
+            {
+              "title": "So sánh số hữu tỉ có tử và mẫu âm/dương khác nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "So sánh $-\\frac{3}{4}$ và $-\\frac{2}{3}$:",
+              "hint": "Với hai số âm, số nào có giá trị tuyệt đối lớn hơn thì nhỏ hơn. Quy đồng mẫu số để so sánh.",
+              "options": {
+                "A": "$-\\frac{3}{4} > -\\frac{2}{3}$",
+                "B": "$-\\frac{3}{4} < -\\frac{2}{3}$",
+                "C": "$-\\frac{3}{4} = -\\frac{2}{3}$",
+                "D": "Không thể so sánh"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Sắp xếp dãy số hữu tỉ theo thứ tự tăng dần",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sắp xếp các số sau theo thứ tự tăng dần: $\\frac{2}{3}$, $-\\frac{1}{2}$, $0$, $-\\frac{3}{4}$",
+              "hint": "Số âm nhỏ hơn 0, số dương lớn hơn 0. So sánh các số âm và các số dương riêng biệt.",
+              "options": {
+                "A": "$-\\frac{3}{4} < -\\frac{1}{2} < 0 < \\frac{2}{3}$",
+                "B": "$-\\frac{1}{2} < -\\frac{3}{4} < 0 < \\frac{2}{3}$",
+                "C": "$0 < -\\frac{3}{4} < -\\frac{1}{2} < \\frac{2}{3}$",
+                "D": "$\\frac{2}{3} < 0 < -\\frac{1}{2} < -\\frac{3}{4}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Tìm số hữu tỉ nằm giữa hai số hữu tỉ cho trước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Số hữu tỉ nằm giữa $\\frac{1}{3}$ và $\\frac{1}{2}$ là:",
+              "hint": "Tính trung bình cộng của hai số: $\\frac{\\frac{1}{3} + \\frac{1}{2}}{2} = \\frac{5}{12}$.",
+              "options": {
+                "A": "$\\frac{5}{12}$",
+                "B": "$\\frac{1}{4}$",
+                "C": "$\\frac{2}{5}$",
+                "D": "$\\frac{3}{7}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Xác định số hữu tỉ lớn nhất/nhỏ nhất trong một tập hợp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong các số sau, số nào nhỏ nhất: $-\\frac{2}{3}$, $-\\frac{1}{2}$, $-\\frac{3}{4}$, $-\\frac{1}{3}$",
+              "hint": "Với các số âm, số nào có giá trị tuyệt đối lớn nhất thì nhỏ nhất.",
+              "options": {
+                "A": "$-\\frac{3}{4}$",
+                "B": "$-\\frac{2}{3}$",
+                "C": "$-\\frac{1}{2}$",
+                "D": "$-\\frac{1}{3}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Chuyển đổi và so sánh số hữu tỉ ở các dạng khác nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "So sánh $0.6$ và $\\frac{3}{5}$:",
+              "hint": "Chuyển $0.6$ về phân số: $0.6 = \\frac{6}{10} = \\frac{3}{5}$.",
+              "options": {
+                "A": "$0.6 > \\frac{3}{5}$",
+                "B": "$0.6 < \\frac{3}{5}$",
+                "C": "$0.6 = \\frac{3}{5}$",
+                "D": "Không thể so sánh"
+              },
+              "correctOption": "C",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận: Rút gọn các phân số sau: a) $\\frac{15}{25}$   b) $-\\frac{18}{27}$   c) $\\frac{42}{-56}$   d) $\\frac{96}{120}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Rút gọn các phân số sau: a) $\\frac{15}{25}$   b) $-\\frac{18}{27}$   c) $\\frac{42}{-56}$   d) $\\frac{96}{120}$",
+              "hint": "Tìm ước chung lớn nhất của tử và mẫu, sau đó chia cả tử và mẫu cho số đó.",
+              "answer": "a) $\\frac{15}{25} = \\frac{3}{5}$   b) $-\\frac{18}{27} = -\\frac{2}{3}$   c) $\\frac{42}{-56} = -\\frac{3}{4}$   d) $\\frac{96}{120} = \\frac{4}{5}$",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Tự luận: Sắp xếp các số hữu tỉ sau theo thứ tự giảm dần: $-\\frac{3}{4}$, $\\frac{5}{6}$, $-\\frac{2}{3}$, $\\frac{1}{2}$, $0$ và giải thích cách làm",
+              "type": "essay",
+              "points": 3,
+              "question": "Sắp xếp các số hữu tỉ sau theo thứ tự giảm dần: $-\\frac{3}{4}$, $\\frac{5}{6}$, $-\\frac{2}{3}$, $\\frac{1}{2}$, $0$ và giải thích cách làm",
+              "hint": "Quy đồng mẫu số để so sánh. Số dương lớn hơn 0, số âm nhỏ hơn 0. Sắp xếp từ lớn đến nhỏ.",
+              "answer": "Quy đồng mẫu số 12: $-\\frac{9}{12}$, $\\frac{10}{12}$, $-\\frac{8}{12}$, $\\frac{6}{12}$, $0$. Thứ tự giảm dần: $\\frac{5}{6} > \\frac{1}{2} > 0 > -\\frac{2}{3} > -\\frac{3}{4}$.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH1-L2",
+          "title": "Phép toán với số hữu tỉ",
+          "exercises": [
+            {
+              "title": "Tính giá trị biểu thức có cộng, trừ nhiều số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\frac{1}{2} + \\frac{1}{3} - \\frac{1}{4} + \\frac{1}{6}$",
+              "hint": "Quy đồng mẫu số chung (12), sau đó cộng trừ các tử số.",
+              "options": {
+                "A": "$\\frac{3}{4}$",
+                "B": "$\\frac{5}{6}$",
+                "C": "$\\frac{7}{12}$",
+                "D": "$\\frac{11}{12}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Tính giá trị biểu thức có nhân, chia số hữu tỉ (có rút gọn)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\frac{3}{4} \\times \\frac{8}{9} \\div \\frac{2}{3}$",
+              "hint": "Thực hiện phép nhân trước, sau đó chia. Nhớ rằng chia một phân số là nhân với nghịch đảo của nó.",
+              "options": {
+                "A": "$1$",
+                "B": "$\\frac{2}{3}$",
+                "C": "$\\frac{3}{4}$",
+                "D": "$\\frac{4}{3}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Giải bài toán thực tế đơn giản sử dụng số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một người đi bộ $\\frac{3}{4}$ km, sau đó đi xe đạp $\\frac{5}{6}$ km. Tổng quãng đường người đó đi được là:",
+              "hint": "Cộng hai phân số: $\\frac{3}{4} + \\frac{5}{6}$. Quy đồng mẫu số chung là 12.",
+              "options": {
+                "A": "$\\frac{19}{12}$ km",
+                "B": "$\\frac{8}{10}$ km",
+                "C": "$\\frac{4}{5}$ km",
+                "D": "$\\frac{15}{12}$ km"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Tìm giá trị của biến trong biểu thức số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tìm $x$ biết: $\\frac{x}{3} = \\frac{2}{5}$",
+              "hint": "Nhân cả hai vế với 3: $x = \\frac{2}{5} \\times 3 = \\frac{6}{5}$.",
+              "options": {
+                "A": "$x = \\frac{6}{5}$",
+                "B": "$x = \\frac{2}{15}$",
+                "C": "$x = \\frac{5}{6}$",
+                "D": "$x = \\frac{3}{5}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất phân phối với số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\frac{1}{2} \\times (\\frac{3}{4} + \\frac{1}{4})$",
+              "hint": "Áp dụng tính chất phân phối: $\\frac{1}{2} \\times \\frac{3}{4} + \\frac{1}{2} \\times \\frac{1}{4}$ hoặc tính trong ngoặc trước.",
+              "options": {
+                "A": "$\\frac{1}{2}$",
+                "B": "$\\frac{1}{4}$",
+                "C": "$\\frac{3}{4}$",
+                "D": "$1$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Tự luận: Thực hiện các phép tính sau và rút gọn kết quả: a) $\\frac{5}{6} + \\frac{7}{12}$   b) $\\frac{11}{15} - \\frac{4}{9}$   c) $(\\frac{3}{4} \\cdot \\frac{8}{9}) : \\frac{2}{3}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Thực hiện các phép tính sau và rút gọn kết quả: a) $\\frac{5}{6} + \\frac{7}{12}$   b) $\\frac{11}{15} - \\frac{4}{9}$   c) $(\\frac{3}{4} \\cdot \\frac{8}{9}) : \\frac{2}{3}$",
+              "hint": "Quy đồng mẫu số cho phép cộng và trừ. Với phép chia, nhân với nghịch đảo.",
+              "answer": "a) $\\frac{5}{6} + \\frac{7}{12} = \\frac{10}{12} + \\frac{7}{12} = \\frac{17}{12}$   b) $\\frac{11}{15} - \\frac{4}{9} = \\frac{33}{45} - \\frac{20}{45} = \\frac{13}{45}$   c) $(\\frac{3}{4} \\cdot \\frac{8}{9}) : \\frac{2}{3} = \\frac{24}{36} \\times \\frac{3}{2} = \\frac{72}{72} = 1$",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận: Tính giá trị biểu thức: $\\frac{2}{3} \\times (\\frac{5}{6} + \\frac{1}{4}) - \\frac{1}{2} \\div \\frac{3}{8}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính giá trị biểu thức: $\\frac{2}{3} \\times (\\frac{5}{6} + \\frac{1}{4}) - \\frac{1}{2} \\div \\frac{3}{8}$",
+              "hint": "Tính trong ngoặc trước, sau đó thực hiện phép nhân và chia, cuối cùng là phép trừ.",
+              "answer": "$\\frac{5}{6} + \\frac{1}{4} = \\frac{10}{12} + \\frac{3}{12} = \\frac{13}{12}$; $\\frac{2}{3} \\times \\frac{13}{12} = \\frac{26}{36} = \\frac{13}{18}$; $\\frac{1}{2} \\div \\frac{3}{8} = \\frac{1}{2} \\times \\frac{8}{3} = \\frac{4}{3}$; $\\frac{13}{18} - \\frac{4}{3} = \\frac{13}{18} - \\frac{24}{18} = -\\frac{11}{18}$",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Số thực",
+      "lessons": [
+        {
+          "code": "MATH7-CH2-L1",
+          "title": "Căn bậc hai và số vô tỉ",
+          "exercises": [
+            {
+              "title": "Tính căn bậc hai của số không phải số chính phương (ước lượng)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Ước lượng giá trị của $\\sqrt{10}$ (làm tròn đến 1 chữ số thập phân):",
+              "hint": "$\\sqrt{9} = 3$, $\\sqrt{16} = 4$. Vậy $\\sqrt{10}$ nằm giữa 3 và 4, gần 3 hơn. $3.1^2 = 9.61$, $3.2^2 = 10.24$.",
+              "options": {
+                "A": "$3.1$",
+                "B": "$3.2$",
+                "C": "$3.3$",
+                "D": "$3.4$"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "So sánh căn bậc hai của các số không phải số chính phương",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "So sánh $\\sqrt{5}$ và $\\sqrt{7}$:",
+              "hint": "Với $a < b$ thì $\\sqrt{a} < \\sqrt{b}$ (với $a, b > 0$).",
+              "options": {
+                "A": "$\\sqrt{5} > \\sqrt{7}$",
+                "B": "$\\sqrt{5} < \\sqrt{7}$",
+                "C": "$\\sqrt{5} = \\sqrt{7}$",
+                "D": "Không thể so sánh"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Tìm số vô tỉ trong một tập hợp số",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Số nào sau đây là số vô tỉ?",
+              "hint": "Số vô tỉ không thể viết dưới dạng phân số. Căn bậc hai của số không chính phương là số vô tỉ.",
+              "options": {
+                "A": "$\\frac{1}{2}$",
+                "B": "$\\sqrt{9}$",
+                "C": "$\\sqrt{3}$",
+                "D": "$0.5$"
+              },
+              "correctOption": "C",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất căn bậc hai để tính giá trị biểu thức",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\sqrt{16} + \\sqrt{25} - \\sqrt{9}$",
+              "hint": "$\\sqrt{16} = 4$, $\\sqrt{25} = 5$, $\\sqrt{9} = 3$. Tính $4 + 5 - 3 = 6$.",
+              "options": {
+                "A": "$6$",
+                "B": "$7$",
+                "C": "$8$",
+                "D": "$9$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Nhận biết số hữu tỉ và số vô tỉ trong các trường hợp phức tạp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Số nào sau đây là số hữu tỉ?",
+              "hint": "Số hữu tỉ có thể viết dưới dạng phân số. $\\sqrt{4} = 2$ là số hữu tỉ.",
+              "options": {
+                "A": "$\\sqrt{2}$",
+                "B": "$\\sqrt{3}$",
+                "C": "$\\sqrt{4}$",
+                "D": "$\\sqrt{5}$"
+              },
+              "correctOption": "C",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận: Rút gọn các biểu thức sau: a) $\\sqrt{50}$   b) $\\sqrt{\\frac{8}{18}}$   c) $\\sqrt{\\frac{49}{81}}$   d) $2\\sqrt{18} - \\sqrt{8}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Rút gọn các biểu thức sau: a) $\\sqrt{50}$   b) $\\sqrt{\\frac{8}{18}}$   c) $\\sqrt{\\frac{49}{81}}$   d) $2\\sqrt{18} - \\sqrt{8}$",
+              "hint": "Đưa các số trong căn về dạng tích của số chính phương và số khác. Rút gọn phân số trong căn.",
+              "answer": "a) $\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$   b) $\\sqrt{\\frac{8}{18}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$   c) $\\sqrt{\\frac{49}{81}} = \\frac{7}{9}$   d) $2\\sqrt{18} - \\sqrt{8} = 2 \\times 3\\sqrt{2} - 2\\sqrt{2} = 6\\sqrt{2} - 2\\sqrt{2} = 4\\sqrt{2}$",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh $\\sqrt{2}$ và $\\frac{3}{2}$ bằng cách bình phương hai vế",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh $\\sqrt{2}$ và $\\frac{3}{2}$ bằng cách bình phương hai vế",
+              "hint": "Bình phương cả hai vế: $(\\sqrt{2})^2 = 2$ và $(\\frac{3}{2})^2 = \\frac{9}{4} = 2.25$. So sánh 2 và 2.25.",
+              "answer": "Bình phương hai vế: $(\\sqrt{2})^2 = 2$ và $(\\frac{3}{2})^2 = \\frac{9}{4} = 2.25$. Vì $2 < 2.25$ nên $\\sqrt{2} < \\frac{3}{2}$.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH2-L2",
+          "title": "Số thực trên trục số",
+          "exercises": [
+            {
+              "title": "Biểu diễn số thực phức tạp trên trục số",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trên trục số, số $\\sqrt{2}$ nằm:",
+              "hint": "$\\sqrt{2} \\approx 1.414$, nằm giữa 1 và 2, gần 1.4 hơn.",
+              "options": {
+                "A": "Giữa 1 và 2, gần 1.4",
+                "B": "Giữa 0 và 1",
+                "C": "Tại 2",
+                "D": "Giữa 2 và 3"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "So sánh nhiều số thực (bao gồm cả số vô tỉ)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sắp xếp các số sau theo thứ tự tăng dần: $\\sqrt{3}$, $\\frac{3}{2}$, $1.5$, $\\sqrt{2}$",
+              "hint": "$\\sqrt{2} \\approx 1.414$, $\\sqrt{3} \\approx 1.732$, $\\frac{3}{2} = 1.5$. So sánh và sắp xếp.",
+              "options": {
+                "A": "$\\sqrt{2} < 1.5 = \\frac{3}{2} < \\sqrt{3}$",
+                "B": "$\\sqrt{3} < \\frac{3}{2} < \\sqrt{2} < 1.5$",
+                "C": "$1.5 < \\sqrt{2} < \\sqrt{3} < \\frac{3}{2}$",
+                "D": "$\\frac{3}{2} < \\sqrt{2} < \\sqrt{3} < 1.5$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tìm số thực thỏa mãn điều kiện cho trước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tìm số thực $x$ thỏa mãn: $1 < x < 2$ và $x$ là số hữu tỉ có mẫu số bằng 3:",
+              "hint": "Các phân số có mẫu 3 nằm giữa 1 và 2: $\\frac{4}{3} = 1.33...$, $\\frac{5}{3} = 1.66...$.",
+              "options": {
+                "A": "$\\frac{4}{3}$ hoặc $\\frac{5}{3}$",
+                "B": "$\\frac{3}{3}$",
+                "C": "$\\frac{6}{3}$",
+                "D": "$\\frac{2}{3}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất số thực để giải bài toán",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một hình vuông có diện tích $\\frac{25}{4}$ cm². Độ dài cạnh hình vuông là:",
+              "hint": "Cạnh hình vuông = $\\sqrt{diện tích} = \\sqrt{\\frac{25}{4}} = \\frac{5}{2}$ cm.",
+              "options": {
+                "A": "$\\frac{5}{2}$ cm",
+                "B": "$\\frac{25}{4}$ cm",
+                "C": "$5$ cm",
+                "D": "$\\frac{1}{2}$ cm"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Xác định vị trí số thực trên trục số với độ chính xác cao",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Số $\\sqrt{5}$ (làm tròn đến 2 chữ số thập phân) nằm ở vị trí:",
+              "hint": "$\\sqrt{5} \\approx 2.24$, nằm giữa 2.2 và 2.3 trên trục số.",
+              "options": {
+                "A": "Khoảng $2.24$",
+                "B": "Khoảng $2.5$",
+                "C": "Khoảng $1.5$",
+                "D": "Khoảng $3.0$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Tự luận: Biểu diễn các số trên trục số: $-\\sqrt{2}, 0, \\frac{3}{2}, \\sqrt{5}, -\\frac{1}{2}$ và sắp xếp theo thứ tự tăng dần",
+              "type": "essay",
+              "points": 3,
+              "question": "Biểu diễn các số trên trục số: $-\\sqrt{2}, 0, \\frac{3}{2}, \\sqrt{5}, -\\frac{1}{2}$ và sắp xếp theo thứ tự tăng dần",
+              "hint": "Chuyển về số thập phân: $-\\sqrt{2} \\approx -1.414$, $-\\frac{1}{2} = -0.5$, $\\frac{3}{2} = 1.5$, $\\sqrt{5} \\approx 2.236$. Sắp xếp từ nhỏ đến lớn.",
+              "answer": "Thứ tự tăng dần: $-\\sqrt{2} < -\\frac{1}{2} < 0 < \\frac{3}{2} < \\sqrt{5}$. Trên trục số, số âm nằm bên trái 0, số dương nằm bên phải 0.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: Chứng minh rằng giữa hai số thực bất kỳ luôn tồn tại vô số số thực khác",
+              "type": "essay",
+              "points": 3,
+              "question": "Chứng minh rằng giữa hai số thực bất kỳ luôn tồn tại vô số số thực khác",
+              "hint": "Cho hai số thực $a < b$. Chứng minh rằng có thể tìm được vô số số thực nằm giữa chúng bằng cách lấy trung bình cộng nhiều lần.",
+              "answer": "Cho hai số thực $a < b$. Ta có thể tìm số $c_1 = \\frac{a+b}{2}$ nằm giữa $a$ và $b$. Tiếp tục, ta có thể tìm $c_2 = \\frac{a+c_1}{2}$ nằm giữa $a$ và $c_1$, và $c_3 = \\frac{c_1+b}{2}$ nằm giữa $c_1$ và $b$. Quá trình này có thể lặp lại vô hạn, tạo ra vô số số thực nằm giữa $a$ và $b$.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Góc và đường thẳng song song",
+      "lessons": [
+        {
+          "code": "MATH7-CH3-L1",
+          "title": "Phân loại các loại góc",
+          "exercises": [
+            {
+              "title": "Tính số đo góc bù, góc phụ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Góc phụ của góc $35^\\circ$ là:",
+              "hint": "Hai góc phụ nhau có tổng bằng $90^\\circ$. Góc phụ của $35^\\circ$ là $90^\\circ - 35^\\circ = 55^\\circ$.",
+              "options": {
+                "A": "$55^\\circ$",
+                "B": "$65^\\circ$",
+                "C": "$145^\\circ$",
+                "D": "$125^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Xác định góc đối đỉnh trong hình phức tạp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong hình có hai đường thẳng cắt nhau, nếu một góc bằng $55^\\circ$, thì góc đối đỉnh với nó bằng:",
+              "hint": "Hai góc đối đỉnh có số đo bằng nhau.",
+              "options": {
+                "A": "$55^\\circ$",
+                "B": "$125^\\circ$",
+                "C": "$35^\\circ$",
+                "D": "$90^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất góc để tính số đo góc chưa biết",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho hai góc kề bù, biết một góc bằng $110^\\circ$. Góc kia bằng:",
+              "hint": "Hai góc kề bù có tổng bằng $180^\\circ$. Góc kia = $180^\\circ - 110^\\circ = 70^\\circ$.",
+              "options": {
+                "A": "$70^\\circ$",
+                "B": "$80^\\circ$",
+                "C": "$90^\\circ$",
+                "D": "$100^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Giải bài toán có nhiều góc liên quan",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong tam giác $ABC$, nếu $\\angle A = 50^\\circ$ và $\\angle B = 70^\\circ$, thì $\\angle C = ?$",
+              "hint": "Tổng ba góc trong tam giác bằng $180^\\circ$. $\\angle C = 180^\\circ - 50^\\circ - 70^\\circ = 60^\\circ$.",
+              "options": {
+                "A": "$60^\\circ$",
+                "B": "$70^\\circ$",
+                "C": "$80^\\circ$",
+                "D": "$90^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Chứng minh hai góc bằng nhau dựa vào tính chất góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Nếu hai góc đối đỉnh, thì chúng:",
+              "hint": "Hai góc đối đỉnh luôn bằng nhau.",
+              "options": {
+                "A": "Bằng nhau",
+                "B": "Bù nhau",
+                "C": "Phụ nhau",
+                "D": "Không có quan hệ"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận: Cho hai đường thẳng cắt nhau tạo thành bốn góc. Biết tổng số đo hai góc kề bù bằng $180^\\circ$ và một góc bằng $65^\\circ$. Tính số đo các góc còn lại",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho hai đường thẳng cắt nhau tạo thành bốn góc. Biết tổng số đo hai góc kề bù bằng $180^\\circ$ và một góc bằng $65^\\circ$. Tính số đo các góc còn lại",
+              "hint": "Góc đối đỉnh với góc $65^\\circ$ cũng bằng $65^\\circ$. Hai góc kề bù với góc $65^\\circ$ đều bằng $180^\\circ - 65^\\circ = 115^\\circ$.",
+              "answer": "Góc đối đỉnh với góc $65^\\circ$ cũng bằng $65^\\circ$. Hai góc kề bù với góc $65^\\circ$ đều bằng $180^\\circ - 65^\\circ = 115^\\circ$. Vậy bốn góc là: $65^\\circ, 65^\\circ, 115^\\circ, 115^\\circ$.",
+              "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Tự luận: Cho hình vẽ có ba đường thẳng cắt nhau. Biết một góc bằng $40^\\circ$. Tính số đo tất cả các góc còn lại",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho hình vẽ có ba đường thẳng cắt nhau. Biết một góc bằng $40^\\circ$. Tính số đo tất cả các góc còn lại",
+              "hint": "Sử dụng tính chất góc đối đỉnh, góc kề bù, và tổng góc xung quanh một điểm bằng $360^\\circ$.",
+              "answer": "Góc đối đỉnh với góc $40^\\circ$ cũng bằng $40^\\circ$. Các góc kề bù với góc $40^\\circ$ bằng $140^\\circ$. Tùy vào vị trí của các đường thẳng, các góc còn lại có thể được tính dựa vào các quan hệ góc đã học.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH3-L2",
+          "title": "Góc so le trong, đồng vị, trong cùng phía",
+          "exercises": [
+            {
+              "title": "Tính số đo góc so le trong, đồng vị khi biết một góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho hai đường thẳng song song bị cắt bởi một đường thẳng. Nếu một góc đồng vị bằng $70^\\circ$, thì góc so le trong tương ứng bằng:",
+              "hint": "Khi hai đường thẳng song song, góc so le trong và góc đồng vị đều bằng nhau.",
+              "options": {
+                "A": "$70^\\circ$",
+                "B": "$110^\\circ$",
+                "C": "$90^\\circ$",
+                "D": "$180^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Chứng minh hai đường thẳng song song dựa vào góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để chứng minh hai đường thẳng song song, ta có thể dùng:",
+              "hint": "Nếu góc so le trong bằng nhau, hoặc góc đồng vị bằng nhau, thì hai đường thẳng song song.",
+              "options": {
+                "A": "Góc so le trong bằng nhau",
+                "B": "Góc đồng vị bằng nhau",
+                "C": "Hai góc trong cùng phía bù nhau",
+                "D": "Tất cả các phương án trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất góc so le trong, đồng vị để tính góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho hai đường thẳng song song bị cắt bởi một đường thẳng. Nếu một góc so le trong bằng $65^\\circ$, thì góc trong cùng phía với nó bằng:",
+              "hint": "Hai góc trong cùng phía bù nhau, có tổng bằng $180^\\circ$. Góc trong cùng phía = $180^\\circ - 65^\\circ = 115^\\circ$.",
+              "options": {
+                "A": "$65^\\circ$",
+                "B": "$115^\\circ$",
+                "C": "$90^\\circ$",
+                "D": "$180^\\circ$"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Giải bài toán có nhiều cặp góc so le trong, đồng vị",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong hình có hai đường thẳng song song bị cắt bởi một đường thẳng, số cặp góc so le trong là:",
+              "hint": "Với hai đường thẳng song song bị cắt bởi một đường thẳng, có 2 cặp góc so le trong.",
+              "options": {
+                "A": "$1$ cặp",
+                "B": "$2$ cặp",
+                "C": "$3$ cặp",
+                "D": "$4$ cặp"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Xác định quan hệ giữa các góc trong hình có đường song song",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong hình có hai đường thẳng song song, các góc so le trong:",
+              "hint": "Khi hai đường thẳng song song, các góc so le trong bằng nhau.",
+              "options": {
+                "A": "Bằng nhau",
+                "B": "Bù nhau",
+                "C": "Phụ nhau",
+                "D": "Không có quan hệ"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Tự luận: Cho hai đường thẳng song song $a$ và $b$ bị cắt bởi đường thẳng $c$. Biết một góc đồng vị bằng $75^\\circ$. Tính số đo tất cả các góc còn lại",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho hai đường thẳng song song $a$ và $b$ bị cắt bởi đường thẳng $c$. Biết một góc đồng vị bằng $75^\\circ$. Tính số đo tất cả các góc còn lại",
+              "hint": "Các góc đồng vị đều bằng $75^\\circ$ hoặc $105^\\circ$ (góc kề bù). Các góc so le trong cũng bằng $75^\\circ$ hoặc $105^\\circ$. Các góc trong cùng phía bù nhau.",
+              "answer": "Các góc đồng vị đều bằng $75^\\circ$ hoặc $105^\\circ$ (góc kề bù). Các góc so le trong cũng bằng $75^\\circ$ hoặc $105^\\circ$. Các góc trong cùng phía: một góc $75^\\circ$ và một góc $105^\\circ$, tổng bằng $180^\\circ$.",
+              "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "title": "Tự luận: Chứng minh rằng nếu một đường thẳng cắt hai đường thẳng song song thì các góc so le trong bằng nhau",
+              "type": "essay",
+              "points": 3,
+              "question": "Chứng minh rằng nếu một đường thẳng cắt hai đường thẳng song song thì các góc so le trong bằng nhau",
+              "hint": "Sử dụng tính chất góc đồng vị và góc đối đỉnh để chứng minh.",
+              "answer": "Cho hai đường thẳng song song $a \\parallel b$ bị cắt bởi đường thẳng $c$. Gọi $\\angle 1$ và $\\angle 2$ là hai góc so le trong. Vì $a \\parallel b$, nên $\\angle 1 = \\angle 3$ (góc đồng vị). Mà $\\angle 3 = \\angle 2$ (góc đối đỉnh). Vậy $\\angle 1 = \\angle 2$.",
+              "created_at": "2025-01-01T00:00:41.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Tam giác bằng nhau",
+      "lessons": [
+        {
+          "code": "MATH7-CH4-L1",
+          "title": "Các trường hợp bằng nhau của tam giác",
+          "exercises": [
+            {
+              "title": "Xác định trường hợp bằng nhau của tam giác trong bài toán phức tạp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho tam giác $ABC$ và tam giác $DEF$ có $AB = DE$, $\\angle A = \\angle D$, $AC = DF$. Hai tam giác bằng nhau theo trường hợp:",
+              "hint": "Hai cạnh và góc xen giữa bằng nhau thì hai tam giác bằng nhau theo trường hợp c.g.c.",
+              "options": {
+                "A": "c.c.c",
+                "B": "c.g.c",
+                "C": "g.c.g",
+                "D": "Không đủ điều kiện"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:42.000Z"
+            },
+            {
+              "title": "Chứng minh hai tam giác bằng nhau từ nhiều dữ kiện",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Nếu $\\triangle ABC = \\triangle DEF$ theo trường hợp c.c.c, thì:",
+              "hint": "Khi hai tam giác bằng nhau, tất cả các cạnh và góc tương ứng đều bằng nhau.",
+              "options": {
+                "A": "Chỉ các cạnh tương ứng bằng nhau",
+                "B": "Các cạnh và góc tương ứng đều bằng nhau",
+                "C": "Chỉ các góc tương ứng bằng nhau",
+                "D": "Chỉ diện tích bằng nhau"
+              },
+              "correctOption": "B",
+              "created_at": "2025-01-01T00:00:43.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất tam giác bằng nhau để tính cạnh, góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho $\\triangle ABC = \\triangle DEF$ và $AB = 5$ cm, $\\angle A = 60^\\circ$. Thì $DE = ?$ và $\\angle D = ?$",
+              "hint": "Khi hai tam giác bằng nhau, các cạnh và góc tương ứng đều bằng nhau.",
+              "options": {
+                "A": "$DE = 5$ cm, $\\angle D = 60^\\circ$",
+                "B": "$DE = 5$ cm, $\\angle D = 120^\\circ$",
+                "C": "$DE = 10$ cm, $\\angle D = 60^\\circ$",
+                "D": "$DE = 10$ cm, $\\angle D = 120^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:44.000Z"
+            },
+            {
+              "title": "Giải bài toán có nhiều cặp tam giác bằng nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong hình có nhiều cặp tam giác bằng nhau, để chứng minh một tính chất, ta thường:",
+              "hint": "Sử dụng tính chất của các tam giác bằng nhau để suy ra các đoạn thẳng hoặc góc bằng nhau.",
+              "options": {
+                "A": "Sử dụng tính chất của tam giác bằng nhau",
+                "B": "Đo trực tiếp",
+                "C": "Ước lượng",
+                "D": "Không thể chứng minh"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:45.000Z"
+            },
+            {
+              "title": "Vận dụng tam giác bằng nhau để chứng minh đoạn thẳng bằng nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để chứng minh hai đoạn thẳng bằng nhau, phương pháp thường dùng là:",
+              "hint": "Chứng minh chúng là các cạnh tương ứng của hai tam giác bằng nhau.",
+              "options": {
+                "A": "Chứng minh chúng là cạnh tương ứng của tam giác bằng nhau",
+                "B": "Đo trực tiếp",
+                "C": "So sánh hình dạng",
+                "D": "Tính diện tích"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:46.000Z"
+            },
+            {
+              "title": "Tự luận: Cho tam giác $ABC$ và tam giác $DEF$ có $AB = DE$, $BC = EF$, $\\angle B = \\angle E$. Chứng minh $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho tam giác $ABC$ và tam giác $DEF$ có $AB = DE$, $BC = EF$, $\\angle B = \\angle E$. Chứng minh $\\triangle ABC = \\triangle DEF$ theo trường hợp c.g.c",
+              "hint": "Trường hợp c.g.c: hai cạnh và góc xen giữa bằng nhau. Góc $\\angle B$ nằm giữa hai cạnh $AB$ và $BC$.",
+              "answer": "Ta có: $AB = DE$ (cạnh), $\\angle B = \\angle E$ (góc), $BC = EF$ (cạnh). Góc $\\angle B$ nằm giữa hai cạnh $AB$ và $BC$, góc $\\angle E$ nằm giữa hai cạnh $DE$ và $EF$. Vậy $\\triangle ABC = \\triangle DEF$ (c.g.c).",
+              "created_at": "2025-01-01T00:00:47.000Z"
+            },
+            {
+              "title": "Tự luận: Cho tam giác $ABC$ có $M$ là trung điểm của $BC$. Chứng minh rằng nếu $AM$ là đường trung tuyến thì $AM$ chia tam giác thành hai tam giác bằng nhau",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho tam giác $ABC$ có $M$ là trung điểm của $BC$. Chứng minh rằng nếu $AM$ là đường trung tuyến thì $AM$ chia tam giác thành hai tam giác bằng nhau",
+              "hint": "Xét $\\triangle ABM$ và $\\triangle ACM$. Có $BM = CM$ (vì $M$ là trung điểm), $AM$ chung. Nhưng cần thêm điều kiện để chứng minh bằng nhau (ví dụ: tam giác cân hoặc góc vuông).",
+              "answer": "Xét $\\triangle ABM$ và $\\triangle ACM$: $BM = CM$ (vì $M$ là trung điểm), $AM$ chung. Tuy nhiên, để hai tam giác bằng nhau cần thêm điều kiện. Nếu tam giác $ABC$ cân tại $A$ hoặc $AM \\perp BC$, thì $\\triangle ABM = \\triangle ACM$.",
+              "created_at": "2025-01-01T00:00:48.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH4-L2",
+          "title": "Giải bài toán dùng tam giác bằng nhau",
+          "exercises": [
+            {
+              "title": "Áp dụng tam giác bằng nhau để tính độ dài cạnh, số đo góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho $\\triangle ABC = \\triangle DEF$. Nếu $AB = 6$ cm và $\\angle C = 50^\\circ$, thì:",
+              "hint": "Khi hai tam giác bằng nhau, các cạnh và góc tương ứng đều bằng nhau. $DE = AB = 6$ cm, $\\angle F = \\angle C = 50^\\circ$.",
+              "options": {
+                "A": "$DE = 6$ cm, $\\angle F = 50^\\circ$",
+                "B": "$DE = 6$ cm, $\\angle F = 130^\\circ$",
+                "C": "$DE = 12$ cm, $\\angle F = 50^\\circ$",
+                "D": "$DE = 12$ cm, $\\angle F = 130^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:49.000Z"
+            },
+            {
+              "title": "Chứng minh hai đoạn thẳng bằng nhau bằng tam giác bằng nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để chứng minh $AB = CD$, ta có thể:",
+              "hint": "Chứng minh chúng là các cạnh tương ứng của hai tam giác bằng nhau.",
+              "options": {
+                "A": "Chứng minh $\\triangle ABC = \\triangle CDE$ và $AB$, $CD$ là cạnh tương ứng",
+                "B": "Đo trực tiếp",
+                "C": "So sánh hình dạng",
+                "D": "Tính diện tích"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "title": "Giải bài toán có nhiều bước sử dụng tam giác bằng nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong bài toán hình học phức tạp, để giải ta thường:",
+              "hint": "Sử dụng nhiều bước: chứng minh tam giác bằng nhau, suy ra các đoạn thẳng/góc bằng nhau, tiếp tục chứng minh các tính chất khác.",
+              "options": {
+                "A": "Chứng minh từng bước, sử dụng kết quả của bước trước",
+                "B": "Đo tất cả",
+                "C": "Ước lượng",
+                "D": "Không thể giải"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:51.000Z"
+            },
+            {
+              "title": "Vận dụng tam giác bằng nhau để chứng minh đường thẳng song song",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để chứng minh hai đường thẳng song song bằng tam giác bằng nhau, ta có thể:",
+              "hint": "Chứng minh các góc so le trong hoặc góc đồng vị bằng nhau thông qua tam giác bằng nhau.",
+              "options": {
+                "A": "Chứng minh các góc so le trong bằng nhau",
+                "B": "Đo độ dài",
+                "C": "So sánh hình dạng",
+                "D": "Tính diện tích"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:52.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất tam giác bằng nhau trong bài toán thực tế",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong thực tế, tam giác bằng nhau được ứng dụng để:",
+              "hint": "Đo khoảng cách gián tiếp, xác định vị trí, kiểm tra độ chính xác của các công trình.",
+              "options": {
+                "A": "Đo khoảng cách gián tiếp",
+                "B": "Xác định vị trí",
+                "C": "Kiểm tra độ chính xác",
+                "D": "Tất cả các phương án trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:00:53.000Z"
+            },
+            {
+              "title": "Tự luận: Cho tam giác $ABC$ có $AB = AC$. Gọi $D$ là điểm trên cạnh $BC$ sao cho $AD$ là đường phân giác. Chứng minh $\\triangle ABD = \\triangle ACD$",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho tam giác $ABC$ có $AB = AC$. Gọi $D$ là điểm trên cạnh $BC$ sao cho $AD$ là đường phân giác. Chứng minh $\\triangle ABD = \\triangle ACD$",
+              "hint": "Có $AB = AC$ (tam giác cân), $\\angle BAD = \\angle CAD$ (vì $AD$ là đường phân giác), $AD$ chung. Dùng trường hợp c.g.c hoặc g.c.g.",
+              "answer": "Vì tam giác $ABC$ cân tại $A$ nên $AB = AC$. Vì $AD$ là đường phân giác nên $\\angle BAD = \\angle CAD$. Có $AD$ chung. Vậy $\\triangle ABD = \\triangle ACD$ (c.g.c).",
+              "created_at": "2025-01-01T00:00:54.000Z"
+            },
+            {
+              "title": "Tự luận: Cho hình vẽ có $MN \\parallel BC$ trong tam giác $ABC$. Chứng minh rằng $\\frac{AM}{AB} = \\frac{AN}{AC}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho hình vẽ có $MN \\parallel BC$ trong tam giác $ABC$. Chứng minh rằng $\\frac{AM}{AB} = \\frac{AN}{AC}$",
+              "hint": "Áp dụng định lý Thales: Nếu một đường thẳng song song với một cạnh của tam giác và cắt hai cạnh còn lại, thì nó định ra trên hai cạnh đó những đoạn thẳng tương ứng tỉ lệ.",
+              "answer": "Vì $MN \\parallel BC$, theo định lý Thales trong tam giác $ABC$, ta có $\\frac{AM}{AB} = \\frac{AN}{AC}$ (các đoạn thẳng tương ứng tỉ lệ).",
+              "created_at": "2025-01-01T00:00:55.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Thu thập và biểu diễn dữ liệu",
+      "lessons": [
+        {
+          "code": "MATH7-CH5-L1",
+          "title": "Thu thập dữ liệu",
+          "exercises": [
+            {
+              "title": "Phân tích và xử lý dữ liệu phức tạp hơn",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho bảng điểm: 7, 8, 9, 7, 8, 10, 9, 8, 7, 9. Số điểm xuất hiện nhiều nhất là:",
+              "hint": "Đếm số lần xuất hiện của mỗi điểm. Điểm 7: 3 lần, điểm 8: 3 lần, điểm 9: 3 lần, điểm 10: 1 lần.",
+              "options": {
+                "A": "$7, 8, 9$ (cùng 3 lần)",
+                "B": "$10$",
+                "C": "$8$",
+                "D": "$9$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:56.000Z"
+            },
+            {
+              "title": "Tính các đại lượng thống kê cơ bản (trung bình, tổng)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Cho dãy số: 5, 7, 9, 11, 13. Tổng và trung bình lần lượt là:",
+              "hint": "Tổng = 5 + 7 + 9 + 11 + 13 = 45. Trung bình = 45 / 5 = 9.",
+              "options": {
+                "A": "Tổng = $45$, Trung bình = $9$",
+                "B": "Tổng = $40$, Trung bình = $8$",
+                "C": "Tổng = $50$, Trung bình = $10$",
+                "D": "Tổng = $35$, Trung bình = $7$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:57.000Z"
+            },
+            {
+              "title": "Nhận xét và đánh giá chất lượng dữ liệu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để đánh giá chất lượng dữ liệu, ta cần xem xét:",
+              "hint": "Chất lượng dữ liệu phụ thuộc vào độ chính xác, tính đầy đủ, tính nhất quán, nguồn gốc.",
+              "options": {
+                "A": "Độ chính xác và tính đầy đủ",
+                "B": "Tính nhất quán",
+                "C": "Nguồn gốc dữ liệu",
+                "D": "Tất cả các yếu tố trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:00:58.000Z"
+            },
+            {
+              "title": "So sánh dữ liệu từ nhiều nguồn khác nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Khi so sánh dữ liệu từ nhiều nguồn, ta cần:",
+              "hint": "Đảm bảo các dữ liệu có cùng đơn vị đo, cùng phương pháp thu thập, cùng thời điểm để so sánh công bằng.",
+              "options": {
+                "A": "Đảm bảo cùng đơn vị đo và phương pháp",
+                "B": "So sánh trực tiếp không cần điều kiện",
+                "C": "Chỉ so sánh số lượng",
+                "D": "Không cần so sánh"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:00:59.000Z"
+            },
+            {
+              "title": "Áp dụng phương pháp thu thập dữ liệu phù hợp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để thu thập dữ liệu về sở thích của học sinh, phương pháp phù hợp nhất là:",
+              "hint": "Khảo sát bằng phiếu hỏi hoặc phỏng vấn trực tiếp sẽ phù hợp để thu thập dữ liệu về sở thích.",
+              "options": {
+                "A": "Khảo sát bằng phiếu hỏi",
+                "B": "Đo đạc trực tiếp",
+                "C": "Quan sát từ xa",
+                "D": "Đoán mò"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:00.000Z"
+            },
+            {
+              "title": "Tự luận: Thu thập và lập bảng thống kê điểm kiểm tra Toán của 10 học sinh. Tính điểm trung bình và nhận xét",
+              "type": "essay",
+              "points": 3,
+              "question": "Thu thập và lập bảng thống kê điểm kiểm tra Toán của 10 học sinh. Tính điểm trung bình và nhận xét",
+              "hint": "Lập bảng với các cột: STT, Tên học sinh, Điểm. Tính trung bình = Tổng điểm / 10. Nhận xét về phân bố điểm.",
+              "answer": "Ví dụ: Điểm: 8, 7, 9, 6, 8, 7, 9, 8, 7, 9. Tổng = 78. Điểm trung bình = 7.8. Nhận xét: Điểm phân bố khá đều, đa số học sinh đạt điểm khá (7-9 điểm).",
+              "created_at": "2025-01-01T00:01:01.000Z"
+            },
+            {
+              "title": "Tự luận: Lập bảng thống kê số giờ học mỗi ngày của 5 học sinh trong một tuần. Tính tổng số giờ và trung bình mỗi ngày",
+              "type": "essay",
+              "points": 3,
+              "question": "Lập bảng thống kê số giờ học mỗi ngày của 5 học sinh trong một tuần. Tính tổng số giờ và trung bình mỗi ngày",
+              "hint": "Lập bảng với các hàng là học sinh, các cột là các ngày trong tuần. Tính tổng số giờ của mỗi học sinh và tổng số giờ của cả lớp. Trung bình = Tổng / (Số học sinh × Số ngày).",
+              "answer": "Ví dụ: Tổng số giờ học của 5 học sinh trong 7 ngày = 175 giờ. Trung bình mỗi ngày = 175 / (5 × 7) = 5 giờ/ngày. Hoặc trung bình mỗi học sinh = 175 / 5 = 35 giờ/tuần.",
+              "created_at": "2025-01-01T00:01:02.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH5-L2",
+          "title": "Biểu đồ cột và biểu đồ đoạn thẳng",
+          "exercises": [
+            {
+              "title": "Đọc và phân tích biểu đồ cột, đoạn thẳng phức tạp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Từ biểu đồ cột, nếu cột A cao 6 đơn vị, cột B cao 4 đơn vị, cột C cao 8 đơn vị, thì giá trị lớn nhất là:",
+              "hint": "Cột cao nhất biểu thị giá trị lớn nhất. Cột C cao nhất (8 đơn vị).",
+              "options": {
+                "A": "Cột A",
+                "B": "Cột B",
+                "C": "Cột C",
+                "D": "Không xác định được"
+              },
+              "correctOption": "C",
+              "created_at": "2025-01-01T00:01:03.000Z"
+            },
+            {
+              "title": "So sánh dữ liệu từ nhiều biểu đồ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Khi so sánh hai biểu đồ, ta cần:",
+              "hint": "So sánh chiều cao các cột, tính tổng, tìm giá trị lớn nhất/nhỏ nhất, phân tích xu hướng.",
+              "options": {
+                "A": "So sánh chiều cao các cột",
+                "B": "Tính tổng và trung bình",
+                "C": "Phân tích xu hướng",
+                "D": "Tất cả các yếu tố trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:01:04.000Z"
+            },
+            {
+              "title": "Tính toán dựa trên biểu đồ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Từ biểu đồ cột có 4 cột với giá trị: 10, 15, 12, 18. Tổng là:",
+              "hint": "Tổng = 10 + 15 + 12 + 18 = 55.",
+              "options": {
+                "A": "$55$",
+                "B": "$50$",
+                "C": "$60$",
+                "D": "$65$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:05.000Z"
+            },
+            {
+              "title": "Nhận xét xu hướng từ biểu đồ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Từ biểu đồ đoạn thẳng, nếu đường thẳng đi xuống từ trái sang phải, ta có thể nhận xét:",
+              "hint": "Đường thẳng đi xuống cho thấy xu hướng giảm.",
+              "options": {
+                "A": "Dữ liệu đang giảm",
+                "B": "Dữ liệu đang tăng",
+                "C": "Dữ liệu không đổi",
+                "D": "Không thể nhận xét"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:06.000Z"
+            },
+            {
+              "title": "Vẽ biểu đồ từ bảng số liệu cho trước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để vẽ biểu đồ cột từ bảng số liệu, ta cần:",
+              "hint": "Xác định trục hoành (danh mục), trục tung (giá trị), vẽ các cột có chiều cao tương ứng với giá trị.",
+              "options": {
+                "A": "Xác định trục hoành và trục tung",
+                "B": "Vẽ các cột có chiều cao tương ứng",
+                "C": "Ghi chú và nhãn",
+                "D": "Tất cả các bước trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:01:07.000Z"
+            },
+            {
+              "title": "Tự luận: Cho bảng số liệu về nhiệt độ trung bình các tháng trong năm. Vẽ biểu đồ đoạn thẳng và nhận xét xu hướng thay đổi nhiệt độ",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho bảng số liệu về nhiệt độ trung bình các tháng trong năm. Vẽ biểu đồ đoạn thẳng và nhận xét xu hướng thay đổi nhiệt độ",
+              "hint": "Vẽ biểu đồ với trục hoành là tháng, trục tung là nhiệt độ. Nối các điểm lại. Nhận xét về xu hướng tăng/giảm theo mùa.",
+              "answer": "Vẽ biểu đồ đoạn thẳng với các điểm tương ứng với nhiệt độ mỗi tháng. Nối các điểm lại. Nhận xét: Nhiệt độ thường tăng từ đầu năm đến giữa năm (mùa hè), sau đó giảm dần (mùa đông).",
+              "created_at": "2025-01-01T00:01:08.000Z"
+            },
+            {
+              "title": "Tự luận: Vẽ biểu đồ cột biểu diễn số học sinh giỏi các môn Toán, Văn, Anh của một lớp. So sánh và nhận xét",
+              "type": "essay",
+              "points": 3,
+              "question": "Vẽ biểu đồ cột biểu diễn số học sinh giỏi các môn Toán, Văn, Anh của một lớp. So sánh và nhận xét",
+              "hint": "Vẽ biểu đồ cột với trục hoành là các môn học, trục tung là số học sinh. So sánh chiều cao các cột.",
+              "answer": "Vẽ biểu đồ cột với 3 cột tương ứng với 3 môn. So sánh: Môn nào có cột cao nhất thì có nhiều học sinh giỏi nhất. Nhận xét: So sánh số lượng học sinh giỏi giữa các môn, chỉ ra môn nào có nhiều/ít học sinh giỏi nhất.",
+              "created_at": "2025-01-01T00:01:09.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH6",
+      "name": "Chương 6: Ôn tập tổng hợp",
+      "lessons": [
+        {
+          "code": "MATH7-CH6-L1",
+          "title": "Ôn tập chương Số hữu tỉ và Số thực",
+          "exercises": [
+            {
+              "title": "Kết hợp kiến thức số hữu tỉ và số thực trong bài toán",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\frac{1}{2} + \\sqrt{4} - \\frac{1}{3} \\times \\sqrt{9}$",
+              "hint": "$\\sqrt{4} = 2$, $\\sqrt{9} = 3$. Tính $\\frac{1}{2} + 2 - \\frac{1}{3} \\times 3 = \\frac{1}{2} + 2 - 1 = \\frac{3}{2}$.",
+              "options": {
+                "A": "$\\frac{3}{2}$",
+                "B": "$\\frac{1}{2}$",
+                "C": "$2$",
+                "D": "$\\frac{5}{2}$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:10.000Z"
+            },
+            {
+              "title": "Tính giá trị biểu thức phức tạp với số hữu tỉ và căn bậc hai",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính giá trị biểu thức: $\\sqrt{16} + \\frac{3}{4} \\times \\sqrt{\\frac{16}{9}}$",
+              "hint": "$\\sqrt{16} = 4$, $\\sqrt{\\frac{16}{9}} = \\frac{4}{3}$. Tính $4 + \\frac{3}{4} \\times \\frac{4}{3} = 4 + 1 = 5$.",
+              "options": {
+                "A": "$5$",
+                "B": "$4$",
+                "C": "$6$",
+                "D": "$7$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:11.000Z"
+            },
+            {
+              "title": "So sánh và sắp xếp số hữu tỉ và số thực",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sắp xếp các số sau theo thứ tự tăng dần: $\\sqrt{2}$, $\\frac{3}{2}$, $-1$, $0$",
+              "hint": "$\\sqrt{2} \\approx 1.414$, $\\frac{3}{2} = 1.5$. Sắp xếp: $-1 < 0 < \\sqrt{2} < \\frac{3}{2}$.",
+              "options": {
+                "A": "$-1 < 0 < \\sqrt{2} < \\frac{3}{2}$",
+                "B": "$0 < -1 < \\sqrt{2} < \\frac{3}{2}$",
+                "C": "$\\sqrt{2} < \\frac{3}{2} < 0 < -1$",
+                "D": "$\\frac{3}{2} < \\sqrt{2} < 0 < -1$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:12.000Z"
+            },
+            {
+              "title": "Giải bài toán tổng hợp về số hữu tỉ và số thực",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một hình chữ nhật có chiều dài $\\sqrt{18}$ cm và chiều rộng $\\frac{3}{2}$ cm. Diện tích hình chữ nhật là:",
+              "hint": "Diện tích = $\\sqrt{18} \\times \\frac{3}{2} = 3\\sqrt{2} \\times \\frac{3}{2} = \\frac{9\\sqrt{2}}{2}$ cm².",
+              "options": {
+                "A": "$\\frac{9\\sqrt{2}}{2}$ cm²",
+                "B": "$\\frac{9}{2}$ cm²",
+                "C": "$9$ cm²",
+                "D": "$\\sqrt{18}$ cm²"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:13.000Z"
+            },
+            {
+              "title": "Vận dụng tính chất số hữu tỉ và số thực",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phát biểu nào đúng về số hữu tỉ và số thực?",
+              "hint": "Tập hợp số hữu tỉ là tập con của tập hợp số thực. Mọi số hữu tỉ đều là số thực.",
+              "options": {
+                "A": "Mọi số hữu tỉ đều là số thực",
+                "B": "Mọi số thực đều là số hữu tỉ",
+                "C": "Số hữu tỉ và số thực không liên quan",
+                "D": "Số thực là tập con của số hữu tỉ"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:14.000Z"
+            },
+            {
+              "title": "Tự luận: Tính giá trị biểu thức: $\\frac{1}{2} + \\sqrt{4} - \\frac{3}{5} \\times \\sqrt{\\frac{9}{25}}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính giá trị biểu thức: $\\frac{1}{2} + \\sqrt{4} - \\frac{3}{5} \\times \\sqrt{\\frac{9}{25}}$",
+              "hint": "$\\sqrt{4} = 2$, $\\sqrt{\\frac{9}{25}} = \\frac{3}{5}$. Tính $\\frac{1}{2} + 2 - \\frac{3}{5} \\times \\frac{3}{5} = \\frac{1}{2} + 2 - \\frac{9}{25}$.",
+              "answer": "$\\sqrt{4} = 2$, $\\sqrt{\\frac{9}{25}} = \\frac{3}{5}$. Ta có: $\\frac{1}{2} + 2 - \\frac{3}{5} \\times \\frac{3}{5} = \\frac{1}{2} + 2 - \\frac{9}{25} = \\frac{25}{50} + \\frac{100}{50} - \\frac{18}{50} = \\frac{107}{50}$.",
+              "created_at": "2025-01-01T00:01:15.000Z"
+            },
+            {
+              "title": "Tự luận: Sắp xếp các số sau theo thứ tự tăng dần: $\\sqrt{2}, \\frac{3}{2}, -1, 0, \\sqrt{9}, -\\frac{1}{2}, \\sqrt{5}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Sắp xếp các số sau theo thứ tự tăng dần: $\\sqrt{2}, \\frac{3}{2}, -1, 0, \\sqrt{9}, -\\frac{1}{2}, \\sqrt{5}$",
+              "hint": "Chuyển về số thập phân: $\\sqrt{2} \\approx 1.414$, $\\frac{3}{2} = 1.5$, $\\sqrt{9} = 3$, $\\sqrt{5} \\approx 2.236$. Sắp xếp từ nhỏ đến lớn.",
+              "answer": "Thứ tự tăng dần: $-1 < -\\frac{1}{2} < 0 < \\sqrt{2} < \\frac{3}{2} < \\sqrt{5} < \\sqrt{9}$.",
+              "created_at": "2025-01-01T00:01:16.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH7-CH6-L2",
+          "title": "Ôn tập hình học và dữ liệu",
+          "exercises": [
+            {
+              "title": "Kết hợp kiến thức hình học và dữ liệu trong bài toán",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một tam giác vuông có diện tích $\\frac{25}{2}$ cm² và một cạnh góc vuông bằng $5$ cm. Cạnh góc vuông còn lại dài:",
+              "hint": "Diện tích tam giác vuông = $\\frac{1}{2} \\times$ cạnh 1 $\\times$ cạnh 2. Từ đó tính cạnh còn lại.",
+              "options": {
+                "A": "$5$ cm",
+                "B": "$\\frac{5}{2}$ cm",
+                "C": "$10$ cm",
+                "D": "$\\frac{10}{3}$ cm"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:17.000Z"
+            },
+            {
+              "title": "Áp dụng tính chất góc và tam giác bằng nhau",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong tam giác $ABC$, nếu $\\triangle ABC = \\triangle DEF$ và $\\angle A = 50^\\circ$, thì:",
+              "hint": "Khi hai tam giác bằng nhau, các góc tương ứng đều bằng nhau. $\\angle D = \\angle A = 50^\\circ$.",
+              "options": {
+                "A": "$\\angle D = 50^\\circ$",
+                "B": "$\\angle D = 130^\\circ$",
+                "C": "$\\angle D = 40^\\circ$",
+                "D": "$\\angle D = 90^\\circ$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:18.000Z"
+            },
+            {
+              "title": "Đọc và phân tích biểu đồ kết hợp với tính toán",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Từ biểu đồ cột, nếu biết 3 trong 4 cột có giá trị 10, 15, 20 và tổng của cả 4 cột là 60, thì cột còn lại có giá trị:",
+              "hint": "Giá trị cột còn lại = Tổng - Tổng 3 cột đã biết = 60 - (10 + 15 + 20) = 15.",
+              "options": {
+                "A": "$15$",
+                "B": "$20$",
+                "C": "$25$",
+                "D": "$30$"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:19.000Z"
+            },
+            {
+              "title": "Giải bài toán tổng hợp về hình học và dữ liệu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một hình vuông có chu vi $\\frac{20}{3}$ m. Diện tích hình vuông là:",
+              "hint": "Cạnh hình vuông = Chu vi / 4 = $\\frac{20}{3} \\div 4 = \\frac{5}{3}$ m. Diện tích = $(\\frac{5}{3})^2 = \\frac{25}{9}$ m².",
+              "options": {
+                "A": "$\\frac{25}{9}$ m²",
+                "B": "$\\frac{20}{9}$ m²",
+                "C": "$\\frac{5}{3}$ m²",
+                "D": "$\\frac{10}{3}$ m²"
+              },
+              "correctOption": "A",
+              "created_at": "2025-01-01T00:01:20.000Z"
+            },
+            {
+              "title": "Vận dụng nhiều kiến thức cùng lúc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Để giải một bài toán tổng hợp, ta cần:",
+              "hint": "Kết hợp nhiều kiến thức: số học, hình học, thống kê, v.v. và áp dụng từng bước một cách logic.",
+              "options": {
+                "A": "Kết hợp nhiều kiến thức",
+                "B": "Áp dụng từng bước logic",
+                "C": "Kiểm tra kết quả",
+                "D": "Tất cả các phương án trên"
+              },
+              "correctOption": "D",
+              "created_at": "2025-01-01T00:01:21.000Z"
+            },
+            {
+              "title": "Tự luận: Cho biểu đồ cột thể hiện số bài tập Toán, Văn, Anh một học sinh làm trong tuần. Tính tổng số bài tập, môn nào làm nhiều nhất, và nhận xét",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho biểu đồ cột thể hiện số bài tập Toán, Văn, Anh một học sinh làm trong tuần. Tính tổng số bài tập, môn nào làm nhiều nhất, và nhận xét",
+              "hint": "Đọc giá trị từ biểu đồ, tính tổng, so sánh để tìm môn làm nhiều nhất, đưa ra nhận xét về thói quen học tập.",
+              "answer": "Ví dụ: Toán: 15 bài, Văn: 10 bài, Anh: 12 bài. Tổng = 37 bài. Môn làm nhiều nhất: Toán (15 bài). Nhận xét: Học sinh tập trung nhiều vào môn Toán, cần cân bằng thời gian cho các môn khác.",
+              "created_at": "2025-01-01T00:01:22.000Z"
+            },
+            {
+              "title": "Tự luận: Cho hình vẽ có hai đường thẳng song song bị cắt bởi một đường thẳng thứ ba. Biết một góc bằng $45^\\circ$. Tính số đo tất cả các góc còn lại",
+              "type": "essay",
+              "points": 3,
+              "question": "Cho hình vẽ có hai đường thẳng song song bị cắt bởi một đường thẳng thứ ba. Biết một góc bằng $45^\\circ$. Tính số đo tất cả các góc còn lại",
+              "hint": "Các góc so le trong và góc đồng vị đều bằng nhau. Góc kề bù với $45^\\circ$ là $135^\\circ$. Các góc trong cùng phía bù nhau.",
+              "answer": "Các góc bằng $45^\\circ$ hoặc $135^\\circ$ (góc kề bù). Cụ thể: góc so le trong và góc đồng vị đều bằng $45^\\circ$ hoặc $135^\\circ$. Các góc trong cùng phía: một góc $45^\\circ$ và một góc $135^\\circ$, tổng bằng $180^\\circ$.",
+              "created_at": "2025-01-01T00:01:23.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

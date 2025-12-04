@@ -1,0 +1,219 @@
+{
+  "grade": 7,
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG7",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 7 English (Lớp 7 Tiếng Anh) - basic practice",
+  "lessons": [
+    {
+      "code": "ENG7-CH1-L1",
+      "chapter": "My House and My School",
+      "lessonTitle": "Rooms in the house",
+      "exercises": [
+        {
+          "title": "Choose the correct word: This is the ______ (kitchen / pencil).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Match the words with pictures: bedroom, bathroom, living room, garden.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct option: I sleep in the ______ (bedroom / kitchen).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Complete: There ______ a sofa in the living room. (A) is (B) are (C) be",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose: The ______ is where we cook food. (A) bedroom (B) kitchen (C) bathroom)",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Writing: Write 3 simple sentences to describe your house (for example: There is a living room. There are two bedrooms. ...).",
+          "type": "essay",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 4 sentences about the rooms in your house and what you do in each room.",
+          "type": "essay",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L2",
+      "chapter": "My House and My School",
+      "lessonTitle": "Places at school",
+      "exercises": [
+        {
+          "title": "Choose the correct place: We read books in the ______ (library / bathroom).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct answer: We have lunch in the ______ (canteen / garden).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct sentence: (A) There is a playground at my school. (B) There are a playground at my school.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Complete: We do experiments in the ______. (A) library (B) laboratory (C) canteen",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose: Students play sports in the ______. (A) library (B) playground (C) classroom",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Writing: Write 3 sentences about your school using \"There is / There are\" (for example: There is a library. There are 20 classrooms. ...).",
+          "type": "essay",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 4 sentences describing your favorite place at school and why you like it.",
+          "type": "essay",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L3",
+      "chapter": "My House and My School",
+      "lessonTitle": "Daily routines – Present Simple",
+      "exercises": [
+        {
+          "title": "Choose the correct form: She ______ (get / gets) up at 6 a.m.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct adverb: He ______ (always / never) does his homework.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct sentence: (A) I go to school every day. (B) I goes to school every day.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Complete: They ______ breakfast at 7 o'clock. (A) have (B) has (C) having",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose: My sister ______ to school by bus. (A) go (B) goes (C) going",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Writing: Write 4 sentences about your daily routine using Present Simple (for example: I get up at 6 a.m. I have breakfast at 6:30. ...).",
+          "type": "essay",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 5 sentences about what you do on weekends using Present Simple.",
+          "type": "essay",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L1",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Health problems and advice",
+      "exercises": [
+        {
+          "title": "Choose the correct word: I have a ______ (headache / homework).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the best advice: I have a fever. I ______ (should / shouldn't) go to school.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct answer: I have a toothache. I should go to the ______ (dentist / teacher).",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Complete: You look sick. You ______ see a doctor. (A) should (B) shouldn't (C) can",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose: If you have a cold, you ______ drink warm water. (A) should (B) shouldn't (C) must",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Writing: Write 3 sentences giving advice using \"should / shouldn't\" (for example: You should drink water. You shouldn't eat too much fast food. ...).",
+          "type": "essay",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 4 sentences about what you should do to stay healthy.",
+          "type": "essay",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L2",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Talking about hobbies",
+      "exercises": [
+        {
+          "title": "Choose the correct word: My favourite ______ is reading. (hobby / healthy)",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the best answer: I ______ playing football. (like / am interested)",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose the correct phrase: (A) I am interested in music. (B) I am interest in music.",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Complete: She likes ______ books. (A) read (B) reading (C) to read",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Choose: My hobby is ______ stamps. (A) collect (B) collecting (C) to collect",
+          "type": "multiple_choice",
+          "points": 1
+        },
+        {
+          "title": "Writing: Write 4 sentences about your hobby (what it is, when you do it, why you like it).",
+          "type": "essay",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 5 sentences about a hobby you would like to try and why.",
+          "type": "essay",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

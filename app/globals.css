@@ -422,3 +422,53 @@ section {
 .fade-in {
   animation: fadeIn 0.6s ease-out;
 }
+
+/* KaTeX LaTeX Rendering - Ensure text color is black (#000) on white background */
+.katex {
+  color: #000 !important; /* Pure black for maximum contrast on white */
+  font-size: 1.1em;
+}
+
+.katex * {
+  color: #000 !important; /* Force all KaTeX elements to be black */
+}
+
+/* Ensure KaTeX text elements are black */
+.katex .mord,
+.katex .mop,
+.katex .mbin,
+.katex .mrel,
+.katex .mopen,
+.katex .mclose,
+.katex .mpunct,
+.katex .mfrac,
+.katex .sqrt,
+.katex .mroot,
+.katex .mfrac > .vlist-t > .vlist-r > .vlist,
+.katex .mfrac > .vlist-t > .vlist-r > .vlist > .vlist,
+.katex .mfrac > .vlist-t > .vlist-r > .vlist > .vlist > .mord {
+  color: #000 !important;
+}
+
+/* Ensure operators and symbols are black */
+.katex .mrel,
+.katex .mbin,
+.katex .mop {
+  color: #000 !important;
+}
+
+/* Ensure all text nodes in KaTeX are black */
+.katex .mord,
+.katex .mop,
+.katex .mbin,
+.katex .mrel,
+.katex .mopen,
+.katex .mclose,
+.katex .mpunct,
+.katex .mfrac,
+.katex .sqrt,
+.katex .mroot,
+.katex .msupsub,
+.katex .msubsup {
+  color: #000 !important;
+}

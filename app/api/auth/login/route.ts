@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { verifyPassword, generateToken } from '@/lib/auth';
+import { errorResponse, successResponse } from '@/lib/api-response';
 import { z } from 'zod';
 
 const loginSchema = z.object({
@@ -19,27 +20,18 @@ export async function POST(request: NextRequest) {
     });
 
     if (!user) {
-      return NextResponse.json(
-        { error: 'Invalid username or password' },
-        { status: 401 }
-      );
+      return errorResponse('Tên đăng nhập hoặc mật khẩu không đúng', 401);
     }
 
     // Check if user is active
     if (!user.isActive) {
-      return NextResponse.json(
-        { error: 'Account is deactivated' },
-        { status: 403 }
-      );
+      return errorResponse('Tài khoản đã bị vô hiệu hóa', 403);
     }
 
     // Verify password
     const isValidPassword = await verifyPassword(password, user.passwordHash);
     if (!isValidPassword) {
-      return NextResponse.json(
-        { error: 'Invalid username or password' },
-        { status: 401 }
-      );
+      return errorResponse('Tên đăng nhập hoặc mật khẩu không đúng', 401);
     }
 
     // Generate token
@@ -49,31 +41,42 @@ export async function POST(request: NextRequest) {
       role: user.role,
     });
 
-    return NextResponse.json({
-      user: {
-        id: user.id,
-        username: user.username,
-        name: user.name,
-        displayName: user.displayName,
-        email: user.email,
-        role: user.role,
-        avatarUrl: user.avatarUrl,
+    // Create response with user data
+    const response = successResponse(
+      {
+        user: {
+          id: user.id,
+          username: user.username,
+          name: user.name,
+          displayName: user.displayName,
+          email: user.email,
+          role: user.role,
+          avatarUrl: user.avatarUrl,
+          gradeId: user.gradeId,
+          level: user.level,
+        },
+        token,
       },
-      token,
+      'Đăng nhập thành công!'
+    );
+
+    // Set token in HTTP-only cookie for security
+    response.cookies.set('token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: 60 * 60 * 24 * 7, // 7 days
+      path: '/',
     });
+
+    return response;
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return NextResponse.json(
-        { error: 'Validation error', details: error.errors },
-        { status: 400 }
-      );
+      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.errors });
     }
 
     console.error('Login error:', error);
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
-    );
+    return errorResponse('Đã xảy ra lỗi. Vui lòng thử lại sau', 500);
   }
 }
 

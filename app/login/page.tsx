@@ -1,10 +1,12 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { authRepository } from '@/repositories/auth.repository';
 
 export default function LoginPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [formData, setFormData] = useState({
     username: '',
     password: '',
@@ -12,35 +14,38 @@ export default function LoginPage() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    // Check if already logged in (cookie-based)
+    const checkAuth = async () => {
+      try {
+        await authRepository.getMe();
+        const redirect = searchParams.get('redirect') || '/dashboard';
+        router.push(redirect);
+      } catch {
+        // Not logged in, stay on login page
+      }
+    };
+    checkAuth();
+  }, [router, searchParams]);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
     setLoading(true);
 
     try {
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      const data = await authRepository.login(formData);
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        setError(data.error || 'Đăng nhập thất bại');
-        return;
-      }
-
-      // Store token
+      // Store token in localStorage for backward compatibility (optional)
       localStorage.setItem('token', data.token);
       localStorage.setItem('user', JSON.stringify(data.user));
 
-      // Redirect to dashboard
-      router.push('/dashboard');
+      // Redirect to dashboard or the redirect URL
+      const redirect = searchParams.get('redirect') || '/dashboard';
+      router.push(redirect);
     } catch (err) {
-      setError('Có lỗi xảy ra. Vui lòng thử lại.');
+      const errorMessage = err instanceof Error ? err.message : 'Có lỗi xảy ra. Vui lòng thử lại.';
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }

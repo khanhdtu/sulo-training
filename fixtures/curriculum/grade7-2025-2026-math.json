@@ -1,0 +1,93 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Toán",
+  "subjectCode": "MATH7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Số hữu tỉ",
+      "lessons": [
+        {
+          "code": "MATH7-CH1-L1",
+          "title": "Nhắc lại khái niệm số hữu tỉ"
+        },
+        {
+          "code": "MATH7-CH1-L2",
+          "title": "Phép toán với số hữu tỉ"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Số thực",
+      "lessons": [
+        {
+          "code": "MATH7-CH2-L1",
+          "title": "Căn bậc hai và số vô tỉ"
+        },
+        {
+          "code": "MATH7-CH2-L2",
+          "title": "Số thực trên trục số"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Góc và đường thẳng song song",
+      "lessons": [
+        {
+          "code": "MATH7-CH3-L1",
+          "title": "Phân loại các loại góc"
+        },
+        {
+          "code": "MATH7-CH3-L2",
+          "title": "Góc so le trong, đồng vị, trong cùng phía"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Tam giác bằng nhau",
+      "lessons": [
+        {
+          "code": "MATH7-CH4-L1",
+          "title": "Các trường hợp bằng nhau của tam giác"
+        },
+        {
+          "code": "MATH7-CH4-L2",
+          "title": "Giải bài toán dùng tam giác bằng nhau"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Thu thập và biểu diễn dữ liệu",
+      "lessons": [
+        {
+          "code": "MATH7-CH5-L1",
+          "title": "Thu thập dữ liệu"
+        },
+        {
+          "code": "MATH7-CH5-L2",
+          "title": "Biểu đồ cột và biểu đồ đoạn thẳng"
+        }
+      ]
+    },
+    {
+      "code": "CH6",
+      "name": "Chương 6: Ôn tập tổng hợp",
+      "lessons": [
+        {
+          "code": "MATH7-CH6-L1",
+          "title": "Ôn tập chương Số hữu tỉ và Số thực"
+        },
+        {
+          "code": "MATH7-CH6-L2",
+          "title": "Ôn tập hình học và dữ liệu"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}

@@ -1,0 +1,219 @@
+{
+  "grade": 7,
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG7",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 7 English (Lớp 7 Tiếng Anh) - advanced practice",
+  "lessons": [
+    {
+      "code": "ENG7-CH1-L1",
+      "chapter": "My House and My School",
+      "lessonTitle": "Rooms in the house",
+      "exercises": [
+        {
+          "title": "Choose the best answer: My house ______ a small garden and a big garage. (A) have (B) has (C) is having",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: There ______ three bedrooms but there ______ only one bathroom. (A) is / is (B) are / is (C) are / are",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: The room ______ a large window that looks out over the street. (A) has (B) is (C) have",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the correct sentence: (A) My house has got a beautiful garden. (B) My house have got a beautiful garden. (C) My house is got a beautiful garden.",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Complete: The kitchen is ______ the ground floor, ______ the dining room. (A) in / next to (B) on / next to (C) at / beside",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Writing (advanced): Write a paragraph (8–10 sentences) describing your dream house. Include where it is, how many rooms it has, what special things there are in each room, and why you like it.",
+          "type": "essay",
+          "points": 4
+        },
+        {
+          "title": "Writing (advanced): Write an essay comparing living in a house versus living in an apartment. Discuss advantages and disadvantages of each.",
+          "type": "essay",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L2",
+      "chapter": "My House and My School",
+      "lessonTitle": "Places at school",
+      "exercises": [
+        {
+          "title": "Choose the best answer: Our school library is ______ place for students who love reading. (A) a quiet (B) quiet (C) the quiet",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: The science lab is ______ the second floor, next ______ the computer room. (A) in / to (B) on / to (C) on / to the",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: There ______ many trees around the playground, so it is very cool in summer. (A) is (B) are (C) be",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Complete: The gymnasium is ______ the sports field, ______ students can play basketball. (A) near / where (B) next to / which (C) beside / that",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose: We have our chemistry lessons in the ______ on the third floor. (A) laboratory (B) library (C) canteen",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Writing (advanced): Write a paragraph (8–10 sentences) describing your school, focusing on special places (library, labs, playground, canteen) and how students use them every day.",
+          "type": "essay",
+          "points": 4
+        },
+        {
+          "title": "Writing (advanced): Write an essay about how school facilities affect students' learning. Discuss the importance of different places in a school.",
+          "type": "essay",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L3",
+      "chapter": "My House and My School",
+      "lessonTitle": "Present Simple – daily routine",
+      "exercises": [
+        {
+          "title": "Choose the best answer: She ______ her homework before dinner every day. (A) do (B) does (C) is doing",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: My parents ______ TV in the evening but they ______ go to bed late. (A) watch / don't (B) watches / don't (C) watch / doesn't",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: How often ______ you ______ English outside the classroom? (A) do / practise (B) does / practise (C) do / practises",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Complete: I ______ to the library twice a week to study. (A) go (B) goes (C) am going",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose: They ______ their friends on weekends. (A) meet (B) meets (C) is meeting",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Writing (advanced): Write a diary-style paragraph (8–10 sentences) describing a typical school day for you. Use Present Simple and at least three adverbs of frequency (always, usually, often, sometimes, never).",
+          "type": "essay",
+          "points": 4
+        },
+        {
+          "title": "Writing (advanced): Write an essay comparing your daily routine with your best friend's routine. Use Present Simple and time expressions.",
+          "type": "essay",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L1",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Health problems and advice",
+      "exercises": [
+        {
+          "title": "Choose the best answer: You look very tired. You ______ go to bed earlier. (A) should (B) shouldn't (C) mustn't",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: You have a toothache. You ______ eat too many sweets. (A) should (B) shouldn't (C) can",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: She has a high fever, so she ______ stay at home and ______ see a doctor. (A) should / should (B) shouldn't / should (C) should / shouldn't",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Complete: If you have a headache, you ______ take medicine and ______ rest. (A) should / should (B) shouldn't / should (C) should / shouldn't",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose: He feels dizzy. He ______ drive a car. (A) should (B) shouldn't (C) must",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Writing (advanced): Write a short email (8–10 sentences) to a friend who is ill, describing his/her health problems and giving advice using \"should\" and \"shouldn't\".",
+          "type": "essay",
+          "points": 4
+        },
+        {
+          "title": "Writing (advanced): Write an essay about healthy lifestyle habits. Discuss what people should and shouldn't do to maintain good health.",
+          "type": "essay",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L2",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Talking about hobbies",
+      "exercises": [
+        {
+          "title": "Choose the best answer: I ______ playing chess because it helps me think carefully. (A) enjoy (B) am enjoy (C) enjoys",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: She is very good ______ drawing and painting. (A) at (B) in (C) on",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose the best answer: My brother ______ collecting coins for five years. (A) has (B) has been (C) has been",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Complete: I spend my free time ______ novels and ______ to music. (A) reading / listening (B) read / listen (C) to read / to listen",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Choose: Her hobby is ______ photographs of nature. (A) take (B) taking (C) to take",
+          "type": "multiple_choice",
+          "points": 3
+        },
+        {
+          "title": "Writing (advanced): Write a paragraph (10–12 sentences) about a hobby that is good for your health. Explain what it is, how to do it, and why it is healthy.",
+          "type": "essay",
+          "points": 4
+        },
+        {
+          "title": "Writing (advanced): Write an essay comparing two different hobbies and discuss which one you prefer and why.",
+          "type": "essay",
+          "points": 4
+        }
+      ]
+    }
+  ]
+}

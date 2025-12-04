@@ -1,0 +1,219 @@
+{
+  "grade": 7,
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG7",
+  "difficulty": "medium",
+  "description": "Medium exercises for Grade 7 English (Lớp 7 Tiếng Anh) - standard practice",
+  "lessons": [
+    {
+      "code": "ENG7-CH1-L1",
+      "chapter": "My House and My School",
+      "lessonTitle": "Rooms in the house",
+      "exercises": [
+        {
+          "title": "Choose the best answer: There ______ a big kitchen in my house. (A) is (B) are (C) be",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: There ______ two bedrooms upstairs. (A) is (B) are (C) am",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best option: Our living room is on the ______ floor. (A) one (B) first (C) firstly",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Complete the sentence: The ______ has a sofa and a TV. (A) bedroom (B) living room (C) bathroom",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the correct form: There ______ many rooms in my house. (A) is (B) are (C) be",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Writing: Describe your house in 5–6 sentences (number of rooms, what is in each room, which room you like most and why).",
+          "type": "essay",
+          "points": 3
+        },
+        {
+          "title": "Writing: Write a paragraph comparing your house with your friend's house. Use \"There is/There are\" and descriptive adjectives.",
+          "type": "essay",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L2",
+      "chapter": "My House and My School",
+      "lessonTitle": "Places at school",
+      "exercises": [
+        {
+          "title": "Choose the best answer: Students usually have lunch in the ______. (A) library (B) canteen (C) classroom",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: We can borrow books from the ______. (A) playground (B) gym (C) library",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the correct sentence: (A) There are a big playground at my school. (B) There is a big playground at my school. (C) There be a big playground at my school.",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Complete: The science lab is ______ the second floor. (A) in (B) on (C) at",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose: We do experiments in the ______. (A) library (B) laboratory (C) canteen",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 5 sentences to describe your school (buildings, playground, library, canteen, etc.).",
+          "type": "essay",
+          "points": 3
+        },
+        {
+          "title": "Writing: Write a paragraph about your favorite place at school and explain why you like it.",
+          "type": "essay",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH1-L3",
+      "chapter": "My House and My School",
+      "lessonTitle": "Present Simple – daily routine",
+      "exercises": [
+        {
+          "title": "Choose the best answer: He ______ to school at 7 a.m. (A) go (B) goes (C) going",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: They ______ TV in the evening. (A) watch (B) watches (C) watching",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: She ______ breakfast at 6:30 every day. (A) have (B) has (C) having",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the correct adverb: I ______ do my homework after dinner. (A) always (B) always do (C) do always",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Complete: My sister ______ up at 6 o'clock. (A) get (B) gets (C) getting",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write a short paragraph (6–8 sentences) about your weekday routine using Present Simple and adverbs of frequency (always, usually, often, sometimes, never).",
+          "type": "essay",
+          "points": 3
+        },
+        {
+          "title": "Writing: Write about your weekend routine and compare it with your weekday routine.",
+          "type": "essay",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L1",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Health problems and advice",
+      "exercises": [
+        {
+          "title": "Choose the best answer: I have a ______. I can't eat anything. (A) headache (B) toothache (C) stomachache",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: You ______ drink more water. (A) should (B) shouldn't (C) mustn't",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: He has a fever, so he ______ go to school today. (A) should (B) shouldn't (C) can",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Complete: I have a sore throat. I ______ see a doctor. (A) should (B) shouldn't (C) must",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose: You look tired. You ______ go to bed early. (A) should (B) shouldn't (C) can't",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write 4–5 sentences giving advice to a friend who has a cold (using \"should\" and \"shouldn't\").",
+          "type": "essay",
+          "points": 3
+        },
+        {
+          "title": "Writing: Write a paragraph about what you should and shouldn't do to stay healthy.",
+          "type": "essay",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "code": "ENG7-CH2-L2",
+      "chapter": "Health and Hobbies",
+      "lessonTitle": "Talking about hobbies",
+      "exercises": [
+        {
+          "title": "Choose the best answer: My favourite ______ is playing badminton. (A) hobby (B) job (C) food",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: I ______ collecting stamps. (A) am interested in (B) am interested (C) interested in",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose the best answer: He ______ reading books in his free time. (A) like (B) likes (C) is like",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Complete: She is good ______ drawing. (A) at (B) in (C) on",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Choose: My hobby is ______ music. (A) listen to (B) listening to (C) to listen",
+          "type": "multiple_choice",
+          "points": 2
+        },
+        {
+          "title": "Writing: Write a short paragraph (5–7 sentences) about your favourite hobby (what it is, when you do it, who you do it with, why you enjoy it).",
+          "type": "essay",
+          "points": 3
+        },
+        {
+          "title": "Writing: Write about a hobby you would like to try and explain why it interests you.",
+          "type": "essay",
+          "points": 3
+        }
+      ]
+    }
+  ]
+}

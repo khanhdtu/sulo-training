@@ -31,6 +31,18 @@ CREATE TABLE IF NOT EXISTS grades (
     updated_at TIMESTAMP DEFAULT NOW() NOT NULL
 );
 
+-- Create curricula table (chương trình học chung cho tất cả các level)
+CREATE TABLE IF NOT EXISTS curricula (
+    id SERIAL PRIMARY KEY,
+    grade_id INTEGER NOT NULL REFERENCES grades(id),
+    course_year VARCHAR(50) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    lessons JSONB NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW() NOT NULL,
+    updated_at TIMESTAMP DEFAULT NOW() NOT NULL,
+    UNIQUE(grade_id, course_year, subject)
+);
+
 -- Create subjects table
 CREATE TABLE IF NOT EXISTS subjects (
     id SERIAL PRIMARY KEY,
