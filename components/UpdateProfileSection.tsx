@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { useUser } from '@/contexts/UserContext';
 import { userRepository } from '@/repositories/user.repository';
-import { showToastFromResponse } from '@/lib/toast';
 
 interface UpdateProfileSectionProps {
   onUpdate?: () => void;
@@ -64,14 +63,13 @@ export default function UpdateProfileSection({ onUpdate }: UpdateProfileSectionP
       };
       const level = levelMap[formData.difficulty] || 1;
 
-      const response = await userRepository.updateProfile({
+      await userRepository.updateProfile({
         gradeId: formData.gradeId,
         level: level,
         displayName: formData.displayName || null,
       });
 
-      showToastFromResponse(response);
-      
+      // Toast is already handled by the request wrapper in lib/request.ts
       // Refresh user data
       await refreshUser();
       

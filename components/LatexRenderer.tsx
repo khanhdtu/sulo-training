@@ -60,15 +60,6 @@ export function LatexText({ text, className }: { text: string; className?: strin
     if (isClient && text) {
       // Unescape double backslashes
       const unescaped = text.replace(/\\\\/g, '\\');
-      console.log('🔍 LaTeX Text Debug:', {
-        original: text,
-        unescaped: unescaped,
-        length: text.length,
-        hasFrac: text.includes('frac'),
-        hasDollar: text.includes('$'),
-        hasDoubleBackslash: text.includes('\\\\'),
-        charCodes: text.slice(0, 50).split('').map(c => c.charCodeAt(0)),
-      });
     }
   }, [text, isClient]);
 
@@ -198,16 +189,6 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
   const hasLatexCommands = /\\[a-zA-Z]+(\{[^}]*\})*/.test(processedText);
   const hasDelimiters = /\$|\$\$/.test(processedText);
   
-  // Debug: Log text being parsed
-  console.log('🔍 parseTextForLatex - Input:', {
-    original: text,
-    processed: processedText,
-    length: text.length,
-    firstChars: text.slice(0, 100),
-    hasLatexCommands,
-    hasDelimiters,
-  });
-  
   // Simple approach: find all LaTeX patterns and convert them
   // Pattern order matters - more specific first
   const patterns = [
@@ -254,12 +235,6 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
       
       if (!overlaps) {
         const converted = pattern.convert(match);
-        console.log(`✅ Pattern "${pattern.name}" matched:`, {
-          original: match[0],
-          converted,
-          index: match.index,
-          fullMatch: match,
-        });
         matches.push({
           index: match.index!,
           length: match[0].length,
@@ -270,8 +245,6 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
       }
     }
   }
-
-  console.log('📊 Total matches found:', matches.length, matches);
 
   // Sort matches by index
   matches.sort((a, b) => a.index - b.index);

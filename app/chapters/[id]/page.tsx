@@ -26,21 +26,35 @@ export default function ChapterPage() {
   const [error, setError] = useState('');
   const [showSubmitModal, setShowSubmitModal] = useState(false);
   const [missingQuestions, setMissingQuestions] = useState<number[]>([]);
-  const fetchingRef = useRef(false);
+  const fetchingRef = useRef<string | null>(null);
+  const requestIdRef = useRef<number>(0);
   const fileInputRefs = useRef<Record<string, HTMLInputElement | null>>({});
 
   useEffect(() => {
-    if (fetchingRef.current) return;
+    if (!chapterId) {
+      return;
+    }
+    
+    // Prevent duplicate calls - check if already fetching this chapterId
+    if (fetchingRef.current === chapterId) {
+      return;
+    }
+    
+    // Generate unique request ID for this fetch attempt
+    const currentRequestId = ++requestIdRef.current;
+    const isCancelledRef = { current: false };
+    
+    fetchingRef.current = chapterId;
 
     const fetchChapter = async () => {
-      if (!chapterId) return;
-
-      fetchingRef.current = true;
       try {
         setLoading(true);
         setError('');
 
         const data = await chapterRepository.getChapterById(parseInt(chapterId));
+        
+        // Only update state if this request hasn't been cancelled
+        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
         setChapter(data.chapter);
         setExercises(data.exercises);
         setCurrentExercise(data.currentExercise);
@@ -92,17 +106,28 @@ export default function ChapterPage() {
           setAnswers(initialAnswers);
           setCurrentQuestionIndex(0); // Reset to first question
         }
+          setLoading(false);
+        }
       } catch (err) {
-        const errorMessage = err instanceof Error ? err.message : 'Không thể tải thông tin chương';
-        setError(errorMessage);
-        console.error('Failed to fetch chapter:', err);
-      } finally {
-        setLoading(false);
-        fetchingRef.current = false;
+        // Only update state if this request hasn't been cancelled
+        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
+          const errorMessage = err instanceof Error ? err.message : 'Không thể tải thông tin chương';
+          setError(errorMessage);
+          setLoading(false);
+          console.error('Failed to fetch chapter:', err);
+        }
       }
     };
 
     fetchChapter();
+    
+    // Cleanup function - mark this request as cancelled
+    return () => {
+      isCancelledRef.current = true;
+      if (fetchingRef.current === chapterId) {
+        fetchingRef.current = null;
+      }
+    };
 
     return () => {
       fetchingRef.current = false;

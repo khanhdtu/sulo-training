@@ -4,9 +4,14 @@ import { addMessageToConversation, getConversation } from '@/lib/conversation';
 import { z } from 'zod';
 
 const addMessageSchema = z.object({
-  message: z.string().min(1),
+  message: z.string(),
   imageUrls: z.array(z.string().url()).optional(),
-});
+}).refine(
+  (data) => data.message.trim().length > 0 || (data.imageUrls && data.imageUrls.length > 0),
+  {
+    message: "Message is required or at least one image must be provided",
+  }
+);
 
 export async function POST(
   request: NextRequest,
@@ -40,7 +45,7 @@ export async function POST(
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
-        { error: 'Validation error', details: error.errors },
+        { error: 'Validation error', details: error.issues },
         { status: 400 }
       );
     }
@@ -79,9 +84,21 @@ export async function GET(
       );
     }
 
+    // Type assertion: getConversation returns conversation with messages
+    const conversationWithMessages = conversation as typeof conversation & {
+      messages: Array<{
+        id: number;
+        role: string;
+        content: string;
+        order: number;
+        createdAt: Date;
+        conversationId: number;
+      }>;
+    };
+
     return NextResponse.json({
       conversation,
-      messages: conversation.messages,
+      messages: conversationWithMessages.messages || [],
     });
   } catch (error) {
     if (error instanceof Error && error.message === 'Unauthorized') {

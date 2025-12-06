@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { renderTextWithLatex } from './LatexRenderer';
 
 interface Message {
   id: number;
@@ -140,16 +141,29 @@ export default function ChatWidget() {
         } catch (error) {
           console.error('Failed to send external message:', error);
           setMessages((prev) => prev.filter((m) => m.id !== tempUserMessage.id));
+          
+          // Show error message
+          const errorMessage: Message = {
+            id: Date.now(),
+            role: 'assistant',
+            content: error instanceof Error 
+              ? `Xin lỗi, đã có lỗi xảy ra: ${error.message}` 
+              : 'Xin lỗi, đã có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại.',
+            createdAt: new Date().toISOString(),
+          };
+          setMessages((prev) => [...prev, errorMessage]);
         } finally {
           setLoading(false);
         }
       }
     };
 
-    window.addEventListener('chatWidget:sendMessage' as any, handleExternalMessage as EventListener);
+    const eventType = 'chatWidget:sendMessage';
+    window.addEventListener(eventType, handleExternalMessage as unknown as EventListener);
 
     return () => {
-      window.removeEventListener('chatWidget:sendMessage' as any, handleExternalMessage as EventListener);
+      const eventType = 'chatWidget:sendMessage';
+      window.removeEventListener(eventType, handleExternalMessage as unknown as EventListener);
     };
   }, [currentConversationId]);
 
@@ -197,10 +211,13 @@ export default function ChatWidget() {
     }
   };
 
-  const createNewConversation = async () => {
+  const createNewConversation = async (): Promise<Conversation | null> => {
     try {
       const token = localStorage.getItem('token');
-      if (!token) return;
+      if (!token) {
+        console.error('No token found when creating conversation');
+        return null;
+      }
 
       const response = await fetch('/api/conversations', {
         method: 'POST',
@@ -213,14 +230,24 @@ export default function ChatWidget() {
         }),
       });
 
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to create conversation');
+      }
+
       const data = await response.json();
-      if (data.conversation) {
+      if (data.conversation && data.conversation.id) {
         setConversations([data.conversation, ...conversations]);
         setCurrentConversationId(data.conversation.id);
         setMessages([]);
+        return data.conversation;
+      } else {
+        console.error('Invalid conversation data:', data);
+        return null;
       }
     } catch (error) {
       console.error('Failed to create conversation:', error);
+      throw error; // Re-throw to handle in calling function
     }
   };
 
@@ -256,17 +283,51 @@ export default function ChatWidget() {
   };
 
   const sendMessage = async () => {
-    if ((!input.trim() && selectedImages.length === 0) || loading) return;
+    console.log('sendMessage called', { input: input.trim(), selectedImages: selectedImages.length, loading });
+    
+    if ((!input.trim() && selectedImages.length === 0) || loading) {
+      console.log('sendMessage blocked: no input/images or loading');
+      return;
+    }
 
     // Ensure we have a conversation
     let convId = currentConversationId;
+    console.log('Current conversation ID:', convId);
     if (!convId) {
-      await createNewConversation();
-      // Wait for conversation to be created
-      await new Promise(resolve => setTimeout(resolve, 300));
-      convId = currentConversationId;
-      if (!convId) return; // Still no conversation, abort
+      console.log('Creating new conversation...');
+      try {
+        const newConv = await createNewConversation();
+        console.log('New conversation created:', newConv);
+        if (newConv && newConv.id) {
+          convId = newConv.id;
+          setCurrentConversationId(convId);
+        } else {
+          console.error('Failed to create conversation: no ID returned');
+          setLoading(false);
+          return;
+        }
+      } catch (error) {
+        console.error('Failed to create conversation:', error);
+        setLoading(false);
+        // Show error message
+        const errorMessage: Message = {
+          id: Date.now(),
+          role: 'assistant',
+          content: 'Không thể tạo cuộc trò chuyện mới. Vui lòng thử lại.',
+          createdAt: new Date().toISOString(),
+        };
+        setMessages((prev) => [...prev, errorMessage]);
+        return;
+      }
     }
+    
+    if (!convId) {
+      console.error('No conversation ID available');
+      setLoading(false);
+      return;
+    }
+    
+    console.log('Using conversation ID:', convId);
 
     const userMessage = input.trim();
     setInput('');
@@ -294,6 +355,9 @@ export default function ChatWidget() {
       const token = localStorage.getItem('token');
       if (!token) return;
 
+      // Ensure message is never empty
+      const finalMessage = userMessage.trim() || (imageUrls.length > 0 ? 'Xem ảnh' : 'Nhắn tin');
+      
       const response = await fetch(`/api/conversations/${convId}/messages`, {
         method: 'POST',
         headers: {
@@ -301,19 +365,55 @@ export default function ChatWidget() {
           Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
-          message: userMessage || (imageUrls.length > 0 ? 'Xem ảnh' : ''),
-          imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
+          message: finalMessage,
+          ...(imageUrls.length > 0 && { imageUrls }),
         }),
       });
 
-      const data = await response.json();
-      if (data.assistantMessage) {
-        setMessages((prev) => [...prev, data.assistantMessage]);
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to send message');
       }
+
+      const data = await response.json();
+      
+      // Remove temp message and add real messages from API
+      setMessages((prev) => {
+        const filtered = prev.filter((m) => m.id !== tempUserMessage.id);
+        if (data.userMessage) {
+          filtered.push({
+            id: data.userMessage.id,
+            role: data.userMessage.role,
+            content: data.userMessage.content,
+            createdAt: data.userMessage.createdAt,
+            imageUrls: imageUrls.length > 0 ? imageUrls : undefined,
+          });
+        }
+        if (data.assistantMessage) {
+          filtered.push({
+            id: data.assistantMessage.id,
+            role: data.assistantMessage.role,
+            content: data.assistantMessage.content,
+            createdAt: data.assistantMessage.createdAt,
+          });
+        }
+        return filtered;
+      });
     } catch (error) {
       console.error('Failed to send message:', error);
       // Remove temp message on error
       setMessages((prev) => prev.filter((m) => m.id !== tempUserMessage.id));
+      
+      // Show error message to user
+      const errorMessage: Message = {
+        id: Date.now(),
+        role: 'assistant',
+        content: error instanceof Error 
+          ? `Xin lỗi, đã có lỗi xảy ra: ${error.message}` 
+          : 'Xin lỗi, đã có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại.',
+        createdAt: new Date().toISOString(),
+      };
+      setMessages((prev) => [...prev, errorMessage]);
     } finally {
       setLoading(false);
     }
@@ -350,7 +450,15 @@ export default function ChatWidget() {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+            d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          />
+          <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>
+          <circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"/>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M9 13h6"
           />
         </svg>
       </button>
@@ -360,10 +468,10 @@ export default function ChatWidget() {
         <div className="fixed bottom-24 right-6 w-96 h-[600px] bg-white rounded-lg shadow-2xl flex flex-col z-50 border border-gray-200">
           {/* Header */}
           <div 
-            className="text-white p-4 rounded-t-lg flex justify-between items-center"
+            className="text-white rounded-t-lg flex justify-between items-center pt-4 pl-4"
             style={{ background: 'linear-gradient(135deg, var(--color-primary-orange), var(--color-primary-orange-light))' }}
           >
-            <h3 className="font-semibold">Chat Assistant</h3>
+            <h3 className="font-semibold !text-white">Trợ lý học tập AI</h3>
             <button
               onClick={() => setIsOpen(false)}
               className="text-white hover:opacity-80 transition"
@@ -376,6 +484,15 @@ export default function ChatWidget() {
 
           {/* Messages Area */}
           <div className="flex-1 overflow-y-auto p-4 space-y-4">
+            {messages.length === 0 && !loading && (
+              <div className="flex justify-start">
+                <div className="bg-gray-100 rounded-lg p-4 max-w-[80%]">
+                  <p className="text-sm text-gray-700">
+                    Hãy hỏi mình bất cứ câu hỏi thuộc bất cứ môn học / chủ đề nào mà bạn đang thắc mắc. Mình sẽ giải đáp tận tình, giúp bạn hiểu rõ vấn đề.
+                  </p>
+                </div>
+              </div>
+            )}
             {messages
               .filter((m) => m.role !== 'system')
               .map((message) => (
@@ -396,7 +513,9 @@ export default function ChatWidget() {
                     } : {}}
                   >
                     {message.content && (
-                      <p className="text-sm whitespace-pre-wrap mb-2">{message.content}</p>
+                      <div className="text-sm whitespace-pre-wrap mb-2">
+                        {renderTextWithLatex(message.content)}
+                      </div>
                     )}
                     {message.imageUrls && message.imageUrls.length > 0 && (
                       <div className="space-y-2">
@@ -534,9 +653,22 @@ export default function ChatWidget() {
                 disabled={loading}
               />
               <button
-                onClick={sendMessage}
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  console.log('Send button clicked', {
+                    input: input,
+                    inputTrimmed: input.trim(),
+                    selectedImages: selectedImages.length,
+                    loading,
+                    disabled: loading || (!input.trim() && selectedImages.length === 0)
+                  });
+                  sendMessage();
+                }}
                 disabled={loading || (!input.trim() && selectedImages.length === 0)}
                 className="px-4 py-2 text-white rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                title={loading ? 'Đang gửi...' : (!input.trim() && selectedImages.length === 0) ? 'Vui lòng nhập tin nhắn hoặc chọn ảnh' : 'Gửi tin nhắn'}
                 style={{ 
                   background: 'linear-gradient(135deg, var(--color-primary-orange), var(--color-primary-orange-light))',
                 }}

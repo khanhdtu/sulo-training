@@ -26,6 +26,11 @@ function decodeHeaderValue(value: string): string {
  * Messages are base64 encoded to support Unicode characters
  */
 export function showToastFromHeaders(response: Response) {
+  // Safety check: ensure response has headers
+  if (!response || !response.headers) {
+    return;
+  }
+  
   const toastType = response.headers.get('x-toast-type');
   const toastMessage = response.headers.get('x-toast-message');
 
@@ -50,6 +55,11 @@ export function showToastFromHeaders(response: Response) {
  * Checks for success/error in response data
  */
 export async function showToastFromResponse(response: Response) {
+  // Safety check: ensure response has headers
+  if (!response || !response.headers) {
+    return;
+  }
+  
   // First check headers (set by middleware or API routes)
   showToastFromHeaders(response);
 

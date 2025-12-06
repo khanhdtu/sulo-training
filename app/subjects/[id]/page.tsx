@@ -3,8 +3,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { subjectRepository, type Subject } from '@/repositories/subject.repository';
-import { chapterRepository } from '@/repositories/chapter.repository';
-import { toast } from 'sonner';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
 
 // Types are imported from repository
@@ -17,73 +15,52 @@ export default function SubjectPage() {
   const [subject, setSubject] = useState<Subject | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const [startingChapterId, setStartingChapterId] = useState<number | null>(null);
-  const fetchingRef = useRef(false);
-  const startingRef = useRef<number | null>(null);
+  const requestIdRef = useRef<number>(0);
 
   useEffect(() => {
-    // Prevent duplicate calls
-    if (fetchingRef.current) return;
+    if (!subjectId) {
+      return;
+    }
+    
+    // Generate unique request ID for this fetch attempt
+    const currentRequestId = ++requestIdRef.current;
+    const isCancelledRef = { current: false };
     
     const fetchSubject = async () => {
-      if (!subjectId) return;
-      
-      fetchingRef.current = true;
       try {
         setLoading(true);
         setError('');
         
         const data = await subjectRepository.getSubjectById(parseInt(subjectId));
-        setSubject(data.subject);
-      } catch (err) {
-        const errorMessage = err instanceof Error ? err.message : 'Không thể tải thông tin môn học';
-        if (errorMessage.includes('404') || errorMessage.includes('Không tìm thấy')) {
-          setError('Không tìm thấy môn học');
-        } else {
-          setError(errorMessage);
+        
+        // Only update state if this request hasn't been cancelled
+        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
+          setSubject(data.subject);
+          setLoading(false);
         }
-        console.error('Failed to fetch subject:', err);
-      } finally {
-        setLoading(false);
-        fetchingRef.current = false;
+      } catch (err) {
+        // Only update state if this request hasn't been cancelled
+        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
+          const errorMessage = err instanceof Error ? err.message : 'Không thể tải thông tin môn học';
+          if (errorMessage.includes('404') || errorMessage.includes('Không tìm thấy')) {
+            setError('Không tìm thấy môn học');
+          } else {
+            setError(errorMessage);
+          }
+          setLoading(false);
+          console.error('Failed to fetch subject:', err);
+        }
       }
     };
 
     fetchSubject();
     
-    // Cleanup function
+    // Cleanup function - mark this request as cancelled
     return () => {
-      fetchingRef.current = false;
+      isCancelledRef.current = true;
     };
   }, [subjectId]);
 
-  const handleStartChapter = async (chapterId: number) => {
-    // Prevent duplicate calls - check BEFORE setting ref
-    if (startingRef.current !== null) {
-      console.log('Already starting a chapter, ignoring duplicate call');
-      return;
-    }
-    
-    // Set lock immediately to prevent any other calls
-    startingRef.current = chapterId;
-    setStartingChapterId(chapterId);
-    
-    try {
-      await chapterRepository.startChapter(chapterId);
-      toast.success('Đã bắt đầu học chương này!');
-      
-      // Redirect to chapter page
-      router.push(`/chapters/${chapterId}`);
-      // Note: Don't reset ref here because we're redirecting
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : 'Có lỗi xảy ra. Vui lòng thử lại.';
-      toast.error(errorMessage);
-      console.error('Failed to start chapter:', error);
-      // Reset lock on error so user can retry
-      setStartingChapterId(null);
-      startingRef.current = null;
-    }
-  };
 
   if (loading) {
     return (
@@ -145,7 +122,7 @@ export default function SubjectPage() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-2 text-gradient">
-                      {renderTextWithLatex(chapter.name)}
+                      Chương {chapter.order}: {renderTextWithLatex(chapter.name)}
                     </h3>
                     {chapter.description && (
                       <p className="text-gray-600 mb-3">
@@ -196,21 +173,22 @@ export default function SubjectPage() {
                     {chapter.progress && chapter.progress.status !== 'not_started' ? (
                       <>
                         {chapter.progress.status === 'in_progress' ? (
-                          <button
-                            onClick={() => router.push(`/chapters/${chapter.id}`)}
-                            className="btn btn-primary whitespace-nowrap"
-                          >
-                            Tiếp tục
-                          </button>
+                          <>
+                            <button
+                              onClick={() => router.push(`/chapters/${chapter.id}`)}
+                              className="btn btn-primary whitespace-nowrap"
+                            >
+                              Tiếp tục
+                            </button>
+                            <button
+                              onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
+                              className="btn btn-outline whitespace-nowrap text-sm"
+                            >
+                              Xem đáp án
+                            </button>
+                          </>
                         ) : (
-                          <button
-                            onClick={() => router.push(`/chapters/${chapter.id}`)}
-                            className="btn btn-secondary whitespace-nowrap"
-                          >
-                            Xem lại
-                          </button>
-                        )}
-                        {(chapter.progress.status === 'completed' || chapter.progress.status === 'in_progress') && (
+                          // Chapter completed (đã submit) - chỉ hiển thị nút "Xem đáp án"
                           <button
                             onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
                             className="btn btn-outline whitespace-nowrap text-sm"
@@ -224,17 +202,11 @@ export default function SubjectPage() {
                         onClick={(e) => {
                           e.preventDefault();
                           e.stopPropagation();
-                          // Double check: prevent if already starting ANY chapter
-                          if (startingRef.current !== null) {
-                            console.log('Prevented duplicate click - already starting chapter:', startingRef.current);
-                            return;
-                          }
-                          handleStartChapter(chapter.id);
+                          router.push(`/chapters/${chapter.id}`);
                         }}
-                        disabled={startingChapterId !== null || startingRef.current !== null}
-                        className="btn btn-primary disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
+                        className="btn btn-primary whitespace-nowrap"
                       >
-                        {startingChapterId !== null || startingRef.current !== null ? 'Đang xử lý...' : 'Bắt đầu học'}
+                        Bắt đầu học
                       </button>
                     )}
                   </div>
