@@ -1,0 +1,469 @@
+{
+  "grade": 5,
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG5",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 5 English (Lớp 5 Tiếng Anh) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "What's your address?",
+      "lessons": [
+        {
+          "code": "ENG5-CH1-L1",
+          "title": "Asking and answering about addresses",
+          "exercises": [
+            {
+              "title": "Choose the correct word: I live in a ______ (house / book).",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Choose the correct word: I live in a ______",
+              "options": {
+                "A": "house",
+                "B": "book",
+                "C": "pen",
+                "D": "desk"
+              },
+              "correctOption": "A",
+              "hint": "We live in a house or an apartment.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Complete the sentence: What's your ______? (A) address (B) name (C) age",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Complete the sentence: What's your ______?",
+              "options": {
+                "A": "address",
+                "B": "name",
+                "C": "age",
+                "D": "color"
+              },
+              "correctOption": "A",
+              "hint": "We ask 'What's your address?' to know where someone lives.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Choose the correct answer: Where do you live?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Where do you live?",
+              "options": {
+                "A": "I live in Hanoi.",
+                "B": "I am ten years old.",
+                "C": "My name is Nam.",
+                "D": "I like football."
+              },
+              "correctOption": "A",
+              "hint": "When asked 'Where do you live?', we answer with a place.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences about where you live",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences about where you live",
+              "hint": "Use: I live in..., My address is..., I live in a...",
+              "answer": "Example: I live in Hanoi. My address is 123 Le Loi Street. I live in a house.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH1-L2",
+          "title": "Describing places",
+          "exercises": [
+            {
+              "title": "Choose the correct word: The village is very ______ (quiet / loud).",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Choose the correct word: The village is very ______",
+              "options": {
+                "A": "quiet",
+                "B": "loud",
+                "C": "big",
+                "D": "small"
+              },
+              "correctOption": "A",
+              "hint": "Villages are usually quiet places.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận: Describe your hometown in 3 sentences",
+              "type": "essay",
+              "points": 2,
+              "question": "Describe your hometown in 3 sentences",
+              "hint": "Use words like: big, small, quiet, busy, beautiful...",
+              "answer": "Example: My hometown is Hanoi. It is a big city. It is very busy and beautiful.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH1-L3",
+          "title": "Grammar: Where do you live?",
+          "exercises": [
+            {
+              "title": "Choose the correct question: ______ do you live?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Choose the correct question: ______ do you live?",
+              "options": {
+                "A": "Where",
+                "B": "What",
+                "C": "Who",
+                "D": "When"
+              },
+              "correctOption": "A",
+              "hint": "We use 'Where' to ask about places.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận: Write 2 questions and answers about addresses",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 2 questions and answers about addresses",
+              "hint": "Use: Where do you live? What's your address?",
+              "answer": "Example: Q: Where do you live? A: I live in Ho Chi Minh City. Q: What's your address? A: My address is 456 Nguyen Hue Street.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "I always get up early. How about you?",
+      "lessons": [
+        {
+          "code": "ENG5-CH2-L1",
+          "title": "Daily routines",
+          "exercises": [
+            {
+              "title": "Choose the correct word: I ______ up at 6 o'clock. (A) get (B) go (C) have",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ up at 6 o'clock.",
+              "options": {
+                "A": "get",
+                "B": "go",
+                "C": "have",
+                "D": "do"
+              },
+              "correctOption": "A",
+              "hint": "We say 'get up' for waking up in the morning.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Choose the correct sentence: I ______ breakfast at 7 a.m.",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ breakfast at 7 a.m.",
+              "options": {
+                "A": "have",
+                "B": "get",
+                "C": "go",
+                "D": "do"
+              },
+              "correctOption": "A",
+              "hint": "We say 'have breakfast' to mean eating breakfast.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Tự luận: Write 4 sentences about your daily routine",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 4 sentences about your daily routine",
+              "hint": "Use: get up, have breakfast, go to school, go to bed...",
+              "answer": "Example: I get up at 6 o'clock. I have breakfast at 7 a.m. I go to school at 7:30. I go to bed at 9 p.m.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH2-L2",
+          "title": "Talking about frequency",
+          "exercises": [
+            {
+              "title": "Choose the correct word: I ______ brush my teeth. (A) always (B) never (C) sometimes",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ brush my teeth.",
+              "options": {
+                "A": "always",
+                "B": "never",
+                "C": "sometimes",
+                "D": "often"
+              },
+              "correctOption": "A",
+              "hint": "We always brush our teeth every day.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences using 'always', 'sometimes', 'never'",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences using 'always', 'sometimes', 'never'",
+              "hint": "Example: I always do homework. I sometimes play games. I never go to bed late.",
+              "answer": "Example: I always do my homework. I sometimes play football. I never watch TV late at night.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH2-L3",
+          "title": "Grammar: Adverbs of frequency",
+          "exercises": [
+            {
+              "title": "Choose the correct order: I ______ go to the park. (A) always (B) sometimes (C) never",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ go to the park on weekends.",
+              "options": {
+                "A": "always",
+                "B": "sometimes",
+                "C": "never",
+                "D": "often"
+              },
+              "correctOption": "B",
+              "hint": "We sometimes go to the park, not always or never.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Tự luận: Write sentences about what you always, sometimes, and never do",
+              "type": "essay",
+              "points": 2,
+              "question": "Write sentences about what you always, sometimes, and never do",
+              "hint": "Use adverbs of frequency: always, usually, often, sometimes, never",
+              "answer": "Example: I always go to school. I sometimes play games. I never skip breakfast.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Where did you go on holiday?",
+      "lessons": [
+        {
+          "code": "ENG5-CH3-L1",
+          "title": "Past simple tense",
+          "exercises": [
+            {
+              "title": "Choose the correct verb: Yesterday I ______ to the beach. (A) go (B) went (C) goes",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Yesterday I ______ to the beach.",
+              "options": {
+                "A": "go",
+                "B": "went",
+                "C": "goes",
+                "D": "going"
+              },
+              "correctOption": "B",
+              "hint": "We use 'went' (past tense of 'go') when talking about the past.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Choose the correct verb: Last week, I ______ my grandparents. (A) visit (B) visited (C) visits",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Last week, I ______ my grandparents.",
+              "options": {
+                "A": "visit",
+                "B": "visited",
+                "C": "visits",
+                "D": "visiting"
+              },
+              "correctOption": "B",
+              "hint": "We use 'visited' (past tense) when talking about the past.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences about what you did last weekend",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences about what you did last weekend",
+              "hint": "Use past tense verbs: went, played, visited, watched...",
+              "answer": "Example: Last weekend, I went to the park. I played football with my friends. I visited my grandparents.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH3-L2",
+          "title": "Talking about holidays",
+          "exercises": [
+            {
+              "title": "Choose the correct question: ______ did you go on holiday?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "______ did you go on holiday?",
+              "options": {
+                "A": "Where",
+                "B": "What",
+                "C": "Who",
+                "D": "When"
+              },
+              "correctOption": "A",
+              "hint": "We use 'Where' to ask about places.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận: Write about your last holiday (4 sentences)",
+              "type": "essay",
+              "points": 2,
+              "question": "Write about your last holiday (4 sentences)",
+              "hint": "Use: Where did you go? What did you do? Who did you go with?",
+              "answer": "Example: Last summer, I went to Da Lat with my family. We visited many beautiful places. We took many photos. I had a great time.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH3-L3",
+          "title": "Grammar: Past simple with regular and irregular verbs",
+          "exercises": [
+            {
+              "title": "Choose the correct past tense: I ______ a book yesterday. (A) read (B) reads (C) reading)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ a book yesterday.",
+              "options": {
+                "A": "read",
+                "B": "reads",
+                "C": "reading",
+                "D": "readed"
+              },
+              "correctOption": "A",
+              "hint": "'Read' is the same in present and past tense, but pronounced differently.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences using past tense verbs (regular and irregular)",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences using past tense verbs (regular and irregular)",
+              "hint": "Regular: played, visited, watched. Irregular: went, saw, ate.",
+              "answer": "Example: I played football yesterday. I went to the zoo last week. I ate ice cream.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "What's the matter with you?",
+      "lessons": [
+        {
+          "code": "ENG5-CH4-L1",
+          "title": "Health problems",
+          "exercises": [
+            {
+              "title": "Choose the correct word: I have a ______ (headache / happy).",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I have a ______",
+              "options": {
+                "A": "headache",
+                "B": "happy",
+                "C": "book",
+                "D": "pen"
+              },
+              "correctOption": "A",
+              "hint": "Headache is a health problem.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Choose the correct answer: What's the matter with you?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "What's the matter with you?",
+              "options": {
+                "A": "I have a toothache.",
+                "B": "I am ten years old.",
+                "C": "I like apples.",
+                "D": "I live in Hanoi."
+              },
+              "correctOption": "A",
+              "hint": "When asked about health problems, we answer with 'I have a...'",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences about health problems",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences about health problems",
+              "hint": "Use: I have a headache, I have a fever, I have a cold...",
+              "answer": "Example: I have a headache. My friend has a toothache. My sister has a fever.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH4-L2",
+          "title": "Giving advice",
+          "exercises": [
+            {
+              "title": "Choose the correct advice: I have a headache. You ______ rest. (A) should (B) shouldn't (C) can't",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I have a headache. You ______ rest.",
+              "options": {
+                "A": "should",
+                "B": "shouldn't",
+                "C": "can't",
+                "D": "don't"
+              },
+              "correctOption": "A",
+              "hint": "We use 'should' to give advice.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Tự luận: Give advice to someone who has a cold (3 sentences)",
+              "type": "essay",
+              "points": 2,
+              "question": "Give advice to someone who has a cold (3 sentences)",
+              "hint": "Use: You should..., You shouldn't...",
+              "answer": "Example: You should rest. You should drink warm water. You shouldn't go out in the cold.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            }
+          ]
+        },
+        {
+          "code": "ENG5-CH4-L3",
+          "title": "Grammar: Should/Shouldn't",
+          "exercises": [
+            {
+              "title": "Choose the correct sentence: You ______ eat too much candy. (A) should (B) shouldn't",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "You ______ eat too much candy.",
+              "options": {
+                "A": "should",
+                "B": "shouldn't",
+                "C": "can",
+                "D": "will"
+              },
+              "correctOption": "B",
+              "hint": "We shouldn't eat too much candy because it's not good for health.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Tự luận: Write 3 sentences using 'should' and 'shouldn't' about healthy habits",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 3 sentences using 'should' and 'shouldn't' about healthy habits",
+              "hint": "Example: You should exercise. You should eat vegetables. You shouldn't stay up late.",
+              "answer": "Example: You should exercise every day. You should eat fruits and vegetables. You shouldn't watch TV too much.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

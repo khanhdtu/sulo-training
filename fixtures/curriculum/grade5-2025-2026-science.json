@@ -1,0 +1,98 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Khoa học",
+  "subjectCode": "KH5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Con người và sức khỏe",
+      "lessons": [
+        {
+          "code": "KH5-CH1-L1",
+          "title": "Sự sinh sản"
+        },
+        {
+          "code": "KH5-CH1-L2",
+          "title": "Vệ sinh tuổi dậy thì"
+        },
+        {
+          "code": "KH5-CH1-L3",
+          "title": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não"
+        },
+        {
+          "code": "KH5-CH1-L4",
+          "title": "Phòng tránh HIV/AIDS"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Vật chất và năng lượng",
+      "lessons": [
+        {
+          "code": "KH5-CH2-L1",
+          "title": "Tính chất của nước"
+        },
+        {
+          "code": "KH5-CH2-L2",
+          "title": "Sự chuyển thể của nước"
+        },
+        {
+          "code": "KH5-CH2-L3",
+          "title": "Năng lượng"
+        },
+        {
+          "code": "KH5-CH2-L4",
+          "title": "Sử dụng năng lượng"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Thực vật và động vật",
+      "lessons": [
+        {
+          "code": "KH5-CH3-L1",
+          "title": "Cơ quan sinh sản của thực vật có hoa"
+        },
+        {
+          "code": "KH5-CH3-L2",
+          "title": "Sự sinh sản của thực vật có hoa"
+        },
+        {
+          "code": "KH5-CH3-L3",
+          "title": "Cây con mọc lên từ hạt"
+        },
+        {
+          "code": "KH5-CH3-L4",
+          "title": "Cây con có thể mọc lên từ một số bộ phận của cây mẹ"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Môi trường và tài nguyên thiên nhiên",
+      "lessons": [
+        {
+          "code": "KH5-CH4-L1",
+          "title": "Môi trường"
+        },
+        {
+          "code": "KH5-CH4-L2",
+          "title": "Tài nguyên thiên nhiên"
+        },
+        {
+          "code": "KH5-CH4-L3",
+          "title": "Vai trò của môi trường tự nhiên đối với đời sống con người"
+        },
+        {
+          "code": "KH5-CH4-L4",
+          "title": "Tác động của con người đến môi trường"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

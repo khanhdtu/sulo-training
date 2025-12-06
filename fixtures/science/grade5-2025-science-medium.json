@@ -1,0 +1,514 @@
+{
+  "grade": 5,
+  "subject": "Khoa học",
+  "subjectCode": "KH5",
+  "difficulty": "medium",
+  "description": "Medium exercises for Grade 5 Science (Lớp 5 Khoa học) - standard practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Con người và sức khỏe",
+      "lessons": [
+        {
+          "code": "KH5-CH1-L1",
+          "title": "Sự sinh sản",
+          "exercises": [
+            {
+              "title": "Phân tích về sự sinh sản",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
+              "options": {
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyển"
+              },
+              "correctOption": "A",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh sự sinh sản của động vật và thực vật",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh sự sinh sản của động vật và thực vật",
+              "hint": "Nêu điểm giống và khác nhau về cách sinh sản, cơ quan sinh sản...",
+              "answer": "Điểm giống: Cả động vật và thực vật đều có khả năng sinh sản để tạo ra thế hệ mới. Điểm khác: Động vật thường sinh sản bằng cách đẻ con hoặc đẻ trứng, còn thực vật có hoa sinh sản bằng hạt. Động vật có thể di chuyển để tìm bạn tình, còn thực vật cần nhờ gió, côn trùng để thụ phấn.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L2",
+          "title": "Vệ sinh tuổi dậy thì",
+          "exercises": [
+            {
+              "title": "Phân tích về vệ sinh tuổi dậy thì",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao vệ sinh trong tuổi dậy thì lại đặc biệt quan trọng?",
+              "options": {
+                "A": "Vì cơ thể đang phát triển và thay đổi nhiều",
+                "B": "Vì không cần vệ sinh",
+                "C": "Vì cơ thể không thay đổi",
+                "D": "Vì không có lý do đặc biệt"
+              },
+              "correctOption": "A",
+              "hint": "Trong tuổi dậy thì, cơ thể đang phát triển và thay đổi nhiều, nên vệ sinh đặc biệt quan trọng để giữ gìn sức khỏe.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu các biện pháp vệ sinh cần thiết trong tuổi dậy thì",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu các biện pháp vệ sinh cần thiết trong tuổi dậy thì",
+              "hint": "Nêu các biện pháp: tắm rửa, thay quần áo, vệ sinh răng miệng...",
+              "answer": "Các biện pháp vệ sinh cần thiết: Tắm rửa sạch sẽ hàng ngày, đặc biệt sau khi vận động. Thay quần áo thường xuyên, đặc biệt là đồ lót. Vệ sinh răng miệng đúng cách. Giữ gìn vệ sinh cá nhân. Có chế độ ăn uống lành mạnh và tập thể dục đều đặn.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L3",
+          "title": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+          "exercises": [
+            {
+              "title": "Phân tích cách phòng bệnh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Điểm chung trong cách phòng các bệnh sốt rét, sốt xuất huyết, viêm não là gì?",
+              "options": {
+                "A": "Đều cần diệt muỗi và lăng quăng",
+                "B": "Chỉ cần uống thuốc",
+                "C": "Không cần làm gì",
+                "D": "Chỉ cần ăn uống"
+              },
+              "correctOption": "A",
+              "hint": "Các bệnh này đều do muỗi truyền, nên điểm chung là cần diệt muỗi và lăng quăng.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh cách phòng bệnh sốt rét và sốt xuất huyết",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh cách phòng bệnh sốt rét và sốt xuất huyết",
+              "hint": "Nêu điểm giống và khác nhau về cách phòng bệnh...",
+              "answer": "Điểm giống: Cả hai đều cần diệt muỗi và lăng quăng, không để nước đọng, ngủ màn. Điểm khác: Sốt rét cần đặc biệt chú ý ngủ màn đã được tẩm hóa chất, còn sốt xuất huyết cần chú ý diệt lăng quăng trong các dụng cụ chứa nước. Cả hai đều cần giữ vệ sinh môi trường sống.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L4",
+          "title": "Phòng tránh HIV/AIDS",
+          "exercises": [
+            {
+              "title": "Phân tích về HIV/AIDS",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao cần phòng tránh HIV/AIDS?",
+              "options": {
+                "A": "Vì đây là bệnh nguy hiểm, chưa có thuốc chữa khỏi hoàn toàn",
+                "B": "Vì bệnh dễ chữa",
+                "C": "Vì bệnh không nguy hiểm",
+                "D": "Vì không cần phòng tránh"
+              },
+              "correctOption": "A",
+              "hint": "HIV/AIDS là bệnh nguy hiểm, ảnh hưởng nghiêm trọng đến sức khỏe, chưa có thuốc chữa khỏi hoàn toàn.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu các biện pháp phòng tránh HIV/AIDS",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu các biện pháp phòng tránh HIV/AIDS",
+              "hint": "Nêu các biện pháp: không dùng chung kim tiêm, quan hệ tình dục an toàn, kiểm tra máu...",
+              "answer": "Các biện pháp phòng tránh: Không dùng chung kim tiêm, bơm kim tiêm. Quan hệ tình dục an toàn, sử dụng bao cao su. Khi truyền máu, đảm bảo máu đã được kiểm tra an toàn. Phụ nữ mang thai nhiễm HIV cần được tư vấn và điều trị. Có lối sống lành mạnh, tránh các hành vi nguy cơ.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Vật chất và năng lượng",
+      "lessons": [
+        {
+          "code": "KH5-CH2-L1",
+          "title": "Tính chất của nước",
+          "exercises": [
+            {
+              "title": "Phân tích tính chất nước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao nước được gọi là 'dung môi phổ biến'?",
+              "options": {
+                "A": "Vì nước có thể hòa tan nhiều chất",
+                "B": "Vì nước có màu",
+                "C": "Vì nước có mùi",
+                "D": "Vì nước không hòa tan gì"
+              },
+              "correctOption": "A",
+              "hint": "Nước được gọi là dung môi phổ biến vì có thể hòa tan nhiều chất khác nhau.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tại sao nước lại quan trọng đối với sự sống",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích tại sao nước lại quan trọng đối với sự sống",
+              "hint": "Nêu các vai trò: tham gia quá trình trao đổi chất, vận chuyển chất dinh dưỡng...",
+              "answer": "Nước quan trọng vì: Tham gia vào mọi quá trình trao đổi chất trong cơ thể. Vận chuyển chất dinh dưỡng và oxy đến các tế bào. Điều hòa thân nhiệt. Thải các chất độc ra ngoài. Là thành phần chính của cơ thể (chiếm khoảng 70% trọng lượng cơ thể). Không có nước, không có sự sống.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L2",
+          "title": "Sự chuyển thể của nước",
+          "exercises": [
+            {
+              "title": "Phân tích sự chuyển thể",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Quá trình nào xảy ra khi nước lỏng chuyển thành hơi nước?",
+              "options": {
+                "A": "Bay hơi",
+                "B": "Đông đặc",
+                "C": "Nóng chảy",
+                "D": "Ngưng tụ"
+              },
+              "correctOption": "A",
+              "hint": "Khi nước lỏng chuyển thành hơi nước, quá trình đó gọi là bay hơi.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích vòng tuần hoàn nước trong tự nhiên",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích vòng tuần hoàn nước trong tự nhiên",
+              "hint": "Nêu các quá trình: bay hơi, ngưng tụ, mưa...",
+              "answer": "Vòng tuần hoàn nước: Nước ở biển, sông, hồ bay hơi thành hơi nước (bay hơi). Hơi nước bay lên cao, gặp lạnh ngưng tụ thành những giọt nước nhỏ tạo thành mây (ngưng tụ). Khi mây đủ nặng, nước rơi xuống đất dưới dạng mưa. Nước mưa chảy vào sông, hồ, biển và tiếp tục vòng tuần hoàn.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L3",
+          "title": "Năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích về năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Năng lượng có thể chuyển hóa như thế nào?",
+              "options": {
+                "A": "Từ dạng này sang dạng khác",
+                "B": "Không thể chuyển hóa",
+                "C": "Chỉ có một dạng",
+                "D": "Không có năng lượng"
+              },
+              "correctOption": "A",
+              "hint": "Năng lượng có thể chuyển hóa từ dạng này sang dạng khác, ví dụ: cơ năng thành nhiệt năng, quang năng thành hóa năng...",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu các dạng năng lượng và ví dụ về sự chuyển hóa năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu các dạng năng lượng và ví dụ về sự chuyển hóa năng lượng",
+              "hint": "Nêu các dạng: cơ năng, nhiệt năng, điện năng, quang năng... và ví dụ chuyển hóa.",
+              "answer": "Các dạng năng lượng: Cơ năng (năng lượng của vật chuyển động), nhiệt năng (năng lượng nhiệt), điện năng (năng lượng điện), quang năng (năng lượng ánh sáng), hóa năng (năng lượng trong thức ăn). Ví dụ chuyển hóa: Khi chạy, cơ năng chuyển thành nhiệt năng (nóng người). Pin chuyển hóa năng thành điện năng. Cây xanh chuyển quang năng thành hóa năng.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L4",
+          "title": "Sử dụng năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích cách sử dụng năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao cần tiết kiệm năng lượng?",
+              "options": {
+                "A": "Vì nguồn năng lượng có hạn và tiết kiệm giúp bảo vệ môi trường",
+                "B": "Vì năng lượng vô hạn",
+                "C": "Vì không cần tiết kiệm",
+                "D": "Vì năng lượng không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Nhiều nguồn năng lượng có hạn (như than đá, dầu mỏ), và tiết kiệm năng lượng giúp bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu các biện pháp tiết kiệm năng lượng trong gia đình",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu các biện pháp tiết kiệm năng lượng trong gia đình",
+              "hint": "Nêu các biện pháp: tắt đèn, sử dụng thiết bị tiết kiệm năng lượng...",
+              "answer": "Các biện pháp: Tắt đèn và các thiết bị điện khi không sử dụng. Sử dụng bóng đèn tiết kiệm năng lượng (đèn LED). Tắt quạt, điều hòa khi không cần thiết. Sử dụng năng lượng mặt trời khi có thể. Giảm sử dụng các thiết bị tiêu tốn nhiều năng lượng. Tái sử dụng và tái chế. Tiết kiệm nước (vì sản xuất nước cũng cần năng lượng).",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Thực vật và động vật",
+      "lessons": [
+        {
+          "code": "KH5-CH3-L1",
+          "title": "Cơ quan sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Phân tích cấu tạo hoa",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Bộ phận nào của hoa tham gia trực tiếp vào quá trình sinh sản?",
+              "options": {
+                "A": "Nhị và nhụy",
+                "B": "Chỉ có cánh hoa",
+                "C": "Chỉ có đài hoa",
+                "D": "Chỉ có cuống hoa"
+              },
+              "correctOption": "A",
+              "hint": "Nhị (cơ quan sinh sản đực) và nhụy (cơ quan sinh sản cái) tham gia trực tiếp vào quá trình sinh sản.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích quá trình thụ phấn và thụ tinh ở thực vật có hoa",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích quá trình thụ phấn và thụ tinh ở thực vật có hoa",
+              "hint": "Nêu các bước: thụ phấn (phấn hoa đến nhụy), thụ tinh (tế bào đực kết hợp với tế bào cái)...",
+              "answer": "Quá trình sinh sản: Thụ phấn: Phấn hoa từ nhị được chuyển đến đầu nhụy (nhờ gió, côn trùng, hoặc tự thụ phấn). Thụ tinh: Sau khi thụ phấn, tế bào đực trong hạt phấn kết hợp với tế bào cái trong noãn. Sau thụ tinh, noãn phát triển thành hạt, bầu nhụy phát triển thành quả. Hạt chứa phôi cây con, sẽ nảy mầm thành cây mới.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L2",
+          "title": "Sự sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Phân tích quá trình sinh sản",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sau khi thụ phấn và thụ tinh, hoa sẽ phát triển thành gì?",
+              "options": {
+                "A": "Quả và hạt",
+                "B": "Chỉ có lá",
+                "C": "Chỉ có rễ",
+                "D": "Chỉ có thân"
+              },
+              "correctOption": "A",
+              "hint": "Sau khi thụ phấn và thụ tinh, bầu nhụy phát triển thành quả, noãn phát triển thành hạt.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh thụ phấn nhờ gió và thụ phấn nhờ côn trùng",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh thụ phấn nhờ gió và thụ phấn nhờ côn trùng",
+              "hint": "Nêu điểm giống và khác nhau về cách thụ phấn, đặc điểm hoa...",
+              "answer": "Điểm giống: Cả hai đều là cách thụ phấn, giúp phấn hoa đến nhụy. Điểm khác: Thụ phấn nhờ gió: Hoa thường nhỏ, không màu sắc rực rỡ, phấn hoa nhẹ, nhiều. Thụ phấn nhờ côn trùng: Hoa thường lớn, màu sắc rực rỡ, có mùi thơm, có mật hoa để thu hút côn trùng. Mỗi cách có ưu điểm riêng.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L3",
+          "title": "Cây con mọc lên từ hạt",
+          "exercises": [
+            {
+              "title": "Phân tích điều kiện nảy mầm",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao hạt cần nước để nảy mầm?",
+              "options": {
+                "A": "Vì nước giúp hạt trương lên, nứt vỏ và kích thích quá trình nảy mầm",
+                "B": "Vì nước không cần thiết",
+                "C": "Vì hạt không cần nước",
+                "D": "Vì nước làm hạt chết"
+              },
+              "correctOption": "A",
+              "hint": "Nước giúp hạt trương lên, làm nứt vỏ, kích thích các hoạt động sinh hóa trong hạt, giúp hạt nảy mầm.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích quá trình hạt nảy mầm từng bước",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích quá trình hạt nảy mầm từng bước",
+              "hint": "Nêu các bước: hút nước, nứt vỏ, mọc rễ, mọc chồi...",
+              "answer": "Quá trình nảy mầm: Bước 1: Hạt hút nước, trương lên. Bước 2: Vỏ hạt nứt ra. Bước 3: Rễ mầm mọc ra trước, đâm xuống đất để hút nước và chất dinh dưỡng. Bước 4: Chồi mầm mọc lên trên, phát triển thành thân và lá. Bước 5: Cây con lớn dần, lá xanh xuất hiện, cây bắt đầu quang hợp.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L4",
+          "title": "Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+          "exercises": [
+            {
+              "title": "Phân tích cách nhân giống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao người ta thường nhân giống cây bằng cách giâm cành hoặc chiết cành?",
+              "options": {
+                "A": "Vì cây con giữ được đặc tính tốt của cây mẹ và nhanh cho quả",
+                "B": "Vì cách này khó",
+                "C": "Vì cây con không giống cây mẹ",
+                "D": "Vì không có lý do"
+              },
+              "correctOption": "A",
+              "hint": "Nhân giống bằng giâm cành, chiết cành giúp cây con giữ được đặc tính tốt của cây mẹ và nhanh cho quả hơn so với gieo hạt.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh các cách nhân giống cây trồng",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh các cách nhân giống cây trồng: gieo hạt, giâm cành, chiết cành",
+              "hint": "Nêu ưu nhược điểm của từng cách...",
+              "answer": "Gieo hạt: Ưu điểm: Đơn giản, có thể nhân giống số lượng lớn. Nhược điểm: Cây con có thể không giữ đặc tính tốt của cây mẹ, lâu cho quả. Giâm cành: Ưu điểm: Giữ đặc tính cây mẹ, nhanh cho quả. Nhược điểm: Cần kỹ thuật, không phải cây nào cũng giâm được. Chiết cành: Ưu điểm: Giữ đặc tính cây mẹ, tỷ lệ sống cao. Nhược điểm: Tốn công, số lượng ít.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Môi trường và tài nguyên thiên nhiên",
+      "lessons": [
+        {
+          "code": "KH5-CH4-L1",
+          "title": "Môi trường",
+          "exercises": [
+            {
+              "title": "Phân tích về môi trường",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao môi trường lại quan trọng đối với sự sống?",
+              "options": {
+                "A": "Vì môi trường cung cấp tất cả những gì cần thiết cho sự sống",
+                "B": "Vì môi trường không quan trọng",
+                "C": "Vì môi trường chỉ cung cấp nước",
+                "D": "Vì môi trường chỉ cung cấp không khí"
+              },
+              "correctOption": "A",
+              "hint": "Môi trường cung cấp không khí, nước, thức ăn, nơi ở và tất cả những gì cần thiết cho sự sống.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích mối quan hệ giữa các thành phần của môi trường",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích mối quan hệ giữa các thành phần của môi trường",
+              "hint": "Nêu mối quan hệ: không khí, đất, nước, sinh vật phụ thuộc lẫn nhau...",
+              "answer": "Các thành phần môi trường có mối quan hệ chặt chẽ: Không khí cung cấp oxy cho sinh vật. Nước cần thiết cho mọi sinh vật. Đất cung cấp chất dinh dưỡng cho thực vật. Thực vật tạo oxy và thức ăn. Động vật thụ phấn cho thực vật, phân hủy chất hữu cơ. Tất cả phụ thuộc lẫn nhau, tạo thành hệ sinh thái cân bằng.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L2",
+          "title": "Tài nguyên thiên nhiên",
+          "exercises": [
+            {
+              "title": "Phân tích về tài nguyên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tài nguyên nào sau đây là tài nguyên không thể tái tạo?",
+              "options": {
+                "A": "Than đá",
+                "B": "Nước",
+                "C": "Gỗ",
+                "D": "Cá"
+              },
+              "correctOption": "A",
+              "hint": "Than đá là tài nguyên không thể tái tạo, mất hàng triệu năm để hình thành. Nước, gỗ, cá có thể tái tạo.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh tài nguyên tái tạo và không tái tạo, nêu cách sử dụng hợp lý",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh tài nguyên tái tạo và không tái tạo, nêu cách sử dụng hợp lý",
+              "hint": "Nêu đặc điểm, ví dụ, cách sử dụng...",
+              "answer": "Tài nguyên tái tạo: Có thể phục hồi sau khi sử dụng (nước, gỗ, cá...). Cần sử dụng hợp lý, không khai thác quá mức. Tài nguyên không tái tạo: Không thể phục hồi hoặc mất rất nhiều thời gian (than đá, dầu mỏ, kim loại...). Cần tiết kiệm, tái sử dụng, tìm nguồn thay thế. Cả hai loại đều cần được bảo vệ và sử dụng bền vững.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L3",
+          "title": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+          "exercises": [
+            {
+              "title": "Phân tích vai trò môi trường",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Môi trường tự nhiên có vai trò gì trong việc điều hòa khí hậu?",
+              "options": {
+                "A": "Rừng và đại dương giúp điều hòa nhiệt độ và lượng mưa",
+                "B": "Môi trường không ảnh hưởng khí hậu",
+                "C": "Chỉ có rừng mới điều hòa",
+                "D": "Chỉ có đại dương mới điều hòa"
+              },
+              "correctOption": "A",
+              "hint": "Rừng và đại dương đều góp phần điều hòa khí hậu: rừng hấp thụ CO2, tạo oxy, đại dương điều hòa nhiệt độ.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích các vai trò của môi trường tự nhiên đối với con người",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích các vai trò của môi trường tự nhiên đối với con người",
+              "hint": "Nêu các vai trò: cung cấp tài nguyên, điều hòa khí hậu, xử lý chất thải...",
+              "answer": "Các vai trò: Cung cấp tài nguyên: thức ăn, nước, không khí, nguyên liệu sản xuất. Điều hòa khí hậu: rừng, đại dương giúp điều hòa nhiệt độ, lượng mưa. Xử lý chất thải: môi trường tự nhiên có khả năng phân hủy và làm sạch. Cung cấp không gian sống: nơi ở, nơi làm việc, nơi giải trí. Duy trì đa dạng sinh học: tạo môi trường cho các loài sinh vật. Môi trường là nền tảng cho sự tồn tại và phát triển của con người.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L4",
+          "title": "Tác động của con người đến môi trường",
+          "exercises": [
+            {
+              "title": "Phân tích tác động",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tác động nào của con người có thể gây ô nhiễm môi trường?",
+              "options": {
+                "A": "Xả rác bừa bãi, đốt rừng, xả nước thải",
+                "B": "Trồng cây",
+                "C": "Bảo vệ rừng",
+                "D": "Tiết kiệm nước"
+              },
+              "correctOption": "A",
+              "hint": "Xả rác bừa bãi, đốt rừng, xả nước thải là những hoạt động gây ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích tác động tích cực và tiêu cực của con người đến môi trường",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích tác động tích cực và tiêu cực của con người đến môi trường",
+              "hint": "Nêu tác động tích cực (trồng cây, bảo vệ...) và tiêu cực (ô nhiễm, khai thác quá mức...).",
+              "answer": "Tác động tích cực: Trồng cây gây rừng, bảo vệ động vật hoang dã, xử lý rác thải, sử dụng năng lượng sạch, bảo tồn tài nguyên. Tác động tiêu cực: Ô nhiễm không khí, nước, đất (xả rác, nước thải, khí thải). Khai thác tài nguyên quá mức (phá rừng, đánh bắt cá quá mức). Phá hủy môi trường sống của sinh vật. Gây biến đổi khí hậu. Cần tăng cường tác động tích cực, giảm thiểu tác động tiêu cực.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

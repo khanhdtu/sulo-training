@@ -1,0 +1,514 @@
+{
+  "grade": 7,
+  "subject": "Khoa học tự nhiên",
+  "subjectCode": "KHTN7",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 7 Natural Science (Lớp 7 Khoa học tự nhiên) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chất và sự biến đổi của chất",
+      "lessons": [
+        {
+          "code": "KHTN7-CH1-L1",
+          "title": "Tính chất của chất",
+          "exercises": [
+            {
+              "title": "Nhận biết tính chất vật lí của chất",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tính chất nào sau đây là tính chất vật lí?",
+              "options": {
+                "A": "Khả năng cháy",
+                "B": "Màu sắc",
+                "C": "Khả năng bị phân hủy",
+                "D": "Khả năng tác dụng với axit"
+              },
+              "correctOption": "B",
+              "hint": "Tính chất vật lí là tính chất có thể quan sát được mà không làm thay đổi bản chất của chất.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Phân biệt chất và vật thể",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vật thể nào sau đây được làm từ chất sắt?",
+              "options": {
+                "A": "Cây bút chì",
+                "B": "Cái đinh",
+                "C": "Tờ giấy",
+                "D": "Cái cốc thủy tinh"
+              },
+              "correctOption": "B",
+              "hint": "Đinh thường được làm từ sắt hoặc thép (hợp kim của sắt).",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Nhận biết tính chất hóa học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tính chất nào sau đây là tính chất hóa học?",
+              "options": {
+                "A": "Độ tan trong nước",
+                "B": "Nhiệt độ nóng chảy",
+                "C": "Khả năng tác dụng với oxi",
+                "D": "Khối lượng riêng"
+              },
+              "correctOption": "C",
+              "hint": "Tính chất hóa học là tính chất chỉ thể hiện khi có phản ứng hóa học xảy ra.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Nhận biết chất tinh khiết và hỗn hợp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Chất nào sau đây là chất tinh khiết?",
+              "options": {
+                "A": "Nước biển",
+                "B": "Nước cất",
+                "C": "Không khí",
+                "D": "Sữa"
+              },
+              "correctOption": "B",
+              "hint": "Chất tinh khiết chỉ chứa một loại chất, không lẫn tạp chất.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 3 tính chất vật lí và 2 tính chất hóa học của nước",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 3 tính chất vật lí và 2 tính chất hóa học của nước",
+              "hint": "Tính chất vật lí: có thể quan sát trực tiếp. Tính chất hóa học: chỉ thể hiện khi có phản ứng.",
+              "answer": "Tính chất vật lí: không màu, không mùi, không vị; nhiệt độ sôi 100°C; có thể hòa tan nhiều chất. Tính chất hóa học: tác dụng với kim loại kiềm; bị phân hủy ở nhiệt độ cao.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L2",
+          "title": "Sự biến đổi vật lí và hóa học",
+          "exercises": [
+            {
+              "title": "Nhận biết hiện tượng vật lí",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiện tượng nào sau đây là hiện tượng vật lí?",
+              "options": {
+                "A": "Đốt cháy củi",
+                "B": "Đun nóng đường chuyển thành than",
+                "C": "Hòa tan muối vào nước",
+                "D": "Sắt bị gỉ"
+              },
+              "correctOption": "C",
+              "hint": "Hiện tượng vật lí không làm thay đổi bản chất của chất, chỉ thay đổi hình dạng, trạng thái.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Nhận biết hiện tượng hóa học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiện tượng nào sau đây là hiện tượng hóa học?",
+              "options": {
+                "A": "Nước đá tan chảy",
+                "B": "Đường tan trong nước",
+                "C": "Vôi sống tác dụng với nước",
+                "D": "Muối tan trong nước"
+              },
+              "correctOption": "C",
+              "hint": "Hiện tượng hóa học tạo ra chất mới, có sự thay đổi bản chất của chất.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân biệt biến đổi vật lí và hóa học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi đốt nến, hiện tượng nào xảy ra?",
+              "options": {
+                "A": "Chỉ biến đổi vật lí",
+                "B": "Chỉ biến đổi hóa học",
+                "C": "Cả biến đổi vật lí và hóa học",
+                "D": "Không có biến đổi nào"
+              },
+              "correctOption": "C",
+              "hint": "Nến chảy là biến đổi vật lí, nến cháy tạo ra khí CO2 và hơi nước là biến đổi hóa học.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tại sao hòa tan đường vào nước là hiện tượng vật lí",
+              "type": "essay",
+              "points": 2,
+              "question": "Giải thích tại sao hòa tan đường vào nước là hiện tượng vật lí",
+              "hint": "Hiện tượng vật lí không tạo ra chất mới, chỉ thay đổi trạng thái hoặc hình dạng.",
+              "answer": "Hòa tan đường vào nước là hiện tượng vật lí vì đường vẫn giữ nguyên bản chất, chỉ thay đổi từ dạng rắn sang dạng hòa tan trong nước. Ta có thể thu lại đường bằng cách cô cạn nước.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L3",
+          "title": "Nguyên tử và phân tử",
+          "exercises": [
+            {
+              "title": "Nhận biết nguyên tử",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nguyên tử là:",
+              "options": {
+                "A": "Hạt nhỏ nhất của chất",
+                "B": "Hạt nhỏ nhất của nguyên tố hóa học",
+                "C": "Hạt lớn hơn phân tử",
+                "D": "Hạt không thể chia nhỏ"
+              },
+              "correctOption": "B",
+              "hint": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học, không thể chia nhỏ hơn bằng phương pháp hóa học.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Nhận biết phân tử",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phân tử là:",
+              "options": {
+                "A": "Hạt nhỏ nhất của chất",
+                "B": "Hạt nhỏ nhất của nguyên tố",
+                "C": "Hạt gồm nhiều nguyên tử liên kết với nhau",
+                "D": "Hạt lớn hơn nguyên tử"
+              },
+              "correctOption": "C",
+              "hint": "Phân tử là hạt gồm nhiều nguyên tử liên kết với nhau, là hạt nhỏ nhất của hợp chất.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích sự khác nhau giữa nguyên tử và phân tử",
+              "type": "essay",
+              "points": 2,
+              "question": "Giải thích sự khác nhau giữa nguyên tử và phân tử",
+              "hint": "Nguyên tử là hạt của nguyên tố, phân tử là hạt của hợp chất gồm nhiều nguyên tử.",
+              "answer": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học, không thể chia nhỏ hơn bằng phương pháp hóa học. Phân tử là hạt gồm nhiều nguyên tử liên kết với nhau, là hạt nhỏ nhất của hợp chất, giữ nguyên tính chất hóa học của chất đó.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Năng lượng và sự chuyển hóa",
+      "lessons": [
+        {
+          "code": "KHTN7-CH2-L1",
+          "title": "Năng lượng và các dạng năng lượng",
+          "exercises": [
+            {
+              "title": "Nhận biết các dạng năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Dạng năng lượng nào sau đây là năng lượng cơ học?",
+              "options": {
+                "A": "Năng lượng ánh sáng",
+                "B": "Năng lượng nhiệt",
+                "C": "Năng lượng của vật đang chuyển động",
+                "D": "Năng lượng hóa học"
+              },
+              "correctOption": "C",
+              "hint": "Năng lượng cơ học bao gồm động năng (vật chuyển động) và thế năng (vật ở độ cao).",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Nhận biết nguồn năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nguồn năng lượng nào sau đây là năng lượng tái tạo?",
+              "options": {
+                "A": "Than đá",
+                "B": "Dầu mỏ",
+                "C": "Năng lượng mặt trời",
+                "D": "Khí đốt tự nhiên"
+              },
+              "correctOption": "C",
+              "hint": "Năng lượng tái tạo là năng lượng có thể tái tạo được như năng lượng mặt trời, gió, nước.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 5 dạng năng lượng và cho ví dụ",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 5 dạng năng lượng và cho ví dụ",
+              "hint": "Các dạng năng lượng phổ biến: cơ học, nhiệt, ánh sáng, hóa học, điện.",
+              "answer": "1. Năng lượng cơ học: quả bóng đang lăn. 2. Năng lượng nhiệt: lửa đang cháy. 3. Năng lượng ánh sáng: ánh sáng mặt trời. 4. Năng lượng hóa học: pin, thức ăn. 5. Năng lượng điện: dòng điện trong dây dẫn.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L2",
+          "title": "Sự chuyển hóa năng lượng",
+          "exercises": [
+            {
+              "title": "Nhận biết sự chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi đạp xe, năng lượng nào được chuyển hóa thành năng lượng cơ học?",
+              "options": {
+                "A": "Năng lượng hóa học",
+                "B": "Năng lượng nhiệt",
+                "C": "Năng lượng ánh sáng",
+                "D": "Năng lượng điện"
+              },
+              "correctOption": "A",
+              "hint": "Khi đạp xe, năng lượng hóa học từ thức ăn trong cơ thể chuyển hóa thành năng lượng cơ học để vận động.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Tự luận: Mô tả sự chuyển hóa năng lượng trong pin",
+              "type": "essay",
+              "points": 2,
+              "question": "Mô tả sự chuyển hóa năng lượng trong pin",
+              "hint": "Pin chuyển hóa năng lượng hóa học thành năng lượng điện.",
+              "answer": "Trong pin, năng lượng hóa học được chuyển hóa thành năng lượng điện. Khi pin hoạt động, các phản ứng hóa học xảy ra bên trong pin tạo ra dòng điện, cung cấp năng lượng cho các thiết bị điện.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L3",
+          "title": "Năng lượng trong đời sống",
+          "exercises": [
+            {
+              "title": "Nhận biết cách sử dụng năng lượng tiết kiệm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào sau đây giúp tiết kiệm năng lượng?",
+              "options": {
+                "A": "Bật đèn cả ngày",
+                "B": "Tắt các thiết bị khi không sử dụng",
+                "C": "Sử dụng điều hòa ở nhiệt độ thấp",
+                "D": "Để tủ lạnh mở cửa"
+              },
+              "correctOption": "B",
+              "hint": "Tắt các thiết bị khi không sử dụng giúp tiết kiệm năng lượng điện.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu 3 cách tiết kiệm năng lượng trong gia đình",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu 3 cách tiết kiệm năng lượng trong gia đình",
+              "hint": "Các cách tiết kiệm năng lượng: tắt thiết bị khi không dùng, sử dụng thiết bị tiết kiệm năng lượng, tận dụng ánh sáng tự nhiên.",
+              "answer": "1. Tắt các thiết bị điện khi không sử dụng. 2. Sử dụng bóng đèn LED tiết kiệm năng lượng. 3. Tận dụng ánh sáng tự nhiên thay vì bật đèn ban ngày.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Sinh học - Thế giới sống",
+      "lessons": [
+        {
+          "code": "KHTN7-CH3-L1",
+          "title": "Tế bào - Đơn vị cơ bản của sự sống",
+          "exercises": [
+            {
+              "title": "Nhận biết cấu trúc tế bào",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bộ phận nào của tế bào chứa vật chất di truyền?",
+              "options": {
+                "A": "Màng tế bào",
+                "B": "Tế bào chất",
+                "C": "Nhân tế bào",
+                "D": "Lục lạp"
+              },
+              "correctOption": "C",
+              "hint": "Nhân tế bào chứa ADN, là vật chất di truyền.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Phân biệt tế bào thực vật và động vật",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tế bào thực vật có đặc điểm nào mà tế bào động vật không có?",
+              "options": {
+                "A": "Màng tế bào",
+                "B": "Nhân tế bào",
+                "C": "Thành tế bào",
+                "D": "Tế bào chất"
+              },
+              "correctOption": "C",
+              "hint": "Tế bào thực vật có thành tế bào cứng bằng cellulose, tế bào động vật không có.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận: Mô tả cấu trúc cơ bản của tế bào",
+              "type": "essay",
+              "points": 2,
+              "question": "Mô tả cấu trúc cơ bản của tế bào",
+              "hint": "Tế bào gồm: màng tế bào, tế bào chất, nhân tế bào.",
+              "answer": "Tế bào có cấu trúc cơ bản gồm: màng tế bào (bao bọc và bảo vệ tế bào), tế bào chất (chứa các bào quan), nhân tế bào (chứa vật chất di truyền ADN).",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L2",
+          "title": "Đa dạng sinh học",
+          "exercises": [
+            {
+              "title": "Nhận biết các nhóm sinh vật",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Sinh vật nào sau đây thuộc giới Thực vật?",
+              "options": {
+                "A": "Con cá",
+                "B": "Cây lúa",
+                "C": "Con giun",
+                "D": "Con vi khuẩn"
+              },
+              "correctOption": "B",
+              "hint": "Thực vật là các sinh vật có khả năng quang hợp, tự tạo thức ăn.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 5 nhóm sinh vật và cho ví dụ",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 5 nhóm sinh vật và cho ví dụ",
+              "hint": "Các nhóm sinh vật: động vật, thực vật, nấm, vi khuẩn, nguyên sinh vật.",
+              "answer": "1. Động vật: con chó, con mèo. 2. Thực vật: cây lúa, cây ngô. 3. Nấm: nấm rơm, nấm hương. 4. Vi khuẩn: vi khuẩn E.coli. 5. Nguyên sinh vật: trùng roi, trùng giày.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L3",
+          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+          "exercises": [
+            {
+              "title": "Nhận biết quá trình quang hợp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Quá trình quang hợp xảy ra ở đâu trong tế bào thực vật?",
+              "options": {
+                "A": "Nhân tế bào",
+                "B": "Lục lạp",
+                "C": "Màng tế bào",
+                "D": "Tế bào chất"
+              },
+              "correctOption": "B",
+              "hint": "Lục lạp chứa chất diệp lục, là nơi xảy ra quá trình quang hợp.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Mô tả quá trình quang hợp",
+              "type": "essay",
+              "points": 2,
+              "question": "Mô tả quá trình quang hợp",
+              "hint": "Quang hợp là quá trình thực vật sử dụng ánh sáng, CO2 và nước để tạo ra đường và oxi.",
+              "answer": "Quang hợp là quá trình thực vật sử dụng ánh sáng mặt trời, khí CO2 và nước để tạo ra đường (glucose) và khí oxi. Quá trình này xảy ra trong lục lạp của tế bào thực vật.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Trái Đất và bầu trời",
+      "lessons": [
+        {
+          "code": "KHTN7-CH4-L1",
+          "title": "Cấu trúc Trái Đất",
+          "exercises": [
+            {
+              "title": "Nhận biết các lớp của Trái Đất",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lớp nào của Trái Đất nằm ở ngoài cùng?",
+              "options": {
+                "A": "Lõi",
+                "B": "Lớp phủ",
+                "C": "Lớp vỏ",
+                "D": "Lớp nhân"
+              },
+              "correctOption": "C",
+              "hint": "Lớp vỏ Trái Đất là lớp ngoài cùng, mỏng nhất, nơi chúng ta đang sống.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 3 lớp cấu trúc của Trái Đất",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 3 lớp cấu trúc của Trái Đất",
+              "hint": "Trái Đất có 3 lớp chính: vỏ, phủ (mantle), và lõi (core).",
+              "answer": "3 lớp cấu trúc của Trái Đất: 1. Lớp vỏ (crust) - lớp ngoài cùng, mỏng nhất. 2. Lớp phủ (mantle) - lớp giữa, dày nhất. 3. Lớp lõi (core) - lớp trong cùng, nóng nhất.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L2",
+          "title": "Khí quyển và thời tiết",
+          "exercises": [
+            {
+              "title": "Nhận biết thành phần khí quyển",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khí nào chiếm tỉ lệ lớn nhất trong khí quyển?",
+              "options": {
+                "A": "Oxi",
+                "B": "Nitơ",
+                "C": "Cacbon đioxit",
+                "D": "Hơi nước"
+              },
+              "correctOption": "B",
+              "hint": "Nitơ chiếm khoảng 78% thể tích khí quyển, là khí chiếm tỉ lệ lớn nhất.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tại sao có mưa",
+              "type": "essay",
+              "points": 2,
+              "question": "Giải thích tại sao có mưa",
+              "hint": "Mưa xảy ra do quá trình bay hơi nước và ngưng tụ trong khí quyển.",
+              "answer": "Mưa xảy ra do quá trình: nước ở các đại dương, sông, hồ bay hơi thành hơi nước. Hơi nước bay lên cao, gặp lạnh ngưng tụ thành những giọt nước nhỏ tạo thành mây. Khi các giọt nước đủ lớn và nặng, chúng rơi xuống đất tạo thành mưa.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L3",
+          "title": "Hệ Mặt Trời và các hành tinh",
+          "exercises": [
+            {
+              "title": "Nhận biết hành tinh trong hệ Mặt Trời",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hành tinh nào gần Mặt Trời nhất?",
+              "options": {
+                "A": "Trái Đất",
+                "B": "Sao Thủy",
+                "C": "Sao Kim",
+                "D": "Sao Hỏa"
+              },
+              "correctOption": "B",
+              "hint": "Sao Thủy là hành tinh gần Mặt Trời nhất trong hệ Mặt Trời.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 4 hành tinh gần Mặt Trời nhất",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 4 hành tinh gần Mặt Trời nhất",
+              "hint": "Các hành tinh gần Mặt Trời: Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa.",
+              "answer": "4 hành tinh gần Mặt Trời nhất (theo thứ tự): 1. Sao Thủy, 2. Sao Kim, 3. Trái Đất, 4. Sao Hỏa.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

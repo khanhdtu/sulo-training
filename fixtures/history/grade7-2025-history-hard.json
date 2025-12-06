@@ -1,0 +1,490 @@
+{
+  "grade": 7,
+  "subject": "Lịch sử",
+  "subjectCode": "LS7",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 7 History (Lớp 7 Lịch sử) - advanced and challenging problems",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Buổi đầu độc lập thời Ngô - Đinh - Tiền Lê (Thế kỷ X)",
+      "lessons": [
+        {
+          "code": "LS7-CH1-L1",
+          "title": "Nước ta buổi đầu độc lập",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tầm quan trọng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao chiến thắng Bạch Đằng năm 938 được coi là bước ngoặt lịch sử?",
+              "options": {
+                "A": "Chỉ vì đánh thắng quân Nam Hán",
+                "B": "Vì chấm dứt thời kỳ Bắc thuộc, mở ra thời kỳ độc lập lâu dài, khẳng định sức mạnh dân tộc",
+                "C": "Chỉ vì có chiến thuật hay",
+                "D": "Không có ý nghĩa đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Chiến thắng Bạch Đằng chấm dứt hơn 1000 năm Bắc thuộc, mở ra thời kỳ độc lập lâu dài, khẳng định sức mạnh và ý chí độc lập của dân tộc.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và so sánh chiến thuật đánh cọc của Ngô Quyền với các trận đánh sau này",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và so sánh chiến thuật đánh cọc của Ngô Quyền với các trận đánh sau này trên sông Bạch Đằng",
+              "hint": "So sánh với trận đánh của Trần Hưng Đạo năm 1288, phân tích điểm giống và khác, đánh giá sự kế thừa và phát triển.",
+              "answer": "Chiến thuật đánh cọc: Ngô Quyền (938): Đóng cọc trên sông Bạch Đằng, lợi dụng thủy triều, đánh thắng quân Nam Hán. Trần Hưng Đạo (1288): Kế thừa và phát triển chiến thuật này, đánh thắng quân Nguyên. Điểm giống: Đều sử dụng cọc, lợi dụng thủy triều, đánh trên sông Bạch Đằng. Điểm khác: Trần Hưng Đạo có sự chuẩn bị kỹ lưỡng hơn, quy mô lớn hơn. Ý nghĩa: Thể hiện sự kế thừa và phát triển kinh nghiệm quân sự, chứng minh tài năng quân sự của dân tộc ta.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH1-L2",
+          "title": "Nhà Ngô, Đinh, Tiền Lê",
+          "exercises": [
+            {
+              "title": "Đánh giá và so sánh",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao thời kỳ này các triều đại thay đổi nhanh chóng?",
+              "options": {
+                "A": "Vì các vua không có tài",
+                "B": "Vì đất nước mới độc lập, chế độ phong kiến chưa ổn định, các thế lực tranh giành quyền lực",
+                "C": "Vì nhân dân không ủng hộ",
+                "D": "Vì quân ngoại xâm tấn công"
+              },
+              "correctOption": "B",
+              "hint": "Đất nước mới độc lập, chế độ phong kiến còn non trẻ, chưa ổn định, các thế lực phong kiến tranh giành quyền lực dẫn đến các triều đại thay đổi nhanh.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Đánh giá vai trò lịch sử của ba triều đại Ngô, Đinh, Tiền Lê trong việc xây dựng nền độc lập",
+              "type": "essay",
+              "points": 4,
+              "question": "Đánh giá vai trò lịch sử của ba triều đại Ngô, Đinh, Tiền Lê trong việc xây dựng nền độc lập",
+              "hint": "Phân tích đóng góp của từng triều đại, đánh giá tổng thể về vai trò xây dựng nền độc lập.",
+              "answer": "Vai trò: Nhà Ngô: Tiếp tục củng cố nền độc lập sau chiến thắng Bạch Đằng, nhưng còn non trẻ. Nhà Đinh: Thống nhất đất nước sau thời kỳ 12 sứ quân, xây dựng bộ máy nhà nước phong kiến đầu tiên, đặt tên nước Đại Cồ Việt. Nhà Tiền Lê: Bảo vệ độc lập bằng cách đánh thắng quân Tống, củng cố chính quyền. Tổng thể: Ba triều đại này đã đặt nền móng cho nền độc lập lâu dài, xây dựng những cơ sở đầu tiên của nhà nước phong kiến Việt Nam, dù còn nhiều hạn chế nhưng có vai trò quan trọng trong lịch sử.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH1-L3",
+          "title": "Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+          "exercises": [
+            {
+              "title": "Phân tích sâu và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao cuộc kháng chiến chống Tống lần thứ nhất có ý nghĩa quan trọng?",
+              "options": {
+                "A": "Chỉ vì đánh thắng quân Tống",
+                "B": "Vì bảo vệ được nền độc lập non trẻ, khẳng định sức mạnh dân tộc, tạo tiền đề cho các cuộc kháng chiến sau",
+                "C": "Chỉ vì có Lê Hoàn lãnh đạo",
+                "D": "Không có ý nghĩa đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc kháng chiến này bảo vệ được nền độc lập còn non trẻ, khẳng định sức mạnh dân tộc, tạo tiền đề và kinh nghiệm cho các cuộc kháng chiến sau này.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và so sánh hai cuộc kháng chiến chống Tống, rút ra bài học lịch sử",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và so sánh hai cuộc kháng chiến chống Tống (lần 1 và lần 2), rút ra bài học lịch sử",
+              "hint": "So sánh về: thời gian, người lãnh đạo, chiến thuật, kết quả, ý nghĩa. Rút ra bài học về tinh thần yêu nước, chiến thuật quân sự, sự lãnh đạo.",
+              "answer": "So sánh: Lần 1 (981): Lê Hoàn lãnh đạo, chủ động tấn công kết hợp phòng thủ, đánh thắng quân Tống. Lần 2 (1075-1077): Lý Thường Kiệt lãnh đạo, chủ động tấn công trước vào căn cứ địch, sau đó phòng thủ trên sông Như Nguyệt, đánh thắng quân Tống. Điểm giống: Đều chủ động, đều đánh thắng, đều bảo vệ độc lập. Điểm khác: Chiến thuật lần 2 tinh vi hơn, có bài thơ 'Nam quốc sơn hà'. Bài học: Tinh thần yêu nước là sức mạnh lớn nhất; chiến thuật quân sự đúng đắn rất quan trọng; sự lãnh đạo tài tình quyết định thắng lợi; phải chủ động, không bị động phòng thủ.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Nước Đại Việt thời Lý (1009-1225)",
+      "lessons": [
+        {
+          "code": "LS7-CH2-L1",
+          "title": "Nhà Lý thành lập và xây dựng đất nước",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tầm nhìn",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao quyết định dời đô của Lý Công Uẩn được đánh giá là có tầm nhìn xa?",
+              "options": {
+                "A": "Chỉ vì Thăng Long đẹp",
+                "B": "Vì tạo điều kiện phát triển lâu dài cho đất nước, phù hợp với chiến lược phát triển",
+                "C": "Chỉ vì gần sông",
+                "D": "Không có lý do đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Quyết định dời đô thể hiện tầm nhìn xa vì Thăng Long có vị trí chiến lược, thuận lợi cho phát triển kinh tế, văn hóa, quân sự lâu dài, phù hợp với chiến lược xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá những cải cách của nhà Lý, so sánh với các triều đại trước",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá những cải cách của nhà Lý, so sánh với các triều đại trước",
+              "hint": "Phân tích các cải cách về hành chính, quân sự, kinh tế, văn hóa, giáo dục. So sánh với thời Ngô, Đinh, Tiền Lê. Đánh giá sự tiến bộ.",
+              "answer": "Cải cách nhà Lý: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ hơn, chia cả nước thành lộ, phủ, huyện. Quân sự: Chế độ 'ngụ binh ư nông' - tiến bộ hơn. Kinh tế: Khuyến khích sản xuất, thương mại phát triển. Văn hóa: Phát triển Phật giáo, xây dựng nhiều công trình. Giáo dục: Mở Quốc Tử Giám, tổ chức thi cử. So sánh: Tiến bộ hơn các triều đại trước về tổ chức nhà nước, quân sự, giáo dục. Đánh giá: Nhà Lý đã xây dựng được một nhà nước phong kiến ổn định, phát triển, tạo nền tảng cho sự phát triển lâu dài.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH2-L2",
+          "title": "Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+          "exercises": [
+            {
+              "title": "Phân tích chiến lược sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Chiến lược 'tiên phát chế nhân' (đánh trước để chế ngự) của Lý Thường Kiệt có ưu điểm gì?",
+              "options": {
+                "A": "Chỉ để tiết kiệm lực lượng",
+                "B": "Phá vỡ kế hoạch của địch, giành thế chủ động, làm suy yếu địch trước khi chúng tấn công",
+                "C": "Chỉ để kéo dài thời gian",
+                "D": "Không có ưu điểm"
+              },
+              "correctOption": "B",
+              "hint": "Chiến lược này phá vỡ kế hoạch của địch, giành thế chủ động, làm suy yếu địch về lực lượng và tinh thần trước khi chúng kịp tấn công ta.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích bài thơ 'Nam quốc sơn hà' như một bản tuyên ngôn độc lập",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích bài thơ 'Nam quốc sơn hà' như một bản tuyên ngôn độc lập",
+              "hint": "Phân tích nội dung, ý nghĩa, giá trị lịch sử, văn học, tư tưởng của bài thơ. So sánh với các bản tuyên ngôn độc lập khác.",
+              "answer": "Phân tích: Nội dung: Khẳng định chủ quyền lãnh thổ ('Nam quốc sơn hà Nam đế cư'), tính chính nghĩa của cuộc kháng chiến. Ý nghĩa: Là bản tuyên ngôn độc lập đầu tiên của dân tộc, thể hiện ý chí độc lập, tự chủ. Giá trị lịch sử: Phản ánh tinh thần yêu nước, khẳng định chủ quyền. Giá trị văn học: Tác phẩm văn học xuất sắc, ngắn gọn nhưng súc tích. Giá trị tư tưởng: Thể hiện tư tưởng yêu nước, ý chí bảo vệ độc lập. So sánh: Là bản tuyên ngôn độc lập đầu tiên, có ảnh hưởng đến các bản tuyên ngôn sau như 'Bình Ngô đại cáo'.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH2-L3",
+          "title": "Văn hóa Đại Việt thời Lý",
+          "exercises": [
+            {
+              "title": "Phân tích ảnh hưởng sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao Phật giáo thời Lý phát triển mạnh và có ảnh hưởng sâu sắc?",
+              "options": {
+                "A": "Chỉ vì các vua thích",
+                "B": "Vì phù hợp với tâm lý nhân dân, được nhà nước ủng hộ, góp phần ổn định xã hội và phát triển văn hóa",
+                "C": "Chỉ vì có nhiều chùa",
+                "D": "Không có lý do"
+              },
+              "correctOption": "B",
+              "hint": "Phật giáo phù hợp với tâm lý nhân dân (từ bi, hỷ xả), được nhà nước ủng hộ, góp phần ổn định xã hội, phát triển văn hóa, giáo dục.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Đánh giá vai trò của Phật giáo trong việc xây dựng bản sắc văn hóa Đại Việt thời Lý",
+              "type": "essay",
+              "points": 4,
+              "question": "Đánh giá vai trò của Phật giáo trong việc xây dựng bản sắc văn hóa Đại Việt thời Lý",
+              "hint": "Phân tích ảnh hưởng của Phật giáo đến các mặt: tư tưởng, đạo đức, nghệ thuật, kiến trúc, giáo dục, đời sống xã hội. Đánh giá vai trò tích cực và hạn chế.",
+              "answer": "Vai trò: Tư tưởng: Tinh thần từ bi, hỷ xả ảnh hưởng đến đạo đức xã hội, tạo sự hòa hợp. Nghệ thuật: Thúc đẩy phát triển kiến trúc (chùa, tháp), điêu khắc, hội họa. Giáo dục: Nhiều nhà sư là học giả, góp phần phát triển giáo dục, văn học. Đời sống: Ảnh hưởng đến lối sống, phong tục, tập quán của nhân dân. Ổn định xã hội: Góp phần ổn định xã hội, tạo sự đoàn kết. Tuy nhiên, cũng có hạn chế: một số người quá mê tín, ảnh hưởng đến sản xuất. Tổng thể: Phật giáo có vai trò tích cực trong việc xây dựng bản sắc văn hóa Đại Việt, tạo nên nét đặc trưng của văn hóa thời Lý.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Nước Đại Việt thời Trần (1226-1400)",
+      "lessons": [
+        {
+          "code": "LS7-CH3-L1",
+          "title": "Nhà Trần thành lập và củng cố chính quyền",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá chính sách",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao chế độ Thái thượng hoàng của nhà Trần được đánh giá là sáng suốt?",
+              "options": {
+                "A": "Chỉ vì vua nhường ngôi",
+                "B": "Vì đảm bảo tính liên tục của chính sách, đào tạo vua trẻ, tăng cường ổn định chính trị",
+                "C": "Chỉ vì tiết kiệm chi phí",
+                "D": "Không có lý do đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Chế độ này đảm bảo tính liên tục của chính sách, đào tạo vua trẻ dưới sự hướng dẫn của Thái thượng hoàng, tăng cường sự ổn định chính trị.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá các cải cách của nhà Trần, so sánh với nhà Lý",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá các cải cách của nhà Trần, so sánh với nhà Lý",
+              "hint": "Phân tích các cải cách: chế độ Thái thượng hoàng, ngụ binh ư nông, tổ chức nhà nước. So sánh với nhà Lý. Đánh giá sự tiến bộ.",
+              "answer": "Cải cách nhà Trần: Chế độ Thái thượng hoàng: Độc đáo, đảm bảo tính liên tục. Ngụ binh ư nông: Phát triển từ nhà Lý, hiệu quả hơn. Tổ chức nhà nước: Chặt chẽ, có hệ thống. Quân sự: Mạnh mẽ, có kỷ luật. So sánh với nhà Lý: Nhà Trần kế thừa và phát triển các cải cách của nhà Lý, có thêm sáng tạo (Thái thượng hoàng). Đánh giá: Nhà Trần đã xây dựng được một nhà nước phong kiến mạnh mẽ, ổn định, có khả năng chống ngoại xâm, là thời kỳ phát triển rực rỡ của Đại Việt.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH3-L2",
+          "title": "Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tầm vóc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao ba lần thắng lợi chống Mông - Nguyên được coi là kỳ tích lịch sử?",
+              "options": {
+                "A": "Chỉ vì đánh thắng 3 lần",
+                "B": "Vì quân Mông - Nguyên là đội quân mạnh nhất thế giới lúc đó, việc đánh thắng 3 lần chứng minh sức mạnh và tài năng của dân tộc",
+                "C": "Chỉ vì có Trần Hưng Đạo",
+                "D": "Không có ý nghĩa đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Quân Mông - Nguyên đã chinh phục nhiều nước lớn, là đội quân mạnh nhất thế giới. Việc Đại Việt đánh thắng 3 lần là kỳ tích, chứng minh sức mạnh và tài năng quân sự của dân tộc.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và so sánh ba lần kháng chiến chống Mông - Nguyên, rút ra bài học về nghệ thuật quân sự",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và so sánh ba lần kháng chiến chống Mông - Nguyên, rút ra bài học về nghệ thuật quân sự",
+              "hint": "So sánh về: thời gian, diễn biến, chiến thuật, người lãnh đạo, kết quả. Rút ra bài học về: chiến lược, chiến thuật, tinh thần, sự chuẩn bị.",
+              "answer": "So sánh: Lần 1 (1258): Quy mô nhỏ, đánh thắng nhanh. Lần 2 (1285): Quy mô lớn hơn, sử dụng chiến thuật 'vườn không nhà trống', đánh thắng. Lần 3 (1287-1288): Quy mô lớn nhất, sử dụng chiến thuật đánh cọc trên sông Bạch Đằng, đánh thắng hoàn toàn. Điểm chung: Đều chủ động, đều đánh thắng, đều có sự lãnh đạo tài tình. Bài học nghệ thuật quân sự: Phải chủ động, không bị động; chiến thuật linh hoạt, phù hợp với tình hình; tận dụng địa hình, thời tiết; tinh thần yêu nước là sức mạnh lớn nhất; sự chuẩn bị chu đáo rất quan trọng; phải đoàn kết toàn dân.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH3-L3",
+          "title": "Văn hóa Đại Việt thời Trần",
+          "exercises": [
+            {
+              "title": "Phân tích mối quan hệ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao tinh thần yêu nước thời Trần được thể hiện rõ nét trong văn học?",
+              "options": {
+                "A": "Chỉ vì có nhiều nhà văn",
+                "B": "Vì đất nước phải đối mặt với nhiều cuộc xâm lược, tinh thần yêu nước trở thành động lực và được phản ánh trong văn học",
+                "C": "Chỉ vì vua yêu cầu",
+                "D": "Không có lý do"
+              },
+              "correctOption": "B",
+              "hint": "Đất nước phải đối mặt với ba cuộc xâm lược của Mông - Nguyên, tinh thần yêu nước trở thành động lực mạnh mẽ và được phản ánh sâu sắc trong văn học.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa hoàn cảnh lịch sử và sự phát triển văn học yêu nước thời Trần",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích mối quan hệ giữa hoàn cảnh lịch sử và sự phát triển văn học yêu nước thời Trần",
+              "hint": "Phân tích: hoàn cảnh lịch sử (ba cuộc kháng chiến), ảnh hưởng đến văn học, các tác phẩm tiêu biểu, giá trị và ý nghĩa.",
+              "answer": "Mối quan hệ: Hoàn cảnh lịch sử: Ba cuộc kháng chiến chống Mông - Nguyên tạo ra hoàn cảnh đặc biệt, tinh thần yêu nước được nâng cao. Ảnh hưởng: Hoàn cảnh này thúc đẩy sự phát triển văn học yêu nước, các tác phẩm ra đời phục vụ cuộc kháng chiến. Tác phẩm tiêu biểu: 'Hịch tướng sĩ' của Trần Hưng Đạo, các bài thơ yêu nước. Giá trị: Văn học không chỉ là nghệ thuật mà còn là vũ khí tinh thần, động viên quân dân. Ý nghĩa: Thể hiện mối quan hệ chặt chẽ giữa văn học và đời sống, văn học phục vụ sự nghiệp bảo vệ đất nước. Đây là đặc điểm nổi bật của văn học thời Trần.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Nước Đại Việt thời Lê sơ (1428-1527)",
+      "lessons": [
+        {
+          "code": "LS7-CH4-L1",
+          "title": "Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tầm vóc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao khởi nghĩa Lam Sơn được đánh giá là cuộc khởi nghĩa vĩ đại?",
+              "options": {
+                "A": "Chỉ vì kéo dài lâu",
+                "B": "Vì đánh đổ ách thống trị của quân Minh, giành lại độc lập, thể hiện tinh thần yêu nước và tài năng quân sự",
+                "C": "Chỉ vì có nhiều người tham gia",
+                "D": "Không có ý nghĩa đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Khởi nghĩa Lam Sơn đánh đổ ách thống trị của quân Minh (một đế chế lớn), giành lại độc lập sau 20 năm, thể hiện tinh thần yêu nước và tài năng quân sự kiệt xuất.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá vai trò của Lê Lợi và Nguyễn Trãi trong khởi nghĩa Lam Sơn",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá vai trò của Lê Lợi và Nguyễn Trãi trong khởi nghĩa Lam Sơn",
+              "hint": "Phân tích vai trò của từng người: Lê Lợi (lãnh đạo quân sự), Nguyễn Trãi (quân sư, ngoại giao, văn học). Đánh giá sự phối hợp, đóng góp chung.",
+              "answer": "Lê Lợi: Lãnh đạo quân sự, có tài năng chỉ huy, chiến lược đúng đắn ('đánh lâu dài, từ yếu đến mạnh'), có uy tín, được nhân dân tin tưởng. Nguyễn Trãi: Quân sư, đưa ra nhiều kế sách quân sự, ngoại giao xuất sắc, soạn các văn kiện, tác phẩm văn học ('Bình Ngô đại cáo'), thể hiện tư tưởng nhân nghĩa. Sự phối hợp: Hai người bổ sung cho nhau, tạo nên sức mạnh tổng hợp. Đánh giá: Cả hai đều là nhân vật kiệt xuất, có đóng góp to lớn, không thể thiếu trong thắng lợi của khởi nghĩa Lam Sơn. Sự kết hợp giữa tài năng quân sự và trí tuệ là yếu tố quan trọng dẫn đến thắng lợi.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH4-L2",
+          "title": "Tổ chức bộ máy nhà nước thời Lê sơ",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tính tiến bộ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao bộ luật Hồng Đức được đánh giá là tiến bộ?",
+              "options": {
+                "A": "Chỉ vì dài",
+                "B": "Vì có nhiều điều khoản bảo vệ quyền lợi phụ nữ, nông dân, thể hiện tư tưởng nhân đạo",
+                "C": "Chỉ vì có nhiều điều khoản",
+                "D": "Không có đặc điểm gì"
+              },
+              "correctOption": "B",
+              "hint": "Bộ luật Hồng Đức có nhiều điều khoản bảo vệ quyền lợi phụ nữ, nông dân, thể hiện tư tưởng nhân đạo, tiến bộ so với các bộ luật đương thời.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá những cải cách của Lê Thánh Tông, so sánh với các triều đại trước",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá những cải cách của Lê Thánh Tông, so sánh với các triều đại trước",
+              "hint": "Phân tích các cải cách: hành chính, quân sự, pháp luật, giáo dục, kinh tế. So sánh với Lý, Trần. Đánh giá sự hoàn thiện, tiến bộ.",
+              "answer": "Cải cách Lê Thánh Tông: Hành chính: Tổ chức chặt chẽ nhất, chia cả nước thành đạo, phủ, huyện, xã. Quân sự: Quân đội mạnh, có kỷ luật. Pháp luật: Bộ luật Hồng Đức hoàn chỉnh, tiến bộ. Giáo dục: Mở rộng, thi cử công bằng. Kinh tế: Khuyến khích sản xuất, thương mại. So sánh: Tiến bộ hơn Lý, Trần về tổ chức nhà nước, pháp luật. Đánh giá: Thời Lê Thánh Tông là thời kỳ thịnh trị nhất của nhà Lê sơ, các cải cách đã đưa Đại Việt lên đỉnh cao của chế độ phong kiến Việt Nam, tạo nền tảng cho sự phát triển lâu dài.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH4-L3",
+          "title": "Văn hóa Đại Việt thời Lê sơ",
+          "exercises": [
+            {
+              "title": "Phân tích giá trị toàn diện",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao 'Bình Ngô đại cáo' được coi là áng thiên cổ hùng văn?",
+              "options": {
+                "A": "Chỉ vì dài",
+                "B": "Vì có giá trị toàn diện: lịch sử, văn học, tư tưởng, chính trị, là bản tuyên ngôn độc lập xuất sắc",
+                "C": "Chỉ vì có vần",
+                "D": "Không có giá trị đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "'Bình Ngô đại cáo' có giá trị toàn diện: lịch sử (phản ánh cuộc kháng chiến), văn học (tác phẩm xuất sắc), tư tưởng (nhân nghĩa, yêu nước), chính trị (tuyên ngôn độc lập).",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích 'Bình Ngô đại cáo' như một tác phẩm tổng hợp các giá trị lịch sử, văn học, tư tưởng",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích 'Bình Ngô đại cáo' như một tác phẩm tổng hợp các giá trị lịch sử, văn học, tư tưởng",
+              "hint": "Phân tích từng giá trị: lịch sử (phản ánh sự kiện), văn học (nghệ thuật), tư tưởng (nhân nghĩa, yêu nước), chính trị (tuyên ngôn). Đánh giá tổng thể.",
+              "answer": "Giá trị lịch sử: Phản ánh chân thực cuộc kháng chiến chống Minh, từ nguyên nhân, diễn biến đến kết quả; là nguồn tư liệu quý giá. Giá trị văn học: Tác phẩm văn học xuất sắc, thể hiện tài năng văn chương của Nguyễn Trãi; ngôn ngữ trong sáng, hình ảnh sinh động, kết cấu chặt chẽ. Giá trị tư tưởng: Thể hiện tư tưởng nhân nghĩa ('Việc nhân nghĩa cốt ở yên dân'), yêu nước thương dân, ý chí độc lập. Giá trị chính trị: Là bản tuyên ngôn độc lập thứ hai của dân tộc, khẳng định chủ quyền. Tổng thể: 'Bình Ngô đại cáo' là tác phẩm tổng hợp các giá trị, là áng thiên cổ hùng văn, niềm tự hào của dân tộc, có ảnh hưởng sâu sắc đến văn học và tư tưởng sau này.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Đại Việt thời các thế kỷ XVI-XVIII",
+      "lessons": [
+        {
+          "code": "LS7-CH5-L1",
+          "title": "Đất nước bị chia cắt",
+          "exercises": [
+            {
+              "title": "Phân tích nguyên nhân sâu xa",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Nguyên nhân sâu xa dẫn đến việc đất nước bị chia cắt là gì?",
+              "options": {
+                "A": "Chỉ vì tranh giành quyền lực",
+                "B": "Vì sự suy yếu của nhà nước phong kiến tập quyền, sự phát triển của các thế lực địa phương, mâu thuẫn nội bộ",
+                "C": "Chỉ vì nhân dân không ủng hộ",
+                "D": "Không có nguyên nhân"
+              },
+              "correctOption": "B",
+              "hint": "Nguyên nhân sâu xa là sự suy yếu của nhà nước phong kiến tập quyền, sự phát triển của các thế lực địa phương, mâu thuẫn nội bộ giữa các tập đoàn phong kiến.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích nguyên nhân, diễn biến và hậu quả của việc đất nước bị chia cắt, rút ra bài học lịch sử",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích nguyên nhân, diễn biến và hậu quả của việc đất nước bị chia cắt, rút ra bài học lịch sử",
+              "hint": "Phân tích đầy đủ: nguyên nhân (sâu xa, trực tiếp), diễn biến (chia cắt thành Đàng Trong, Đàng Ngoài), hậu quả (chiến tranh, suy yếu). Rút ra bài học về sự đoàn kết, thống nhất.",
+              "answer": "Nguyên nhân: Sâu xa: Sự suy yếu của nhà nước phong kiến tập quyền, sự phát triển của các thế lực địa phương. Trực tiếp: Tranh giành quyền lực giữa các tập đoàn phong kiến, nhà Lê suy yếu. Diễn biến: Đất nước bị chia cắt thành Đàng Trong (họ Nguyễn) và Đàng Ngoài (họ Trịnh), kéo dài từ thế kỷ XVI đến thế kỷ XVIII. Hậu quả: Chiến tranh liên miên, nhân dân khổ cực, sức mạnh dân tộc suy giảm, tạo điều kiện cho ngoại bang can thiệp. Bài học: Đoàn kết, thống nhất là sức mạnh; chia rẽ dẫn đến suy yếu; phải xây dựng nhà nước mạnh, ổn định; phải giải quyết mâu thuẫn nội bộ.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH5-L2",
+          "title": "Phong trào nông dân Tây Sơn",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá tầm vóc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao thắng lợi của phong trào Tây Sơn có ý nghĩa đặc biệt?",
+              "options": {
+                "A": "Chỉ vì thống nhất đất nước",
+                "B": "Vì thống nhất đất nước sau thời kỳ chia cắt, đánh thắng cả quân Xiêm và quân Thanh, bảo vệ độc lập",
+                "C": "Chỉ vì đánh thắng quân ngoại xâm",
+                "D": "Không có ý nghĩa đặc biệt"
+              },
+              "correctOption": "B",
+              "hint": "Thắng lợi của Tây Sơn có ý nghĩa đặc biệt vì thống nhất đất nước sau thời kỳ chia cắt kéo dài, đánh thắng cả quân Xiêm và quân Thanh (hai đế chế lớn), bảo vệ độc lập dân tộc.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá vai trò của Nguyễn Huệ trong phong trào Tây Sơn, so sánh với các nhà quân sự khác",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá vai trò của Nguyễn Huệ trong phong trào Tây Sơn, so sánh với các nhà quân sự khác",
+              "hint": "Phân tích: tài năng quân sự, chiến thuật, vai trò lãnh đạo. So sánh với Lý Thường Kiệt, Trần Hưng Đạo. Đánh giá vị trí trong lịch sử.",
+              "answer": "Vai trò Nguyễn Huệ: Tài năng quân sự xuất sắc, chỉ huy nhiều trận đánh thắng lợi. Chiến thuật linh hoạt, sáng tạo, quyết đoán. Lãnh đạo thống nhất đất nước, đánh thắng quân Xiêm và quân Thanh. Có tầm nhìn xa, quyết tâm bảo vệ độc lập. So sánh: Giống Lý Thường Kiệt, Trần Hưng Đạo về tài năng quân sự, tinh thần yêu nước. Khác: Nguyễn Huệ còn thống nhất đất nước sau chia cắt. Đánh giá: Nguyễn Huệ là một trong những nhà quân sự kiệt xuất nhất trong lịch sử Việt Nam, có đóng góp to lớn trong việc thống nhất đất nước và bảo vệ độc lập.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH5-L3",
+          "title": "Văn hóa Việt Nam thế kỷ XVI-XVIII",
+          "exercises": [
+            {
+              "title": "Phân tích ý nghĩa sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao sự phát triển văn học chữ Nôm có ý nghĩa quan trọng?",
+              "options": {
+                "A": "Chỉ vì dễ viết",
+                "B": "Vì thể hiện tinh thần dân tộc, phát triển ngôn ngữ dân tộc, phổ biến văn hóa đến nhân dân",
+                "C": "Chỉ vì có nhiều tác phẩm",
+                "D": "Không có ý nghĩa"
+              },
+              "correctOption": "B",
+              "hint": "Văn học chữ Nôm thể hiện tinh thần dân tộc, phát triển ngôn ngữ dân tộc, phổ biến văn hóa đến đông đảo nhân dân, góp phần xây dựng bản sắc văn hóa.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và đánh giá sự phát triển văn hóa thế kỷ XVI-XVIII trong bối cảnh đất nước bị chia cắt",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và đánh giá sự phát triển văn hóa thế kỷ XVI-XVIII trong bối cảnh đất nước bị chia cắt",
+              "hint": "Phân tích: hoàn cảnh chia cắt, sự phát triển văn hóa (văn học, nghệ thuật), mối quan hệ giữa hoàn cảnh và văn hóa, đánh giá ý nghĩa.",
+              "answer": "Hoàn cảnh: Đất nước bị chia cắt, chiến tranh liên miên, nhân dân khổ cực. Sự phát triển văn hóa: Văn học chữ Nôm phát triển mạnh, thể hiện tinh thần dân tộc. Nghệ thuật (sân khấu, âm nhạc, hội họa) phát triển. Văn hóa dân gian phong phú. Mối quan hệ: Dù đất nước chia cắt nhưng văn hóa vẫn phát triển, thể hiện sức sống mãnh liệt của văn hóa dân tộc. Văn học chữ Nôm phát triển như một phản ứng với hoàn cảnh, thể hiện tinh thần độc lập về văn hóa. Ý nghĩa: Chứng minh sức sống của văn hóa dân tộc; góp phần xây dựng bản sắc văn hóa; tạo nền tảng cho sự phát triển sau này; thể hiện tinh thần dân tộc trong hoàn cảnh khó khăn.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

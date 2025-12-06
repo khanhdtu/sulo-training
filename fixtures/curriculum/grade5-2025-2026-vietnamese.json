@@ -1,0 +1,120 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Tiếng Việt",
+  "subjectCode": "LIT5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Việt Nam - Tổ quốc em",
+      "lessons": [
+        {
+          "code": "LIT5-CH1-L1",
+          "title": "Tập đọc: Thư gửi các học sinh"
+        },
+        {
+          "code": "LIT5-CH1-L2",
+          "title": "Chính tả: Nghe - viết: Việt Nam thân yêu"
+        },
+        {
+          "code": "LIT5-CH1-L3",
+          "title": "Luyện từ và câu: Từ đồng nghĩa"
+        },
+        {
+          "code": "LIT5-CH1-L4",
+          "title": "Tập làm văn: Cấu tạo của bài văn tả cảnh"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Cánh chim hòa bình",
+      "lessons": [
+        {
+          "code": "LIT5-CH2-L1",
+          "title": "Tập đọc: Những con sếu bằng giấy"
+        },
+        {
+          "code": "LIT5-CH2-L2",
+          "title": "Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ"
+        },
+        {
+          "code": "LIT5-CH2-L3",
+          "title": "Luyện từ và câu: Từ trái nghĩa"
+        },
+        {
+          "code": "LIT5-CH2-L4",
+          "title": "Tập làm văn: Luyện tập tả cảnh"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Con người với thiên nhiên",
+      "lessons": [
+        {
+          "code": "LIT5-CH3-L1",
+          "title": "Tập đọc: Những người bạn tốt"
+        },
+        {
+          "code": "LIT5-CH3-L2",
+          "title": "Chính tả: Nghe - viết: Dòng kinh quê hương"
+        },
+        {
+          "code": "LIT5-CH3-L3",
+          "title": "Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên"
+        },
+        {
+          "code": "LIT5-CH3-L4",
+          "title": "Tập làm văn: Luyện tập tả cảnh thiên nhiên"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Giữ lấy màu xanh",
+      "lessons": [
+        {
+          "code": "LIT5-CH4-L1",
+          "title": "Tập đọc: Một chuyên gia máy xúc"
+        },
+        {
+          "code": "LIT5-CH4-L2",
+          "title": "Chính tả: Nghe - viết: Luật Bảo vệ môi trường"
+        },
+        {
+          "code": "LIT5-CH4-L3",
+          "title": "Luyện từ và câu: Đại từ"
+        },
+        {
+          "code": "LIT5-CH4-L4",
+          "title": "Tập làm văn: Luyện tập tả người"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Vì hạnh phúc con người",
+      "lessons": [
+        {
+          "code": "LIT5-CH5-L1",
+          "title": "Tập đọc: Chuỗi ngọc lam"
+        },
+        {
+          "code": "LIT5-CH5-L2",
+          "title": "Chính tả: Nghe - viết: Mùa thảo quả"
+        },
+        {
+          "code": "LIT5-CH5-L3",
+          "title": "Luyện từ và câu: Tổng kết vốn từ"
+        },
+        {
+          "code": "LIT5-CH5-L4",
+          "title": "Tập làm văn: Luyện tập làm đơn"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

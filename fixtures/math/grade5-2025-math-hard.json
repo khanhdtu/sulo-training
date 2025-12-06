@@ -1,0 +1,460 @@
+{
+  "grade": 5,
+  "subject": "Toán",
+  "subjectCode": "MATH5",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 5 Math (Lớp 5 Toán) - advanced and challenging problems",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Ôn tập và bổ sung về phân số",
+      "lessons": [
+        {
+          "code": "MATH5-CH1-L1",
+          "title": "Phân số và phép tính với phân số",
+          "exercises": [
+            {
+              "title": "Giải bài toán thực tế với phân số",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một người đi được $\\frac{2}{5}$ quãng đường, sau đó đi thêm $\\frac{1}{3}$ quãng đường. Người đó đã đi được bao nhiêu phần quãng đường?",
+              "options": {
+                "A": "$\\frac{3}{8}$",
+                "B": "$\\frac{11}{15}$",
+                "C": "$\\frac{1}{2}$",
+                "D": "$\\frac{7}{15}$"
+              },
+              "correctOption": "B",
+              "hint": "Tính: $\\frac{2}{5} + \\frac{1}{3} = \\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}$.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một cửa hàng có $\\frac{3}{4}$ tấn gạo. Ngày đầu bán $\\frac{1}{3}$ số gạo, ngày thứ hai bán $\\frac{1}{4}$ số gạo còn lại. Tính số gạo còn lại sau hai ngày",
+              "type": "essay",
+              "points": 4,
+              "question": "Một cửa hàng có $\\frac{3}{4}$ tấn gạo. Ngày đầu bán $\\frac{1}{3}$ số gạo, ngày thứ hai bán $\\frac{1}{4}$ số gạo còn lại. Tính số gạo còn lại sau hai ngày",
+              "hint": "Tính số gạo còn lại sau ngày đầu, sau đó tính số gạo còn lại sau ngày thứ hai.",
+              "answer": "Số gạo bán ngày đầu: $\\frac{3}{4} \\times \\frac{1}{3} = \\frac{1}{4}$ tấn. Số gạo còn lại sau ngày đầu: $\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}$ tấn. Số gạo bán ngày thứ hai: $\\frac{1}{2} \\times \\frac{1}{4} = \\frac{1}{8}$ tấn. Số gạo còn lại: $\\frac{1}{2} - \\frac{1}{8} = \\frac{4}{8} - \\frac{1}{8} = \\frac{3}{8}$ tấn.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH1-L2",
+          "title": "Hỗn số",
+          "exercises": [
+            {
+              "title": "Tính toán phức tạp với hỗn số",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tính: $3\\frac{1}{4} - 1\\frac{2}{3} = ?$",
+              "options": {
+                "A": "$1\\frac{5}{12}$",
+                "B": "$2\\frac{1}{12}$",
+                "C": "$1\\frac{7}{12}$",
+                "D": "$2\\frac{5}{12}$"
+              },
+              "correctOption": "C",
+              "hint": "Chuyển về phân số: $3\\frac{1}{4} = \\frac{13}{4} = \\frac{39}{12}$, $1\\frac{2}{3} = \\frac{5}{3} = \\frac{20}{12}$. Tính: $\\frac{39}{12} - \\frac{20}{12} = \\frac{19}{12} = 1\\frac{7}{12}$.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Tính $2\\frac{3}{5} \\times 1\\frac{1}{2}$",
+              "type": "essay",
+              "points": 4,
+              "question": "Tính: $2\\frac{3}{5} \\times 1\\frac{1}{2}$",
+              "hint": "Chuyển về phân số rồi nhân, sau đó đổi lại thành hỗn số.",
+              "answer": "$2\\frac{3}{5} = \\frac{13}{5}$, $1\\frac{1}{2} = \\frac{3}{2}$. Tính: $\\frac{13}{5} \\times \\frac{3}{2} = \\frac{39}{10} = 3\\frac{9}{10}$.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH1-L3",
+          "title": "So sánh phân số",
+          "exercises": [
+            {
+              "title": "So sánh nhiều phân số phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân số nào lớn nhất trong các phân số: $\\frac{2}{3}$, $\\frac{3}{4}$, $\\frac{5}{6}$?",
+              "options": {
+                "A": "$\\frac{2}{3}$",
+                "B": "$\\frac{3}{4}$",
+                "C": "$\\frac{5}{6}$",
+                "D": "Bằng nhau"
+              },
+              "correctOption": "C",
+              "hint": "Quy đồng mẫu số 12: $\\frac{2}{3} = \\frac{8}{12}$, $\\frac{3}{4} = \\frac{9}{12}$, $\\frac{5}{6} = \\frac{10}{12}$. Vậy $\\frac{5}{6}$ lớn nhất.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Tìm phân số nằm giữa $\\frac{1}{3}$ và $\\frac{1}{2}$",
+              "type": "essay",
+              "points": 4,
+              "question": "Tìm phân số nằm giữa $\\frac{1}{3}$ và $\\frac{1}{2}$",
+              "hint": "Tính trung bình cộng của hai phân số: $\\frac{\\frac{1}{3} + \\frac{1}{2}}{2}$",
+              "answer": "Quy đồng: $\\frac{1}{3} = \\frac{2}{6}$, $\\frac{1}{2} = \\frac{3}{6}$. Trung bình cộng: $\\frac{\\frac{2}{6} + \\frac{3}{6}}{2} = \\frac{\\frac{5}{6}}{2} = \\frac{5}{12}$. Vậy phân số nằm giữa là $\\frac{5}{12}$.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Số thập phân",
+      "lessons": [
+        {
+          "code": "MATH5-CH2-L1",
+          "title": "Khái niệm số thập phân",
+          "exercises": [
+            {
+              "title": "Giải bài toán với số thập phân",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một số thập phân có phần nguyên là 5, phần thập phân là 25. Số đó là:",
+              "options": {
+                "A": "5,25",
+                "B": "25,5",
+                "C": "5,025",
+                "D": "52,5"
+              },
+              "correctOption": "A",
+              "hint": "Số thập phân có phần nguyên 5 và phần thập phân 25 được viết là 5,25.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết các phân số $\\frac{1}{4}$, $\\frac{3}{5}$, $\\frac{7}{8}$ dưới dạng số thập phân và sắp xếp theo thứ tự tăng dần",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết các phân số $\\frac{1}{4}$, $\\frac{3}{5}$, $\\frac{7}{8}$ dưới dạng số thập phân và sắp xếp theo thứ tự tăng dần",
+              "hint": "Đổi từng phân số sang số thập phân, sau đó so sánh.",
+              "answer": "$\\frac{1}{4} = 0,25$, $\\frac{3}{5} = 0,6$, $\\frac{7}{8} = 0,875$. Thứ tự tăng dần: 0,25 < 0,6 < 0,875 hay $\\frac{1}{4} < \\frac{3}{5} < \\frac{7}{8}$.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH2-L2",
+          "title": "Phép cộng, trừ số thập phân",
+          "exercises": [
+            {
+              "title": "Giải bài toán thực tế",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một cửa hàng có 25,5 kg gạo. Ngày đầu bán 8,75 kg, ngày thứ hai bán 12,25 kg. Số gạo còn lại là:",
+              "options": {
+                "A": "4,5 kg",
+                "B": "5,5 kg",
+                "C": "4,0 kg",
+                "D": "5,0 kg"
+              },
+              "correctOption": "A",
+              "hint": "Tổng số gạo đã bán: 8,75 + 12,25 = 21 kg. Số gạo còn lại: 25,5 - 21 = 4,5 kg.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một người đi bộ 2,5 km, sau đó đi xe đạp 8,75 km, cuối cùng đi ô tô 15,25 km. Tính tổng quãng đường người đó đã đi",
+              "type": "essay",
+              "points": 4,
+              "question": "Một người đi bộ 2,5 km, sau đó đi xe đạp 8,75 km, cuối cùng đi ô tô 15,25 km. Tính tổng quãng đường người đó đã đi",
+              "hint": "Cộng tất cả các quãng đường lại.",
+              "answer": "Tổng quãng đường = 2,5 + 8,75 + 15,25 = 26,5 km",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH2-L3",
+          "title": "Phép nhân, chia số thập phân",
+          "exercises": [
+            {
+              "title": "Giải bài toán thực tế với phép nhân",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một hộp sữa có giá 12,5 nghìn đồng. Mua 6 hộp hết bao nhiêu tiền?",
+              "options": {
+                "A": "75 nghìn đồng",
+                "B": "70 nghìn đồng",
+                "C": "80 nghìn đồng",
+                "D": "72,5 nghìn đồng"
+              },
+              "correctOption": "A",
+              "hint": "Số tiền = 12,5 × 6 = 75 nghìn đồng.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một mảnh vải dài 12,6 m. Người ta cắt thành các đoạn, mỗi đoạn dài 2,1 m. Hỏi cắt được bao nhiêu đoạn?",
+              "type": "essay",
+              "points": 4,
+              "question": "Một mảnh vải dài 12,6 m. Người ta cắt thành các đoạn, mỗi đoạn dài 2,1 m. Hỏi cắt được bao nhiêu đoạn?",
+              "hint": "Chia 12,6 cho 2,1.",
+              "answer": "Số đoạn = 12,6 : 2,1 = (12,6 × 10) : (2,1 × 10) = 126 : 21 = 6 đoạn",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Hình học",
+      "lessons": [
+        {
+          "code": "MATH5-CH3-L1",
+          "title": "Hình tam giác, hình thang",
+          "exercises": [
+            {
+              "title": "Phân tích và tính toán",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một hình tam giác có diện tích 24 cm² và chiều cao 6 cm. Độ dài đáy là:",
+              "options": {
+                "A": "4 cm",
+                "B": "8 cm",
+                "C": "6 cm",
+                "D": "10 cm"
+              },
+              "correctOption": "B",
+              "hint": "Từ công thức: Diện tích = (đáy × chiều cao) : 2, suy ra: đáy = (Diện tích × 2) : chiều cao = (24 × 2) : 6 = 8 cm.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một hình thang có diện tích 50 cm², đáy lớn 12 cm, đáy nhỏ 8 cm. Tính chiều cao",
+              "type": "essay",
+              "points": 4,
+              "question": "Một hình thang có diện tích 50 cm², đáy lớn 12 cm, đáy nhỏ 8 cm. Tính chiều cao",
+              "hint": "Từ công thức: Diện tích = (đáy lớn + đáy nhỏ) × chiều cao : 2, suy ra chiều cao.",
+              "answer": "Từ công thức: 50 = (12 + 8) × chiều cao : 2. Suy ra: 50 = 20 × chiều cao : 2 = 10 × chiều cao. Vậy chiều cao = 50 : 10 = 5 cm",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH3-L2",
+          "title": "Diện tích hình tam giác, hình thang",
+          "exercises": [
+            {
+              "title": "Giải bài toán tổng hợp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một mảnh đất hình tam giác có diện tích 30 m² và chiều cao 6 m. Độ dài đáy là:",
+              "options": {
+                "A": "5 m",
+                "B": "10 m",
+                "C": "12 m",
+                "D": "8 m"
+              },
+              "correctOption": "B",
+              "hint": "Đáy = (Diện tích × 2) : chiều cao = (30 × 2) : 6 = 10 m.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Tính diện tích một hình thang biết tổng hai đáy là 15 m và chiều cao bằng $\\frac{2}{3}$ tổng hai đáy",
+              "type": "essay",
+              "points": 4,
+              "question": "Tính diện tích một hình thang biết tổng hai đáy là 15 m và chiều cao bằng $\\frac{2}{3}$ tổng hai đáy",
+              "hint": "Tính chiều cao trước, sau đó tính diện tích.",
+              "answer": "Chiều cao = $15 \\times \\frac{2}{3} = 10$ m. Diện tích = $15 \\times 10 : 2 = 150 : 2 = 75$ m²",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH3-L3",
+          "title": "Hình tròn, hình hộp chữ nhật, hình lập phương",
+          "exercises": [
+            {
+              "title": "Tính diện tích hình tròn",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Diện tích hình tròn có bán kính 5 cm là (lấy π ≈ 3,14):",
+              "options": {
+                "A": "31,4 cm²",
+                "B": "78,5 cm²",
+                "C": "15,7 cm²",
+                "D": "25 cm²"
+              },
+              "correctOption": "B",
+              "hint": "Diện tích = π × r² = 3,14 × 5² = 3,14 × 25 = 78,5 cm².",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Tính diện tích toàn phần của hình hộp chữ nhật có chiều dài 8 cm, chiều rộng 5 cm, chiều cao 4 cm",
+              "type": "essay",
+              "points": 4,
+              "question": "Tính diện tích toàn phần của hình hộp chữ nhật có chiều dài 8 cm, chiều rộng 5 cm, chiều cao 4 cm",
+              "hint": "Diện tích toàn phần = diện tích xung quanh + diện tích 2 đáy. Diện tích xung quanh = chu vi đáy × chiều cao.",
+              "answer": "Diện tích xung quanh = (8 + 5) × 2 × 4 = 13 × 2 × 4 = 104 cm². Diện tích 2 đáy = 8 × 5 × 2 = 80 cm². Diện tích toàn phần = 104 + 80 = 184 cm²",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Số đo thời gian",
+      "lessons": [
+        {
+          "code": "MATH5-CH4-L1",
+          "title": "Bảng đơn vị đo thời gian",
+          "exercises": [
+            {
+              "title": "Đổi đơn vị phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "1 tuần 3 ngày 5 giờ = ? giờ",
+              "options": {
+                "A": "173 giờ",
+                "B": "180 giờ",
+                "C": "185 giờ",
+                "D": "192 giờ"
+              },
+              "correctOption": "C",
+              "hint": "1 tuần = 7 ngày = 168 giờ, 3 ngày = 72 giờ, 5 giờ = 5 giờ. Tổng: 168 + 72 + 5 = 185 giờ.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Đổi 2 năm 3 tháng 15 ngày sang ngày (biết 1 năm = 365 ngày, 1 tháng = 30 ngày)",
+              "type": "essay",
+              "points": 4,
+              "question": "Đổi 2 năm 3 tháng 15 ngày sang ngày (biết 1 năm = 365 ngày, 1 tháng = 30 ngày)",
+              "hint": "Tính từng phần rồi cộng lại.",
+              "answer": "2 năm = 2 × 365 = 730 ngày. 3 tháng = 3 × 30 = 90 ngày. 15 ngày = 15 ngày. Tổng: 730 + 90 + 15 = 835 ngày",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH4-L2",
+          "title": "Cộng, trừ số đo thời gian",
+          "exercises": [
+            {
+              "title": "Giải bài toán thực tế",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một người làm việc từ 7 giờ 30 phút đến 11 giờ 45 phút. Thời gian làm việc là:",
+              "options": {
+                "A": "4 giờ 15 phút",
+                "B": "4 giờ 30 phút",
+                "C": "3 giờ 45 phút",
+                "D": "4 giờ 45 phút"
+              },
+              "correctOption": "A",
+              "hint": "11 giờ 45 phút - 7 giờ 30 phút = 4 giờ 15 phút.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một người đi từ A đến B hết 2 giờ 35 phút, từ B đến C hết 1 giờ 50 phút. Tính tổng thời gian đi từ A đến C",
+              "type": "essay",
+              "points": 4,
+              "question": "Một người đi từ A đến B hết 2 giờ 35 phút, từ B đến C hết 1 giờ 50 phút. Tính tổng thời gian đi từ A đến C",
+              "hint": "Cộng hai khoảng thời gian, chú ý đổi đơn vị khi phút >= 60.",
+              "answer": "Tổng thời gian = 2 giờ 35 phút + 1 giờ 50 phút = 3 giờ 85 phút = 4 giờ 25 phút (vì 85 phút = 1 giờ 25 phút)",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH4-L3",
+          "title": "Nhân, chia số đo thời gian",
+          "exercises": [
+            {
+              "title": "Giải bài toán thực tế",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một công nhân làm 5 sản phẩm hết 2 giờ 30 phút. Thời gian làm 1 sản phẩm là:",
+              "options": {
+                "A": "30 phút",
+                "B": "25 phút",
+                "C": "35 phút",
+                "D": "40 phút"
+              },
+              "correctOption": "A",
+              "hint": "2 giờ 30 phút = 150 phút. Thời gian làm 1 sản phẩm = 150 : 5 = 30 phút.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một người làm việc mỗi ngày 8 giờ. Trong 5 ngày, người đó làm việc tổng cộng bao nhiêu giờ?",
+              "type": "essay",
+              "points": 4,
+              "question": "Một người làm việc mỗi ngày 8 giờ. Trong 5 ngày, người đó làm việc tổng cộng bao nhiêu giờ?",
+              "hint": "Nhân 8 giờ với 5.",
+              "answer": "Tổng thời gian = 8 giờ × 5 = 40 giờ",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Ôn tập cuối năm",
+      "lessons": [
+        {
+          "code": "MATH5-CH5-L1",
+          "title": "Ôn tập về số tự nhiên, phân số, số thập phân",
+          "exercises": [
+            {
+              "title": "Giải bài toán tổng hợp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tính: $\\frac{1}{2} + 0,25 \\times 2 = ?$",
+              "options": {
+                "A": "0,75",
+                "B": "1,0",
+                "C": "1,5",
+                "D": "2,0"
+              },
+              "correctOption": "B",
+              "hint": "Tính phép nhân trước: 0,25 × 2 = 0,5. Sau đó cộng: $\\frac{1}{2} + 0,5 = 0,5 + 0,5 = 1,0$.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Tính giá trị biểu thức: $\\frac{3}{4} + 0,5 \\times 2 - \\frac{1}{2}$",
+              "type": "essay",
+              "points": 4,
+              "question": "Tính giá trị biểu thức: $\\frac{3}{4} + 0,5 \\times 2 - \\frac{1}{2}$",
+              "hint": "Thực hiện phép nhân trước, sau đó cộng và trừ từ trái sang phải.",
+              "answer": "$0,5 \\times 2 = 1,0$. $\\frac{3}{4} = 0,75$, $\\frac{1}{2} = 0,5$. Tính: $0,75 + 1,0 - 0,5 = 1,25$",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH5-L2",
+          "title": "Ôn tập về hình học và đo lường",
+          "exercises": [
+            {
+              "title": "Giải bài toán tổng hợp về hình học",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Một hình chữ nhật có chu vi 24 cm và chiều rộng 5 cm. Chiều dài là:",
+              "options": {
+                "A": "7 cm",
+                "B": "6 cm",
+                "C": "8 cm",
+                "D": "9 cm"
+              },
+              "correctOption": "A",
+              "hint": "Nửa chu vi = 24 : 2 = 12 cm. Chiều dài = 12 - 5 = 7 cm.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Một hình chữ nhật có diện tích 48 cm² và chiều rộng 6 cm. Tính chu vi hình chữ nhật đó",
+              "type": "essay",
+              "points": 4,
+              "question": "Một hình chữ nhật có diện tích 48 cm² và chiều rộng 6 cm. Tính chu vi hình chữ nhật đó",
+              "hint": "Tính chiều dài trước, sau đó tính chu vi.",
+              "answer": "Chiều dài = 48 : 6 = 8 cm. Chu vi = (8 + 6) × 2 = 14 × 2 = 28 cm",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

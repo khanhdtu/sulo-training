@@ -1,0 +1,514 @@
+{
+  "grade": 5,
+  "subject": "Khoa học",
+  "subjectCode": "KH5",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 5 Science (Lớp 5 Khoa học) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Con người và sức khỏe",
+      "lessons": [
+        {
+          "code": "KH5-CH1-L1",
+          "title": "Sự sinh sản",
+          "exercises": [
+            {
+              "title": "Nhận biết về sự sinh sản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Sự sinh sản là gì?",
+              "options": {
+                "A": "Quá trình tạo ra thế hệ mới",
+                "B": "Quá trình lớn lên",
+                "C": "Quá trình ăn uống",
+                "D": "Quá trình học tập"
+              },
+              "correctOption": "A",
+              "hint": "Sự sinh sản là quá trình tạo ra thế hệ mới, duy trì nòi giống.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của sự sinh sản",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của sự sinh sản",
+              "hint": "Nêu tầm quan trọng: duy trì nòi giống, tạo ra thế hệ mới...",
+              "answer": "Sự sinh sản rất quan trọng vì nó giúp duy trì nòi giống. Nhờ có sự sinh sản mà các loài sinh vật có thể tạo ra thế hệ mới. Sự sinh sản đảm bảo sự tồn tại của các loài trên Trái Đất.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L2",
+          "title": "Vệ sinh tuổi dậy thì",
+          "exercises": [
+            {
+              "title": "Nhận biết về tuổi dậy thì",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tuổi dậy thì thường bắt đầu từ khi nào?",
+              "options": {
+                "A": "Từ 5-7 tuổi",
+                "B": "Từ 10-15 tuổi",
+                "C": "Từ 20-25 tuổi",
+                "D": "Từ 30-35 tuổi"
+              },
+              "correctOption": "B",
+              "hint": "Tuổi dậy thì thường bắt đầu từ khoảng 10-15 tuổi, tùy từng người.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của vệ sinh trong tuổi dậy thì",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của vệ sinh trong tuổi dậy thì",
+              "hint": "Nêu tầm quan trọng: giữ gìn sức khỏe, tránh bệnh tật...",
+              "answer": "Vệ sinh trong tuổi dậy thì rất quan trọng. Giữ gìn vệ sinh giúp chúng ta khỏe mạnh và tránh được nhiều bệnh tật. Chúng ta nên tắm rửa sạch sẽ, thay quần áo thường xuyên.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L3",
+          "title": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+          "exercises": [
+            {
+              "title": "Nhận biết cách phòng bệnh",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để phòng bệnh sốt xuất huyết, chúng ta nên:",
+              "options": {
+                "A": "Để nước đọng quanh nhà",
+                "B": "Diệt muỗi và lăng quăng",
+                "C": "Không ngủ màn",
+                "D": "Không vệ sinh nhà cửa"
+              },
+              "correctOption": "B",
+              "hint": "Để phòng bệnh sốt xuất huyết, cần diệt muỗi và lăng quăng, không để nước đọng.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách phòng tránh bệnh sốt rét",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách phòng tránh bệnh sốt rét",
+              "hint": "Nêu các cách: ngủ màn, diệt muỗi, giữ vệ sinh...",
+              "answer": "Để phòng bệnh sốt rét, chúng ta nên ngủ màn, đặc biệt là màn đã được tẩm hóa chất. Chúng ta cũng nên diệt muỗi và giữ vệ sinh môi trường sống. Khi có dấu hiệu bệnh, cần đến bác sĩ ngay.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L4",
+          "title": "Phòng tránh HIV/AIDS",
+          "exercises": [
+            {
+              "title": "Nhận biết về HIV/AIDS",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "HIV/AIDS lây truyền qua đường nào?",
+              "options": {
+                "A": "Qua không khí",
+                "B": "Qua đường máu, tình dục, từ mẹ sang con",
+                "C": "Qua tiếp xúc thông thường",
+                "D": "Qua nước uống"
+              },
+              "correctOption": "B",
+              "hint": "HIV/AIDS lây truyền chủ yếu qua đường máu, tình dục, và từ mẹ sang con.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách phòng tránh HIV/AIDS",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách phòng tránh HIV/AIDS",
+              "hint": "Nêu các cách: không dùng chung kim tiêm, quan hệ tình dục an toàn...",
+              "answer": "Để phòng tránh HIV/AIDS, chúng ta không nên dùng chung kim tiêm. Chúng ta cần có lối sống lành mạnh. Khi cần truyền máu, phải đảm bảo máu đã được kiểm tra an toàn.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Vật chất và năng lượng",
+      "lessons": [
+        {
+          "code": "KH5-CH2-L1",
+          "title": "Tính chất của nước",
+          "exercises": [
+            {
+              "title": "Nhận biết tính chất của nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước có tính chất nào sau đây?",
+              "options": {
+                "A": "Không màu, không mùi, không vị",
+                "B": "Có màu xanh",
+                "C": "Có mùi thơm",
+                "D": "Có vị ngọt"
+              },
+              "correctOption": "A",
+              "hint": "Nước tinh khiết không màu, không mùi, không vị.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của nước",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của nước",
+              "hint": "Nêu tầm quan trọng: cần cho sự sống, sử dụng trong sinh hoạt...",
+              "answer": "Nước rất quan trọng đối với sự sống. Con người, động vật và thực vật đều cần nước để sống. Nước cũng được sử dụng trong nhiều hoạt động sinh hoạt và sản xuất.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L2",
+          "title": "Sự chuyển thể của nước",
+          "exercises": [
+            {
+              "title": "Nhận biết các thể của nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước tồn tại ở mấy thể?",
+              "options": {
+                "A": "1 thể",
+                "B": "2 thể",
+                "C": "3 thể",
+                "D": "4 thể"
+              },
+              "correctOption": "C",
+              "hint": "Nước tồn tại ở 3 thể: rắn (nước đá), lỏng (nước), khí (hơi nước).",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về sự chuyển thể của nước",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về sự chuyển thể của nước",
+              "hint": "Nêu các quá trình: đông đặc, nóng chảy, bay hơi, ngưng tụ...",
+              "answer": "Nước có thể chuyển từ thể này sang thể khác. Khi đun nóng, nước lỏng chuyển thành hơi nước (bay hơi). Khi làm lạnh, nước lỏng chuyển thành nước đá (đông đặc).",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L3",
+          "title": "Năng lượng",
+          "exercises": [
+            {
+              "title": "Nhận biết về năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Năng lượng là gì?",
+              "options": {
+                "A": "Khả năng thực hiện công",
+                "B": "Một loại vật chất",
+                "C": "Một loại thức ăn",
+                "D": "Một loại nước"
+              },
+              "correctOption": "A",
+              "hint": "Năng lượng là khả năng thực hiện công, làm cho vật hoạt động.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về các dạng năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về các dạng năng lượng",
+              "hint": "Nêu các dạng: cơ năng, nhiệt năng, điện năng, quang năng...",
+              "answer": "Có nhiều dạng năng lượng khác nhau như cơ năng, nhiệt năng, điện năng, quang năng. Năng lượng có thể chuyển hóa từ dạng này sang dạng khác. Năng lượng rất cần thiết cho mọi hoạt động.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L4",
+          "title": "Sử dụng năng lượng",
+          "exercises": [
+            {
+              "title": "Nhận biết cách sử dụng năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để tiết kiệm năng lượng, chúng ta nên:",
+              "options": {
+                "A": "Bật đèn cả ngày",
+                "B": "Tắt đèn khi không dùng",
+                "C": "Dùng điện thoại liên tục",
+                "D": "Bật quạt cả đêm"
+              },
+              "correctOption": "B",
+              "hint": "Để tiết kiệm năng lượng, nên tắt các thiết bị khi không sử dụng.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách tiết kiệm năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách tiết kiệm năng lượng",
+              "hint": "Nêu các cách: tắt đèn khi không dùng, sử dụng thiết bị tiết kiệm năng lượng...",
+              "answer": "Để tiết kiệm năng lượng, chúng ta nên tắt đèn và các thiết bị điện khi không sử dụng. Chúng ta cũng nên sử dụng các thiết bị tiết kiệm năng lượng. Tiết kiệm năng lượng giúp bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Thực vật và động vật",
+      "lessons": [
+        {
+          "code": "KH5-CH3-L1",
+          "title": "Cơ quan sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Nhận biết cơ quan sinh sản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cơ quan sinh sản của thực vật có hoa là:",
+              "options": {
+                "A": "Lá",
+                "B": "Rễ",
+                "C": "Hoa",
+                "D": "Thân"
+              },
+              "correctOption": "C",
+              "hint": "Hoa là cơ quan sinh sản của thực vật có hoa.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cấu tạo của hoa",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cấu tạo của hoa",
+              "hint": "Nêu các bộ phận: đài hoa, cánh hoa, nhị, nhụy...",
+              "answer": "Hoa có nhiều bộ phận như đài hoa, cánh hoa, nhị (cơ quan sinh sản đực), nhụy (cơ quan sinh sản cái). Nhị và nhụy là những bộ phận quan trọng nhất trong quá trình sinh sản.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L2",
+          "title": "Sự sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Nhận biết quá trình sinh sản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Quá trình sinh sản của thực vật có hoa bắt đầu từ:",
+              "options": {
+                "A": "Hạt",
+                "B": "Quả",
+                "C": "Hoa",
+                "D": "Lá"
+              },
+              "correctOption": "C",
+              "hint": "Quá trình sinh sản bắt đầu từ hoa, sau đó tạo thành quả và hạt.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về quá trình sinh sản của thực vật có hoa",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về quá trình sinh sản của thực vật có hoa",
+              "hint": "Nêu các bước: thụ phấn, thụ tinh, tạo quả và hạt...",
+              "answer": "Quá trình sinh sản của thực vật có hoa bắt đầu từ hoa. Sau khi thụ phấn và thụ tinh, hoa sẽ tạo thành quả. Trong quả có hạt, hạt sẽ nảy mầm thành cây mới.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L3",
+          "title": "Cây con mọc lên từ hạt",
+          "exercises": [
+            {
+              "title": "Nhận biết quá trình nảy mầm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để hạt nảy mầm, cần những điều kiện nào?",
+              "options": {
+                "A": "Chỉ cần nước",
+                "B": "Nước, không khí, nhiệt độ thích hợp",
+                "C": "Chỉ cần không khí",
+                "D": "Chỉ cần nhiệt độ"
+              },
+              "correctOption": "B",
+              "hint": "Hạt cần nước, không khí và nhiệt độ thích hợp để nảy mầm.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về quá trình hạt nảy mầm",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về quá trình hạt nảy mầm",
+              "hint": "Nêu các bước: hạt hút nước, nứt vỏ, mọc rễ, mọc chồi...",
+              "answer": "Khi có đủ nước, không khí và nhiệt độ thích hợp, hạt sẽ nảy mầm. Đầu tiên hạt hút nước và nứt vỏ. Sau đó mọc rễ xuống đất và mọc chồi lên trên. Cây con sẽ lớn dần lên.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L4",
+          "title": "Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+          "exercises": [
+            {
+              "title": "Nhận biết cách sinh sản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cây con có thể mọc lên từ bộ phận nào của cây mẹ?",
+              "options": {
+                "A": "Chỉ từ hạt",
+                "B": "Từ hạt, thân, rễ, lá",
+                "C": "Chỉ từ thân",
+                "D": "Chỉ từ rễ"
+              },
+              "correctOption": "B",
+              "hint": "Cây con có thể mọc lên từ hạt, hoặc từ một số bộ phận như thân, rễ, lá của cây mẹ.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách nhân giống cây trồng",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách nhân giống cây trồng",
+              "hint": "Nêu các cách: gieo hạt, giâm cành, chiết cành...",
+              "answer": "Có nhiều cách nhân giống cây trồng như gieo hạt, giâm cành, chiết cành. Mỗi cách có ưu điểm riêng. Việc nhân giống giúp tạo ra nhiều cây mới.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Môi trường và tài nguyên thiên nhiên",
+      "lessons": [
+        {
+          "code": "KH5-CH4-L1",
+          "title": "Môi trường",
+          "exercises": [
+            {
+              "title": "Nhận biết về môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Môi trường bao gồm những gì?",
+              "options": {
+                "A": "Chỉ không khí",
+                "B": "Không khí, đất, nước, sinh vật",
+                "C": "Chỉ nước",
+                "D": "Chỉ đất"
+              },
+              "correctOption": "B",
+              "hint": "Môi trường bao gồm không khí, đất, nước và các sinh vật sống trong đó.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của môi trường",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của môi trường",
+              "hint": "Nêu tầm quan trọng: cung cấp không khí, nước, thức ăn...",
+              "answer": "Môi trường rất quan trọng đối với sự sống. Môi trường cung cấp không khí, nước, thức ăn cho con người và các sinh vật. Chúng ta cần bảo vệ môi trường để có cuộc sống tốt đẹp.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L2",
+          "title": "Tài nguyên thiên nhiên",
+          "exercises": [
+            {
+              "title": "Nhận biết tài nguyên thiên nhiên",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tài nguyên thiên nhiên nào sau đây có thể tái tạo?",
+              "options": {
+                "A": "Than đá",
+                "B": "Dầu mỏ",
+                "C": "Nước",
+                "D": "Kim cương"
+              },
+              "correctOption": "C",
+              "hint": "Nước là tài nguyên có thể tái tạo thông qua vòng tuần hoàn nước.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách sử dụng tài nguyên thiên nhiên hợp lý",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách sử dụng tài nguyên thiên nhiên hợp lý",
+              "hint": "Nêu các cách: tiết kiệm, tái sử dụng, bảo vệ...",
+              "answer": "Chúng ta cần sử dụng tài nguyên thiên nhiên một cách hợp lý. Nên tiết kiệm nước, điện và các tài nguyên khác. Chúng ta cũng nên tái sử dụng và bảo vệ tài nguyên để không bị cạn kiệt.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L3",
+          "title": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+          "exercises": [
+            {
+              "title": "Nhận biết vai trò của môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Môi trường tự nhiên có vai trò gì đối với con người?",
+              "options": {
+                "A": "Chỉ cung cấp thức ăn",
+                "B": "Cung cấp thức ăn, nước, không khí, nguyên liệu",
+                "C": "Chỉ cung cấp nước",
+                "D": "Không có vai trò gì"
+              },
+              "correctOption": "B",
+              "hint": "Môi trường tự nhiên cung cấp thức ăn, nước, không khí và nhiều nguyên liệu cho con người.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về vai trò của môi trường đối với đời sống",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về vai trò của môi trường đối với đời sống",
+              "hint": "Nêu các vai trò: cung cấp tài nguyên, điều hòa khí hậu...",
+              "answer": "Môi trường tự nhiên có vai trò rất quan trọng. Nó cung cấp thức ăn, nước, không khí và các tài nguyên cần thiết cho con người. Môi trường cũng giúp điều hòa khí hậu và tạo môi trường sống tốt.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L4",
+          "title": "Tác động của con người đến môi trường",
+          "exercises": [
+            {
+              "title": "Nhận biết tác động",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hoạt động nào của con người gây ô nhiễm môi trường?",
+              "options": {
+                "A": "Trồng cây",
+                "B": "Xả rác bừa bãi",
+                "C": "Tiết kiệm nước",
+                "D": "Bảo vệ rừng"
+              },
+              "correctOption": "B",
+              "hint": "Xả rác bừa bãi là hoạt động gây ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về cách giảm tác động xấu đến môi trường",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về cách giảm tác động xấu đến môi trường",
+              "hint": "Nêu các cách: không xả rác, trồng cây, tiết kiệm tài nguyên...",
+              "answer": "Để giảm tác động xấu đến môi trường, chúng ta không nên xả rác bừa bãi. Chúng ta nên trồng nhiều cây xanh và tiết kiệm tài nguyên. Mọi người cần chung tay bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

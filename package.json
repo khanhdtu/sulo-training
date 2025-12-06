@@ -15,6 +15,7 @@
     "db:seed-curriculum": "tsx scripts/seed-curriculum.ts",
     "db:seed-curriculum-table": "tsx scripts/seed-curriculum-table.ts",
     "db:seed-exercises": "tsx scripts/seed-exercises-from-fixtures.ts",
+    "db:seed-all": "tsx scripts/seed-all-data.ts",
     "db:get-grade7-easy": "tsx scripts/get-grade7-easy-exercises.ts",
     "db:get-grade7-math-easy": "tsx scripts/get-grade7-math-easy.ts",
     "db:get-grade7-math-curriculum": "tsx scripts/get-grade7-math-curriculum.ts",

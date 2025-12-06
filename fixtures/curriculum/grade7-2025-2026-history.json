@@ -1,0 +1,100 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Lịch sử",
+  "subjectCode": "LS7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Buổi đầu độc lập thời Ngô - Đinh - Tiền Lê (Thế kỷ X)",
+      "lessons": [
+        {
+          "code": "LS7-CH1-L1",
+          "title": "Nước ta buổi đầu độc lập"
+        },
+        {
+          "code": "LS7-CH1-L2",
+          "title": "Nhà Ngô, Đinh, Tiền Lê"
+        },
+        {
+          "code": "LS7-CH1-L3",
+          "title": "Cuộc kháng chiến chống Tống lần thứ nhất (981)"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Nước Đại Việt thời Lý (1009-1225)",
+      "lessons": [
+        {
+          "code": "LS7-CH2-L1",
+          "title": "Nhà Lý thành lập và xây dựng đất nước"
+        },
+        {
+          "code": "LS7-CH2-L2",
+          "title": "Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)"
+        },
+        {
+          "code": "LS7-CH2-L3",
+          "title": "Văn hóa Đại Việt thời Lý"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Nước Đại Việt thời Trần (1226-1400)",
+      "lessons": [
+        {
+          "code": "LS7-CH3-L1",
+          "title": "Nhà Trần thành lập và củng cố chính quyền"
+        },
+        {
+          "code": "LS7-CH3-L2",
+          "title": "Ba lần kháng chiến chống quân xâm lược Mông - Nguyên"
+        },
+        {
+          "code": "LS7-CH3-L3",
+          "title": "Văn hóa Đại Việt thời Trần"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Nước Đại Việt thời Lê sơ (1428-1527)",
+      "lessons": [
+        {
+          "code": "LS7-CH4-L1",
+          "title": "Khởi nghĩa Lam Sơn và sự thành lập nhà Lê"
+        },
+        {
+          "code": "LS7-CH4-L2",
+          "title": "Tổ chức bộ máy nhà nước thời Lê sơ"
+        },
+        {
+          "code": "LS7-CH4-L3",
+          "title": "Văn hóa Đại Việt thời Lê sơ"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Đại Việt thời các thế kỷ XVI-XVIII",
+      "lessons": [
+        {
+          "code": "LS7-CH5-L1",
+          "title": "Đất nước bị chia cắt"
+        },
+        {
+          "code": "LS7-CH5-L2",
+          "title": "Phong trào nông dân Tây Sơn"
+        },
+        {
+          "code": "LS7-CH5-L3",
+          "title": "Văn hóa Việt Nam thế kỷ XVI-XVIII"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

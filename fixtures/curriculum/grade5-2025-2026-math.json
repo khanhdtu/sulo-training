@@ -1,0 +1,96 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Toán",
+  "subjectCode": "MATH5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Ôn tập và bổ sung về phân số",
+      "lessons": [
+        {
+          "code": "MATH5-CH1-L1",
+          "title": "Phân số và phép tính với phân số"
+        },
+        {
+          "code": "MATH5-CH1-L2",
+          "title": "Hỗn số"
+        },
+        {
+          "code": "MATH5-CH1-L3",
+          "title": "So sánh phân số"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Số thập phân",
+      "lessons": [
+        {
+          "code": "MATH5-CH2-L1",
+          "title": "Khái niệm số thập phân"
+        },
+        {
+          "code": "MATH5-CH2-L2",
+          "title": "Phép cộng, trừ số thập phân"
+        },
+        {
+          "code": "MATH5-CH2-L3",
+          "title": "Phép nhân, chia số thập phân"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Hình học",
+      "lessons": [
+        {
+          "code": "MATH5-CH3-L1",
+          "title": "Hình tam giác, hình thang"
+        },
+        {
+          "code": "MATH5-CH3-L2",
+          "title": "Diện tích hình tam giác, hình thang"
+        },
+        {
+          "code": "MATH5-CH3-L3",
+          "title": "Hình tròn, hình hộp chữ nhật, hình lập phương"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Số đo thời gian",
+      "lessons": [
+        {
+          "code": "MATH5-CH4-L1",
+          "title": "Bảng đơn vị đo thời gian"
+        },
+        {
+          "code": "MATH5-CH4-L2",
+          "title": "Cộng, trừ số đo thời gian"
+        },
+        {
+          "code": "MATH5-CH4-L3",
+          "title": "Nhân, chia số đo thời gian"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Ôn tập cuối năm",
+      "lessons": [
+        {
+          "code": "MATH5-CH5-L1",
+          "title": "Ôn tập về số tự nhiên, phân số, số thập phân"
+        },
+        {
+          "code": "MATH5-CH5-L2",
+          "title": "Ôn tập về hình học và đo lường"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

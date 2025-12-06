@@ -1,0 +1,394 @@
+{
+  "grade": 7,
+  "subject": "Khoa học tự nhiên",
+  "subjectCode": "KHTN7",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 7 Natural Science (Lớp 7 Khoa học tự nhiên) - advanced and challenging problems",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chất và sự biến đổi của chất",
+      "lessons": [
+        {
+          "code": "KHTN7-CH1-L1",
+          "title": "Tính chất của chất",
+          "exercises": [
+            {
+              "title": "Vận dụng kiến thức để giải thích hiện tượng phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao kim loại dẫn điện tốt hơn gỗ?",
+              "options": {
+                "A": "Vì kim loại có tính chất vật lí đặc biệt",
+                "B": "Vì kim loại có các electron tự do có thể di chuyển",
+                "C": "Vì kim loại cứng hơn gỗ",
+                "D": "Vì kim loại có màu sáng"
+              },
+              "correctOption": "B",
+              "hint": "Kim loại dẫn điện tốt vì có các electron tự do trong cấu trúc tinh thể, có thể di chuyển khi có điện trường.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Thiết kế thí nghiệm để phân biệt chất tinh khiết và hỗn hợp",
+              "type": "essay",
+              "points": 4,
+              "question": "Thiết kế thí nghiệm để phân biệt chất tinh khiết và hỗn hợp",
+              "hint": "Chất tinh khiết có nhiệt độ sôi/nóng chảy cố định, hỗn hợp có khoảng nhiệt độ.",
+              "answer": "Thí nghiệm: Đo nhiệt độ sôi của mẫu chất. Nếu là chất tinh khiết, nhiệt độ sôi sẽ cố định ở một giá trị nhất định. Nếu là hỗn hợp, nhiệt độ sôi sẽ thay đổi trong một khoảng. Hoặc dùng phương pháp cô cạn: chất tinh khiết cô cạn hoàn toàn, hỗn hợp có thể để lại cặn.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L2",
+          "title": "Sự biến đổi vật lí và hóa học",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá các hiện tượng phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Khi đốt cháy hoàn toàn một hợp chất hữu cơ, sản phẩm thu được là CO2 và H2O. Điều này chứng tỏ:",
+              "options": {
+                "A": "Chỉ có biến đổi vật lí",
+                "B": "Có biến đổi hóa học, tạo ra chất mới",
+                "C": "Không có biến đổi nào",
+                "D": "Chỉ có biến đổi nhiệt độ"
+              },
+              "correctOption": "B",
+              "hint": "Tạo ra CO2 và H2O là các chất mới, khác với hợp chất ban đầu, chứng tỏ có phản ứng hóa học.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và giải thích tại sao một số biến đổi có thể đảo ngược và một số không thể",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và giải thích tại sao một số biến đổi có thể đảo ngược và một số không thể",
+              "hint": "Biến đổi vật lí có thể đảo ngược vì không tạo chất mới. Biến đổi hóa học khó đảo ngược vì tạo chất mới.",
+              "answer": "Biến đổi vật lí có thể đảo ngược vì không tạo ra chất mới, chỉ thay đổi hình dạng, trạng thái (ví dụ: nước đá ↔ nước lỏng ↔ hơi nước). Biến đổi hóa học khó hoặc không thể đảo ngược vì tạo ra các chất mới với tính chất khác hoàn toàn (ví dụ: đốt cháy gỗ tạo tro và CO2, không thể biến tro và CO2 trở lại thành gỗ bằng phương pháp đơn giản).",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L3",
+          "title": "Nguyên tử và phân tử",
+          "exercises": [
+            {
+              "title": "Vận dụng kiến thức về cấu trúc nguyên tử",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Nguyên tử trung hòa về điện vì:",
+              "options": {
+                "A": "Không có electron",
+                "B": "Số proton bằng số electron",
+                "C": "Số neutron bằng số proton",
+                "D": "Không có proton"
+              },
+              "correctOption": "B",
+              "hint": "Nguyên tử trung hòa về điện vì số proton (điện tích dương) bằng số electron (điện tích âm).",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Giải thích tại sao các nguyên tử liên kết với nhau tạo thành phân tử",
+              "type": "essay",
+              "points": 4,
+              "question": "Giải thích tại sao các nguyên tử liên kết với nhau tạo thành phân tử",
+              "hint": "Nguyên tử liên kết để đạt cấu trúc bền vững hơn, thường là lớp vỏ electron đầy đủ.",
+              "answer": "Các nguyên tử liên kết với nhau để đạt cấu trúc bền vững hơn. Nguyên tử có xu hướng đạt cấu hình electron bền vững (thường là 8 electron ở lớp ngoài cùng). Bằng cách chia sẻ, nhận hoặc cho electron, các nguyên tử tạo thành liên kết hóa học (cộng hóa trị hoặc ion) để tạo thành phân tử ổn định.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Năng lượng và sự chuyển hóa",
+      "lessons": [
+        {
+          "code": "KHTN7-CH2-L1",
+          "title": "Năng lượng và các dạng năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá hiệu quả chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong bóng đèn sợi đốt, năng lượng điện chuyển hóa chủ yếu thành:",
+              "options": {
+                "A": "Năng lượng ánh sáng",
+                "B": "Năng lượng nhiệt",
+                "C": "Năng lượng cơ học",
+                "D": "Năng lượng hóa học"
+              },
+              "correctOption": "B",
+              "hint": "Bóng đèn sợi đốt chuyển hóa chủ yếu thành nhiệt (khoảng 90%), chỉ một phần nhỏ thành ánh sáng, nên hiệu suất thấp.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và so sánh hiệu suất chuyển hóa năng lượng của các thiết bị",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và so sánh hiệu suất chuyển hóa năng lượng của bóng đèn sợi đốt và bóng đèn LED",
+              "hint": "Bóng đèn LED có hiệu suất cao hơn vì chuyển hóa nhiều điện năng thành ánh sáng, ít thành nhiệt.",
+              "answer": "Bóng đèn sợi đốt: chuyển hóa khoảng 10% điện năng thành ánh sáng, 90% thành nhiệt, hiệu suất thấp. Bóng đèn LED: chuyển hóa khoảng 80-90% điện năng thành ánh sáng, chỉ 10-20% thành nhiệt, hiệu suất cao hơn nhiều, tiết kiệm năng lượng.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L2",
+          "title": "Sự chuyển hóa năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích chuỗi chuyển hóa năng lượng phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong chuỗi thức ăn: cỏ → thỏ → cáo, năng lượng được chuyển hóa như thế nào?",
+              "options": {
+                "A": "Năng lượng tăng dần",
+                "B": "Năng lượng giảm dần do mất mát",
+                "C": "Năng lượng không đổi",
+                "D": "Năng lượng biến mất"
+              },
+              "correctOption": "B",
+              "hint": "Theo định luật bảo toàn năng lượng, năng lượng không mất đi nhưng bị chuyển hóa một phần thành nhiệt, nên năng lượng có thể sử dụng giảm dần qua mỗi bậc.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và giải thích tại sao hiệu suất chuyển hóa năng lượng trong tự nhiên không đạt 100%",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và giải thích tại sao hiệu suất chuyển hóa năng lượng trong tự nhiên không đạt 100%",
+              "hint": "Năng lượng bị mất mát dưới dạng nhiệt, không thể sử dụng hết do định luật nhiệt động học.",
+              "answer": "Hiệu suất chuyển hóa năng lượng không đạt 100% vì: một phần năng lượng luôn bị chuyển hóa thành nhiệt (theo định luật nhiệt động học thứ hai); năng lượng bị mất mát do ma sát, phản xạ, hấp thụ không hoàn toàn; trong sinh vật, năng lượng dùng cho các hoạt động sống, chỉ một phần được tích trữ. Ví dụ: thực vật chỉ sử dụng khoảng 1-2% năng lượng ánh sáng cho quang hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L3",
+          "title": "Năng lượng trong đời sống",
+          "exercises": [
+            {
+              "title": "Đánh giá và đề xuất giải pháp năng lượng bền vững",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Giải pháp nào sau đây vừa giải quyết vấn đề năng lượng vừa bảo vệ môi trường?",
+              "options": {
+                "A": "Sử dụng nhiều than đá hơn",
+                "B": "Kết hợp năng lượng tái tạo và tiết kiệm năng lượng",
+                "C": "Chỉ sử dụng dầu mỏ",
+                "D": "Không sử dụng năng lượng"
+              },
+              "correctOption": "B",
+              "hint": "Kết hợp năng lượng tái tạo (sạch, vô tận) với tiết kiệm năng lượng là giải pháp bền vững.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Đề xuất kế hoạch sử dụng năng lượng bền vững cho một gia đình",
+              "type": "essay",
+              "points": 4,
+              "question": "Đề xuất kế hoạch sử dụng năng lượng bền vững cho một gia đình",
+              "hint": "Kế hoạch nên bao gồm: sử dụng năng lượng tái tạo, tiết kiệm năng lượng, thay đổi thói quen.",
+              "answer": "Kế hoạch: 1) Lắp đặt pin mặt trời trên mái nhà để tạo điện. 2) Sử dụng thiết bị tiết kiệm năng lượng (LED, điều hòa inverter). 3) Tắt thiết bị khi không dùng, rút phích cắm. 4) Tận dụng ánh sáng tự nhiên, thông gió tự nhiên. 5) Sử dụng nước nóng năng lượng mặt trời. 6) Giảm sử dụng xe máy, đi bộ hoặc xe đạp cho quãng ngắn.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Sinh học - Thế giới sống",
+      "lessons": [
+        {
+          "code": "KHTN7-CH3-L1",
+          "title": "Tế bào - Đơn vị cơ bản của sự sống",
+          "exercises": [
+            {
+              "title": "Phân tích mối quan hệ giữa cấu trúc và chức năng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao tế bào cơ có nhiều ti thể hơn tế bào da?",
+              "options": {
+                "A": "Vì tế bào cơ cần nhiều năng lượng hơn",
+                "B": "Vì tế bào cơ lớn hơn",
+                "C": "Vì tế bào cơ có nhiều nhân hơn",
+                "D": "Vì tế bào cơ có màu đỏ"
+              },
+              "correctOption": "A",
+              "hint": "Tế bào cơ cần nhiều năng lượng ATP cho hoạt động co cơ, nên có nhiều ti thể (nơi tạo ATP) hơn.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa cấu trúc và chức năng của các bào quan trong tế bào",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích mối quan hệ giữa cấu trúc và chức năng của các bào quan trong tế bào",
+              "hint": "Cấu trúc phù hợp với chức năng: lục lạp có diệp lục để quang hợp, ti thể có nhiều màng để tạo ATP.",
+              "answer": "Cấu trúc phù hợp với chức năng: Lục lạp có nhiều màng và chứa diệp lục để hấp thụ ánh sáng, thực hiện quang hợp. Ti thể có nhiều màng gấp nếp để tăng diện tích, tạo nhiều ATP. Nhân có màng kép và lỗ nhân để bảo vệ và điều khiển trao đổi chất. Màng tế bào có cấu trúc lỏng lẻo để vận chuyển chất. Mỗi bào quan có cấu trúc đặc trưng phù hợp với chức năng riêng.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L2",
+          "title": "Đa dạng sinh học",
+          "exercises": [
+            {
+              "title": "Phân tích tác động của con người đến đa dạng sinh học",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Hoạt động nào sau đây gây suy giảm đa dạng sinh học?",
+              "options": {
+                "A": "Trồng rừng",
+                "B": "Phá rừng để làm nông nghiệp",
+                "C": "Bảo tồn động vật hoang dã",
+                "D": "Tạo khu bảo tồn thiên nhiên"
+              },
+              "correctOption": "B",
+              "hint": "Phá rừng làm mất môi trường sống của nhiều loài, gây suy giảm đa dạng sinh học.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích nguyên nhân và đề xuất giải pháp bảo vệ đa dạng sinh học",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích nguyên nhân và đề xuất giải pháp bảo vệ đa dạng sinh học",
+              "hint": "Nguyên nhân: phá rừng, ô nhiễm, săn bắt. Giải pháp: bảo tồn, giáo dục, pháp luật.",
+              "answer": "Nguyên nhân suy giảm: phá rừng làm mất môi trường sống; ô nhiễm môi trường; săn bắt quá mức; biến đổi khí hậu; xâm lấn loài ngoại lai. Giải pháp: thành lập khu bảo tồn; trồng rừng, phục hồi hệ sinh thái; giáo dục nâng cao nhận thức; ban hành và thực thi luật bảo vệ; nghiên cứu và nhân giống các loài quý hiếm; kiểm soát ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L3",
+          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+          "exercises": [
+            {
+              "title": "Phân tích mối quan hệ giữa các quá trình trao đổi chất",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Quá trình quang hợp và hô hấp có mối quan hệ như thế nào?",
+              "options": {
+                "A": "Độc lập với nhau",
+                "B": "Bổ sung cho nhau trong chu trình năng lượng",
+                "C": "Loại trừ lẫn nhau",
+                "D": "Không có quan hệ"
+              },
+              "correctOption": "B",
+              "hint": "Quang hợp tạo đường và O2, hô hấp sử dụng đường và O2 để tạo năng lượng và CO2, tạo thành chu trình.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích vai trò của quang hợp và hô hấp trong chu trình carbon và oxy trong tự nhiên",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích vai trò của quang hợp và hô hấp trong chu trình carbon và oxy trong tự nhiên",
+              "hint": "Quang hợp: lấy CO2, thải O2. Hô hấp: lấy O2, thải CO2. Tạo chu trình cân bằng.",
+              "answer": "Quang hợp: thực vật hấp thụ CO2 từ khí quyển, sử dụng năng lượng ánh sáng để tạo glucose và giải phóng O2. Hô hấp: sinh vật (thực vật, động vật) sử dụng O2 để phân giải glucose, giải phóng năng lượng và thải CO2. Hai quá trình này tạo thành chu trình: CO2 và O2 được tuần hoàn giữa khí quyển và sinh vật, duy trì cân bằng khí quyển và cung cấp năng lượng cho sự sống.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Trái Đất và bầu trời",
+      "lessons": [
+        {
+          "code": "KHTN7-CH4-L1",
+          "title": "Cấu trúc Trái Đất",
+          "exercises": [
+            {
+              "title": "Phân tích tác động của các quá trình địa chất",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Sự chuyển động của các mảng kiến tạo gây ra hiện tượng gì?",
+              "options": {
+                "A": "Chỉ động đất",
+                "B": "Chỉ núi lửa",
+                "C": "Động đất, núi lửa, và hình thành núi",
+                "D": "Chỉ hình thành núi"
+              },
+              "correctOption": "C",
+              "hint": "Sự chuyển động của các mảng kiến tạo gây ra nhiều hiện tượng: động đất (khi mảng va chạm), núi lửa (magma phun trào), hình thành núi (khi mảng đẩy lên).",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa cấu trúc Trái Đất và các hiện tượng địa chất",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích mối quan hệ giữa cấu trúc Trái Đất và các hiện tượng địa chất như động đất, núi lửa",
+              "hint": "Nhiệt từ lõi làm nóng lớp phủ, tạo dòng đối lưu, làm chuyển động các mảng kiến tạo.",
+              "answer": "Nhiệt từ lõi Trái Đất (nhiệt độ cao) làm nóng lớp phủ, tạo ra dòng đối lưu trong lớp phủ. Dòng đối lưu này làm chuyển động các mảng kiến tạo trên lớp vỏ. Khi các mảng va chạm, tách rời hoặc trượt lên nhau: tạo ra động đất (năng lượng giải phóng); tạo khe nứt cho magma phun trào (núi lửa); đẩy các mảng lên cao (hình thành núi). Vậy cấu trúc nhiệt và động lực học bên trong Trái Đất là nguyên nhân của các hiện tượng địa chất bề mặt.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L2",
+          "title": "Khí quyển và thời tiết",
+          "exercises": [
+            {
+              "title": "Phân tích các yếu tố ảnh hưởng đến khí hậu",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Hiệu ứng nhà kính là gì?",
+              "options": {
+                "A": "Khí quyển giữ nhiệt làm Trái Đất nóng lên",
+                "B": "Khí quyển làm Trái Đất lạnh đi",
+                "C": "Khí quyển không ảnh hưởng đến nhiệt độ",
+                "D": "Chỉ có ở các nhà kính"
+              },
+              "correctOption": "A",
+              "hint": "Hiệu ứng nhà kính: các khí như CO2, CH4 giữ nhiệt từ Mặt Trời, làm Trái Đất ấm lên, cần thiết cho sự sống nhưng quá mức gây biến đổi khí hậu.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích nguyên nhân và hậu quả của biến đổi khí hậu, đề xuất giải pháp",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích nguyên nhân và hậu quả của biến đổi khí hậu, đề xuất giải pháp",
+              "hint": "Nguyên nhân: tăng CO2 từ đốt nhiên liệu hóa thạch. Hậu quả: nóng lên, băng tan, mực nước biển dâng. Giải pháp: giảm phát thải, sử dụng năng lượng sạch.",
+              "answer": "Nguyên nhân: đốt nhiên liệu hóa thạch (than, dầu) tăng CO2; phá rừng giảm khả năng hấp thụ CO2; các hoạt động công nghiệp, nông nghiệp. Hậu quả: nhiệt độ Trái Đất tăng; băng tan ở hai cực; mực nước biển dâng; thời tiết cực đoan (bão, hạn hán); ảnh hưởng đến hệ sinh thái và nông nghiệp. Giải pháp: giảm phát thải khí nhà kính; chuyển sang năng lượng tái tạo; trồng rừng; tiết kiệm năng lượng; phát triển công nghệ xanh.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L3",
+          "title": "Hệ Mặt Trời và các hành tinh",
+          "exercises": [
+            {
+              "title": "Phân tích điều kiện để có sự sống trên hành tinh",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Điều kiện nào sau đây cần thiết cho sự sống trên một hành tinh?",
+              "options": {
+                "A": "Chỉ cần nước",
+                "B": "Nước, khí quyển phù hợp, nhiệt độ thích hợp, và khoảng cách phù hợp với ngôi sao",
+                "C": "Chỉ cần nhiệt độ cao",
+                "D": "Chỉ cần khí quyển"
+              },
+              "correctOption": "B",
+              "hint": "Sự sống cần nhiều điều kiện: nước lỏng, khí quyển có O2, nhiệt độ không quá nóng/lạnh, khoảng cách phù hợp để có nhiệt độ ổn định.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích tại sao Trái Đất có sự sống trong khi các hành tinh khác không có",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích tại sao Trái Đất có sự sống trong khi các hành tinh khác không có",
+              "hint": "Trái Đất có: khoảng cách phù hợp với Mặt Trời, nước lỏng, khí quyển phù hợp, từ trường bảo vệ.",
+              "answer": "Trái Đất có sự sống vì: 1) Khoảng cách phù hợp với Mặt Trời (vùng có thể sống được) - không quá nóng như Sao Thủy, Sao Kim, không quá lạnh như các hành tinh ngoài. 2) Có nước lỏng - nhiệt độ cho phép nước tồn tại ở dạng lỏng. 3) Có khí quyển phù hợp với O2, bảo vệ khỏi bức xạ. 4) Có từ trường bảo vệ khỏi gió mặt trời. 5) Kích thước và khối lượng phù hợp để giữ khí quyển. Các hành tinh khác thiếu một hoặc nhiều điều kiện này.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

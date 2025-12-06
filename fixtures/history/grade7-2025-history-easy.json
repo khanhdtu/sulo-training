@@ -1,0 +1,640 @@
+{
+  "grade": 7,
+  "subject": "Lịch sử",
+  "subjectCode": "LS7",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 7 History (Lớp 7 Lịch sử) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Buổi đầu độc lập thời Ngô - Đinh - Tiền Lê (Thế kỷ X)",
+      "lessons": [
+        {
+          "code": "LS7-CH1-L1",
+          "title": "Nước ta buổi đầu độc lập",
+          "exercises": [
+            {
+              "title": "Nhận biết thời gian giành độc lập",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước ta giành độc lập vào năm nào?",
+              "options": {
+                "A": "938",
+                "B": "939",
+                "C": "940",
+                "D": "941"
+              },
+              "correctOption": "A",
+              "hint": "Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng, giành độc lập cho đất nước.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Nhận biết nhân vật lịch sử",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo cuộc khởi nghĩa giành độc lập năm 938?",
+              "options": {
+                "A": "Đinh Bộ Lĩnh",
+                "B": "Ngô Quyền",
+                "C": "Lê Hoàn",
+                "D": "Lý Công Uẩn"
+              },
+              "correctOption": "B",
+              "hint": "Ngô Quyền là người lãnh đạo đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Nhận biết địa danh lịch sử",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trận đánh nổi tiếng của Ngô Quyền diễn ra ở đâu?",
+              "options": {
+                "A": "Sông Hồng",
+                "B": "Sông Bạch Đằng",
+                "C": "Sông Cửu Long",
+                "D": "Sông Đà"
+              },
+              "correctOption": "B",
+              "hint": "Trận đánh của Ngô Quyền diễn ra trên sông Bạch Đằng năm 938.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận: Kể tên 3 triều đại phong kiến đầu tiên của nước ta",
+              "type": "essay",
+              "points": 2,
+              "question": "Kể tên 3 triều đại phong kiến đầu tiên của nước ta",
+              "hint": "Ba triều đại đầu tiên sau khi giành độc lập: Ngô, Đinh, Tiền Lê.",
+              "answer": "Ba triều đại phong kiến đầu tiên của nước ta là: 1. Nhà Ngô (939-965), 2. Nhà Đinh (968-980), 3. Nhà Tiền Lê (980-1009).",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH1-L2",
+          "title": "Nhà Ngô, Đinh, Tiền Lê",
+          "exercises": [
+            {
+              "title": "Nhận biết vị vua đầu tiên",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vị vua nào được coi là người thống nhất đất nước sau thời kỳ 12 sứ quân?",
+              "options": {
+                "A": "Ngô Quyền",
+                "B": "Đinh Bộ Lĩnh",
+                "C": "Lê Hoàn",
+                "D": "Lý Công Uẩn"
+              },
+              "correctOption": "B",
+              "hint": "Đinh Bộ Lĩnh là người dẹp loạn 12 sứ quân và thống nhất đất nước, lập nên nhà Đinh.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Nhận biết tên nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Đinh Bộ Lĩnh đặt tên nước là gì?",
+              "options": {
+                "A": "Đại Cồ Việt",
+                "B": "Đại Việt",
+                "C": "Việt Nam",
+                "D": "An Nam"
+              },
+              "correctOption": "A",
+              "hint": "Đinh Bộ Lĩnh đặt tên nước là Đại Cồ Việt, đóng đô ở Hoa Lư.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những đóng góp của Đinh Bộ Lĩnh",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những đóng góp của Đinh Bộ Lĩnh",
+              "hint": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập nhà Đinh.",
+              "answer": "Đinh Bộ Lĩnh có những đóng góp: dẹp loạn 12 sứ quân, thống nhất đất nước sau thời kỳ chia cắt; lập nên nhà Đinh, đặt tên nước là Đại Cồ Việt; đóng đô ở Hoa Lư (Ninh Bình); xây dựng bộ máy nhà nước phong kiến đầu tiên.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH1-L3",
+          "title": "Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+          "exercises": [
+            {
+              "title": "Nhận biết thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc kháng chiến chống Tống lần thứ nhất diễn ra vào năm nào?",
+              "options": {
+                "A": "980",
+                "B": "981",
+                "C": "982",
+                "D": "983"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc kháng chiến chống Tống lần thứ nhất diễn ra năm 981, do Lê Hoàn lãnh đạo.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Nhận biết người lãnh đạo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo cuộc kháng chiến chống Tống lần thứ nhất?",
+              "options": {
+                "A": "Đinh Bộ Lĩnh",
+                "B": "Lê Hoàn",
+                "C": "Lý Thường Kiệt",
+                "D": "Trần Hưng Đạo"
+              },
+              "correctOption": "B",
+              "hint": "Lê Hoàn (Lê Đại Hành) là người lãnh đạo cuộc kháng chiến chống Tống lần thứ nhất năm 981.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu kết quả của cuộc kháng chiến chống Tống lần thứ nhất",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu kết quả của cuộc kháng chiến chống Tống lần thứ nhất",
+              "hint": "Quân Tống bị đánh bại, nước ta giữ được độc lập.",
+              "answer": "Kết quả: quân Tống bị đánh bại hoàn toàn; nước ta giữ được độc lập, chủ quyền; uy tín của nhà Tiền Lê được nâng cao; đất nước được bảo vệ an toàn.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Nước Đại Việt thời Lý (1009-1225)",
+      "lessons": [
+        {
+          "code": "LS7-CH2-L1",
+          "title": "Nhà Lý thành lập và xây dựng đất nước",
+          "exercises": [
+            {
+              "title": "Nhận biết năm thành lập",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nhà Lý được thành lập vào năm nào?",
+              "options": {
+                "A": "1009",
+                "B": "1010",
+                "C": "1011",
+                "D": "1012"
+              },
+              "correctOption": "A",
+              "hint": "Nhà Lý được thành lập năm 1009, do Lý Công Uẩn lập nên.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nhận biết kinh đô",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lý Công Uẩn dời đô về đâu?",
+              "options": {
+                "A": "Hoa Lư",
+                "B": "Thăng Long",
+                "C": "Phú Xuân",
+                "D": "Gia Định"
+              },
+              "correctOption": "B",
+              "hint": "Năm 1010, Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long (Hà Nội ngày nay).",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu ý nghĩa của việc dời đô về Thăng Long",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu ý nghĩa của việc dời đô về Thăng Long",
+              "hint": "Thăng Long có vị trí thuận lợi về giao thông, kinh tế, quân sự.",
+              "answer": "Ý nghĩa: Thăng Long có vị trí trung tâm, thuận lợi về giao thông, kinh tế; dễ phòng thủ, khó tấn công; tạo điều kiện phát triển kinh tế, văn hóa; thể hiện tầm nhìn xa của Lý Công Uẩn.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH2-L2",
+          "title": "Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+          "exercises": [
+            {
+              "title": "Nhận biết thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc kháng chiến chống Tống lần thứ hai diễn ra trong khoảng thời gian nào?",
+              "options": {
+                "A": "1073-1075",
+                "B": "1075-1077",
+                "C": "1077-1079",
+                "D": "1079-1081"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc kháng chiến chống Tống lần thứ hai diễn ra từ năm 1075 đến 1077.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Nhận biết người lãnh đạo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo cuộc kháng chiến chống Tống lần thứ hai?",
+              "options": {
+                "A": "Lê Hoàn",
+                "B": "Lý Thường Kiệt",
+                "C": "Trần Hưng Đạo",
+                "D": "Nguyễn Trãi"
+              },
+              "correctOption": "B",
+              "hint": "Lý Thường Kiệt là người lãnh đạo cuộc kháng chiến chống Tống lần thứ hai.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu diễn biến chính của cuộc kháng chiến chống Tống lần thứ hai",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu diễn biến chính của cuộc kháng chiến chống Tống lần thứ hai",
+              "hint": "Năm 1075 ta tấn công trước, năm 1077 quân Tống tấn công, ta phòng thủ trên sông Như Nguyệt.",
+              "answer": "Diễn biến: Năm 1075, Lý Thường Kiệt chủ động tấn công vào căn cứ của quân Tống ở Ung Châu, Khâm Châu. Năm 1077, quân Tống tấn công Đại Việt. Quân ta phòng thủ trên sông Như Nguyệt, đánh bại quân Tống. Năm 1077, hai bên ký hòa ước, quân Tống rút về nước.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH2-L3",
+          "title": "Văn hóa Đại Việt thời Lý",
+          "exercises": [
+            {
+              "title": "Nhận biết công trình kiến trúc",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Chùa nào được xây dựng dưới thời Lý?",
+              "options": {
+                "A": "Chùa Một Cột",
+                "B": "Chùa Thiên Mụ",
+                "C": "Chùa Trấn Quốc",
+                "D": "Chùa Bái Đính"
+              },
+              "correctOption": "A",
+              "hint": "Chùa Một Cột (Diên Hựu) được xây dựng dưới thời Lý, là biểu tượng của văn hóa thời Lý.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những thành tựu văn hóa thời Lý",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những thành tựu văn hóa thời Lý",
+              "hint": "Văn hóa thời Lý: kiến trúc, tôn giáo, giáo dục, văn học.",
+              "answer": "Thành tựu văn hóa: Kiến trúc: Chùa Một Cột, chùa Phật Tích, tháp Báo Thiên. Tôn giáo: Phật giáo phát triển mạnh. Giáo dục: Mở Quốc Tử Giám, tổ chức thi cử. Văn học: Có nhiều tác phẩm văn học chữ Hán.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Nước Đại Việt thời Trần (1226-1400)",
+      "lessons": [
+        {
+          "code": "LS7-CH3-L1",
+          "title": "Nhà Trần thành lập và củng cố chính quyền",
+          "exercises": [
+            {
+              "title": "Nhận biết năm thành lập",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nhà Trần được thành lập vào năm nào?",
+              "options": {
+                "A": "1225",
+                "B": "1226",
+                "C": "1227",
+                "D": "1228"
+              },
+              "correctOption": "B",
+              "hint": "Nhà Trần được thành lập năm 1226, do Trần Thủ Độ sắp xếp.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Nhận biết vị vua đầu tiên",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vị vua đầu tiên của nhà Trần là ai?",
+              "options": {
+                "A": "Trần Thái Tông",
+                "B": "Trần Thánh Tông",
+                "C": "Trần Nhân Tông",
+                "D": "Trần Anh Tông"
+              },
+              "correctOption": "A",
+              "hint": "Trần Thái Tông (Trần Cảnh) là vị vua đầu tiên của nhà Trần.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những cải cách của nhà Trần",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những cải cách của nhà Trần",
+              "hint": "Nhà Trần có nhiều cải cách về chính trị, quân sự, kinh tế.",
+              "answer": "Cải cách: Chính trị: Củng cố bộ máy nhà nước, thực hiện chế độ Thái thượng hoàng. Quân sự: Tổ chức quân đội mạnh, thực hiện chính sách 'ngụ binh ư nông'. Kinh tế: Khuyến khích sản xuất nông nghiệp, thủ công nghiệp. Xã hội: Chia dân thành các hạng để quản lý.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH3-L2",
+          "title": "Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+          "exercises": [
+            {
+              "title": "Nhận biết số lần kháng chiến",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nhà Trần đã bao nhiêu lần đánh thắng quân Mông - Nguyên?",
+              "options": {
+                "A": "1 lần",
+                "B": "2 lần",
+                "C": "3 lần",
+                "D": "4 lần"
+              },
+              "correctOption": "C",
+              "hint": "Nhà Trần đã 3 lần đánh thắng quân Mông - Nguyên vào các năm 1258, 1285, 1287-1288.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Nhận biết người lãnh đạo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo cuộc kháng chiến chống Mông - Nguyên lần thứ ba?",
+              "options": {
+                "A": "Lý Thường Kiệt",
+                "B": "Trần Hưng Đạo",
+                "C": "Trần Quốc Tuấn",
+                "D": "Cả B và C đều đúng"
+              },
+              "correctOption": "D",
+              "hint": "Trần Hưng Đạo và Trần Quốc Tuấn là cùng một người, là người lãnh đạo cuộc kháng chiến chống Mông - Nguyên lần thứ ba.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu ý nghĩa của ba lần thắng lợi chống Mông - Nguyên",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu ý nghĩa của ba lần thắng lợi chống Mông - Nguyên",
+              "hint": "Ý nghĩa: bảo vệ độc lập, thể hiện tinh thần yêu nước, nâng cao uy tín.",
+              "answer": "Ý nghĩa: Bảo vệ được độc lập, chủ quyền của đất nước; thể hiện tinh thần yêu nước, đoàn kết của dân tộc; nâng cao uy tín của Đại Việt trong khu vực; để lại nhiều bài học quân sự quý giá; chứng minh sức mạnh của dân tộc Việt Nam.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH3-L3",
+          "title": "Văn hóa Đại Việt thời Trần",
+          "exercises": [
+            {
+              "title": "Nhận biết thành tựu văn học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tác phẩm 'Hịch tướng sĩ' là của ai?",
+              "options": {
+                "A": "Lý Thường Kiệt",
+                "B": "Trần Hưng Đạo",
+                "C": "Trần Quang Khải",
+                "D": "Trần Nhân Tông"
+              },
+              "correctOption": "B",
+              "hint": "'Hịch tướng sĩ' là tác phẩm nổi tiếng của Trần Hưng Đạo, kêu gọi tướng sĩ đánh giặc.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những thành tựu văn hóa thời Trần",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những thành tựu văn hóa thời Trần",
+              "hint": "Văn hóa thời Trần: văn học, kiến trúc, tôn giáo, giáo dục.",
+              "answer": "Thành tựu văn hóa: Văn học: 'Hịch tướng sĩ', 'Bình Ngô đại cáo' (sau này), nhiều bài thơ yêu nước. Kiến trúc: Chùa, đền, cung điện. Tôn giáo: Phật giáo tiếp tục phát triển. Giáo dục: Mở rộng giáo dục, tổ chức thi cử. Tinh thần yêu nước được thể hiện rõ trong văn học.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Nước Đại Việt thời Lê sơ (1428-1527)",
+      "lessons": [
+        {
+          "code": "LS7-CH4-L1",
+          "title": "Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+          "exercises": [
+            {
+              "title": "Nhận biết người lãnh đạo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo khởi nghĩa Lam Sơn?",
+              "options": {
+                "A": "Lê Lợi",
+                "B": "Nguyễn Trãi",
+                "C": "Lê Thánh Tông",
+                "D": "Lê Thái Tổ"
+              },
+              "correctOption": "A",
+              "hint": "Lê Lợi là người lãnh đạo khởi nghĩa Lam Sơn, sau này lên ngôi vua với hiệu Lê Thái Tổ.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Nhận biết thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khởi nghĩa Lam Sơn bắt đầu vào năm nào?",
+              "options": {
+                "A": "1416",
+                "B": "1418",
+                "C": "1420",
+                "D": "1422"
+              },
+              "correctOption": "B",
+              "hint": "Khởi nghĩa Lam Sơn bắt đầu năm 1418, do Lê Lợi lãnh đạo.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu nguyên nhân thắng lợi của khởi nghĩa Lam Sơn",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu nguyên nhân thắng lợi của khởi nghĩa Lam Sơn",
+              "hint": "Nguyên nhân: tinh thần yêu nước, chiến lược đúng đắn, sự ủng hộ của nhân dân.",
+              "answer": "Nguyên nhân thắng lợi: Tinh thần yêu nước, đoàn kết của toàn dân; chiến lược, chiến thuật đúng đắn của Lê Lợi và Nguyễn Trãi; sự ủng hộ nhiệt tình của nhân dân; tận dụng địa hình, thời tiết; đánh vào điểm yếu của quân Minh.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH4-L2",
+          "title": "Tổ chức bộ máy nhà nước thời Lê sơ",
+          "exercises": [
+            {
+              "title": "Nhận biết đặc điểm bộ máy nhà nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bộ máy nhà nước thời Lê sơ có đặc điểm gì?",
+              "options": {
+                "A": "Tập quyền, trung ương hóa",
+                "B": "Phân quyền",
+                "C": "Liên bang",
+                "D": "Dân chủ"
+              },
+              "correctOption": "A",
+              "hint": "Bộ máy nhà nước thời Lê sơ là chế độ tập quyền, trung ương hóa cao độ.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những cải cách của Lê Thánh Tông",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những cải cách của Lê Thánh Tông",
+              "hint": "Lê Thánh Tông có nhiều cải cách về hành chính, quân sự, pháp luật, giáo dục.",
+              "answer": "Cải cách: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ, chia cả nước thành các đạo, phủ, huyện. Quân sự: Tổ chức quân đội mạnh. Pháp luật: Ban hành bộ luật Hồng Đức. Giáo dục: Mở rộng giáo dục, tổ chức thi cử công bằng. Kinh tế: Khuyến khích sản xuất, thương mại.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH4-L3",
+          "title": "Văn hóa Đại Việt thời Lê sơ",
+          "exercises": [
+            {
+              "title": "Nhận biết tác phẩm văn học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tác phẩm 'Bình Ngô đại cáo' là của ai?",
+              "options": {
+                "A": "Lê Lợi",
+                "B": "Nguyễn Trãi",
+                "C": "Lê Thánh Tông",
+                "D": "Nguyễn Du"
+              },
+              "correctOption": "B",
+              "hint": "'Bình Ngô đại cáo' là tác phẩm nổi tiếng của Nguyễn Trãi, tuyên bố độc lập sau khi đánh thắng quân Minh.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những thành tựu văn hóa thời Lê sơ",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những thành tựu văn hóa thời Lê sơ",
+              "hint": "Văn hóa thời Lê sơ: văn học, giáo dục, khoa học, nghệ thuật.",
+              "answer": "Thành tựu văn hóa: Văn học: 'Bình Ngô đại cáo', nhiều tác phẩm văn học chữ Hán và chữ Nôm. Giáo dục: Phát triển mạnh, nhiều người đỗ đạt. Khoa học: Sử học, địa lý, y học phát triển. Nghệ thuật: Kiến trúc, điêu khắc, hội họa đạt trình độ cao. Pháp luật: Bộ luật Hồng Đức là bộ luật hoàn chỉnh.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Đại Việt thời các thế kỷ XVI-XVIII",
+      "lessons": [
+        {
+          "code": "LS7-CH5-L1",
+          "title": "Đất nước bị chia cắt",
+          "exercises": [
+            {
+              "title": "Nhận biết thời kỳ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thời kỳ đất nước bị chia cắt thành Đàng Trong và Đàng Ngoài diễn ra trong khoảng thời gian nào?",
+              "options": {
+                "A": "Thế kỷ XV",
+                "B": "Thế kỷ XVI-XVIII",
+                "C": "Thế kỷ XIX",
+                "D": "Thế kỷ XX"
+              },
+              "correctOption": "B",
+              "hint": "Đất nước bị chia cắt thành Đàng Trong và Đàng Ngoài từ thế kỷ XVI đến thế kỷ XVIII.",
+              "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu nguyên nhân đất nước bị chia cắt",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu nguyên nhân đất nước bị chia cắt",
+              "hint": "Nguyên nhân: tranh giành quyền lực, nội chiến, sự suy yếu của nhà Lê.",
+              "answer": "Nguyên nhân: Nhà Lê suy yếu, các thế lực phong kiến tranh giành quyền lực; nội chiến giữa các tập đoàn phong kiến; sự phân chia quyền lực giữa họ Trịnh (Đàng Ngoài) và họ Nguyễn (Đàng Trong); không có vua đủ mạnh để thống nhất đất nước.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH5-L2",
+          "title": "Phong trào nông dân Tây Sơn",
+          "exercises": [
+            {
+              "title": "Nhận biết người lãnh đạo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo phong trào nông dân Tây Sơn?",
+              "options": {
+                "A": "Nguyễn Nhạc",
+                "B": "Nguyễn Huệ",
+                "C": "Nguyễn Lữ",
+                "D": "Cả ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ"
+              },
+              "correctOption": "D",
+              "hint": "Phong trào Tây Sơn do ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ lãnh đạo.",
+              "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Nhận biết thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khởi nghĩa Tây Sơn bắt đầu vào năm nào?",
+              "options": {
+                "A": "1770",
+                "B": "1771",
+                "C": "1772",
+                "D": "1773"
+              },
+              "correctOption": "B",
+              "hint": "Khởi nghĩa Tây Sơn bắt đầu năm 1771, do ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ lãnh đạo.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những thắng lợi của phong trào Tây Sơn",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những thắng lợi của phong trào Tây Sơn",
+              "hint": "Tây Sơn đánh thắng chúa Nguyễn, chúa Trịnh, quân Xiêm, quân Thanh.",
+              "answer": "Thắng lợi: Đánh thắng chúa Nguyễn ở Đàng Trong; đánh thắng chúa Trịnh ở Đàng Ngoài, thống nhất đất nước; đánh thắng quân Xiêm xâm lược (1785); đánh thắng quân Thanh xâm lược (1789), bảo vệ độc lập dân tộc.",
+              "created_at": "2025-01-01T00:00:37.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS7-CH5-L3",
+          "title": "Văn hóa Việt Nam thế kỷ XVI-XVIII",
+          "exercises": [
+            {
+              "title": "Nhận biết đặc điểm văn hóa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Văn học thế kỷ XVI-XVIII có đặc điểm gì?",
+              "options": {
+                "A": "Chỉ có văn học chữ Hán",
+                "B": "Văn học chữ Nôm phát triển mạnh",
+                "C": "Không có văn học",
+                "D": "Chỉ có văn học dân gian"
+              },
+              "correctOption": "B",
+              "hint": "Văn học chữ Nôm phát triển mạnh trong thế kỷ XVI-XVIII, thể hiện tinh thần dân tộc.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu những thành tựu văn hóa thế kỷ XVI-XVIII",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu những thành tựu văn hóa thế kỷ XVI-XVIII",
+              "hint": "Văn hóa: văn học chữ Nôm, nghệ thuật, tôn giáo, kiến trúc.",
+              "answer": "Thành tựu: Văn học: Văn học chữ Nôm phát triển mạnh với nhiều tác phẩm nổi tiếng. Nghệ thuật: Sân khấu, âm nhạc, hội họa phát triển. Tôn giáo: Đạo Phật, Đạo giáo, Nho giáo cùng tồn tại. Kiến trúc: Nhiều công trình kiến trúc đẹp được xây dựng. Văn hóa dân gian phong phú.",
+              "created_at": "2025-01-01T00:00:39.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

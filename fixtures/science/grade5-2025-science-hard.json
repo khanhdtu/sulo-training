@@ -1,0 +1,514 @@
+{
+  "grade": 5,
+  "subject": "Khoa học",
+  "subjectCode": "KH5",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 5 Science (Lớp 5 Khoa học) - advanced and challenging problems",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Con người và sức khỏe",
+      "lessons": [
+        {
+          "code": "KH5-CH1-L1",
+          "title": "Sự sinh sản",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao sự đa dạng trong cách sinh sản lại quan trọng đối với sự tồn tại của các loài?",
+              "options": {
+                "A": "Vì giúp các loài thích nghi với môi trường khác nhau và đảm bảo sự sống còn",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ có một cách sinh sản",
+                "D": "Vì không ảnh hưởng gì"
+              },
+              "correctOption": "A",
+              "hint": "Sự đa dạng trong cách sinh sản giúp các loài thích nghi với điều kiện môi trường khác nhau, đảm bảo sự sống còn khi một cách không phù hợp.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích và so sánh các hình thức sinh sản, rút ra bài học về sự thích nghi",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích và so sánh các hình thức sinh sản, rút ra bài học về sự thích nghi",
+              "hint": "So sánh sinh sản hữu tính và vô tính, ưu nhược điểm, sự thích nghi...",
+              "answer": "Sinh sản hữu tính: Tạo ra sự đa dạng di truyền, giúp thích nghi tốt hơn với môi trường thay đổi. Sinh sản vô tính: Nhanh, giữ nguyên đặc tính tốt, nhưng kém đa dạng. Mỗi hình thức có ưu điểm riêng phù hợp với môi trường sống. Sự đa dạng trong sinh sản là kết quả của quá trình tiến hóa, giúp các loài tồn tại và phát triển.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L2",
+          "title": "Vệ sinh tuổi dậy thì",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc giáo dục về vệ sinh tuổi dậy thì lại quan trọng?",
+              "options": {
+                "A": "Vì giúp trẻ em hiểu và chăm sóc cơ thể đúng cách, phòng tránh bệnh tật",
+                "B": "Vì không cần thiết",
+                "C": "Vì trẻ em đã biết hết",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Giáo dục về vệ sinh tuổi dậy thì giúp trẻ em hiểu về sự thay đổi của cơ thể, biết cách chăm sóc và phòng tránh bệnh tật.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Xây dựng kế hoạch giáo dục về vệ sinh tuổi dậy thì",
+              "type": "essay",
+              "points": 4,
+              "question": "Xây dựng kế hoạch giáo dục về vệ sinh tuổi dậy thì",
+              "hint": "Nêu các nội dung cần giáo dục, phương pháp, tầm quan trọng...",
+              "answer": "Kế hoạch: Nội dung: Giải thích về sự thay đổi cơ thể, tầm quan trọng của vệ sinh, các biện pháp cụ thể. Phương pháp: Giáo dục phù hợp lứa tuổi, tạo môi trường cởi mở, khuyến khích đặt câu hỏi. Tầm quan trọng: Giúp trẻ tự tin, khỏe mạnh, phòng tránh bệnh tật, phát triển lành mạnh.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L3",
+          "title": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc phòng bệnh lại quan trọng hơn chữa bệnh đối với các bệnh do muỗi truyền?",
+              "options": {
+                "A": "Vì phòng bệnh dễ hơn, rẻ hơn và hiệu quả hơn, tránh được hậu quả nghiêm trọng",
+                "B": "Vì chữa bệnh dễ hơn",
+                "C": "Vì không cần phòng bệnh",
+                "D": "Vì bệnh không nguy hiểm"
+              },
+              "correctOption": "A",
+              "hint": "Phòng bệnh dễ thực hiện, chi phí thấp, hiệu quả cao, tránh được hậu quả nghiêm trọng của bệnh.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích chiến lược phòng chống bệnh do muỗi truyền ở cấp độ cộng đồng",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chiến lược phòng chống bệnh do muỗi truyền ở cấp độ cộng đồng",
+              "hint": "Nêu các biện pháp: diệt muỗi, diệt lăng quăng, giáo dục, hợp tác cộng đồng...",
+              "answer": "Chiến lược: Diệt muỗi và lăng quăng: phun thuốc, thả cá, vệ sinh môi trường. Giáo dục cộng đồng: nâng cao nhận thức, hướng dẫn cách phòng bệnh. Hợp tác: mọi người cùng tham gia, không để nước đọng. Giám sát: phát hiện sớm, xử lý kịp thời. Kết hợp nhiều biện pháp mới hiệu quả cao.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH1-L4",
+          "title": "Phòng tránh HIV/AIDS",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc giáo dục về HIV/AIDS lại quan trọng từ khi còn nhỏ?",
+              "options": {
+                "A": "Vì giúp hình thành nhận thức đúng đắn, hành vi an toàn từ sớm",
+                "B": "Vì không cần thiết",
+                "C": "Vì trẻ em không cần biết",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Giáo dục từ nhỏ giúp hình thành nhận thức đúng đắn, hành vi an toàn, tránh các hành vi nguy cơ sau này.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích tầm quan trọng của việc xóa bỏ kỳ thị đối với người nhiễm HIV/AIDS",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích tầm quan trọng của việc xóa bỏ kỳ thị đối với người nhiễm HIV/AIDS",
+              "hint": "Nêu tác hại của kỳ thị, lợi ích của việc xóa bỏ kỳ thị...",
+              "answer": "Tầm quan trọng: Kỳ thị gây tác hại: người nhiễm sợ hãi, không dám đi khám, điều trị, làm bệnh lây lan. Xóa bỏ kỳ thị: giúp người nhiễm được chăm sóc, điều trị, giảm lây lan. Cần giáo dục đúng đắn: HIV không lây qua tiếp xúc thông thường, cần đối xử công bằng. Xóa bỏ kỳ thị là một phần quan trọng trong phòng chống HIV/AIDS.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Vật chất và năng lượng",
+      "lessons": [
+        {
+          "code": "KH5-CH2-L1",
+          "title": "Tính chất của nước",
+          "exercises": [
+            {
+              "title": "Vận dụng kiến thức",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao nước lại có khả năng hòa tan nhiều chất?",
+              "options": {
+                "A": "Vì phân tử nước có cấu trúc đặc biệt, có thể tương tác với nhiều loại phân tử khác",
+                "B": "Vì nước có màu",
+                "C": "Vì nước có mùi",
+                "D": "Vì nước không hòa tan gì"
+              },
+              "correctOption": "A",
+              "hint": "Phân tử nước có cấu trúc phân cực, có thể tương tác với nhiều loại phân tử, làm cho nước có khả năng hòa tan tốt.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích vai trò của nước trong các quá trình sinh học",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích vai trò của nước trong các quá trình sinh học",
+              "hint": "Nêu các vai trò: dung môi, vận chuyển, điều hòa nhiệt độ, tham gia phản ứng...",
+              "answer": "Vai trò: Dung môi: hòa tan và vận chuyển chất dinh dưỡng, chất thải. Tham gia phản ứng: nhiều phản ứng sinh học cần nước. Điều hòa nhiệt độ: nước có nhiệt dung lớn, giúp ổn định nhiệt độ cơ thể. Môi trường sống: nhiều sinh vật sống trong nước. Cấu trúc: nước là thành phần chính của tế bào. Không có nước, không có sự sống.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L2",
+          "title": "Sự chuyển thể của nước",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao vòng tuần hoàn nước lại quan trọng đối với sự sống trên Trái Đất?",
+              "options": {
+                "A": "Vì đảm bảo nguồn nước liên tục, phân phối nước trên toàn cầu, duy trì sự sống",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ có một nơi có nước",
+                "D": "Vì nước không cần thiết"
+              },
+              "correctOption": "A",
+              "hint": "Vòng tuần hoàn nước đảm bảo nguồn nước liên tục, phân phối nước trên toàn cầu, duy trì sự sống ở mọi nơi.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích ảnh hưởng của biến đổi khí hậu đến vòng tuần hoàn nước",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích ảnh hưởng của biến đổi khí hậu đến vòng tuần hoàn nước",
+              "hint": "Nêu các ảnh hưởng: thay đổi lượng mưa, nhiệt độ, băng tan...",
+              "answer": "Ảnh hưởng: Nhiệt độ tăng: tăng bay hơi, thay đổi lượng mưa, phân bố mưa không đều. Băng tan: mực nước biển dâng, ảnh hưởng đến hệ sinh thái. Hạn hán và lũ lụt: thay đổi tần suất và cường độ. Ảnh hưởng đến nông nghiệp, nguồn nước. Cần bảo vệ môi trường để duy trì vòng tuần hoàn nước ổn định.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L3",
+          "title": "Năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao năng lượng không thể tự sinh ra hoặc mất đi?",
+              "options": {
+                "A": "Vì năng lượng chỉ chuyển hóa từ dạng này sang dạng khác (định luật bảo toàn năng lượng)",
+                "B": "Vì năng lượng có thể tự sinh ra",
+                "C": "Vì năng lượng có thể mất đi",
+                "D": "Vì không có định luật nào"
+              },
+              "correctOption": "A",
+              "hint": "Theo định luật bảo toàn năng lượng, năng lượng không thể tự sinh ra hoặc mất đi, chỉ chuyển hóa từ dạng này sang dạng khác.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích tầm quan trọng của việc sử dụng năng lượng tái tạo",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích tầm quan trọng của việc sử dụng năng lượng tái tạo",
+              "hint": "Nêu ưu điểm: không cạn kiệt, ít ô nhiễm, bền vững...",
+              "answer": "Tầm quan trọng: Năng lượng tái tạo (mặt trời, gió, nước) không cạn kiệt, khác với nhiên liệu hóa thạch. Ít ô nhiễm môi trường, giảm phát thải khí nhà kính. Bền vững, đảm bảo nguồn năng lượng lâu dài. Giảm phụ thuộc vào nhiên liệu hóa thạch. Cần phát triển và sử dụng năng lượng tái tạo để bảo vệ môi trường và phát triển bền vững.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH2-L4",
+          "title": "Sử dụng năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc tiết kiệm năng lượng lại là trách nhiệm của mọi người?",
+              "options": {
+                "A": "Vì nguồn năng lượng có hạn, tiết kiệm giúp bảo vệ môi trường và đảm bảo nguồn năng lượng cho tương lai",
+                "B": "Vì không cần tiết kiệm",
+                "C": "Vì năng lượng vô hạn",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Nhiều nguồn năng lượng có hạn, tiết kiệm năng lượng giúp bảo vệ môi trường, giảm phát thải, đảm bảo nguồn năng lượng cho thế hệ tương lai.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Xây dựng kế hoạch tiết kiệm năng lượng cho gia đình và trường học",
+              "type": "essay",
+              "points": 4,
+              "question": "Xây dựng kế hoạch tiết kiệm năng lượng cho gia đình và trường học",
+              "hint": "Nêu các biện pháp cụ thể, cách thực hiện, lợi ích...",
+              "answer": "Kế hoạch: Gia đình: Tắt đèn, thiết bị khi không dùng, sử dụng thiết bị tiết kiệm năng lượng, tận dụng ánh sáng tự nhiên, tiết kiệm nước. Trường học: Giáo dục học sinh, tắt đèn khi ra chơi, sử dụng năng lượng mặt trời, tái chế. Lợi ích: Giảm chi phí, bảo vệ môi trường, hình thành thói quen tốt. Cần sự hợp tác của mọi người.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Thực vật và động vật",
+      "lessons": [
+        {
+          "code": "KH5-CH3-L1",
+          "title": "Cơ quan sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao hoa lại có nhiều màu sắc và mùi thơm khác nhau?",
+              "options": {
+                "A": "Vì để thu hút các loài thụ phấn khác nhau (côn trùng, chim, gió...)",
+                "B": "Vì không có lý do",
+                "C": "Vì tất cả hoa giống nhau",
+                "D": "Vì hoa không cần màu sắc"
+              },
+              "correctOption": "A",
+              "hint": "Màu sắc và mùi thơm của hoa là để thu hút các loài thụ phấn khác nhau, đảm bảo quá trình sinh sản.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích mối quan hệ cộng sinh giữa hoa và các loài thụ phấn",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích mối quan hệ cộng sinh giữa hoa và các loài thụ phấn",
+              "hint": "Nêu mối quan hệ: hoa cung cấp mật, côn trùng giúp thụ phấn...",
+              "answer": "Mối quan hệ cộng sinh: Hoa cung cấp mật hoa, phấn hoa làm thức ăn cho côn trùng, chim. Côn trùng, chim giúp hoa thụ phấn, đảm bảo sinh sản. Cả hai đều có lợi: hoa được thụ phấn, động vật có thức ăn. Đây là ví dụ về sự thích nghi và tiến hóa trong tự nhiên. Mối quan hệ này rất quan trọng cho hệ sinh thái.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L2",
+          "title": "Sự sinh sản của thực vật có hoa",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao một số cây lại có thể tự thụ phấn trong khi cây khác cần thụ phấn chéo?",
+              "options": {
+                "A": "Vì đây là sự thích nghi với môi trường sống khác nhau",
+                "B": "Vì tất cả cây đều giống nhau",
+                "C": "Vì không có sự khác biệt",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Tự thụ phấn đảm bảo sinh sản khi không có thụ phấn chéo, nhưng thụ phấn chéo tạo đa dạng di truyền tốt hơn.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích ưu nhược điểm của thụ phấn chéo và tự thụ phấn",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích ưu nhược điểm của thụ phấn chéo và tự thụ phấn",
+              "hint": "Nêu ưu nhược điểm của từng cách...",
+              "answer": "Thụ phấn chéo: Ưu điểm: Tạo đa dạng di truyền, cây con khỏe mạnh hơn, thích nghi tốt. Nhược điểm: Phụ thuộc vào thụ phấn, có thể không thành công. Tự thụ phấn: Ưu điểm: Đảm bảo sinh sản, không phụ thuộc. Nhược điểm: Ít đa dạng di truyền, cây con có thể yếu hơn. Mỗi cách có ưu điểm riêng, phù hợp với môi trường sống.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L3",
+          "title": "Cây con mọc lên từ hạt",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao một số hạt lại có thể nảy mầm ngay, trong khi hạt khác cần thời gian nghỉ?",
+              "options": {
+                "A": "Vì đây là sự thích nghi để đảm bảo hạt nảy mầm vào thời điểm thích hợp",
+                "B": "Vì tất cả hạt đều giống nhau",
+                "C": "Vì không có sự khác biệt",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Thời gian nghỉ giúp hạt nảy mầm vào mùa thích hợp, đảm bảo cây con sống sót.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích các yếu tố ảnh hưởng đến sự nảy mầm của hạt",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích các yếu tố ảnh hưởng đến sự nảy mầm của hạt",
+              "hint": "Nêu các yếu tố: nước, nhiệt độ, không khí, ánh sáng, chất lượng hạt...",
+              "answer": "Các yếu tố: Nước: cần thiết để hạt trương lên, kích hoạt enzyme. Nhiệt độ: mỗi loại hạt có nhiệt độ tối ưu. Không khí: cần oxy cho hô hấp. Ánh sáng: một số hạt cần, một số không. Chất lượng hạt: hạt già, khỏe nảy mầm tốt hơn. Độ sâu gieo: quá sâu hoặc quá nông đều không tốt. Tất cả yếu tố cần phù hợp.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH3-L4",
+          "title": "Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao nhân giống vô tính lại quan trọng trong nông nghiệp?",
+              "options": {
+                "A": "Vì giúp giữ đặc tính tốt của cây mẹ, nhanh cho quả, đồng đều về chất lượng",
+                "B": "Vì không quan trọng",
+                "C": "Vì cây con khác cây mẹ",
+                "D": "Vì không có lợi ích"
+              },
+              "correctOption": "A",
+              "hint": "Nhân giống vô tính giúp giữ nguyên đặc tính tốt của cây mẹ, cây con đồng đều, nhanh cho quả.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): So sánh và đánh giá các phương pháp nhân giống cây trồng",
+              "type": "essay",
+              "points": 4,
+              "question": "So sánh và đánh giá các phương pháp nhân giống cây trồng",
+              "hint": "So sánh gieo hạt, giâm cành, chiết cành, ghép cây...",
+              "answer": "Gieo hạt: Đơn giản, số lượng lớn, nhưng cây con có thể khác cây mẹ. Giâm cành: Giữ đặc tính, nhanh, nhưng cần kỹ thuật. Chiết cành: Tỷ lệ sống cao, nhưng tốn công. Ghép cây: Kết hợp ưu điểm, nhưng phức tạp. Mỗi phương pháp phù hợp với từng loại cây và mục đích. Cần chọn phương pháp phù hợp.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Môi trường và tài nguyên thiên nhiên",
+      "lessons": [
+        {
+          "code": "KH5-CH4-L1",
+          "title": "Môi trường",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao sự cân bằng sinh thái lại quan trọng?",
+              "options": {
+                "A": "Vì đảm bảo sự ổn định của hệ sinh thái, duy trì sự sống",
+                "B": "Vì không quan trọng",
+                "C": "Vì hệ sinh thái không cần cân bằng",
+                "D": "Vì không ảnh hưởng gì"
+              },
+              "correctOption": "A",
+              "hint": "Cân bằng sinh thái đảm bảo sự ổn định, các loài phụ thuộc lẫn nhau, mất cân bằng sẽ ảnh hưởng đến toàn bộ hệ sinh thái.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích hậu quả của việc mất cân bằng sinh thái",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích hậu quả của việc mất cân bằng sinh thái",
+              "hint": "Nêu các hậu quả: tuyệt chủng, ô nhiễm, biến đổi khí hậu...",
+              "answer": "Hậu quả: Tuyệt chủng loài: mất một loài ảnh hưởng đến các loài khác. Ô nhiễm môi trường: ảnh hưởng đến sức khỏe, hệ sinh thái. Biến đổi khí hậu: ảnh hưởng toàn cầu. Mất đa dạng sinh học: hệ sinh thái kém ổn định. Ảnh hưởng đến con người: thiếu thức ăn, nước, không khí sạch. Cần bảo vệ môi trường để duy trì cân bằng sinh thái.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L2",
+          "title": "Tài nguyên thiên nhiên",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao cần phát triển nền kinh tế xanh?",
+              "options": {
+                "A": "Vì đảm bảo phát triển bền vững, bảo vệ môi trường, sử dụng tài nguyên hợp lý",
+                "B": "Vì không cần thiết",
+                "C": "Vì kinh tế truyền thống tốt hơn",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Kinh tế xanh đảm bảo phát triển bền vững, bảo vệ môi trường, sử dụng tài nguyên hợp lý, đảm bảo tương lai.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích chiến lược sử dụng bền vững tài nguyên thiên nhiên",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chiến lược sử dụng bền vững tài nguyên thiên nhiên",
+              "hint": "Nêu các chiến lược: tiết kiệm, tái sử dụng, tái chế, phát triển năng lượng tái tạo...",
+              "answer": "Chiến lược: Tiết kiệm: sử dụng hợp lý, tránh lãng phí. Tái sử dụng: dùng lại nhiều lần. Tái chế: biến chất thải thành tài nguyên. Phát triển năng lượng tái tạo: thay thế nhiên liệu hóa thạch. Bảo vệ và phục hồi: trồng rừng, bảo vệ đa dạng sinh học. Giáo dục: nâng cao nhận thức. Hợp tác quốc tế: cùng bảo vệ môi trường toàn cầu.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L3",
+          "title": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc bảo vệ môi trường tự nhiên lại là trách nhiệm của mọi người?",
+              "options": {
+                "A": "Vì môi trường ảnh hưởng đến tất cả mọi người, bảo vệ môi trường là bảo vệ chính mình",
+                "B": "Vì không cần bảo vệ",
+                "C": "Vì chỉ một số người cần bảo vệ",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Môi trường ảnh hưởng đến tất cả mọi người, bảo vệ môi trường là bảo vệ sức khỏe, cuộc sống của chính mình và thế hệ tương lai.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa phát triển kinh tế và bảo vệ môi trường",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích mối quan hệ giữa phát triển kinh tế và bảo vệ môi trường",
+              "hint": "Nêu mối quan hệ: phát triển bền vững, cân bằng...",
+              "answer": "Mối quan hệ: Phát triển kinh tế cần tài nguyên từ môi trường, nhưng khai thác quá mức sẽ phá hủy môi trường. Phát triển bền vững: phát triển kinh tế đồng thời bảo vệ môi trường. Cần cân bằng: sử dụng tài nguyên hợp lý, phát triển công nghệ sạch, năng lượng tái tạo. Bảo vệ môi trường là nền tảng cho phát triển lâu dài. Cả hai cần đi đôi với nhau.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KH5-CH4-L4",
+          "title": "Tác động của con người đến môi trường",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Làm thế nào để giảm thiểu tác động tiêu cực của con người đến môi trường?",
+              "options": {
+                "A": "Thay đổi hành vi, sử dụng công nghệ sạch, bảo vệ môi trường",
+                "B": "Không cần làm gì",
+                "C": "Tiếp tục gây ô nhiễm",
+                "D": "Không quan tâm"
+              },
+              "correctOption": "A",
+              "hint": "Cần thay đổi hành vi, sử dụng công nghệ sạch, tiết kiệm tài nguyên, bảo vệ môi trường để giảm thiểu tác động tiêu cực.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Xây dựng kế hoạch hành động để bảo vệ môi trường",
+              "type": "essay",
+              "points": 4,
+              "question": "Xây dựng kế hoạch hành động để bảo vệ môi trường",
+              "hint": "Nêu các hành động cụ thể: giảm rác thải, tiết kiệm năng lượng, trồng cây...",
+              "answer": "Kế hoạch: Giảm rác thải: phân loại, tái chế, hạn chế dùng đồ nhựa. Tiết kiệm năng lượng: tắt đèn, dùng thiết bị tiết kiệm. Tiết kiệm nước: sử dụng hợp lý, tái sử dụng. Trồng cây: tăng cây xanh, bảo vệ rừng. Giáo dục: nâng cao nhận thức. Tham gia hoạt động bảo vệ môi trường. Mỗi người đều có thể góp phần bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,82 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Tiếng Anh",
+  "subjectCode": "ENG5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "What's your address?",
+      "lessons": [
+        {
+          "code": "ENG5-CH1-L1",
+          "title": "Asking and answering about addresses"
+        },
+        {
+          "code": "ENG5-CH1-L2",
+          "title": "Describing places"
+        },
+        {
+          "code": "ENG5-CH1-L3",
+          "title": "Grammar: Where do you live?"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "I always get up early. How about you?",
+      "lessons": [
+        {
+          "code": "ENG5-CH2-L1",
+          "title": "Daily routines"
+        },
+        {
+          "code": "ENG5-CH2-L2",
+          "title": "Talking about frequency"
+        },
+        {
+          "code": "ENG5-CH2-L3",
+          "title": "Grammar: Adverbs of frequency"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Where did you go on holiday?",
+      "lessons": [
+        {
+          "code": "ENG5-CH3-L1",
+          "title": "Past simple tense"
+        },
+        {
+          "code": "ENG5-CH3-L2",
+          "title": "Talking about holidays"
+        },
+        {
+          "code": "ENG5-CH3-L3",
+          "title": "Grammar: Past simple with regular and irregular verbs"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "What's the matter with you?",
+      "lessons": [
+        {
+          "code": "ENG5-CH4-L1",
+          "title": "Health problems"
+        },
+        {
+          "code": "ENG5-CH4-L2",
+          "title": "Giving advice"
+        },
+        {
+          "code": "ENG5-CH4-L3",
+          "title": "Grammar: Should/Shouldn't"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

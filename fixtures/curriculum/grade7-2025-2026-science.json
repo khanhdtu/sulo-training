@@ -1,0 +1,82 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Khoa học tự nhiên",
+  "subjectCode": "KHTN7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chất và sự biến đổi của chất",
+      "lessons": [
+        {
+          "code": "KHTN7-CH1-L1",
+          "title": "Tính chất của chất"
+        },
+        {
+          "code": "KHTN7-CH1-L2",
+          "title": "Sự biến đổi vật lí và hóa học"
+        },
+        {
+          "code": "KHTN7-CH1-L3",
+          "title": "Nguyên tử và phân tử"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Năng lượng và sự chuyển hóa",
+      "lessons": [
+        {
+          "code": "KHTN7-CH2-L1",
+          "title": "Năng lượng và các dạng năng lượng"
+        },
+        {
+          "code": "KHTN7-CH2-L2",
+          "title": "Sự chuyển hóa năng lượng"
+        },
+        {
+          "code": "KHTN7-CH2-L3",
+          "title": "Năng lượng trong đời sống"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Sinh học - Thế giới sống",
+      "lessons": [
+        {
+          "code": "KHTN7-CH3-L1",
+          "title": "Tế bào - Đơn vị cơ bản của sự sống"
+        },
+        {
+          "code": "KHTN7-CH3-L2",
+          "title": "Đa dạng sinh học"
+        },
+        {
+          "code": "KHTN7-CH3-L3",
+          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Trái Đất và bầu trời",
+      "lessons": [
+        {
+          "code": "KHTN7-CH4-L1",
+          "title": "Cấu trúc Trái Đất"
+        },
+        {
+          "code": "KHTN7-CH4-L2",
+          "title": "Khí quyển và thời tiết"
+        },
+        {
+          "code": "KHTN7-CH4-L3",
+          "title": "Hệ Mặt Trời và các hành tinh"
+        }
+      ]
+    }
+  ],
+  "created_at": "2025-01-01T00:00:00.000Z"
+}
+

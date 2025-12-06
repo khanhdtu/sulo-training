@@ -1,0 +1,640 @@
+{
+  "grade": 5,
+  "subject": "Tiếng Việt",
+  "subjectCode": "LIT5",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 5 Vietnamese (Lớp 5 Tiếng Việt) - advanced and challenging problems",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Việt Nam - Tổ quốc em",
+      "lessons": [
+        {
+          "code": "LIT5-CH1-L1",
+          "title": "Tập đọc: Thư gửi các học sinh",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao bức thư của Bác Hồ lại có ý nghĩa giáo dục sâu sắc đối với thế hệ trẻ?",
+              "options": {
+                "A": "Vì thể hiện tình yêu thương, trách nhiệm và định hướng phát triển cho thế hệ trẻ",
+                "B": "Vì chỉ là một bức thư bình thường",
+                "C": "Vì không có ý nghĩa gì",
+                "D": "Vì chỉ dành cho người lớn"
+              },
+              "correctOption": "A",
+              "hint": "Bức thư thể hiện tình yêu thương sâu sắc, nhấn mạnh trách nhiệm và định hướng phát triển cho thế hệ trẻ trong việc xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích giá trị tư tưởng và giáo dục của bức thư Bác Hồ gửi các học sinh",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích giá trị tư tưởng và giáo dục của bức thư Bác Hồ gửi các học sinh",
+              "hint": "Phân tích về: tình yêu thương, trách nhiệm, định hướng giáo dục, ý nghĩa lịch sử...",
+              "answer": "Giá trị tư tưởng: Thể hiện tư tưởng yêu nước, trách nhiệm công dân. Nhấn mạnh vai trò của giáo dục trong xây dựng đất nước. Giá trị giáo dục: Khơi dậy tinh thần học tập, rèn luyện đạo đức. Định hướng phát triển toàn diện cho thế hệ trẻ. Ý nghĩa lịch sử: Gắn liền với thời điểm lịch sử quan trọng - ngày khai trường đầu tiên của nước Việt Nam độc lập. Bức thư có giá trị giáo dục lâu dài, vẫn còn nguyên ý nghĩa đến ngày nay.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH1-L2",
+          "title": "Chính tả: Nghe - viết: Việt Nam thân yêu",
+          "exercises": [
+            {
+              "title": "Vận dụng quy tắc chính tả phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong câu 'Việt Nam là đất nước xinh đẹp', từ nào cần viết hoa và tại sao?",
+              "options": {
+                "A": "Việt Nam - vì là tên riêng địa danh",
+                "B": "Không cần viết hoa gì",
+                "C": "Viết hoa tất cả",
+                "D": "Chỉ viết hoa 'Việt'"
+              },
+              "correctOption": "A",
+              "hint": "'Việt Nam' là tên riêng địa danh, cần viết hoa chữ cái đầu của mỗi từ thành phần.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn (8-10 câu) về đất nước Việt Nam, vận dụng đúng các quy tắc chính tả",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn (8-10 câu) về đất nước Việt Nam, vận dụng đúng các quy tắc chính tả",
+              "hint": "Viết về vẻ đẹp, con người, truyền thống, lịch sử... chú ý viết hoa đúng tên riêng, viết đúng chính tả...",
+              "answer": "Việt Nam là đất nước xinh đẹp của em. Đất nước ta có nhiều cảnh đẹp nổi tiếng như vịnh Hạ Long, phố cổ Hội An, chùa Một Cột. Người dân Việt Nam rất thân thiện, hiếu khách và cần cù lao động. Việt Nam có truyền thống văn hóa lâu đời và lịch sử hào hùng. Từ Bắc vào Nam, đất nước ta có nhiều di sản văn hóa được UNESCO công nhận. Thủ đô Hà Nội và thành phố Hồ Chí Minh là hai trung tâm kinh tế, văn hóa lớn. Em rất tự hào về đất nước Việt Nam và sẽ cố gắng học tập để góp phần xây dựng đất nước ngày càng giàu đẹp.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH1-L3",
+          "title": "Luyện từ và câu: Từ đồng nghĩa",
+          "exercises": [
+            {
+              "title": "Phân tích và vận dụng từ đồng nghĩa",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc sử dụng từ đồng nghĩa lại làm cho câu văn hay hơn?",
+              "options": {
+                "A": "Vì tránh lặp từ, làm câu văn phong phú, sinh động hơn",
+                "B": "Vì không có tác dụng gì",
+                "C": "Vì làm câu văn dài hơn",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Sử dụng từ đồng nghĩa giúp tránh lặp từ, làm câu văn phong phú, sinh động và hay hơn.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết đoạn văn (6-8 câu) về một chủ đề, sử dụng nhiều từ đồng nghĩa để tránh lặp từ",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết đoạn văn (6-8 câu) về một chủ đề, sử dụng nhiều từ đồng nghĩa để tránh lặp từ",
+              "hint": "Chọn một chủ đề, sử dụng các từ đồng nghĩa thay thế để câu văn phong phú...",
+              "answer": "Sân trường em rất rộng và đẹp. Không gian này là nơi chúng em vui chơi mỗi ngày. Khu vực này có nhiều cây xanh tỏa bóng mát. Nơi đây còn là nơi chúng em tập thể dục. Khuôn viên trường được chăm sóc rất cẩn thận. Sân trường luôn sạch sẽ và gọn gàng. Em rất yêu quý sân trường của mình. (Sử dụng: sân trường - không gian - khu vực - nơi đây - nơi - khuôn viên - sân trường để tránh lặp từ)",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH1-L4",
+          "title": "Tập làm văn: Cấu tạo của bài văn tả cảnh",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá cấu trúc bài văn",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc sắp xếp các phần trong bài văn tả cảnh lại quan trọng?",
+              "options": {
+                "A": "Vì giúp bài văn mạch lạc, dễ hiểu, tạo ấn tượng tốt cho người đọc",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ cần viết dài",
+                "D": "Vì không ảnh hưởng gì"
+              },
+              "correctOption": "A",
+              "hint": "Sắp xếp các phần hợp lý giúp bài văn mạch lạc, dễ hiểu, tạo ấn tượng tốt cho người đọc.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn tả cảnh hoàn chỉnh (có đủ 3 phần, sử dụng biện pháp nghệ thuật, từ ngữ gợi tả)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn tả cảnh hoàn chỉnh (có đủ 3 phần, sử dụng biện pháp nghệ thuật, từ ngữ gợi tả)",
+              "hint": "Mở bài: giới thiệu cảnh. Thân bài: tả chi tiết theo thứ tự, sử dụng so sánh, nhân hóa, từ ngữ gợi tả. Kết bài: cảm nghĩ.",
+              "answer": "Mở bài: Sân trường em rất rộng và đẹp. Đây là nơi chúng em vui chơi, tập thể dục mỗi ngày. Thân bài: Nhìn từ xa, sân trường như một tấm thảm xanh rộng lớn. Ở giữa sân có cột cờ cao vút, lá cờ đỏ sao vàng tung bay trong gió. Xung quanh có nhiều cây bàng, cây phượng tỏa bóng mát như những chiếc ô khổng lồ. Vào buổi sáng, sân trường rộn ràng tiếng cười đùa của các bạn học sinh. Những tia nắng vàng như rót mật xuống sân trường. Kết bài: Em rất yêu quý sân trường của mình. Nơi đây gắn bó với bao kỷ niệm đẹp của tuổi học trò.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Cánh chim hòa bình",
+      "lessons": [
+        {
+          "code": "LIT5-CH2-L1",
+          "title": "Tập đọc: Những con sếu bằng giấy",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc ý nghĩa biểu tượng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao những con sếu bằng giấy lại có sức mạnh biểu tượng lớn đến vậy?",
+              "options": {
+                "A": "Vì gắn liền với câu chuyện cảm động về khát vọng hòa bình, vượt qua biên giới quốc gia",
+                "B": "Vì chỉ là đồ chơi",
+                "C": "Vì không có ý nghĩa",
+                "D": "Vì chỉ đẹp"
+              },
+              "correctOption": "A",
+              "hint": "Những con sếu bằng giấy gắn liền với câu chuyện cảm động về cô bé Sadako, thể hiện khát vọng hòa bình vượt qua biên giới quốc gia.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích ý nghĩa sâu sắc của hòa bình và trách nhiệm của thế hệ trẻ trong việc gìn giữ hòa bình",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích ý nghĩa sâu sắc của hòa bình và trách nhiệm của thế hệ trẻ trong việc gìn giữ hòa bình",
+              "hint": "Phân tích: ý nghĩa của hòa bình, tác động đến cuộc sống, trách nhiệm của thế hệ trẻ...",
+              "answer": "Ý nghĩa của hòa bình: Hòa bình là điều kiện cơ bản cho sự phát triển. Khi có hòa bình, con người được sống yên ổn, học tập, làm việc, phát triển. Hòa bình tạo điều kiện cho văn hóa, khoa học, kinh tế phát triển. Trách nhiệm của thế hệ trẻ: Học tập tốt để có kiến thức. Rèn luyện đạo đức, tinh thần yêu nước. Tôn trọng sự khác biệt, xây dựng tình hữu nghị. Tham gia các hoạt động vì hòa bình. Thế hệ trẻ là tương lai, cần gìn giữ và phát triển hòa bình.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH2-L2",
+          "title": "Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ",
+          "exercises": [
+            {
+              "title": "Vận dụng quy tắc chính tả phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong 'Anh bộ đội Cụ Hồ gốc Bỉ', từ nào cần viết hoa và tại sao?",
+              "options": {
+                "A": "Cụ Hồ và Bỉ - vì là tên riêng",
+                "B": "Không cần viết hoa gì",
+                "C": "Viết hoa tất cả",
+                "D": "Chỉ viết hoa 'Anh'"
+              },
+              "correctOption": "A",
+              "hint": "'Cụ Hồ' là tên gọi kính trọng của Bác Hồ, 'Bỉ' là tên nước, đều là tên riêng nên cần viết hoa.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn (8-10 câu) về tình cảm đối với các chú bộ đội, vận dụng đúng quy tắc chính tả",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn (8-10 câu) về tình cảm đối với các chú bộ đội, vận dụng đúng quy tắc chính tả",
+              "hint": "Nêu tình cảm yêu quý, biết ơn, kể về công lao, chú ý viết đúng chính tả, viết hoa đúng tên riêng...",
+              "answer": "Em rất yêu quý và biết ơn các chú bộ đội. Các chú đã hy sinh tuổi xuân, sẵn sàng chiến đấu để bảo vệ Tổ quốc. Nhờ có các chú, chúng em mới được sống trong hòa bình, được đến trường học tập. Các chú bộ đội là những người anh hùng thầm lặng, không quản ngại khó khăn, gian khổ. Từ Bắc vào Nam, các chú đã có mặt ở mọi nơi để bảo vệ đất nước. Em sẽ cố gắng học tập tốt để xứng đáng với công lao của các chú. Em mong muốn được gặp và cảm ơn các chú bộ đội.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH2-L3",
+          "title": "Luyện từ và câu: Từ trái nghĩa",
+          "exercises": [
+            {
+              "title": "Phân tích và vận dụng từ trái nghĩa",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc sử dụng từ trái nghĩa lại làm nổi bật ý nghĩa của câu văn?",
+              "options": {
+                "A": "Vì tạo sự tương phản, làm nổi bật ý nghĩa, gây ấn tượng mạnh",
+                "B": "Vì không có tác dụng",
+                "C": "Vì làm câu văn khó hiểu",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Sử dụng từ trái nghĩa tạo sự tương phản, làm nổi bật ý nghĩa, gây ấn tượng mạnh cho người đọc.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết đoạn văn (6-8 câu) sử dụng nhiều cặp từ trái nghĩa để làm nổi bật ý",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết đoạn văn (6-8 câu) sử dụng nhiều cặp từ trái nghĩa để làm nổi bật ý",
+              "hint": "Sử dụng các cặp từ trái nghĩa: đẹp/xấu, to/nhỏ, cao/thấp, tốt/xấu, chăm chỉ/lười biếng...",
+              "answer": "Trong lớp em có nhiều bạn học khác nhau. Có bạn học rất giỏi, nhưng cũng có bạn học chưa tốt. Bạn giỏi luôn chăm chỉ, còn bạn chưa tốt thì lười biếng. Bạn giỏi được thầy cô khen ngợi, bạn chưa tốt bị nhắc nhở. Bạn giỏi có điểm cao, bạn chưa tốt có điểm thấp. Tuy nhiên, em nghĩ mọi người đều có thể thay đổi. Từ chưa tốt có thể trở thành tốt nếu cố gắng. (Sử dụng: giỏi/chưa tốt, chăm chỉ/lười biếng, khen ngợi/nhắc nhở, cao/thấp, tốt/chưa tốt)",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH2-L4",
+          "title": "Tập làm văn: Luyện tập tả cảnh",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá cách tả cảnh",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc sử dụng biện pháp nghệ thuật lại quan trọng trong bài văn tả cảnh?",
+              "options": {
+                "A": "Vì làm cho bài văn sinh động, hấp dẫn, gợi cảm, dễ hình dung",
+                "B": "Vì không cần thiết",
+                "C": "Vì chỉ làm câu văn dài",
+                "D": "Vì không ảnh hưởng gì"
+              },
+              "correctOption": "A",
+              "hint": "Biện pháp nghệ thuật (so sánh, nhân hóa...) làm cho bài văn sinh động, hấp dẫn, gợi cảm, giúp người đọc dễ hình dung.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn tả cảnh hoàn chỉnh (có đủ 3 phần, sử dụng nhiều biện pháp nghệ thuật, từ ngữ gợi tả phong phú)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn tả cảnh hoàn chỉnh (có đủ 3 phần, sử dụng nhiều biện pháp nghệ thuật, từ ngữ gợi tả phong phú)",
+              "hint": "Mở bài: giới thiệu cảnh. Thân bài: tả chi tiết, sử dụng so sánh, nhân hóa, từ ngữ gợi tả. Kết bài: cảm nghĩ sâu sắc.",
+              "answer": "Mở bài: Sân trường em rất rộng và đẹp. Đây là nơi chúng em vui chơi, tập thể dục mỗi ngày. Thân bài: Nhìn từ xa, sân trường như một tấm thảm xanh rộng lớn trải dài. Ở giữa sân có cột cờ cao vút, lá cờ đỏ sao vàng tung bay trong gió như đang múa. Xung quanh có nhiều cây bàng, cây phượng tỏa bóng mát như những chiếc ô khổng lồ che chở cho chúng em. Vào buổi sáng, sân trường rộn ràng tiếng cười đùa của các bạn học sinh như một bản nhạc vui. Những tia nắng vàng như rót mật xuống sân trường, tạo nên một không gian ấm áp. Kết bài: Em rất yêu quý sân trường của mình. Nơi đây gắn bó với bao kỷ niệm đẹp của tuổi học trò, là nơi em lớn lên từng ngày.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Con người với thiên nhiên",
+      "lessons": [
+        {
+          "code": "LIT5-CH3-L1",
+          "title": "Tập đọc: Những người bạn tốt",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao tình bạn lại quan trọng đối với sự phát triển của con người?",
+              "options": {
+                "A": "Vì giúp con người phát triển toàn diện, học hỏi, chia sẻ, hỗ trợ lẫn nhau",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ cần một mình",
+                "D": "Vì tình bạn không cần thiết"
+              },
+              "correctOption": "A",
+              "hint": "Tình bạn giúp con người phát triển toàn diện về mặt tình cảm, xã hội, học hỏi lẫn nhau, chia sẻ và hỗ trợ.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích ý nghĩa sâu sắc của tình bạn và cách xây dựng tình bạn tốt",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích ý nghĩa sâu sắc của tình bạn và cách xây dựng tình bạn tốt",
+              "hint": "Phân tích: ý nghĩa của tình bạn, các yếu tố của tình bạn tốt, cách xây dựng...",
+              "answer": "Ý nghĩa: Tình bạn giúp con người phát triển toàn diện, học hỏi, chia sẻ, hỗ trợ. Tình bạn tốt mang lại niềm vui, hạnh phúc, giúp vượt qua khó khăn. Các yếu tố: Chân thành, tin tưởng, tôn trọng, giúp đỡ lẫn nhau. Cách xây dựng: Luôn chân thành, biết lắng nghe, sẵn sàng giúp đỡ, tôn trọng sự khác biệt, tha thứ khi cần. Tình bạn tốt cần thời gian và sự nỗ lực từ cả hai phía.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH3-L2",
+          "title": "Chính tả: Nghe - viết: Dòng kinh quê hương",
+          "exercises": [
+            {
+              "title": "Vận dụng quy tắc chính tả phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong 'Dòng kinh quê hương', từ nào cần viết hoa?",
+              "options": {
+                "A": "Không cần viết hoa vì đây là cụm từ chung, không phải tên riêng",
+                "B": "Viết hoa tất cả",
+                "C": "Chỉ viết hoa 'Dòng'",
+                "D": "Chỉ viết hoa 'Kinh'"
+              },
+              "correctOption": "A",
+              "hint": "'Dòng kinh quê hương' là cụm từ chung, không phải tên riêng nên không cần viết hoa (trừ chữ cái đầu câu).",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn (8-10 câu) về quê hương em, vận dụng đúng quy tắc chính tả",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn (8-10 câu) về quê hương em, vận dụng đúng quy tắc chính tả",
+              "hint": "Tả về quê hương: cảnh đẹp, con người, tình cảm, chú ý viết đúng chính tả, viết hoa đúng tên riêng...",
+              "answer": "Quê hương em là một vùng quê yên bình ở miền Bắc. Có những cánh đồng lúa xanh mướt trải dài đến tận chân trời. Dòng sông quê uốn lượn như dải lụa mềm mại, nước trong veo. Vào mùa gặt, cánh đồng vàng ươm như một tấm thảm vàng rực rỡ. Người dân quê em rất thân thiện và chăm chỉ. Họ làm việc từ sáng sớm đến tối muộn. Em rất yêu quê hương của mình, nơi đã nuôi dưỡng em lớn lên với bao kỷ niệm đẹp.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH3-L3",
+          "title": "Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên",
+          "exercises": [
+            {
+              "title": "Phân tích và vận dụng từ ngữ về thiên nhiên",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc mở rộng vốn từ về thiên nhiên lại quan trọng?",
+              "options": {
+                "A": "Vì giúp diễn đạt chính xác, sinh động khi tả cảnh thiên nhiên",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ cần ít từ",
+                "D": "Vì không cần thiết"
+              },
+              "correctOption": "A",
+              "hint": "Vốn từ phong phú giúp diễn đạt chính xác, sinh động khi tả cảnh thiên nhiên, làm bài văn hay hơn.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn tả cảnh thiên nhiên (8-10 câu), sử dụng nhiều từ ngữ về thiên nhiên",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn tả cảnh thiên nhiên (8-10 câu), sử dụng nhiều từ ngữ về thiên nhiên",
+              "hint": "Sử dụng các từ: núi, sông, biển, rừng, cây, hoa, chim, gió, mây, trời, đất, nước... và các từ ngữ gợi tả...",
+              "answer": "Cánh đồng lúa vào buổi sáng thật đẹp. Những bông lúa vàng ươm đung đưa trong gió nhẹ như những cánh sóng. Xa xa là dãy núi xanh mờ ảo trong sương sớm, như bức tranh thủy mặc. Dòng sông uốn lượn như dải lụa, nước trong veo phản chiếu ánh mặt trời. Trên bầu trời trong xanh, những đám mây trắng bồng bềnh trôi như những cục bông. Chim chóc hót líu lo trên những cành cây, tạo nên bản nhạc thiên nhiên. Không khí trong lành, mát mẻ. Thiên nhiên quê em thật tươi đẹp và thanh bình.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH3-L4",
+          "title": "Tập làm văn: Luyện tập tả cảnh thiên nhiên",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá cách tả cảnh thiên nhiên",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao khi tả cảnh thiên nhiên cần tả đầy đủ các giác quan?",
+              "options": {
+                "A": "Vì giúp người đọc hình dung rõ ràng, sống động, cảm nhận được cảnh vật",
+                "B": "Vì không cần thiết",
+                "C": "Vì chỉ cần tả một giác quan",
+                "D": "Vì không ảnh hưởng gì"
+              },
+              "correctOption": "A",
+              "hint": "Tả đầy đủ các giác quan (nhìn, nghe, ngửi, cảm nhận) giúp người đọc hình dung rõ ràng, sống động hơn.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn tả cảnh thiên nhiên hoàn chỉnh (có đủ 3 phần, tả đầy đủ các giác quan, sử dụng biện pháp nghệ thuật)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn tả cảnh thiên nhiên hoàn chỉnh (có đủ 3 phần, tả đầy đủ các giác quan, sử dụng biện pháp nghệ thuật)",
+              "hint": "Mở bài: giới thiệu cảnh. Thân bài: tả chi tiết (nhìn thấy, nghe thấy, cảm nhận...). Kết bài: cảm nghĩ. Sử dụng so sánh, nhân hóa...",
+              "answer": "Mở bài: Cánh đồng lúa quê em vào buổi sáng thật đẹp. Thân bài: Những bông lúa vàng ươm như những hạt vàng rực rỡ đung đưa trong gió nhẹ. Xa xa, dãy núi xanh như bức tranh thủy mặc mờ ảo trong sương sớm. Dòng sông uốn lượn như dải lụa mềm mại, nước trong veo phản chiếu ánh mặt trời. Trên bầu trời trong xanh, những đám mây trắng bồng bềnh trôi. Chim chóc hót líu lo, tạo nên bản nhạc thiên nhiên. Không khí trong lành, mát mẻ, có mùi thơm của lúa chín. Kết bài: Em cảm thấy yêu thiên nhiên quê hương biết bao. Cảnh đẹp này sẽ mãi in sâu trong tâm trí em.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Giữ lấy màu xanh",
+      "lessons": [
+        {
+          "code": "LIT5-CH4-L1",
+          "title": "Tập đọc: Một chuyên gia máy xúc",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc bảo vệ môi trường lại là vấn đề cấp thiết hiện nay?",
+              "options": {
+                "A": "Vì môi trường đang bị ô nhiễm nghiêm trọng, ảnh hưởng đến sức khỏe và tương lai",
+                "B": "Vì không quan trọng",
+                "C": "Vì môi trường không bị ảnh hưởng",
+                "D": "Vì không cần bảo vệ"
+              },
+              "correctOption": "A",
+              "hint": "Môi trường đang bị ô nhiễm nghiêm trọng, ảnh hưởng trực tiếp đến sức khỏe con người và tương lai của Trái Đất.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích tầm quan trọng của việc bảo vệ môi trường và trách nhiệm của mỗi người",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích tầm quan trọng của việc bảo vệ môi trường và trách nhiệm của mỗi người",
+              "hint": "Phân tích: tầm quan trọng, hậu quả nếu không bảo vệ, trách nhiệm của mỗi người...",
+              "answer": "Tầm quan trọng: Môi trường sạch giúp con người sống khỏe mạnh. Bảo vệ tài nguyên cho thế hệ tương lai. Duy trì cân bằng sinh thái. Hậu quả nếu không bảo vệ: Ô nhiễm không khí, nước, đất. Biến đổi khí hậu. Mất đa dạng sinh học. Ảnh hưởng đến sức khỏe và cuộc sống. Trách nhiệm: Mỗi người cần có ý thức bảo vệ môi trường. Hành động cụ thể: không xả rác, trồng cây, tiết kiệm tài nguyên. Giáo dục và tuyên truyền. Bảo vệ môi trường là trách nhiệm của tất cả mọi người.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH4-L2",
+          "title": "Chính tả: Nghe - viết: Luật Bảo vệ môi trường",
+          "exercises": [
+            {
+              "title": "Vận dụng quy tắc chính tả phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong 'Luật Bảo vệ môi trường', quy tắc viết hoa như thế nào?",
+              "options": {
+                "A": "Viết hoa 'Luật' và 'Bảo vệ' vì là tên văn bản pháp luật",
+                "B": "Không viết hoa gì",
+                "C": "Viết hoa tất cả",
+                "D": "Chỉ viết hoa 'Luật'"
+              },
+              "correctOption": "A",
+              "hint": "Tên văn bản pháp luật: 'Luật' và 'Bảo vệ' (phần quan trọng của tên) cần viết hoa.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn (8-10 câu) về cách bảo vệ môi trường, vận dụng đúng quy tắc chính tả",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn (8-10 câu) về cách bảo vệ môi trường, vận dụng đúng quy tắc chính tả",
+              "hint": "Nêu các cách cụ thể: không xả rác, trồng cây, tiết kiệm... chú ý viết đúng chính tả, viết hoa đúng...",
+              "answer": "Để bảo vệ môi trường, chúng ta không nên xả rác bừa bãi. Chúng ta nên phân loại rác và tái chế khi có thể. Trồng nhiều cây xanh cũng là cách bảo vệ môi trường hiệu quả. Cây xanh giúp lọc không khí, tạo oxy. Chúng ta cũng nên tiết kiệm nước và điện. Sử dụng các sản phẩm thân thiện với môi trường. Tham gia các hoạt động bảo vệ môi trường. Mỗi người đều có thể góp phần bảo vệ môi trường bằng những hành động nhỏ hàng ngày. Bảo vệ môi trường là bảo vệ chính cuộc sống của chúng ta.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH4-L3",
+          "title": "Luyện từ và câu: Đại từ",
+          "exercises": [
+            {
+              "title": "Phân tích và vận dụng đại từ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc sử dụng đại từ lại quan trọng trong văn viết?",
+              "options": {
+                "A": "Vì giúp tránh lặp từ, làm câu văn ngắn gọn, mạch lạc hơn",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ làm câu văn dài",
+                "D": "Vì không cần thiết"
+              },
+              "correctOption": "A",
+              "hint": "Đại từ giúp tránh lặp từ, làm câu văn ngắn gọn, mạch lạc và dễ đọc hơn.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết đoạn văn (6-8 câu) sử dụng nhiều đại từ để tránh lặp từ, làm câu văn mạch lạc",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết đoạn văn (6-8 câu) sử dụng nhiều đại từ để tránh lặp từ, làm câu văn mạch lạc",
+              "hint": "Sử dụng các đại từ: tôi, bạn, chúng ta, họ, nó, mình... để thay thế danh từ, tránh lặp...",
+              "answer": "Mẹ em là giáo viên. Mẹ rất yêu thương học sinh. Mẹ luôn tận tình giảng dạy cho các em. Mẹ cũng rất yêu thương em. Mẹ dạy em nhiều điều hay. Em rất yêu mẹ. (Có thể viết lại với đại từ: Mẹ em là giáo viên. Mẹ rất yêu thương học sinh và luôn tận tình giảng dạy cho các em. Mẹ cũng rất yêu thương em và dạy em nhiều điều hay. Em rất yêu mẹ. - Sử dụng 'Mẹ' và 'em' thay vì lặp lại 'mẹ em')",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH4-L4",
+          "title": "Tập làm văn: Luyện tập tả người",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá cách tả người",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao khi tả người cần tả cả ngoại hình và tính cách?",
+              "options": {
+                "A": "Vì giúp người đọc hình dung đầy đủ về người được tả, cả về bề ngoài và phẩm chất bên trong",
+                "B": "Vì chỉ cần tả ngoại hình",
+                "C": "Vì chỉ cần tả tính cách",
+                "D": "Vì không cần tả gì"
+              },
+              "correctOption": "A",
+              "hint": "Tả cả ngoại hình và tính cách giúp người đọc hình dung đầy đủ, cả về bề ngoài và phẩm chất bên trong.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn tả người hoàn chỉnh (có đủ 3 phần, tả đầy đủ ngoại hình và tính cách, sử dụng biện pháp nghệ thuật)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn tả người hoàn chỉnh (có đủ 3 phần, tả đầy đủ ngoại hình và tính cách, sử dụng biện pháp nghệ thuật)",
+              "hint": "Mở bài: giới thiệu người. Thân bài: tả ngoại hình (hình dáng, khuôn mặt, trang phục), tính cách, hành động. Kết bài: tình cảm. Sử dụng so sánh, nhân hóa...",
+              "answer": "Mở bài: Mẹ em là người em yêu quý nhất trong gia đình. Thân bài: Mẹ có khuôn mặt tròn phúc hậu, đôi mắt sáng như sao và nụ cười hiền như ánh nắng. Mẹ cao khoảng một mét sáu, dáng người thanh mảnh. Mẹ thường mặc những bộ quần áo giản dị nhưng gọn gàng. Mẹ rất hiền và yêu thương em. Mẹ luôn chăm sóc em chu đáo, nấu những món ăn ngon. Mẹ cũng dạy em nhiều điều hay, luôn động viên em học tập. Kết bài: Em rất yêu mẹ và sẽ cố gắng học tập tốt để làm mẹ vui lòng. Mẹ là người phụ nữ tuyệt vời nhất trong lòng em.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Vì hạnh phúc con người",
+      "lessons": [
+        {
+          "code": "LIT5-CH5-L1",
+          "title": "Tập đọc: Chuỗi ngọc lam",
+          "exercises": [
+            {
+              "title": "Phân tích sâu sắc và đánh giá",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao sự chia sẻ lại quan trọng trong cuộc sống con người?",
+              "options": {
+                "A": "Vì tạo nên mối quan hệ tốt đẹp, mang lại hạnh phúc cho cả người cho và người nhận",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ nghĩ đến bản thân",
+                "D": "Vì không cần chia sẻ"
+              },
+              "correctOption": "A",
+              "hint": "Chia sẻ tạo nên mối quan hệ tốt đẹp, mang lại hạnh phúc cho cả người cho và người nhận, làm cuộc sống ý nghĩa hơn.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Phân tích ý nghĩa sâu sắc của sự chia sẻ và cách thể hiện sự chia sẻ trong cuộc sống",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích ý nghĩa sâu sắc của sự chia sẻ và cách thể hiện sự chia sẻ trong cuộc sống",
+              "hint": "Phân tích: ý nghĩa của sự chia sẻ, tác động tích cực, cách thể hiện...",
+              "answer": "Ý nghĩa: Chia sẻ mang lại niềm vui và hạnh phúc cho người khác. Tạo nên mối quan hệ tốt đẹp, gắn kết con người. Giúp đỡ người khác vượt qua khó khăn. Làm cho cuộc sống ý nghĩa hơn. Cách thể hiện: Chia sẻ vật chất: thức ăn, quần áo, đồ dùng. Chia sẻ tinh thần: lắng nghe, động viên, an ủi. Chia sẻ thời gian: giúp đỡ, chăm sóc. Chia sẻ kiến thức: dạy học, hướng dẫn. Sự chia sẻ xuất phát từ tấm lòng, không mong đền đáp.",
+              "created_at": "2025-01-01T00:00:33.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH5-L2",
+          "title": "Chính tả: Nghe - viết: Mùa thảo quả",
+          "exercises": [
+            {
+              "title": "Vận dụng quy tắc chính tả phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Trong 'Mùa thảo quả', quy tắc viết như thế nào?",
+              "options": {
+                "A": "'Mùa' viết hoa (đầu câu), 'thảo quả' viết thường, hai từ riêng biệt",
+                "B": "Viết hoa tất cả",
+                "C": "Viết liền",
+                "D": "Có dấu gạch ngang"
+              },
+              "correctOption": "A",
+              "hint": "'Mùa' viết hoa vì đầu câu, 'thảo quả' viết thường thành hai từ riêng biệt, không viết liền hoặc có dấu gạch ngang.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết bài văn (8-10 câu) về mùa thu, vận dụng đúng quy tắc chính tả",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài văn (8-10 câu) về mùa thu, vận dụng đúng quy tắc chính tả",
+              "hint": "Tả về mùa thu: thời tiết, cảnh vật, hoạt động, chú ý viết đúng chính tả...",
+              "answer": "Mùa thu là mùa đẹp nhất trong năm. Thời tiết mát mẻ và dễ chịu, không còn nóng bức như mùa hè hay lạnh giá như mùa đông. Lá cây chuyển sang màu vàng, vàng cam, rơi rụng xuống tạo thành thảm lá vàng rực rỡ. Bầu trời trong xanh, cao vời vợi, những đám mây trắng bồng bềnh. Không khí trong lành, mát mẻ, có mùi thơm của hoa sữa. Vào mùa thu, người ta thường đi dạo, ngắm cảnh. Em rất thích mùa thu vì thời tiết dễ chịu và cảnh vật đẹp. Mùa thu mang lại cảm giác bình yên và thư thái.",
+              "created_at": "2025-01-01T00:00:35.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH5-L3",
+          "title": "Luyện từ và câu: Tổng kết vốn từ",
+          "exercises": [
+            {
+              "title": "Phân tích và vận dụng từ loại",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao việc hiểu và sử dụng đúng từ loại lại quan trọng?",
+              "options": {
+                "A": "Vì giúp viết câu đúng ngữ pháp, diễn đạt chính xác ý nghĩa",
+                "B": "Vì không quan trọng",
+                "C": "Vì chỉ cần viết dài",
+                "D": "Vì không cần thiết"
+              },
+              "correctOption": "A",
+              "hint": "Hiểu và sử dụng đúng từ loại giúp viết câu đúng ngữ pháp, diễn đạt chính xác ý nghĩa.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết đoạn văn (6-8 câu) sử dụng đầy đủ và đúng các loại từ (danh từ, động từ, tính từ, đại từ)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết đoạn văn (6-8 câu) sử dụng đầy đủ và đúng các loại từ (danh từ, động từ, tính từ, đại từ)",
+              "hint": "Sử dụng: danh từ (học sinh, trường, bạn...), động từ (học, chơi, yêu...), tính từ (giỏi, chăm chỉ, đẹp...), đại từ (em, bạn, chúng em...).",
+              "answer": "Em là học sinh lớp 5. Em học rất chăm chỉ và luôn cố gắng. Bạn em cũng rất giỏi và thân thiện. Chúng em cùng nhau học tập và vui chơi. Trường học của em rất đẹp và rộng rãi. Thầy cô giáo rất tận tình và yêu thương học sinh. Em rất yêu trường học của mình. (Danh từ: học sinh, lớp, bạn, trường học, thầy cô giáo. Động từ: học, cố gắng, vui chơi, yêu. Tính từ: chăm chỉ, giỏi, thân thiện, đẹp, rộng rãi, tận tình. Đại từ: em, bạn em, chúng em, mình)",
+              "created_at": "2025-01-01T00:00:37.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LIT5-CH5-L4",
+          "title": "Tập làm văn: Luyện tập làm đơn",
+          "exercises": [
+            {
+              "title": "Phân tích và đánh giá cấu trúc đơn",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Tại sao một lá đơn cần có đầy đủ các phần?",
+              "options": {
+                "A": "Vì đảm bảo tính chính thức, rõ ràng, dễ hiểu và có giá trị pháp lý",
+                "B": "Vì không cần thiết",
+                "C": "Vì chỉ cần viết ngắn",
+                "D": "Vì không quan trọng"
+              },
+              "correctOption": "A",
+              "hint": "Đơn cần đầy đủ các phần để đảm bảo tính chính thức, rõ ràng, dễ hiểu và có giá trị pháp lý.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Viết một lá đơn xin phép nghỉ học hoàn chỉnh (đầy đủ các phần, đúng quy cách)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết một lá đơn xin phép nghỉ học hoàn chỉnh (đầy đủ các phần, đúng quy cách)",
+              "hint": "Bao gồm đầy đủ: Quốc hiệu, tiêu ngữ, tên đơn, nơi gửi, thông tin người làm đơn, nội dung (lý do), lời hứa, ký tên, ngày tháng...",
+              "answer": "Cộng hòa xã hội chủ nghĩa Việt Nam. Độc lập - Tự do - Hạnh phúc. ĐƠN XIN PHÉP NGHỈ HỌC. Kính gửi: Ban giám hiệu Trường Tiểu học ABC và cô giáo chủ nhiệm lớp 5A. Em tên là: Nguyễn Văn A. Sinh ngày: 15/05/2015. Học sinh lớp: 5A. Em viết đơn này xin phép được nghỉ học ngày 15/01/2025 vì lý do: Em bị ốm, có giấy xác nhận của bác sĩ, không thể đến trường. Em xin hứa sẽ chép bài đầy đủ, làm bài tập và bổ sung kiến thức. Em xin chân thành cảm ơn. Ngày 14 tháng 01 năm 2025. Người làm đơn (Ký tên) Nguyễn Văn A",
+              "created_at": "2025-01-01T00:00:39.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

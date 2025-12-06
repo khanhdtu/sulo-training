@@ -1,0 +1,409 @@
+{
+  "grade": 7,
+  "subject": "Khoa học tự nhiên",
+  "subjectCode": "KHTN7",
+  "difficulty": "medium",
+  "description": "Medium exercises for Grade 7 Natural Science (Lớp 7 Khoa học tự nhiên) - standard practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chất và sự biến đổi của chất",
+      "lessons": [
+        {
+          "code": "KHTN7-CH1-L1",
+          "title": "Tính chất của chất",
+          "exercises": [
+            {
+              "title": "Phân biệt tính chất vật lí và hóa học trong tình huống cụ thể",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Khi đốt một mảnh giấy, tính chất nào thay đổi?",
+              "options": {
+                "A": "Chỉ tính chất vật lí",
+                "B": "Chỉ tính chất hóa học",
+                "C": "Cả tính chất vật lí và hóa học",
+                "D": "Không có tính chất nào thay đổi"
+              },
+              "correctOption": "C",
+              "hint": "Khi đốt giấy, có sự thay đổi về hình dạng (vật lí) và tạo ra chất mới là tro, khí CO2 (hóa học).",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức về tính chất để giải thích hiện tượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tại sao ta có thể tách muối ra khỏi nước muối bằng cách cô cạn?",
+              "options": {
+                "A": "Vì muối có tính chất hóa học đặc biệt",
+                "B": "Vì muối tan trong nước là hiện tượng vật lí, có thể đảo ngược",
+                "C": "Vì nước bay hơi ở nhiệt độ cao",
+                "D": "Vì muối không tan trong nước"
+              },
+              "correctOption": "B",
+              "hint": "Hòa tan muối là hiện tượng vật lí, không tạo ra chất mới, nên có thể tách lại bằng cách cô cạn.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh tính chất vật lí và tính chất hóa học, cho ví dụ minh họa",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh tính chất vật lí và tính chất hóa học, cho ví dụ minh họa",
+              "hint": "Tính chất vật lí: quan sát được, không thay đổi bản chất. Tính chất hóa học: chỉ thể hiện khi có phản ứng, thay đổi bản chất.",
+              "answer": "Tính chất vật lí: có thể quan sát được mà không làm thay đổi bản chất của chất (ví dụ: màu sắc, mùi vị, nhiệt độ sôi). Tính chất hóa học: chỉ thể hiện khi có phản ứng hóa học, tạo ra chất mới (ví dụ: khả năng cháy, khả năng tác dụng với axit).",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L2",
+          "title": "Sự biến đổi vật lí và hóa học",
+          "exercises": [
+            {
+              "title": "Phân tích hiện tượng phức tạp có cả biến đổi vật lí và hóa học",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Khi nấu cơm, có những biến đổi nào xảy ra?",
+              "options": {
+                "A": "Chỉ biến đổi vật lí",
+                "B": "Chỉ biến đổi hóa học",
+                "C": "Cả biến đổi vật lí và hóa học",
+                "D": "Không có biến đổi nào"
+              },
+              "correctOption": "C",
+              "hint": "Gạo hấp thụ nước và nở ra (vật lí), đồng thời tinh bột bị biến đổi một phần (hóa học).",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tại sao đốt cháy củi là hiện tượng hóa học",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích tại sao đốt cháy củi là hiện tượng hóa học",
+              "hint": "Hiện tượng hóa học tạo ra chất mới, không thể đảo ngược.",
+              "answer": "Đốt cháy củi là hiện tượng hóa học vì: củi (chủ yếu là cellulose) phản ứng với oxi trong không khí tạo ra các chất mới là khí CO2, hơi nước và tro. Quá trình này không thể đảo ngược, ta không thể biến tro và khí CO2 trở lại thành củi.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH1-L3",
+          "title": "Nguyên tử và phân tử",
+          "exercises": [
+            {
+              "title": "Áp dụng kiến thức về nguyên tử và phân tử",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tử nước (H2O) gồm:",
+              "options": {
+                "A": "1 nguyên tử hidro và 1 nguyên tử oxi",
+                "B": "2 nguyên tử hidro và 1 nguyên tử oxi",
+                "C": "1 nguyên tử hidro và 2 nguyên tử oxi",
+                "D": "2 nguyên tử hidro và 2 nguyên tử oxi"
+              },
+              "correctOption": "B",
+              "hint": "Công thức hóa học H2O cho biết phân tử nước gồm 2 nguyên tử H và 1 nguyên tử O.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích mối quan hệ giữa nguyên tử, phân tử và chất",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích mối quan hệ giữa nguyên tử, phân tử và chất",
+              "hint": "Nguyên tử tạo nên phân tử, phân tử tạo nên chất.",
+              "answer": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học. Các nguyên tử liên kết với nhau tạo thành phân tử. Phân tử là hạt nhỏ nhất của hợp chất, giữ nguyên tính chất hóa học của chất đó. Nhiều phân tử cùng loại tạo nên chất.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Năng lượng và sự chuyển hóa",
+      "lessons": [
+        {
+          "code": "KHTN7-CH2-L1",
+          "title": "Năng lượng và các dạng năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích sự chuyển hóa năng lượng trong các tình huống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong nhà máy thủy điện, năng lượng nào được chuyển hóa thành năng lượng điện?",
+              "options": {
+                "A": "Năng lượng hóa học",
+                "B": "Năng lượng cơ học",
+                "C": "Năng lượng nhiệt",
+                "D": "Năng lượng ánh sáng"
+              },
+              "correctOption": "B",
+              "hint": "Nước chảy từ trên cao có năng lượng cơ học, làm quay tuabin, chuyển hóa thành năng lượng điện.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Tự luận: Mô tả sự chuyển hóa năng lượng trong nhà máy nhiệt điện",
+              "type": "essay",
+              "points": 3,
+              "question": "Mô tả sự chuyển hóa năng lượng trong nhà máy nhiệt điện",
+              "hint": "Nhiệt điện: đốt nhiên liệu → nhiệt → hơi nước → cơ học → điện.",
+              "answer": "Trong nhà máy nhiệt điện: năng lượng hóa học từ nhiên liệu (than, dầu) được đốt cháy chuyển thành năng lượng nhiệt. Nhiệt làm nước sôi tạo hơi nước có áp suất cao. Hơi nước làm quay tuabin (năng lượng cơ học), tuabin quay máy phát điện tạo ra năng lượng điện.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L2",
+          "title": "Sự chuyển hóa năng lượng",
+          "exercises": [
+            {
+              "title": "Phân tích chuỗi chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Trong quá trình quang hợp, năng lượng ánh sáng được chuyển hóa thành:",
+              "options": {
+                "A": "Năng lượng cơ học",
+                "B": "Năng lượng hóa học",
+                "C": "Năng lượng nhiệt",
+                "D": "Năng lượng điện"
+              },
+              "correctOption": "B",
+              "hint": "Quang hợp chuyển hóa năng lượng ánh sáng thành năng lượng hóa học dự trữ trong đường glucose.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích định luật bảo toàn năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích định luật bảo toàn năng lượng",
+              "hint": "Năng lượng không tự sinh ra hoặc mất đi, chỉ chuyển hóa từ dạng này sang dạng khác.",
+              "answer": "Định luật bảo toàn năng lượng: năng lượng không tự sinh ra hoặc mất đi, chỉ chuyển hóa từ dạng này sang dạng khác. Tổng năng lượng trong một hệ kín luôn được bảo toàn. Ví dụ: năng lượng điện chuyển thành năng lượng nhiệt và ánh sáng trong bóng đèn.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH2-L3",
+          "title": "Năng lượng trong đời sống",
+          "exercises": [
+            {
+              "title": "Đánh giá và đề xuất giải pháp sử dụng năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Nguồn năng lượng nào sau đây vừa sạch vừa tái tạo được?",
+              "options": {
+                "A": "Than đá",
+                "B": "Dầu mỏ",
+                "C": "Năng lượng gió",
+                "D": "Khí đốt tự nhiên"
+              },
+              "correctOption": "C",
+              "hint": "Năng lượng gió là năng lượng tái tạo và không gây ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích ưu và nhược điểm của năng lượng mặt trời",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ưu và nhược điểm của năng lượng mặt trời",
+              "hint": "Ưu điểm: sạch, tái tạo. Nhược điểm: phụ thuộc thời tiết, chi phí ban đầu cao.",
+              "answer": "Ưu điểm: năng lượng sạch, không gây ô nhiễm; nguồn năng lượng tái tạo, vô tận; có thể sử dụng ở nhiều nơi. Nhược điểm: phụ thuộc vào thời tiết và ánh sáng mặt trời; chi phí lắp đặt ban đầu cao; hiệu suất chuyển đổi còn hạn chế.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Sinh học - Thế giới sống",
+      "lessons": [
+        {
+          "code": "KHTN7-CH3-L1",
+          "title": "Tế bào - Đơn vị cơ bản của sự sống",
+          "exercises": [
+            {
+              "title": "Phân tích chức năng các bào quan",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Bào quan nào có chức năng tạo ra năng lượng cho tế bào?",
+              "options": {
+                "A": "Lục lạp",
+                "B": "Ti thể",
+                "C": "Nhân tế bào",
+                "D": "Màng tế bào"
+              },
+              "correctOption": "B",
+              "hint": "Ti thể là nơi diễn ra quá trình hô hấp tế bào, tạo ra năng lượng ATP.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh cấu trúc và chức năng của tế bào thực vật và động vật",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh cấu trúc và chức năng của tế bào thực vật và động vật",
+              "hint": "Tế bào thực vật có thành tế bào, lục lạp; tế bào động vật không có.",
+              "answer": "Giống nhau: đều có màng tế bào, tế bào chất, nhân tế bào. Khác nhau: tế bào thực vật có thành tế bào cứng (cellulose), lục lạp (quang hợp), không bào lớn; tế bào động vật không có thành tế bào, không có lục lạp, có trung thể.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L2",
+          "title": "Đa dạng sinh học",
+          "exercises": [
+            {
+              "title": "Phân loại sinh vật dựa trên đặc điểm",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sinh vật nào sau đây có thể tự tạo thức ăn?",
+              "options": {
+                "A": "Con thỏ",
+                "B": "Con hổ",
+                "C": "Cây cà chua",
+                "D": "Con giun đất"
+              },
+              "correctOption": "C",
+              "hint": "Thực vật có khả năng quang hợp, tự tạo thức ăn từ CO2, nước và ánh sáng.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tầm quan trọng của đa dạng sinh học",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích tầm quan trọng của đa dạng sinh học",
+              "hint": "Đa dạng sinh học giúp duy trì cân bằng sinh thái, cung cấp tài nguyên, điều hòa khí hậu.",
+              "answer": "Đa dạng sinh học quan trọng vì: duy trì cân bằng sinh thái, mỗi loài có vai trò riêng trong chuỗi thức ăn; cung cấp tài nguyên (thức ăn, thuốc, nguyên liệu); điều hòa khí hậu và môi trường; có giá trị khoa học và thẩm mỹ.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH3-L3",
+          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+          "exercises": [
+            {
+              "title": "Phân tích mối quan hệ giữa quang hợp và hô hấp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Quá trình nào sau đây giải phóng năng lượng?",
+              "options": {
+                "A": "Quang hợp",
+                "B": "Hô hấp",
+                "C": "Cả quang hợp và hô hấp",
+                "D": "Không có quá trình nào"
+              },
+              "correctOption": "B",
+              "hint": "Hô hấp phân giải đường glucose để giải phóng năng lượng ATP. Quang hợp thu năng lượng ánh sáng để tạo đường.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh quá trình quang hợp và hô hấp ở thực vật",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh quá trình quang hợp và hô hấp ở thực vật",
+              "hint": "Quang hợp: thu năng lượng, tạo đường, giải phóng O2. Hô hấp: giải phóng năng lượng, phân giải đường, tiêu thụ O2.",
+              "answer": "Quang hợp: thu năng lượng ánh sáng, sử dụng CO2 và H2O, tạo ra glucose và O2, xảy ra ở lục lạp, cần ánh sáng. Hô hấp: giải phóng năng lượng ATP, sử dụng glucose và O2, tạo ra CO2 và H2O, xảy ra ở ti thể, diễn ra liên tục.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Trái Đất và bầu trời",
+      "lessons": [
+        {
+          "code": "KHTN7-CH4-L1",
+          "title": "Cấu trúc Trái Đất",
+          "exercises": [
+            {
+              "title": "Phân tích đặc điểm các lớp của Trái Đất",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Lớp nào của Trái Đất có nhiệt độ cao nhất?",
+              "options": {
+                "A": "Lớp vỏ",
+                "B": "Lớp phủ",
+                "C": "Lớp lõi ngoài",
+                "D": "Lớp lõi trong"
+              },
+              "correctOption": "D",
+              "hint": "Lớp lõi trong là lớp sâu nhất, có nhiệt độ cao nhất, có thể lên đến 6000°C.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích tại sao có động đất và núi lửa",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích tại sao có động đất và núi lửa",
+              "hint": "Động đất và núi lửa do sự chuyển động của các mảng kiến tạo trên lớp vỏ Trái Đất.",
+              "answer": "Động đất và núi lửa xảy ra do sự chuyển động của các mảng kiến tạo trên lớp vỏ Trái Đất. Khi các mảng va chạm, tách rời hoặc trượt lên nhau, tạo ra động đất. Núi lửa hình thành khi magma từ lớp phủ phun trào lên bề mặt qua các khe nứt trong vỏ Trái Đất.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L2",
+          "title": "Khí quyển và thời tiết",
+          "exercises": [
+            {
+              "title": "Phân tích các yếu tố ảnh hưởng đến thời tiết",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Yếu tố nào sau đây ảnh hưởng nhiều nhất đến nhiệt độ không khí?",
+              "options": {
+                "A": "Độ ẩm",
+                "B": "Ánh sáng mặt trời",
+                "C": "Gió",
+                "D": "Mây"
+              },
+              "correctOption": "B",
+              "hint": "Ánh sáng mặt trời là nguồn năng lượng chính làm nóng bề mặt Trái Đất và không khí.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Tự luận: Giải thích vòng tuần hoàn nước trong tự nhiên",
+              "type": "essay",
+              "points": 3,
+              "question": "Giải thích vòng tuần hoàn nước trong tự nhiên",
+              "hint": "Vòng tuần hoàn: bay hơi → ngưng tụ → mưa → chảy về đại dương → lặp lại.",
+              "answer": "Vòng tuần hoàn nước: nước từ đại dương, sông, hồ bay hơi thành hơi nước. Hơi nước bay lên cao, gặp lạnh ngưng tụ thành mây. Khi đủ nặng, mây tạo thành mưa, tuyết rơi xuống đất. Nước chảy về sông, hồ, đại dương và quá trình lặp lại.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            }
+          ]
+        },
+        {
+          "code": "KHTN7-CH4-L3",
+          "title": "Hệ Mặt Trời và các hành tinh",
+          "exercises": [
+            {
+              "title": "Phân tích đặc điểm các hành tinh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Hành tinh nào sau đây được gọi là 'hành tinh đỏ'?",
+              "options": {
+                "A": "Sao Thủy",
+                "B": "Sao Kim",
+                "C": "Sao Hỏa",
+                "D": "Sao Mộc"
+              },
+              "correctOption": "C",
+              "hint": "Sao Hỏa có màu đỏ do chứa nhiều sắt oxit trên bề mặt.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh đặc điểm của các hành tinh trong và ngoài hệ Mặt Trời",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh đặc điểm của các hành tinh trong và ngoài hệ Mặt Trời",
+              "hint": "Hành tinh trong: nhỏ, đá, gần Mặt Trời. Hành tinh ngoài: lớn, khí, xa Mặt Trời.",
+              "answer": "Hành tinh trong (Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa): nhỏ, cấu tạo chủ yếu bằng đá, gần Mặt Trời, nhiệt độ cao, ít hoặc không có vệ tinh. Hành tinh ngoài (Sao Mộc, Sao Thổ, Sao Thiên Vương, Sao Hải Vương): lớn, cấu tạo chủ yếu bằng khí, xa Mặt Trời, nhiệt độ thấp, có nhiều vệ tinh và vành đai.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

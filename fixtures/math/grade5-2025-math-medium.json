@@ -1,0 +1,460 @@
+{
+  "grade": 5,
+  "subject": "Toán",
+  "subjectCode": "MATH5",
+  "difficulty": "medium",
+  "description": "Medium exercises for Grade 5 Math (Lớp 5 Toán) - standard practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Ôn tập và bổ sung về phân số",
+      "lessons": [
+        {
+          "code": "MATH5-CH1-L1",
+          "title": "Phân số và phép tính với phân số",
+          "exercises": [
+            {
+              "title": "Cộng hai phân số khác mẫu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $\\frac{2}{3} + \\frac{1}{4} = ?$",
+              "options": {
+                "A": "$\\frac{3}{7}$",
+                "B": "$\\frac{11}{12}$",
+                "C": "$\\frac{3}{4}$",
+                "D": "$\\frac{5}{7}$"
+              },
+              "correctOption": "B",
+              "hint": "Quy đồng mẫu số: $\\frac{2}{3} = \\frac{8}{12}$, $\\frac{1}{4} = \\frac{3}{12}$. Tính: $\\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $\\frac{3}{5} + \\frac{2}{7}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: $\\frac{3}{5} + \\frac{2}{7}$",
+              "hint": "Quy đồng mẫu số chung là 35.",
+              "answer": "Quy đồng: $\\frac{3}{5} = \\frac{21}{35}$, $\\frac{2}{7} = \\frac{10}{35}$. Tính: $\\frac{21}{35} + \\frac{10}{35} = \\frac{31}{35}$.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH1-L2",
+          "title": "Hỗn số",
+          "exercises": [
+            {
+              "title": "Cộng hai hỗn số",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $1\\frac{1}{2} + 2\\frac{1}{3} = ?$",
+              "options": {
+                "A": "$3\\frac{2}{5}$",
+                "B": "$3\\frac{5}{6}$",
+                "C": "$4\\frac{1}{6}$",
+                "D": "$3\\frac{1}{2}$"
+              },
+              "correctOption": "B",
+              "hint": "Chuyển về phân số: $1\\frac{1}{2} = \\frac{3}{2}$, $2\\frac{1}{3} = \\frac{7}{3}$. Quy đồng và cộng: $\\frac{9}{6} + \\frac{14}{6} = \\frac{23}{6} = 3\\frac{5}{6}$.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $2\\frac{3}{4} + 1\\frac{1}{2}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: $2\\frac{3}{4} + 1\\frac{1}{2}$",
+              "hint": "Chuyển về phân số rồi cộng, sau đó đổi lại thành hỗn số.",
+              "answer": "$2\\frac{3}{4} = \\frac{11}{4}$, $1\\frac{1}{2} = \\frac{3}{2} = \\frac{6}{4}$. Tính: $\\frac{11}{4} + \\frac{6}{4} = \\frac{17}{4} = 4\\frac{1}{4}$.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH1-L3",
+          "title": "So sánh phân số",
+          "exercises": [
+            {
+              "title": "Sắp xếp nhiều phân số",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Sắp xếp các phân số $\\frac{1}{3}$, $\\frac{2}{5}$, $\\frac{1}{2}$ theo thứ tự tăng dần:",
+              "options": {
+                "A": "$\\frac{1}{3} < \\frac{1}{2} < \\frac{2}{5}$",
+                "B": "$\\frac{1}{3} < \\frac{2}{5} < \\frac{1}{2}$",
+                "C": "$\\frac{2}{5} < \\frac{1}{3} < \\frac{1}{2}$",
+                "D": "$\\frac{1}{2} < \\frac{1}{3} < \\frac{2}{5}$"
+              },
+              "correctOption": "B",
+              "hint": "Quy đồng mẫu số 30: $\\frac{1}{3} = \\frac{10}{30}$, $\\frac{2}{5} = \\frac{12}{30}$, $\\frac{1}{2} = \\frac{15}{30}$. So sánh: $\\frac{10}{30} < \\frac{12}{30} < \\frac{15}{30}$.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Tự luận: So sánh $\\frac{3}{4}$ và $\\frac{5}{6}$",
+              "type": "essay",
+              "points": 3,
+              "question": "So sánh $\\frac{3}{4}$ và $\\frac{5}{6}$",
+              "hint": "Quy đồng mẫu số chung là 12.",
+              "answer": "Quy đồng: $\\frac{3}{4} = \\frac{9}{12}$, $\\frac{5}{6} = \\frac{10}{12}$. Vì $\\frac{9}{12} < \\frac{10}{12}$ nên $\\frac{3}{4} < \\frac{5}{6}$.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Số thập phân",
+      "lessons": [
+        {
+          "code": "MATH5-CH2-L1",
+          "title": "Khái niệm số thập phân",
+          "exercises": [
+            {
+              "title": "So sánh số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "So sánh 3,25 và 3,5:",
+              "options": {
+                "A": "3,25 > 3,5",
+                "B": "3,25 < 3,5",
+                "C": "3,25 = 3,5",
+                "D": "Không thể so sánh"
+              },
+              "correctOption": "B",
+              "hint": "So sánh phần nguyên trước (3 = 3), sau đó so sánh phần thập phân (0,25 < 0,5).",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Tự luận: Sắp xếp các số thập phân 2,5; 2,15; 2,51 theo thứ tự tăng dần",
+              "type": "essay",
+              "points": 3,
+              "question": "Sắp xếp các số thập phân 2,5; 2,15; 2,51 theo thứ tự tăng dần",
+              "hint": "So sánh phần nguyên (đều là 2), sau đó so sánh phần thập phân.",
+              "answer": "Phần nguyên đều là 2. So sánh phần thập phân: 0,15 < 0,5 < 0,51. Vậy thứ tự tăng dần: 2,15 < 2,5 < 2,51.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH2-L2",
+          "title": "Phép cộng, trừ số thập phân",
+          "exercises": [
+            {
+              "title": "Cộng nhiều số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 12,5 + 8,75 + 3,25 = ?",
+              "options": {
+                "A": "24,5",
+                "B": "24,0",
+                "C": "25,0",
+                "D": "23,5"
+              },
+              "correctOption": "A",
+              "hint": "Cộng từng bước: 12,5 + 8,75 = 21,25; 21,25 + 3,25 = 24,5.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 25,8 - 12,35",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 25,8 - 12,35",
+              "hint": "Viết 25,8 = 25,80 rồi trừ với 12,35.",
+              "answer": "25,8 - 12,35 = 25,80 - 12,35 = 13,45",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH2-L3",
+          "title": "Phép nhân, chia số thập phân",
+          "exercises": [
+            {
+              "title": "Nhân số thập phân với số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 2,5 × 1,2 = ?",
+              "options": {
+                "A": "3,0",
+                "B": "2,7",
+                "C": "3,5",
+                "D": "2,4"
+              },
+              "correctOption": "A",
+              "hint": "Nhân như số tự nhiên: 25 × 12 = 300. Đếm số chữ số sau dấu phẩy (1 + 1 = 2), đặt dấu phẩy: 3,00 = 3,0.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 4,8 : 1,2",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 4,8 : 1,2",
+              "hint": "Nhân cả số bị chia và số chia với 10: 48 : 12 = 4.",
+              "answer": "4,8 : 1,2 = (4,8 × 10) : (1,2 × 10) = 48 : 12 = 4",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Hình học",
+      "lessons": [
+        {
+          "code": "MATH5-CH3-L1",
+          "title": "Hình tam giác, hình thang",
+          "exercises": [
+            {
+              "title": "Phân loại hình tam giác",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tam giác có ba cạnh bằng nhau được gọi là:",
+              "options": {
+                "A": "Tam giác vuông",
+                "B": "Tam giác đều",
+                "C": "Tam giác cân",
+                "D": "Tam giác tù"
+              },
+              "correctOption": "B",
+              "hint": "Tam giác có ba cạnh bằng nhau là tam giác đều.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu đặc điểm của hình thang vuông",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu đặc điểm của hình thang vuông",
+              "hint": "Hình thang vuông có một cạnh bên vuông góc với hai đáy.",
+              "answer": "Hình thang vuông là hình thang có một cạnh bên vuông góc với hai đáy. Có hai góc vuông.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH3-L2",
+          "title": "Diện tích hình tam giác, hình thang",
+          "exercises": [
+            {
+              "title": "Tính diện tích tam giác trong bài toán thực tế",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một mảnh đất hình tam giác có đáy 12 m và chiều cao 8 m. Diện tích mảnh đất là:",
+              "options": {
+                "A": "48 m²",
+                "B": "96 m²",
+                "C": "20 m²",
+                "D": "40 m²"
+              },
+              "correctOption": "A",
+              "hint": "Diện tích = (12 × 8) : 2 = 96 : 2 = 48 m².",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Tự luận: Tính diện tích hình thang có đáy lớn 10 m, đáy nhỏ 6 m, chiều cao 5 m",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính diện tích hình thang có đáy lớn 10 m, đáy nhỏ 6 m, chiều cao 5 m",
+              "hint": "Sử dụng công thức: Diện tích = (đáy lớn + đáy nhỏ) × chiều cao : 2",
+              "answer": "Diện tích = (10 + 6) × 5 : 2 = 16 × 5 : 2 = 80 : 2 = 40 m²",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH3-L3",
+          "title": "Hình tròn, hình hộp chữ nhật, hình lập phương",
+          "exercises": [
+            {
+              "title": "Tính chu vi hình tròn",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Chu vi hình tròn có bán kính 5 cm là (lấy π ≈ 3,14):",
+              "options": {
+                "A": "15,7 cm",
+                "B": "31,4 cm",
+                "C": "25 cm",
+                "D": "10 cm"
+              },
+              "correctOption": "B",
+              "hint": "Chu vi = 2 × π × r = 2 × 3,14 × 5 = 31,4 cm.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Tự luận: Tính thể tích hình hộp chữ nhật có chiều dài 6 cm, chiều rộng 4 cm, chiều cao 5 cm",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính thể tích hình hộp chữ nhật có chiều dài 6 cm, chiều rộng 4 cm, chiều cao 5 cm",
+              "hint": "Thể tích = chiều dài × chiều rộng × chiều cao",
+              "answer": "Thể tích = 6 × 4 × 5 = 120 cm³",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Số đo thời gian",
+      "lessons": [
+        {
+          "code": "MATH5-CH4-L1",
+          "title": "Bảng đơn vị đo thời gian",
+          "exercises": [
+            {
+              "title": "Đổi đơn vị phức tạp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "2 ngày 5 giờ = ? giờ",
+              "options": {
+                "A": "48 giờ",
+                "B": "53 giờ",
+                "C": "50 giờ",
+                "D": "52 giờ"
+              },
+              "correctOption": "B",
+              "hint": "2 ngày = 2 × 24 = 48 giờ. Vậy 2 ngày 5 giờ = 48 + 5 = 53 giờ.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Tự luận: Đổi 3 tuần 2 ngày sang ngày",
+              "type": "essay",
+              "points": 3,
+              "question": "Đổi 3 tuần 2 ngày sang ngày",
+              "hint": "1 tuần = 7 ngày",
+              "answer": "3 tuần = 3 × 7 = 21 ngày. Vậy 3 tuần 2 ngày = 21 + 2 = 23 ngày",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH4-L2",
+          "title": "Cộng, trừ số đo thời gian",
+          "exercises": [
+            {
+              "title": "Cộng số đo thời gian có đổi đơn vị",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 2 giờ 45 phút + 1 giờ 30 phút = ?",
+              "options": {
+                "A": "3 giờ 15 phút",
+                "B": "4 giờ 15 phút",
+                "C": "3 giờ 75 phút",
+                "D": "4 giờ 5 phút"
+              },
+              "correctOption": "B",
+              "hint": "Cộng: 2 giờ + 1 giờ = 3 giờ, 45 phút + 30 phút = 75 phút = 1 giờ 15 phút. Tổng: 3 giờ + 1 giờ 15 phút = 4 giờ 15 phút.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 5 giờ 20 phút - 2 giờ 45 phút",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 5 giờ 20 phút - 2 giờ 45 phút",
+              "hint": "Đổi 5 giờ 20 phút = 4 giờ 80 phút rồi trừ.",
+              "answer": "5 giờ 20 phút = 4 giờ 80 phút. Tính: 4 giờ 80 phút - 2 giờ 45 phút = 2 giờ 35 phút",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH4-L3",
+          "title": "Nhân, chia số đo thời gian",
+          "exercises": [
+            {
+              "title": "Nhân số đo thời gian có đổi đơn vị",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 1 giờ 15 phút × 4 = ?",
+              "options": {
+                "A": "4 giờ 15 phút",
+                "B": "5 giờ",
+                "C": "4 giờ 60 phút",
+                "D": "5 giờ 15 phút"
+              },
+              "correctOption": "B",
+              "hint": "Nhân: 1 giờ × 4 = 4 giờ, 15 phút × 4 = 60 phút = 1 giờ. Tổng: 4 giờ + 1 giờ = 5 giờ.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 6 giờ 30 phút : 3",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 6 giờ 30 phút : 3",
+              "hint": "Chia từng phần: 6 giờ : 3 = 2 giờ, 30 phút : 3 = 10 phút.",
+              "answer": "6 giờ 30 phút : 3 = 2 giờ 10 phút",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Ôn tập cuối năm",
+      "lessons": [
+        {
+          "code": "MATH5-CH5-L1",
+          "title": "Ôn tập về số tự nhiên, phân số, số thập phân",
+          "exercises": [
+            {
+              "title": "Tổng hợp phép tính",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $\\frac{1}{2} + 0,25 = ?$",
+              "options": {
+                "A": "0,5",
+                "B": "0,75",
+                "C": "0,25",
+                "D": "1,0"
+              },
+              "correctOption": "B",
+              "hint": "$\\frac{1}{2} = 0,5$. Tính: 0,5 + 0,25 = 0,75.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $\\frac{3}{4} \\times 0,8$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: $\\frac{3}{4} \\times 0,8$",
+              "hint": "Đổi $\\frac{3}{4} = 0,75$ rồi nhân với 0,8.",
+              "answer": "$\\frac{3}{4} = 0,75$. Tính: 0,75 × 0,8 = 0,6",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        },
+        {
+          "code": "MATH5-CH5-L2",
+          "title": "Ôn tập về hình học và đo lường",
+          "exercises": [
+            {
+              "title": "Tổng hợp về hình học",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Diện tích hình vuông có cạnh 6 cm là:",
+              "options": {
+                "A": "12 cm²",
+                "B": "24 cm²",
+                "C": "36 cm²",
+                "D": "30 cm²"
+              },
+              "correctOption": "C",
+              "hint": "Diện tích hình vuông = cạnh × cạnh = 6 × 6 = 36 cm².",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: Tính chu vi và diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 5 cm",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính chu vi và diện tích hình chữ nhật có chiều dài 8 cm, chiều rộng 5 cm",
+              "hint": "Chu vi = (dài + rộng) × 2, Diện tích = dài × rộng",
+              "answer": "Chu vi = (8 + 5) × 2 = 13 × 2 = 26 cm. Diện tích = 8 × 5 = 40 cm²",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
