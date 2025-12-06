@@ -126,6 +126,30 @@
               "hint": "Nêu các biện pháp: không dùng chung kim tiêm, quan hệ tình dục an toàn, kiểm tra máu...",
               "answer": "Các biện pháp phòng tránh: Không dùng chung kim tiêm, bơm kim tiêm. Quan hệ tình dục an toàn, sử dụng bao cao su. Khi truyền máu, đảm bảo máu đã được kiểm tra an toàn. Phụ nữ mang thai nhiễm HIV cần được tư vấn và điều trị. Có lối sống lành mạnh, tránh các hành vi nguy cơ.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Nhận biết các bệnh truyền nhiễm",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Bệnh nào sau đây có thể phòng tránh bằng cách ngủ màn?",
+              "options": {
+                "A": "Cảm cúm",
+                "B": "Sốt rét",
+                "C": "Đau đầu",
+                "D": "Đau bụng"
+              },
+              "correctOption": "B",
+              "hint": "Sốt rét lây truyền qua muỗi, nên ngủ màn là biện pháp phòng tránh hiệu quả.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận: Nêu tầm quan trọng của việc giữ gìn sức khỏe trong tuổi dậy thì",
+              "type": "essay",
+              "points": 3,
+              "question": "Nêu tầm quan trọng của việc giữ gìn sức khỏe trong tuổi dậy thì",
+              "hint": "Nêu tầm quan trọng: phát triển tốt, học tập, tương lai...",
+              "answer": "Giữ gìn sức khỏe trong tuổi dậy thì rất quan trọng vì đây là giai đoạn phát triển quan trọng. Sức khỏe tốt giúp cơ thể phát triển đầy đủ, học tập hiệu quả. Chúng ta cần ăn uống đầy đủ, tập thể dục, nghỉ ngơi hợp lý để có sức khỏe tốt cho tương lai.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         }
@@ -252,6 +276,30 @@
               "hint": "Nêu các biện pháp: tắt đèn, sử dụng thiết bị tiết kiệm năng lượng...",
               "answer": "Các biện pháp: Tắt đèn và các thiết bị điện khi không sử dụng. Sử dụng bóng đèn tiết kiệm năng lượng (đèn LED). Tắt quạt, điều hòa khi không cần thiết. Sử dụng năng lượng mặt trời khi có thể. Giảm sử dụng các thiết bị tiêu tốn nhiều năng lượng. Tái sử dụng và tái chế. Tiết kiệm nước (vì sản xuất nước cũng cần năng lượng).",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Nhận biết các nguồn năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Nguồn năng lượng nào sau đây là năng lượng sạch và tái tạo?",
+              "options": {
+                "A": "Than đá",
+                "B": "Dầu mỏ",
+                "C": "Năng lượng gió",
+                "D": "Khí đốt"
+              },
+              "correctOption": "C",
+              "hint": "Năng lượng gió là năng lượng sạch, tái tạo và không gây ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích ưu và nhược điểm của các nguồn năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ưu và nhược điểm của các nguồn năng lượng",
+              "hint": "So sánh năng lượng tái tạo và không tái tạo...",
+              "answer": "Năng lượng tái tạo (mặt trời, gió, nước): Ưu điểm: không cạn kiệt, sạch, ít ô nhiễm. Nhược điểm: phụ thuộc thời tiết, chi phí đầu tư cao. Năng lượng không tái tạo (than đá, dầu mỏ): Ưu điểm: dễ khai thác, công nghệ đã phát triển. Nhược điểm: cạn kiệt, gây ô nhiễm môi trường. Nên ưu tiên sử dụng năng lượng tái tạo.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         }
@@ -378,6 +426,30 @@
               "hint": "Nêu ưu nhược điểm của từng cách...",
               "answer": "Gieo hạt: Ưu điểm: Đơn giản, có thể nhân giống số lượng lớn. Nhược điểm: Cây con có thể không giữ đặc tính tốt của cây mẹ, lâu cho quả. Giâm cành: Ưu điểm: Giữ đặc tính cây mẹ, nhanh cho quả. Nhược điểm: Cần kỹ thuật, không phải cây nào cũng giâm được. Chiết cành: Ưu điểm: Giữ đặc tính cây mẹ, tỷ lệ sống cao. Nhược điểm: Tốn công, số lượng ít.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Nhận biết các bộ phận của cây",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Bộ phận nào của cây có chức năng quang hợp?",
+              "options": {
+                "A": "Rễ",
+                "B": "Thân",
+                "C": "Lá",
+                "D": "Hoa"
+              },
+              "correctOption": "C",
+              "hint": "Lá là bộ phận chính thực hiện quá trình quang hợp, tạo ra chất dinh dưỡng cho cây.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích vai trò của thực vật trong hệ sinh thái",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích vai trò của thực vật trong hệ sinh thái",
+              "hint": "Nêu các vai trò: sản xuất oxy, thức ăn, điều hòa khí hậu...",
+              "answer": "Thực vật có vai trò quan trọng trong hệ sinh thái: Sản xuất oxy thông qua quang hợp, cung cấp thức ăn cho động vật và con người, điều hòa khí hậu, giữ đất, chống xói mòn, tạo môi trường sống cho các sinh vật khác, làm đẹp cảnh quan. Thực vật là mắt xích quan trọng trong chuỗi thức ăn.",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         }
@@ -504,6 +576,30 @@
               "hint": "Nêu tác động tích cực (trồng cây, bảo vệ...) và tiêu cực (ô nhiễm, khai thác quá mức...).",
               "answer": "Tác động tích cực: Trồng cây gây rừng, bảo vệ động vật hoang dã, xử lý rác thải, sử dụng năng lượng sạch, bảo tồn tài nguyên. Tác động tiêu cực: Ô nhiễm không khí, nước, đất (xả rác, nước thải, khí thải). Khai thác tài nguyên quá mức (phá rừng, đánh bắt cá quá mức). Phá hủy môi trường sống của sinh vật. Gây biến đổi khí hậu. Cần tăng cường tác động tích cực, giảm thiểu tác động tiêu cực.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Nhận biết các biện pháp bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Biện pháp nào sau đây giúp giảm ô nhiễm không khí?",
+              "options": {
+                "A": "Đốt rác",
+                "B": "Trồng nhiều cây xanh",
+                "C": "Xả khí thải nhiều",
+                "D": "Sử dụng than đá nhiều"
+              },
+              "correctOption": "B",
+              "hint": "Trồng nhiều cây xanh giúp hấp thụ khí CO2, sản xuất oxy, làm sạch không khí.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận: Phân tích tầm quan trọng của việc bảo vệ môi trường",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích tầm quan trọng của việc bảo vệ môi trường",
+              "hint": "Nêu tầm quan trọng: sức khỏe, cuộc sống, tương lai...",
+              "answer": "Bảo vệ môi trường rất quan trọng vì: Môi trường sạch đảm bảo sức khỏe con người, cung cấp tài nguyên cho cuộc sống, duy trì đa dạng sinh học, điều hòa khí hậu, tạo môi trường sống tốt cho các thế hệ tương lai. Môi trường bị ô nhiễm sẽ ảnh hưởng nghiêm trọng đến sức khỏe và cuộc sống. Mọi người cần chung tay bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:39.000Z"
             }
           ]
         }

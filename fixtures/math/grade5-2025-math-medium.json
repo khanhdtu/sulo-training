@@ -36,6 +36,30 @@
               "hint": "Quy đồng mẫu số chung là 35.",
               "answer": "Quy đồng: $\\frac{3}{5} = \\frac{21}{35}$, $\\frac{2}{7} = \\frac{10}{35}$. Tính: $\\frac{21}{35} + \\frac{10}{35} = \\frac{31}{35}$.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Trừ hai phân số khác mẫu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $\\frac{5}{6} - \\frac{1}{3} = ?$",
+              "options": {
+                "A": "$\\frac{4}{3}$",
+                "B": "$\\frac{1}{2}$",
+                "C": "$\\frac{1}{3}$",
+                "D": "$\\frac{4}{6}$"
+              },
+              "correctOption": "B",
+              "hint": "Quy đồng mẫu số: $\\frac{5}{6} = \\frac{5}{6}$, $\\frac{1}{3} = \\frac{2}{6}$. Tính: $\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $\\frac{4}{5} - \\frac{2}{3}$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: $\\frac{4}{5} - \\frac{2}{3}$",
+              "hint": "Quy đồng mẫu số chung là 15.",
+              "answer": "Quy đồng: $\\frac{4}{5} = \\frac{12}{15}$, $\\frac{2}{3} = \\frac{10}{15}$. Tính: $\\frac{12}{15} - \\frac{10}{15} = \\frac{2}{15}$.",
+              "created_at": "2025-01-01T00:00:29.000Z"
             }
           ]
         },
@@ -66,6 +90,21 @@
               "hint": "Chuyển về phân số rồi cộng, sau đó đổi lại thành hỗn số.",
               "answer": "$2\\frac{3}{4} = \\frac{11}{4}$, $1\\frac{1}{2} = \\frac{3}{2} = \\frac{6}{4}$. Tính: $\\frac{11}{4} + \\frac{6}{4} = \\frac{17}{4} = 4\\frac{1}{4}$.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Trừ hai hỗn số",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $3\\frac{1}{2} - 1\\frac{1}{3} = ?$",
+              "options": {
+                "A": "$2\\frac{1}{6}$",
+                "B": "$2\\frac{1}{3}$",
+                "C": "$2\\frac{1}{2}$",
+                "D": "$1\\frac{5}{6}$"
+              },
+              "correctOption": "A",
+              "hint": "Chuyển về phân số: $3\\frac{1}{2} = \\frac{7}{2} = \\frac{21}{6}$, $1\\frac{1}{3} = \\frac{4}{3} = \\frac{8}{6}$. Tính: $\\frac{21}{6} - \\frac{8}{6} = \\frac{13}{6} = 2\\frac{1}{6}$.",
+              "created_at": "2025-01-01T00:00:30.000Z"
             }
           ]
         },
@@ -96,6 +135,21 @@
               "hint": "Quy đồng mẫu số chung là 12.",
               "answer": "Quy đồng: $\\frac{3}{4} = \\frac{9}{12}$, $\\frac{5}{6} = \\frac{10}{12}$. Vì $\\frac{9}{12} < \\frac{10}{12}$ nên $\\frac{3}{4} < \\frac{5}{6}$.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Tìm phân số lớn nhất",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân số nào lớn nhất: $\\frac{2}{3}$, $\\frac{3}{5}$, $\\frac{4}{7}$?",
+              "options": {
+                "A": "$\\frac{2}{3}$",
+                "B": "$\\frac{3}{5}$",
+                "C": "$\\frac{4}{7}$",
+                "D": "Bằng nhau"
+              },
+              "correctOption": "A",
+              "hint": "Quy đồng mẫu số 105: $\\frac{2}{3} = \\frac{70}{105}$, $\\frac{3}{5} = \\frac{63}{105}$, $\\frac{4}{7} = \\frac{60}{105}$. Vậy $\\frac{2}{3}$ lớn nhất.",
+              "created_at": "2025-01-01T00:00:31.000Z"
             }
           ]
         }
@@ -132,6 +186,21 @@
               "hint": "So sánh phần nguyên (đều là 2), sau đó so sánh phần thập phân.",
               "answer": "Phần nguyên đều là 2. So sánh phần thập phân: 0,15 < 0,5 < 0,51. Vậy thứ tự tăng dần: 2,15 < 2,5 < 2,51.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Chuyển phân số sang số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân số $\\frac{7}{10}$ được viết dưới dạng số thập phân là:",
+              "options": {
+                "A": "0,7",
+                "B": "7,0",
+                "C": "0,07",
+                "D": "7,10"
+              },
+              "correctOption": "A",
+              "hint": "$\\frac{7}{10} = 0,7$",
+              "created_at": "2025-01-01T00:00:32.000Z"
             }
           ]
         },
@@ -162,6 +231,21 @@
               "hint": "Viết 25,8 = 25,80 rồi trừ với 12,35.",
               "answer": "25,8 - 12,35 = 25,80 - 12,35 = 13,45",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Giải bài toán với số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một cửa hàng có 15,5 kg gạo. Bán đi 8,25 kg. Số gạo còn lại là:",
+              "options": {
+                "A": "7,25 kg",
+                "B": "7,5 kg",
+                "C": "6,75 kg",
+                "D": "8,25 kg"
+              },
+              "correctOption": "A",
+              "hint": "Số gạo còn lại = 15,5 - 8,25 = 7,25 kg.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         },
@@ -192,6 +276,30 @@
               "hint": "Nhân cả số bị chia và số chia với 10: 48 : 12 = 4.",
               "answer": "4,8 : 1,2 = (4,8 × 10) : (1,2 × 10) = 48 : 12 = 4",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Chia số thập phân cho số tự nhiên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 9,6 : 3 = ?",
+              "options": {
+                "A": "3,2",
+                "B": "3,6",
+                "C": "2,8",
+                "D": "32"
+              },
+              "correctOption": "A",
+              "hint": "Chia như số tự nhiên: 96 : 3 = 32. Đặt dấu phẩy: 3,2.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 5,4 × 2,5",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 5,4 × 2,5",
+              "hint": "Nhân như số tự nhiên: 54 × 25 = 1350. Đếm số chữ số sau dấu phẩy (1 + 1 = 2), đặt dấu phẩy: 13,50 = 13,5.",
+              "answer": "5,4 × 2,5 = 13,5",
+              "created_at": "2025-01-01T00:00:47.000Z"
             }
           ]
         }
@@ -228,6 +336,21 @@
               "hint": "Hình thang vuông có một cạnh bên vuông góc với hai đáy.",
               "answer": "Hình thang vuông là hình thang có một cạnh bên vuông góc với hai đáy. Có hai góc vuông.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Nhận biết hình thang cân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Hình thang cân có đặc điểm gì?",
+              "options": {
+                "A": "Có hai cạnh bên bằng nhau",
+                "B": "Có bốn cạnh bằng nhau",
+                "C": "Có ba góc vuông",
+                "D": "Có một cạnh bên vuông góc"
+              },
+              "correctOption": "A",
+              "hint": "Hình thang cân có hai cạnh bên bằng nhau và hai góc kề một đáy bằng nhau.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         },
@@ -258,6 +381,30 @@
               "hint": "Sử dụng công thức: Diện tích = (đáy lớn + đáy nhỏ) × chiều cao : 2",
               "answer": "Diện tích = (10 + 6) × 5 : 2 = 16 × 5 : 2 = 80 : 2 = 40 m²",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Tính diện tích tam giác vuông",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Diện tích tam giác vuông có hai cạnh góc vuông là 6 cm và 8 cm là:",
+              "options": {
+                "A": "24 cm²",
+                "B": "48 cm²",
+                "C": "14 cm²",
+                "D": "28 cm²"
+              },
+              "correctOption": "A",
+              "hint": "Diện tích = (6 × 8) : 2 = 48 : 2 = 24 cm².",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận: Tính chu vi hình thang có các cạnh 5 cm, 6 cm, 7 cm, 8 cm",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính chu vi hình thang có các cạnh 5 cm, 6 cm, 7 cm, 8 cm",
+              "hint": "Chu vi = tổng độ dài các cạnh",
+              "answer": "Chu vi = 5 + 6 + 7 + 8 = 26 cm",
+              "created_at": "2025-01-01T00:00:48.000Z"
             }
           ]
         },
@@ -288,6 +435,21 @@
               "hint": "Thể tích = chiều dài × chiều rộng × chiều cao",
               "answer": "Thể tích = 6 × 4 × 5 = 120 cm³",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Tính diện tích hình tròn",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Diện tích hình tròn có bán kính 4 cm là (lấy π ≈ 3,14):",
+              "options": {
+                "A": "12,56 cm²",
+                "B": "25,12 cm²",
+                "C": "50,24 cm²",
+                "D": "16 cm²"
+              },
+              "correctOption": "C",
+              "hint": "Diện tích = π × r² = 3,14 × 4² = 3,14 × 16 = 50,24 cm².",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         }
@@ -324,6 +486,21 @@
               "hint": "1 tuần = 7 ngày",
               "answer": "3 tuần = 3 × 7 = 21 ngày. Vậy 3 tuần 2 ngày = 21 + 2 = 23 ngày",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Đổi giờ sang phút",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "3,5 giờ = ? phút",
+              "options": {
+                "A": "180 phút",
+                "B": "210 phút",
+                "C": "200 phút",
+                "D": "190 phút"
+              },
+              "correctOption": "B",
+              "hint": "3,5 giờ = 3 giờ + 0,5 giờ = 3 × 60 + 0,5 × 60 = 180 + 30 = 210 phút.",
+              "created_at": "2025-01-01T00:00:38.000Z"
             }
           ]
         },
@@ -354,6 +531,21 @@
               "hint": "Đổi 5 giờ 20 phút = 4 giờ 80 phút rồi trừ.",
               "answer": "5 giờ 20 phút = 4 giờ 80 phút. Tính: 4 giờ 80 phút - 2 giờ 45 phút = 2 giờ 35 phút",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Giải bài toán thời gian",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Một buổi học bắt đầu lúc 7 giờ 30 phút và kết thúc lúc 10 giờ 15 phút. Thời gian buổi học là:",
+              "options": {
+                "A": "2 giờ 45 phút",
+                "B": "3 giờ 15 phút",
+                "C": "2 giờ 30 phút",
+                "D": "3 giờ 45 phút"
+              },
+              "correctOption": "A",
+              "hint": "10 giờ 15 phút - 7 giờ 30 phút = 9 giờ 75 phút - 7 giờ 30 phút = 2 giờ 45 phút.",
+              "created_at": "2025-01-01T00:00:39.000Z"
             }
           ]
         },
@@ -384,6 +576,30 @@
               "hint": "Chia từng phần: 6 giờ : 3 = 2 giờ, 30 phút : 3 = 10 phút.",
               "answer": "6 giờ 30 phút : 3 = 2 giờ 10 phút",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Nhân số đo thời gian",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: 2 giờ 20 phút × 2 = ?",
+              "options": {
+                "A": "4 giờ 20 phút",
+                "B": "4 giờ 40 phút",
+                "C": "5 giờ",
+                "D": "4 giờ 10 phút"
+              },
+              "correctOption": "B",
+              "hint": "Nhân: 2 giờ × 2 = 4 giờ, 20 phút × 2 = 40 phút. Tổng: 4 giờ 40 phút.",
+              "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 8 giờ 15 phút : 3",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: 8 giờ 15 phút : 3",
+              "hint": "Chia từng phần: 8 giờ : 3 = 2 giờ 40 phút (vì 8 giờ = 480 phút, 480 : 3 = 160 phút = 2 giờ 40 phút), 15 phút : 3 = 5 phút. Tổng: 2 giờ 40 phút + 5 phút = 2 giờ 45 phút.",
+              "answer": "8 giờ 15 phút : 3 = 2 giờ 45 phút",
+              "created_at": "2025-01-01T00:00:49.000Z"
             }
           ]
         }
@@ -420,6 +636,45 @@
               "hint": "Đổi $\\frac{3}{4} = 0,75$ rồi nhân với 0,8.",
               "answer": "$\\frac{3}{4} = 0,75$. Tính: 0,75 × 0,8 = 0,6",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Tính giá trị biểu thức hỗn hợp",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Tính: $\\frac{1}{2} + 0,3 = ?$",
+              "options": {
+                "A": "0,5",
+                "B": "0,8",
+                "C": "0,6",
+                "D": "0,4"
+              },
+              "correctOption": "B",
+              "hint": "$\\frac{1}{2} = 0,5$. Tính: 0,5 + 0,3 = 0,8.",
+              "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $\\frac{2}{5} - 0,1$",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính: $\\frac{2}{5} - 0,1$",
+              "hint": "Đổi $\\frac{2}{5} = 0,4$ rồi trừ với 0,1.",
+              "answer": "$\\frac{2}{5} = 0,4$. Tính: 0,4 - 0,1 = 0,3",
+              "created_at": "2025-01-01T00:00:42.000Z"
+            },
+            {
+              "title": "Chuyển đổi giữa phân số và số thập phân",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Số thập phân 0,6 được viết dưới dạng phân số là:",
+              "options": {
+                "A": "$\\frac{3}{5}$",
+                "B": "$\\frac{6}{10}$",
+                "C": "$\\frac{1}{6}$",
+                "D": "$\\frac{2}{3}$"
+              },
+              "correctOption": "A",
+              "hint": "0,6 = $\\frac{6}{10} = \\frac{3}{5}$.",
+              "created_at": "2025-01-01T00:00:43.000Z"
             }
           ]
         },
@@ -450,6 +705,45 @@
               "hint": "Chu vi = (dài + rộng) × 2, Diện tích = dài × rộng",
               "answer": "Chu vi = (8 + 5) × 2 = 13 × 2 = 26 cm. Diện tích = 8 × 5 = 40 cm²",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Tính chu vi hình vuông",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Chu vi hình vuông có cạnh 7 cm là:",
+              "options": {
+                "A": "14 cm",
+                "B": "21 cm",
+                "C": "28 cm",
+                "D": "49 cm"
+              },
+              "correctOption": "C",
+              "hint": "Chu vi = 7 × 4 = 28 cm.",
+              "created_at": "2025-01-01T00:00:44.000Z"
+            },
+            {
+              "title": "Tự luận: Tính diện tích hình tam giác có đáy 10 cm và chiều cao 6 cm",
+              "type": "essay",
+              "points": 3,
+              "question": "Tính diện tích hình tam giác có đáy 10 cm và chiều cao 6 cm",
+              "hint": "Diện tích = (đáy × chiều cao) : 2",
+              "answer": "Diện tích = (10 × 6) : 2 = 60 : 2 = 30 cm²",
+              "created_at": "2025-01-01T00:00:45.000Z"
+            },
+            {
+              "title": "Đổi đơn vị đo độ dài",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "5 m 8 cm = ? cm",
+              "options": {
+                "A": "58 cm",
+                "B": "508 cm",
+                "C": "580 cm",
+                "D": "5008 cm"
+              },
+              "correctOption": "B",
+              "hint": "5 m = 500 cm. Vậy 5 m 8 cm = 500 + 8 = 508 cm.",
+              "created_at": "2025-01-01T00:00:46.000Z"
             }
           ]
         }

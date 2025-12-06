@@ -297,6 +297,21 @@
               "hint": "Nhân như số tự nhiên: 36 × 25 = 900. Đếm tổng số chữ số sau dấu phẩy (1 + 1 = 2), đặt dấu phẩy vào kết quả: 9,00 = 9.",
               "answer": "3,6 × 2,5 = 9",
               "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "So sánh số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "So sánh: 2,5 và 2,3",
+              "options": {
+                "A": "2,5 > 2,3",
+                "B": "2,5 < 2,3",
+                "C": "2,5 = 2,3",
+                "D": "Không thể so sánh"
+              },
+              "correctOption": "A",
+              "hint": "So sánh phần nguyên trước (2 = 2), rồi so sánh phần thập phân (5 > 3).",
+              "created_at": "2025-01-01T00:00:41.000Z"
             }
           ]
         }
@@ -438,6 +453,21 @@
               "hint": "Hình lập phương có 6 mặt, 12 cạnh, 8 đỉnh, tất cả các cạnh bằng nhau.",
               "answer": "Hình lập phương có: 6 mặt, mỗi mặt là hình vuông; 12 cạnh, tất cả các cạnh bằng nhau; 8 đỉnh.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Nhận biết hình vuông",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hình vuông có đặc điểm gì?",
+              "options": {
+                "A": "Có 4 cạnh bằng nhau và 4 góc vuông",
+                "B": "Có 3 cạnh",
+                "C": "Có 5 cạnh",
+                "D": "Có 6 mặt"
+              },
+              "correctOption": "A",
+              "hint": "Hình vuông có 4 cạnh bằng nhau và 4 góc vuông.",
+              "created_at": "2025-01-01T00:00:42.000Z"
             }
           ]
         }
@@ -579,6 +609,21 @@
               "hint": "Chia từng phần: 3 giờ : 2 = 1 giờ 30 phút, 30 phút : 2 = 15 phút. Cộng lại.",
               "answer": "3 giờ 30 phút : 2 = 1 giờ 30 phút + 15 phút = 1 giờ 45 phút",
               "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Đổi ngày sang giờ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "2 ngày = ? giờ",
+              "options": {
+                "A": "24 giờ",
+                "B": "48 giờ",
+                "C": "36 giờ",
+                "D": "60 giờ"
+              },
+              "correctOption": "B",
+              "hint": "1 ngày = 24 giờ, vậy 2 ngày = 2 × 24 = 48 giờ.",
+              "created_at": "2025-01-01T00:00:43.000Z"
             }
           ]
         }
@@ -615,6 +660,54 @@
               "hint": "Đổi $\\frac{1}{4} = 0,25$ rồi cộng với 0,5.",
               "answer": "$\\frac{1}{4} + 0,5 = 0,25 + 0,5 = 0,75$",
               "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tính giá trị biểu thức với phân số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tính: $\\frac{2}{5} + \\frac{1}{5} = ?$",
+              "options": {
+                "A": "$\\frac{3}{10}$",
+                "B": "$\\frac{3}{5}$",
+                "C": "$\\frac{1}{5}$",
+                "D": "$\\frac{2}{5}$"
+              },
+              "correctOption": "B",
+              "hint": "Cộng hai phân số cùng mẫu: giữ nguyên mẫu số, cộng tử số.",
+              "created_at": "2025-01-01T00:00:44.000Z"
+            },
+            {
+              "title": "Tự luận: Tính $\\frac{3}{4} - \\frac{1}{4}$",
+              "type": "essay",
+              "points": 2,
+              "question": "Tính: $\\frac{3}{4} - \\frac{1}{4}$",
+              "hint": "Trừ hai phân số cùng mẫu: giữ nguyên mẫu số, trừ tử số.",
+              "answer": "$\\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$",
+              "created_at": "2025-01-01T00:00:45.000Z"
+            },
+            {
+              "title": "Chuyển phân số sang số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phân số $\\frac{3}{10}$ được viết dưới dạng số thập phân là:",
+              "options": {
+                "A": "0,3",
+                "B": "3,0",
+                "C": "0,03",
+                "D": "3,10"
+              },
+              "correctOption": "A",
+              "hint": "$\\frac{3}{10} = 0,3$",
+              "created_at": "2025-01-01T00:00:46.000Z"
+            },
+            {
+              "title": "Tự luận: Tính 2,5 + 1,3",
+              "type": "essay",
+              "points": 2,
+              "question": "Tính: 2,5 + 1,3",
+              "hint": "Cộng số thập phân: đặt tính thẳng hàng, cộng như số tự nhiên.",
+              "answer": "2,5 + 1,3 = 3,8",
+              "created_at": "2025-01-01T00:00:47.000Z"
             }
           ]
         },
@@ -645,6 +738,54 @@
               "hint": "Diện tích = chiều dài × chiều rộng",
               "answer": "Diện tích = 6 × 4 = 24 cm²",
               "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "title": "Tính chu vi hình vuông",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Chu vi hình vuông có cạnh 5 cm là:",
+              "options": {
+                "A": "10 cm",
+                "B": "20 cm",
+                "C": "25 cm",
+                "D": "15 cm"
+              },
+              "correctOption": "B",
+              "hint": "Chu vi hình vuông = cạnh × 4 = 5 × 4 = 20 cm.",
+              "created_at": "2025-01-01T00:00:48.000Z"
+            },
+            {
+              "title": "Tự luận: Tính diện tích hình vuông có cạnh 6 cm",
+              "type": "essay",
+              "points": 2,
+              "question": "Tính diện tích hình vuông có cạnh 6 cm",
+              "hint": "Diện tích hình vuông = cạnh × cạnh",
+              "answer": "Diện tích = 6 × 6 = 36 cm²",
+              "created_at": "2025-01-01T00:00:49.000Z"
+            },
+            {
+              "title": "Đổi đơn vị đo độ dài",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "5 m = ? cm",
+              "options": {
+                "A": "50 cm",
+                "B": "500 cm",
+                "C": "5000 cm",
+                "D": "5 cm"
+              },
+              "correctOption": "B",
+              "hint": "1 m = 100 cm, vậy 5 m = 5 × 100 = 500 cm.",
+              "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "title": "Tự luận: Đổi 3 km sang mét",
+              "type": "essay",
+              "points": 2,
+              "question": "Đổi 3 km sang mét",
+              "hint": "1 km = 1000 m",
+              "answer": "3 km = 3 × 1000 = 3000 m",
+              "created_at": "2025-01-01T00:00:51.000Z"
             }
           ]
         }

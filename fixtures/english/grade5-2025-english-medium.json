@@ -36,6 +36,30 @@
               "hint": "Use: Where do you live? What's your address? I live in...",
               "answer": "Example: A: Where do you live? B: I live in Ho Chi Minh City. A: What's your address? B: My address is 456 Nguyen Hue Street. A: Is it a house or an apartment? B: It's a house.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Complete the dialogue with appropriate questions",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "A: What's your address? B: My address is 123 Le Loi Street. A: ______? B: It's a big and modern city.",
+              "options": {
+                "A": "What's it like",
+                "B": "How old are you",
+                "C": "What's your name",
+                "D": "Where are you from"
+              },
+              "correctOption": "A",
+              "hint": "We ask 'What's it like?' to know about the characteristics of a place.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận: Write a paragraph (5-6 sentences) describing your neighborhood",
+              "type": "essay",
+              "points": 3,
+              "question": "Write a paragraph (5-6 sentences) describing your neighborhood",
+              "hint": "Include: location, nearby places, what you like about it...",
+              "answer": "Example: I live in a nice neighborhood in District 1. There is a park near my house. There are many shops and restaurants nearby. My school is only 5 minutes away. I like my neighborhood because it's safe and convenient. The people here are very friendly.",
+              "created_at": "2025-01-01T00:00:25.000Z"
             }
           ]
         },
@@ -66,6 +90,30 @@
               "hint": "Use: big/small, busy/quiet, many buildings/few buildings...",
               "answer": "Example: A city is big and busy. It has many buildings and cars. A village is small and quiet. It has fewer buildings. Many people live in cities, but some people prefer villages.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Choose the best comparative sentence",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Which sentence correctly compares a city and a village?",
+              "options": {
+                "A": "A city is bigger than a village, but a village is quieter.",
+                "B": "A city is smaller than a village.",
+                "C": "A city and a village are the same.",
+                "D": "A village has more buildings than a city."
+              },
+              "correctOption": "A",
+              "hint": "Cities are usually bigger and busier, while villages are quieter.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận: Write about the advantages and disadvantages of living in a city (5-6 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Write about the advantages and disadvantages of living in a city (5-6 sentences)",
+              "hint": "Discuss: facilities, environment, lifestyle...",
+              "answer": "Example: Living in a city has both advantages and disadvantages. Cities have many facilities like hospitals and schools. There are more job opportunities. However, cities can be crowded and noisy. The air can be polluted. Some people prefer cities, while others prefer the countryside.",
+              "created_at": "2025-01-01T00:00:27.000Z"
             }
           ]
         },
@@ -132,6 +180,30 @@
               "hint": "Use time expressions: in the morning, at noon, in the afternoon, in the evening...",
               "answer": "Example: I get up at 6 o'clock in the morning. I brush my teeth and wash my face. Then I have breakfast at 6:30. I go to school at 7:00. After school, I do my homework. I go to bed at 9:00 in the evening.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Complete the sentence with correct time expressions",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "I usually get up ______ 6:30 ______ the morning.",
+              "options": {
+                "A": "at, in",
+                "B": "in, at",
+                "C": "on, in",
+                "D": "at, on"
+              },
+              "correctOption": "A",
+              "hint": "We use 'at' for specific times and 'in' for parts of the day.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận: Compare your weekday routine with your weekend routine (5-6 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Compare your weekday routine with your weekend routine (5-6 sentences)",
+              "hint": "Compare: wake-up time, activities, schedule...",
+              "answer": "Example: My weekday and weekend routines are different. On weekdays, I get up early at 6:00 and go to school. On weekends, I get up later at 8:00. I don't go to school on weekends. I have more free time to play and relax. I prefer weekends because I can do what I like.",
+              "created_at": "2025-01-01T00:00:29.000Z"
             }
           ]
         },
@@ -162,6 +234,30 @@
               "hint": "Use: always, usually, often, sometimes, rarely, never",
               "answer": "Example: I always brush my teeth. I usually have breakfast. I often play football. I sometimes watch TV. I never go to bed late.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Choose the correct frequency adverb based on context",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "I ______ go to the library. (I go there every day)",
+              "options": {
+                "A": "always",
+                "B": "usually",
+                "C": "sometimes",
+                "D": "rarely"
+              },
+              "correctOption": "A",
+              "hint": "If you do something every day, you 'always' do it.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận: Write about your family members' habits using frequency adverbs (5-6 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Write about your family members' habits using frequency adverbs (5-6 sentences)",
+              "hint": "Describe what each person does and how often...",
+              "answer": "Example: My family members have different habits. My father always reads the newspaper in the morning. My mother usually cooks dinner. My brother often plays video games. I sometimes help with housework. My little sister never stays up late.",
+              "created_at": "2025-01-01T00:00:31.000Z"
             }
           ]
         },
@@ -228,6 +324,30 @@
               "hint": "Use past tense verbs: went, played, visited, watched, ate...",
               "answer": "Example: Last weekend, I went to the park with my family. We played football together. Then we visited my grandparents. We had lunch together. In the afternoon, I watched a movie. I had a great time.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Complete the story with correct past tense forms",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Last month, I ______ to the museum. I ______ many interesting things. I ______ many photos.",
+              "options": {
+                "A": "went, saw, took",
+                "B": "go, see, take",
+                "C": "went, see, took",
+                "D": "go, saw, take"
+              },
+              "correctOption": "A",
+              "hint": "All verbs should be in past tense: went, saw, took.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận: Write a story about a memorable trip (6-7 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Write a story about a memorable trip (6-7 sentences)",
+              "hint": "Include: when, where, who with, what you did, how you felt...",
+              "answer": "Example: Last summer, I went to Ha Long Bay with my family. We traveled by car. When we arrived, I saw the beautiful bay. We took a boat trip. We visited amazing caves. We swam in the sea. I had a wonderful time and took many photos.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         },
@@ -258,6 +378,30 @@
               "hint": "Include: where you went, when, who with, what you did, how you felt...",
               "answer": "Example: Last summer, I went to Da Lat with my family. We went there by car. We visited many beautiful places like Xuan Huong Lake and the flower garden. We took many photos. We ate delicious food. I had a wonderful time. I want to go there again.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Answer complex questions about past events",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "A: Where did you go last weekend? B: I went to the zoo. A: ______? B: I went with my parents. We saw elephants.",
+              "options": {
+                "A": "Who did you go with and what did you see",
+                "B": "What is your name",
+                "C": "How old are you",
+                "D": "Where do you live"
+              },
+              "correctOption": "A",
+              "hint": "The answer mentions 'with my parents' (who) and 'saw elephants' (what), so the question should ask about both.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận: Compare two different holidays you had (6-7 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Compare two different holidays you had (6-7 sentences)",
+              "hint": "Compare: destinations, activities, which one you preferred...",
+              "answer": "Example: I have had two memorable holidays. Last summer, I went to the beach. We swam and played on the beach. Last winter, I went to the mountains. We went hiking and saw snow. Both holidays were amazing but different. I think I preferred the mountain holiday because it was something new.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         },
@@ -324,6 +468,30 @@
               "hint": "Use: What's the matter? I have a..., You should/shouldn't...",
               "answer": "Example: A: What's the matter with you? B: I have a headache. A: You should rest. B: Should I take medicine? A: Yes, you should. B: Thank you. A: You're welcome. Get well soon!",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Choose appropriate advice for multiple symptoms",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "A: What's the matter? B: I have a fever and a cough. A: ______",
+              "options": {
+                "A": "You should rest, take medicine, and drink warm water.",
+                "B": "You should play sports.",
+                "C": "You should eat ice cream.",
+                "D": "You should ignore it."
+              },
+              "correctOption": "A",
+              "hint": "For fever and cough, you should rest, take medicine, and drink warm water.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận: Write a role-play dialogue between a doctor and a patient (7-8 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Write a role-play dialogue between a doctor and a patient (7-8 sentences)",
+              "hint": "Include: greeting, asking about symptoms, giving advice...",
+              "answer": "Example: Doctor: What's the matter? Patient: I have a stomachache. Doctor: What did you eat? Patient: I ate a lot of spicy food. Doctor: You should rest. You should drink water. You shouldn't eat spicy food. Patient: Should I take medicine? Doctor: Yes, I'll give you some. Patient: Thank you, doctor.",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         },
@@ -354,6 +522,30 @@
               "hint": "Use: If you have..., you should/shouldn't...",
               "answer": "Example: If you have a headache, you should rest. If you have a fever, you should take medicine. If you have a cold, you should drink warm water. If you have a toothache, you should see a dentist. You shouldn't eat too much candy.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Match health problems with appropriate advice",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "I have a sore throat. What should I do?",
+              "options": {
+                "A": "You should rest your voice, drink warm water, and see a doctor if needed.",
+                "B": "You should shout loudly.",
+                "C": "You should eat ice cream.",
+                "D": "You should ignore it."
+              },
+              "correctOption": "A",
+              "hint": "For a sore throat, you should rest your voice, drink warm liquids, and see a doctor if needed.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận: Write a health guide about preventing common health problems (6-7 sentences)",
+              "type": "essay",
+              "points": 3,
+              "question": "Write a health guide about preventing common health problems (6-7 sentences)",
+              "hint": "Discuss: prevention methods, healthy habits, what to avoid...",
+              "answer": "Example: To stay healthy, you should eat fruits and vegetables. You should drink plenty of water. You should exercise regularly. You should get enough sleep. You should wash your hands before eating. However, you shouldn't eat too much junk food. You shouldn't stay up late. Following these rules will help you stay healthy.",
+              "created_at": "2025-01-01T00:00:39.000Z"
             }
           ]
         },

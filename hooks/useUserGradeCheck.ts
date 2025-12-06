@@ -10,6 +10,13 @@ export function useUserGradeCheck() {
 
   useEffect(() => {
     const fetchUser = async () => {
+      // Only fetch user if token exists (user is logged in)
+      const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+      if (!token) {
+        setLoading(false);
+        return;
+      }
+
       try {
         const data = await authRepository.getMe();
         if (data.user) {
@@ -20,6 +27,10 @@ export function useUserGradeCheck() {
         }
       } catch (error) {
         console.error('Failed to fetch user:', error);
+        // Clear invalid token
+        if (typeof window !== 'undefined') {
+          localStorage.removeItem('token');
+        }
       } finally {
         setLoading(false);
       }

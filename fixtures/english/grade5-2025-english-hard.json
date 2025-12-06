@@ -36,6 +36,30 @@
               "hint": "Include: greetings, asking address, describing the place, asking follow-up questions...",
               "answer": "Example: A: Hi! Where do you live? B: I live in Ho Chi Minh City. A: What's your address? B: My address is 456 Nguyen Hue Street. A: Is it a house or an apartment? B: It's an apartment. A: What's it like? B: It's a big and busy city. There are many buildings and cars. A: Do you like living there? B: Yes, I do. It's very exciting.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Advanced: Multiple choice with complex context",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "A: What's your address? B: I live at 123 Le Loi Street. A: Is it in the city center? B: Yes, it is. A: ______? B: It's very convenient. There are shops, restaurants, and a park nearby.",
+              "options": {
+                "A": "What's it like living there",
+                "B": "How old is your house",
+                "C": "What's your phone number",
+                "D": "How many rooms are there"
+              },
+              "correctOption": "A",
+              "hint": "The answer describes the experience of living there, so the question should ask about what it's like.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a detailed description (10-12 sentences) of your neighborhood including location, facilities, and your opinion",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a detailed description (10-12 sentences) of your neighborhood including location, facilities, and your opinion",
+              "hint": "Include: address, location, nearby places (school, park, shops), what you like/dislike, why...",
+              "answer": "Example: I live in a neighborhood in District 1, Ho Chi Minh City. My address is 789 Nguyen Du Street. It's in the city center, so it's very convenient. There is a big park near my house where I often play. There are many shops and restaurants nearby. My school is only 5 minutes away. There is also a library where I can read books. I like my neighborhood because it's safe and friendly. The people here are very nice. However, it can be noisy sometimes because there are many cars. Overall, I really enjoy living here.",
+              "created_at": "2025-01-01T00:00:25.000Z"
             }
           ]
         },
@@ -66,6 +90,30 @@
               "hint": "Use: bigger/smaller, busier/quieter, more/fewer, but, however...",
               "answer": "Example: City life and village life are different. Cities are bigger and busier than villages. There are more buildings, cars, and people in cities. However, villages are quieter and more peaceful. There are fewer buildings but more trees and fresh air in villages. Some people like city life because it's exciting. Others prefer village life because it's peaceful.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Advanced: Choose the best comparative sentence",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Which sentence best describes the differences between urban and rural areas?",
+              "options": {
+                "A": "Urban areas have more facilities than rural areas, but rural areas have cleaner air than urban areas.",
+                "B": "Urban areas and rural areas are exactly the same.",
+                "C": "Rural areas have more facilities than urban areas.",
+                "D": "Urban areas have fewer people than rural areas."
+              },
+              "correctOption": "A",
+              "hint": "Urban areas typically have more facilities (hospitals, schools, shops) while rural areas have cleaner air and more nature.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write an essay (10-12 sentences) explaining the advantages and disadvantages of living in a city versus a village",
+              "type": "essay",
+              "points": 4,
+              "question": "Write an essay (10-12 sentences) explaining the advantages and disadvantages of living in a city versus a village",
+              "hint": "Discuss: facilities, environment, lifestyle, opportunities, peace...",
+              "answer": "Example: Living in a city has both advantages and disadvantages. Cities have many facilities like hospitals, schools, and shopping centers. There are more job opportunities and entertainment options. However, cities are often crowded and noisy. The air can be polluted. Living in a village also has pros and cons. Villages are peaceful and quiet. The air is fresh and clean. People know each other and are friendly. However, there are fewer facilities and job opportunities. I think both places have their own charm. It depends on what you prefer.",
+              "created_at": "2025-01-01T00:00:27.000Z"
             }
           ]
         },
@@ -132,6 +180,30 @@
               "hint": "Include time expressions, sequence words (first, then, after that, finally)...",
               "answer": "Example: I get up at 6 o'clock in the morning. First, I brush my teeth and wash my face. Then I have breakfast at 6:30. After that, I go to school at 7:00. I study at school until 11:30. I have lunch at 12:00. In the afternoon, I do my homework. Then I play with my friends. I have dinner at 6:30 in the evening. Finally, I go to bed at 9:00.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Advanced: Complete the dialogue with correct time expressions",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "A: What time do you usually get up? B: I usually get up ______ 6:30 ______ the morning. A: What do you do ______? B: I brush my teeth and have breakfast.",
+              "options": {
+                "A": "at, in, then",
+                "B": "in, at, after",
+                "C": "on, in, before",
+                "D": "at, on, later"
+              },
+              "correctOption": "A",
+              "hint": "We use 'at' for specific times, 'in' for parts of the day, and 'then' for sequence.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a comparison essay (10-12 sentences) comparing your weekday routine with your weekend routine",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a comparison essay (10-12 sentences) comparing your weekday routine with your weekend routine",
+              "hint": "Compare: wake-up time, activities, schedule, differences...",
+              "answer": "Example: My weekday and weekend routines are quite different. On weekdays, I get up early at 6:00. I go to school and study all day. I do my homework in the afternoon. I go to bed early at 9:00. However, on weekends, I get up later at 8:00. I don't go to school. I have more free time. I can play games, watch TV, or visit my friends. I sometimes help my parents with housework. I go to bed later at 10:00. I prefer weekends because I can relax and do what I like.",
+              "created_at": "2025-01-01T00:00:29.000Z"
             }
           ]
         },
@@ -162,6 +234,30 @@
               "hint": "Use: I always..., but my friend sometimes... I often..., while my friend rarely...",
               "answer": "Example: I always do my homework, but my friend sometimes forgets to do it. I often play football, while my friend rarely plays sports. I sometimes watch TV, but my friend always watches TV. I never stay up late, but my friend often stays up late. We have different habits.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Advanced: Choose the correct frequency adverb based on context",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "I ______ go to the library. (I go there every day without exception)",
+              "options": {
+                "A": "always",
+                "B": "usually",
+                "C": "sometimes",
+                "D": "rarely"
+              },
+              "correctOption": "A",
+              "hint": "If you do something every day without exception, you 'always' do it.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a detailed paragraph (10-12 sentences) about your family members' habits using various frequency adverbs",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a detailed paragraph (10-12 sentences) about your family members' habits using various frequency adverbs",
+              "hint": "Describe: what each person does, how often, compare different habits...",
+              "answer": "Example: My family members have different habits. My father always reads the newspaper in the morning. He usually goes to work at 7:00. My mother often cooks dinner for us. She sometimes goes shopping on weekends. My older brother always plays video games after school. He rarely helps with housework. I usually do my homework in the afternoon. I often play with my friends. I sometimes watch TV in the evening. My little sister never stays up late. She always goes to bed at 8:00. We all have different routines but we get along well.",
+              "created_at": "2025-01-01T00:00:31.000Z"
             }
           ]
         },
@@ -228,6 +324,30 @@
               "hint": "Include: when, where, who with, what you did, what you saw, how you felt...",
               "answer": "Example: Last summer, I went to Ha Long Bay with my family. We traveled by car. When we arrived, I saw the beautiful bay with many islands. We took a boat trip. We visited amazing caves. We swam in the sea. We ate delicious seafood. I took many photos. I had a wonderful time. I will never forget this trip.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Advanced: Complete the story with correct past tense forms",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Last month, I ______ to the museum with my class. We ______ many interesting things. I ______ many photos and ______ souvenirs.",
+              "options": {
+                "A": "went, saw, took, bought",
+                "B": "go, see, take, buy",
+                "C": "went, see, took, buy",
+                "D": "go, saw, take, bought"
+              },
+              "correctOption": "A",
+              "hint": "All verbs should be in past tense: went, saw, took, bought.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a travel diary entry (12-15 sentences) describing a day from your holiday trip",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a travel diary entry (12-15 sentences) describing a day from your holiday trip",
+              "hint": "Include: date, place, activities throughout the day, people, feelings, details...",
+              "answer": "Example: Today was an amazing day! I woke up early at 6:00 in the morning. My family and I had breakfast at the hotel. Then we went to the beach. The weather was perfect. The sun was shining and the water was clear. I swam in the sea with my brother. We built sandcastles on the beach. At noon, we had a picnic lunch. We ate sandwiches and fruits. In the afternoon, we visited a local market. I bought some souvenirs for my friends. We tried local food. It was delicious. In the evening, we watched the sunset. It was so beautiful. I took many photos. I felt very happy. This was one of the best days of my holiday.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         },
@@ -258,6 +378,30 @@
               "hint": "Include: destination, time, transportation, people, activities, places visited, food, feelings...",
               "answer": "Example: Last summer vacation, I went to Da Lat with my family. We went there by car. The journey took 5 hours. When we arrived, I was amazed by the cool weather and beautiful flowers. We stayed in a hotel near Xuan Huong Lake. Every day, we visited different places. We went to the flower garden and saw many colorful flowers. We visited the old railway station. We ate delicious local food like strawberries and artichoke tea. We took many beautiful photos. I bought some souvenirs for my friends. I had an amazing time. I want to visit Da Lat again.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Advanced: Answer complex questions about past events",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "A: Where did you go last weekend? B: I went to the zoo. A: ______? B: I went with my parents and my sister. We saw elephants and tigers.",
+              "options": {
+                "A": "Who did you go with and what did you see",
+                "B": "What is your name",
+                "C": "How old are you",
+                "D": "Where do you live"
+              },
+              "correctOption": "A",
+              "hint": "The answer mentions 'with my parents and my sister' (who) and 'saw elephants and tigers' (what), so the question should ask about both.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a comparison essay (12-15 sentences) comparing two different holidays you had",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a comparison essay (12-15 sentences) comparing two different holidays you had",
+              "hint": "Compare: destinations, activities, experiences, which one you preferred and why...",
+              "answer": "Example: I have had many holidays, but two of them were very special. Last summer, I went to the beach with my family. We stayed for three days. We swam, played on the beach, and ate seafood. The weather was hot and sunny. I really enjoyed it. However, last winter, I went to the mountains with my friends. We stayed for two days. We went hiking, saw snow, and drank hot chocolate. The weather was cold but beautiful. Both holidays were amazing but different. The beach holiday was relaxing and fun. The mountain holiday was adventurous and exciting. I think I preferred the mountain holiday because it was something new and different. I learned new things and made great memories with my friends.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         },
@@ -324,6 +468,30 @@
               "hint": "Include: asking about the problem, describing symptoms, giving appropriate advice...",
               "answer": "Example: A: What's the matter with you? You look tired. B: I have a headache and I feel dizzy. A: How long have you had it? B: Since this morning. A: Did you sleep well last night? B: No, I stayed up late. A: You should rest. You shouldn't watch TV or use the computer. B: Should I take medicine? A: Yes, you should take some medicine. You should also drink plenty of water. B: Thank you for your advice. A: You're welcome. Get well soon!",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Advanced: Choose appropriate advice for multiple symptoms",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "A: What's the matter? B: I have a fever, a cough, and I feel very tired. A: ______",
+              "options": {
+                "A": "You should rest, take medicine, and drink warm water. You shouldn't go to school today.",
+                "B": "You should play sports and go outside.",
+                "C": "You should eat ice cream and watch TV all day.",
+                "D": "You should ignore it and go to school."
+              },
+              "correctOption": "A",
+              "hint": "For fever, cough, and tiredness, you should rest, take medicine, drink warm water, and not go to school.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a role-play dialogue (12-15 sentences) between a doctor and a patient about health problems",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a role-play dialogue (12-15 sentences) between a doctor and a patient about health problems",
+              "hint": "Include: greeting, asking about symptoms, examining, giving diagnosis and advice...",
+              "answer": "Example: Doctor: Good morning. What's the matter with you? Patient: Good morning, doctor. I have a stomachache. Doctor: How long have you had it? Patient: Since yesterday evening. Doctor: What did you eat yesterday? Patient: I ate a lot of spicy food. Doctor: Do you feel nauseous? Patient: Yes, a little. Doctor: Let me check your temperature. You don't have a fever. That's good. Patient: What should I do? Doctor: You should rest today. You should drink plenty of water. You shouldn't eat spicy or oily food. You should eat light food like soup or porridge. Patient: Should I take medicine? Doctor: Yes, I'll give you some medicine. Take it after meals. Patient: Thank you, doctor. Doctor: You're welcome. Get well soon!",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         },
@@ -354,6 +522,30 @@
               "hint": "Include advice for: headache, fever, cold, toothache, stomachache...",
               "answer": "Example: Here is some health advice. If you have a headache, you should rest and drink water. If you have a fever, you should take medicine and stay in bed. If you have a cold, you should drink warm water and rest. If you have a toothache, you should see a dentist. If you have a stomachache, you shouldn't eat spicy food. You should always eat healthy food. You should exercise regularly. You shouldn't stay up late. Remember to take care of your health!",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Advanced: Match health problems with appropriate advice",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "I have a sore throat and I can't speak clearly. What should I do?",
+              "options": {
+                "A": "You should rest your voice, drink warm water with honey, and see a doctor if it doesn't get better.",
+                "B": "You should shout loudly to practice your voice.",
+                "C": "You should eat ice cream and cold drinks.",
+                "D": "You should ignore it and continue speaking."
+              },
+              "correctOption": "A",
+              "hint": "For a sore throat, you should rest your voice, drink warm liquids, and see a doctor if needed.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận (nâng cao): Write a comprehensive health article (12-15 sentences) about preventing common health problems",
+              "type": "essay",
+              "points": 4,
+              "question": "Write a comprehensive health article (12-15 sentences) about preventing common health problems",
+              "hint": "Discuss: prevention methods, healthy habits, what to avoid, importance of health...",
+              "answer": "Example: Staying healthy is very important. There are many ways to prevent common health problems. First, you should eat a balanced diet with fruits and vegetables. You should drink plenty of water every day. Second, you should exercise regularly. You can play sports, ride a bike, or go for a walk. Third, you should get enough sleep. Children should sleep at least 9-10 hours every night. Fourth, you should wash your hands regularly, especially before eating. You should also brush your teeth twice a day. However, you shouldn't eat too much junk food. You shouldn't stay up late. You shouldn't skip meals. If you follow these rules, you will stay healthy and strong. Remember, prevention is better than cure!",
+              "created_at": "2025-01-01T00:00:39.000Z"
             }
           ]
         },

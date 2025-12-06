@@ -316,6 +316,10 @@ a:hover {
   background: linear-gradient(135deg, var(--color-gradient-warm-start), var(--color-gradient-warm-end));
 }
 
+.bg-gradient-body {
+  background: linear-gradient(135deg, var(--color-gradient-warm-start) 0%, var(--color-gradient-orange-end) 100%);
+}
+
 /* Decorative Shapes */
 .shape-star {
   position: absolute;
@@ -403,8 +407,31 @@ section {
   }
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.7;
+  }
+}
+
 .loading {
   animation: spin 1s linear infinite;
+}
+
+/* Enhanced bounce animation for loading dots */
+@keyframes bounce-delayed {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-12px) scale(1.1);
+    opacity: 0.8;
+  }
 }
 
 /* Fade In Animation */
@@ -423,17 +450,22 @@ section {
   animation: fadeIn 0.6s ease-out;
 }
 
-/* KaTeX LaTeX Rendering - Ensure text color is black (#000) on white background */
+/* KaTeX LaTeX Rendering - Ensure text color is visible */
 .katex {
-  color: #000 !important; /* Pure black for maximum contrast on white */
+  color: #000 !important;
   font-size: 1.1em;
+  display: inline-block;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
 }
 
 .katex * {
-  color: #000 !important; /* Force all KaTeX elements to be black */
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
 }
 
-/* Ensure KaTeX text elements are black */
+/* Ensure KaTeX text elements are visible */
 .katex .mord,
 .katex .mop,
 .katex .mbin,
@@ -448,16 +480,20 @@ section {
 .katex .mfrac > .vlist-t > .vlist-r > .vlist > .vlist,
 .katex .mfrac > .vlist-t > .vlist-r > .vlist > .vlist > .mord {
   color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
 }
 
-/* Ensure operators and symbols are black */
+/* Ensure operators and symbols are visible */
 .katex .mrel,
 .katex .mbin,
 .katex .mop {
   color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
 }
 
-/* Ensure all text nodes in KaTeX are black */
+/* Ensure all text nodes in KaTeX are visible */
 .katex .mord,
 .katex .mop,
 .katex .mbin,
@@ -471,4 +507,61 @@ section {
 .katex .msupsub,
 .katex .msubsup {
   color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+/* Ensure KaTeX HTML wrapper is visible */
+.katex-html {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.katex-html * {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+/* Fix for display mode */
+.katex-display {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.katex-display * {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+/* Ensure question text with LaTeX is visible - black color */
+.border-l-4.border-indigo-500 .katex,
+.border-l-4.border-indigo-500 .katex * {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+  background: transparent !important;
+  background-clip: unset !important;
+  -webkit-background-clip: unset !important;
+}
+
+/* Ensure all text in question is visible - black color */
+.border-l-4.border-indigo-500 span,
+.border-l-4.border-indigo-500 p,
+.border-l-4.border-indigo-500 div {
+  color: #000 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+/* Override any gradient text effects on LaTeX in questions - use black */
+.border-l-4.border-indigo-500 .katex,
+.border-l-4.border-indigo-500 .katex * {
+  -webkit-text-fill-color: #000 !important;
+  background: transparent !important;
+  background-clip: unset !important;
+  -webkit-background-clip: unset !important;
 }

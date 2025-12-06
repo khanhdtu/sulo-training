@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
+import Loading from '@/components/Loading';
 
 interface ExerciseQuestion {
   id: number;
@@ -89,11 +90,7 @@ export default function ChapterAnswersPage() {
   }, [chapterId]);
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-xl">Đang tải...</div>
-      </div>
-    );
+    return <Loading message="Đang tải đáp án..." />;
   }
 
   if (error || !data) {

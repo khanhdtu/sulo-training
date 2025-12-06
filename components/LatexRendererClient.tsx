@@ -7,7 +7,7 @@ import 'katex/dist/katex.min.css';
 /**
  * Client-side only LaTeX renderer to avoid hydration mismatches
  */
-export function LatexRendererClient({ content, displayMode = false, className = '' }: { content: string; displayMode?: boolean; className?: string }) {
+export function LatexRendererClient({ content, displayMode = false, className = '', style }: { content: string; displayMode?: boolean; className?: string; style?: React.CSSProperties }) {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -28,12 +28,13 @@ export function LatexRendererClient({ content, displayMode = false, className = 
       return <span className={className}>{content}</span>;
     }
 
-    // Combine className with text color class to ensure visibility (pure black)
-    const combinedClassName = `${className} text-black`.trim();
+    // Use provided style or default to black
+    const mathStyle = style || { color: '#000', opacity: 1, WebkitTextFillColor: '#000' };
+    const combinedClassName = `${className}`.trim();
     if (displayMode) {
-      return <BlockMath math={mathContent} className={combinedClassName} />;
+      return <BlockMath math={mathContent} className={combinedClassName} style={mathStyle} />;
     } else {
-      return <InlineMath math={mathContent} className={combinedClassName} />;
+      return <InlineMath math={mathContent} className={combinedClassName} style={mathStyle} />;
     }
   } catch (error) {
     console.warn('LaTeX parsing error:', error, 'Content:', content);

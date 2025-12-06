@@ -94,10 +94,28 @@ function buildEnhancedPrompt(
   // Add grade level context if available
   const grade = userGrade || (userLevel ? Math.floor((userLevel - 1) / 3) + 1 : null);
   if (grade) {
-    prompt = `Bạn là một giáo viên thân thiện và kiên nhẫn cho học sinh lớp ${grade}. Luôn trả lời bằng tiếng Việt (Tiếng Việt). ` + prompt;
+    prompt = `Bạn là một người bạn học tập thân thiện và nhiệt tình cho học sinh lớp ${grade}. Luôn trả lời bằng tiếng Việt (Tiếng Việt). ` + prompt;
   } else {
-    prompt = `Bạn là một giáo viên thân thiện và kiên nhẫn. Luôn trả lời bằng tiếng Việt (Tiếng Việt). ` + prompt;
+    prompt = `Bạn là một người bạn học tập thân thiện và nhiệt tình. Luôn trả lời bằng tiếng Việt (Tiếng Việt). ` + prompt;
   }
+  
+  // Add instructions about addressing and response style
+  prompt += `\n\nQUAN TRỌNG VỀ CÁCH XƯNG HÔ:\n` +
+    `- Luôn xưng "mình" và gọi học viên là "bạn"\n` +
+    `- Sử dụng cách xưng hô tự nhiên, thân thiện như những người bạn thân với nhau\n` +
+    `- Tránh xưng "cô", "thầy", "em" hoặc các cách xưng hô trang trọng khác\n\n` +
+    `QUAN TRỌNG VỀ CÁCH TRẢ LỜI:\n` +
+    `- TUYỆT ĐỐI KHÔNG trực tiếp đưa ra kết quả cuối cùng hoặc đáp án của câu hỏi mà học viên đang hỏi\n` +
+    `- Thay vì đưa ra đáp án, hãy TẠO RA MỘT VÍ DỤ TƯƠNG TỰ để minh họa\n` +
+    `- Giải thích cách làm thông qua ví dụ tương tự đó, từng bước một\n` +
+    `- Sau khi giải thích ví dụ, khuyến khích học viên áp dụng cách làm tương tự vào câu hỏi của họ\n` +
+    `- CHỈ hướng dẫn phương pháp, cách tiếp cận, và các bước giải quyết vấn đề\n` +
+    `- Gợi ý từng bước, khuyến khích học viên tự suy nghĩ và tự tìm ra đáp án\n` +
+    `- Nếu học viên hỏi đáp án, hãy tạo ví dụ tương tự và hướng dẫn cách làm, sau đó khuyến khích họ tự áp dụng\n\n` +
+    `VÍ DỤ CÁCH TRẢ LỜI ĐÚNG:\n` +
+    `Nếu học viên hỏi: "Một số thập phân có phần nguyên là 5, phần thập phân là 25. Số đó là gì?"\n` +
+    `KHÔNG được trả lời: "Số đó là 5,25" hoặc "Đáp án là 5,25"\n` +
+    `MÀ phải trả lời: "Mình sẽ giúp bạn hiểu cách làm nhé! Hãy xem ví dụ tương tự này: Một số thập phân có phần nguyên là 3, phần thập phân là 14. Để tìm số đó, mình ghép phần nguyên và phần thập phân lại với nhau, đặt dấu phẩy ở giữa. Vậy số đó sẽ là 3,14. Bây giờ bạn hãy áp dụng cách làm tương tự vào câu hỏi của bạn nhé!"`;
 
   // Enhance for math/physics/chemistry based on user message
   if (userMessage) {
@@ -140,9 +158,10 @@ function buildEnhancedPrompt(
     '- Luôn trả lời bằng tiếng Việt (Tiếng Việt)\n' +
     '- Hãy khuyến khích và hỗ trợ\n' +
     '- Giải thích khái niệm một cách rõ ràng\n' +
-    '- Giúp học sinh hiểu lý do đằng sau các giải pháp\n' +
+    '- Giúp bạn hiểu lý do đằng sau các giải pháp\n' +
     '- Sử dụng ngôn ngữ phù hợp với lứa tuổi\n' +
-    '- Kiên nhẫn và chu đáo';
+    '- Kiên nhẫn và chu đáo\n' +
+    '- Nhớ luôn xưng "mình" và gọi học viên là "bạn"';
 
   return prompt;
 }
@@ -203,14 +222,17 @@ export async function createConversation(
   }
 
   // Create conversation
+  // Store submissionId in metadata if provided (since submissionId field doesn't exist in schema)
+  const metadata = submissionId ? { submissionId } : null;
+  
   const conversation = await prisma.conversation.create({
     data: {
       userId,
-      submissionId: submissionId || null,
       configId: finalConfigId,
       type,
       title,
       status: 'active',
+      metadata: metadata as any,
     },
     include: {
       config: true,
@@ -437,15 +459,7 @@ export async function getConversation(conversationId: number, userId: number) {
         },
       },
       config: true,
-      submission: {
-        include: {
-          assignment: {
-            include: {
-              exercise: true,
-            },
-          },
-        },
-      },
+      // Note: submissionId is stored in metadata, not as a relation
     },
   });
 
@@ -474,15 +488,7 @@ export async function getUserConversations(
         take: 1, // Get last message for preview
       },
       config: true,
-      submission: {
-        include: {
-          assignment: {
-            include: {
-              exercise: true,
-            },
-          },
-        },
-      },
+      // Note: submissionId is stored in metadata, not as a relation
     },
     orderBy: {
       lastMessageAt: 'desc',

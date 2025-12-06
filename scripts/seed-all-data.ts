@@ -287,14 +287,30 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
     // Process exercises for this lesson
     let exerciseOrder = 1;
     for (const exerciseData of lessonData.exercises) {
-      // Check if exercise already exists
-      let exercise = await prisma.exercise.findFirst({
+      // Check if exercise already exists by created_at (if provided) or by title
+      const exerciseCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
+      
+      let exercise = null;
+      
+      // First, try to find by title and section (most reliable)
+      exercise = await prisma.exercise.findFirst({
         where: {
           sectionId: lessonInfo.sectionId,
           difficulty: difficulty,
           title: exerciseData.title,
         },
       });
+      
+      // If found by title, check if created_at matches (if provided)
+      if (exercise && exerciseCreatedAt) {
+        if (exercise.createdAt) {
+          const diff = Math.abs(exercise.createdAt.getTime() - exerciseCreatedAt.getTime());
+          // If created_at doesn't match (more than 1 second difference), treat as different exercise
+          if (diff > 1000) {
+            exercise = null; // Don't use this exercise, will create new one
+          }
+        }
+      }
 
       if (!exercise) {
         exercise = await prisma.exercise.create({
@@ -307,35 +323,41 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
             points: exerciseData.points || 10,
             timeLimit: exerciseData.timeLimit || null,
             order: exerciseOrder,
+            createdAt: exerciseCreatedAt || new Date(),
           },
         });
         totalExercises++;
+        console.log(`      ✓ Created exercise: ${exerciseData.title}`);
       } else {
-        // Update existing exercise
-        exercise = await prisma.exercise.update({
-          where: { id: exercise.id },
-          data: {
-            description: exerciseData.description || '',
-            type: exerciseData.type,
-            points: exerciseData.points || 10,
-            timeLimit: exerciseData.timeLimit || null,
-            order: exerciseOrder,
-          },
-        });
-        totalExercises++;
+        // Skip if already exists (don't update to avoid overwriting)
+        console.log(`      ⊘ Skipped existing exercise: ${exerciseData.title}`);
       }
 
       // Process exercise questions
       const questionText = exerciseData.question || exerciseData.title;
       
       if (questionText) {
-        // Check if question already exists
-        const existingQuestion = await prisma.exerciseQuestion.findFirst({
+        // Check if question already exists by created_at (if provided) or by question text
+        const questionCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
+        
+        // First, try to find by question text
+        let existingQuestion = await prisma.exerciseQuestion.findFirst({
           where: {
             exerciseId: exercise.id,
             question: questionText,
           },
         });
+        
+        // If found by question text, check if created_at matches (if provided)
+        if (existingQuestion && questionCreatedAt) {
+          if (existingQuestion.createdAt) {
+            const diff = Math.abs(existingQuestion.createdAt.getTime() - questionCreatedAt.getTime());
+            // If created_at doesn't match (more than 1 second difference), treat as different question
+            if (diff > 1000) {
+              existingQuestion = null; // Don't use this question, will create new one
+            }
+          }
+        }
 
         // Determine answer
         let answer = exerciseData.answer || '';
@@ -353,22 +375,14 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
               hint: exerciseData.hint || null,
               order: 0,
               points: exerciseData.points || 1,
+              createdAt: exerciseCreatedAt || new Date(),
             },
           });
           totalQuestions++;
+          console.log(`      ✓ Created question: ${questionText.substring(0, 50)}...`);
         } else {
-          // Update existing question
-          await prisma.exerciseQuestion.update({
-            where: { id: existingQuestion.id },
-            data: {
-              question: questionText,
-              answer: exerciseData.answer || exerciseData.correctOption || existingQuestion.answer || answer,
-              options: exerciseData.options !== undefined ? exerciseData.options : existingQuestion.options,
-              hint: exerciseData.hint !== undefined ? exerciseData.hint : existingQuestion.hint,
-              points: exerciseData.points || existingQuestion.points,
-            },
-          });
-          totalQuestions++;
+          // Skip if already exists (don't update to avoid overwriting)
+          console.log(`      ⊘ Skipped existing question: ${questionText.substring(0, 50)}...`);
         }
       }
 

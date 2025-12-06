@@ -6,6 +6,7 @@ import SubjectSelector from '@/components/SubjectSelector';
 import UpdateProfileSection from '@/components/UpdateProfileSection';
 import { useUser } from '@/contexts/UserContext';
 import { authRepository } from '@/repositories/auth.repository';
+import Loading from '@/components/Loading';
 
 export default function DashboardPage() {
   const router = useRouter();
@@ -36,11 +37,7 @@ export default function DashboardPage() {
   };
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-xl">Đang tải...</div>
-      </div>
-    );
+    return <Loading message="Đang tải thông tin..." />;
   }
 
   if (!user) {
@@ -49,16 +46,29 @@ export default function DashboardPage() {
 
   return (
     <div className="min-h-screen relative">
-      <nav className="bg-white shadow-colored">
+      <nav>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-gradient">Sulo Training</h1>
           <div className="flex items-center gap-4">
             <span className="text-gray-700">Xin chào, {user.name}</span>
             <button
               onClick={handleLogout}
-              className="btn btn-primary"
+              className="btn btn-primary flex items-center gap-2"
               style={{ background: 'linear-gradient(135deg, #ef4444, #f87171)' }}
             >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+                />
+              </svg>
               Đăng xuất
             </button>
           </div>

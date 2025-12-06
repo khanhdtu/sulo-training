@@ -4,6 +4,7 @@ import { useEffect, useState, useRef } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import { subjectRepository, type Subject } from '@/repositories/subject.repository';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
+import Loading from '@/components/Loading';
 
 // Types are imported from repository
 
@@ -63,11 +64,7 @@ export default function SubjectPage() {
 
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-xl">Đang tải...</div>
-      </div>
-    );
+    return <Loading message="Đang tải thông tin môn học..." />;
   }
 
   if (error || !subject) {
@@ -79,8 +76,21 @@ export default function SubjectPage() {
           </h1>
           <button
             onClick={() => router.push('/dashboard')}
-            className="btn btn-primary"
+            className="btn btn-primary flex items-center gap-2"
           >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
             Quay lại Dashboard
           </button>
         </div>
@@ -90,14 +100,27 @@ export default function SubjectPage() {
 
   return (
     <div className="min-h-screen relative">
-      <nav className="bg-white shadow-colored">
+      <nav>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <button
               onClick={() => router.push('/dashboard')}
-              className="text-gray-600 hover:text-gray-900"
+              className="text-gray-600 hover:text-gray-900 flex items-center gap-2"
             >
-              ← Quay lại
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                />
+              </svg>
+              Quay lại
             </button>
             <h1 className="text-2xl font-bold text-gradient">
               {subject.name} {subject.grade.level} (năm học 2025 - 2026)
@@ -122,7 +145,13 @@ export default function SubjectPage() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-2 text-gradient">
-                      Chương {chapter.order}: {renderTextWithLatex(chapter.name)}
+                      {chapter.name.toLowerCase().includes('chương') 
+                        ? renderTextWithLatex(chapter.name)
+                        : (
+                            <>
+                              Chương {chapter.order}: {renderTextWithLatex(chapter.name)}
+                            </>
+                          )}
                     </h3>
                     {chapter.description && (
                       <p className="text-gray-600 mb-3">
@@ -176,14 +205,46 @@ export default function SubjectPage() {
                           <>
                             <button
                               onClick={() => router.push(`/chapters/${chapter.id}`)}
-                              className="btn btn-primary whitespace-nowrap"
+                              className="btn btn-primary whitespace-nowrap flex items-center gap-2"
                             >
+                              <svg
+                                className="w-5 h-5"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                                />
+                              </svg>
                               Tiếp tục
                             </button>
                             <button
                               onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                              className="btn btn-outline whitespace-nowrap text-sm"
+                              className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
                             >
+                              <svg
+                                className="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                />
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                />
+                              </svg>
                               Xem đáp án
                             </button>
                           </>
@@ -191,8 +252,27 @@ export default function SubjectPage() {
                           // Chapter completed (đã submit) - chỉ hiển thị nút "Xem đáp án"
                           <button
                             onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                            className="btn btn-outline whitespace-nowrap text-sm"
+                            className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
                           >
+                            <svg
+                              className="w-4 h-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                              />
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                              />
+                            </svg>
                             Xem đáp án
                           </button>
                         )}
@@ -204,8 +284,27 @@ export default function SubjectPage() {
                           e.stopPropagation();
                           router.push(`/chapters/${chapter.id}`);
                         }}
-                        className="btn btn-primary whitespace-nowrap"
+                        className="btn btn-primary whitespace-nowrap flex items-center gap-2"
                       >
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
                         Bắt đầu học
                       </button>
                     )}

@@ -66,6 +66,21 @@
               "hint": "Use: I live in..., My address is..., I live in a...",
               "answer": "Example: I live in Hanoi. My address is 123 Le Loi Street. I live in a house.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Choose the correct answer: What's your address?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "What's your address?",
+              "options": {
+                "A": "My address is 123 Le Loi Street.",
+                "B": "I am ten years old.",
+                "C": "I like playing football.",
+                "D": "My name is Nam."
+              },
+              "correctOption": "A",
+              "hint": "When asked about address, we answer with 'My address is...'",
+              "created_at": "2025-01-01T00:00:29.000Z"
             }
           ]
         },
@@ -96,6 +111,30 @@
               "hint": "Use words like: big, small, quiet, busy, beautiful...",
               "answer": "Example: My hometown is Hanoi. It is a big city. It is very busy and beautiful.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Choose the correct word: The city is very ______ (big / small).",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "The city is very ______",
+              "options": {
+                "A": "big",
+                "B": "small",
+                "C": "book",
+                "D": "pen"
+              },
+              "correctOption": "A",
+              "hint": "Cities are usually big places.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Tự luận: Write 2 sentences comparing a city and a village",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 2 sentences comparing a city and a village",
+              "hint": "Use: big/small, busy/quiet...",
+              "answer": "Example: A city is big and busy. A village is small and quiet.",
+              "created_at": "2025-01-01T00:00:31.000Z"
             }
           ]
         },
@@ -177,6 +216,21 @@
               "hint": "Use: get up, have breakfast, go to school, go to bed...",
               "answer": "Example: I get up at 6 o'clock. I have breakfast at 7 a.m. I go to school at 7:30. I go to bed at 9 p.m.",
               "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Choose the correct word: I ______ to school at 7:30. (A) go (B) get (C) have",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ to school at 7:30.",
+              "options": {
+                "A": "go",
+                "B": "get",
+                "C": "have",
+                "D": "do"
+              },
+              "correctOption": "A",
+              "hint": "We say 'go to school' to mean going to school.",
+              "created_at": "2025-01-01T00:00:32.000Z"
             }
           ]
         },
@@ -207,6 +261,21 @@
               "hint": "Example: I always do homework. I sometimes play games. I never go to bed late.",
               "answer": "Example: I always do my homework. I sometimes play football. I never watch TV late at night.",
               "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Choose the correct word: I ______ play football on weekends. (A) always (B) sometimes (C) never",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ play football on weekends.",
+              "options": {
+                "A": "always",
+                "B": "sometimes",
+                "C": "never",
+                "D": "often"
+              },
+              "correctOption": "B",
+              "hint": "We sometimes play football, not always or never.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         },
@@ -237,6 +306,21 @@
               "hint": "Use adverbs of frequency: always, usually, often, sometimes, never",
               "answer": "Example: I always go to school. I sometimes play games. I never skip breakfast.",
               "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Choose the correct word: I ______ go to bed late. (A) always (B) sometimes (C) never",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ go to bed late.",
+              "options": {
+                "A": "always",
+                "B": "sometimes",
+                "C": "never",
+                "D": "often"
+              },
+              "correctOption": "C",
+              "hint": "We never go to bed late because it's not good for health.",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         }
@@ -288,6 +372,21 @@
               "hint": "Use past tense verbs: went, played, visited, watched...",
               "answer": "Example: Last weekend, I went to the park. I played football with my friends. I visited my grandparents.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Choose the correct verb: Last week, I ______ my friend. (A) visit (B) visited (C) visits",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Last week, I ______ my friend.",
+              "options": {
+                "A": "visit",
+                "B": "visited",
+                "C": "visits",
+                "D": "visiting"
+              },
+              "correctOption": "B",
+              "hint": "We use 'visited' (past tense) when talking about the past.",
+              "created_at": "2025-01-01T00:00:34.000Z"
             }
           ]
         },
@@ -318,6 +417,21 @@
               "hint": "Use: Where did you go? What did you do? Who did you go with?",
               "answer": "Example: Last summer, I went to Da Lat with my family. We visited many beautiful places. We took many photos. I had a great time.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Choose the correct question: ______ did you go on holiday? (A) Where (B) What (C) Who",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "______ did you go on holiday?",
+              "options": {
+                "A": "Where",
+                "B": "What",
+                "C": "Who",
+                "D": "When"
+              },
+              "correctOption": "A",
+              "hint": "We use 'Where' to ask about places.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         },
@@ -348,6 +462,21 @@
               "hint": "Regular: played, visited, watched. Irregular: went, saw, ate.",
               "answer": "Example: I played football yesterday. I went to the zoo last week. I ate ice cream.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Choose the correct past tense: I ______ football yesterday. (A) play (B) played (C) plays",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I ______ football yesterday.",
+              "options": {
+                "A": "play",
+                "B": "played",
+                "C": "plays",
+                "D": "playing"
+              },
+              "correctOption": "B",
+              "hint": "We use 'played' (past tense) when talking about the past.",
+              "created_at": "2025-01-01T00:00:38.000Z"
             }
           ]
         }
@@ -399,6 +528,21 @@
               "hint": "Use: I have a headache, I have a fever, I have a cold...",
               "answer": "Example: I have a headache. My friend has a toothache. My sister has a fever.",
               "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Choose the correct word: I have a ______ (toothache / happy).",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "I have a ______",
+              "options": {
+                "A": "toothache",
+                "B": "happy",
+                "C": "book",
+                "D": "pen"
+              },
+              "correctOption": "A",
+              "hint": "Toothache is a health problem.",
+              "created_at": "2025-01-01T00:00:36.000Z"
             }
           ]
         },
@@ -429,6 +573,30 @@
               "hint": "Use: You should..., You shouldn't...",
               "answer": "Example: You should rest. You should drink warm water. You shouldn't go out in the cold.",
               "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "title": "Choose the correct word: You ______ eat too much candy. (A) should (B) shouldn't",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "You ______ eat too much candy.",
+              "options": {
+                "A": "should",
+                "B": "shouldn't",
+                "C": "can",
+                "D": "will"
+              },
+              "correctOption": "B",
+              "hint": "We shouldn't eat too much candy because it's not good for health.",
+              "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Tự luận: Write 2 sentences about healthy habits using 'should'",
+              "type": "essay",
+              "points": 2,
+              "question": "Write 2 sentences about healthy habits using 'should'",
+              "hint": "Example: You should exercise. You should eat vegetables.",
+              "answer": "Example: You should exercise every day. You should eat fruits and vegetables.",
+              "created_at": "2025-01-01T00:00:40.000Z"
             }
           ]
         },

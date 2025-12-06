@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { subjectRepository, type SubjectListItem } from '@/repositories/subject.repository';
+import { useUser } from '@/contexts/UserContext';
 
 interface SubjectSelectorProps {
   gradeId: number;
@@ -10,11 +11,21 @@ interface SubjectSelectorProps {
 
 export default function SubjectSelector({ gradeId }: SubjectSelectorProps) {
   const router = useRouter();
+  const { user } = useUser();
   const [subjects, setSubjects] = useState<SubjectListItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const fetchingRef = useRef(false);
   const lastGradeIdRef = useRef<number | null>(null);
+
+  const getDifficultyLabel = (level?: number | null) => {
+    if (!level) return null;
+    if (level <= 4) return 'Dễ';
+    if (level <= 8) return 'Vừa';
+    return 'Khó';
+  };
+
+  const difficultyLabel = getDifficultyLabel(user?.level);
 
   useEffect(() => {
     // Prevent duplicate calls for the same gradeId
@@ -100,8 +111,19 @@ export default function SubjectSelector({ gradeId }: SubjectSelectorProps) {
           <button
             key={subject.id}
             onClick={() => handleSubjectClick(subject)}
-            className="p-6 bg-gradient-to-br from-white to-gray-50 border-2 border-gray-200 rounded-lg hover:border-indigo-500 hover:shadow-lg transition-all text-left group"
+            className="relative p-6 bg-gradient-to-br from-white to-gray-50 border-2 border-gray-200 rounded-lg hover:border-indigo-500 hover:shadow-lg transition-all text-left group"
           >
+            {difficultyLabel && (
+              <span 
+                className="absolute bottom-2 right-2 px-2 py-1 text-xs font-medium rounded-full"
+                style={{
+                  backgroundColor: 'rgba(255, 107, 53, 0.1)',
+                  color: 'var(--color-primary-orange)'
+                }}
+              >
+                Cấp độ: {difficultyLabel}
+              </span>
+            )}
             <h3 className="text-xl font-semibold mb-2 text-gray-800 group-hover:text-indigo-600 transition-colors">
               {subject.name}
             </h3>
@@ -110,7 +132,7 @@ export default function SubjectSelector({ gradeId }: SubjectSelectorProps) {
                 {subject.description}
               </p>
             )}
-            <div className="mt-4 flex items-center text-indigo-600 font-medium">
+            <div className="mt-4 flex items-center text-green-600 font-medium">
               <span>Bắt đầu học</span>
               <svg
                 className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform"

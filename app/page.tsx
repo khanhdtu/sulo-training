@@ -1,6 +1,52 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
+
 export default function Home() {
+  const router = useRouter();
+
+  const handleStartLearning = async () => {
+    // Check authentication by calling /me API (which uses cookie session)
+    // HTTP-only cookies are automatically sent with credentials: 'include'
+    try {
+      const response = await fetch('/api/auth/me', {
+        credentials: 'include', // Include cookies
+      });
+      if (response.ok) {
+        // User is authenticated (cookie exists and valid), redirect to dashboard
+        router.push('/dashboard');
+      } else {
+        // Not authenticated, redirect to register
+        router.push('/register');
+      }
+    } catch {
+      // Not authenticated, redirect to register
+      router.push('/register');
+    }
+  };
+
   return (
     <div className="min-h-screen relative overflow-hidden">
+      {/* Header with Login/Register buttons */}
+      <header className="absolute top-0 left-0 right-0 z-20">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-end gap-2">
+            <a
+              href="/login"
+              className="btn btn-secondary text-xs px-3 py-1.5"
+            >
+              Đăng Nhập
+            </a>
+            <a
+              href="/register"
+              className="btn btn-outline text-xs px-3 py-1.5"
+            >
+              Đăng Ký
+            </a>
+          </div>
+        </div>
+      </header>
+
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="text-center fade-in">
           <span className="badge mb-4">GREATER LEARNING</span>
@@ -12,18 +58,12 @@ export default function Home() {
             Nơi học sinh khám phá kiến thức, phát triển kỹ năng và tận hưởng quá trình học tập.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a
-              href="/login"
+            <button
+              onClick={handleStartLearning}
               className="btn btn-primary"
             >
-              Đăng Nhập
-            </a>
-            <a
-              href="/register"
-              className="btn btn-secondary"
-            >
-              Đăng Ký
-            </a>
+              Bắt đầu học
+            </button>
           </div>
         </div>
 
@@ -64,3 +104,4 @@ export default function Home() {
     </div>
   );
 }
+

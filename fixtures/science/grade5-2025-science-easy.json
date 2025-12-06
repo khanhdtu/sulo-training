@@ -126,6 +126,30 @@
               "hint": "Nêu các cách: không dùng chung kim tiêm, quan hệ tình dục an toàn...",
               "answer": "Để phòng tránh HIV/AIDS, chúng ta không nên dùng chung kim tiêm. Chúng ta cần có lối sống lành mạnh. Khi cần truyền máu, phải đảm bảo máu đã được kiểm tra an toàn.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Nhận biết các bệnh truyền nhiễm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bệnh nào sau đây lây truyền qua muỗi?",
+              "options": {
+                "A": "Cảm cúm",
+                "B": "Sốt xuất huyết",
+                "C": "Đau đầu",
+                "D": "Đau bụng"
+              },
+              "correctOption": "B",
+              "hint": "Sốt xuất huyết lây truyền qua muỗi vằn.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của việc giữ gìn sức khỏe",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của việc giữ gìn sức khỏe",
+              "hint": "Nêu tầm quan trọng: học tập tốt, vui chơi, phát triển...",
+              "answer": "Giữ gìn sức khỏe rất quan trọng. Khi khỏe mạnh, chúng ta có thể học tập tốt và vui chơi thoải mái. Chúng ta nên ăn uống đầy đủ, tập thể dục và nghỉ ngơi hợp lý.",
+              "created_at": "2025-01-01T00:00:33.000Z"
             }
           ]
         }
@@ -252,6 +276,30 @@
               "hint": "Nêu các cách: tắt đèn khi không dùng, sử dụng thiết bị tiết kiệm năng lượng...",
               "answer": "Để tiết kiệm năng lượng, chúng ta nên tắt đèn và các thiết bị điện khi không sử dụng. Chúng ta cũng nên sử dụng các thiết bị tiết kiệm năng lượng. Tiết kiệm năng lượng giúp bảo vệ môi trường.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Nhận biết các nguồn năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nguồn năng lượng nào sau đây là năng lượng tái tạo?",
+              "options": {
+                "A": "Than đá",
+                "B": "Dầu mỏ",
+                "C": "Năng lượng mặt trời",
+                "D": "Khí đốt"
+              },
+              "correctOption": "C",
+              "hint": "Năng lượng mặt trời là năng lượng tái tạo, không bao giờ cạn kiệt.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về các nguồn năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về các nguồn năng lượng",
+              "hint": "Nêu các nguồn: mặt trời, gió, nước, than đá...",
+              "answer": "Có nhiều nguồn năng lượng khác nhau như năng lượng mặt trời, năng lượng gió, năng lượng nước. Các nguồn năng lượng tái tạo như mặt trời và gió rất tốt cho môi trường. Chúng ta nên sử dụng các nguồn năng lượng sạch.",
+              "created_at": "2025-01-01T00:00:35.000Z"
             }
           ]
         }
@@ -378,6 +426,30 @@
               "hint": "Nêu các cách: gieo hạt, giâm cành, chiết cành...",
               "answer": "Có nhiều cách nhân giống cây trồng như gieo hạt, giâm cành, chiết cành. Mỗi cách có ưu điểm riêng. Việc nhân giống giúp tạo ra nhiều cây mới.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Nhận biết các bộ phận của cây",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bộ phận nào của cây giúp hút nước và chất dinh dưỡng từ đất?",
+              "options": {
+                "A": "Lá",
+                "B": "Thân",
+                "C": "Rễ",
+                "D": "Hoa"
+              },
+              "correctOption": "C",
+              "hint": "Rễ giúp cây hút nước và chất dinh dưỡng từ đất.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về vai trò của thực vật",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về vai trò của thực vật",
+              "hint": "Nêu các vai trò: cung cấp thức ăn, oxy, làm đẹp...",
+              "answer": "Thực vật có vai trò rất quan trọng. Chúng cung cấp thức ăn, oxy cho con người và động vật. Thực vật cũng giúp làm đẹp môi trường và điều hòa khí hậu.",
+              "created_at": "2025-01-01T00:00:37.000Z"
             }
           ]
         }
@@ -504,6 +576,30 @@
               "hint": "Nêu các cách: không xả rác, trồng cây, tiết kiệm tài nguyên...",
               "answer": "Để giảm tác động xấu đến môi trường, chúng ta không nên xả rác bừa bãi. Chúng ta nên trồng nhiều cây xanh và tiết kiệm tài nguyên. Mọi người cần chung tay bảo vệ môi trường.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Nhận biết các biện pháp bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Biện pháp nào sau đây giúp bảo vệ môi trường?",
+              "options": {
+                "A": "Xả rác bừa bãi",
+                "B": "Trồng nhiều cây xanh",
+                "C": "Đốt rác",
+                "D": "Sử dụng túi nilon nhiều"
+              },
+              "correctOption": "B",
+              "hint": "Trồng nhiều cây xanh giúp làm sạch không khí và bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của việc bảo vệ môi trường",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về tầm quan trọng của việc bảo vệ môi trường",
+              "hint": "Nêu tầm quan trọng: cuộc sống tốt đẹp, sức khỏe, tương lai...",
+              "answer": "Bảo vệ môi trường rất quan trọng. Môi trường sạch giúp chúng ta có cuộc sống khỏe mạnh. Chúng ta cần bảo vệ môi trường cho thế hệ tương lai.",
+              "created_at": "2025-01-01T00:00:39.000Z"
             }
           ]
         }

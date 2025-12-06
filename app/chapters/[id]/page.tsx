@@ -5,6 +5,7 @@ import { useRouter, useParams } from 'next/navigation';
 import { chapterRepository, type ChapterExercise } from '@/repositories/chapter.repository';
 import { toast } from 'sonner';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
+import Loading from '@/components/Loading';
 
 export default function ChapterPage() {
   const router = useRouter();
@@ -349,11 +350,7 @@ export default function ChapterPage() {
   };
 
   if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-xl">Đang tải...</div>
-      </div>
-    );
+    return <Loading message="Đang tải nội dung chương..." />;
   }
 
   if (error || !chapter) {
@@ -377,7 +374,7 @@ export default function ChapterPage() {
   if (!currentExercise) {
     return (
       <div className="min-h-screen relative">
-        <nav className="bg-white shadow-colored">
+        <nav>
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">
             <div className="flex items-center gap-4">
               <button
@@ -417,7 +414,7 @@ export default function ChapterPage() {
 
   return (
     <div className="min-h-screen relative">
-      <nav className="bg-white shadow-colored">
+      <nav>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <button
@@ -504,11 +501,11 @@ export default function ChapterPage() {
                       <span className="text-sm font-medium text-gray-500">
                         Câu {currentQuestionIndex + 1} / {currentExercise.questions.length}
                       </span>
-                      <p className="text-lg font-medium text-gray-800 mt-1">
+                      <div className="text-lg font-medium mt-1" style={{ color: '#000' }}>
                         {renderTextWithLatex(question.question)}
-                      </p>
+                      </div>
                     </div>
-                    <div className="absolute top-0 right-0 flex gap-2" style={{ position: 'absolute', top: 0, right: 0 }}>
+                    <div className="absolute -top-8 right-0 flex gap-2">
                       {question.hint && (
                         <button
                           onClick={() => {

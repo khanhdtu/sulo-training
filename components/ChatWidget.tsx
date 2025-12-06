@@ -251,6 +251,24 @@ export default function ChatWidget() {
     }
   };
 
+  const handleImageFile = (file: File) => {
+    // Validate file size (max 5MB)
+    const maxSize = 5 * 1024 * 1024;
+    if (file.size > maxSize) {
+      alert(`File ${file.name} quá lớn. Kích thước tối đa là 5MB.`);
+      return;
+    }
+
+    setSelectedImages((prev) => [...prev, file]);
+
+    // Create preview
+    const reader = new FileReader();
+    reader.onloadend = () => {
+      setImagePreviews((prev) => [...prev, reader.result as string]);
+    };
+    reader.readAsDataURL(file);
+  };
+
   const uploadImages = async (files: File[]): Promise<string[]> => {
     const token = localStorage.getItem('token');
     if (!token) return [];
@@ -471,15 +489,25 @@ export default function ChatWidget() {
             className="text-white rounded-t-lg flex justify-between items-center pt-4 pl-4"
             style={{ background: 'linear-gradient(135deg, var(--color-primary-orange), var(--color-primary-orange-light))' }}
           >
-            <h3 className="font-semibold !text-white">Trợ lý học tập AI</h3>
-            <button
+            <div className="flex items-center justify-center gap-5">
+              <div className="flex items-center justify-center mb-3">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>
+                  <circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"/>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 13h6" />
+                </svg>
+              </div>
+              <h3 className="font-semibold !text-white">Trợ lý học tập AI</h3>
+            </div>
+            <div
               onClick={() => setIsOpen(false)}
-              className="text-white hover:opacity-80 transition"
+              className="text-white hover:opacity-80 transition pr-4 cursor-pointer"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
-            </button>
+            </div>
           </div>
 
           {/* Messages Area */}
@@ -576,31 +604,11 @@ export default function ChatWidget() {
           {/* Input Area - Fixed at bottom */}
           <div className="border-t border-gray-200 p-4">
             <div className="flex gap-2">
-              <button
-                type="button"
-                onClick={() => fileInputRef.current?.click()}
-                className="px-3 py-2 text-gray-600 hover:text-orange-600 hover:bg-orange-50 rounded-lg transition"
-                title="Chọn ảnh"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  />
-                </svg>
-              </button>
               <input
                 ref={fileInputRef}
                 type="file"
                 accept="image/*"
+                capture="environment"
                 multiple
                 className="hidden"
                 onChange={(e) => {
@@ -617,72 +625,156 @@ export default function ChatWidget() {
                     return true;
                   });
 
-                  setSelectedImages((prev) => [...prev, ...validFiles]);
-
-                  // Create previews
+                  // Handle each file
                   validFiles.forEach((file) => {
-                    const reader = new FileReader();
-                    reader.onloadend = () => {
-                      setImagePreviews((prev) => [...prev, reader.result as string]);
-                    };
-                    reader.readAsDataURL(file);
+                    handleImageFile(file);
                   });
 
                   // Reset input
                   e.target.value = '';
                 }}
               />
-              <input
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyPress={handleKeyPress}
-                placeholder="Type your message..."
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none transition"
-                style={{
-                  transition: 'border-color 0.2s, box-shadow 0.2s',
-                }}
-                onFocus={(e) => {
-                  e.currentTarget.style.borderColor = 'var(--color-primary-orange)';
-                  e.currentTarget.style.boxShadow = '0 0 0 2px rgba(255, 107, 53, 0.2)';
-                }}
-                onBlur={(e) => {
-                  e.currentTarget.style.borderColor = '#d1d5db';
-                  e.currentTarget.style.boxShadow = '';
-                }}
-                disabled={loading}
-              />
-              <button
-                type="button"
+              <div className="flex-1 relative">
+                <input
+                  type="text"
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyPress={handleKeyPress}
+                  placeholder="Type your message..."
+                  className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:outline-none transition"
+                  style={{
+                    transition: 'border-color 0.2s, box-shadow 0.2s',
+                  }}
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = 'var(--color-primary-orange)';
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(255, 107, 53, 0.2)';
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = '#d1d5db';
+                    e.currentTarget.style.boxShadow = '';
+                  }}
+                  disabled={loading}
+                />
+                <span
+                  onClick={async () => {
+                    // Try to use camera directly if available
+                    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                      try {
+                        const stream = await navigator.mediaDevices.getUserMedia({ 
+                          video: { facingMode: 'environment' } // Use back camera on mobile
+                        });
+                        
+                        // Create modal for camera preview
+                        const modal = document.createElement('div');
+                        modal.className = 'fixed inset-0 bg-black bg-opacity-75 z-[100] flex items-center justify-center';
+                        
+                        const container = document.createElement('div');
+                        container.className = 'bg-white rounded-lg p-4 max-w-md w-full mx-4';
+                        
+                        const videoElement = document.createElement('video');
+                        videoElement.srcObject = stream;
+                        videoElement.autoplay = true;
+                        videoElement.playsInline = true;
+                        videoElement.className = 'w-full rounded-lg mb-4';
+                        videoElement.style.transform = 'scaleX(-1)'; // Mirror the video
+                        
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+                        
+                        const captureBtn = document.createElement('button');
+                        captureBtn.className = 'w-full bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition';
+                        captureBtn.textContent = 'Chụp ảnh';
+                        captureBtn.onclick = () => {
+                          canvas.width = videoElement.videoWidth;
+                          canvas.height = videoElement.videoHeight;
+                          ctx?.scale(-1, 1);
+                          ctx?.drawImage(videoElement, -canvas.width, 0, canvas.width, canvas.height);
+                          ctx?.setTransform(1, 0, 0, 1, 0, 0);
+                          
+                          canvas.toBlob((blob) => {
+                            if (blob) {
+                              const file = new File([blob], `camera-${Date.now()}.jpg`, { type: 'image/jpeg' });
+                              handleImageFile(file);
+                            }
+                            
+                            // Stop stream and remove modal
+                            stream.getTracks().forEach(track => track.stop());
+                            document.body.removeChild(modal);
+                          }, 'image/jpeg', 0.9);
+                        };
+                        
+                        const cancelBtn = document.createElement('button');
+                        cancelBtn.className = 'w-full bg-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-400 transition mt-2';
+                        cancelBtn.textContent = 'Hủy';
+                        cancelBtn.onclick = () => {
+                          stream.getTracks().forEach(track => track.stop());
+                          document.body.removeChild(modal);
+                        };
+                        
+                        container.appendChild(videoElement);
+                        container.appendChild(captureBtn);
+                        container.appendChild(cancelBtn);
+                        modal.appendChild(container);
+                        document.body.appendChild(modal);
+                        
+                        // Wait for video to be ready
+                        videoElement.onloadedmetadata = () => {
+                          videoElement.play();
+                        };
+                      } catch (error) {
+                        console.error('Error accessing camera:', error);
+                        // Fallback to file input with capture attribute
+                        fileInputRef.current?.click();
+                      }
+                    } else {
+                      // Fallback to file input with capture attribute
+                      fileInputRef.current?.click();
+                    }
+                  }}
+                  className="absolute right-2 top-7 -translate-y-1/2 text-gray-600 hover:text-orange-600 transition cursor-pointer"
+                  title="Chụp ảnh"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
                 onClick={(e) => {
+                  if (loading || (!input.trim() && selectedImages.length === 0)) return;
                   e.preventDefault();
                   e.stopPropagation();
-                  console.log('Send button clicked', {
-                    input: input,
-                    inputTrimmed: input.trim(),
-                    selectedImages: selectedImages.length,
-                    loading,
-                    disabled: loading || (!input.trim() && selectedImages.length === 0)
-                  });
                   sendMessage();
                 }}
-                disabled={loading || (!input.trim() && selectedImages.length === 0)}
-                className="px-4 py-2 text-white rounded-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                className={`flex text-orange-600 hover:text-orange-700 transition cursor-pointer justify-center items-center ${
+                  loading || (!input.trim() && selectedImages.length === 0) 
+                    ? 'opacity-50 cursor-not-allowed' 
+                    : ''
+                }`}
+                style={{ width: 'auto', height: 'auto', border: 'none', padding: 0 }}
                 title={loading ? 'Đang gửi...' : (!input.trim() && selectedImages.length === 0) ? 'Vui lòng nhập tin nhắn hoặc chọn ảnh' : 'Gửi tin nhắn'}
-                style={{ 
-                  background: 'linear-gradient(135deg, var(--color-primary-orange), var(--color-primary-orange-light))',
-                }}
-                onMouseEnter={(e) => {
-                  if (!e.currentTarget.disabled) {
-                    e.currentTarget.style.background = 'linear-gradient(135deg, var(--color-primary-orange-light), var(--color-primary-orange))';
-                  }
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = 'linear-gradient(135deg, var(--color-primary-orange), var(--color-primary-orange-light))';
-                }}
               >
-                Send
-              </button>
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>

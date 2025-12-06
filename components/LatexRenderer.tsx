@@ -80,6 +80,11 @@ export function LatexText({ text, className }: { text: string; className?: strin
     processedText = processedText.replace(/∼/g, '\\sim');
     // Congruent symbol: ≅ → \cong
     processedText = processedText.replace(/≅/g, '\\cong');
+    
+    // Normalize LaTeX delimiters: convert \( and \) to $ for easier parsing
+    // This helps with cases where AI returns \( ... \) format
+    processedText = processedText.replace(/\\\(/g, '$').replace(/\\\)/g, '$');
+    processedText = processedText.replace(/\\\[/g, '$$').replace(/\\\]/g, '$$');
   }
 
   // On server side, return plain text to avoid hydration mismatch
@@ -94,17 +99,25 @@ export function LatexText({ text, className }: { text: string; className?: strin
   const parts: (string | JSX.Element)[] = [];
   let lastIndex = 0;
 
-  // Match $$...$$ (block math) or $...$ (inline math)
-  const delimiterRegex = /\$\$([^$]+)\$\$|\$([^$]+)\$/g;
+  // Match $$...$$ (block math), $...$ (inline math), \[...\] (block math), or \(...\) (inline math)
+  // Note: In regex literal, \\( matches literal \( in text, \\[ matches literal \[
+  const delimiterRegex = /\$\$([^$]+)\$\$|\\\[([^\]]+)\\\]|\$([^$]+)\$|\\(([^)]+)\\)/g;
   let match;
   const delimiterMatches: Array<{ index: number; length: number; content: string; isBlock: boolean }> = [];
 
   while ((match = delimiterRegex.exec(processedText)) !== null) {
+    // match[1] = $$...$$, match[2] = \[...\], match[3] = $...$, match[4] = \(...\)
+    let content = (match[1] || match[2] || match[3] || match[4] || '').replace(/\\\\/g, '\\'); // Unescape content
+    const isBlock = !!(match[1] || match[2]); // $$...$$ or \[...\] are block math
+    
+    // Clean up content - remove any remaining escape sequences that shouldn't be there
+    content = content.trim();
+    
     delimiterMatches.push({
       index: match.index,
       length: match[0].length,
-      content: (match[1] || match[2] || '').replace(/\\\\/g, '\\'), // Unescape content
-      isBlock: !!match[1],
+      content,
+      isBlock,
     });
   }
 
@@ -119,15 +132,26 @@ export function LatexText({ text, className }: { text: string; className?: strin
     }
 
     // Add LaTeX math with stable key
-    // Combine className with text color class to ensure visibility (pure black)
-    const combinedClassName = `${className} text-black`.trim();
+    // Use black color to match question text
+    const combinedClassName = `${className}`.trim();
+    const mathColor = '#000';
     if (mathMatch.isBlock) {
       parts.push(
-        <BlockMath key={`${textHash}-block-${i}-${mathMatch.index}`} math={mathMatch.content} className={combinedClassName} />
+        <BlockMath 
+          key={`${textHash}-block-${i}-${mathMatch.index}`} 
+          math={mathMatch.content} 
+          className={combinedClassName}
+          style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}
+        />
       );
     } else {
       parts.push(
-        <InlineMath key={`${textHash}-inline-${i}-${mathMatch.index}`} math={mathMatch.content} className={combinedClassName} />
+        <InlineMath 
+          key={`${textHash}-inline-${i}-${mathMatch.index}`} 
+          math={mathMatch.content} 
+          className={combinedClassName}
+          style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}
+        />
       );
     }
     lastIndex = mathMatch.index + mathMatch.length;
@@ -264,12 +288,16 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
     // Use converted LaTeX content
     const latexContent = mathMatch.converted;
 
+    // Use black color for questions
+    const mathColor = '#000';
+
     // Try to render as LaTeX with stable key (client-side only)
     parts.push(
       <LatexRendererClient 
         key={`${keyPrefix}-math-${i}-${mathMatch.index}-${mathMatch.content.slice(0, 10)}`}
         content={latexContent} 
-        className={className} 
+        className={className}
+        style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}
       />
     );
 

@@ -14,19 +14,7 @@ export default function LoginPage() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    // Check if already logged in (cookie-based)
-    const checkAuth = async () => {
-      try {
-        await authRepository.getMe();
-        const redirect = searchParams.get('redirect') || '/dashboard';
-        router.push(redirect);
-      } catch {
-        // Not logged in, stay on login page
-      }
-    };
-    checkAuth();
-  }, [router, searchParams]);
+  // Removed auto-check for authentication to avoid calling /me API on login page
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -37,16 +25,24 @@ export default function LoginPage() {
       const data = await authRepository.login(formData);
 
       // Store token in localStorage for backward compatibility (optional)
-      localStorage.setItem('token', data.token);
-      localStorage.setItem('user', JSON.stringify(data.user));
+      if (data.token) {
+        localStorage.setItem('token', data.token);
+      }
+      if (data.user) {
+        localStorage.setItem('user', JSON.stringify(data.user));
+      }
 
       // Redirect to dashboard or the redirect URL
+      // Use window.location.href for more reliable redirect after cookie is set
       const redirect = searchParams.get('redirect') || '/dashboard';
-      router.push(redirect);
+      
+      // Small delay to ensure cookie is set before redirect
+      setTimeout(() => {
+        window.location.href = redirect;
+      }, 100);
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'Có lỗi xảy ra. Vui lòng thử lại.';
       setError(errorMessage);
-    } finally {
       setLoading(false);
     }
   };
