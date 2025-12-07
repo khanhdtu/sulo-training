@@ -100,6 +100,7 @@ export async function GET(
         score: true,
         totalPoints: true,
         completedAt: true,
+        status: true, // Include status to check if draft
         answers: true, // Include answers to restore previous answers when viewing completed exercises
       },
     });

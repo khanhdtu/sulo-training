@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { prisma } from './prisma';
+import { getCachedResponse, saveCachedResponse } from './conversation-cache';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || 'dummy-key',
@@ -309,106 +310,145 @@ export async function addMessageToConversation(
     },
   });
 
-  // Prepare messages for OpenAI
-  const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [];
+  // Check cache first (only if no images, as image-based queries are context-dependent)
+  let assistantResponse: string;
+  let completion: OpenAI.Chat.Completions.ChatCompletion | null = null;
+  let isFromCache = false;
 
-  // Add system message with enhancements (include user message for better context)
-  const systemMessage = conversation.messages.find((m) => m.role === 'system');
-  if (systemMessage) {
-    const enhancedPrompt = buildEnhancedPrompt(
-      systemMessage.content,
-      conversation.user.level,
-      conversation.user.grade?.level || null,
-      userMessage
-    );
-    messages.push({
-      role: 'system',
-      content: enhancedPrompt,
-    });
+  if (!imageUrls || imageUrls.length === 0) {
+    const cached = await getCachedResponse(userMessage);
+    if (cached) {
+      assistantResponse = cached.response;
+      isFromCache = true;
+      console.log('✅ Using cached response for question');
+    }
   }
 
-  // Add conversation history (excluding system message)
-  const historyMessages = conversation.messages.filter((m) => m.role !== 'system');
-  for (const msg of historyMessages) {
-    messages.push({
-      role: msg.role as 'user' | 'assistant',
-      content: msg.content,
-    });
-  }
+  // If not from cache, call OpenAI
+  if (!isFromCache) {
+    // Prepare messages for OpenAI
+    const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [];
 
-  // Add current user message with images if provided
-  if (imageUrls && imageUrls.length > 0) {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.APP_URL || 'http://localhost:3000';
-    
-    // Support multiple images (OpenAI supports multiple images in one message)
-    const content: Array<{ type: 'text' | 'image_url'; text?: string; image_url?: { url: string } }> = [
-      { type: 'text', text: userMessage },
-    ];
-    
-    // Add all images
-    for (const imageUrl of imageUrls) {
-      const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : `${baseUrl}${imageUrl}`;
-      content.push({
-        type: 'image_url',
-        image_url: { url: fullImageUrl },
+    // Add system message with enhancements (include user message for better context)
+    const systemMessage = conversation.messages.find((m) => m.role === 'system');
+    if (systemMessage) {
+      const enhancedPrompt = buildEnhancedPrompt(
+        systemMessage.content,
+        conversation.user.level,
+        conversation.user.grade?.level || null,
+        userMessage
+      );
+      messages.push({
+        role: 'system',
+        content: enhancedPrompt,
       });
     }
-    
-    messages.push({
-      role: 'user',
-      content: content as any, // OpenAI supports array of text and image_url
-    });
-  } else {
-    messages.push({
-      role: 'user',
-      content: userMessage,
-    });
-  }
 
-  // Get response format from config
-  const responseFormat = conversation.config.responseFormat as
-    | { type: string }
-    | undefined;
+    // Add conversation history (excluding system message)
+    const historyMessages = conversation.messages.filter((m) => m.role !== 'system');
+    for (const msg of historyMessages) {
+      messages.push({
+        role: msg.role as 'user' | 'assistant',
+        content: msg.content,
+      });
+    }
 
-  // Select model based on complexity (always use GPT-4o for images)
-  const model = selectModel(userMessage, imageUrls, responseFormat);
-  const maxTokens = calculateMaxTokens(responseFormat, userMessage);
+    // Add current user message with images if provided
+    if (imageUrls && imageUrls.length > 0) {
+      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.APP_URL || 'http://localhost:3000';
+      
+      // Support multiple images (OpenAI supports multiple images in one message)
+      const content: Array<{ type: 'text' | 'image_url'; text?: string; image_url?: { url: string } }> = [
+        { type: 'text', text: userMessage },
+      ];
+      
+      // Add all images
+      for (const imageUrl of imageUrls) {
+        const fullImageUrl = imageUrl.startsWith('http') ? imageUrl : `${baseUrl}${imageUrl}`;
+        content.push({
+          type: 'image_url',
+          image_url: { url: fullImageUrl },
+        });
+      }
+      
+      messages.push({
+        role: 'user',
+        content: content as any, // OpenAI supports array of text and image_url
+      });
+    } else {
+      messages.push({
+        role: 'user',
+        content: userMessage,
+      });
+    }
 
-  // Set temperature based on task type
-  // Lower temperature (0.3-0.5) for factual/educational content, higher (0.7-0.9) for creative
-  const temperature = responseFormat?.type === 'json_object' ? 0.3 : 0.7;
+    // Get response format from config
+    const responseFormat = conversation.config.responseFormat as
+      | { type: string }
+      | undefined;
 
-  // Call OpenAI
-  let completion;
-  try {
-    completion = await openai.chat.completions.create({
-      model,
-      messages,
-      temperature,
-      ...(responseFormat && { response_format: responseFormat }),
-      max_tokens: maxTokens,
-    });
-  } catch (error: any) {
-    console.error('OpenAI API error:', error);
-    throw new Error(`Failed to generate response: ${error.message || 'Unknown error'}`);
-  }
+    // Select model based on complexity (always use GPT-4o for images)
+    const model = selectModel(userMessage, imageUrls, responseFormat);
+    const maxTokens = calculateMaxTokens(responseFormat, userMessage);
 
-  const assistantResponse = completion.choices[0]?.message?.content || '';
+    // Set temperature based on task type
+    // Lower temperature (0.3-0.5) for factual/educational content, higher (0.7-0.9) for creative
+    const temperature = responseFormat?.type === 'json_object' ? 0.3 : 0.7;
 
-  // Calculate cost
-  const usage = completion.usage;
-  const estimatedCost = usage
-    ? calculateCost(model, usage.prompt_tokens || 0, usage.completion_tokens || 0)
-    : 0;
+    // Call OpenAI
+    try {
+      completion = await openai.chat.completions.create({
+        model,
+        messages,
+        temperature,
+        ...(responseFormat && { response_format: responseFormat }),
+        max_tokens: maxTokens,
+      });
+    } catch (error: any) {
+      console.error('OpenAI API error:', error);
+      throw new Error(`Failed to generate response: ${error.message || 'Unknown error'}`);
+    }
 
-  // Log usage
-  if (MONITORING_ENABLED && usage) {
-    console.log(
-      `OpenAI usage - Model: ${model}, Tokens: ${usage.total_tokens} (prompt: ${usage.prompt_tokens}, completion: ${usage.completion_tokens}), Estimated cost: $${estimatedCost.toFixed(6)}`
-    );
+    assistantResponse = completion.choices[0]?.message?.content || '';
+
+    // Calculate cost
+    const usage = completion.usage;
+    const estimatedCost = usage
+      ? calculateCost(model, usage.prompt_tokens || 0, usage.completion_tokens || 0)
+      : 0;
+
+    // Log usage
+    if (MONITORING_ENABLED && usage) {
+      console.log(
+        `OpenAI usage - Model: ${model}, Tokens: ${usage.total_tokens} (prompt: ${usage.prompt_tokens}, completion: ${usage.completion_tokens}), Estimated cost: $${estimatedCost.toFixed(6)}`
+      );
+    }
+
+    // Save to cache (only if no images)
+    if (!imageUrls || imageUrls.length === 0) {
+      await saveCachedResponse(
+        userMessage,
+        assistantResponse,
+        {
+          model: completion.model,
+          usage: usage ? {
+            promptTokens: usage.prompt_tokens,
+            completionTokens: usage.completion_tokens,
+            totalTokens: usage.total_tokens,
+          } : undefined,
+          finishReason: completion.choices[0]?.finish_reason,
+          estimatedCost,
+        }
+      );
+    }
   }
 
   // Save assistant message with metadata
+  const usage = completion?.usage;
+  const estimatedCost = usage
+    ? calculateCost(completion?.model || 'unknown', usage.prompt_tokens || 0, usage.completion_tokens || 0)
+    : 0;
+
   const assistantMsg = await prisma.message.create({
     data: {
       conversationId,
@@ -416,14 +456,15 @@ export async function addMessageToConversation(
       content: assistantResponse,
       order: messageCount + 1,
       metadata: {
-        model: completion.model,
+        isFromCache,
+        model: completion?.model || null,
         usage: usage ? {
           promptTokens: usage.prompt_tokens,
           completionTokens: usage.completion_tokens,
           totalTokens: usage.total_tokens,
         } : null,
-        finishReason: completion.choices[0]?.finish_reason,
-        estimatedCost,
+        finishReason: completion?.choices[0]?.finish_reason || null,
+        estimatedCost: isFromCache ? 0 : estimatedCost, // Cache hits have no cost
       },
     },
   });

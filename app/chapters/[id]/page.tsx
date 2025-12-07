@@ -74,7 +74,7 @@ export default function ChapterPage() {
               if (savedAnswer) {
                 const answerValue = getAnswerValue(savedAnswer);
                 // If it's a value (not a key), try to find the matching option key
-                if (data.currentExercise.type === 'multiple_choice' && q.options) {
+                if (data.currentExercise && data.currentExercise.type === 'multiple_choice' && q.options) {
                   const options = q.options as Record<string, string>;
                   // Check if answerValue matches any option value
                   const matchingKey = Object.keys(options).find(
@@ -131,7 +131,7 @@ export default function ChapterPage() {
     };
 
     return () => {
-      fetchingRef.current = false;
+      fetchingRef.current = null;
     };
   }, [chapterId]);
 
@@ -160,6 +160,14 @@ export default function ChapterPage() {
     if (typeof answer === 'object' && 'answer' in answer) return answer.answer;
     return '';
   };
+
+  // Check if chapter has any draft exercises
+  const hasDraftExercises = exercises.some((exercise) => {
+    return exercise.attempt?.status === 'draft';
+  });
+
+  // Check if current exercise is draft
+  const isCurrentExerciseDraft = currentExercise?.attempt?.status === 'draft';
 
   const handleAnswerChange = (questionId: number, answer: string) => {
     setAnswers((prev) => {
@@ -245,7 +253,7 @@ export default function ChapterPage() {
     await handleSubmit();
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (isDraft: boolean = false) => {
     if (!currentExercise || !exercises || exercises.length === 0 || !chapter) return;
 
     setSubmitting(true);
@@ -308,7 +316,7 @@ export default function ChapterPage() {
       });
 
       if (Object.keys(exercisesAnswers).length === 0) {
-        toast.error('Không có bài tập nào để nộp');
+        toast.error('Không có bài tập nào để lưu');
         setSubmitting(false);
         return;
       }
@@ -321,7 +329,9 @@ export default function ChapterPage() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          chapterId: parseInt(chapterId), // Include chapterId in request body
           exercises: exercisesAnswers,
+          status: isDraft ? 'draft' : 'submitted',
         }),
       });
 
@@ -331,6 +341,15 @@ export default function ChapterPage() {
         throw new Error(data.error || 'Có lỗi xảy ra');
       }
 
+      if (isDraft) {
+        toast.success('Đã lưu nháp thành công!');
+        // Redirect to subjects page after saving draft
+        if (chapter && chapter.subject) {
+          router.push(`/subjects/${chapter.subject.id}?draft=true`);
+        } else {
+          router.push('/dashboard');
+        }
+      } else {
       toast.success(data.message || 'Đã nộp bài thành công!');
 
       // Redirect to chapters list page after successful submission
@@ -339,6 +358,7 @@ export default function ChapterPage() {
       } else {
         // Fallback to dashboard if chapter info is not available
         router.push('/dashboard');
+        }
       }
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Có lỗi xảy ra. Vui lòng thử lại.';
@@ -347,6 +367,10 @@ export default function ChapterPage() {
     } finally {
       setSubmitting(false);
     }
+  };
+
+  const handleSaveDraft = async () => {
+    await handleSubmit(true);
   };
 
   if (loading) {
@@ -456,6 +480,21 @@ export default function ChapterPage() {
 
         {/* Exercise Card */}
         <div className="card mb-6">
+          {/* Draft Status Warning */}
+          {isCurrentExerciseDraft && (
+            <div className="mb-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded-r">
+              <div className="flex items-start gap-2">
+                <span className="text-yellow-600 text-lg">⚠️</span>
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-yellow-800">Bài tập đang ở trạng thái nháp</p>
+                  <p className="text-xs text-yellow-700 mt-1">
+                    Bạn cần nộp bài để xem đáp án và kết quả chấm điểm.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+          
           <div className="mb-4">
             <h2 className="text-2xl font-semibold mb-2 text-gradient">
               {renderTextWithLatex(currentExercise.title)}
@@ -465,13 +504,53 @@ export default function ChapterPage() {
                 {renderTextWithLatex(currentExercise.description)}
               </p>
             )}
-            <div className="flex gap-2 mb-4">
+            <div className="relative flex gap-2 mb-4 items-center">
+              <div className="flex gap-2">
               <span className="px-3 py-1 text-xs rounded-full bg-indigo-100 text-indigo-700">
                 {currentExercise.type === 'multiple_choice' ? 'Trắc nghiệm' : 'Tự luận'}
               </span>
-              <span className="px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
-                {currentExercise.points} điểm
-              </span>
+            </div>
+              {/* Buttons for hint and AI assistant - only show if there's a current question */}
+              {currentExercise.questions && currentExercise.questions.length > 0 && (() => {
+                const question = currentExercise.questions[currentQuestionIndex];
+                if (!question) return null;
+
+                return (
+                  <div className="absolute right-0 flex gap-2">
+                      {question.hint && (
+                        <button
+                          onClick={() => {
+                            setShowHints(prev => {
+                              const newSet = new Set(prev);
+                              if (newSet.has(question.id)) {
+                                newSet.delete(question.id);
+                              } else {
+                                newSet.add(question.id);
+                              }
+                              return newSet;
+                            });
+                          }}
+                        className="px-3 py-1 text-xs rounded-full bg-yellow-100 text-yellow-700 hover:bg-yellow-200 transition-colors cursor-pointer whitespace-nowrap"
+                        >
+                          {showHints.has(question.id) ? 'Ẩn gợi ý' : 'Xem gợi ý'}
+                        </button>
+                      )}
+                      <button
+                        onClick={() => {
+                          // Send question to chat widget
+                          const questionText = `Câu hỏi: ${question.question}\n\nTôi cần hỗ trợ giải thích về câu hỏi này.`;
+                          const event = new CustomEvent('chatWidget:sendMessage', {
+                            detail: { message: questionText },
+                          });
+                          window.dispatchEvent(event);
+                        }}
+                      className="px-3 py-1 text-xs rounded-full bg-orange-100 text-orange-700 hover:bg-orange-200 transition-colors cursor-pointer whitespace-nowrap"
+                      >
+                        Hỏi trợ lý AI
+                      </button>
+                  </div>
+                );
+              })()}
             </div>
           </div>
 
@@ -496,7 +575,7 @@ export default function ChapterPage() {
                 const hasAnswer = answerValue && answerValue.trim() !== '';
 
                 return (
-                  <div key={question.id} className="border-l-4 border-indigo-500 pl-4 relative pr-32">
+                  <div key={question.id} className="border-l-4 border-indigo-500 pl-4 relative">
                     <div className="mb-3">
                       <span className="text-sm font-medium text-gray-500">
                         Câu {currentQuestionIndex + 1} / {currentExercise.questions.length}
@@ -504,40 +583,6 @@ export default function ChapterPage() {
                       <div className="text-lg font-medium mt-1" style={{ color: '#000' }}>
                         {renderTextWithLatex(question.question)}
                       </div>
-                    </div>
-                    <div className="absolute -top-8 right-0 flex gap-2">
-                      {question.hint && (
-                        <button
-                          onClick={() => {
-                            setShowHints(prev => {
-                              const newSet = new Set(prev);
-                              if (newSet.has(question.id)) {
-                                newSet.delete(question.id);
-                              } else {
-                                newSet.add(question.id);
-                              }
-                              return newSet;
-                            });
-                          }}
-                          className="text-sm text-indigo-600 hover:text-indigo-800 underline whitespace-nowrap"
-                        >
-                          {showHints.has(question.id) ? 'Ẩn gợi ý' : 'Xem gợi ý'}
-                        </button>
-                      )}
-                      <button
-                        onClick={() => {
-                          // Send question to chat widget
-                          const questionText = `Câu hỏi: ${question.question}\n\nTôi cần hỗ trợ giải thích về câu hỏi này.`;
-                          const event = new CustomEvent('chatWidget:sendMessage', {
-                            detail: { message: questionText },
-                          });
-                          window.dispatchEvent(event);
-                        }}
-                        className="text-sm text-orange-600 hover:text-orange-800 underline whitespace-nowrap"
-                        style={{ color: 'var(--color-primary-orange)' }}
-                      >
-                        Hỏi trợ lý AI
-                      </button>
                     </div>
 
                     {currentExercise.type === 'multiple_choice' && question.options ? (
@@ -908,15 +953,71 @@ export default function ChapterPage() {
             </div>
           )}
 
-          {/* Submit Button */}
+          {/* Submit Buttons */}
           <div className="mt-6 pt-6 border-t">
+            <div className="flex gap-3">
+              <button
+                onClick={() => {
+                  // Redirect to subjects page without saving anything
+                  if (chapter && chapter.subject) {
+                    router.push(`/subjects/${chapter.subject.id}`);
+                  } else {
+                    router.push('/subjects');
+                  }
+                }}
+                disabled={submitting}
+                className="flex-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 rounded-lg px-4 py-2 transition-colors"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <span>Hủy</span>
+              </button>
+              <button
+                onClick={handleSaveDraft}
+                disabled={submitting}
+                className="btn btn-secondary flex-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              >
+                {submitting ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span>Đang lưu...</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                    </svg>
+                    <span>Lưu nháp</span>
+                  </>
+                )}
+              </button>
             <button
               onClick={handleSubmitClick}
               disabled={submitting}
-              className="btn btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
+                className="btn btn-primary flex-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
-              {submitting ? 'Đang lưu...' : 'Nộp bài'}
+                {submitting ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span>Đang nộp...</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Nộp bài</span>
+                  </>
+                )}
             </button>
+            </div>
           </div>
         </div>
 

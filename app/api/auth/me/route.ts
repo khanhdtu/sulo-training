@@ -25,6 +25,7 @@ export async function GET(request: NextRequest) {
         isActive: true,
         gradeId: true,
         level: true,
+        parentEmail: true,
         grade: {
           select: {
             id: true,

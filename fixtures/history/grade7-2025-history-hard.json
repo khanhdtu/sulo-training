@@ -36,6 +36,45 @@
               "hint": "So sánh với trận đánh của Trần Hưng Đạo năm 1288, phân tích điểm giống và khác, đánh giá sự kế thừa và phát triển.",
               "answer": "Chiến thuật đánh cọc: Ngô Quyền (938): Đóng cọc trên sông Bạch Đằng, lợi dụng thủy triều, đánh thắng quân Nam Hán. Trần Hưng Đạo (1288): Kế thừa và phát triển chiến thuật này, đánh thắng quân Nguyên. Điểm giống: Đều sử dụng cọc, lợi dụng thủy triều, đánh trên sông Bạch Đằng. Điểm khác: Trần Hưng Đạo có sự chuẩn bị kỹ lưỡng hơn, quy mô lớn hơn. Ý nghĩa: Thể hiện sự kế thừa và phát triển kinh nghiệm quân sự, chứng minh tài năng quân sự của dân tộc ta.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Vận dụng nâng cao: Nước ta buổi đầu độc lập",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Vận dụng nâng cao: Nước ta buổi đầu độc lập (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nước ta buổi đầu độc lập.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Nước ta buổi đầu độc lập",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Nước ta buổi đầu độc lập (Câu 8/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nước ta buổi đầu độc lập.",
+              "answer": "Đây là câu trả lời phân tích sâu về Nước ta buổi đầu độc lập. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Nước ta buổi đầu độc lập",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Nước ta buổi đầu độc lập (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nước ta buổi đầu độc lập.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -66,6 +105,39 @@
               "hint": "Phân tích đóng góp của từng triều đại, đánh giá tổng thể về vai trò xây dựng nền độc lập.",
               "answer": "Vai trò: Nhà Ngô: Tiếp tục củng cố nền độc lập sau chiến thắng Bạch Đằng, nhưng còn non trẻ. Nhà Đinh: Thống nhất đất nước sau thời kỳ 12 sứ quân, xây dựng bộ máy nhà nước phong kiến đầu tiên, đặt tên nước Đại Cồ Việt. Nhà Tiền Lê: Bảo vệ độc lập bằng cách đánh thắng quân Tống, củng cố chính quyền. Tổng thể: Ba triều đại này đã đặt nền móng cho nền độc lập lâu dài, xây dựng những cơ sở đầu tiên của nhà nước phong kiến Việt Nam, dù còn nhiều hạn chế nhưng có vai trò quan trọng trong lịch sử.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Nhà Ngô, Đinh, Tiền Lê (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nhà Ngô, Đinh, Tiền Lê.",
+              "answer": "Đây là câu trả lời phân tích sâu về Nhà Ngô, Đinh, Tiền Lê. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Nhà Ngô, Đinh, Tiền Lê (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhà Ngô, Đinh, Tiền Lê.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Nhà Ngô, Đinh, Tiền Lê (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nhà Ngô, Đinh, Tiền Lê.",
+              "answer": "Đây là câu trả lời phân tích sâu về Nhà Ngô, Đinh, Tiền Lê. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -96,6 +168,45 @@
               "hint": "So sánh về: thời gian, người lãnh đạo, chiến thuật, kết quả, ý nghĩa. Rút ra bài học về tinh thần yêu nước, chiến thuật quân sự, sự lãnh đạo.",
               "answer": "So sánh: Lần 1 (981): Lê Hoàn lãnh đạo, chủ động tấn công kết hợp phòng thủ, đánh thắng quân Tống. Lần 2 (1075-1077): Lý Thường Kiệt lãnh đạo, chủ động tấn công trước vào căn cứ địch, sau đó phòng thủ trên sông Như Nguyệt, đánh thắng quân Tống. Điểm giống: Đều chủ động, đều đánh thắng, đều bảo vệ độc lập. Điểm khác: Chiến thuật lần 2 tinh vi hơn, có bài thơ 'Nam quốc sơn hà'. Bài học: Tinh thần yêu nước là sức mạnh lớn nhất; chiến thuật quân sự đúng đắn rất quan trọng; sự lãnh đạo tài tình quyết định thắng lợi; phải chủ động, không bị động phòng thủ.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cuộc kháng chiến chống Tống lần thứ nhất (981).",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cuộc kháng chiến chống Tống lần thứ nhất (981).",
+              "answer": "Đây là câu trả lời phân tích sâu về Cuộc kháng chiến chống Tống lần thứ nhất (981). Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cuộc kháng chiến chống Tống lần thứ nhất (981).",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -132,6 +243,45 @@
               "hint": "Phân tích các cải cách về hành chính, quân sự, kinh tế, văn hóa, giáo dục. So sánh với thời Ngô, Đinh, Tiền Lê. Đánh giá sự tiến bộ.",
               "answer": "Cải cách nhà Lý: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ hơn, chia cả nước thành lộ, phủ, huyện. Quân sự: Chế độ 'ngụ binh ư nông' - tiến bộ hơn. Kinh tế: Khuyến khích sản xuất, thương mại phát triển. Văn hóa: Phát triển Phật giáo, xây dựng nhiều công trình. Giáo dục: Mở Quốc Tử Giám, tổ chức thi cử. So sánh: Tiến bộ hơn các triều đại trước về tổ chức nhà nước, quân sự, giáo dục. Đánh giá: Nhà Lý đã xây dựng được một nhà nước phong kiến ổn định, phát triển, tạo nền tảng cho sự phát triển lâu dài.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Vận dụng nâng cao: Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Vận dụng nâng cao: Nhà Lý thành lập và xây dựng đất nước (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhà Lý thành lập và xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Nhà Lý thành lập và xây dựng đất nước",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Nhà Lý thành lập và xây dựng đất nước (Câu 8/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nhà Lý thành lập và xây dựng đất nước.",
+              "answer": "Đây là câu trả lời phân tích sâu về Nhà Lý thành lập và xây dựng đất nước. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Nhà Lý thành lập và xây dựng đất nước (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhà Lý thành lập và xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -162,6 +312,39 @@
               "hint": "Phân tích nội dung, ý nghĩa, giá trị lịch sử, văn học, tư tưởng của bài thơ. So sánh với các bản tuyên ngôn độc lập khác.",
               "answer": "Phân tích: Nội dung: Khẳng định chủ quyền lãnh thổ ('Nam quốc sơn hà Nam đế cư'), tính chính nghĩa của cuộc kháng chiến. Ý nghĩa: Là bản tuyên ngôn độc lập đầu tiên của dân tộc, thể hiện ý chí độc lập, tự chủ. Giá trị lịch sử: Phản ánh tinh thần yêu nước, khẳng định chủ quyền. Giá trị văn học: Tác phẩm văn học xuất sắc, ngắn gọn nhưng súc tích. Giá trị tư tưởng: Thể hiện tư tưởng yêu nước, ý chí bảo vệ độc lập. So sánh: Là bản tuyên ngôn độc lập đầu tiên, có ảnh hưởng đến các bản tuyên ngôn sau như 'Bình Ngô đại cáo'.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời phân tích sâu về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời phân tích sâu về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -192,6 +375,45 @@
               "hint": "Phân tích ảnh hưởng của Phật giáo đến các mặt: tư tưởng, đạo đức, nghệ thuật, kiến trúc, giáo dục, đời sống xã hội. Đánh giá vai trò tích cực và hạn chế.",
               "answer": "Vai trò: Tư tưởng: Tinh thần từ bi, hỷ xả ảnh hưởng đến đạo đức xã hội, tạo sự hòa hợp. Nghệ thuật: Thúc đẩy phát triển kiến trúc (chùa, tháp), điêu khắc, hội họa. Giáo dục: Nhiều nhà sư là học giả, góp phần phát triển giáo dục, văn học. Đời sống: Ảnh hưởng đến lối sống, phong tục, tập quán của nhân dân. Ổn định xã hội: Góp phần ổn định xã hội, tạo sự đoàn kết. Tuy nhiên, cũng có hạn chế: một số người quá mê tín, ảnh hưởng đến sản xuất. Tổng thể: Phật giáo có vai trò tích cực trong việc xây dựng bản sắc văn hóa Đại Việt, tạo nên nét đặc trưng của văn hóa thời Lý.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Lý",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Lý (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Lý.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Văn hóa Đại Việt thời Lý",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Văn hóa Đại Việt thời Lý (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Văn hóa Đại Việt thời Lý.",
+              "answer": "Đây là câu trả lời phân tích sâu về Văn hóa Đại Việt thời Lý. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Lý",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Lý (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Lý.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -228,6 +450,45 @@
               "hint": "Phân tích các cải cách: chế độ Thái thượng hoàng, ngụ binh ư nông, tổ chức nhà nước. So sánh với nhà Lý. Đánh giá sự tiến bộ.",
               "answer": "Cải cách nhà Trần: Chế độ Thái thượng hoàng: Độc đáo, đảm bảo tính liên tục. Ngụ binh ư nông: Phát triển từ nhà Lý, hiệu quả hơn. Tổ chức nhà nước: Chặt chẽ, có hệ thống. Quân sự: Mạnh mẽ, có kỷ luật. So sánh với nhà Lý: Nhà Trần kế thừa và phát triển các cải cách của nhà Lý, có thêm sáng tạo (Thái thượng hoàng). Đánh giá: Nhà Trần đã xây dựng được một nhà nước phong kiến mạnh mẽ, ổn định, có khả năng chống ngoại xâm, là thời kỳ phát triển rực rỡ của Đại Việt.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Vận dụng nâng cao: Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Vận dụng nâng cao: Nhà Trần thành lập và củng cố chính quyền (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhà Trần thành lập và củng cố chính quyền.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Nhà Trần thành lập và củng cố chính quyền",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Nhà Trần thành lập và củng cố chính quyền (Câu 8/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nhà Trần thành lập và củng cố chính quyền.",
+              "answer": "Đây là câu trả lời phân tích sâu về Nhà Trần thành lập và củng cố chính quyền. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Nhà Trần thành lập và củng cố chính quyền (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhà Trần thành lập và củng cố chính quyền.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -258,6 +519,39 @@
               "hint": "So sánh về: thời gian, diễn biến, chiến thuật, người lãnh đạo, kết quả. Rút ra bài học về: chiến lược, chiến thuật, tinh thần, sự chuẩn bị.",
               "answer": "So sánh: Lần 1 (1258): Quy mô nhỏ, đánh thắng nhanh. Lần 2 (1285): Quy mô lớn hơn, sử dụng chiến thuật 'vườn không nhà trống', đánh thắng. Lần 3 (1287-1288): Quy mô lớn nhất, sử dụng chiến thuật đánh cọc trên sông Bạch Đằng, đánh thắng hoàn toàn. Điểm chung: Đều chủ động, đều đánh thắng, đều có sự lãnh đạo tài tình. Bài học nghệ thuật quân sự: Phải chủ động, không bị động; chiến thuật linh hoạt, phù hợp với tình hình; tận dụng địa hình, thời tiết; tinh thần yêu nước là sức mạnh lớn nhất; sự chuẩn bị chu đáo rất quan trọng; phải đoàn kết toàn dân.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời phân tích sâu về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời phân tích sâu về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -288,6 +582,45 @@
               "hint": "Phân tích: hoàn cảnh lịch sử (ba cuộc kháng chiến), ảnh hưởng đến văn học, các tác phẩm tiêu biểu, giá trị và ý nghĩa.",
               "answer": "Mối quan hệ: Hoàn cảnh lịch sử: Ba cuộc kháng chiến chống Mông - Nguyên tạo ra hoàn cảnh đặc biệt, tinh thần yêu nước được nâng cao. Ảnh hưởng: Hoàn cảnh này thúc đẩy sự phát triển văn học yêu nước, các tác phẩm ra đời phục vụ cuộc kháng chiến. Tác phẩm tiêu biểu: 'Hịch tướng sĩ' của Trần Hưng Đạo, các bài thơ yêu nước. Giá trị: Văn học không chỉ là nghệ thuật mà còn là vũ khí tinh thần, động viên quân dân. Ý nghĩa: Thể hiện mối quan hệ chặt chẽ giữa văn học và đời sống, văn học phục vụ sự nghiệp bảo vệ đất nước. Đây là đặc điểm nổi bật của văn học thời Trần.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Trần",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Trần (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Trần.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Văn hóa Đại Việt thời Trần",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Văn hóa Đại Việt thời Trần (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Văn hóa Đại Việt thời Trần.",
+              "answer": "Đây là câu trả lời phân tích sâu về Văn hóa Đại Việt thời Trần. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Trần",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Trần (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Trần.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -324,6 +657,45 @@
               "hint": "Phân tích vai trò của từng người: Lê Lợi (lãnh đạo quân sự), Nguyễn Trãi (quân sư, ngoại giao, văn học). Đánh giá sự phối hợp, đóng góp chung.",
               "answer": "Lê Lợi: Lãnh đạo quân sự, có tài năng chỉ huy, chiến lược đúng đắn ('đánh lâu dài, từ yếu đến mạnh'), có uy tín, được nhân dân tin tưởng. Nguyễn Trãi: Quân sư, đưa ra nhiều kế sách quân sự, ngoại giao xuất sắc, soạn các văn kiện, tác phẩm văn học ('Bình Ngô đại cáo'), thể hiện tư tưởng nhân nghĩa. Sự phối hợp: Hai người bổ sung cho nhau, tạo nên sức mạnh tổng hợp. Đánh giá: Cả hai đều là nhân vật kiệt xuất, có đóng góp to lớn, không thể thiếu trong thắng lợi của khởi nghĩa Lam Sơn. Sự kết hợp giữa tài năng quân sự và trí tuệ là yếu tố quan trọng dẫn đến thắng lợi.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Vận dụng nâng cao: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Vận dụng nâng cao: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 8/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "answer": "Đây là câu trả lời phân tích sâu về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -354,6 +726,39 @@
               "hint": "Phân tích các cải cách: hành chính, quân sự, pháp luật, giáo dục, kinh tế. So sánh với Lý, Trần. Đánh giá sự hoàn thiện, tiến bộ.",
               "answer": "Cải cách Lê Thánh Tông: Hành chính: Tổ chức chặt chẽ nhất, chia cả nước thành đạo, phủ, huyện, xã. Quân sự: Quân đội mạnh, có kỷ luật. Pháp luật: Bộ luật Hồng Đức hoàn chỉnh, tiến bộ. Giáo dục: Mở rộng, thi cử công bằng. Kinh tế: Khuyến khích sản xuất, thương mại. So sánh: Tiến bộ hơn Lý, Trần về tổ chức nhà nước, pháp luật. Đánh giá: Thời Lê Thánh Tông là thời kỳ thịnh trị nhất của nhà Lê sơ, các cải cách đã đưa Đại Việt lên đỉnh cao của chế độ phong kiến Việt Nam, tạo nền tảng cho sự phát triển lâu dài.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "answer": "Đây là câu trả lời phân tích sâu về Tổ chức bộ máy nhà nước thời Lê sơ. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "answer": "Đây là câu trả lời phân tích sâu về Tổ chức bộ máy nhà nước thời Lê sơ. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -384,6 +789,45 @@
               "hint": "Phân tích từng giá trị: lịch sử (phản ánh sự kiện), văn học (nghệ thuật), tư tưởng (nhân nghĩa, yêu nước), chính trị (tuyên ngôn). Đánh giá tổng thể.",
               "answer": "Giá trị lịch sử: Phản ánh chân thực cuộc kháng chiến chống Minh, từ nguyên nhân, diễn biến đến kết quả; là nguồn tư liệu quý giá. Giá trị văn học: Tác phẩm văn học xuất sắc, thể hiện tài năng văn chương của Nguyễn Trãi; ngôn ngữ trong sáng, hình ảnh sinh động, kết cấu chặt chẽ. Giá trị tư tưởng: Thể hiện tư tưởng nhân nghĩa ('Việc nhân nghĩa cốt ở yên dân'), yêu nước thương dân, ý chí độc lập. Giá trị chính trị: Là bản tuyên ngôn độc lập thứ hai của dân tộc, khẳng định chủ quyền. Tổng thể: 'Bình Ngô đại cáo' là tác phẩm tổng hợp các giá trị, là áng thiên cổ hùng văn, niềm tự hào của dân tộc, có ảnh hưởng sâu sắc đến văn học và tư tưởng sau này.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Văn hóa Đại Việt thời Lê sơ (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Văn hóa Đại Việt thời Lê sơ",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Văn hóa Đại Việt thời Lê sơ (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Văn hóa Đại Việt thời Lê sơ.",
+              "answer": "Đây là câu trả lời phân tích sâu về Văn hóa Đại Việt thời Lê sơ. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Văn hóa Đại Việt thời Lê sơ (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Đại Việt thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -420,6 +864,45 @@
               "hint": "Phân tích đầy đủ: nguyên nhân (sâu xa, trực tiếp), diễn biến (chia cắt thành Đàng Trong, Đàng Ngoài), hậu quả (chiến tranh, suy yếu). Rút ra bài học về sự đoàn kết, thống nhất.",
               "answer": "Nguyên nhân: Sâu xa: Sự suy yếu của nhà nước phong kiến tập quyền, sự phát triển của các thế lực địa phương. Trực tiếp: Tranh giành quyền lực giữa các tập đoàn phong kiến, nhà Lê suy yếu. Diễn biến: Đất nước bị chia cắt thành Đàng Trong (họ Nguyễn) và Đàng Ngoài (họ Trịnh), kéo dài từ thế kỷ XVI đến thế kỷ XVIII. Hậu quả: Chiến tranh liên miên, nhân dân khổ cực, sức mạnh dân tộc suy giảm, tạo điều kiện cho ngoại bang can thiệp. Bài học: Đoàn kết, thống nhất là sức mạnh; chia rẽ dẫn đến suy yếu; phải xây dựng nhà nước mạnh, ổn định; phải giải quyết mâu thuẫn nội bộ.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Vận dụng nâng cao: Đất nước bị chia cắt",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Vận dụng nâng cao: Đất nước bị chia cắt (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Đất nước bị chia cắt.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Đất nước bị chia cắt",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Đất nước bị chia cắt (Câu 8/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Đất nước bị chia cắt.",
+              "answer": "Đây là câu trả lời phân tích sâu về Đất nước bị chia cắt. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Đất nước bị chia cắt",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Đất nước bị chia cắt (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Đất nước bị chia cắt.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -450,6 +933,39 @@
               "hint": "Phân tích: tài năng quân sự, chiến thuật, vai trò lãnh đạo. So sánh với Lý Thường Kiệt, Trần Hưng Đạo. Đánh giá vị trí trong lịch sử.",
               "answer": "Vai trò Nguyễn Huệ: Tài năng quân sự xuất sắc, chỉ huy nhiều trận đánh thắng lợi. Chiến thuật linh hoạt, sáng tạo, quyết đoán. Lãnh đạo thống nhất đất nước, đánh thắng quân Xiêm và quân Thanh. Có tầm nhìn xa, quyết tâm bảo vệ độc lập. So sánh: Giống Lý Thường Kiệt, Trần Hưng Đạo về tài năng quân sự, tinh thần yêu nước. Khác: Nguyễn Huệ còn thống nhất đất nước sau chia cắt. Đánh giá: Nguyễn Huệ là một trong những nhà quân sự kiệt xuất nhất trong lịch sử Việt Nam, có đóng góp to lớn trong việc thống nhất đất nước và bảo vệ độc lập.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Phong trào nông dân Tây Sơn",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Phong trào nông dân Tây Sơn (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Phong trào nông dân Tây Sơn.",
+              "answer": "Đây là câu trả lời phân tích sâu về Phong trào nông dân Tây Sơn. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Phong trào nông dân Tây Sơn",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Phong trào nông dân Tây Sơn (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phong trào nông dân Tây Sơn.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Phong trào nông dân Tây Sơn",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Phong trào nông dân Tây Sơn (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Phong trào nông dân Tây Sơn.",
+              "answer": "Đây là câu trả lời phân tích sâu về Phong trào nông dân Tây Sơn. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -480,6 +996,45 @@
               "hint": "Phân tích: hoàn cảnh chia cắt, sự phát triển văn hóa (văn học, nghệ thuật), mối quan hệ giữa hoàn cảnh và văn hóa, đánh giá ý nghĩa.",
               "answer": "Hoàn cảnh: Đất nước bị chia cắt, chiến tranh liên miên, nhân dân khổ cực. Sự phát triển văn hóa: Văn học chữ Nôm phát triển mạnh, thể hiện tinh thần dân tộc. Nghệ thuật (sân khấu, âm nhạc, hội họa) phát triển. Văn hóa dân gian phong phú. Mối quan hệ: Dù đất nước chia cắt nhưng văn hóa vẫn phát triển, thể hiện sức sống mãnh liệt của văn hóa dân tộc. Văn học chữ Nôm phát triển như một phản ứng với hoàn cảnh, thể hiện tinh thần độc lập về văn hóa. Ý nghĩa: Chứng minh sức sống của văn hóa dân tộc; góp phần xây dựng bản sắc văn hóa; tạo nền tảng cho sự phát triển sau này; thể hiện tinh thần dân tộc trong hoàn cảnh khó khăn.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "answer": "Đây là câu trả lời phân tích sâu về Văn hóa Việt Nam thế kỷ XVI-XVIII. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -487,4 +1042,3 @@
     }
   ]
 }
-

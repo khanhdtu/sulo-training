@@ -60,6 +60,30 @@
               "hint": "Include: location, nearby places, what you like about it...",
               "answer": "Example: I live in a nice neighborhood in District 1. There is a park near my house. There are many shops and restaurants nearby. My school is only 5 minutes away. I like my neighborhood because it's safe and convenient. The people here are very friendly.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Asking and answering about addresses",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Asking and answering about addresses (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Asking and answering about addresses để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Asking and answering about addresses",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Asking and answering about addresses (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Asking and answering about addresses.",
+              "answer": "Đây là câu trả lời vận dụng về Asking and answering about addresses. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -114,6 +138,30 @@
               "hint": "Discuss: facilities, environment, lifestyle...",
               "answer": "Example: Living in a city has both advantages and disadvantages. Cities have many facilities like hospitals and schools. There are more job opportunities. However, cities can be crowded and noisy. The air can be polluted. Some people prefer cities, while others prefer the countryside.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Describing places",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Describing places (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Describing places để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Describing places",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Describing places (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Describing places.",
+              "answer": "Đây là câu trả lời vận dụng về Describing places. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -144,6 +192,21 @@
               "hint": "Use different question words: Where, What, Who...",
               "answer": "Example: Q: Where do you live? A: I live in Da Nang. Q: What's your address? A: My address is 789 Tran Phu Street. Q: Who do you live with? A: I live with my family.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Phân tích về Grammar: Where do you live?",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Grammar: Where do you live? (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Grammar: Where do you live? để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -204,6 +267,30 @@
               "hint": "Compare: wake-up time, activities, schedule...",
               "answer": "Example: My weekday and weekend routines are different. On weekdays, I get up early at 6:00 and go to school. On weekends, I get up later at 8:00. I don't go to school on weekends. I have more free time to play and relax. I prefer weekends because I can do what I like.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Daily routines",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Daily routines (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Daily routines để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Daily routines",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Daily routines (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Daily routines.",
+              "answer": "Đây là câu trả lời vận dụng về Daily routines. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -258,6 +345,30 @@
               "hint": "Describe what each person does and how often...",
               "answer": "Example: My family members have different habits. My father always reads the newspaper in the morning. My mother usually cooks dinner. My brother often plays video games. I sometimes help with housework. My little sister never stays up late.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Talking about frequency",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Talking about frequency (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Talking about frequency để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Talking about frequency",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Talking about frequency (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Talking about frequency.",
+              "answer": "Đây là câu trả lời vận dụng về Talking about frequency. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -288,6 +399,21 @@
               "hint": "Use each frequency adverb once.",
               "answer": "Example: I always go to school. I usually have lunch at home. I often play with friends. I sometimes read books. I never skip breakfast.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Phân tích về Grammar: Adverbs of frequency",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Grammar: Adverbs of frequency (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Grammar: Adverbs of frequency để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -348,6 +474,30 @@
               "hint": "Include: when, where, who with, what you did, how you felt...",
               "answer": "Example: Last summer, I went to Ha Long Bay with my family. We traveled by car. When we arrived, I saw the beautiful bay. We took a boat trip. We visited amazing caves. We swam in the sea. I had a wonderful time and took many photos.",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Past simple tense",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Past simple tense (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Past simple tense để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Past simple tense",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Past simple tense (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Past simple tense.",
+              "answer": "Đây là câu trả lời vận dụng về Past simple tense. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -402,6 +552,30 @@
               "hint": "Compare: destinations, activities, which one you preferred...",
               "answer": "Example: I have had two memorable holidays. Last summer, I went to the beach. We swam and played on the beach. Last winter, I went to the mountains. We went hiking and saw snow. Both holidays were amazing but different. I think I preferred the mountain holiday because it was something new.",
               "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Talking about holidays",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Talking about holidays (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Talking about holidays để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Talking about holidays",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Talking about holidays (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Talking about holidays.",
+              "answer": "Đây là câu trả lời vận dụng về Talking about holidays. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -432,6 +606,21 @@
               "hint": "Regular: played, visited, watched. Irregular: went, saw, ate, had.",
               "answer": "Example: Yesterday I played football. Then I went to the park. I visited my friend. I saw a beautiful bird. I ate ice cream. I had a great day.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Phân tích về Grammar: Past simple with regular and irregular verbs",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Grammar: Past simple with regular and irregular verbs (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Grammar: Past simple with regular and irregular verbs để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -492,6 +681,30 @@
               "hint": "Include: greeting, asking about symptoms, giving advice...",
               "answer": "Example: Doctor: What's the matter? Patient: I have a stomachache. Doctor: What did you eat? Patient: I ate a lot of spicy food. Doctor: You should rest. You should drink water. You shouldn't eat spicy food. Patient: Should I take medicine? Doctor: Yes, I'll give you some. Patient: Thank you, doctor.",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Health problems",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Health problems (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Health problems để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Health problems",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Health problems (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Health problems.",
+              "answer": "Đây là câu trả lời vận dụng về Health problems. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -546,6 +759,30 @@
               "hint": "Discuss: prevention methods, healthy habits, what to avoid...",
               "answer": "Example: To stay healthy, you should eat fruits and vegetables. You should drink plenty of water. You should exercise regularly. You should get enough sleep. You should wash your hands before eating. However, you shouldn't eat too much junk food. You shouldn't stay up late. Following these rules will help you stay healthy.",
               "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Giving advice",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Giving advice (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Giving advice để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Giving advice",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Giving advice (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Giving advice.",
+              "answer": "Đây là câu trả lời vận dụng về Giving advice. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -576,6 +813,21 @@
               "hint": "Include both positive (should) and negative (shouldn't) advice.",
               "answer": "Example: You should exercise every day. You should eat fruits and vegetables. You should drink plenty of water. You shouldn't eat too much junk food. You shouldn't stay up late.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Phân tích về Grammar: Should/Shouldn't",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Grammar: Should/Shouldn't (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Grammar: Should/Shouldn't để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -583,4 +835,3 @@
     }
   ]
 }
-

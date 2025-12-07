@@ -60,6 +60,30 @@
               "hint": "Chia phân số bằng cách nhân với phân số nghịch đảo: $\\frac{5}{6} \\div \\frac{2}{3} = \\frac{5}{6} \\times \\frac{3}{2}$.",
               "answer": "$\\frac{5}{6} \\div \\frac{2}{3} = \\frac{5}{6} \\times \\frac{3}{2} = \\frac{5 \\times 3}{6 \\times 2} = \\frac{15}{12} = \\frac{5}{4} = 1\\frac{1}{4}$.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Phân số và phép tính với phân số",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Phân số và phép tính với phân số (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phân số và phép tính với phân số.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Phân số và phép tính với phân số",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Phân số và phép tính với phân số (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Phân số và phép tính với phân số.",
+              "answer": "Đây là câu trả lời phân tích sâu về Phân số và phép tính với phân số. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -105,6 +129,30 @@
               "correctOption": "B",
               "hint": "Chuyển về phân số: $3\\frac{1}{2} = \\frac{7}{2}$, $1\\frac{3}{4} = \\frac{7}{4}$. Tính: $\\frac{7}{2} \\div \\frac{7}{4} = \\frac{7}{2} \\times \\frac{4}{7} = \\frac{28}{14} = 2$.",
               "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Hỗn số",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Hỗn số (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Hỗn số.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Hỗn số",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Hỗn số (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Hỗn số.",
+              "answer": "Đây là câu trả lời phân tích sâu về Hỗn số. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -150,6 +198,21 @@
               "correctOption": "C",
               "hint": "Quy đồng mẫu số 315: $\\frac{3}{5} = \\frac{189}{315}$, $\\frac{4}{7} = \\frac{180}{315}$, $\\frac{5}{9} = \\frac{175}{315}$. Vậy $\\frac{5}{9}$ nhỏ nhất.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về So sánh phân số",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về So sánh phân số (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong So sánh phân số.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -210,6 +273,21 @@
               "hint": "Số cần tìm có dạng 5,xx với xx < 50. Số lớn nhất là 5,49.",
               "answer": "Số thập phân lớn nhất có 2 chữ số ở phần thập phân và nhỏ hơn 5,5 là 5,49.",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Khái niệm số thập phân",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Khái niệm số thập phân (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Khái niệm số thập phân.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -264,6 +342,15 @@
               "hint": "Tính số đường bán ngày thứ hai, sau đó tính tổng số đường đã bán, cuối cùng tính số đường còn lại.",
               "answer": "Số đường bán ngày thứ hai: 12,75 + 3,25 = 16 kg. Tổng số đường đã bán: 12,75 + 16 = 28,75 kg. Số đường còn lại: 50,5 - 28,75 = 21,75 kg.",
               "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Phép cộng, trừ số thập phân",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Phép cộng, trừ số thập phân (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Phép cộng, trừ số thập phân.",
+              "answer": "Đây là câu trả lời phân tích sâu về Phép cộng, trừ số thập phân. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -318,6 +405,21 @@
               "hint": "Nhân 15,75 với 8.",
               "answer": "Số tiền = 15,75 × 8 = 126 nghìn đồng",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Phép nhân, chia số thập phân",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Phép nhân, chia số thập phân (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phép nhân, chia số thập phân.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -378,6 +480,30 @@
               "hint": "Tính đáy lớn trước, sau đó tính diện tích.",
               "answer": "Đáy lớn = 6 × 2 = 12 cm. Diện tích = (12 + 6) × 8 : 2 = 18 × 8 : 2 = 144 : 2 = 72 cm²",
               "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Hình tam giác, hình thang",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Hình tam giác, hình thang (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Hình tam giác, hình thang.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Hình tam giác, hình thang",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Hình tam giác, hình thang (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Hình tam giác, hình thang.",
+              "answer": "Đây là câu trả lời phân tích sâu về Hình tam giác, hình thang. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -408,6 +534,30 @@
               "hint": "Tính chiều cao trước, sau đó tính diện tích.",
               "answer": "Chiều cao = $15 \\times \\frac{2}{3} = 10$ m. Diện tích = $15 \\times 10 : 2 = 150 : 2 = 75$ m²",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Diện tích hình tam giác, hình thang",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Diện tích hình tam giác, hình thang (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Diện tích hình tam giác, hình thang.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Diện tích hình tam giác, hình thang",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Diện tích hình tam giác, hình thang (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Diện tích hình tam giác, hình thang.",
+              "answer": "Đây là câu trả lời phân tích sâu về Diện tích hình tam giác, hình thang. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -462,6 +612,21 @@
               "hint": "Chu vi = 2 × π × r, Diện tích = π × r²",
               "answer": "Chu vi = 2 × 3,14 × 6 = 37,68 cm. Diện tích = 3,14 × 6² = 3,14 × 36 = 113,04 cm²",
               "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Hình tròn, hình hộp chữ nhật, hình lập phương",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Hình tròn, hình hộp chữ nhật, hình lập phương (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Hình tròn, hình hộp chữ nhật, hình lập phương.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -522,6 +687,21 @@
               "hint": "1 ngày = 24 giờ",
               "answer": "1,25 ngày = 1,25 × 24 = 30 giờ",
               "created_at": "2025-01-01T00:00:43.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Bảng đơn vị đo thời gian",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Bảng đơn vị đo thời gian (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Bảng đơn vị đo thời gian.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -576,6 +756,15 @@
               "hint": "Trừ hai thời điểm: 12 giờ 50 phút - 8 giờ 20 phút",
               "answer": "Thời gian làm việc = 12 giờ 50 phút - 8 giờ 20 phút = 4 giờ 30 phút",
               "created_at": "2025-01-01T00:00:45.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Cộng, trừ số đo thời gian",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Cộng, trừ số đo thời gian (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cộng, trừ số đo thời gian.",
+              "answer": "Đây là câu trả lời phân tích sâu về Cộng, trừ số đo thời gian. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -630,6 +819,21 @@
               "hint": "Chia 4 giờ 30 phút cho 3.",
               "answer": "4 giờ 30 phút = 270 phút. Thời gian làm 1 sản phẩm = 270 : 3 = 90 phút = 1 giờ 30 phút",
               "created_at": "2025-01-01T00:00:47.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Nhân, chia số đo thời gian",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Nhân, chia số đo thời gian (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhân, chia số đo thời gian.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -705,6 +909,30 @@
               "correctOption": "B",
               "hint": "$0,25 = \\frac{1}{4}$. Tính: $\\frac{3}{4} + \\frac{1}{4} = \\frac{4}{4} = 1$.",
               "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Ôn tập về số tự nhiên, phân số, số thập phân",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Ôn tập về số tự nhiên, phân số, số thập phân (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Ôn tập về số tự nhiên, phân số, số thập phân.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Ôn tập về số tự nhiên, phân số, số thập phân",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Ôn tập về số tự nhiên, phân số, số thập phân (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Ôn tập về số tự nhiên, phân số, số thập phân.",
+              "answer": "Đây là câu trả lời phân tích sâu về Ôn tập về số tự nhiên, phân số, số thập phân. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -798,6 +1026,21 @@
               "correctOption": "A",
               "hint": "5 m = 500 cm, 8 dm = 80 cm, 5 cm = 5 cm. Tổng: 500 + 80 + 5 = 585 cm.",
               "created_at": "2025-01-01T00:00:55.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Ôn tập về hình học và đo lường",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Ôn tập về hình học và đo lường (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Ôn tập về hình học và đo lường.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -805,4 +1048,3 @@
     }
   ]
 }
-

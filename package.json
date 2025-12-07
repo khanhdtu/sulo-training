@@ -1,5 +1,5 @@
 {
-  "name": "sulo-training",
+  "name": "baitap-online",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -26,6 +26,11 @@
     "db:create-nhahan": "tsx scripts/create-user-nhahan.ts",
     "supabase:check": "tsx scripts/check-supabase.ts",
     "env:check": "tsx scripts/check-env.ts",
+    "email:test": "tsx scripts/test-email.ts",
+    "email:send-daily": "tsx scripts/send-daily-activity-email.ts",
+    "test:cache": "tsx scripts/test-conversation-cache.ts",
+    "email:send-weekly": "tsx scripts/send-weekly-activity-email.ts",
+    "test:submit-chapter": "tsx scripts/test-submit-chapter.ts",
     "check:all": "npm run env:check && npm run db:check && npm run supabase:check"
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-// Prisma schema for Sulo Training System
+// Prisma schema for BaitapOnline System
 generator client {
   provider = "prisma-client-js"
 }
@@ -144,6 +144,8 @@ model User {
   displayName  String?   @map("display_name") // Optional display name
   role         String    @default("student") // admin/student
   phone        String?
+  parentEmail  String?   @map("parent_email") // Parent email for notifications
+  parentPhone  String?   @map("parent_phone") // Parent phone for notifications
   avatarUrl    String?   @map("avatar_url")
   isActive     Boolean   @default(true) @map("is_active")
   gradeId      Int?      @map("grade_id") // Reference to Grade
@@ -212,6 +214,7 @@ model UserExerciseAttempt {
   score         Decimal? @db.Decimal(5, 2) // Score out of total points
   totalPoints   Int      @default(0) @map("total_points")
   isCompleted   Boolean  @default(false) @map("is_completed")
+  status        String   @default("draft") // draft, submitted, completed
   completedAt   DateTime? @map("completed_at")
   user          User     @relation(fields: [userId], references: [id])
   exercise      Exercise @relation(fields: [exerciseId], references: [id])
@@ -254,6 +257,8 @@ model UserChapterProgress {
   progress      Int      @default(0) // Percentage 0-100 (calculated from sections)
   completedSections Int  @default(0) @map("completed_sections") // Number of completed sections
   totalSections Int      @default(0) @map("total_sections") // Total sections in chapter
+  completedExercises Int  @default(0) @map("completed_exercises") // Number of completed exercises
+  totalExercises Int     @default(0) @map("total_exercises") // Total exercises in chapter
   lastAccessedAt DateTime? @map("last_accessed_at")
   completedAt   DateTime? @map("completed_at")
   user          User     @relation(fields: [userId], references: [id])
@@ -348,4 +353,21 @@ model Activity {
   @@index([endpoint, createdAt])
   @@index([statusCode])
   @@map("activities")
+}
+
+// Cache for conversation responses to avoid duplicate OpenAI API calls
+model ConversationCache {
+  id          Int      @id @default(autoincrement())
+  questionHash String  @unique @map("question_hash") // Hash of normalized question for fast lookup
+  question    String   @db.Text // Original user question
+  response    String   @db.Text // Cached OpenAI response
+  metadata    Json?    // Additional metadata (model, tokens, etc.)
+  hitCount    Int      @default(0) @map("hit_count") // Number of times this cache was used
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  expiresAt   DateTime? @map("expires_at") // Optional TTL for cache expiration
+
+  @@index([questionHash])
+  @@index([expiresAt])
+  @@map("conversation_cache")
 }

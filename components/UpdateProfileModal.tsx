@@ -9,7 +9,8 @@ interface UpdateProfileModalProps {
   onSuccess: () => void;
   currentGradeId?: number | null;
   currentLevel?: number | null;
-  currentDisplayName?: string | null;
+  currentName?: string | null;
+  currentParentEmail?: string | null;
 }
 
 export default function UpdateProfileModal({
@@ -18,26 +19,33 @@ export default function UpdateProfileModal({
   onSuccess,
   currentGradeId,
   currentLevel,
-  currentDisplayName,
+  currentName,
+  currentParentEmail,
 }: UpdateProfileModalProps) {
   const [formData, setFormData] = useState({
     gradeId: currentGradeId || 7,
     difficulty: currentLevel ? (currentLevel <= 4 ? 'easy' : currentLevel <= 8 ? 'medium' : 'hard') : 'easy',
-    displayName: currentDisplayName || '',
+    displayName: currentName || '',
+    parentEmail: currentParentEmail || '',
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
   useEffect(() => {
     if (isOpen) {
-      setFormData({
-        gradeId: currentGradeId || 7,
-        difficulty: currentLevel ? (currentLevel <= 4 ? 'easy' : currentLevel <= 8 ? 'medium' : 'hard') : 'easy',
-        displayName: currentDisplayName || '',
-      });
+      // Always update formData when modal opens or when currentName/currentParentEmail changes
+      // This ensures the fields show the current values
+      setFormData((prev) => ({
+        gradeId: currentGradeId || prev.gradeId || 7,
+        difficulty: currentLevel 
+          ? (currentLevel <= 4 ? 'easy' : currentLevel <= 8 ? 'medium' : 'hard') 
+          : prev.difficulty || 'easy',
+        displayName: currentName ?? prev.displayName ?? '', // Preserve existing value if currentName is null/undefined
+        parentEmail: currentParentEmail ?? prev.parentEmail ?? '', // Preserve existing value if currentParentEmail is null/undefined
+      }));
       setError('');
     }
-  }, [isOpen, currentGradeId, currentLevel, currentDisplayName]);
+  }, [isOpen, currentGradeId, currentLevel, currentName, currentParentEmail]);
 
   if (!isOpen) return null;
 
@@ -59,6 +67,7 @@ export default function UpdateProfileModal({
         gradeId: formData.gradeId,
         level: level,
         displayName: formData.displayName || null,
+        parentEmail: formData.parentEmail || null,
       });
 
       // Success
@@ -82,7 +91,7 @@ export default function UpdateProfileModal({
           Cập nhật thông tin
         </h2>
         <p className="text-gray-600 mb-6">
-          Vui lòng cập nhật thông tin để hệ thống đề xuất bài tập phù hợp với bạn.
+          Vui lòng cập nhật thông tin Lớp học và Mức học để hệ thống đề xuất bài tập phù hợp.
         </p>
 
         {error && (
@@ -141,6 +150,21 @@ export default function UpdateProfileModal({
               onChange={(e) => setFormData({ ...formData, displayName: e.target.value })}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               placeholder="Nhập tên hiển thị (tùy chọn)"
+            />
+          </div>
+
+          {/* Parent Email */}
+          <div>
+            <label htmlFor="parentEmail" className="block text-sm font-medium text-gray-700 mb-1">
+              Email của phụ huynh (tùy chọn)
+            </label>
+            <input
+              id="parentEmail"
+              type="email"
+              value={formData.parentEmail}
+              onChange={(e) => setFormData({ ...formData, parentEmail: e.target.value })}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              placeholder="Nhập email của phụ huynh (nếu có)"
             />
           </div>
 

@@ -51,6 +51,39 @@
               "hint": "Tính chất vật lí: quan sát được, không thay đổi bản chất. Tính chất hóa học: chỉ thể hiện khi có phản ứng, thay đổi bản chất.",
               "answer": "Tính chất vật lí: có thể quan sát được mà không làm thay đổi bản chất của chất (ví dụ: màu sắc, mùi vị, nhiệt độ sôi). Tính chất hóa học: chỉ thể hiện khi có phản ứng hóa học, tạo ra chất mới (ví dụ: khả năng cháy, khả năng tác dụng với axit).",
               "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Tính chất của chất",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Tính chất của chất (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tính chất của chất.",
+              "answer": "Đây là câu trả lời vận dụng về Tính chất của chất. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tính chất của chất",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tính chất của chất (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tính chất của chất để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tính chất của chất",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tính chất của chất (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tính chất của chất.",
+              "answer": "Đây là câu trả lời vận dụng về Tính chất của chất. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -81,6 +114,45 @@
               "hint": "Hiện tượng hóa học tạo ra chất mới, không thể đảo ngược.",
               "answer": "Đốt cháy củi là hiện tượng hóa học vì: củi (chủ yếu là cellulose) phản ứng với oxi trong không khí tạo ra các chất mới là khí CO2, hơi nước và tro. Quá trình này không thể đảo ngược, ta không thể biến tro và khí CO2 trở lại thành củi.",
               "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Sự biến đổi vật lí và hóa học",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Sự biến đổi vật lí và hóa học (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự biến đổi vật lí và hóa học để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Sự biến đổi vật lí và hóa học",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Sự biến đổi vật lí và hóa học (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự biến đổi vật lí và hóa học.",
+              "answer": "Đây là câu trả lời vận dụng về Sự biến đổi vật lí và hóa học. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Sự biến đổi vật lí và hóa học",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Sự biến đổi vật lí và hóa học (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự biến đổi vật lí và hóa học để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -111,6 +183,30 @@
               "hint": "Nguyên tử tạo nên phân tử, phân tử tạo nên chất.",
               "answer": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học. Các nguyên tử liên kết với nhau tạo thành phân tử. Phân tử là hạt nhỏ nhất của hợp chất, giữ nguyên tính chất hóa học của chất đó. Nhiều phân tử cùng loại tạo nên chất.",
               "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Nguyên tử và phân tử",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Nguyên tử và phân tử (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nguyên tử và phân tử.",
+              "answer": "Đây là câu trả lời vận dụng về Nguyên tử và phân tử. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Nguyên tử và phân tử",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Nguyên tử và phân tử (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nguyên tử và phân tử để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -147,6 +243,45 @@
               "hint": "Nhiệt điện: đốt nhiên liệu → nhiệt → hơi nước → cơ học → điện.",
               "answer": "Trong nhà máy nhiệt điện: năng lượng hóa học từ nhiên liệu (than, dầu) được đốt cháy chuyển thành năng lượng nhiệt. Nhiệt làm nước sôi tạo hơi nước có áp suất cao. Hơi nước làm quay tuabin (năng lượng cơ học), tuabin quay máy phát điện tạo ra năng lượng điện.",
               "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Năng lượng và các dạng năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Năng lượng và các dạng năng lượng (Câu 7/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Năng lượng và các dạng năng lượng để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Năng lượng và các dạng năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Năng lượng và các dạng năng lượng (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Năng lượng và các dạng năng lượng.",
+              "answer": "Đây là câu trả lời vận dụng về Năng lượng và các dạng năng lượng. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Năng lượng và các dạng năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Năng lượng và các dạng năng lượng (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Năng lượng và các dạng năng lượng để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -177,6 +312,39 @@
               "hint": "Năng lượng không tự sinh ra hoặc mất đi, chỉ chuyển hóa từ dạng này sang dạng khác.",
               "answer": "Định luật bảo toàn năng lượng: năng lượng không tự sinh ra hoặc mất đi, chỉ chuyển hóa từ dạng này sang dạng khác. Tổng năng lượng trong một hệ kín luôn được bảo toàn. Ví dụ: năng lượng điện chuyển thành năng lượng nhiệt và ánh sáng trong bóng đèn.",
               "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Sự chuyển hóa năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Sự chuyển hóa năng lượng (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự chuyển hóa năng lượng.",
+              "answer": "Đây là câu trả lời vận dụng về Sự chuyển hóa năng lượng. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Sự chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Sự chuyển hóa năng lượng (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự chuyển hóa năng lượng để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Sự chuyển hóa năng lượng",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Sự chuyển hóa năng lượng (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự chuyển hóa năng lượng.",
+              "answer": "Đây là câu trả lời vận dụng về Sự chuyển hóa năng lượng. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -207,6 +375,45 @@
               "hint": "Ưu điểm: sạch, tái tạo. Nhược điểm: phụ thuộc thời tiết, chi phí ban đầu cao.",
               "answer": "Ưu điểm: năng lượng sạch, không gây ô nhiễm; nguồn năng lượng tái tạo, vô tận; có thể sử dụng ở nhiều nơi. Nhược điểm: phụ thuộc vào thời tiết và ánh sáng mặt trời; chi phí lắp đặt ban đầu cao; hiệu suất chuyển đổi còn hạn chế.",
               "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Năng lượng trong đời sống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Năng lượng trong đời sống (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Năng lượng trong đời sống để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Năng lượng trong đời sống",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Năng lượng trong đời sống (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Năng lượng trong đời sống.",
+              "answer": "Đây là câu trả lời vận dụng về Năng lượng trong đời sống. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Năng lượng trong đời sống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Năng lượng trong đời sống (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Năng lượng trong đời sống để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -243,6 +450,45 @@
               "hint": "Tế bào thực vật có thành tế bào, lục lạp; tế bào động vật không có.",
               "answer": "Giống nhau: đều có màng tế bào, tế bào chất, nhân tế bào. Khác nhau: tế bào thực vật có thành tế bào cứng (cellulose), lục lạp (quang hợp), không bào lớn; tế bào động vật không có thành tế bào, không có lục lạp, có trung thể.",
               "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Tế bào - Đơn vị cơ bản của sự sống (Câu 7/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tế bào - Đơn vị cơ bản của sự sống để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tế bào - Đơn vị cơ bản của sự sống.",
+              "answer": "Đây là câu trả lời vận dụng về Tế bào - Đơn vị cơ bản của sự sống. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tế bào - Đơn vị cơ bản của sự sống (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tế bào - Đơn vị cơ bản của sự sống để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -273,6 +519,39 @@
               "hint": "Đa dạng sinh học giúp duy trì cân bằng sinh thái, cung cấp tài nguyên, điều hòa khí hậu.",
               "answer": "Đa dạng sinh học quan trọng vì: duy trì cân bằng sinh thái, mỗi loài có vai trò riêng trong chuỗi thức ăn; cung cấp tài nguyên (thức ăn, thuốc, nguyên liệu); điều hòa khí hậu và môi trường; có giá trị khoa học và thẩm mỹ.",
               "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Đa dạng sinh học",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Đa dạng sinh học (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Đa dạng sinh học.",
+              "answer": "Đây là câu trả lời vận dụng về Đa dạng sinh học. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Đa dạng sinh học",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Đa dạng sinh học (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Đa dạng sinh học để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Đa dạng sinh học",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Đa dạng sinh học (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Đa dạng sinh học.",
+              "answer": "Đây là câu trả lời vận dụng về Đa dạng sinh học. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -303,6 +582,45 @@
               "hint": "Quang hợp: thu năng lượng, tạo đường, giải phóng O2. Hô hấp: giải phóng năng lượng, phân giải đường, tiêu thụ O2.",
               "answer": "Quang hợp: thu năng lượng ánh sáng, sử dụng CO2 và H2O, tạo ra glucose và O2, xảy ra ở lục lạp, cần ánh sáng. Hô hấp: giải phóng năng lượng ATP, sử dụng glucose và O2, tạo ra CO2 và H2O, xảy ra ở ti thể, diễn ra liên tục.",
               "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Trao đổi chất và chuyển hóa năng lượng ở sinh vật để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
+              "answer": "Đây là câu trả lời vận dụng về Trao đổi chất và chuyển hóa năng lượng ở sinh vật. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Trao đổi chất và chuyển hóa năng lượng ở sinh vật để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -339,6 +657,45 @@
               "hint": "Động đất và núi lửa do sự chuyển động của các mảng kiến tạo trên lớp vỏ Trái Đất.",
               "answer": "Động đất và núi lửa xảy ra do sự chuyển động của các mảng kiến tạo trên lớp vỏ Trái Đất. Khi các mảng va chạm, tách rời hoặc trượt lên nhau, tạo ra động đất. Núi lửa hình thành khi magma từ lớp phủ phun trào lên bề mặt qua các khe nứt trong vỏ Trái Đất.",
               "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Cấu trúc Trái Đất",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Cấu trúc Trái Đất (Câu 7/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cấu trúc Trái Đất để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Cấu trúc Trái Đất",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Cấu trúc Trái Đất (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Cấu trúc Trái Đất.",
+              "answer": "Đây là câu trả lời vận dụng về Cấu trúc Trái Đất. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Cấu trúc Trái Đất",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Cấu trúc Trái Đất (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cấu trúc Trái Đất để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -369,6 +726,39 @@
               "hint": "Vòng tuần hoàn: bay hơi → ngưng tụ → mưa → chảy về đại dương → lặp lại.",
               "answer": "Vòng tuần hoàn nước: nước từ đại dương, sông, hồ bay hơi thành hơi nước. Hơi nước bay lên cao, gặp lạnh ngưng tụ thành mây. Khi đủ nặng, mây tạo thành mưa, tuyết rơi xuống đất. Nước chảy về sông, hồ, đại dương và quá trình lặp lại.",
               "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Khí quyển và thời tiết",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Khí quyển và thời tiết (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Khí quyển và thời tiết.",
+              "answer": "Đây là câu trả lời vận dụng về Khí quyển và thời tiết. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Khí quyển và thời tiết",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Khí quyển và thời tiết (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Khí quyển và thời tiết để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Khí quyển và thời tiết",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Khí quyển và thời tiết (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Khí quyển và thời tiết.",
+              "answer": "Đây là câu trả lời vận dụng về Khí quyển và thời tiết. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -399,6 +789,45 @@
               "hint": "Hành tinh trong: nhỏ, đá, gần Mặt Trời. Hành tinh ngoài: lớn, khí, xa Mặt Trời.",
               "answer": "Hành tinh trong (Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa): nhỏ, cấu tạo chủ yếu bằng đá, gần Mặt Trời, nhiệt độ cao, ít hoặc không có vệ tinh. Hành tinh ngoài (Sao Mộc, Sao Thổ, Sao Thiên Vương, Sao Hải Vương): lớn, cấu tạo chủ yếu bằng khí, xa Mặt Trời, nhiệt độ thấp, có nhiều vệ tinh và vành đai.",
               "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Hệ Mặt Trời và các hành tinh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Hệ Mặt Trời và các hành tinh (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Hệ Mặt Trời và các hành tinh để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Hệ Mặt Trời và các hành tinh",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Hệ Mặt Trời và các hành tinh (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Hệ Mặt Trời và các hành tinh.",
+              "answer": "Đây là câu trả lời vận dụng về Hệ Mặt Trời và các hành tinh. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Hệ Mặt Trời và các hành tinh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Hệ Mặt Trời và các hành tinh (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Hệ Mặt Trời và các hành tinh để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -406,4 +835,3 @@
     }
   ]
 }
-

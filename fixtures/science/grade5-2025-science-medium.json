@@ -36,6 +36,30 @@
               "hint": "Nêu điểm giống và khác nhau về cách sinh sản, cơ quan sinh sản...",
               "answer": "Điểm giống: Cả động vật và thực vật đều có khả năng sinh sản để tạo ra thế hệ mới. Điểm khác: Động vật thường sinh sản bằng cách đẻ con hoặc đẻ trứng, còn thực vật có hoa sinh sản bằng hạt. Động vật có thể di chuyển để tìm bạn tình, còn thực vật cần nhờ gió, côn trùng để thụ phấn.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Sự sinh sản",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Sự sinh sản (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự sinh sản để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Sự sinh sản",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Sự sinh sản (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự sinh sản.",
+              "answer": "Đây là câu trả lời vận dụng về Sự sinh sản. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -66,6 +90,30 @@
               "hint": "Nêu các biện pháp: tắm rửa, thay quần áo, vệ sinh răng miệng...",
               "answer": "Các biện pháp vệ sinh cần thiết: Tắm rửa sạch sẽ hàng ngày, đặc biệt sau khi vận động. Thay quần áo thường xuyên, đặc biệt là đồ lót. Vệ sinh răng miệng đúng cách. Giữ gìn vệ sinh cá nhân. Có chế độ ăn uống lành mạnh và tập thể dục đều đặn.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Vệ sinh tuổi dậy thì",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Vệ sinh tuổi dậy thì (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Vệ sinh tuổi dậy thì để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Vệ sinh tuổi dậy thì",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Vệ sinh tuổi dậy thì (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Vệ sinh tuổi dậy thì.",
+              "answer": "Đây là câu trả lời vận dụng về Vệ sinh tuổi dậy thì. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -96,6 +144,21 @@
               "hint": "Nêu điểm giống và khác nhau về cách phòng bệnh...",
               "answer": "Điểm giống: Cả hai đều cần diệt muỗi và lăng quăng, không để nước đọng, ngủ màn. Điểm khác: Sốt rét cần đặc biệt chú ý ngủ màn đã được tẩm hóa chất, còn sốt xuất huyết cần chú ý diệt lăng quăng trong các dụng cụ chứa nước. Cả hai đều cần giữ vệ sinh môi trường sống.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Phân tích về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -186,6 +249,30 @@
               "hint": "Nêu các vai trò: tham gia quá trình trao đổi chất, vận chuyển chất dinh dưỡng...",
               "answer": "Nước quan trọng vì: Tham gia vào mọi quá trình trao đổi chất trong cơ thể. Vận chuyển chất dinh dưỡng và oxy đến các tế bào. Điều hòa thân nhiệt. Thải các chất độc ra ngoài. Là thành phần chính của cơ thể (chiếm khoảng 70% trọng lượng cơ thể). Không có nước, không có sự sống.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Tính chất của nước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Tính chất của nước (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tính chất của nước để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Tính chất của nước",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Tính chất của nước (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tính chất của nước.",
+              "answer": "Đây là câu trả lời vận dụng về Tính chất của nước. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -216,6 +303,30 @@
               "hint": "Nêu các quá trình: bay hơi, ngưng tụ, mưa...",
               "answer": "Vòng tuần hoàn nước: Nước ở biển, sông, hồ bay hơi thành hơi nước (bay hơi). Hơi nước bay lên cao, gặp lạnh ngưng tụ thành những giọt nước nhỏ tạo thành mây (ngưng tụ). Khi mây đủ nặng, nước rơi xuống đất dưới dạng mưa. Nước mưa chảy vào sông, hồ, biển và tiếp tục vòng tuần hoàn.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Sự chuyển thể của nước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Sự chuyển thể của nước (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự chuyển thể của nước để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Sự chuyển thể của nước",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Sự chuyển thể của nước (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự chuyển thể của nước.",
+              "answer": "Đây là câu trả lời vận dụng về Sự chuyển thể của nước. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -246,6 +357,21 @@
               "hint": "Nêu các dạng: cơ năng, nhiệt năng, điện năng, quang năng... và ví dụ chuyển hóa.",
               "answer": "Các dạng năng lượng: Cơ năng (năng lượng của vật chuyển động), nhiệt năng (năng lượng nhiệt), điện năng (năng lượng điện), quang năng (năng lượng ánh sáng), hóa năng (năng lượng trong thức ăn). Ví dụ chuyển hóa: Khi chạy, cơ năng chuyển thành nhiệt năng (nóng người). Pin chuyển hóa năng thành điện năng. Cây xanh chuyển quang năng thành hóa năng.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Năng lượng",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Năng lượng (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Năng lượng để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -336,6 +462,30 @@
               "hint": "Nêu các bước: thụ phấn (phấn hoa đến nhụy), thụ tinh (tế bào đực kết hợp với tế bào cái)...",
               "answer": "Quá trình sinh sản: Thụ phấn: Phấn hoa từ nhị được chuyển đến đầu nhụy (nhờ gió, côn trùng, hoặc tự thụ phấn). Thụ tinh: Sau khi thụ phấn, tế bào đực trong hạt phấn kết hợp với tế bào cái trong noãn. Sau thụ tinh, noãn phát triển thành hạt, bầu nhụy phát triển thành quả. Hạt chứa phôi cây con, sẽ nảy mầm thành cây mới.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Cơ quan sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Cơ quan sinh sản của thực vật có hoa (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cơ quan sinh sản của thực vật có hoa để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Cơ quan sinh sản của thực vật có hoa",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Cơ quan sinh sản của thực vật có hoa (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Cơ quan sinh sản của thực vật có hoa.",
+              "answer": "Đây là câu trả lời vận dụng về Cơ quan sinh sản của thực vật có hoa. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -366,6 +516,30 @@
               "hint": "Nêu điểm giống và khác nhau về cách thụ phấn, đặc điểm hoa...",
               "answer": "Điểm giống: Cả hai đều là cách thụ phấn, giúp phấn hoa đến nhụy. Điểm khác: Thụ phấn nhờ gió: Hoa thường nhỏ, không màu sắc rực rỡ, phấn hoa nhẹ, nhiều. Thụ phấn nhờ côn trùng: Hoa thường lớn, màu sắc rực rỡ, có mùi thơm, có mật hoa để thu hút côn trùng. Mỗi cách có ưu điểm riêng.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Sự sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Sự sinh sản của thực vật có hoa (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Sự sinh sản của thực vật có hoa để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Sự sinh sản của thực vật có hoa",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Sự sinh sản của thực vật có hoa (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Sự sinh sản của thực vật có hoa.",
+              "answer": "Đây là câu trả lời vận dụng về Sự sinh sản của thực vật có hoa. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -396,6 +570,21 @@
               "hint": "Nêu các bước: hút nước, nứt vỏ, mọc rễ, mọc chồi...",
               "answer": "Quá trình nảy mầm: Bước 1: Hạt hút nước, trương lên. Bước 2: Vỏ hạt nứt ra. Bước 3: Rễ mầm mọc ra trước, đâm xuống đất để hút nước và chất dinh dưỡng. Bước 4: Chồi mầm mọc lên trên, phát triển thành thân và lá. Bước 5: Cây con lớn dần, lá xanh xuất hiện, cây bắt đầu quang hợp.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Phân tích về Cây con mọc lên từ hạt",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Cây con mọc lên từ hạt (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cây con mọc lên từ hạt để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -486,6 +675,30 @@
               "hint": "Nêu mối quan hệ: không khí, đất, nước, sinh vật phụ thuộc lẫn nhau...",
               "answer": "Các thành phần môi trường có mối quan hệ chặt chẽ: Không khí cung cấp oxy cho sinh vật. Nước cần thiết cho mọi sinh vật. Đất cung cấp chất dinh dưỡng cho thực vật. Thực vật tạo oxy và thức ăn. Động vật thụ phấn cho thực vật, phân hủy chất hữu cơ. Tất cả phụ thuộc lẫn nhau, tạo thành hệ sinh thái cân bằng.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Môi trường",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Môi trường (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Môi trường để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Môi trường",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Môi trường (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Môi trường.",
+              "answer": "Đây là câu trả lời vận dụng về Môi trường. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -516,6 +729,30 @@
               "hint": "Nêu đặc điểm, ví dụ, cách sử dụng...",
               "answer": "Tài nguyên tái tạo: Có thể phục hồi sau khi sử dụng (nước, gỗ, cá...). Cần sử dụng hợp lý, không khai thác quá mức. Tài nguyên không tái tạo: Không thể phục hồi hoặc mất rất nhiều thời gian (than đá, dầu mỏ, kim loại...). Cần tiết kiệm, tái sử dụng, tìm nguồn thay thế. Cả hai loại đều cần được bảo vệ và sử dụng bền vững.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Tài nguyên thiên nhiên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Tài nguyên thiên nhiên (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tài nguyên thiên nhiên để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Tài nguyên thiên nhiên",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Tài nguyên thiên nhiên (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tài nguyên thiên nhiên.",
+              "answer": "Đây là câu trả lời vận dụng về Tài nguyên thiên nhiên. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -546,6 +783,21 @@
               "hint": "Nêu các vai trò: cung cấp tài nguyên, điều hòa khí hậu, xử lý chất thải...",
               "answer": "Các vai trò: Cung cấp tài nguyên: thức ăn, nước, không khí, nguyên liệu sản xuất. Điều hòa khí hậu: rừng, đại dương giúp điều hòa nhiệt độ, lượng mưa. Xử lý chất thải: môi trường tự nhiên có khả năng phân hủy và làm sạch. Cung cấp không gian sống: nơi ở, nơi làm việc, nơi giải trí. Duy trì đa dạng sinh học: tạo môi trường cho các loài sinh vật. Môi trường là nền tảng cho sự tồn tại và phát triển của con người.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Phân tích về Vai trò của môi trường tự nhiên đối với đời sống con người",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Vai trò của môi trường tự nhiên đối với đời sống con người để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -607,4 +859,3 @@
     }
   ]
 }
-

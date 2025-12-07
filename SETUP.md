@@ -1,9 +1,9 @@
-# Setup Guide - Sulo Training
+# Setup Guide - BaitapOnline
 
 ## Bước 1: Clone và Install Dependencies
 
 ```bash
-cd sulo-training
+cd baitap-online
 npm install
 ```
 

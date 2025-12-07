@@ -34,6 +34,7 @@ export interface Exercise {
     score?: number | null;
     totalPoints: number;
     isCompleted: boolean;
+    status?: string; // draft, submitted, completed
     completedAt?: string | null;
   } | null;
   status: string;

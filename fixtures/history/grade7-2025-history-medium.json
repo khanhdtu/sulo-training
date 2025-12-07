@@ -36,6 +36,45 @@
               "hint": "Ý nghĩa: chấm dứt thời kỳ Bắc thuộc, mở ra thời kỳ độc lập, thể hiện tinh thần yêu nước.",
               "answer": "Ý nghĩa: Chấm dứt hoàn toàn thời kỳ Bắc thuộc kéo dài hơn 1000 năm; mở ra thời kỳ độc lập, tự chủ lâu dài cho dân tộc; thể hiện tinh thần yêu nước, ý chí độc lập của dân tộc; để lại bài học quân sự quý giá về chiến thuật đánh giặc trên sông; khẳng định sức mạnh của dân tộc Việt Nam.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Nước ta buổi đầu độc lập",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Nước ta buổi đầu độc lập (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nước ta buổi đầu độc lập để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Nước ta buổi đầu độc lập",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Nước ta buổi đầu độc lập (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nước ta buổi đầu độc lập.",
+              "answer": "Đây là câu trả lời vận dụng về Nước ta buổi đầu độc lập. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Nước ta buổi đầu độc lập",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Nước ta buổi đầu độc lập (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nước ta buổi đầu độc lập để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -66,6 +105,39 @@
               "hint": "Đinh Bộ Lĩnh: thống nhất đất nước. Lê Hoàn: đánh thắng quân Tống, bảo vệ độc lập.",
               "answer": "Đinh Bộ Lĩnh: Dẹp loạn 12 sứ quân, thống nhất đất nước sau thời kỳ chia cắt; lập nên nhà Đinh, đặt tên nước là Đại Cồ Việt; xây dựng bộ máy nhà nước phong kiến. Lê Hoàn: Lãnh đạo cuộc kháng chiến chống Tống lần thứ nhất (981), bảo vệ độc lập dân tộc; lập nên nhà Tiền Lê; củng cố chính quyền trung ương. Cả hai đều có công lớn trong việc xây dựng và bảo vệ đất nước buổi đầu độc lập.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Nhà Ngô, Đinh, Tiền Lê (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nhà Ngô, Đinh, Tiền Lê.",
+              "answer": "Đây là câu trả lời vận dụng về Nhà Ngô, Đinh, Tiền Lê. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Nhà Ngô, Đinh, Tiền Lê (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhà Ngô, Đinh, Tiền Lê để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Nhà Ngô, Đinh, Tiền Lê (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nhà Ngô, Đinh, Tiền Lê.",
+              "answer": "Đây là câu trả lời vận dụng về Nhà Ngô, Đinh, Tiền Lê. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -96,6 +168,45 @@
               "hint": "Nguyên nhân: tinh thần yêu nước, chiến thuật đúng đắn, sự lãnh đạo tài tình, địa hình thuận lợi.",
               "answer": "Nguyên nhân thắng lợi: Tinh thần yêu nước, đoàn kết của toàn dân; chiến thuật quân sự đúng đắn của Lê Hoàn - chủ động tấn công, phòng thủ chặt chẽ; sự lãnh đạo tài tình, quyết đoán; địa hình thuận lợi, quen thuộc với quân ta; quân Tống xa nhà, thiếu hậu cần, không quen địa hình.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cuộc kháng chiến chống Tống lần thứ nhất (981) để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Cuộc kháng chiến chống Tống lần thứ nhất (981).",
+              "answer": "Đây là câu trả lời vận dụng về Cuộc kháng chiến chống Tống lần thứ nhất (981). Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cuộc kháng chiến chống Tống lần thứ nhất (981) để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -132,6 +243,45 @@
               "hint": "Cải cách: hành chính, quân sự, kinh tế, văn hóa, giáo dục.",
               "answer": "Cải cách: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ, chia cả nước thành các lộ, phủ, huyện. Quân sự: Tổ chức quân đội theo chế độ 'ngụ binh ư nông'. Kinh tế: Khuyến khích sản xuất nông nghiệp, thủ công nghiệp, thương mại. Văn hóa: Phát triển Phật giáo, xây dựng nhiều chùa chiền. Giáo dục: Mở Quốc Tử Giám, tổ chức thi cử để tuyển chọn nhân tài.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Nhà Lý thành lập và xây dựng đất nước (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhà Lý thành lập và xây dựng đất nước để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Nhà Lý thành lập và xây dựng đất nước",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Nhà Lý thành lập và xây dựng đất nước (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nhà Lý thành lập và xây dựng đất nước.",
+              "answer": "Đây là câu trả lời vận dụng về Nhà Lý thành lập và xây dựng đất nước. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Nhà Lý thành lập và xây dựng đất nước (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhà Lý thành lập và xây dựng đất nước để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -162,6 +312,39 @@
               "hint": "Bài thơ khẳng định chủ quyền, động viên tinh thần quân sĩ, thể hiện ý chí độc lập.",
               "answer": "Bài thơ 'Nam quốc sơn hà' của Lý Thường Kiệt: Khẳng định chủ quyền lãnh thổ của Đại Việt; động viên tinh thần quân sĩ, nâng cao ý chí chiến đấu; thể hiện ý chí độc lập, tự chủ của dân tộc; có tác dụng tâm lý lớn, làm quân Tống hoang mang; là bản tuyên ngôn độc lập đầu tiên của dân tộc ta.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời vận dụng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời vận dụng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -192,6 +375,45 @@
               "hint": "Phật giáo ảnh hưởng đến: kiến trúc, nghệ thuật, tư tưởng, giáo dục, đời sống xã hội.",
               "answer": "Ảnh hưởng: Kiến trúc: Xây dựng nhiều chùa chiền, tháp (Chùa Một Cột, tháp Báo Thiên). Nghệ thuật: Điêu khắc tượng Phật, tranh vẽ Phật giáo. Tư tưởng: Tinh thần từ bi, hỷ xả ảnh hưởng đến đạo đức xã hội. Giáo dục: Nhiều nhà sư là học giả, góp phần phát triển giáo dục. Đời sống: Phật giáo gần gũi với nhân dân, ảnh hưởng đến lối sống, phong tục.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Lý",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Lý (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Lý để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Lý",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Lý (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Văn hóa Đại Việt thời Lý.",
+              "answer": "Đây là câu trả lời vận dụng về Văn hóa Đại Việt thời Lý. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Văn hóa Đại Việt thời Lý",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Văn hóa Đại Việt thời Lý (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Lý để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -228,6 +450,45 @@
               "hint": "Thái thượng hoàng: vua nhường ngôi cho con nhưng vẫn tham gia trị nước, có tác dụng ổn định chính trị.",
               "answer": "Chế độ Thái thượng hoàng: Vua nhường ngôi cho con trai nhưng vẫn tham gia việc nước với tư cách Thái thượng hoàng; giúp đào tạo vua trẻ, đảm bảo tính liên tục của chính sách; tăng cường sự ổn định chính trị, tránh tranh giành quyền lực; thể hiện sự khôn ngoan trong quản lý nhà nước của nhà Trần.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Nhà Trần thành lập và củng cố chính quyền (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhà Trần thành lập và củng cố chính quyền để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Nhà Trần thành lập và củng cố chính quyền",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Nhà Trần thành lập và củng cố chính quyền (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Nhà Trần thành lập và củng cố chính quyền.",
+              "answer": "Đây là câu trả lời vận dụng về Nhà Trần thành lập và củng cố chính quyền. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Nhà Trần thành lập và củng cố chính quyền (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhà Trần thành lập và củng cố chính quyền để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -258,6 +519,39 @@
               "hint": "Nguyên nhân: tinh thần yêu nước, sự lãnh đạo tài tình, chiến thuật đúng đắn, sự đoàn kết toàn dân.",
               "answer": "Nguyên nhân thắng lợi: Tinh thần yêu nước, đoàn kết của toàn dân tộc ('Hội nghị Diên Hồng', 'Hịch tướng sĩ'); sự lãnh đạo tài tình của các vua Trần và Trần Hưng Đạo; chiến thuật quân sự đúng đắn (vườn không nhà trống, đánh du kích, phòng thủ chặt chẽ); tận dụng địa hình, thời tiết; quân Mông - Nguyên xa nhà, thiếu hậu cần, không quen địa hình; sự chuẩn bị chu đáo của nhà Trần.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời vận dụng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời vận dụng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -288,6 +582,45 @@
               "hint": "Giá trị: văn học, lịch sử, tư tưởng, động viên tinh thần.",
               "answer": "Giá trị: Văn học: Tác phẩm văn học xuất sắc, thể hiện tài năng văn chương. Lịch sử: Phản ánh tinh thần yêu nước, ý chí chiến đấu của dân tộc. Tư tưởng: Thể hiện tư tưởng yêu nước, thương dân, quyết tâm đánh giặc. Động viên: Có tác dụng động viên, khích lệ tướng sĩ chiến đấu. Là di sản văn hóa quý giá của dân tộc.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Trần",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Trần (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Trần để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Trần",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Trần (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Văn hóa Đại Việt thời Trần.",
+              "answer": "Đây là câu trả lời vận dụng về Văn hóa Đại Việt thời Trần. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Văn hóa Đại Việt thời Trần",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Văn hóa Đại Việt thời Trần (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Trần để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -324,6 +657,45 @@
               "hint": "Nguyễn Trãi: quân sư, nhà ngoại giao, nhà văn, có đóng góp lớn về chiến lược và ngoại giao.",
               "answer": "Vai trò: Quân sư: Đưa ra nhiều kế sách quân sự đúng đắn, góp phần quan trọng vào thắng lợi. Ngoại giao: Soạn thảo các văn kiện ngoại giao, thuyết phục quân Minh. Văn học: Soạn 'Bình Ngô đại cáo', các tác phẩm văn học yêu nước. Tư tưởng: Thể hiện tư tưởng nhân nghĩa, yêu nước thương dân. Nguyễn Trãi là nhân vật kiệt xuất, có đóng góp to lớn cho thắng lợi của khởi nghĩa Lam Sơn.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "answer": "Đây là câu trả lời vận dụng về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -354,6 +726,39 @@
               "hint": "Cải cách: hành chính, quân sự, pháp luật, giáo dục, kinh tế, văn hóa.",
               "answer": "Cải cách: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ, chia cả nước thành các đạo, phủ, huyện, xã. Quân sự: Tổ chức quân đội mạnh, có kỷ luật. Pháp luật: Ban hành bộ luật Hồng Đức hoàn chỉnh, tiến bộ. Giáo dục: Mở rộng giáo dục, tổ chức thi cử công bằng, tuyển chọn nhân tài. Kinh tế: Khuyến khích sản xuất nông nghiệp, thủ công nghiệp, thương mại. Văn hóa: Phát triển văn học, nghệ thuật. Thời Lê Thánh Tông là thời kỳ thịnh trị của nhà Lê sơ.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "answer": "Đây là câu trả lời vận dụng về Tổ chức bộ máy nhà nước thời Lê sơ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tổ chức bộ máy nhà nước thời Lê sơ để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "answer": "Đây là câu trả lời vận dụng về Tổ chức bộ máy nhà nước thời Lê sơ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -384,6 +789,45 @@
               "hint": "Giá trị: lịch sử, văn học, tư tưởng, chính trị.",
               "answer": "Giá trị: Lịch sử: Phản ánh cuộc kháng chiến chống Minh, tuyên bố độc lập. Văn học: Tác phẩm văn học xuất sắc, thể hiện tài năng văn chương của Nguyễn Trãi. Tư tưởng: Thể hiện tư tưởng nhân nghĩa, yêu nước thương dân, ý chí độc lập. Chính trị: Là bản tuyên ngôn độc lập thứ hai của dân tộc (sau 'Nam quốc sơn hà'). Là di sản văn hóa quý giá, niềm tự hào của dân tộc.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Văn hóa Đại Việt thời Lê sơ (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Lê sơ để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Lê sơ",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Văn hóa Đại Việt thời Lê sơ (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Văn hóa Đại Việt thời Lê sơ.",
+              "answer": "Đây là câu trả lời vận dụng về Văn hóa Đại Việt thời Lê sơ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Văn hóa Đại Việt thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Văn hóa Đại Việt thời Lê sơ (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Đại Việt thời Lê sơ để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -420,6 +864,45 @@
               "hint": "Nguyên nhân: tranh giành quyền lực, nhà Lê suy yếu. Hậu quả: chiến tranh, suy yếu, nhân dân khổ cực.",
               "answer": "Nguyên nhân: Nhà Lê suy yếu, không còn đủ sức quản lý đất nước; các thế lực phong kiến tranh giành quyền lực; nội chiến giữa các tập đoàn phong kiến; sự phân chia quyền lực giữa họ Trịnh và họ Nguyễn. Hậu quả: Đất nước bị chia cắt, suy yếu; chiến tranh liên miên giữa Đàng Trong và Đàng Ngoài; nhân dân khổ cực, đói khổ; sức mạnh dân tộc bị suy giảm; tạo điều kiện cho ngoại bang can thiệp.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Áp dụng kiến thức: Đất nước bị chia cắt",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Áp dụng kiến thức: Đất nước bị chia cắt (Câu 7/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Đất nước bị chia cắt để trả lời.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Đất nước bị chia cắt",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Đất nước bị chia cắt (Câu 8/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Đất nước bị chia cắt.",
+              "answer": "Đây là câu trả lời vận dụng về Đất nước bị chia cắt. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Đất nước bị chia cắt",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Đất nước bị chia cắt (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Đất nước bị chia cắt để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -450,6 +933,39 @@
               "hint": "Nguyên nhân: được nhân dân ủng hộ, tài năng lãnh đạo, chiến thuật đúng đắn, tinh thần yêu nước.",
               "answer": "Nguyên nhân thắng lợi: Được nhân dân ủng hộ nhiệt tình vì đánh đổ ách thống trị của chúa Nguyễn, chúa Trịnh; tài năng quân sự xuất sắc của Nguyễn Huệ; chiến thuật quân sự đúng đắn, linh hoạt; tinh thần yêu nước, ý chí chiến đấu kiên cường; tận dụng địa hình, thời tiết; quân địch xa nhà, thiếu hậu cần.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Phong trào nông dân Tây Sơn",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Phong trào nông dân Tây Sơn (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Phong trào nông dân Tây Sơn.",
+              "answer": "Đây là câu trả lời vận dụng về Phong trào nông dân Tây Sơn. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Phong trào nông dân Tây Sơn",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Phong trào nông dân Tây Sơn (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Phong trào nông dân Tây Sơn để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Phong trào nông dân Tây Sơn",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Phong trào nông dân Tây Sơn (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Phong trào nông dân Tây Sơn.",
+              "answer": "Đây là câu trả lời vận dụng về Phong trào nông dân Tây Sơn. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -480,6 +996,45 @@
               "hint": "Ý nghĩa: thể hiện tinh thần dân tộc, phổ biến văn hóa, phát triển ngôn ngữ dân tộc.",
               "answer": "Ý nghĩa: Thể hiện tinh thần dân tộc, ý thức độc lập về văn hóa; phổ biến văn hóa, tri thức đến đông đảo nhân dân; phát triển ngôn ngữ dân tộc, làm phong phú tiếng Việt; tạo nền tảng cho sự phát triển văn học sau này; góp phần xây dựng bản sắc văn hóa dân tộc.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Việt Nam thế kỷ XVI-XVIII để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "answer": "Đây là câu trả lời vận dụng về Văn hóa Việt Nam thế kỷ XVI-XVIII. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Phân tích về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Văn hóa Việt Nam thế kỷ XVI-XVIII để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -487,4 +1042,3 @@
     }
   ]
 }
-

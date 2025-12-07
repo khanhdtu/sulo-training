@@ -1,4 +1,4 @@
-# Sulo Training - Hệ Thống Dạy Học và Quản Lý Việc Học
+# BaitapOnline - Hệ Thống Ôn Tập Trực Tuyến
 
 Hệ thống quản lý giáo dục từ lớp 1 đến lớp 12 với các tính năng:
 - Quản lý chương trình học theo từng lớp và môn học

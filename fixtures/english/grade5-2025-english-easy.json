@@ -81,6 +81,30 @@
               "correctOption": "A",
               "hint": "When asked about address, we answer with 'My address is...'",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Asking and answering about addresses",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Asking and answering about addresses (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Asking and answering about addresses.",
+              "answer": "Đây là câu trả lời ngắn gọn về Asking and answering about addresses. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Asking and answering about addresses",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Asking and answering about addresses (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Asking and answering about addresses.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -135,6 +159,30 @@
               "hint": "Use: big/small, busy/quiet...",
               "answer": "Example: A city is big and busy. A village is small and quiet.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Describing places",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Describing places (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Describing places.",
+              "answer": "Đây là câu trả lời ngắn gọn về Describing places. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Describing places",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Describing places (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Describing places.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -231,6 +279,30 @@
               "correctOption": "A",
               "hint": "We say 'go to school' to mean going to school.",
               "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Daily routines",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Daily routines (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Daily routines.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Daily routines",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Daily routines (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Daily routines.",
+              "answer": "Đây là câu trả lời ngắn gọn về Daily routines. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -276,6 +348,30 @@
               "correctOption": "B",
               "hint": "We sometimes play football, not always or never.",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Talking about frequency",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Talking about frequency (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Talking about frequency.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Talking about frequency",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Talking about frequency (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Talking about frequency.",
+              "answer": "Đây là câu trả lời ngắn gọn về Talking about frequency. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -321,6 +417,21 @@
               "correctOption": "C",
               "hint": "We never go to bed late because it's not good for health.",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Grammar: Adverbs of frequency",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Grammar: Adverbs of frequency (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Adverbs of frequency.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -387,6 +498,30 @@
               "correctOption": "B",
               "hint": "We use 'visited' (past tense) when talking about the past.",
               "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Past simple tense",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Past simple tense (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Past simple tense.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Past simple tense",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Past simple tense (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Past simple tense.",
+              "answer": "Đây là câu trả lời ngắn gọn về Past simple tense. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -432,6 +567,30 @@
               "correctOption": "A",
               "hint": "We use 'Where' to ask about places.",
               "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Talking about holidays",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Talking about holidays (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Talking about holidays.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Talking about holidays",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Talking about holidays (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Talking about holidays.",
+              "answer": "Đây là câu trả lời ngắn gọn về Talking about holidays. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -477,6 +636,21 @@
               "correctOption": "B",
               "hint": "We use 'played' (past tense) when talking about the past.",
               "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Grammar: Past simple with regular and irregular verbs",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Grammar: Past simple with regular and irregular verbs (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Past simple with regular and irregular verbs.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -543,6 +717,30 @@
               "correctOption": "A",
               "hint": "Toothache is a health problem.",
               "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Health problems",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Health problems (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Health problems.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Health problems",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Health problems (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Health problems.",
+              "answer": "Đây là câu trả lời ngắn gọn về Health problems. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -597,6 +795,30 @@
               "hint": "Example: You should exercise. You should eat vegetables.",
               "answer": "Example: You should exercise every day. You should eat fruits and vegetables.",
               "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Giving advice",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Giving advice (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Giving advice.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Giving advice",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Giving advice (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Giving advice.",
+              "answer": "Đây là câu trả lời ngắn gọn về Giving advice. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -627,6 +849,21 @@
               "hint": "Example: You should exercise. You should eat vegetables. You shouldn't stay up late.",
               "answer": "Example: You should exercise every day. You should eat fruits and vegetables. You shouldn't watch TV too much.",
               "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Grammar: Should/Shouldn't",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Grammar: Should/Shouldn't (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Should/Shouldn't.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -634,4 +871,3 @@
     }
   ]
 }
-

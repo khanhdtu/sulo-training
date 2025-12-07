@@ -37,7 +37,9 @@ export interface ChapterExercise {
     isCompleted: boolean;
     score: number | null;
     totalPoints: number;
+    status: string; // draft, submitted, completed
     completedAt: string | null;
+    answers: any; // JSON - answers data
   } | null;
   isCompleted: boolean;
 }

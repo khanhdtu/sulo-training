@@ -68,6 +68,11 @@ export async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // Helper function to check if we should log activity (skip GET requests)
+  const shouldLogActivity = () => {
+    return request.method !== 'GET';
+  };
+
   // Try to get user ID from token
   const authHeader = request.headers.get('authorization');
   const tokenFromHeader = authHeader?.startsWith('Bearer ') 
@@ -91,20 +96,22 @@ export async function middleware(request: NextRequest) {
 
     // Handle preflight requests
     if (request.method === 'OPTIONS') {
-      // Log preflight request
-      logActivity(
-        {
-          userId,
-          action: request.method,
-          endpoint: pathname,
-          method: request.method,
-          statusCode: 200,
-          ipAddress: getClientIp(request),
-          userAgent: getUserAgent(request),
-          metadata: extractSafeMetadata(request),
-        },
-        request
-      );
+      // Log preflight request (OPTIONS is not GET, so we log it)
+      if (shouldLogActivity()) {
+        logActivity(
+          {
+            userId,
+            action: request.method,
+            endpoint: pathname,
+            method: request.method,
+            statusCode: 200,
+            ipAddress: getClientIp(request),
+            userAgent: getUserAgent(request),
+            metadata: extractSafeMetadata(request),
+          },
+          request
+        );
+      }
       
       return new NextResponse(null, {
         status: 200,
@@ -126,22 +133,24 @@ export async function middleware(request: NextRequest) {
         errorResponse.headers.set('x-toast-type', 'error');
         errorResponse.headers.set('x-toast-message', encodeHeaderValue('Vui lòng đăng nhập để tiếp tục'));
         
-        // Log activity
-        const duration = Date.now() - startTime;
-        logActivity(
-          {
-            userId,
-            action: request.method,
-            endpoint: pathname,
-            method: request.method,
-            statusCode,
-            ipAddress: getClientIp(request),
-            userAgent: getUserAgent(request),
-            metadata: extractSafeMetadata(request),
-            duration,
-          },
-          request
-        );
+        // Log activity (skip for GET requests)
+        if (shouldLogActivity()) {
+          const duration = Date.now() - startTime;
+          logActivity(
+            {
+              userId,
+              action: request.method,
+              endpoint: pathname,
+              method: request.method,
+              statusCode,
+              ipAddress: getClientIp(request),
+              userAgent: getUserAgent(request),
+              metadata: extractSafeMetadata(request),
+              duration,
+            },
+            request
+          );
+        }
         
         return errorResponse;
       }
@@ -157,22 +166,24 @@ export async function middleware(request: NextRequest) {
         errorResponse.headers.set('x-toast-type', 'error');
         errorResponse.headers.set('x-toast-message', encodeHeaderValue('Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại'));
         
-        // Log activity
-        const duration = Date.now() - startTime;
-        logActivity(
-          {
-            userId,
-            action: request.method,
-            endpoint: pathname,
-            method: request.method,
-            statusCode,
-            ipAddress: getClientIp(request),
-            userAgent: getUserAgent(request),
-            metadata: extractSafeMetadata(request),
-            duration,
-          },
-          request
-        );
+        // Log activity (skip for GET requests)
+        if (shouldLogActivity()) {
+          const duration = Date.now() - startTime;
+          logActivity(
+            {
+              userId,
+              action: request.method,
+              endpoint: pathname,
+              method: request.method,
+              statusCode,
+              ipAddress: getClientIp(request),
+              userAgent: getUserAgent(request),
+              metadata: extractSafeMetadata(request),
+              duration,
+            },
+            request
+          );
+        }
         
         return errorResponse;
       }
@@ -184,22 +195,24 @@ export async function middleware(request: NextRequest) {
       response.headers.set('x-user-role', payload.role);
     }
 
-    // Log API activity (async, don't block response)
-    const duration = Date.now() - startTime;
-    logActivity(
-      {
-        userId,
-        action: request.method,
-        endpoint: pathname,
-        method: request.method,
-        statusCode: 200, // Will be updated by response interceptor if needed
-        ipAddress: getClientIp(request),
-        userAgent: getUserAgent(request),
-        metadata: extractSafeMetadata(request),
-        duration,
-      },
-      request
-    );
+    // Log API activity (async, don't block response) - skip for GET requests
+    if (shouldLogActivity()) {
+      const duration = Date.now() - startTime;
+      logActivity(
+        {
+          userId,
+          action: request.method,
+          endpoint: pathname,
+          method: request.method,
+          statusCode: 200, // Will be updated by response interceptor if needed
+          ipAddress: getClientIp(request),
+          userAgent: getUserAgent(request),
+          metadata: extractSafeMetadata(request),
+          duration,
+        },
+        request
+      );
+    }
 
     return response;
   }
@@ -214,22 +227,24 @@ export async function middleware(request: NextRequest) {
       const loginUrl = new URL('/login', request.url);
       loginUrl.searchParams.set('redirect', pathname);
       
-      // Log activity
-      const duration = Date.now() - startTime;
-      logActivity(
-        {
-          userId,
-          action: request.method,
-          endpoint: pathname,
-          method: request.method,
-          statusCode: 302, // Redirect
-          ipAddress: getClientIp(request),
-          userAgent: getUserAgent(request),
-          metadata: extractSafeMetadata(request),
-          duration,
-        },
-        request
-      );
+      // Log activity (skip for GET requests)
+      if (shouldLogActivity()) {
+        const duration = Date.now() - startTime;
+        logActivity(
+          {
+            userId,
+            action: request.method,
+            endpoint: pathname,
+            method: request.method,
+            statusCode: 302, // Redirect
+            ipAddress: getClientIp(request),
+            userAgent: getUserAgent(request),
+            metadata: extractSafeMetadata(request),
+            duration,
+          },
+          request
+        );
+      }
       
       return NextResponse.redirect(loginUrl);
     }
@@ -244,22 +259,24 @@ export async function middleware(request: NextRequest) {
       // Clear invalid token
       response.cookies.delete('token');
       
-      // Log activity
-      const duration = Date.now() - startTime;
-      logActivity(
-        {
-          userId,
-          action: request.method,
-          endpoint: pathname,
-          method: request.method,
-          statusCode: 302,
-          ipAddress: getClientIp(request),
-          userAgent: getUserAgent(request),
-          metadata: extractSafeMetadata(request),
-          duration,
-        },
-        request
-      );
+      // Log activity (skip for GET requests)
+      if (shouldLogActivity()) {
+        const duration = Date.now() - startTime;
+        logActivity(
+          {
+            userId,
+            action: request.method,
+            endpoint: pathname,
+            method: request.method,
+            statusCode: 302,
+            ipAddress: getClientIp(request),
+            userAgent: getUserAgent(request),
+            metadata: extractSafeMetadata(request),
+            duration,
+          },
+          request
+        );
+      }
       
       return response;
     }
@@ -272,7 +289,30 @@ export async function middleware(request: NextRequest) {
     response.headers.set('x-username', payload.username);
     response.headers.set('x-user-role', payload.role);
     
-    // Log activity
+    // Log activity (skip for GET requests)
+    if (shouldLogActivity()) {
+      const duration = Date.now() - startTime;
+      logActivity(
+        {
+          userId,
+          action: request.method,
+          endpoint: pathname,
+          method: request.method,
+          statusCode: 200,
+          ipAddress: getClientIp(request),
+          userAgent: getUserAgent(request),
+          metadata: extractSafeMetadata(request),
+          duration,
+        },
+        request
+      );
+    }
+    
+    return response;
+  }
+
+  // Public routes - allow access and log activity (skip for GET requests)
+  if (shouldLogActivity()) {
     const duration = Date.now() - startTime;
     logActivity(
       {
@@ -288,26 +328,7 @@ export async function middleware(request: NextRequest) {
       },
       request
     );
-    
-    return response;
   }
-
-  // Public routes - allow access and log activity
-  const duration = Date.now() - startTime;
-  logActivity(
-    {
-      userId,
-      action: request.method,
-      endpoint: pathname,
-      method: request.method,
-      statusCode: 200,
-      ipAddress: getClientIp(request),
-      userAgent: getUserAgent(request),
-      metadata: extractSafeMetadata(request),
-      duration,
-    },
-    request
-  );
 
   return NextResponse.next();
 }

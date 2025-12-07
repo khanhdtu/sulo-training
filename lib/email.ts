@@ -1,6 +1,17 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy initialization to ensure env vars are loaded
+let resendInstance: Resend | null = null;
+
+function getResend(): Resend {
+  if (!resendInstance) {
+    if (!process.env.RESEND_API_KEY) {
+      throw new Error('RESEND_API_KEY is not configured. Please add it to your .env file.');
+    }
+    resendInstance = new Resend(process.env.RESEND_API_KEY);
+  }
+  return resendInstance;
+}
 
 /**
  * Send email using Resend
@@ -16,7 +27,20 @@ export async function sendEmail({
   html: string;
   from?: string;
 }) {
+  // Validate API key
+  if (!process.env.RESEND_API_KEY) {
+    const error = new Error('RESEND_API_KEY is not configured. Please add it to your .env file.');
+    console.error('Email configuration error:', error.message);
+    throw error;
+  }
+
+  // Validate from email
+  if (!from || from === 'noreply@example.com') {
+    console.warn('⚠️  Using default from email. For production, set RESEND_FROM_EMAIL in .env');
+  }
+
   try {
+    const resend = getResend();
     const { data, error } = await resend.emails.send({
       from,
       to: Array.isArray(to) ? to : [to],
@@ -25,14 +49,31 @@ export async function sendEmail({
     });
 
     if (error) {
-      console.error('Resend error:', error);
+      console.error('Resend API error:', error);
+      
+      // Provide helpful error messages
+      if (error.message?.includes('Invalid API key')) {
+        throw new Error('Invalid Resend API key. Please check your RESEND_API_KEY in .env file.');
+      } else if (error.message?.includes('Invalid `from`')) {
+        throw new Error('Invalid sender email. Please verify your domain in Resend Dashboard: https://resend.com/domains');
+      } else if (error.message?.includes('rate limit')) {
+        throw new Error('Rate limit exceeded. Free tier allows 100 emails/day. Please wait or upgrade your plan.');
+      }
+      
       throw error;
     }
 
+    console.log(`✅ Email sent successfully to ${Array.isArray(to) ? to.join(', ') : to}`);
     return data;
   } catch (error) {
     console.error('Failed to send email:', error);
+    
+    // Re-throw with better error message
+    if (error instanceof Error) {
     throw error;
+    }
+    
+    throw new Error('Failed to send email. Please check your Resend configuration.');
   }
 }
 
@@ -63,7 +104,7 @@ export async function sendDeadlineReminderEmail(
           <p><strong>Deadline:</strong> ${deadlineStr}</p>
         </div>
         <p>Vui lòng hoàn thành bài tập trước deadline.</p>
-        <p>Trân trọng,<br>Hệ thống Sulo Training</p>
+        <p>Trân trọng,<br>Hệ thống BaitapOnline</p>
       </div>
     `,
   });
@@ -96,7 +137,7 @@ export async function sendOverdueEmailToParent(
           <p><strong>Deadline:</strong> ${deadlineStr}</p>
         </div>
         <p>Vui lòng nhắc nhở con bạn hoàn thành bài tập sớm nhất có thể.</p>
-        <p>Trân trọng,<br>Hệ thống Sulo Training</p>
+        <p>Trân trọng,<br>Hệ thống BaitapOnline</p>
       </div>
     `,
   });
@@ -125,7 +166,7 @@ export async function sendGradeReleasedEmail(
           <p><strong>Điểm số:</strong> ${score}/${maxScore}</p>
         </div>
         <p>Vui lòng đăng nhập vào hệ thống để xem chi tiết và nhận xét.</p>
-        <p>Trân trọng,<br>Hệ thống Sulo Training</p>
+        <p>Trân trọng,<br>Hệ thống BaitapOnline</p>
       </div>
     `,
   });

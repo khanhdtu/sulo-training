@@ -24,7 +24,8 @@ export default function UserGradeChecker() {
       onSuccess={handleSuccess}
       currentGradeId={user?.gradeId || null}
       currentLevel={user?.level || null}
-      currentDisplayName={user?.displayName || null}
+      currentName={user?.name || null}
+      currentParentEmail={user?.parentEmail || null}
     />
   );
 }

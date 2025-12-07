@@ -81,6 +81,21 @@
               "hint": "Tính chất vật lí: có thể quan sát trực tiếp. Tính chất hóa học: chỉ thể hiện khi có phản ứng.",
               "answer": "Tính chất vật lí: không màu, không mùi, không vị; nhiệt độ sôi 100°C; có thể hòa tan nhiều chất. Tính chất hóa học: tác dụng với kim loại kiềm; bị phân hủy ở nhiệt độ cao.",
               "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Tính chất của chất",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Tính chất của chất (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của chất.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -141,6 +156,15 @@
               "hint": "Hiện tượng vật lí không tạo ra chất mới, chỉ thay đổi trạng thái hoặc hình dạng.",
               "answer": "Hòa tan đường vào nước là hiện tượng vật lí vì đường vẫn giữ nguyên bản chất, chỉ thay đổi từ dạng rắn sang dạng hòa tan trong nước. Ta có thể thu lại đường bằng cách cô cạn nước.",
               "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Sự biến đổi vật lí và hóa học",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Sự biến đổi vật lí và hóa học (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Sự biến đổi vật lí và hóa học.",
+              "answer": "Đây là câu trả lời ngắn gọn về Sự biến đổi vật lí và hóa học. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -186,6 +210,21 @@
               "hint": "Nguyên tử là hạt của nguyên tố, phân tử là hạt của hợp chất gồm nhiều nguyên tử.",
               "answer": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học, không thể chia nhỏ hơn bằng phương pháp hóa học. Phân tử là hạt gồm nhiều nguyên tử liên kết với nhau, là hạt nhỏ nhất của hợp chất, giữ nguyên tính chất hóa học của chất đó.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Nguyên tử và phân tử",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Nguyên tử và phân tử (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyên tử và phân tử.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -237,6 +276,39 @@
               "hint": "Các dạng năng lượng phổ biến: cơ học, nhiệt, ánh sáng, hóa học, điện.",
               "answer": "1. Năng lượng cơ học: quả bóng đang lăn. 2. Năng lượng nhiệt: lửa đang cháy. 3. Năng lượng ánh sáng: ánh sáng mặt trời. 4. Năng lượng hóa học: pin, thức ăn. 5. Năng lượng điện: dòng điện trong dây dẫn.",
               "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Năng lượng và các dạng năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Năng lượng và các dạng năng lượng (Câu 8/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng và các dạng năng lượng.",
+              "answer": "Đây là câu trả lời ngắn gọn về Năng lượng và các dạng năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Năng lượng và các dạng năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Năng lượng và các dạng năng lượng (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng và các dạng năng lượng.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Năng lượng và các dạng năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Năng lượng và các dạng năng lượng (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng và các dạng năng lượng.",
+              "answer": "Đây là câu trả lời ngắn gọn về Năng lượng và các dạng năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -267,6 +339,45 @@
               "hint": "Pin chuyển hóa năng lượng hóa học thành năng lượng điện.",
               "answer": "Trong pin, năng lượng hóa học được chuyển hóa thành năng lượng điện. Khi pin hoạt động, các phản ứng hóa học xảy ra bên trong pin tạo ra dòng điện, cung cấp năng lượng cho các thiết bị điện.",
               "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Sự chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Sự chuyển hóa năng lượng (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển hóa năng lượng.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Sự chuyển hóa năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Sự chuyển hóa năng lượng (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Sự chuyển hóa năng lượng.",
+              "answer": "Đây là câu trả lời ngắn gọn về Sự chuyển hóa năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Sự chuyển hóa năng lượng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Sự chuyển hóa năng lượng (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển hóa năng lượng.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -297,6 +408,30 @@
               "hint": "Các cách tiết kiệm năng lượng: tắt thiết bị khi không dùng, sử dụng thiết bị tiết kiệm năng lượng, tận dụng ánh sáng tự nhiên.",
               "answer": "1. Tắt các thiết bị điện khi không sử dụng. 2. Sử dụng bóng đèn LED tiết kiệm năng lượng. 3. Tận dụng ánh sáng tự nhiên thay vì bật đèn ban ngày.",
               "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Năng lượng trong đời sống",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Năng lượng trong đời sống (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng trong đời sống.",
+              "answer": "Đây là câu trả lời ngắn gọn về Năng lượng trong đời sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Năng lượng trong đời sống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Năng lượng trong đời sống (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng trong đời sống.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -348,6 +483,39 @@
               "hint": "Tế bào gồm: màng tế bào, tế bào chất, nhân tế bào.",
               "answer": "Tế bào có cấu trúc cơ bản gồm: màng tế bào (bao bọc và bảo vệ tế bào), tế bào chất (chứa các bào quan), nhân tế bào (chứa vật chất di truyền ADN).",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống (Câu 8/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Tế bào - Đơn vị cơ bản của sự sống.",
+              "answer": "Đây là câu trả lời ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Tế bào - Đơn vị cơ bản của sự sống (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tế bào - Đơn vị cơ bản của sự sống.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Tế bào - Đơn vị cơ bản của sự sống",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Tế bào - Đơn vị cơ bản của sự sống (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Tế bào - Đơn vị cơ bản của sự sống.",
+              "answer": "Đây là câu trả lời ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -378,6 +546,45 @@
               "hint": "Các nhóm sinh vật: động vật, thực vật, nấm, vi khuẩn, nguyên sinh vật.",
               "answer": "1. Động vật: con chó, con mèo. 2. Thực vật: cây lúa, cây ngô. 3. Nấm: nấm rơm, nấm hương. 4. Vi khuẩn: vi khuẩn E.coli. 5. Nguyên sinh vật: trùng roi, trùng giày.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Đa dạng sinh học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Đa dạng sinh học (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đa dạng sinh học.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Đa dạng sinh học",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Đa dạng sinh học (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Đa dạng sinh học.",
+              "answer": "Đây là câu trả lời ngắn gọn về Đa dạng sinh học. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Đa dạng sinh học",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Đa dạng sinh học (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đa dạng sinh học.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -408,6 +615,30 @@
               "hint": "Quang hợp là quá trình thực vật sử dụng ánh sáng, CO2 và nước để tạo ra đường và oxi.",
               "answer": "Quang hợp là quá trình thực vật sử dụng ánh sáng mặt trời, khí CO2 và nước để tạo ra đường (glucose) và khí oxi. Quá trình này xảy ra trong lục lạp của tế bào thực vật.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
+              "answer": "Đây là câu trả lời ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -444,6 +675,45 @@
               "hint": "Trái Đất có 3 lớp chính: vỏ, phủ (mantle), và lõi (core).",
               "answer": "3 lớp cấu trúc của Trái Đất: 1. Lớp vỏ (crust) - lớp ngoài cùng, mỏng nhất. 2. Lớp phủ (mantle) - lớp giữa, dày nhất. 3. Lớp lõi (core) - lớp trong cùng, nóng nhất.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Nhận biết kiến thức về Cấu trúc Trái Đất",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nhận biết kiến thức về Cấu trúc Trái Đất (Câu 7/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cấu trúc Trái Đất.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Cấu trúc Trái Đất",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Cấu trúc Trái Đất (Câu 8/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Cấu trúc Trái Đất.",
+              "answer": "Đây là câu trả lời ngắn gọn về Cấu trúc Trái Đất. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Cấu trúc Trái Đất",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Cấu trúc Trái Đất (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cấu trúc Trái Đất.",
+              "created_at": "2025-01-01T00:00:08.000Z"
             }
           ]
         },
@@ -474,6 +744,39 @@
               "hint": "Mưa xảy ra do quá trình bay hơi nước và ngưng tụ trong khí quyển.",
               "answer": "Mưa xảy ra do quá trình: nước ở các đại dương, sông, hồ bay hơi thành hơi nước. Hơi nước bay lên cao, gặp lạnh ngưng tụ thành những giọt nước nhỏ tạo thành mây. Khi các giọt nước đủ lớn và nặng, chúng rơi xuống đất tạo thành mưa.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Khí quyển và thời tiết",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Khí quyển và thời tiết (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khí quyển và thời tiết.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khí quyển và thời tiết. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Khí quyển và thời tiết",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Khí quyển và thời tiết (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí quyển và thời tiết.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Khí quyển và thời tiết",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Khí quyển và thời tiết (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khí quyển và thời tiết.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khí quyển và thời tiết. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -504,6 +807,45 @@
               "hint": "Các hành tinh gần Mặt Trời: Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa.",
               "answer": "4 hành tinh gần Mặt Trời nhất (theo thứ tự): 1. Sao Thủy, 2. Sao Kim, 3. Trái Đất, 4. Sao Hỏa.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Hệ Mặt Trời và các hành tinh",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Hệ Mặt Trời và các hành tinh (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hệ Mặt Trời và các hành tinh.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Hệ Mặt Trời và các hành tinh",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Hệ Mặt Trời và các hành tinh (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Hệ Mặt Trời và các hành tinh.",
+              "answer": "Đây là câu trả lời ngắn gọn về Hệ Mặt Trời và các hành tinh. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Hệ Mặt Trời và các hành tinh",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Hệ Mặt Trời và các hành tinh (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hệ Mặt Trời và các hành tinh.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -511,4 +853,3 @@
     }
   ]
 }
-

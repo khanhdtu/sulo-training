@@ -13,37 +13,95 @@
         {
           "title": "Choose the correct word: This is the ______ (kitchen / pencil).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct word: This is the ______ (kitchen / pencil).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:00.000Z"
         },
         {
           "title": "Match the words with pictures: bedroom, bathroom, living room, garden.",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Match the words with pictures: bedroom, bathroom, living room, garden.",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:01.000Z"
         },
         {
           "title": "Choose the correct option: I sleep in the ______ (bedroom / kitchen).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct option: I sleep in the ______ (bedroom / kitchen).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:02.000Z"
         },
         {
           "title": "Complete: There ______ a sofa in the living room. (A) is (B) are (C) be",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Complete: There ______ a sofa in the living room. (A) is (B) are (C) be",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:03.000Z"
         },
         {
           "title": "Choose: The ______ is where we cook food. (A) bedroom (B) kitchen (C) bathroom)",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose: The ______ is where we cook food. (A) bedroom (B) kitchen (C) bathroom)",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:04.000Z"
         },
         {
           "title": "Writing: Write 3 simple sentences to describe your house (for example: There is a living room. There are two bedrooms. ...).",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 3 simple sentences to describe your house (for example: There is a living room. There are two bedrooms. ...).",
+          "hint": "Hãy viết về Rooms in the house.",
+          "answer": "Đây là câu trả lời mẫu về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:05.000Z"
         },
         {
           "title": "Writing: Write 4 sentences about the rooms in your house and what you do in each room.",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 4 sentences about the rooms in your house and what you do in each room.",
+          "hint": "Hãy viết về Rooms in the house.",
+          "answer": "Đây là câu trả lời mẫu về Rooms in the house.",
+          "created_at": "2025-01-01T00:00:06.000Z"
         }
       ]
     },
@@ -55,37 +113,95 @@
         {
           "title": "Choose the correct place: We read books in the ______ (library / bathroom).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct place: We read books in the ______ (library / bathroom).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Places at school.",
+          "created_at": "2025-01-01T00:00:00.000Z"
         },
         {
           "title": "Choose the correct answer: We have lunch in the ______ (canteen / garden).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct answer: We have lunch in the ______ (canteen / garden).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Places at school.",
+          "created_at": "2025-01-01T00:00:01.000Z"
         },
         {
           "title": "Choose the correct sentence: (A) There is a playground at my school. (B) There are a playground at my school.",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct sentence: (A) There is a playground at my school. (B) There are a playground at my school.",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Places at school.",
+          "created_at": "2025-01-01T00:00:02.000Z"
         },
         {
           "title": "Complete: We do experiments in the ______. (A) library (B) laboratory (C) canteen",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Complete: We do experiments in the ______. (A) library (B) laboratory (C) canteen",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Places at school.",
+          "created_at": "2025-01-01T00:00:03.000Z"
         },
         {
           "title": "Choose: Students play sports in the ______. (A) library (B) playground (C) classroom",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose: Students play sports in the ______. (A) library (B) playground (C) classroom",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Places at school.",
+          "created_at": "2025-01-01T00:00:04.000Z"
         },
         {
           "title": "Writing: Write 3 sentences about your school using \"There is / There are\" (for example: There is a library. There are 20 classrooms. ...).",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 3 sentences about your school using \"There is / There are\" (for example: There is a library. There are 20 classrooms. ...).",
+          "hint": "Hãy viết về Places at school.",
+          "answer": "Đây là câu trả lời mẫu về Places at school.",
+          "created_at": "2025-01-01T00:00:05.000Z"
         },
         {
           "title": "Writing: Write 4 sentences describing your favorite place at school and why you like it.",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 4 sentences describing your favorite place at school and why you like it.",
+          "hint": "Hãy viết về Places at school.",
+          "answer": "Đây là câu trả lời mẫu về Places at school.",
+          "created_at": "2025-01-01T00:00:06.000Z"
         }
       ]
     },
@@ -97,37 +213,17 @@
         {
           "title": "Choose the correct form: She ______ (get / gets) up at 6 a.m.",
           "type": "multiple_choice",
-          "points": 1
-        },
-        {
-          "title": "Choose the correct adverb: He ______ (always / never) does his homework.",
-          "type": "multiple_choice",
-          "points": 1
-        },
-        {
-          "title": "Choose the correct sentence: (A) I go to school every day. (B) I goes to school every day.",
-          "type": "multiple_choice",
-          "points": 1
-        },
-        {
-          "title": "Complete: They ______ breakfast at 7 o'clock. (A) have (B) has (C) having",
-          "type": "multiple_choice",
-          "points": 1
-        },
-        {
-          "title": "Choose: My sister ______ to school by bus. (A) go (B) goes (C) going",
-          "type": "multiple_choice",
-          "points": 1
-        },
-        {
-          "title": "Writing: Write 4 sentences about your daily routine using Present Simple (for example: I get up at 6 a.m. I have breakfast at 6:30. ...).",
-          "type": "essay",
-          "points": 2
-        },
-        {
-          "title": "Writing: Write 5 sentences about what you do on weekends using Present Simple.",
-          "type": "essay",
-          "points": 2
+          "points": 1,
+          "question": "Choose the correct form: She ______ (get / gets) up at 6 a.m.",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Daily routines – Present Simple.",
+          "created_at": "2025-01-01T00:00:00.000Z"
         }
       ]
     },
@@ -139,37 +235,110 @@
         {
           "title": "Choose the correct word: I have a ______ (headache / homework).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct word: I have a ______ (headache / homework).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:00.000Z"
         },
         {
           "title": "Choose the best advice: I have a fever. I ______ (should / shouldn't) go to school.",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the best advice: I have a fever. I ______ (should / shouldn't) go to school.",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:01.000Z"
         },
         {
           "title": "Choose the correct answer: I have a toothache. I should go to the ______ (dentist / teacher).",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct answer: I have a toothache. I should go to the ______ (dentist / teacher).",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:02.000Z"
         },
         {
           "title": "Complete: You look sick. You ______ see a doctor. (A) should (B) shouldn't (C) can",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Complete: You look sick. You ______ see a doctor. (A) should (B) shouldn't (C) can",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:03.000Z"
         },
         {
           "title": "Choose: If you have a cold, you ______ drink warm water. (A) should (B) shouldn't (C) must",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose: If you have a cold, you ______ drink warm water. (A) should (B) shouldn't (C) must",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:04.000Z"
         },
         {
           "title": "Writing: Write 3 sentences giving advice using \"should / shouldn't\" (for example: You should drink water. You shouldn't eat too much fast food. ...).",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 3 sentences giving advice using \"should / shouldn't\" (for example: You should drink water. You shouldn't eat too much fast food. ...).",
+          "hint": "Hãy viết về Health problems and advice.",
+          "answer": "Đây là câu trả lời mẫu về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:05.000Z"
         },
         {
           "title": "Writing: Write 4 sentences about what you should do to stay healthy.",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 4 sentences about what you should do to stay healthy.",
+          "hint": "Hãy viết về Health problems and advice.",
+          "answer": "Đây là câu trả lời mẫu về Health problems and advice.",
+          "created_at": "2025-01-01T00:00:06.000Z"
+        },
+        {
+          "title": "Câu hỏi đơn giản về Health problems and advice",
+          "type": "multiple_choice",
+          "points": 1,
+          "question": "Câu hỏi đơn giản về Health problems and advice (Câu 15/15)",
+          "options": {
+            "A": "Option A",
+            "B": "Option B (Correct)",
+            "C": "Option C",
+            "D": "Option D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về kiến thức cơ bản của Health problems and advice.",
+          "created_at": "2025-01-01T00:00:14.000Z"
         }
       ]
     },
@@ -181,37 +350,95 @@
         {
           "title": "Choose the correct word: My favourite ______ is reading. (hobby / healthy)",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct word: My favourite ______ is reading. (hobby / healthy)",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:00.000Z"
         },
         {
           "title": "Choose the best answer: I ______ playing football. (like / am interested)",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the best answer: I ______ playing football. (like / am interested)",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:01.000Z"
         },
         {
           "title": "Choose the correct phrase: (A) I am interested in music. (B) I am interest in music.",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose the correct phrase: (A) I am interested in music. (B) I am interest in music.",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:02.000Z"
         },
         {
           "title": "Complete: She likes ______ books. (A) read (B) reading (C) to read",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Complete: She likes ______ books. (A) read (B) reading (C) to read",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:03.000Z"
         },
         {
           "title": "Choose: My hobby is ______ stamps. (A) collect (B) collecting (C) to collect",
           "type": "multiple_choice",
-          "points": 1
+          "points": 1,
+          "question": "Choose: My hobby is ______ stamps. (A) collect (B) collecting (C) to collect",
+          "options": {
+            "A": "Đáp án A",
+            "B": "Đáp án B (Đúng)",
+            "C": "Đáp án C",
+            "D": "Đáp án D"
+          },
+          "correctOption": "B",
+          "hint": "Hãy suy nghĩ về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:04.000Z"
         },
         {
           "title": "Writing: Write 4 sentences about your hobby (what it is, when you do it, why you like it).",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 4 sentences about your hobby (what it is, when you do it, why you like it).",
+          "hint": "Hãy viết về Talking about hobbies.",
+          "answer": "Đây là câu trả lời mẫu về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:05.000Z"
         },
         {
           "title": "Writing: Write 5 sentences about a hobby you would like to try and why.",
           "type": "essay",
-          "points": 2
+          "points": 2,
+          "question": "Writing: Write 5 sentences about a hobby you would like to try and why.",
+          "hint": "Hãy viết về Talking about hobbies.",
+          "answer": "Đây là câu trả lời mẫu về Talking about hobbies.",
+          "created_at": "2025-01-01T00:00:06.000Z"
         }
       ]
     }

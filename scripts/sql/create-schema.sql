@@ -1,4 +1,4 @@
--- Create all tables for Sulo Training System
+-- Create all tables for BaitapOnline System
 -- Run this script in Supabase SQL Editor first
 
 -- Enable UUID extension if needed

@@ -60,6 +60,30 @@
               "hint": "Include: address, location, nearby places (school, park, shops), what you like/dislike, why...",
               "answer": "Example: I live in a neighborhood in District 1, Ho Chi Minh City. My address is 789 Nguyen Du Street. It's in the city center, so it's very convenient. There is a big park near my house where I often play. There are many shops and restaurants nearby. My school is only 5 minutes away. There is also a library where I can read books. I like my neighborhood because it's safe and friendly. The people here are very nice. However, it can be noisy sometimes because there are many cars. Overall, I really enjoy living here.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Asking and answering about addresses",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Asking and answering about addresses (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Asking and answering about addresses.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Asking and answering about addresses",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Asking and answering about addresses (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Asking and answering about addresses.",
+              "answer": "Đây là câu trả lời phân tích sâu về Asking and answering about addresses. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -114,6 +138,30 @@
               "hint": "Discuss: facilities, environment, lifestyle, opportunities, peace...",
               "answer": "Example: Living in a city has both advantages and disadvantages. Cities have many facilities like hospitals, schools, and shopping centers. There are more job opportunities and entertainment options. However, cities are often crowded and noisy. The air can be polluted. Living in a village also has pros and cons. Villages are peaceful and quiet. The air is fresh and clean. People know each other and are friendly. However, there are fewer facilities and job opportunities. I think both places have their own charm. It depends on what you prefer.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Describing places",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Describing places (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Describing places.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Describing places",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Describing places (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Describing places.",
+              "answer": "Đây là câu trả lời phân tích sâu về Describing places. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -144,6 +192,21 @@
               "hint": "Use: Where do you live? What's your address? Who do you live with? How do you like it?",
               "answer": "Example: A: Where do you live? B: I live in Da Nang. A: What's your address? B: My address is 789 Tran Phu Street. A: Who do you live with? B: I live with my parents and my sister. A: How do you like living there? B: I like it very much. It's a beautiful city.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Grammar: Where do you live?",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Grammar: Where do you live? (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Grammar: Where do you live?.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -204,6 +267,30 @@
               "hint": "Compare: wake-up time, activities, schedule, differences...",
               "answer": "Example: My weekday and weekend routines are quite different. On weekdays, I get up early at 6:00. I go to school and study all day. I do my homework in the afternoon. I go to bed early at 9:00. However, on weekends, I get up later at 8:00. I don't go to school. I have more free time. I can play games, watch TV, or visit my friends. I sometimes help my parents with housework. I go to bed later at 10:00. I prefer weekends because I can relax and do what I like.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Daily routines",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Daily routines (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Daily routines.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Daily routines",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Daily routines (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Daily routines.",
+              "answer": "Đây là câu trả lời phân tích sâu về Daily routines. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -258,6 +345,30 @@
               "hint": "Describe: what each person does, how often, compare different habits...",
               "answer": "Example: My family members have different habits. My father always reads the newspaper in the morning. He usually goes to work at 7:00. My mother often cooks dinner for us. She sometimes goes shopping on weekends. My older brother always plays video games after school. He rarely helps with housework. I usually do my homework in the afternoon. I often play with my friends. I sometimes watch TV in the evening. My little sister never stays up late. She always goes to bed at 8:00. We all have different routines but we get along well.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Talking about frequency",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Talking about frequency (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Talking about frequency.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Talking about frequency",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Talking about frequency (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Talking about frequency.",
+              "answer": "Đây là câu trả lời phân tích sâu về Talking about frequency. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -288,6 +399,21 @@
               "hint": "Use: On weekdays I always..., On weekends I usually..., Sometimes I..., I never...",
               "answer": "Example: On weekdays, I always go to school. I usually do my homework in the afternoon. I often play football after school. On weekends, I sometimes go to the park with my family. I rarely watch TV during the week. I never skip breakfast. My schedule is quite busy but I enjoy it.",
               "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Grammar: Adverbs of frequency",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Grammar: Adverbs of frequency (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Grammar: Adverbs of frequency.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -348,6 +474,30 @@
               "hint": "Include: date, place, activities throughout the day, people, feelings, details...",
               "answer": "Example: Today was an amazing day! I woke up early at 6:00 in the morning. My family and I had breakfast at the hotel. Then we went to the beach. The weather was perfect. The sun was shining and the water was clear. I swam in the sea with my brother. We built sandcastles on the beach. At noon, we had a picnic lunch. We ate sandwiches and fruits. In the afternoon, we visited a local market. I bought some souvenirs for my friends. We tried local food. It was delicious. In the evening, we watched the sunset. It was so beautiful. I took many photos. I felt very happy. This was one of the best days of my holiday.",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Past simple tense",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Past simple tense (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Past simple tense.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Past simple tense",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Past simple tense (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Past simple tense.",
+              "answer": "Đây là câu trả lời phân tích sâu về Past simple tense. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -402,6 +552,30 @@
               "hint": "Compare: destinations, activities, experiences, which one you preferred and why...",
               "answer": "Example: I have had many holidays, but two of them were very special. Last summer, I went to the beach with my family. We stayed for three days. We swam, played on the beach, and ate seafood. The weather was hot and sunny. I really enjoyed it. However, last winter, I went to the mountains with my friends. We stayed for two days. We went hiking, saw snow, and drank hot chocolate. The weather was cold but beautiful. Both holidays were amazing but different. The beach holiday was relaxing and fun. The mountain holiday was adventurous and exciting. I think I preferred the mountain holiday because it was something new and different. I learned new things and made great memories with my friends.",
               "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Talking about holidays",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Talking about holidays (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Talking about holidays.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Talking about holidays",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Talking about holidays (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Talking about holidays.",
+              "answer": "Đây là câu trả lời phân tích sâu về Talking about holidays. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -432,6 +606,21 @@
               "hint": "Use both regular (played, visited, watched) and irregular (went, saw, ate, had, took) verbs.",
               "answer": "Example: Last weekend was amazing. On Saturday morning, I went to the zoo with my family. We saw many animals like elephants, tigers, and monkeys. I took many photos. Then we visited the aquarium. We watched a dolphin show. After that, we ate lunch at a restaurant. The food was delicious. In the afternoon, we played games in the park. I had a wonderful day. I will never forget this experience.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Grammar: Past simple with regular and irregular verbs",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Grammar: Past simple with regular and irregular verbs (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Grammar: Past simple with regular and irregular verbs.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -492,6 +681,30 @@
               "hint": "Include: greeting, asking about symptoms, examining, giving diagnosis and advice...",
               "answer": "Example: Doctor: Good morning. What's the matter with you? Patient: Good morning, doctor. I have a stomachache. Doctor: How long have you had it? Patient: Since yesterday evening. Doctor: What did you eat yesterday? Patient: I ate a lot of spicy food. Doctor: Do you feel nauseous? Patient: Yes, a little. Doctor: Let me check your temperature. You don't have a fever. That's good. Patient: What should I do? Doctor: You should rest today. You should drink plenty of water. You shouldn't eat spicy or oily food. You should eat light food like soup or porridge. Patient: Should I take medicine? Doctor: Yes, I'll give you some medicine. Take it after meals. Patient: Thank you, doctor. Doctor: You're welcome. Get well soon!",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Health problems",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Health problems (Câu 11/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Health problems.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Health problems",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Health problems (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Health problems.",
+              "answer": "Đây là câu trả lời phân tích sâu về Health problems. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -546,6 +759,30 @@
               "hint": "Discuss: prevention methods, healthy habits, what to avoid, importance of health...",
               "answer": "Example: Staying healthy is very important. There are many ways to prevent common health problems. First, you should eat a balanced diet with fruits and vegetables. You should drink plenty of water every day. Second, you should exercise regularly. You can play sports, ride a bike, or go for a walk. Third, you should get enough sleep. Children should sleep at least 9-10 hours every night. Fourth, you should wash your hands regularly, especially before eating. You should also brush your teeth twice a day. However, you shouldn't eat too much junk food. You shouldn't stay up late. You shouldn't skip meals. If you follow these rules, you will stay healthy and strong. Remember, prevention is better than cure!",
               "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Giving advice",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Giving advice (Câu 13/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Giving advice.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Giving advice",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Giving advice (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Giving advice.",
+              "answer": "Đây là câu trả lời phân tích sâu về Giving advice. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -576,6 +813,21 @@
               "hint": "Cover: diet, exercise, sleep, hygiene, habits...",
               "answer": "Example: To stay healthy, you should eat fruits and vegetables every day. You should drink plenty of water. You should exercise regularly. You should get enough sleep. You should brush your teeth twice a day. You should wash your hands before eating. However, you shouldn't eat too much junk food. You shouldn't drink too much soda. You shouldn't stay up late. You shouldn't skip meals. You shouldn't watch TV all day. Following these rules will help you stay healthy and strong.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Grammar: Should/Shouldn't",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Grammar: Should/Shouldn't (Câu 15/15)",
+              "options": {
+                "A": "Option A",
+                "B": "Option B (Correct)",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Grammar: Should/Shouldn't.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -583,4 +835,3 @@
     }
   ]
 }
-

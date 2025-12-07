@@ -48,12 +48,13 @@ export default function DashboardPage() {
     <div className="min-h-screen relative">
       <nav>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-gradient">Sulo Training</h1>
-          <div className="flex items-center gap-4">
-            <span className="text-gray-700">Xin chào, {user.name}</span>
+          <h1 className="text-2xl font-bold text-gradient">BaitapOnline</h1>
+          <div className="flex items-center gap-2 sm:gap-4">
+            <span className="text-gray-700 text-sm sm:text-base">Xin chào, {user.name}</span>
+            {/* Button for desktop - hidden on mobile */}
             <button
               onClick={handleLogout}
-              className="btn btn-primary flex items-center gap-2"
+              className="hidden sm:flex btn btn-primary items-center gap-2"
               style={{ background: 'linear-gradient(135deg, #ef4444, #f87171)' }}
             >
               <svg
@@ -98,6 +99,29 @@ export default function DashboardPage() {
             <h3 className="text-xl font-semibold mb-4 text-gradient">Tiến độ học tập</h3>
             <p className="text-gray-600">Tính năng đang phát triển...</p>
           </div>
+        </div>
+
+        {/* Mobile logout button at bottom - scroll to see */}
+        <div className="sm:hidden mt-8 py-6 flex justify-center border-t border-gray-200">
+          <button
+            onClick={handleLogout}
+            className="text-red-600 hover:text-red-700 p-2"
+            aria-label="Đăng xuất"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>

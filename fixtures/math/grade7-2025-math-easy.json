@@ -105,6 +105,21 @@
               "hint": "Quy đồng mẫu số để so sánh, sau đó sắp xếp từ nhỏ đến lớn.",
               "answer": "Thứ tự tăng dần: $-\\frac{2}{3} < -\\frac{1}{2} < 0 < \\frac{3}{4}$",
               "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Nhắc lại khái niệm số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Nhắc lại khái niệm số hữu tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhắc lại khái niệm số hữu tỉ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -309,6 +324,21 @@
               "hint": "Giả sử $\\sqrt{2} = \\frac{p}{q}$ với $p, q$ là số nguyên, $q \\ne 0$ và phân số đã tối giản. Bình phương hai vế và tìm mâu thuẫn.",
               "answer": "Giả sử $\\sqrt{2} = \\frac{p}{q}$ (phân số tối giản). Bình phương: $2 = \\frac{p^2}{q^2}$ hay $p^2 = 2q^2$. Vậy $p^2$ chẵn nên $p$ chẵn. Đặt $p = 2k$, ta có $4k^2 = 2q^2$ hay $q^2 = 2k^2$, suy ra $q$ cũng chẵn. Mâu thuẫn vì phân số đã tối giản. Vậy $\\sqrt{2}$ là số vô tỉ.",
               "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Căn bậc hai và số vô tỉ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Căn bậc hai và số vô tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Căn bậc hai và số vô tỉ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -513,6 +543,21 @@
               "hint": "Gọi góc thứ hai là $x$, thì góc thứ nhất là $\\frac{2}{3}x$. Tổng hai góc kề bù bằng $180^\\circ$.",
               "answer": "Gọi số đo góc thứ hai là $x$, thì góc thứ nhất là $\\frac{2}{3}x$. Ta có: $\\frac{2}{3}x + x = 180^\\circ$, suy ra $\\frac{5}{3}x = 180^\\circ$, nên $x = 108^\\circ$. Vậy góc thứ nhất là $72^\\circ$, góc thứ hai là $108^\\circ$.",
               "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Phân loại các loại góc",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Phân loại các loại góc (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân loại các loại góc.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -717,6 +762,21 @@
               "hint": "Trường hợp c.g.c: hai cạnh và góc xen giữa của tam giác này bằng hai cạnh và góc xen giữa của tam giác kia.",
               "answer": "Ta có: $AB = DE$ (cạnh), $\\angle B = \\angle E$ (góc), $BC = EF$ (cạnh). Góc $\\angle B$ nằm giữa hai cạnh $AB$ và $BC$, góc $\\angle E$ nằm giữa hai cạnh $DE$ và $EF$. Vậy $\\triangle ABC = \\triangle DEF$ (c.g.c).",
               "created_at": "2025-01-01T00:00:48.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Các trường hợp bằng nhau của tam giác",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Các trường hợp bằng nhau của tam giác (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Các trường hợp bằng nhau của tam giác.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -921,6 +981,21 @@
               "hint": "Điểm trung bình = Tổng điểm / Số học sinh.",
               "answer": "Ví dụ: Điểm của 10 học sinh: 8, 7, 9, 6, 8, 7, 9, 8, 7, 9. Tổng = 78. Điểm trung bình = $78 \\div 10 = 7.8$ điểm.",
               "created_at": "2025-01-01T00:01:02.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Thu thập dữ liệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Thu thập dữ liệu (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thu thập dữ liệu.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -1125,6 +1200,21 @@
               "hint": "Chuyển về số thập phân: $\\sqrt{2} \\approx 1.414$, $\\frac{3}{2} = 1.5$, $\\sqrt{9} = 3$. Sắp xếp từ nhỏ đến lớn.",
               "answer": "Thứ tự tăng dần: $-1 < -\\frac{1}{2} < 0 < \\sqrt{2} < \\frac{3}{2} < \\sqrt{9}$",
               "created_at": "2025-01-01T00:01:16.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Ôn tập chương Số hữu tỉ và Số thực",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Ôn tập chương Số hữu tỉ và Số thực (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ôn tập chương Số hữu tỉ và Số thực.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },

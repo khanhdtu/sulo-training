@@ -8,6 +8,7 @@ const updateProfileSchema = z.object({
   gradeId: z.number().int().min(1).max(12),
   level: z.number().int().min(1).max(12).optional(),
   displayName: z.string().optional(),
+  parentEmail: z.string().email().optional().or(z.literal('')),
 });
 
 export async function PATCH(request: NextRequest) {
@@ -55,6 +56,7 @@ export async function PATCH(request: NextRequest) {
         gradeId: grade.id, // Use the grade ID from database
         level: userLevel, // Default to gradeId if not provided
         displayName: validatedData.displayName || null,
+        parentEmail: validatedData.parentEmail || null,
       },
       include: {
         grade: {

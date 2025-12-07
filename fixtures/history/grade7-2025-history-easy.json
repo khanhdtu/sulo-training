@@ -66,6 +66,30 @@
               "hint": "Ba triều đại đầu tiên sau khi giành độc lập: Ngô, Đinh, Tiền Lê.",
               "answer": "Ba triều đại phong kiến đầu tiên của nước ta là: 1. Nhà Ngô (939-965), 2. Nhà Đinh (968-980), 3. Nhà Tiền Lê (980-1009).",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Nước ta buổi đầu độc lập",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Nước ta buổi đầu độc lập (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nước ta buổi đầu độc lập.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Nước ta buổi đầu độc lập",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Nước ta buổi đầu độc lập (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Nước ta buổi đầu độc lập.",
+              "answer": "Đây là câu trả lời ngắn gọn về Nước ta buổi đầu độc lập. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -111,6 +135,30 @@
               "hint": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập nhà Đinh.",
               "answer": "Đinh Bộ Lĩnh có những đóng góp: dẹp loạn 12 sứ quân, thống nhất đất nước sau thời kỳ chia cắt; lập nên nhà Đinh, đặt tên nước là Đại Cồ Việt; đóng đô ở Hoa Lư (Ninh Bình); xây dựng bộ máy nhà nước phong kiến đầu tiên.",
               "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Nhà Ngô, Đinh, Tiền Lê (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhà Ngô, Đinh, Tiền Lê.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Nhà Ngô, Đinh, Tiền Lê",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Nhà Ngô, Đinh, Tiền Lê (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Nhà Ngô, Đinh, Tiền Lê.",
+              "answer": "Đây là câu trả lời ngắn gọn về Nhà Ngô, Đinh, Tiền Lê. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -156,6 +204,21 @@
               "hint": "Quân Tống bị đánh bại, nước ta giữ được độc lập.",
               "answer": "Kết quả: quân Tống bị đánh bại hoàn toàn; nước ta giữ được độc lập, chủ quyền; uy tín của nhà Tiền Lê được nâng cao; đất nước được bảo vệ an toàn.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Cuộc kháng chiến chống Tống lần thứ nhất (981) (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống lần thứ nhất (981).",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -207,6 +270,45 @@
               "hint": "Thăng Long có vị trí thuận lợi về giao thông, kinh tế, quân sự.",
               "answer": "Ý nghĩa: Thăng Long có vị trí trung tâm, thuận lợi về giao thông, kinh tế; dễ phòng thủ, khó tấn công; tạo điều kiện phát triển kinh tế, văn hóa; thể hiện tầm nhìn xa của Lý Công Uẩn.",
               "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Nhà Lý thành lập và xây dựng đất nước (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhà Lý thành lập và xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Nhà Lý thành lập và xây dựng đất nước",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Nhà Lý thành lập và xây dựng đất nước (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Nhà Lý thành lập và xây dựng đất nước.",
+              "answer": "Đây là câu trả lời ngắn gọn về Nhà Lý thành lập và xây dựng đất nước. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Nhà Lý thành lập và xây dựng đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Nhà Lý thành lập và xây dựng đất nước (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhà Lý thành lập và xây dựng đất nước.",
+              "created_at": "2025-01-01T00:00:10.000Z"
             }
           ]
         },
@@ -252,6 +354,39 @@
               "hint": "Năm 1075 ta tấn công trước, năm 1077 quân Tống tấn công, ta phòng thủ trên sông Như Nguyệt.",
               "answer": "Diễn biến: Năm 1075, Lý Thường Kiệt chủ động tấn công vào căn cứ của quân Tống ở Ung Châu, Khâm Châu. Năm 1077, quân Tống tấn công Đại Việt. Quân ta phòng thủ trên sông Như Nguyệt, đánh bại quân Tống. Năm 1077, hai bên ký hòa ước, quân Tống rút về nước.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời ngắn gọn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077) (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077).",
+              "answer": "Đây là câu trả lời ngắn gọn về Cuộc kháng chiến chống Tống lần thứ hai (1075-1077). Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -282,6 +417,21 @@
               "hint": "Văn hóa thời Lý: kiến trúc, tôn giáo, giáo dục, văn học.",
               "answer": "Thành tựu văn hóa: Kiến trúc: Chùa Một Cột, chùa Phật Tích, tháp Báo Thiên. Tôn giáo: Phật giáo phát triển mạnh. Giáo dục: Mở Quốc Tử Giám, tổ chức thi cử. Văn học: Có nhiều tác phẩm văn học chữ Hán.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Lý",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Lý (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Văn hóa Đại Việt thời Lý.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -333,6 +483,45 @@
               "hint": "Nhà Trần có nhiều cải cách về chính trị, quân sự, kinh tế.",
               "answer": "Cải cách: Chính trị: Củng cố bộ máy nhà nước, thực hiện chế độ Thái thượng hoàng. Quân sự: Tổ chức quân đội mạnh, thực hiện chính sách 'ngụ binh ư nông'. Kinh tế: Khuyến khích sản xuất nông nghiệp, thủ công nghiệp. Xã hội: Chia dân thành các hạng để quản lý.",
               "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Nhà Trần thành lập và củng cố chính quyền (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhà Trần thành lập và củng cố chính quyền.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Nhà Trần thành lập và củng cố chính quyền",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Nhà Trần thành lập và củng cố chính quyền (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Nhà Trần thành lập và củng cố chính quyền.",
+              "answer": "Đây là câu trả lời ngắn gọn về Nhà Trần thành lập và củng cố chính quyền. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Nhà Trần thành lập và củng cố chính quyền",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Nhà Trần thành lập và củng cố chính quyền (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhà Trần thành lập và củng cố chính quyền.",
+              "created_at": "2025-01-01T00:00:10.000Z"
             }
           ]
         },
@@ -378,6 +567,39 @@
               "hint": "Ý nghĩa: bảo vệ độc lập, thể hiện tinh thần yêu nước, nâng cao uy tín.",
               "answer": "Ý nghĩa: Bảo vệ được độc lập, chủ quyền của đất nước; thể hiện tinh thần yêu nước, đoàn kết của dân tộc; nâng cao uy tín của Đại Việt trong khu vực; để lại nhiều bài học quân sự quý giá; chứng minh sức mạnh của dân tộc Việt Nam.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời ngắn gọn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên.",
+              "answer": "Đây là câu trả lời ngắn gọn về Ba lần kháng chiến chống quân xâm lược Mông - Nguyên. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -408,6 +630,21 @@
               "hint": "Văn hóa thời Trần: văn học, kiến trúc, tôn giáo, giáo dục.",
               "answer": "Thành tựu văn hóa: Văn học: 'Hịch tướng sĩ', 'Bình Ngô đại cáo' (sau này), nhiều bài thơ yêu nước. Kiến trúc: Chùa, đền, cung điện. Tôn giáo: Phật giáo tiếp tục phát triển. Giáo dục: Mở rộng giáo dục, tổ chức thi cử. Tinh thần yêu nước được thể hiện rõ trong văn học.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Trần",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Trần (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Văn hóa Đại Việt thời Trần.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -459,6 +696,39 @@
               "hint": "Nguyên nhân: tinh thần yêu nước, chiến lược đúng đắn, sự ủng hộ của nhân dân.",
               "answer": "Nguyên nhân thắng lợi: Tinh thần yêu nước, đoàn kết của toàn dân; chiến lược, chiến thuật đúng đắn của Lê Lợi và Nguyễn Trãi; sự ủng hộ nhiệt tình của nhân dân; tận dụng địa hình, thời tiết; đánh vào điểm yếu của quân Minh.",
               "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 8/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khởi nghĩa Lam Sơn và sự thành lập nhà Lê. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -489,6 +759,45 @@
               "hint": "Lê Thánh Tông có nhiều cải cách về hành chính, quân sự, pháp luật, giáo dục.",
               "answer": "Cải cách: Hành chính: Tổ chức bộ máy nhà nước chặt chẽ, chia cả nước thành các đạo, phủ, huyện. Quân sự: Tổ chức quân đội mạnh. Pháp luật: Ban hành bộ luật Hồng Đức. Giáo dục: Mở rộng giáo dục, tổ chức thi cử công bằng. Kinh tế: Khuyến khích sản xuất, thương mại.",
               "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "answer": "Đây là câu trả lời ngắn gọn về Tổ chức bộ máy nhà nước thời Lê sơ. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Tổ chức bộ máy nhà nước thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Tổ chức bộ máy nhà nước thời Lê sơ (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tổ chức bộ máy nhà nước thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -519,6 +828,30 @@
               "hint": "Văn hóa thời Lê sơ: văn học, giáo dục, khoa học, nghệ thuật.",
               "answer": "Thành tựu văn hóa: Văn học: 'Bình Ngô đại cáo', nhiều tác phẩm văn học chữ Hán và chữ Nôm. Giáo dục: Phát triển mạnh, nhiều người đỗ đạt. Khoa học: Sử học, địa lý, y học phát triển. Nghệ thuật: Kiến trúc, điêu khắc, hội họa đạt trình độ cao. Pháp luật: Bộ luật Hồng Đức là bộ luật hoàn chỉnh.",
               "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Văn hóa Đại Việt thời Lê sơ",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Văn hóa Đại Việt thời Lê sơ (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Văn hóa Đại Việt thời Lê sơ.",
+              "answer": "Đây là câu trả lời ngắn gọn về Văn hóa Đại Việt thời Lê sơ. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Lê sơ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Văn hóa Đại Việt thời Lê sơ (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Văn hóa Đại Việt thời Lê sơ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -555,6 +888,39 @@
               "hint": "Nguyên nhân: tranh giành quyền lực, nội chiến, sự suy yếu của nhà Lê.",
               "answer": "Nguyên nhân: Nhà Lê suy yếu, các thế lực phong kiến tranh giành quyền lực; nội chiến giữa các tập đoàn phong kiến; sự phân chia quyền lực giữa họ Trịnh (Đàng Ngoài) và họ Nguyễn (Đàng Trong); không có vua đủ mạnh để thống nhất đất nước.",
               "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Đất nước bị chia cắt",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Đất nước bị chia cắt (Câu 8/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Đất nước bị chia cắt.",
+              "answer": "Đây là câu trả lời ngắn gọn về Đất nước bị chia cắt. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Kiến thức cơ bản: Đất nước bị chia cắt",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức cơ bản: Đất nước bị chia cắt (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đất nước bị chia cắt.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết 2-3 câu về Đất nước bị chia cắt",
+              "type": "essay",
+              "points": 2,
+              "question": "Viết 2-3 câu về Đất nước bị chia cắt (Câu 10/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Đất nước bị chia cắt.",
+              "answer": "Đây là câu trả lời ngắn gọn về Đất nước bị chia cắt. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -600,6 +966,45 @@
               "hint": "Tây Sơn đánh thắng chúa Nguyễn, chúa Trịnh, quân Xiêm, quân Thanh.",
               "answer": "Thắng lợi: Đánh thắng chúa Nguyễn ở Đàng Trong; đánh thắng chúa Trịnh ở Đàng Ngoài, thống nhất đất nước; đánh thắng quân Xiêm xâm lược (1785); đánh thắng quân Thanh xâm lược (1789), bảo vệ độc lập dân tộc.",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Phong trào nông dân Tây Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Phong trào nông dân Tây Sơn (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào nông dân Tây Sơn.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Phong trào nông dân Tây Sơn",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Phong trào nông dân Tây Sơn (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Phong trào nông dân Tây Sơn.",
+              "answer": "Đây là câu trả lời ngắn gọn về Phong trào nông dân Tây Sơn. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Phong trào nông dân Tây Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Phong trào nông dân Tây Sơn (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào nông dân Tây Sơn.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -630,6 +1035,30 @@
               "hint": "Văn hóa: văn học chữ Nôm, nghệ thuật, tôn giáo, kiến trúc.",
               "answer": "Thành tựu: Văn học: Văn học chữ Nôm phát triển mạnh với nhiều tác phẩm nổi tiếng. Nghệ thuật: Sân khấu, âm nhạc, hội họa phát triển. Tôn giáo: Đạo Phật, Đạo giáo, Nho giáo cùng tồn tại. Kiến trúc: Nhiều công trình kiến trúc đẹp được xây dựng. Văn hóa dân gian phong phú.",
               "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "answer": "Đây là câu trả lời ngắn gọn về Văn hóa Việt Nam thế kỷ XVI-XVIII. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Văn hóa Việt Nam thế kỷ XVI-XVIII",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Văn hóa Việt Nam thế kỷ XVI-XVIII (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Văn hóa Việt Nam thế kỷ XVI-XVIII.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -637,4 +1066,3 @@
     }
   ]
 }
-

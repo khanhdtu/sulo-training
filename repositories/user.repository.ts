@@ -4,6 +4,7 @@ export interface UpdateProfileRequest {
   gradeId: number;
   level?: number;
   displayName?: string | null;
+  parentEmail?: string | null;
 }
 
 export interface UpdateProfileResponse {

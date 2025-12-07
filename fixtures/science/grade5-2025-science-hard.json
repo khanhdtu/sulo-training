@@ -36,6 +36,30 @@
               "hint": "So sánh sinh sản hữu tính và vô tính, ưu nhược điểm, sự thích nghi...",
               "answer": "Sinh sản hữu tính: Tạo ra sự đa dạng di truyền, giúp thích nghi tốt hơn với môi trường thay đổi. Sinh sản vô tính: Nhanh, giữ nguyên đặc tính tốt, nhưng kém đa dạng. Mỗi hình thức có ưu điểm riêng phù hợp với môi trường sống. Sự đa dạng trong sinh sản là kết quả của quá trình tiến hóa, giúp các loài tồn tại và phát triển.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Sự sinh sản",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Sự sinh sản (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự sinh sản.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Sự sinh sản",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Sự sinh sản (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự sinh sản.",
+              "answer": "Đây là câu trả lời phân tích sâu về Sự sinh sản. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -66,6 +90,30 @@
               "hint": "Nêu các nội dung cần giáo dục, phương pháp, tầm quan trọng...",
               "answer": "Kế hoạch: Nội dung: Giải thích về sự thay đổi cơ thể, tầm quan trọng của vệ sinh, các biện pháp cụ thể. Phương pháp: Giáo dục phù hợp lứa tuổi, tạo môi trường cởi mở, khuyến khích đặt câu hỏi. Tầm quan trọng: Giúp trẻ tự tin, khỏe mạnh, phòng tránh bệnh tật, phát triển lành mạnh.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Vệ sinh tuổi dậy thì",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Vệ sinh tuổi dậy thì (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Vệ sinh tuổi dậy thì.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Vệ sinh tuổi dậy thì",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Vệ sinh tuổi dậy thì (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Vệ sinh tuổi dậy thì.",
+              "answer": "Đây là câu trả lời phân tích sâu về Vệ sinh tuổi dậy thì. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -96,6 +144,30 @@
               "hint": "Nêu các biện pháp: diệt muỗi, diệt lăng quăng, giáo dục, hợp tác cộng đồng...",
               "answer": "Chiến lược: Diệt muỗi và lăng quăng: phun thuốc, thả cá, vệ sinh môi trường. Giáo dục cộng đồng: nâng cao nhận thức, hướng dẫn cách phòng bệnh. Hợp tác: mọi người cùng tham gia, không để nước đọng. Giám sát: phát hiện sớm, xử lý kịp thời. Kết hợp nhiều biện pháp mới hiệu quả cao.",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
+              "answer": "Đây là câu trả lời phân tích sâu về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -126,6 +198,21 @@
               "hint": "Nêu tác hại của kỳ thị, lợi ích của việc xóa bỏ kỳ thị...",
               "answer": "Tầm quan trọng: Kỳ thị gây tác hại: người nhiễm sợ hãi, không dám đi khám, điều trị, làm bệnh lây lan. Xóa bỏ kỳ thị: giúp người nhiễm được chăm sóc, điều trị, giảm lây lan. Cần giáo dục đúng đắn: HIV không lây qua tiếp xúc thông thường, cần đối xử công bằng. Xóa bỏ kỳ thị là một phần quan trọng trong phòng chống HIV/AIDS.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Phòng tránh HIV/AIDS",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Phòng tránh HIV/AIDS (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phòng tránh HIV/AIDS.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -162,6 +249,30 @@
               "hint": "Nêu các vai trò: dung môi, vận chuyển, điều hòa nhiệt độ, tham gia phản ứng...",
               "answer": "Vai trò: Dung môi: hòa tan và vận chuyển chất dinh dưỡng, chất thải. Tham gia phản ứng: nhiều phản ứng sinh học cần nước. Điều hòa nhiệt độ: nước có nhiệt dung lớn, giúp ổn định nhiệt độ cơ thể. Môi trường sống: nhiều sinh vật sống trong nước. Cấu trúc: nước là thành phần chính của tế bào. Không có nước, không có sự sống.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Tính chất của nước",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Tính chất của nước (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tính chất của nước.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Tính chất của nước",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Tính chất của nước (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tính chất của nước.",
+              "answer": "Đây là câu trả lời phân tích sâu về Tính chất của nước. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -191,6 +302,30 @@
               "question": "Phân tích ảnh hưởng của biến đổi khí hậu đến vòng tuần hoàn nước",
               "hint": "Nêu các ảnh hưởng: thay đổi lượng mưa, nhiệt độ, băng tan...",
               "answer": "Ảnh hưởng: Nhiệt độ tăng: tăng bay hơi, thay đổi lượng mưa, phân bố mưa không đều. Băng tan: mực nước biển dâng, ảnh hưởng đến hệ sinh thái. Hạn hán và lũ lụt: thay đổi tần suất và cường độ. Ảnh hưởng đến nông nghiệp, nguồn nước. Cần bảo vệ môi trường để duy trì vòng tuần hoàn nước ổn định.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Sự chuyển thể của nước",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Sự chuyển thể của nước (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự chuyển thể của nước.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Sự chuyển thể của nước",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Sự chuyển thể của nước (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự chuyển thể của nước.",
+              "answer": "Đây là câu trả lời phân tích sâu về Sự chuyển thể của nước. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
               "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
@@ -222,6 +357,30 @@
               "hint": "Nêu ưu điểm: không cạn kiệt, ít ô nhiễm, bền vững...",
               "answer": "Tầm quan trọng: Năng lượng tái tạo (mặt trời, gió, nước) không cạn kiệt, khác với nhiên liệu hóa thạch. Ít ô nhiễm môi trường, giảm phát thải khí nhà kính. Bền vững, đảm bảo nguồn năng lượng lâu dài. Giảm phụ thuộc vào nhiên liệu hóa thạch. Cần phát triển và sử dụng năng lượng tái tạo để bảo vệ môi trường và phát triển bền vững.",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Năng lượng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Năng lượng (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Năng lượng",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Năng lượng (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Năng lượng.",
+              "answer": "Đây là câu trả lời phân tích sâu về Năng lượng. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -252,6 +411,21 @@
               "hint": "Nêu các biện pháp cụ thể, cách thực hiện, lợi ích...",
               "answer": "Kế hoạch: Gia đình: Tắt đèn, thiết bị khi không dùng, sử dụng thiết bị tiết kiệm năng lượng, tận dụng ánh sáng tự nhiên, tiết kiệm nước. Trường học: Giáo dục học sinh, tắt đèn khi ra chơi, sử dụng năng lượng mặt trời, tái chế. Lợi ích: Giảm chi phí, bảo vệ môi trường, hình thành thói quen tốt. Cần sự hợp tác của mọi người.",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Sử dụng năng lượng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Sử dụng năng lượng (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sử dụng năng lượng.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -288,6 +462,30 @@
               "hint": "Nêu mối quan hệ: hoa cung cấp mật, côn trùng giúp thụ phấn...",
               "answer": "Mối quan hệ cộng sinh: Hoa cung cấp mật hoa, phấn hoa làm thức ăn cho côn trùng, chim. Côn trùng, chim giúp hoa thụ phấn, đảm bảo sinh sản. Cả hai đều có lợi: hoa được thụ phấn, động vật có thức ăn. Đây là ví dụ về sự thích nghi và tiến hóa trong tự nhiên. Mối quan hệ này rất quan trọng cho hệ sinh thái.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Cơ quan sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Cơ quan sinh sản của thực vật có hoa (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cơ quan sinh sản của thực vật có hoa.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Cơ quan sinh sản của thực vật có hoa",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Cơ quan sinh sản của thực vật có hoa (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cơ quan sinh sản của thực vật có hoa.",
+              "answer": "Đây là câu trả lời phân tích sâu về Cơ quan sinh sản của thực vật có hoa. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -318,6 +516,30 @@
               "hint": "Nêu ưu nhược điểm của từng cách...",
               "answer": "Thụ phấn chéo: Ưu điểm: Tạo đa dạng di truyền, cây con khỏe mạnh hơn, thích nghi tốt. Nhược điểm: Phụ thuộc vào thụ phấn, có thể không thành công. Tự thụ phấn: Ưu điểm: Đảm bảo sinh sản, không phụ thuộc. Nhược điểm: Ít đa dạng di truyền, cây con có thể yếu hơn. Mỗi cách có ưu điểm riêng, phù hợp với môi trường sống.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Sự sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Sự sinh sản của thực vật có hoa (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự sinh sản của thực vật có hoa.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Sự sinh sản của thực vật có hoa",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Sự sinh sản của thực vật có hoa (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự sinh sản của thực vật có hoa.",
+              "answer": "Đây là câu trả lời phân tích sâu về Sự sinh sản của thực vật có hoa. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -348,6 +570,30 @@
               "hint": "Nêu các yếu tố: nước, nhiệt độ, không khí, ánh sáng, chất lượng hạt...",
               "answer": "Các yếu tố: Nước: cần thiết để hạt trương lên, kích hoạt enzyme. Nhiệt độ: mỗi loại hạt có nhiệt độ tối ưu. Không khí: cần oxy cho hô hấp. Ánh sáng: một số hạt cần, một số không. Chất lượng hạt: hạt già, khỏe nảy mầm tốt hơn. Độ sâu gieo: quá sâu hoặc quá nông đều không tốt. Tất cả yếu tố cần phù hợp.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Cây con mọc lên từ hạt",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Cây con mọc lên từ hạt (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cây con mọc lên từ hạt.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Cây con mọc lên từ hạt",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Cây con mọc lên từ hạt (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cây con mọc lên từ hạt.",
+              "answer": "Đây là câu trả lời phân tích sâu về Cây con mọc lên từ hạt. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -378,6 +624,21 @@
               "hint": "So sánh gieo hạt, giâm cành, chiết cành, ghép cây...",
               "answer": "Gieo hạt: Đơn giản, số lượng lớn, nhưng cây con có thể khác cây mẹ. Giâm cành: Giữ đặc tính, nhanh, nhưng cần kỹ thuật. Chiết cành: Tỷ lệ sống cao, nhưng tốn công. Ghép cây: Kết hợp ưu điểm, nhưng phức tạp. Mỗi phương pháp phù hợp với từng loại cây và mục đích. Cần chọn phương pháp phù hợp.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Cây con có thể mọc lên từ một số bộ phận của cây mẹ (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cây con có thể mọc lên từ một số bộ phận của cây mẹ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -414,6 +675,30 @@
               "hint": "Nêu các hậu quả: tuyệt chủng, ô nhiễm, biến đổi khí hậu...",
               "answer": "Hậu quả: Tuyệt chủng loài: mất một loài ảnh hưởng đến các loài khác. Ô nhiễm môi trường: ảnh hưởng đến sức khỏe, hệ sinh thái. Biến đổi khí hậu: ảnh hưởng toàn cầu. Mất đa dạng sinh học: hệ sinh thái kém ổn định. Ảnh hưởng đến con người: thiếu thức ăn, nước, không khí sạch. Cần bảo vệ môi trường để duy trì cân bằng sinh thái.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Phân tích phức tạp: Môi trường",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Phân tích phức tạp: Môi trường (Câu 9/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Môi trường.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết bài phân tích về Môi trường",
+              "type": "essay",
+              "points": 4,
+              "question": "Viết bài phân tích về Môi trường (Câu 10/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Môi trường.",
+              "answer": "Đây là câu trả lời phân tích sâu về Môi trường. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -444,6 +729,30 @@
               "hint": "Nêu các chiến lược: tiết kiệm, tái sử dụng, tái chế, phát triển năng lượng tái tạo...",
               "answer": "Chiến lược: Tiết kiệm: sử dụng hợp lý, tránh lãng phí. Tái sử dụng: dùng lại nhiều lần. Tái chế: biến chất thải thành tài nguyên. Phát triển năng lượng tái tạo: thay thế nhiên liệu hóa thạch. Bảo vệ và phục hồi: trồng rừng, bảo vệ đa dạng sinh học. Giáo dục: nâng cao nhận thức. Hợp tác quốc tế: cùng bảo vệ môi trường toàn cầu.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Câu hỏi phân tích sâu về Tài nguyên thiên nhiên",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi phân tích sâu về Tài nguyên thiên nhiên (Câu 11/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tài nguyên thiên nhiên.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Phân tích chi tiết và đưa ra nhận xét về Tài nguyên thiên nhiên",
+              "type": "essay",
+              "points": 4,
+              "question": "Phân tích chi tiết và đưa ra nhận xét về Tài nguyên thiên nhiên (Câu 12/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tài nguyên thiên nhiên.",
+              "answer": "Đây là câu trả lời phân tích sâu về Tài nguyên thiên nhiên. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -474,6 +783,30 @@
               "hint": "Nêu mối quan hệ: phát triển bền vững, cân bằng...",
               "answer": "Mối quan hệ: Phát triển kinh tế cần tài nguyên từ môi trường, nhưng khai thác quá mức sẽ phá hủy môi trường. Phát triển bền vững: phát triển kinh tế đồng thời bảo vệ môi trường. Cần cân bằng: sử dụng tài nguyên hợp lý, phát triển công nghệ sạch, năng lượng tái tạo. Bảo vệ môi trường là nền tảng cho phát triển lâu dài. Cả hai cần đi đôi với nhau.",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Câu hỏi tổng hợp về Vai trò của môi trường tự nhiên đối với đời sống con người",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi tổng hợp về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 13/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Vai trò của môi trường tự nhiên đối với đời sống con người.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày và đánh giá về Vai trò của môi trường tự nhiên đối với đời sống con người",
+              "type": "essay",
+              "points": 4,
+              "question": "Trình bày và đánh giá về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 14/15)",
+              "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Vai trò của môi trường tự nhiên đối với đời sống con người.",
+              "answer": "Đây là câu trả lời phân tích sâu về Vai trò của môi trường tự nhiên đối với đời sống con người. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -504,6 +837,21 @@
               "hint": "Nêu các hành động cụ thể: giảm rác thải, tiết kiệm năng lượng, trồng cây...",
               "answer": "Kế hoạch: Giảm rác thải: phân loại, tái chế, hạn chế dùng đồ nhựa. Tiết kiệm năng lượng: tắt đèn, dùng thiết bị tiết kiệm. Tiết kiệm nước: sử dụng hợp lý, tái sử dụng. Trồng cây: tăng cây xanh, bảo vệ rừng. Giáo dục: nâng cao nhận thức. Tham gia hoạt động bảo vệ môi trường. Mỗi người đều có thể góp phần bảo vệ môi trường.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Tác động của con người đến môi trường",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Tác động của con người đến môi trường (Câu 15/15)",
+              "options": {
+                "A": "Lựa chọn A",
+                "B": "Lựa chọn B (Đúng)",
+                "C": "Lựa chọn C",
+                "D": "Lựa chọn D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tác động của con người đến môi trường.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -511,4 +859,3 @@
     }
   ]
 }
-

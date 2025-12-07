@@ -12,6 +12,7 @@ export interface User {
   gradeId?: number | null; // Grade ID in database (foreign key)
   gradeLevel?: number | null; // Grade level (1-12) for display
   level?: number | null; // User learning level
+  parentEmail?: string | null; // Parent email for notifications
 }
 
 export interface LoginResponse {

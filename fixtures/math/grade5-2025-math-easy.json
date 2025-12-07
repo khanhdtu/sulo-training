@@ -66,6 +66,30 @@
               "hint": "Quy đồng mẫu số trước khi cộng. Mẫu số chung của 3 và 6 là 6.",
               "answer": "Quy đồng mẫu số: $\\frac{1}{3} = \\frac{2}{6}$. Tính: $\\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Phân số và phép tính với phân số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Phân số và phép tính với phân số (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân số và phép tính với phân số.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Phân số và phép tính với phân số",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Phân số và phép tính với phân số (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Phân số và phép tính với phân số.",
+              "answer": "Đây là câu trả lời ngắn gọn về Phân số và phép tính với phân số. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -111,6 +135,30 @@
               "hint": "Chia 11 cho 4: 11 ÷ 4 = 2 dư 3.",
               "answer": "$11 \\div 4 = 2$ dư $3$. Vậy $\\frac{11}{4} = 2\\frac{3}{4}$.",
               "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Hỗn số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Hỗn số (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hỗn số.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Hỗn số",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Hỗn số (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Hỗn số.",
+              "answer": "Đây là câu trả lời ngắn gọn về Hỗn số. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -156,6 +204,21 @@
               "hint": "Quy đồng mẫu số hoặc so sánh trực tiếp: phân số có cùng tử số, mẫu số càng lớn thì phân số càng nhỏ.",
               "answer": "Vì các phân số có cùng tử số là 1, nên phân số nào có mẫu số lớn hơn thì nhỏ hơn. Thứ tự tăng dần: $\\frac{1}{4} < \\frac{1}{3} < \\frac{1}{2}$.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về So sánh phân số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về So sánh phân số (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của So sánh phân số.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -207,6 +270,30 @@
               "hint": "Phân số có mẫu số là 10 thì viết thành số thập phân có 1 chữ số sau dấu phẩy.",
               "answer": "$\\frac{3}{10} = 0,3$",
               "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Khái niệm số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Khái niệm số thập phân (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khái niệm số thập phân.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Khái niệm số thập phân",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Khái niệm số thập phân (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khái niệm số thập phân.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khái niệm số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -252,6 +339,30 @@
               "hint": "Viết 12,5 = 12,50 rồi cộng với 8,75.",
               "answer": "12,5 + 8,75 = 12,50 + 8,75 = 21,25",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Phép cộng, trừ số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Phép cộng, trừ số thập phân (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phép cộng, trừ số thập phân.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Phép cộng, trừ số thập phân",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Phép cộng, trừ số thập phân (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Phép cộng, trừ số thập phân.",
+              "answer": "Đây là câu trả lời ngắn gọn về Phép cộng, trừ số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -312,6 +423,21 @@
               "correctOption": "A",
               "hint": "So sánh phần nguyên trước (2 = 2), rồi so sánh phần thập phân (5 > 3).",
               "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Phép nhân, chia số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Phép nhân, chia số thập phân (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phép nhân, chia số thập phân.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -363,6 +489,30 @@
               "hint": "Hình tam giác có 3 cạnh, 3 góc, tổng 3 góc bằng 180 độ.",
               "answer": "Hình tam giác có 3 cạnh, 3 đỉnh, 3 góc. Tổng 3 góc trong tam giác bằng 180 độ.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Hình tam giác, hình thang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Hình tam giác, hình thang (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hình tam giác, hình thang.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Hình tam giác, hình thang",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Hình tam giác, hình thang (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Hình tam giác, hình thang.",
+              "answer": "Đây là câu trả lời ngắn gọn về Hình tam giác, hình thang. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -408,6 +558,30 @@
               "hint": "Sử dụng công thức: Diện tích = (đáy × chiều cao) : 2",
               "answer": "Diện tích = (10 × 6) : 2 = 60 : 2 = 30 cm²",
               "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Diện tích hình tam giác, hình thang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Diện tích hình tam giác, hình thang (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Diện tích hình tam giác, hình thang.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Diện tích hình tam giác, hình thang",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Diện tích hình tam giác, hình thang (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Diện tích hình tam giác, hình thang.",
+              "answer": "Đây là câu trả lời ngắn gọn về Diện tích hình tam giác, hình thang. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -468,6 +642,21 @@
               "correctOption": "A",
               "hint": "Hình vuông có 4 cạnh bằng nhau và 4 góc vuông.",
               "created_at": "2025-01-01T00:00:42.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Hình tròn, hình hộp chữ nhật, hình lập phương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Hình tròn, hình hộp chữ nhật, hình lập phương (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hình tròn, hình hộp chữ nhật, hình lập phương.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -519,6 +708,30 @@
               "hint": "3 giờ = 180 phút, cộng thêm 30 phút.",
               "answer": "3 giờ 30 phút = 3 × 60 + 30 = 180 + 30 = 210 phút",
               "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Câu hỏi cơ bản về Bảng đơn vị đo thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi cơ bản về Bảng đơn vị đo thời gian (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảng đơn vị đo thời gian.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Nêu hiểu biết của em về Bảng đơn vị đo thời gian",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Bảng đơn vị đo thời gian (Câu 12/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Bảng đơn vị đo thời gian.",
+              "answer": "Đây là câu trả lời ngắn gọn về Bảng đơn vị đo thời gian. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -564,6 +777,30 @@
               "hint": "Cộng giờ và phút riêng, nếu phút >= 60 thì đổi sang giờ.",
               "answer": "4 giờ 25 phút + 2 giờ 40 phút = 6 giờ 65 phút = 7 giờ 5 phút (vì 65 phút = 1 giờ 5 phút)",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Cộng, trừ số đo thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Cộng, trừ số đo thời gian (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cộng, trừ số đo thời gian.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Cộng, trừ số đo thời gian",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Cộng, trừ số đo thời gian (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Cộng, trừ số đo thời gian.",
+              "answer": "Đây là câu trả lời ngắn gọn về Cộng, trừ số đo thời gian. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -624,6 +861,21 @@
               "correctOption": "B",
               "hint": "1 ngày = 24 giờ, vậy 2 ngày = 2 × 24 = 48 giờ.",
               "created_at": "2025-01-01T00:00:43.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Nhân, chia số đo thời gian",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Nhân, chia số đo thời gian (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhân, chia số đo thời gian.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -708,6 +960,30 @@
               "hint": "Cộng số thập phân: đặt tính thẳng hàng, cộng như số tự nhiên.",
               "answer": "2,5 + 1,3 = 3,8",
               "created_at": "2025-01-01T00:00:47.000Z"
+            },
+            {
+              "title": "Hiểu biết cơ bản về Ôn tập về số tự nhiên, phân số, số thập phân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hiểu biết cơ bản về Ôn tập về số tự nhiên, phân số, số thập phân (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ôn tập về số tự nhiên, phân số, số thập phân.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Trình bày ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân",
+              "type": "essay",
+              "points": 2,
+              "question": "Trình bày ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân (Câu 14/15)",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Ôn tập về số tự nhiên, phân số, số thập phân.",
+              "answer": "Đây là câu trả lời ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -786,6 +1062,21 @@
               "hint": "1 km = 1000 m",
               "answer": "3 km = 3 × 1000 = 3000 m",
               "created_at": "2025-01-01T00:00:51.000Z"
+            },
+            {
+              "title": "Câu hỏi đơn giản về Ôn tập về hình học và đo lường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi đơn giản về Ôn tập về hình học và đo lường (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ôn tập về hình học và đo lường.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -793,4 +1084,3 @@
     }
   ]
 }
-

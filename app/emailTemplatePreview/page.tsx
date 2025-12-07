@@ -198,7 +198,7 @@ export default function EmailTemplatePreviewPage() {
             <div className="border-t border-gray-200 pt-4 mt-6">
               <p className="text-gray-600 text-sm">
                 Trân trọng,<br />
-                Hệ thống Sulo Training
+                Hệ thống BaitapOnline
               </p>
             </div>
           </div>
@@ -315,7 +315,7 @@ function generateEmailHTML(stats: DailyActivityStats, usernameParam?: string | n
     <div style="border-top: 1px solid #e5e7eb; padding-top: 20px; margin-top: 30px;">
       <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.6;">
         Trân trọng,<br />
-        Hệ thống Sulo Training
+        Hệ thống BaitapOnline
       </p>
     </div>
   </div>

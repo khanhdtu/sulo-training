@@ -36,6 +36,30 @@
               "hint": "Nêu ý nghĩa về tình yêu thương, trách nhiệm, lời khuyên...",
               "answer": "Bức thư thể hiện tình yêu thương sâu sắc của Bác Hồ dành cho thế hệ trẻ. Bác nhấn mạnh trách nhiệm của học sinh trong việc xây dựng đất nước. Bác khuyên các em cần học tập chăm chỉ, rèn luyện đạo đức. Bức thư có ý nghĩa giáo dục to lớn, khơi dậy tinh thần yêu nước và trách nhiệm công dân.",
               "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tập đọc: Thư gửi các học sinh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tập đọc: Thư gửi các học sinh (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập đọc: Thư gửi các học sinh để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tập đọc: Thư gửi các học sinh",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tập đọc: Thư gửi các học sinh (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tập đọc: Thư gửi các học sinh.",
+              "answer": "Đây là câu trả lời vận dụng về Tập đọc: Thư gửi các học sinh. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -66,6 +90,30 @@
               "hint": "Viết về vẻ đẹp, con người, truyền thống, chú ý viết hoa đúng tên riêng...",
               "answer": "Việt Nam là đất nước xinh đẹp của em. Đất nước ta có nhiều cảnh đẹp nổi tiếng như vịnh Hạ Long, phố cổ Hội An, chùa Một Cột. Người dân Việt Nam rất thân thiện, hiếu khách và cần cù lao động. Việt Nam có truyền thống văn hóa lâu đời và lịch sử hào hùng. Em rất tự hào về đất nước Việt Nam và sẽ cố gắng học tập để góp phần xây dựng đất nước.",
               "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Việt Nam thân yêu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Việt Nam thân yêu (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Chính tả: Nghe - viết: Việt Nam thân yêu để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Chính tả: Nghe - viết: Việt Nam thân yêu",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Chính tả: Nghe - viết: Việt Nam thân yêu (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Chính tả: Nghe - viết: Việt Nam thân yêu.",
+              "answer": "Đây là câu trả lời vận dụng về Chính tả: Nghe - viết: Việt Nam thân yêu. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -96,6 +144,30 @@
               "hint": "Sử dụng các từ đồng nghĩa thay thế để câu văn phong phú hơn...",
               "answer": "Sân trường em rất rộng và đẹp. Không gian này là nơi chúng em vui chơi mỗi ngày. Khu vực này có nhiều cây xanh tỏa bóng mát. Nơi đây còn là nơi chúng em tập thể dục. Em rất yêu quý sân trường của mình. (Sử dụng: sân trường - không gian - khu vực - nơi đây - nơi để tránh lặp từ)",
               "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Luyện từ và câu: Từ đồng nghĩa",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Luyện từ và câu: Từ đồng nghĩa (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Luyện từ và câu: Từ đồng nghĩa để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Luyện từ và câu: Từ đồng nghĩa",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Luyện từ và câu: Từ đồng nghĩa (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Luyện từ và câu: Từ đồng nghĩa.",
+              "answer": "Đây là câu trả lời vận dụng về Luyện từ và câu: Từ đồng nghĩa. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -126,6 +198,21 @@
               "hint": "Mở bài: giới thiệu cảnh. Thân bài: tả chi tiết theo thứ tự. Kết bài: nêu cảm nghĩ.",
               "answer": "Mở bài: Sân trường em rất rộng và đẹp. Đây là nơi chúng em vui chơi, tập thể dục mỗi ngày. Thân bài: Nhìn từ xa, sân trường như một tấm thảm xanh. Ở giữa sân có cột cờ cao vút. Xung quanh có nhiều cây bàng, cây phượng tỏa bóng mát. Vào buổi sáng, sân trường rộn ràng tiếng cười đùa của các bạn học sinh. Kết bài: Em rất yêu quý sân trường của mình. Nơi đây gắn bó với bao kỷ niệm đẹp của tuổi học trò.",
               "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "title": "Phân tích về Tập làm văn: Cấu tạo của bài văn tả cảnh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Tập làm văn: Cấu tạo của bài văn tả cảnh (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập làm văn: Cấu tạo của bài văn tả cảnh để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -162,6 +249,30 @@
               "hint": "Nêu ý nghĩa: con người được sống yên ổn, học tập, làm việc, phát triển...",
               "answer": "Hòa bình rất quan trọng đối với cuộc sống con người. Khi có hòa bình, mọi người được sống yên ổn, không lo sợ chiến tranh. Trẻ em được đến trường học tập, người lớn được làm việc để phát triển. Hòa bình tạo điều kiện cho mọi người phát triển tài năng và đóng góp cho xã hội. Em mong muốn thế giới luôn có hòa bình để mọi người được sống hạnh phúc.",
               "created_at": "2025-01-01T00:00:09.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tập đọc: Những con sếu bằng giấy",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tập đọc: Những con sếu bằng giấy (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập đọc: Những con sếu bằng giấy để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tập đọc: Những con sếu bằng giấy",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tập đọc: Những con sếu bằng giấy (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tập đọc: Những con sếu bằng giấy.",
+              "answer": "Đây là câu trả lời vận dụng về Tập đọc: Những con sếu bằng giấy. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -191,6 +302,30 @@
               "question": "Viết đoạn văn (5-6 câu) về tình cảm đối với các chú bộ đội, chú ý chính tả",
               "hint": "Nêu tình cảm yêu quý, biết ơn, chú ý viết đúng chính tả...",
               "answer": "Em rất yêu quý và biết ơn các chú bộ đội. Các chú đã hy sinh tuổi xuân, sẵn sàng chiến đấu để bảo vệ Tổ quốc. Nhờ có các chú, chúng em mới được sống trong hòa bình, được đến trường học tập. Các chú bộ đội là những người anh hùng thầm lặng. Em sẽ cố gắng học tập tốt để xứng đáng với công lao của các chú.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ.",
+              "answer": "Đây là câu trả lời vận dụng về Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
               "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
@@ -222,6 +357,30 @@
               "hint": "Sử dụng các cặp từ trái nghĩa: đẹp/xấu, to/nhỏ, cao/thấp...",
               "answer": "Trong lớp em có bạn học rất giỏi, nhưng cũng có bạn học chưa tốt. Bạn giỏi luôn chăm chỉ, còn bạn chưa tốt thì lười biếng. Bạn giỏi được thầy cô khen ngợi, bạn chưa tốt bị nhắc nhở. Em nghĩ mọi người đều có thể thay đổi, từ chưa tốt thành tốt nếu cố gắng. (Sử dụng: giỏi/chưa tốt, chăm chỉ/lười biếng, khen ngợi/nhắc nhở)",
               "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Luyện từ và câu: Từ trái nghĩa",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Luyện từ và câu: Từ trái nghĩa (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Luyện từ và câu: Từ trái nghĩa để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Luyện từ và câu: Từ trái nghĩa",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Luyện từ và câu: Từ trái nghĩa (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Luyện từ và câu: Từ trái nghĩa.",
+              "answer": "Đây là câu trả lời vận dụng về Luyện từ và câu: Từ trái nghĩa. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -252,6 +411,21 @@
               "hint": "Sử dụng so sánh, nhân hóa, từ ngữ gợi tả để bài văn sinh động...",
               "answer": "Sân trường vào buổi sáng rất đẹp. Những tia nắng vàng như rót mật xuống sân trường. Cây bàng xanh tươi như những chiếc ô khổng lồ tỏa bóng mát. Các bạn học sinh đang vui chơi, tiếng cười rộn rã như những bản nhạc vui. Không khí trong lành và mát mẻ. Em cảm thấy yêu quý sân trường biết bao. (Sử dụng: so sánh 'như rót mật', 'như những chiếc ô', 'như những bản nhạc'; nhân hóa 'cây bàng tỏa bóng')",
               "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "title": "Phân tích về Tập làm văn: Luyện tập tả cảnh",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Tập làm văn: Luyện tập tả cảnh (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập làm văn: Luyện tập tả cảnh để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -288,6 +462,30 @@
               "hint": "Nêu ý nghĩa của tình bạn, cách thể hiện: giúp đỡ, chia sẻ, chân thành...",
               "answer": "Tình bạn là một trong những điều quý giá nhất trong cuộc sống. Bạn bè tốt là những người luôn ở bên cạnh ta trong mọi hoàn cảnh. Họ sẵn sàng giúp đỡ khi ta gặp khó khăn, chia sẻ niềm vui và nỗi buồn. Tình bạn tốt được xây dựng trên sự chân thành, tin tưởng và tôn trọng lẫn nhau. Em rất trân trọng tình bạn của mình và sẽ cố gắng trở thành một người bạn tốt.",
               "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tập đọc: Những người bạn tốt",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tập đọc: Những người bạn tốt (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập đọc: Những người bạn tốt để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tập đọc: Những người bạn tốt",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tập đọc: Những người bạn tốt (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tập đọc: Những người bạn tốt.",
+              "answer": "Đây là câu trả lời vận dụng về Tập đọc: Những người bạn tốt. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -318,6 +516,30 @@
               "hint": "Tả về quê hương: cảnh đẹp, con người, tình cảm, chú ý viết đúng chính tả...",
               "answer": "Quê hương em là một vùng quê yên bình. Có những cánh đồng lúa xanh mướt trải dài đến tận chân trời. Dòng sông quê uốn lượn như dải lụa mềm mại. Người dân quê em rất thân thiện và chăm chỉ. Em rất yêu quê hương của mình, nơi đã nuôi dưỡng em lớn lên.",
               "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Dòng kinh quê hương",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Dòng kinh quê hương (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Chính tả: Nghe - viết: Dòng kinh quê hương để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Chính tả: Nghe - viết: Dòng kinh quê hương",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Chính tả: Nghe - viết: Dòng kinh quê hương (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Chính tả: Nghe - viết: Dòng kinh quê hương.",
+              "answer": "Đây là câu trả lời vận dụng về Chính tả: Nghe - viết: Dòng kinh quê hương. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -348,6 +570,30 @@
               "hint": "Sử dụng các từ: núi, sông, biển, rừng, cây, hoa, chim, gió, mây...",
               "answer": "Cánh đồng lúa vào buổi sáng thật đẹp. Những bông lúa vàng ươm đung đưa trong gió nhẹ. Xa xa là dãy núi xanh mờ ảo trong sương sớm. Dòng sông uốn lượn như dải lụa, nước trong veo phản chiếu ánh mặt trời. Trên bầu trời, những đám mây trắng bồng bềnh trôi. Chim chóc hót líu lo trên những cành cây. Thiên nhiên thật tươi đẹp và thanh bình.",
               "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên.",
+              "answer": "Đây là câu trả lời vận dụng về Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -378,6 +624,21 @@
               "hint": "Mở bài: giới thiệu cảnh. Thân bài: tả chi tiết (hình dáng, màu sắc, âm thanh...). Kết bài: cảm nghĩ. Sử dụng so sánh, nhân hóa...",
               "answer": "Mở bài: Cánh đồng lúa quê em vào buổi sáng thật đẹp. Thân bài: Những bông lúa vàng ươm như những hạt vàng rực rỡ. Gió nhẹ thổi qua, lúa đung đưa như những cánh sóng. Xa xa, dãy núi xanh như bức tranh thủy mặc. Dòng sông uốn lượn như dải lụa mềm mại. Chim chóc hót vang, tạo nên bản nhạc thiên nhiên. Kết bài: Em cảm thấy yêu thiên nhiên quê hương biết bao.",
               "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Phân tích về Tập làm văn: Luyện tập tả cảnh thiên nhiên",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Tập làm văn: Luyện tập tả cảnh thiên nhiên (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập làm văn: Luyện tập tả cảnh thiên nhiên để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -414,6 +675,30 @@
               "hint": "Nêu tầm quan trọng: môi trường sạch giúp sống khỏe mạnh, bảo vệ tài nguyên...",
               "answer": "Bảo vệ môi trường rất quan trọng đối với cuộc sống con người. Môi trường sạch giúp chúng ta sống khỏe mạnh, tránh được nhiều bệnh tật. Bảo vệ môi trường cũng là bảo vệ tài nguyên thiên nhiên cho thế hệ tương lai. Mỗi người đều có trách nhiệm bảo vệ môi trường bằng những hành động nhỏ như không xả rác, trồng cây xanh. Em sẽ góp phần bảo vệ môi trường để có cuộc sống tốt đẹp hơn.",
               "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tập đọc: Một chuyên gia máy xúc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tập đọc: Một chuyên gia máy xúc (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập đọc: Một chuyên gia máy xúc để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tập đọc: Một chuyên gia máy xúc",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tập đọc: Một chuyên gia máy xúc (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tập đọc: Một chuyên gia máy xúc.",
+              "answer": "Đây là câu trả lời vận dụng về Tập đọc: Một chuyên gia máy xúc. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -444,6 +729,30 @@
               "hint": "Nêu các cách: không xả rác, trồng cây, tiết kiệm... chú ý viết đúng chính tả...",
               "answer": "Để bảo vệ môi trường, chúng ta không nên xả rác bừa bãi. Chúng ta nên phân loại rác và tái chế khi có thể. Trồng nhiều cây xanh cũng là cách bảo vệ môi trường hiệu quả. Chúng ta cũng nên tiết kiệm nước và điện. Mỗi người đều có thể góp phần bảo vệ môi trường bằng những hành động nhỏ hàng ngày.",
               "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Luật Bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Luật Bảo vệ môi trường (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Chính tả: Nghe - viết: Luật Bảo vệ môi trường để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Chính tả: Nghe - viết: Luật Bảo vệ môi trường",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Chính tả: Nghe - viết: Luật Bảo vệ môi trường (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Chính tả: Nghe - viết: Luật Bảo vệ môi trường.",
+              "answer": "Đây là câu trả lời vận dụng về Chính tả: Nghe - viết: Luật Bảo vệ môi trường. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -474,6 +783,30 @@
               "hint": "Sử dụng các đại từ: tôi, bạn, chúng ta, họ, nó... để thay thế danh từ...",
               "answer": "Mẹ em là giáo viên. Mẹ rất yêu thương học sinh. Mẹ luôn tận tình giảng dạy. Mẹ cũng rất yêu thương em. Em rất yêu mẹ. (Có thể viết lại: Mẹ em là giáo viên. Mẹ rất yêu thương học sinh. Mẹ luôn tận tình giảng dạy. Mẹ cũng rất yêu thương em. Em rất yêu mẹ. - Sử dụng 'Mẹ' thay vì lặp lại 'mẹ em')",
               "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Luyện từ và câu: Đại từ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Luyện từ và câu: Đại từ (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Luyện từ và câu: Đại từ để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Luyện từ và câu: Đại từ",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Luyện từ và câu: Đại từ (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Luyện từ và câu: Đại từ.",
+              "answer": "Đây là câu trả lời vận dụng về Luyện từ và câu: Đại từ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -504,6 +837,21 @@
               "hint": "Mở bài: giới thiệu người định tả. Thân bài: tả ngoại hình, tính cách, hành động. Kết bài: tình cảm.",
               "answer": "Mở bài: Mẹ em là người em yêu quý nhất trong gia đình. Thân bài: Mẹ có khuôn mặt tròn, đôi mắt sáng và nụ cười hiền. Mẹ cao khoảng một mét sáu, dáng người thanh mảnh. Mẹ rất hiền và yêu thương em. Mẹ luôn chăm sóc em chu đáo, nấu những món ăn ngon. Mẹ cũng dạy em nhiều điều hay. Kết bài: Em rất yêu mẹ và sẽ cố gắng học tập tốt để làm mẹ vui lòng.",
               "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "title": "Phân tích về Tập làm văn: Luyện tập tả người",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Tập làm văn: Luyện tập tả người (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập làm văn: Luyện tập tả người để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -540,6 +888,30 @@
               "hint": "Nêu ý nghĩa: mang lại niềm vui, giúp đỡ người khác, tạo mối quan hệ tốt...",
               "answer": "Chia sẻ rất quan trọng trong cuộc sống. Khi chia sẻ, chúng ta mang lại niềm vui và hạnh phúc cho người khác. Chia sẻ cũng giúp chúng ta cảm thấy hạnh phúc hơn. Sự chia sẻ tạo nên mối quan hệ tốt đẹp giữa con người với nhau. Em sẽ học cách chia sẻ với mọi người để cuộc sống tốt đẹp hơn.",
               "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "title": "Câu hỏi nâng cao về Tập đọc: Chuỗi ngọc lam",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi nâng cao về Tập đọc: Chuỗi ngọc lam (Câu 9/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập đọc: Chuỗi ngọc lam để trả lời.",
+              "created_at": "2025-01-01T00:00:08.000Z"
+            },
+            {
+              "title": "Viết đoạn văn ngắn về Tập đọc: Chuỗi ngọc lam",
+              "type": "essay",
+              "points": 3,
+              "question": "Viết đoạn văn ngắn về Tập đọc: Chuỗi ngọc lam (Câu 10/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Tập đọc: Chuỗi ngọc lam.",
+              "answer": "Đây là câu trả lời vận dụng về Tập đọc: Chuỗi ngọc lam. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:09.000Z"
             }
           ]
         },
@@ -570,6 +942,30 @@
               "hint": "Tả về mùa thu: thời tiết, cảnh vật, chú ý viết đúng chính tả...",
               "answer": "Mùa thu là mùa đẹp nhất trong năm. Thời tiết mát mẻ và dễ chịu, không còn nóng bức như mùa hè. Lá cây chuyển sang màu vàng, rơi rụng xuống tạo thành thảm lá vàng. Bầu trời trong xanh, cao vời vợi. Không khí trong lành, mát mẻ. Em rất thích mùa thu vì thời tiết dễ chịu và cảnh vật đẹp.",
               "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "title": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Mùa thảo quả",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Câu hỏi vận dụng về Chính tả: Nghe - viết: Mùa thảo quả (Câu 11/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Chính tả: Nghe - viết: Mùa thảo quả để trả lời.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Trình bày quan điểm về Chính tả: Nghe - viết: Mùa thảo quả",
+              "type": "essay",
+              "points": 3,
+              "question": "Trình bày quan điểm về Chính tả: Nghe - viết: Mùa thảo quả (Câu 12/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Chính tả: Nghe - viết: Mùa thảo quả.",
+              "answer": "Đây là câu trả lời vận dụng về Chính tả: Nghe - viết: Mùa thảo quả. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:11.000Z"
             }
           ]
         },
@@ -600,6 +996,30 @@
               "hint": "Sử dụng: danh từ (học sinh, trường...), động từ (học, chơi...), tính từ (giỏi, chăm chỉ...), đại từ (em, bạn...).",
               "answer": "Em là học sinh lớp 5. Em học rất chăm chỉ. Bạn em cũng rất giỏi. Chúng em cùng nhau học tập. Trường học của em rất đẹp. Em rất yêu trường học của mình. (Danh từ: học sinh, trường học, bạn. Động từ: học, yêu. Tính từ: chăm chỉ, giỏi, đẹp. Đại từ: em, chúng em, mình)",
               "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "title": "Vận dụng hiểu biết về Luyện từ và câu: Tổng kết vốn từ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Vận dụng hiểu biết về Luyện từ và câu: Tổng kết vốn từ (Câu 13/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Luyện từ và câu: Tổng kết vốn từ để trả lời.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Phân tích ngắn gọn về Luyện từ và câu: Tổng kết vốn từ",
+              "type": "essay",
+              "points": 3,
+              "question": "Phân tích ngắn gọn về Luyện từ và câu: Tổng kết vốn từ (Câu 14/15)",
+              "hint": "Vận dụng kiến thức đã học, phân tích và giải thích về Luyện từ và câu: Tổng kết vốn từ.",
+              "answer": "Đây là câu trả lời vận dụng về Luyện từ và câu: Tổng kết vốn từ. Cần áp dụng kiến thức đã học để giải thích và phân tích. Câu trả lời cần có tính logic và mạch lạc.",
+              "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
         },
@@ -630,6 +1050,21 @@
               "hint": "Bao gồm: Quốc hiệu, tiêu ngữ, tên đơn, nơi gửi, nội dung (lý do xin nghỉ), lời hứa, ký tên, ngày tháng...",
               "answer": "Cộng hòa xã hội chủ nghĩa Việt Nam. Độc lập - Tự do - Hạnh phúc. ĐƠN XIN PHÉP NGHỈ HỌC. Kính gửi: Ban giám hiệu và cô giáo chủ nhiệm lớp 5A. Em tên là: Nguyễn Văn A, học sinh lớp 5A. Em viết đơn này xin phép được nghỉ học ngày 15/01/2025 vì lý do: Em bị ốm, không thể đến trường. Em xin hứa sẽ chép bài đầy đủ và làm bài tập. Em xin chân thành cảm ơn. Ngày 14 tháng 01 năm 2025. Người làm đơn (Ký tên) Nguyễn Văn A",
               "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "title": "Phân tích về Tập làm văn: Luyện tập làm đơn",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Tập làm văn: Luyện tập làm đơn (Câu 15/15)",
+              "options": {
+                "A": "Phương án A",
+                "B": "Phương án B (Đúng)",
+                "C": "Phương án C",
+                "D": "Phương án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Tập làm văn: Luyện tập làm đơn để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         }
@@ -637,4 +1072,3 @@
     }
   ]
 }
-

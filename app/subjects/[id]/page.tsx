@@ -1,16 +1,18 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-import { useRouter, useParams } from 'next/navigation';
+import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import { subjectRepository, type Subject } from '@/repositories/subject.repository';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
 import Loading from '@/components/Loading';
+import { toast } from 'sonner';
 
 // Types are imported from repository
 
 export default function SubjectPage() {
   const router = useRouter();
   const params = useParams();
+  const searchParams = useSearchParams();
   const subjectId = params.id as string;
 
   const [subject, setSubject] = useState<Subject | null>(null);
@@ -21,6 +23,14 @@ export default function SubjectPage() {
   useEffect(() => {
     if (!subjectId) {
       return;
+    }
+    
+    // Check if redirected from draft save
+    const draftParam = searchParams.get('draft');
+    if (draftParam === 'true') {
+      toast.success('Đã lưu nháp thành công! Bạn có thể tiếp tục làm bài sau.');
+      // Remove query param from URL
+      router.replace(`/subjects/${subjectId}`, { scroll: false });
     }
     
     // Generate unique request ID for this fetch attempt
@@ -60,7 +70,7 @@ export default function SubjectPage() {
     return () => {
       isCancelledRef.current = true;
     };
-  }, [subjectId]);
+  }, [subjectId, searchParams, router]);
 
 
   if (loading) {
@@ -130,7 +140,6 @@ export default function SubjectPage() {
       </nav>
 
       <div className="container mx-auto px-4 py-8 relative z-10">
-
         {/* Chapters */}
         {subject.chapters.length === 0 ? (
           <div className="card">
@@ -199,63 +208,21 @@ export default function SubjectPage() {
                     )}
                   </div>
                   <div className="ml-4 flex-shrink-0 flex flex-col gap-2">
-                    {chapter.progress && chapter.progress.status !== 'not_started' ? (
-                      <>
-                        {chapter.progress.status === 'in_progress' ? (
-                          <>
-                            <button
-                              onClick={() => router.push(`/chapters/${chapter.id}`)}
-                              className="btn btn-primary whitespace-nowrap flex items-center gap-2"
-                            >
-                              <svg
-                                className="w-5 h-5"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                                />
-                              </svg>
-                              Tiếp tục
-                            </button>
-                            <button
-                              onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                              className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
-                            >
-                              <svg
-                                className="w-4 h-4"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                                />
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                                />
-                              </svg>
-                              Xem đáp án
-                            </button>
-                          </>
-                        ) : (
-                          // Chapter completed (đã submit) - chỉ hiển thị nút "Xem đáp án"
+                    {(() => {
+                      // Check if chapter has any draft exercises
+                      const hasDraftExercises = chapter.sections.some((section) =>
+                        section.exercises.some((exercise) => exercise.attempt?.status === 'draft')
+                      );
+                      
+                      // If chapter has draft exercises, show "Tiếp tục" instead of "Bắt đầu học"
+                      if (hasDraftExercises) {
+                        return (
                           <button
-                            onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                            className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
+                            onClick={() => router.push(`/chapters/${chapter.id}`)}
+                            className="btn btn-primary whitespace-nowrap flex items-center gap-2"
                           >
                             <svg
-                              className="w-4 h-4"
+                              className="w-5 h-5"
                               fill="none"
                               stroke="currentColor"
                               viewBox="0 0 24 24"
@@ -264,50 +231,104 @@ export default function SubjectPage() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth={2}
-                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                              />
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
                               />
                             </svg>
-                            Xem đáp án
+                            Tiếp tục
                           </button>
-                        )}
-                      </>
-                    ) : (
-                      <button
-                        onClick={(e) => {
-                          e.preventDefault();
-                          e.stopPropagation();
-                          router.push(`/chapters/${chapter.id}`);
-                        }}
-                        className="btn btn-primary whitespace-nowrap flex items-center gap-2"
-                      >
-                        <svg
-                          className="w-5 h-5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
+                        );
+                      }
+                      
+                      // If chapter has progress and is in progress, show "Tiếp tục" only (no "Xem đáp án" until completed)
+                      if (chapter.progress && chapter.progress.status !== 'not_started') {
+                        return (
+                          <>
+                            {chapter.progress.status === 'in_progress' ? (
+                              // Chapter in progress - only show "Tiếp tục", no "Xem đáp án"
+                              <button
+                                onClick={() => router.push(`/chapters/${chapter.id}`)}
+                                className="btn btn-primary whitespace-nowrap flex items-center gap-2"
+                              >
+                                <svg
+                                  className="w-5 h-5"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                                  />
+                                </svg>
+                                Tiếp tục
+                              </button>
+                            ) : chapter.progress.status === 'completed' ? (
+                              // Chapter completed - only show "Xem đáp án"
+                              <button
+                                onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
+                                className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
+                              >
+                                <svg
+                                  className="w-4 h-4"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                  />
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                  />
+                                </svg>
+                                Xem đáp án
+                              </button>
+                            ) : null}
+                          </>
+                        );
+                      }
+                      
+                      // Default: show "Bắt đầu học" for new chapters
+                      return (
+                        <button
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            router.push(`/chapters/${chapter.id}`);
+                          }}
+                          className="btn btn-primary whitespace-nowrap flex items-center gap-2"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-                          />
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Bắt đầu học
-                      </button>
-                    )}
+                          <svg
+                            className="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                            />
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                          </svg>
+                          Bắt đầu học
+                        </button>
+                      );
+                    })()}
                   </div>
                 </div>
               </div>

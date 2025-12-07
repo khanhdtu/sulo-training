@@ -367,7 +367,37 @@ section {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    padding: 1.25rem;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  button,
+  .btn {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -378,6 +408,12 @@ section {
   
   .card {
     padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
   }
 }
 

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sulo Training - Hệ Thống Dạy Học",
+  title: "BaitapOnline - Hệ Thống Ôn Tập Trực Tuyến",
   description: "Hệ thống quản lý giáo dục từ lớp 1 đến lớp 12",
 };
 

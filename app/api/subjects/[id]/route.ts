@@ -125,10 +125,13 @@ export async function GET(
     });
 
     // Get user exercise attempts (including answers to calculate correct questions)
-    const exerciseAttempts = await prisma.userExerciseAttempt.findMany({
+    // IMPORTANT: Only get attempts for exercises matching user's difficulty level
+    // This ensures chapter progress is calculated correctly for the user's level
+    const exerciseAttemptsRaw = await prisma.userExerciseAttempt.findMany({
       where: {
         userId: user.id,
         exercise: {
+          difficulty: userDifficulty, // Only get attempts for exercises matching user's level
           section: {
             chapter: {
               subjectId: subjectId,
@@ -136,17 +139,23 @@ export async function GET(
           },
         },
       },
-      select: {
-        exerciseId: true,
-        score: true,
-        totalPoints: true,
-        isCompleted: true,
-        completedAt: true,
-        answers: true, // Include answers to count correct questions
-      },
     });
+    
+    // Map to include status field (which exists in DB but may not be in Prisma types yet)
+    const exerciseAttempts = exerciseAttemptsRaw.map((a) => ({
+      exerciseId: a.exerciseId,
+      score: a.score,
+      totalPoints: a.totalPoints,
+      isCompleted: a.isCompleted,
+      status: (a as any).status || 'draft', // Get status field from DB, default to 'draft' if not set
+      completedAt: a.completedAt,
+      answers: a.answers,
+    }));
 
     // Get user chapter progress
+    // NOTE: Chapter progress in DB may contain data from all difficulty levels
+    // We will recalculate it based on exercises matching user's difficulty level
+    // But we still fetch it to get lastAccessedAt and completedAt timestamps
     let chapterProgress: any[] = [];
     try {
       chapterProgress = await prisma.userChapterProgress.findMany({
@@ -162,6 +171,8 @@ export async function GET(
           progress: true,
           completedSections: true,
           totalSections: true,
+          completedExercises: true, // Get this to compare with our calculation
+          totalExercises: true, // Get this to compare with our calculation
           lastAccessedAt: true,
           completedAt: true,
         },
@@ -191,16 +202,6 @@ export async function GET(
       ...subject,
       chapters: subject.chapters.map((chapter) => {
         const chapterProgressData = chapterProgressMap.get(chapter.id);
-        
-        // Debug: Log sections and exercises
-        console.log(`\n🔍 Subject ${subjectId} - Chapter ${chapter.id} (${chapter.name}) - User difficulty: ${userDifficulty}`);
-        console.log(`  Sections count: ${chapter.sections.length}`);
-        chapter.sections.forEach((section, idx) => {
-          console.log(`    Section ${idx + 1} (ID: ${section.id}, Name: ${section.name}): ${section.exercises.length} exercises`);
-          section.exercises.forEach((ex, exIdx) => {
-            console.log(`      Exercise ${exIdx + 1}: ID=${ex.id}, Title="${ex.title}", Difficulty=${ex.difficulty}, Questions=${ex.questions?.length || 0}`);
-          });
-        });
 
         // Collect all exercises from all sections (before deduplication)
         const allExercisesRaw: Array<{ id: number; title: string; difficulty: string; questions: any[] }> = [];
@@ -215,9 +216,6 @@ export async function GET(
           });
         });
 
-        console.log(`  Total exercises before deduplication: ${allExercisesRaw.length}`);
-        console.log(`  Exercise IDs: [${allExercisesRaw.map(ex => ex.id).join(', ')}]`);
-
         // Remove duplicates: keep only unique exercises (by ID and by title+difficulty)
         const seenExerciseIds = new Set<number>();
         const seenExerciseKeys = new Map<string, number>(); // key: "title|difficulty", value: exercise ID
@@ -229,14 +227,11 @@ export async function GET(
           
           // Skip if we've already seen this exact exercise ID
           if (seenExerciseIds.has(exercise.id)) {
-            console.log(`  ⚠️  Duplicate exercise ID found: ${exercise.id} ("${exercise.title}"), skipping`);
             continue;
           }
           
           // Skip if we've already seen an exercise with the same title+difficulty
           if (seenExerciseKeys.has(key)) {
-            const existingId = seenExerciseKeys.get(key);
-            console.log(`  ⚠️  Duplicate exercise found: "${exercise.title}" (difficulty: ${exercise.difficulty}), ID: ${exercise.id}, already have ID: ${existingId}, skipping`);
             continue;
           }
           
@@ -245,82 +240,105 @@ export async function GET(
           uniqueExercises.push(exercise);
         }
 
-        console.log(`  Total exercises after deduplication: ${uniqueExercises.length}`);
-        console.log(`  Unique Exercise IDs: [${uniqueExercises.map(ex => ex.id).join(', ')}]\n`);
-
         // Calculate progress based on exercises (not sections)
         // Count total exercises in chapter (after deduplication)
         const totalExercises = uniqueExercises.length;
         
         // Count total questions in chapter (for correct/total questions)
-        // Only count questions from unique exercises
+        // Only count questions from unique exercises of user's difficulty level
         let totalQuestions = 0;
-        let exercisesWithQuestions = 0;
-        let exercisesWithoutQuestions = 0;
         
         uniqueExercises.forEach((exercise) => {
           const questionCount = exercise.questions?.length || 0;
           totalQuestions += questionCount;
-          if (questionCount > 0) {
-            exercisesWithQuestions++;
-          } else {
-            exercisesWithoutQuestions++;
-          }
         });
-        
-        // Debug: Log if there's a mismatch
-        if (totalExercises !== totalQuestions) {
-          console.log(`Chapter ${chapter.id}: totalExercises=${totalExercises}, totalQuestions=${totalQuestions}, exercisesWithQuestions=${exercisesWithQuestions}, exercisesWithoutQuestions=${exercisesWithoutQuestions}`);
-        }
         
         // Create set of unique exercise IDs for filtering sections
         const uniqueExerciseIds = new Set(uniqueExercises.map(ex => ex.id));
         
-        // Count completed exercises (exercises with attempts) - only count unique exercises
-        const completedExercises = uniqueExercises.filter((exercise) => {
+        // Check if there are any draft exercises or exercises with attempts
+        let hasDraftExercises = false;
+        let hasAnyAttempts = false;
+        let completedExercises = 0;
+        
+        uniqueExercises.forEach((exercise) => {
           const attempt = attemptMap.get(exercise.id);
-          return attempt && (attempt.isCompleted || (attempt as any).answers);
-        }).length;
+          if (attempt) {
+            hasAnyAttempts = true;
+            // Check if it's a draft
+            if ((attempt as any).status === 'draft') {
+              hasDraftExercises = true;
+            }
+            // Count as completed if isCompleted is true (submitted and completed)
+            if (attempt.isCompleted) {
+              completedExercises++;
+            }
+          }
+        });
         
         // Count correct questions from attempts - only count from unique exercises
         let correctQuestions = 0;
         uniqueExercises.forEach((exercise) => {
           const attempt = attemptMap.get(exercise.id);
           if (attempt && attempt.answers) {
-            // answers format: { questionId: { answer: string, isCorrect: boolean, ... } }
+            // answers format: { questionId: { answer: string, isCorrect: boolean, ... } } for submitted
+            // or { questionId: "answer" } for draft
             const answers = attempt.answers as Record<string, any>;
             Object.values(answers).forEach((answerData: any) => {
-              if (answerData.isCorrect === true) {
+              // For draft, answerData is just a string, not an object
+              // For submitted, answerData is an object with isCorrect property
+              if (typeof answerData === 'object' && answerData.isCorrect === true) {
                 correctQuestions++;
               }
             });
           }
         });
         
-        // Calculate progress percentage
+        // Calculate progress percentage based on completed exercises (not draft)
         const progressPercentage = totalExercises > 0 
           ? Math.round((completedExercises / totalExercises) * 100)
           : 0;
         
-        // Determine status
+        // Determine status based on exercises of user's difficulty level
+        // Priority: 1. Check draft exercises (highest priority), 2. Check completed exercises, 3. Check DB status
         let status = 'not_started';
-        if (completedExercises > 0) {
-          status = completedExercises === totalExercises ? 'completed' : 'in_progress';
+        
+        // First priority: Check if there are draft exercises (for user's difficulty level)
+        // If has draft exercises, always set to 'in_progress' (user is working on it)
+        if (hasDraftExercises) {
+          status = 'in_progress';
+        } 
+        // Second priority: Check if all exercises of user's level are completed
+        else if (totalExercises > 0 && completedExercises === totalExercises) {
+          status = 'completed';
         }
+        // Third priority: Check if there are any attempts (submitted exercises of user's level)
+        else if (hasAnyAttempts) {
+          status = 'in_progress';
+        }
+        // Fourth priority: Check chapterProgressData from DB (as fallback, but recalculate based on user's level)
+        // Only use DB status if we have no exercises of user's level and DB has data
+        else if (totalExercises === 0 && chapterProgressData && (chapterProgressData.status === 'in_progress' || chapterProgressData.status === 'completed')) {
+          // If no exercises of user's level exist, use DB status as fallback
+          status = chapterProgressData.status;
+        }
+        
+        // Use calculated status (which is based on exercises of user's difficulty level)
+        const finalStatus = status;
         
         return {
           ...chapter,
           progress: chapterProgressData ? {
             ...chapterProgressData,
-            // Override with exercise-based progress
+            // Override with exercise-based progress and calculated status
             progress: progressPercentage,
             completedExercises,
             totalExercises,
             correctQuestions,
             totalQuestions,
-            status,
+            status: finalStatus, // Always use calculated status (considers draft)
           } : (totalExercises > 0 ? {
-            status,
+            status: finalStatus, // Use calculated status
             progress: progressPercentage,
             completedExercises,
             totalExercises,
@@ -344,15 +362,18 @@ export async function GET(
                 progress: progressMap.get(lesson.id) || null,
                 status: progressMap.get(lesson.id)?.status || 'not_started',
               })),
-              exercises: uniqueSectionExercises.map((exercise) => ({
-                ...exercise,
-                attempt: attemptMap.get(exercise.id) || null,
-                status: attemptMap.get(exercise.id)?.isCompleted
-                  ? 'completed'
-                  : attemptMap.get(exercise.id)
-                  ? 'in_progress'
-                  : 'not_started',
-              })),
+              exercises: uniqueSectionExercises.map((exercise) => {
+                const attempt = attemptMap.get(exercise.id);
+                return {
+                  ...exercise,
+                  attempt: attempt || null,
+                  status: attempt?.isCompleted
+                    ? 'completed'
+                    : attempt
+                    ? 'in_progress'
+                    : 'not_started',
+                };
+              }),
             };
           }),
         };

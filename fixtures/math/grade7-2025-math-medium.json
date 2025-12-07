@@ -105,6 +105,21 @@
               "hint": "Quy đồng mẫu số để so sánh. Số dương lớn hơn 0, số âm nhỏ hơn 0. Sắp xếp từ lớn đến nhỏ.",
               "answer": "Quy đồng mẫu số 12: $-\\frac{9}{12}$, $\\frac{10}{12}$, $-\\frac{8}{12}$, $\\frac{6}{12}$, $0$. Thứ tự giảm dần: $\\frac{5}{6} > \\frac{1}{2} > 0 > -\\frac{2}{3} > -\\frac{3}{4}$.",
               "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Phân tích về Nhắc lại khái niệm số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Nhắc lại khái niệm số hữu tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Nhắc lại khái niệm số hữu tỉ để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -309,6 +324,21 @@
               "hint": "Bình phương cả hai vế: $(\\sqrt{2})^2 = 2$ và $(\\frac{3}{2})^2 = \\frac{9}{4} = 2.25$. So sánh 2 và 2.25.",
               "answer": "Bình phương hai vế: $(\\sqrt{2})^2 = 2$ và $(\\frac{3}{2})^2 = \\frac{9}{4} = 2.25$. Vì $2 < 2.25$ nên $\\sqrt{2} < \\frac{3}{2}$.",
               "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Phân tích về Căn bậc hai và số vô tỉ",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Căn bậc hai và số vô tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Căn bậc hai và số vô tỉ để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -513,6 +543,21 @@
               "hint": "Sử dụng tính chất góc đối đỉnh, góc kề bù, và tổng góc xung quanh một điểm bằng $360^\\circ$.",
               "answer": "Góc đối đỉnh với góc $40^\\circ$ cũng bằng $40^\\circ$. Các góc kề bù với góc $40^\\circ$ bằng $140^\\circ$. Tùy vào vị trí của các đường thẳng, các góc còn lại có thể được tính dựa vào các quan hệ góc đã học.",
               "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Phân tích về Phân loại các loại góc",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Phân loại các loại góc (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Phân loại các loại góc để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -717,6 +762,21 @@
               "hint": "Xét $\\triangle ABM$ và $\\triangle ACM$. Có $BM = CM$ (vì $M$ là trung điểm), $AM$ chung. Nhưng cần thêm điều kiện để chứng minh bằng nhau (ví dụ: tam giác cân hoặc góc vuông).",
               "answer": "Xét $\\triangle ABM$ và $\\triangle ACM$: $BM = CM$ (vì $M$ là trung điểm), $AM$ chung. Tuy nhiên, để hai tam giác bằng nhau cần thêm điều kiện. Nếu tam giác $ABC$ cân tại $A$ hoặc $AM \\perp BC$, thì $\\triangle ABM = \\triangle ACM$.",
               "created_at": "2025-01-01T00:00:48.000Z"
+            },
+            {
+              "title": "Phân tích về Các trường hợp bằng nhau của tam giác",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Các trường hợp bằng nhau của tam giác (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Các trường hợp bằng nhau của tam giác để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -921,6 +981,21 @@
               "hint": "Lập bảng với các hàng là học sinh, các cột là các ngày trong tuần. Tính tổng số giờ của mỗi học sinh và tổng số giờ của cả lớp. Trung bình = Tổng / (Số học sinh × Số ngày).",
               "answer": "Ví dụ: Tổng số giờ học của 5 học sinh trong 7 ngày = 175 giờ. Trung bình mỗi ngày = 175 / (5 × 7) = 5 giờ/ngày. Hoặc trung bình mỗi học sinh = 175 / 5 = 35 giờ/tuần.",
               "created_at": "2025-01-01T00:01:02.000Z"
+            },
+            {
+              "title": "Phân tích về Thu thập dữ liệu",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Thu thập dữ liệu (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Thu thập dữ liệu để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -1125,6 +1200,21 @@
               "hint": "Chuyển về số thập phân: $\\sqrt{2} \\approx 1.414$, $\\frac{3}{2} = 1.5$, $\\sqrt{9} = 3$, $\\sqrt{5} \\approx 2.236$. Sắp xếp từ nhỏ đến lớn.",
               "answer": "Thứ tự tăng dần: $-1 < -\\frac{1}{2} < 0 < \\sqrt{2} < \\frac{3}{2} < \\sqrt{5} < \\sqrt{9}$.",
               "created_at": "2025-01-01T00:01:16.000Z"
+            },
+            {
+              "title": "Phân tích về Ôn tập chương Số hữu tỉ và Số thực",
+              "type": "multiple_choice",
+              "points": 2,
+              "question": "Phân tích về Ôn tập chương Số hữu tỉ và Số thực (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Vận dụng kiến thức đã học về Ôn tập chương Số hữu tỉ và Số thực để trả lời.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },

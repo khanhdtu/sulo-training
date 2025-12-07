@@ -446,44 +446,46 @@ export default function ChatWidget() {
 
   return (
     <>
-      {/* Chat Button - Fixed at bottom right */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 transition flex items-center justify-center z-[9999] bg-transparent border-none p-0 cursor-pointer"
-        style={{ 
-          position: 'fixed', 
-          bottom: '1.5rem', 
-          right: '1.5rem',
-        }}
-        aria-label="Open chat"
-      >
-        <svg
-          className="w-8 h-8"
-          style={{ width: '32px', height: '32px', color: 'var(--color-primary-orange)' }}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
+      {/* Chat Button - Fixed at bottom right - Hidden when popup is open */}
+      {!isOpen && (
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="fixed bottom-6 right-6 transition flex items-center justify-center z-[9999] bg-transparent border-none p-0 cursor-pointer"
+          style={{ 
+            position: 'fixed', 
+            bottom: '1.5rem', 
+            right: '1.5rem',
+          }}
+          aria-label="Open chat"
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-          />
-          <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>
-          <circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"/>
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 13h6"
-          />
-        </svg>
-      </button>
+          <svg
+            className="w-8 h-8"
+            style={{ width: '32px', height: '32px', color: 'var(--color-primary-orange)' }}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+            <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor"/>
+            <circle cx="15.5" cy="8.5" r="1.5" fill="currentColor"/>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 13h6"
+            />
+          </svg>
+        </button>
+      )}
 
       {/* Chat Widget */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 w-96 h-[600px] bg-white rounded-lg shadow-2xl flex flex-col z-50 border border-gray-200">
+        <div className="fixed inset-0 sm:inset-auto sm:bottom-24 sm:right-6 w-full h-full sm:w-96 sm:h-[600px] bg-white rounded-none sm:rounded-lg shadow-2xl flex flex-col z-50 border-0 sm:border border-gray-200">
           {/* Header */}
           <div 
             className="text-white rounded-t-lg flex justify-between items-center pt-4 pl-4"

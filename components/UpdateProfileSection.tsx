@@ -97,6 +97,7 @@ export default function UpdateProfileSection({ onUpdate }: UpdateProfileSectionP
           <button
             onClick={handleEdit}
             className="btn btn-secondary flex items-center gap-2"
+            aria-label="Chỉnh sửa"
           >
             <svg
               className="w-5 h-5"
@@ -111,7 +112,7 @@ export default function UpdateProfileSection({ onUpdate }: UpdateProfileSectionP
                 d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
               />
             </svg>
-            Chỉnh sửa
+            <span className="hidden sm:inline">Chỉnh sửa</span>
           </button>
         )}
       </div>
@@ -256,12 +257,6 @@ export default function UpdateProfileSection({ onUpdate }: UpdateProfileSectionP
               {getDifficultyLabel(user.level)}
             </span>
           </div>
-          {user.displayName && (
-            <div className="flex items-center justify-between py-2 border-b border-gray-200">
-              <span className="text-sm font-medium text-gray-600">Tên hiển thị:</span>
-              <span className="text-sm text-gray-900">{user.displayName}</span>
-            </div>
-          )}
           <div className="pt-2">
             <p className="text-xs text-gray-500">
               Cập nhật thông tin để hệ thống đề xuất bài tập phù hợp với bạn.

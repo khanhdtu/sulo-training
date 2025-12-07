@@ -105,6 +105,21 @@
               "hint": "Viết $a = \\frac{m}{n}$, $b = \\frac{p}{q}$ rồi tính $\\frac{a+b}{2}$. Chứng minh nó là số hữu tỉ và so sánh với $a$ và $b$.",
               "answer": "Đặt $a = \\frac{m}{n}$, $b = \\frac{p}{q}$ với $m, n, p, q$ là số nguyên, $n, q \\ne 0$. Ta có $\\frac{a+b}{2} = \\frac{\\frac{m}{n} + \\frac{p}{q}}{2} = \\frac{mq + np}{2nq}$ là số hữu tỉ. Giả sử $a < b$, ta có $a = \\frac{a+a}{2} < \\frac{a+b}{2} < \\frac{b+b}{2} = b$. Vậy $\\frac{a+b}{2}$ nằm giữa $a$ và $b$.",
               "created_at": "2025-01-01T00:00:06.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Nhắc lại khái niệm số hữu tỉ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Nhắc lại khái niệm số hữu tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nhắc lại khái niệm số hữu tỉ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -309,6 +324,21 @@
               "hint": "Đưa các căn bậc hai về dạng $a\\sqrt{b}$: $\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$, $\\sqrt{48} = 4\\sqrt{3}$, $\\sqrt{75} = 5\\sqrt{3}$.",
               "answer": "$\\sqrt{12} + \\sqrt{27} - \\sqrt{48} + \\sqrt{75} = 2\\sqrt{3} + 3\\sqrt{3} - 4\\sqrt{3} + 5\\sqrt{3} = (2+3-4+5)\\sqrt{3} = 6\\sqrt{3}$.",
               "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Căn bậc hai và số vô tỉ",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Căn bậc hai và số vô tỉ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Căn bậc hai và số vô tỉ.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -513,6 +543,21 @@
               "hint": "Tính $\\angle C$ trước, sau đó tính $\\angle ACD$ (một nửa của $\\angle C$), rồi áp dụng tổng góc trong tam giác $ADC$.",
               "answer": "Ta có $\\angle C = 180^\\circ - 60^\\circ - 80^\\circ = 40^\\circ$. Vì $CD$ là tia phân giác nên $\\angle ACD = \\frac{40^\\circ}{2} = 20^\\circ$. Trong tam giác $ADC$: $\\angle ADC = 180^\\circ - 60^\\circ - 20^\\circ = 100^\\circ$.",
               "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Phân loại các loại góc",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Phân loại các loại góc (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phân loại các loại góc.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -717,6 +762,21 @@
               "hint": "Kéo dài $MN$ cắt $AB$ và $CD$ tại các điểm, sau đó sử dụng định lý đường trung bình của tam giác và hình thang.",
               "answer": "Gọi $P$ là giao điểm của $MN$ với $AB$ (kéo dài), $Q$ là giao điểm với $CD$ (kéo dài). Áp dụng định lý đường trung bình trong các tam giác và hình thang, ta có $MN = \\frac{AB + CD}{2}$.",
               "created_at": "2025-01-01T00:00:48.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Các trường hợp bằng nhau của tam giác",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Các trường hợp bằng nhau của tam giác (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Các trường hợp bằng nhau của tam giác.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -921,6 +981,21 @@
               "hint": "Lập bảng thống kê, tính số sách trung bình, tìm số học sinh đọc nhiều/ít sách, phân tích xu hướng.",
               "answer": "Ví dụ: Số sách: 3, 5, 2, 4, 6, 3, 4, 5, 2, 3, 4, 5, 6, 3, 4, 2, 5, 4, 3, 4. Trung bình = 3.9 quyển. Nhận xét: Đa số học sinh đọc 3-5 quyển/tháng, thói quen đọc sách khá đều đặn, cần khuyến khích học sinh đọc nhiều hơn.",
               "created_at": "2025-01-01T00:01:02.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Thu thập dữ liệu",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Thu thập dữ liệu (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Thu thập dữ liệu.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },
@@ -1125,6 +1200,21 @@
               "hint": "Giải $|x-\\frac{1}{2}| < 2$ được $-\\frac{3}{2} < x < \\frac{5}{2}$. Kết hợp với $x > -1$ được $-1 < x < \\frac{5}{2}$.",
               "answer": "Từ $|x-\\frac{1}{2}| < 2$ ta có $-\\frac{3}{2} < x < \\frac{5}{2}$. Kết hợp với $x > -1$ được $-1 < x < \\frac{5}{2}$. Trên trục số, biểu diễn khoảng mở từ $-1$ đến $\\frac{5}{2}$.",
               "created_at": "2025-01-01T00:01:16.000Z"
+            },
+            {
+              "title": "Câu hỏi đánh giá về Ôn tập chương Số hữu tỉ và Số thực",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Câu hỏi đánh giá về Ôn tập chương Số hữu tỉ và Số thực (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Ôn tập chương Số hữu tỉ và Số thực.",
+              "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
         },

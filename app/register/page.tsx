@@ -10,7 +10,7 @@ export default function RegisterPage() {
     password: '',
     name: '',
     email: '',
-    role: 'student' as 'student' | 'teacher' | 'parent' | 'admin',
+    parentEmail: '',
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -26,7 +26,10 @@ export default function RegisterPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          role: 'student', // Default role for all new registrations
+        }),
       });
 
       const data = await response.json();
@@ -42,7 +45,7 @@ export default function RegisterPage() {
 
       // Redirect to dashboard
       router.push('/dashboard');
-    } catch (err) {
+    } catch {
       setError('Có lỗi xảy ra. Vui lòng thử lại.');
     } finally {
       setLoading(false);
@@ -95,7 +98,7 @@ export default function RegisterPage() {
 
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-              Họ và tên *
+              Tên hiển thị *
             </label>
             <input
               id="name"
@@ -104,7 +107,7 @@ export default function RegisterPage() {
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-              placeholder="Nhập họ và tên"
+              placeholder="Nhập tên hiển thị"
             />
           </div>
 
@@ -123,20 +126,17 @@ export default function RegisterPage() {
           </div>
 
           <div>
-            <label htmlFor="role" className="block text-sm font-medium text-gray-700 mb-1">
-              Vai trò *
+            <label htmlFor="parentEmail" className="block text-sm font-medium text-gray-700 mb-1">
+              Email của phụ huynh (tùy chọn)
             </label>
-            <select
-              id="role"
-              value={formData.role}
-              onChange={(e) => setFormData({ ...formData, role: e.target.value as any })}
+            <input
+              id="parentEmail"
+              type="email"
+              value={formData.parentEmail}
+              onChange={(e) => setFormData({ ...formData, parentEmail: e.target.value })}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-            >
-              <option value="student">Học sinh</option>
-              <option value="teacher">Giáo viên</option>
-              <option value="parent">Phụ huynh</option>
-              <option value="admin">Quản trị viên</option>
-            </select>
+              placeholder="Nhập email của phụ huynh (nếu có)"
+            />
           </div>
 
           <button
