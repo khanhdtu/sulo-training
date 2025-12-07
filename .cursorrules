@@ -1,0 +1,96 @@
+# Cursor Rules for TypeScript Development
+
+## Type Safety Rules
+
+### ANY Type Usage
+- **STRICTLY AVOID** using `any` type unless absolutely necessary
+- Only use `any` type in the following specific cases:
+  1. **Prisma JSON/JSONB fields**: When working with Prisma's JSON/JSONB types (metadata, responseFormat, etc.)
+  2. **Third-party library types**: When dealing with libraries that don't have proper TypeScript types
+  3. **Legacy code migration**: Temporarily during refactoring legacy code
+
+### When Using ANY Type
+- **ALWAYS** add a comment explaining why `any` is necessary
+- **ALWAYS** use `// eslint-disable-next-line @typescript-eslint/no-explicit-any` before the line
+- **ALWAYS** add a descriptive comment about the context (e.g., "Prisma JSON type - stored as JSONB")
+- Example:
+  ```typescript
+  // Prisma JSON type - metadata stored as JSONB
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  metadata: metadata as any,
+  ```
+
+### Type Definitions
+- **ALWAYS** define proper TypeScript interfaces/types for all data structures
+- **ALWAYS** use type inference where possible instead of explicit `any`
+- **PREFER** `unknown` over `any` when the type is truly unknown (e.g., in error handling)
+- **PREFER** union types over `any` when multiple types are possible
+
+### Error Handling
+- Use `error: unknown` instead of `error: any` in catch blocks
+- Use type guards to narrow down the type:
+  ```typescript
+  catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    // ...
+  }
+  ```
+
+### Prisma-Specific Rules
+- When working with Prisma JSON fields, use `as any` with proper comments
+- When working with Prisma query results, prefer proper type inference or explicit types
+- Example for Prisma JSON:
+  ```typescript
+  // Prisma JSON type - responseFormat stored as JSONB
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const responseFormat = config.responseFormat as { type: string } | undefined;
+  ```
+
+### Code Review Checklist
+Before submitting code, ensure:
+- [ ] No `any` types without proper comments and eslint-disable
+- [ ] All `any` usages are justified and documented
+- [ ] Type definitions exist for all data structures
+- [ ] Error handling uses `unknown` instead of `any`
+- [ ] Prisma JSON fields have proper type casting with comments
+
+### Examples of BAD Practices (DO NOT DO)
+```typescript
+// ❌ BAD: Using any without comment or justification
+const data: any = await fetchData();
+
+// ❌ BAD: Using any in function parameters
+function processData(data: any) { }
+
+// ❌ BAD: Using any in catch blocks
+catch (error: any) { }
+```
+
+### Examples of GOOD Practices (DO THIS)
+```typescript
+// ✅ GOOD: Proper type definition
+interface UserData {
+  id: number;
+  name: string;
+}
+const data: UserData = await fetchData();
+
+// ✅ GOOD: Using unknown in error handling
+catch (error: unknown) {
+  const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+}
+
+// ✅ GOOD: Prisma JSON with proper comment and eslint-disable
+// Prisma JSON type - metadata stored as JSONB
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+metadata: metadata as any,
+```
+
+## General TypeScript Best Practices
+- Always use strict TypeScript mode
+- Prefer type inference over explicit types when types are obvious
+- Use type guards for runtime type checking
+- Use discriminated unions for complex type scenarios
+- Avoid type assertions unless absolutely necessary
+- Use `as const` for literal types when needed
+

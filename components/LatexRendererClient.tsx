@@ -32,9 +32,17 @@ export function LatexRendererClient({ content, displayMode = false, className = 
     const mathStyle = style || { color: '#000', opacity: 1, WebkitTextFillColor: '#000' };
     const combinedClassName = `${className}`.trim();
     if (displayMode) {
-      return <BlockMath math={mathContent} className={combinedClassName} style={mathStyle} />;
+      return (
+        <div className={combinedClassName} style={mathStyle}>
+          <BlockMath math={mathContent} />
+        </div>
+      );
     } else {
-      return <InlineMath math={mathContent} className={combinedClassName} style={mathStyle} />;
+      return (
+        <span className={combinedClassName} style={mathStyle}>
+          <InlineMath math={mathContent} />
+        </span>
+      );
     }
   } catch (error) {
     console.warn('LaTeX parsing error:', error, 'Content:', content);

@@ -132,11 +132,11 @@ export async function GET(request: NextRequest) {
     // Track unique exercises to avoid duplicate details
     const processedExercises = new Set<number>();
 
-    exerciseAttempts.forEach((attempt) => {
+    exerciseAttempts.forEach((attempt: any) => {
       const subject = attempt.exercise.section.chapter.subject;
       const subjectName = subject.name;
       const exerciseId = attempt.exerciseId;
-      const questionIds = attempt.exercise.questions.map((q) => q.id);
+      const questionIds = attempt.exercise.questions.map((q: any) => q.id);
 
       // Initialize subject map if needed
       if (!subjectMap.has(subjectName)) {
@@ -152,7 +152,7 @@ export async function GET(request: NextRequest) {
       const subjectQuestionSet = subjectQuestionSets.get(subjectName)!;
 
       // Count unique questions for this subject
-      questionIds.forEach((qId) => {
+      questionIds.forEach((qId: number) => {
         if (!subjectQuestionSet.has(qId)) {
           subjectQuestionSet.add(qId);
           subjectData.questionCount++;

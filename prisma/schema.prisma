@@ -16,6 +16,7 @@ model Grade {
   subjects  Subject[]
   users     User[]    // Users enrolled in this grade
   curricula Curriculum[]
+  classes   Class[]
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
 
@@ -113,6 +114,7 @@ model Exercise {
   section     Section   @relation(fields: [sectionId], references: [id])
   questions   ExerciseQuestion[]
   attempts   UserExerciseAttempt[]
+  assignments Assignment[]
   createdAt   DateTime  @default(now()) @map("created_at")
   updatedAt   DateTime  @updatedAt @map("updated_at")
 
@@ -159,6 +161,9 @@ model User {
   chapterProgress UserChapterProgress[]
   conversations Conversation[]
   activities Activity[]
+  studentAssignments Assignment[] @relation("StudentAssignments")
+  teacherAssignments Assignment[] @relation("TeacherAssignments")
+  submissions Submission[]
   createdAt    DateTime  @default(now()) @map("created_at")
   updatedAt    DateTime  @updatedAt @map("updated_at")
 
@@ -370,4 +375,62 @@ model ConversationCache {
   @@index([questionHash])
   @@index([expiresAt])
   @@map("conversation_cache")
+}
+
+// Assignment model - assignments created by teachers for students
+model Assignment {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String?   @db.Text
+  exerciseId  Int       @map("exercise_id")
+  classId     Int?      @map("class_id")
+  userId      Int?      @map("user_id") // If assigned to specific user
+  assignedBy  Int       @map("assigned_by") // Teacher/admin who created assignment
+  deadline    DateTime?
+  minScore    Int?      @map("min_score")
+  isActive    Boolean   @default(true) @map("is_active")
+  exercise    Exercise  @relation(fields: [exerciseId], references: [id])
+  class       Class?    @relation(fields: [classId], references: [id])
+  student     User?     @relation("StudentAssignments", fields: [userId], references: [id])
+  teacher     User      @relation("TeacherAssignments", fields: [assignedBy], references: [id])
+  submissions Submission[]
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+
+  @@map("assignments")
+}
+
+// Submission model - student submissions for assignments
+model Submission {
+  id          Int        @id @default(autoincrement())
+  assignmentId Int       @map("assignment_id")
+  userId      Int        @map("user_id")
+  answers     Json?      // For multiple choice: { questionId: "answer" }
+  images      Json?      // Array of image URLs for essay
+  aiFeedback  String?    @db.Text @map("ai_feedback")
+  score       Decimal?   @db.Decimal(5, 2)
+  status      String     @default("pending") // pending, graded, completed
+  submittedAt DateTime?  @map("submitted_at")
+  gradedAt    DateTime?  @map("graded_at")
+  assignment  Assignment @relation(fields: [assignmentId], references: [id])
+  user        User       @relation(fields: [userId], references: [id])
+  createdAt   DateTime   @default(now()) @map("created_at")
+  updatedAt   DateTime   @updatedAt @map("updated_at")
+
+  @@unique([assignmentId, userId])
+  @@map("submissions")
+}
+
+// Class model - for organizing students into classes
+model Class {
+  id          Int         @id @default(autoincrement())
+  name        String
+  description String?     @db.Text
+  gradeId     Int?        @map("grade_id")
+  grade       Grade?      @relation(fields: [gradeId], references: [id])
+  assignments Assignment[]
+  createdAt   DateTime    @default(now()) @map("created_at")
+  updatedAt   DateTime    @updatedAt @map("updated_at")
+
+  @@map("classes")
 }

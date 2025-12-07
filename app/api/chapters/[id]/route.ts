@@ -107,7 +107,7 @@ export async function GET(
 
     // Create map for quick lookup
     const attemptMap = new Map(
-      exerciseAttempts.map((a) => [a.exerciseId, a])
+      exerciseAttempts.map((a: { exerciseId: number }) => [a.exerciseId, a])
     );
 
     // Get chapter progress
@@ -127,7 +127,7 @@ export async function GET(
     // Debug: Log sections and exercises
     console.log(`\n🔍 Chapter ${chapterId} (${chapter.name}) - User difficulty: ${userDifficulty}`);
     console.log(`  Sections count: ${chapter.sections.length}`);
-    chapter.sections.forEach((section, idx) => {
+    chapter.sections.forEach((section: { id: number; name: string; exercises: Array<any> }, idx: number) => {
       console.log(`    Section ${idx + 1} (ID: ${section.id}, Name: ${section.name}): ${section.exercises.length} exercises`);
       section.exercises.forEach((ex, exIdx) => {
         console.log(`      Exercise ${exIdx + 1}: ID=${ex.id}, Title="${ex.title}", Difficulty=${ex.difficulty}`);
@@ -135,18 +135,18 @@ export async function GET(
     });
 
     // Flatten all exercises from all sections and add completion status
-    const allExercisesRaw = chapter.sections.flatMap((section) =>
+    const allExercisesRaw = chapter.sections.flatMap((section: { id: number; name: string; exercises: Array<any> }) =>
       section.exercises.map((exercise) => ({
         ...exercise,
         sectionId: section.id,
         sectionName: section.name,
         attempt: attemptMap.get(exercise.id) || null,
-        isCompleted: attemptMap.get(exercise.id)?.isCompleted || false,
+        isCompleted: (attemptMap.get(exercise.id) as any)?.isCompleted || false,
       }))
     );
 
     console.log(`  Total exercises after flattening (before dedupe): ${allExercisesRaw.length}`);
-    console.log(`  Exercise IDs: [${allExercisesRaw.map(ex => ex.id).join(', ')}]`);
+    console.log(`  Exercise IDs: [${allExercisesRaw.map((ex: any) => ex.id).join(', ')}]`);
 
     // Remove duplicates: keep only the first occurrence of each exercise (by title and difficulty)
     // This handles cases where the same exercise exists in multiple sections
@@ -178,10 +178,10 @@ export async function GET(
     }
 
     console.log(`  Total exercises after deduplication: ${allExercises.length}`);
-    console.log(`  Unique Exercise IDs: [${allExercises.map(ex => ex.id).join(', ')}]\n`);
+    console.log(`  Unique Exercise IDs: [${allExercises.map((ex: any) => ex.id).join(', ')}]\n`);
 
     // Find first incomplete exercise
-    const currentExerciseIndex = allExercises.findIndex((ex) => !ex.isCompleted);
+    const currentExerciseIndex = allExercises.findIndex((ex: any) => !ex.isCompleted);
     const currentExercise = currentExerciseIndex >= 0 ? allExercises[currentExerciseIndex] : null;
 
     return successResponse({
@@ -196,7 +196,7 @@ export async function GET(
       currentExercise: currentExercise,
       currentExerciseIndex: currentExerciseIndex >= 0 ? currentExerciseIndex : null,
       totalExercises: allExercises.length,
-      completedExercises: allExercises.filter((ex) => ex.isCompleted).length,
+      completedExercises: allExercises.filter((ex: any) => ex.isCompleted).length,
       chapterProgress: chapterProgress,
     });
   } catch (error) {

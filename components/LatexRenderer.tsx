@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, ReactElement } from 'react';
 import { BlockMath, InlineMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
 import { LatexRendererClient } from './LatexRendererClient';
@@ -30,9 +30,9 @@ export default function LatexRenderer({ content, displayMode = false, className 
     // Combine className with text color class to ensure visibility (pure black)
     const combinedClassName = `${className} text-black`.trim();
     if (displayMode) {
-      return <BlockMath math={content} className={combinedClassName} />;
+      return <div className={combinedClassName}><BlockMath math={content} /></div>;
     } else {
-      return <InlineMath math={content} className={combinedClassName} />;
+      return <span className={combinedClassName}><InlineMath math={content} /></span>;
     }
   } catch (error) {
     // If LaTeX parsing fails, return as plain text
@@ -96,7 +96,7 @@ export function LatexText({ text, className }: { text: string; className?: strin
   const textHash = processedText.slice(0, 20).replace(/\s/g, '_');
 
   // First, handle explicit delimiters: $$...$$ (block) or $...$ (inline)
-  const parts: (string | JSX.Element)[] = [];
+  const parts: (string | ReactElement)[] = [];
   let lastIndex = 0;
 
   // Match $$...$$ (block math), $...$ (inline math), \[...\] (block math), or \(...\) (inline math)
@@ -137,21 +137,15 @@ export function LatexText({ text, className }: { text: string; className?: strin
     const mathColor = '#000';
     if (mathMatch.isBlock) {
       parts.push(
-        <BlockMath 
-          key={`${textHash}-block-${i}-${mathMatch.index}`} 
-          math={mathMatch.content} 
-          className={combinedClassName}
-          style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}
-        />
+        <div key={`${textHash}-block-${i}-${mathMatch.index}`} className={combinedClassName} style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}>
+          <BlockMath math={mathMatch.content} />
+        </div>
       );
     } else {
       parts.push(
-        <InlineMath 
-          key={`${textHash}-inline-${i}-${mathMatch.index}`} 
-          math={mathMatch.content} 
-          className={combinedClassName}
-          style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}
-        />
+        <span key={`${textHash}-inline-${i}-${mathMatch.index}`} className={combinedClassName} style={{ color: mathColor, opacity: 1, WebkitTextFillColor: mathColor }}>
+          <InlineMath math={mathMatch.content} />
+        </span>
       );
     }
     lastIndex = mathMatch.index + mathMatch.length;
@@ -185,7 +179,7 @@ export function renderTextWithLatex(text: string, className?: string) {
  * Parse text to find LaTeX syntax patterns and convert them
  * Detects patterns like: frac35, sqrt, ^, _, etc.
  */
-function parseTextForLatex(text: string, className?: string, keyPrefix: string = 'latex'): (string | JSX.Element)[] {
+function parseTextForLatex(text: string, className?: string, keyPrefix: string = 'latex'): (string | ReactElement)[] {
   if (!text) return [];
 
   // Unescape double backslashes
@@ -205,7 +199,7 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
   // Congruent symbol: ≅ → \cong
   processedText = processedText.replace(/≅/g, '\\cong');
   
-  const parts: (string | JSX.Element)[] = [];
+  const parts: (string | ReactElement)[] = [];
   let lastIndex = 0;
   
   // Check if text contains LaTeX commands (like \sqrt, \frac, \pi, etc.) without delimiters
@@ -249,19 +243,21 @@ function parseTextForLatex(text: string, className?: string, keyPrefix: string =
   for (const pattern of patterns) {
     // Reset regex lastIndex
     pattern.regex.lastIndex = 0;
-    let match;
+    let match: RegExpExecArray | null;
     while ((match = pattern.regex.exec(processedText)) !== null) {
       // Check if this match overlaps with existing matches
+      const matchIndex = match.index!;
+      const matchLength = match[0].length;
       const overlaps = matches.some(m => 
-        (match.index! >= m.index && match.index! < m.index + m.length) ||
-        (m.index >= match.index! && m.index < match.index! + match[0].length)
+        (matchIndex >= m.index && matchIndex < m.index + m.length) ||
+        (m.index >= matchIndex && m.index < matchIndex + matchLength)
       );
       
       if (!overlaps) {
         const converted = pattern.convert(match);
         matches.push({
-          index: match.index!,
-          length: match[0].length,
+          index: matchIndex,
+          length: matchLength,
           content: match[0],
           converted,
           patternName: pattern.name,

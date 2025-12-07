@@ -5,9 +5,19 @@ import { gradeEssayFromImage, gradeMultipleEssays } from '@/lib/openai';
 import { createConversation } from '@/lib/conversation';
 import { z } from 'zod';
 
+interface ExerciseQuestion {
+  id: number;
+  question: string;
+  answer: string;
+  options?: Record<string, string> | null;
+  order: number;
+  points: number;
+  hint?: string | null;
+}
+
 const createSubmissionSchema = z.object({
   assignmentId: z.number(),
-  answers: z.record(z.string()).optional(), // For multiple choice: { questionId: "answer" }
+  answers: z.record(z.string(), z.string()).optional(), // For multiple choice: { questionId: "answer" }
   images: z.array(z.string()).optional(), // Array of image URLs for essay
 });
 
@@ -82,7 +92,7 @@ export async function POST(request: NextRequest) {
     // Grade essay using OpenAI
     if (assignment.exercise.type === 'essay' && images && images.length > 0) {
       try {
-        const questions = assignment.exercise.questions.map((q) => ({
+        const questions = (assignment.exercise.questions as ExerciseQuestion[]).map((q) => ({
           question: q.question,
           answer: q.answer,
         }));
@@ -123,9 +133,9 @@ export async function POST(request: NextRequest) {
           data: {
             assignmentId,
             userId: user.id,
-            answers: answers || null,
-            images: images || null,
-            score: score ? score : null,
+            ...(answers && { answers }),
+            ...(images && { images }),
+            ...(score !== null && score !== undefined && { score }),
             aiFeedback,
             status,
             submittedAt: new Date(),
@@ -139,40 +149,12 @@ export async function POST(request: NextRequest) {
             },
           },
         });
-      create: {
-        assignmentId,
-        userId: user.id,
-        answers: answers || null,
-        images: images || null,
-        score: score ? score : null,
-        aiFeedback,
-        status,
-        submittedAt: new Date(),
-        gradedAt: status === 'graded' ? new Date() : null,
-      },
-      update: {
-        answers: answers || undefined,
-        images: images || undefined,
-        score: score !== null ? score : undefined,
-        aiFeedback: aiFeedback || undefined,
-        status,
-        submittedAt: new Date(),
-        gradedAt: status === 'graded' ? new Date() : undefined,
-      },
-      include: {
-        assignment: {
-          include: {
-            exercise: true,
-          },
-        },
-      },
-    });
 
     return NextResponse.json({ submission });
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
-        { error: 'Validation error', details: error.errors },
+        { error: 'Validation error', details: error.issues },
         { status: 400 }
       );
     }

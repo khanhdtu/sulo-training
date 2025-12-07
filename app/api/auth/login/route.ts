@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
     return response;
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.errors });
+      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.issues });
     }
 
     console.error('Login error:', error);

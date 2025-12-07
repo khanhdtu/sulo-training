@@ -233,6 +233,8 @@ export async function createConversation(
       type,
       title,
       status: 'active',
+      // Prisma JSON type - metadata stored as JSONB
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       metadata: metadata as any,
     },
     include: {
@@ -311,7 +313,7 @@ export async function addMessageToConversation(
   });
 
   // Check cache first (only if no images, as image-based queries are context-dependent)
-  let assistantResponse: string;
+  let assistantResponse: string | undefined;
   let completion: OpenAI.Chat.Completions.ChatCompletion | null = null;
   let isFromCache = false;
 
@@ -328,9 +330,12 @@ export async function addMessageToConversation(
   if (!isFromCache) {
     // Prepare messages for OpenAI
     const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [];
+    
+    // Initialize assistantResponse to empty string (will be set from OpenAI response)
+    assistantResponse = '';
 
     // Add system message with enhancements (include user message for better context)
-    const systemMessage = conversation.messages.find((m) => m.role === 'system');
+    const systemMessage = conversation.messages.find((m: ConversationMessage) => m.role === 'system');
     if (systemMessage) {
       const enhancedPrompt = buildEnhancedPrompt(
         systemMessage.content,
@@ -345,7 +350,7 @@ export async function addMessageToConversation(
     }
 
     // Add conversation history (excluding system message)
-    const historyMessages = conversation.messages.filter((m) => m.role !== 'system');
+    const historyMessages = conversation.messages.filter((m: ConversationMessage) => m.role !== 'system');
     for (const msg of historyMessages) {
       messages.push({
         role: msg.role as 'user' | 'assistant',
@@ -373,7 +378,8 @@ export async function addMessageToConversation(
       
       messages.push({
         role: 'user',
-        content: content as any, // OpenAI supports array of text and image_url
+        // OpenAI supports array of text and image_url for multimodal content
+        content: content as OpenAI.Chat.Completions.ChatCompletionContentPart[],
       });
     } else {
       messages.push({
@@ -383,17 +389,29 @@ export async function addMessageToConversation(
     }
 
     // Get response format from config
-    const responseFormat = conversation.config.responseFormat as
+    const responseFormatRaw = conversation.config.responseFormat as
       | { type: string }
       | undefined;
 
     // Select model based on complexity (always use GPT-4o for images)
-    const model = selectModel(userMessage, imageUrls, responseFormat);
-    const maxTokens = calculateMaxTokens(responseFormat, userMessage);
+    const model = selectModel(userMessage, imageUrls, responseFormatRaw);
+    const maxTokens = calculateMaxTokens(responseFormatRaw, userMessage);
 
     // Set temperature based on task type
     // Lower temperature (0.3-0.5) for factual/educational content, higher (0.7-0.9) for creative
-    const temperature = responseFormat?.type === 'json_object' ? 0.3 : 0.7;
+    const temperature = responseFormatRaw?.type === 'json_object' ? 0.3 : 0.7;
+
+    // Convert response format to OpenAI-compatible type
+    // Prisma JSON type - cast to OpenAI response format
+    let responseFormat: { type: 'text' } | { type: 'json_object' } | undefined;
+    if (responseFormatRaw) {
+      if (responseFormatRaw.type === 'json_object') {
+        responseFormat = { type: 'json_object' };
+      } else if (responseFormatRaw.type === 'text') {
+        responseFormat = { type: 'text' };
+      }
+      // Note: json_schema format is not supported in this implementation
+    }
 
     // Call OpenAI
     try {
@@ -404,9 +422,10 @@ export async function addMessageToConversation(
         ...(responseFormat && { response_format: responseFormat }),
         max_tokens: maxTokens,
       });
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('OpenAI API error:', error);
-      throw new Error(`Failed to generate response: ${error.message || 'Unknown error'}`);
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      throw new Error(`Failed to generate response: ${errorMessage}`);
     }
 
     assistantResponse = completion.choices[0]?.message?.content || '';
@@ -545,7 +564,10 @@ export async function getUserConversations(
 export async function createConversationConfig(data: {
   name: string;
   systemPrompt: string;
+  // Prisma JSON types - stored as JSONB
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   responseFormat?: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   metadata?: any;
   isDefault?: boolean;
 }) {

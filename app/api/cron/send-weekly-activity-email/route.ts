@@ -226,13 +226,13 @@ async function getWeeklyActivityStats(userId: number): Promise<WeeklyActivitySta
     // Track unique exercises per chapter to avoid duplicate details
     const processedExercises = new Map<string, Set<number>>();
 
-    exerciseAttempts.forEach((attempt) => {
+    exerciseAttempts.forEach((attempt: any) => {
       const subject = attempt.exercise.section.chapter.subject;
       const subjectName = subject.name;
       const chapter = attempt.exercise.section.chapter;
       const chapterName = chapter.name;
       const exerciseId = attempt.exerciseId;
-      const questionIds = attempt.exercise.questions.map((q) => q.id);
+      const questionIds = attempt.exercise.questions.map((q: any) => q.id);
 
       // Create unique key for subject+chapter
       const chapterKey = `${subjectName}|${chapterName}`;
@@ -264,7 +264,7 @@ async function getWeeklyActivityStats(userId: number): Promise<WeeklyActivitySta
       const chapterProcessedExercises = processedExercises.get(chapterKey)!;
 
       // Count unique questions for this chapter
-      questionIds.forEach((qId) => {
+      questionIds.forEach((qId: number) => {
         if (!chapterQuestionSet.has(qId)) {
           chapterQuestionSet.add(qId);
           chapterData.questionCount++;

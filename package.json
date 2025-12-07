@@ -66,6 +66,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-katex": "^3.0.4",
     "dotenv": "^17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.0.6",

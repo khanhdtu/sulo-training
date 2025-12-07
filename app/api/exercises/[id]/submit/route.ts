@@ -5,7 +5,7 @@ import { errorResponse, successResponse } from '@/lib/api-response';
 import { z } from 'zod';
 
 const submitExerciseSchema = z.object({
-  answers: z.record(z.any()), // { questionId: "answer" } for multiple choice or essay
+  answers: z.record(z.string(), z.any()), // { questionId: "answer" } for multiple choice or essay
 });
 
 export async function POST(
@@ -73,7 +73,7 @@ export async function POST(
     let earnedPoints = 0;
     const questionResults: Record<string, { answer: string; isCorrect: boolean; points: number; earnedPoints: number }> = {};
 
-    exercise.questions.forEach((question) => {
+    exercise.questions.forEach((question: any) => {
       totalPoints += question.points;
       const userAnswer = answers[question.id.toString()] || '';
       const normalizedUserAnswer = userAnswer.trim().toLowerCase();
@@ -221,7 +221,7 @@ export async function POST(
     );
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.errors });
+      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.issues });
     }
 
     console.error('Submit exercise error:', error);

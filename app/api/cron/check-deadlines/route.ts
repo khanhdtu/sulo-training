@@ -82,7 +82,7 @@ export async function GET(request: NextRequest) {
       if (existingNotification) continue;
 
       // Send to student
-      if (assignment.student.email) {
+      if (assignment.student.email && assignment.deadline) {
         try {
           await sendDeadlineReminderEmail(
             assignment.student.email,
@@ -97,17 +97,19 @@ export async function GET(request: NextRequest) {
       }
 
       // Create notification record
-      await prisma.notification.create({
-        data: {
-          userId: assignment.student.id,
-          type: 'deadline_reminder',
-          title: 'Deadline sắp đến',
-          message: `Bạn có deadline vào ${assignment.deadline.toLocaleString('vi-VN')}`,
-          channel: 'email',
-          isSent: true,
-          sentAt: new Date(),
-        },
-      });
+      if (assignment.deadline) {
+        await prisma.notification.create({
+          data: {
+            userId: assignment.student.id,
+            type: 'deadline_reminder',
+            title: 'Deadline sắp đến',
+            message: `Bạn có deadline vào ${assignment.deadline.toLocaleString('vi-VN')}`,
+            channel: 'email',
+            isSent: true,
+            sentAt: new Date(),
+          },
+        });
+      }
     }
 
     // Send overdue notices to parents
@@ -132,7 +134,7 @@ export async function GET(request: NextRequest) {
       if (existingNotification) continue;
 
       // Send to parent
-      if (assignment.student.parentEmail) {
+      if (assignment.student.parentEmail && assignment.deadline) {
         try {
           await sendOverdueEmailToParent(
             assignment.student.parentEmail,
@@ -147,17 +149,19 @@ export async function GET(request: NextRequest) {
       }
 
       // Create notification record
-      await prisma.notification.create({
-        data: {
-          userId: assignment.student.id,
-          type: 'deadline_passed',
-          title: 'Đã trễ deadline',
-          message: `Con bạn đã trễ deadline cho bài tập: ${assignment.title}`,
-          channel: 'email',
-          isSent: true,
-          sentAt: new Date(),
-        },
-      });
+      if (assignment.deadline) {
+        await prisma.notification.create({
+          data: {
+            userId: assignment.student.id,
+            type: 'deadline_passed',
+            title: 'Đã trễ deadline',
+            message: `Con bạn đã trễ deadline cho bài tập: ${assignment.title}`,
+            channel: 'email',
+            isSent: true,
+            sentAt: new Date(),
+          },
+        });
+      }
     }
 
     return NextResponse.json({

@@ -88,7 +88,7 @@ export async function PATCH(request: NextRequest) {
     );
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.errors });
+      return errorResponse('Dữ liệu không hợp lệ', 400, { details: error.issues });
     }
 
     console.error('Update profile error:', error);

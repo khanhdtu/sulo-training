@@ -142,7 +142,7 @@ export async function GET(
     });
     
     // Map to include status field (which exists in DB but may not be in Prisma types yet)
-    const exerciseAttempts = exerciseAttemptsRaw.map((a) => ({
+    const exerciseAttempts = exerciseAttemptsRaw.map((a: any) => ({
       exerciseId: a.exerciseId,
       score: a.score,
       totalPoints: a.totalPoints,
@@ -188,25 +188,25 @@ export async function GET(
 
     // Create maps for quick lookup
     const progressMap = new Map(
-      lessonProgress.map((p) => [p.lessonId, p])
+      lessonProgress.map((p: any) => [p.lessonId, p])
     );
     const attemptMap = new Map(
-      exerciseAttempts.map((a) => [a.exerciseId, a])
+      exerciseAttempts.map((a: any) => [a.exerciseId, a])
     );
     const chapterProgressMap = new Map(
-      chapterProgress.map((p) => [p.chapterId, p])
+      chapterProgress.map((p: any) => [p.chapterId, p])
     );
 
     // Add progress/status to chapters, lessons and exercises
     const subjectWithProgress = {
       ...subject,
-      chapters: subject.chapters.map((chapter) => {
+      chapters: subject.chapters.map((chapter: any) => {
         const chapterProgressData = chapterProgressMap.get(chapter.id);
 
         // Collect all exercises from all sections (before deduplication)
         const allExercisesRaw: Array<{ id: number; title: string; difficulty: string; questions: any[] }> = [];
-        chapter.sections.forEach((section) => {
-          section.exercises.forEach((exercise) => {
+        chapter.sections.forEach((section: any) => {
+          section.exercises.forEach((exercise: any) => {
             allExercisesRaw.push({
               id: exercise.id,
               title: exercise.title,
@@ -270,7 +270,7 @@ export async function GET(
               hasDraftExercises = true;
             }
             // Count as completed if isCompleted is true (submitted and completed)
-            if (attempt.isCompleted) {
+            if ((attempt as any)?.isCompleted) {
               completedExercises++;
             }
           }
@@ -279,7 +279,7 @@ export async function GET(
         // Count correct questions from attempts - only count from unique exercises
         let correctQuestions = 0;
         uniqueExercises.forEach((exercise) => {
-          const attempt = attemptMap.get(exercise.id);
+          const attempt = attemptMap.get(exercise.id) as any;
           if (attempt && attempt.answers) {
             // answers format: { questionId: { answer: string, isCorrect: boolean, ... } } for submitted
             // or { questionId: "answer" } for draft
@@ -349,21 +349,21 @@ export async function GET(
             lastAccessedAt: null,
             completedAt: null,
           } : null),
-          sections: chapter.sections.map((section) => {
+          sections: chapter.sections.map((section: any) => {
             // Filter exercises to only include unique ones (by ID)
-            const uniqueSectionExercises = section.exercises.filter((exercise) => {
+            const uniqueSectionExercises = section.exercises.filter((exercise: any) => {
               return uniqueExerciseIds.has(exercise.id);
             });
             
             return {
               ...section,
-              lessons: section.lessons.map((lesson) => ({
+              lessons: section.lessons.map((lesson: any) => ({
                 ...lesson,
                 progress: progressMap.get(lesson.id) || null,
-                status: progressMap.get(lesson.id)?.status || 'not_started',
+                status: (progressMap.get(lesson.id) as any)?.status || 'not_started',
               })),
-              exercises: uniqueSectionExercises.map((exercise) => {
-                const attempt = attemptMap.get(exercise.id);
+              exercises: uniqueSectionExercises.map((exercise: any) => {
+                const attempt = attemptMap.get(exercise.id) as any;
                 return {
                   ...exercise,
                   attempt: attempt || null,

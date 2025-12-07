@@ -71,7 +71,7 @@ export async function GET(request: NextRequest) {
 
       return NextResponse.json({
         type: 'ai',
-        messages: aiMessages.map((msg) => ({
+        messages: aiMessages.map((msg: any) => ({
           id: msg.id,
           content: msg.content,
           createdAt: msg.createdAt,
@@ -147,9 +147,9 @@ export async function GET(request: NextRequest) {
     }
 
     // Get all exercises from all chapters
-    const allExercises = subject.chapters.flatMap((chapter) =>
-      chapter.sections.flatMap((section) =>
-        section.exercises.map((exercise) => ({
+    const allExercises = subject.chapters.flatMap((chapter: any) =>
+      chapter.sections.flatMap((section: any) =>
+        section.exercises.map((exercise: any) => ({
           ...exercise,
           sectionId: section.id,
           sectionName: section.name,
@@ -160,7 +160,7 @@ export async function GET(request: NextRequest) {
     );
 
     // Get exercise IDs
-    const exerciseIds = allExercises.map((ex) => ex.id);
+    const exerciseIds = allExercises.map((ex: any) => ex.id);
 
     // Get user attempts for exercises done on the specified date
     const userAttempts = await prisma.userExerciseAttempt.findMany({
@@ -180,14 +180,14 @@ export async function GET(request: NextRequest) {
 
     // Create attempt map
     const attemptMap = new Map<number, Record<string, any>>();
-    userAttempts.forEach((attempt) => {
+    userAttempts.forEach((attempt: any) => {
       attemptMap.set(attempt.exerciseId, attempt.answers as Record<string, any>);
     });
 
     // Filter exercises that have attempts and add user answers
     const exercisesWithAnswers = allExercises
-      .filter((exercise) => attemptMap.has(exercise.id))
-      .map((exercise) => ({
+      .filter((exercise: any) => attemptMap.has(exercise.id))
+      .map((exercise: any) => ({
         id: exercise.id,
         title: exercise.title,
         description: exercise.description,
@@ -203,7 +203,7 @@ export async function GET(request: NextRequest) {
 
     // Remove duplicates by exercise ID
     const uniqueExercisesMap = new Map<number, typeof exercisesWithAnswers[0]>();
-    exercisesWithAnswers.forEach((ex) => {
+    exercisesWithAnswers.forEach((ex: any) => {
       if (!uniqueExercisesMap.has(ex.id)) {
         uniqueExercisesMap.set(ex.id, ex);
       }

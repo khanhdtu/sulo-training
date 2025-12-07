@@ -104,7 +104,7 @@ export async function POST(
       // Find exercise in chapter
       let exercise: any = null;
       for (const section of chapter.sections) {
-        exercise = section.exercises.find((e) => e.id === exerciseId);
+        exercise = section.exercises.find((e: any) => e.id === exerciseId);
         if (exercise) break;
       }
 
@@ -215,8 +215,8 @@ export async function POST(
 
       // Update section progress if exercise is completed
       if (isCompleted) {
-        const section = chapter.sections.find((s) => 
-          s.exercises.some((e) => e.id === exerciseId)
+        const section = chapter.sections.find((s: any) =>
+          s.exercises.some((e: any) => e.id === exerciseId)
         );
         
         if (section) {
@@ -257,18 +257,46 @@ export async function POST(
     // Update or create UserChapterProgress
     // Determine chapter status based on submit status and completion of all exercises
     // Get all exercise IDs in this chapter
-    const allExerciseIds = chapter.sections.flatMap(section => 
-      section.exercises.map(exercise => exercise.id)
+    const allExerciseIds = chapter.sections.flatMap((section: any) =>
+      section.exercises.map((exercise: any) => exercise.id)
     );
     
-    // Get all attempts for this chapter's exercises by this user (AFTER all updates)
-    // This ensures we get the latest status after all exercise attempts have been updated
-    const allAttempts = await prisma.userExerciseAttempt.findMany({
+    // Get all attempts for this chapter's exercises by this user
+    // Include attempts that were just updated in this request
+    // We need to merge the updated attempts with existing attempts
+    const existingAttempts = await prisma.userExerciseAttempt.findMany({
       where: {
         userId: user.id,
         exerciseId: { in: allExerciseIds },
       },
     });
+    
+    // Create a map of updated attempts from this request
+    const updatedAttemptsMap = new Map<number, any>();
+    for (const exerciseId of submittedExerciseIds) {
+      const updatedAttempt = await prisma.userExerciseAttempt.findFirst({
+        where: {
+          userId: user.id,
+          exerciseId: exerciseId,
+        },
+      });
+      if (updatedAttempt) {
+        updatedAttemptsMap.set(exerciseId, updatedAttempt);
+      }
+    }
+    
+    // Merge existing attempts with updated attempts (updated ones take precedence)
+    const allAttempts = existingAttempts.map((attempt: any) => {
+      const updated = updatedAttemptsMap.get(attempt.exerciseId);
+      return updated || attempt;
+    });
+    
+    // Add any new attempts that weren't in existingAttempts
+    for (const [exerciseId, attempt] of updatedAttemptsMap.entries()) {
+      if (!allAttempts.some((a: any) => a.exerciseId === exerciseId)) {
+        allAttempts.push(attempt);
+      }
+    }
     
     // Check if all exercises are submitted (status != 'draft')
     // An exercise is considered submitted if:
@@ -276,20 +304,20 @@ export async function POST(
     // 2. The attempt status is not 'draft' (must be 'submitted' or 'completed')
     // Note: We don't require isCompleted = true, just that it's been submitted
     const submittedExercises = allAttempts.filter(
-      attempt => attempt.status !== 'draft'
+      (attempt: any) => attempt.status !== 'draft'
     );
     
     // Count exercises that are fully completed (all questions correct)
     const completedExercises = allAttempts.filter(
-      attempt => attempt.isCompleted && attempt.status !== 'draft'
+      (attempt: any) => attempt.isCompleted && attempt.status !== 'draft'
     );
     
     // Check if ALL exercises in the chapter have been submitted (not draft)
     // Each exercise must have an attempt with status != 'draft'
     // This means the user has submitted all exercises, even if not all are correct
     const allExercisesSubmitted = allExerciseIds.length > 0 && 
-      allExerciseIds.every(exerciseId => {
-        const attempt = allAttempts.find(a => a.exerciseId === exerciseId);
+      allExerciseIds.every((exerciseId: number) => {
+        const attempt = allAttempts.find((a: any) => a.exerciseId === exerciseId);
         const isSubmitted = attempt && attempt.status !== 'draft';
         return isSubmitted;
       });
@@ -302,10 +330,25 @@ export async function POST(
     let chapterStatus: 'not_started' | 'in_progress' | 'completed' = 'in_progress';
     if (submitStatus === 'draft') {
       chapterStatus = 'in_progress';
-    } else if (submitStatus === 'submitted' && allExercisesSubmitted) {
-      chapterStatus = 'completed';
     } else if (submitStatus === 'submitted') {
-      chapterStatus = 'in_progress';
+      // When submitting, check if all exercises in chapter are now submitted
+      // This includes exercises submitted in this request + previously submitted exercises
+      if (allExercisesSubmitted) {
+        chapterStatus = 'completed';
+      } else {
+        // Check if all exercises that were submitted in this request cover all exercises in chapter
+        // OR if all exercises in chapter are now submitted (including previous submissions)
+        const exercisesSubmittedInThisRequest = submittedExerciseIds.size;
+        const totalExercisesInChapter = allExerciseIds.length;
+        
+        // If we submitted all exercises in this request, mark as completed
+        // Otherwise, if all exercises are now submitted (from this request + previous), mark as completed
+        if (exercisesSubmittedInThisRequest === totalExercisesInChapter || allExercisesSubmitted) {
+          chapterStatus = 'completed';
+        } else {
+          chapterStatus = 'in_progress';
+        }
+      }
     } else {
       chapterStatus = 'in_progress';
     }

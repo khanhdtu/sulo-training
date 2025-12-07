@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import { useRouter, useParams } from 'next/navigation';
-import { chapterRepository, type ChapterExercise } from '@/repositories/chapter.repository';
+import { chapterRepository, type ChapterExercise, type ChapterResponse } from '@/repositories/chapter.repository';
 import { toast } from 'sonner';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
 import Loading from '@/components/Loading';
@@ -12,7 +12,7 @@ export default function ChapterPage() {
   const params = useParams();
   const chapterId = params.id as string;
 
-  const [chapter, setChapter] = useState<any>(null);
+  const [chapter, setChapter] = useState<ChapterResponse['chapter'] | null>(null);
   const [exercises, setExercises] = useState<ChapterExercise[]>([]);
   const [currentExercise, setCurrentExercise] = useState<ChapterExercise | null>(null);
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState<number | null>(null);
@@ -67,12 +67,15 @@ export default function ChapterPage() {
           
           // Load previous answers if available
           if (data.currentExercise.attempt?.answers) {
-            const savedAnswers = data.currentExercise.attempt.answers as Record<string, any>;
+            // Prisma JSON type - answers stored as JSONB
+            const savedAnswers = data.currentExercise.attempt.answers as Record<string, string | string[]>;
             // Convert answers to option keys if needed (for multiple choice)
             data.currentExercise.questions.forEach((q) => {
               const savedAnswer = savedAnswers[q.id.toString()];
               if (savedAnswer) {
-                const answerValue = getAnswerValue(savedAnswer);
+                // Handle Prisma JSON type: can be string or string[] (for multiple choice)
+                const answerStr = Array.isArray(savedAnswer) ? savedAnswer[0] : savedAnswer;
+                const answerValue = getAnswerValue(answerStr);
                 // If it's a value (not a key), try to find the matching option key
                 if (data.currentExercise && data.currentExercise.type === 'multiple_choice' && q.options) {
                   const options = q.options as Record<string, string>;
@@ -86,7 +89,6 @@ export default function ChapterPage() {
                 }
               }
             });
-            console.log('Loaded saved answers:', initialAnswers);
           }
           
           // Initialize empty answers for questions that don't have answers yet
@@ -102,8 +104,6 @@ export default function ChapterPage() {
             [data.currentExercise!.id]: initialAnswers,
           }));
           
-          console.log('Initial answers:', initialAnswers);
-          console.log('Current exercise questions:', data.currentExercise.questions.map(q => ({ id: q.id, question: q.question })));
           setAnswers(initialAnswers);
           setCurrentQuestionIndex(0); // Reset to first question
         }
@@ -259,9 +259,11 @@ export default function ChapterPage() {
     setSubmitting(true);
     try {
       // Save current answers to answersByExercise before submitting
+      // Ensure we capture the current answers state
+      const currentAnswers = { ...answers };
       const updatedAnswersByExercise = {
         ...answersByExercise,
-        [currentExercise.id]: answers,
+        [currentExercise.id]: currentAnswers,
       };
       setAnswersByExercise(updatedAnswersByExercise);
 
@@ -269,22 +271,22 @@ export default function ChapterPage() {
       const exercisesAnswers: Record<string, Record<string, string>> = {};
       
       exercises.forEach((exercise) => {
+        // Skip exercises without questions
+        if (!exercise.questions || exercise.questions.length === 0) {
+          return;
+        }
+        
         const exerciseAnswers = updatedAnswersByExercise[exercise.id];
         if (exerciseAnswers && Object.keys(exerciseAnswers).length > 0) {
-            // Check if there's at least one non-empty answer
-            const hasNonEmptyAnswer = Object.values(exerciseAnswers).some(
-              (answer) => {
-                const answerValue = getAnswerValue(answer);
-                return answerValue && answerValue.trim() !== '';
-              }
-            );
-            if (hasNonEmptyAnswer) {
-              // Extract only answer strings for submission (not objects)
-              // For multiple choice, ensure we send option keys (A, B, C, D) not values
-              const cleanAnswers: Record<string, string> = {};
-              
-              exercise.questions.forEach((q) => {
-                const answerValue = getAnswerValue(exerciseAnswers[q.id.toString()]);
+            // Extract only answer strings for submission (not objects)
+            // For multiple choice, ensure we send option keys (A, B, C, D) not values
+            const cleanAnswers: Record<string, string> = {};
+            
+            exercise.questions.forEach((q) => {
+              const rawAnswer = exerciseAnswers[q.id.toString()];
+              if (rawAnswer !== undefined && rawAnswer !== null) {
+                const answerValue = getAnswerValue(rawAnswer);
+                // Check if answer is not empty (after trimming)
                 if (answerValue && answerValue.trim() !== '') {
                   if (exercise.type === 'multiple_choice' && q.options) {
                     const options = q.options as Record<string, string>;
@@ -308,8 +310,11 @@ export default function ChapterPage() {
                     cleanAnswers[q.id.toString()] = answerValue;
                   }
                 }
-              });
-              
+              }
+            });
+            
+            // Only add exercise if it has at least one non-empty answer
+            if (Object.keys(cleanAnswers).length > 0) {
               exercisesAnswers[exercise.id.toString()] = cleanAnswers;
             }
         }
@@ -849,12 +854,15 @@ export default function ChapterPage() {
                       initialAnswers = { ...answersByExercise[targetExercise.id] };
                     } else if (targetExercise.attempt?.answers) {
                       // Load previous answers from database if available
-                      const savedAnswers = targetExercise.attempt.answers as Record<string, any>;
+                      // Prisma JSON type - answers stored as JSONB
+                      const savedAnswers = targetExercise.attempt.answers as Record<string, string | string[]>;
                       // Convert answers to option keys if needed (for multiple choice)
                       targetExercise.questions.forEach((q) => {
                         const savedAnswer = savedAnswers[q.id.toString()];
                         if (savedAnswer) {
-                          const answerValue = getAnswerValue(savedAnswer);
+                          // Handle Prisma JSON type: can be string or string[] (for multiple choice)
+                          const answerStr = Array.isArray(savedAnswer) ? savedAnswer[0] : savedAnswer;
+                          const answerValue = getAnswerValue(answerStr);
                           // If it's a value (not a key), try to find the matching option key
                           if (targetExercise.type === 'multiple_choice' && q.options) {
                             const options = q.options as Record<string, string>;

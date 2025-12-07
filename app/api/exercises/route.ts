@@ -15,7 +15,7 @@ const createExerciseSchema = z.object({
     z.object({
       question: z.string(),
       answer: z.string(),
-      options: z.record(z.string()).optional(), // For multiple choice
+      options: z.record(z.string(), z.string()).optional(), // For multiple choice
       points: z.number().default(1),
     })
   ),
@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
     const exercise = await prisma.exercise.create({
       data: {
         title: data.title,
-        description: data.description,
+        description: data.description || '',
         sectionId: data.sectionId,
         difficulty: data.difficulty,
         type: data.type,
@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
           create: data.questions.map((q, index) => ({
             question: q.question,
             answer: q.answer,
-            options: q.options || null,
+            ...(q.options && { options: q.options }),
             order: index,
             points: q.points,
           })),
@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
-        { error: 'Validation error', details: error.errors },
+        { error: 'Validation error', details: error.issues },
         { status: 400 }
       );
     }

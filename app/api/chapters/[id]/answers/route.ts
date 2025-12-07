@@ -83,7 +83,7 @@ export async function GET(
     }
 
     // Get user exercise attempts for this chapter
-    const exerciseIds = chapter.sections.flatMap((section) =>
+    const exerciseIds = chapter.sections.flatMap((section: { exercises: Array<{ id: number }> }) =>
       section.exercises.map((exercise) => exercise.id)
     );
 
@@ -102,12 +102,12 @@ export async function GET(
 
     // Create a map for quick lookup: exerciseId -> answers
     const attemptMap = new Map<number, Record<string, any>>();
-    userAttempts.forEach((attempt) => {
+    userAttempts.forEach((attempt: { exerciseId: number; answers: any }) => {
       attemptMap.set(attempt.exerciseId, attempt.answers as Record<string, any>);
     });
 
     // Flatten all exercises from all sections
-    const allExercisesRaw = chapter.sections.flatMap((section) =>
+    const allExercisesRaw = chapter.sections.flatMap((section: { id: number; name: string; exercises: Array<any> }) =>
       section.exercises.map((exercise) => ({
         ...exercise,
         sectionId: section.id,
