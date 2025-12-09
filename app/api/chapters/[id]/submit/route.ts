@@ -378,14 +378,14 @@ export async function POST(
     
     // Determine chapter status based on submitStatus from payload:
     // - If draft: always 'in_progress'
-    // - If submitted: use 'submitted' status (as specified in payload)
-    //   Note: 'completed' status should be set separately when all exercises are fully completed
+    // - If submitted: always 'completed' (user has submitted their work)
     let chapterStatus: 'not_started' | 'in_progress' | 'submitted' | 'completed' = 'in_progress';
     if (submitStatus === 'draft') {
       chapterStatus = 'in_progress';
     } else if (submitStatus === 'submitted') {
-      // When status = submitted in payload, set chapter status to 'submitted'
-      chapterStatus = 'submitted';
+      // When submitting, always mark chapter as completed
+      // This indicates the user has submitted their work for this chapter
+      chapterStatus = 'completed';
     } else {
       chapterStatus = 'in_progress';
     }
