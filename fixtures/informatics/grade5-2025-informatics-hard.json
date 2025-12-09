@@ -1,0 +1,496 @@
+{
+  "grade": 5,
+  "subject": "Tin học",
+  "subjectCode": "INFO5",
+  "difficulty": "hard",
+  "description": "Hard exercises for Grade 5 Informatics (Lớp 5 Tin học) - advanced practice",
+  "chapters": [
+    {
+      "code": "CH3",
+      "name": "Chương 3: Soạn thảo văn bản với Word",
+      "lessons": [
+        {
+          "code": "INFO5-CH3-L6",
+          "title": "Tạo và chỉnh sửa bảng",
+          "exercises": [
+            {
+              "title": "Tạo bảng trong Word",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Để tạo bảng 3 hàng x 4 cột trong Word, em vào đâu?",
+              "options": {
+                "A": "Insert > Table > chọn 3x4",
+                "B": "Home > Table",
+                "C": "View > Table",
+                "D": "File > Table"
+              },
+              "correctOption": "A",
+              "hint": "Insert > Table, sau đó chọn số hàng và cột từ lưới hiển thị.",
+              "created_at": "2025-01-01T00:04:00.000Z"
+            },
+            {
+              "title": "Thêm hàng vào bảng",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Để thêm một hàng mới vào bảng, em làm thế nào?",
+              "options": {
+                "A": "Click phải vào hàng > Insert > Insert Rows Above/Below",
+                "B": "Double-click vào bảng",
+                "C": "Kéo thả",
+                "D": "Nhấn Delete"
+              },
+              "correctOption": "A",
+              "hint": "Click phải vào hàng trong bảng, chọn Insert > Insert Rows Above (trên) hoặc Below (dưới).",
+              "created_at": "2025-01-01T00:04:01.000Z"
+            },
+            {
+              "title": "Gộp ô trong bảng",
+              "type": "essay",
+              "points": 5,
+              "question": "Em hãy giải thích cách gộp nhiều ô thành một ô trong bảng Word.",
+              "hint": "Chọn các ô cần gộp, sau đó click phải hoặc vào Layout > Merge Cells.",
+              "answer": "Bước 1: Chọn các ô cần gộp bằng cách click và kéo. Bước 2: Click phải > Merge Cells, hoặc vào Layout > Merge Cells. Các ô sẽ được gộp thành một ô lớn.",
+              "created_at": "2025-01-01T00:04:02.000Z"
+            },
+            {
+              "title": "Tạo văn bản mới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để tạo văn bản mới trong Word?",
+              "options": {
+                "A": "File > New > Blank Document",
+                "B": "File > Open",
+                "C": "File > Save",
+                "D": "File > Print"
+              },
+              "correctOption": "A",
+              "hint": "File > New > Blank Document để tạo văn bản mới. Hoặc nhấn Ctrl + N.",
+              "created_at": "2025-12-09T03:43:08.330Z",
+              "order": 4
+            },
+            {
+              "title": "Lưu văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để lưu văn bản trong Word?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + S để Save (lưu). Ctrl + N để New (mới). Ctrl + O để Open (mở). Ctrl + P để Print (in).",
+              "created_at": "2025-12-09T03:43:09.330Z",
+              "order": 5
+            },
+            {
+              "title": "Mở văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để mở file văn bản?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + O để Open (mở file). File > Open cũng có thể dùng.",
+              "created_at": "2025-12-09T03:43:10.330Z",
+              "order": 6
+            },
+            {
+              "title": "In văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để in văn bản?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "D",
+              "hint": "Ctrl + P để Print (in). File > Print cũng có thể dùng.",
+              "created_at": "2025-12-09T03:43:11.330Z",
+              "order": 7
+            },
+            {
+              "title": "Hoàn tác (Undo)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để hoàn tác thao tác vừa làm?",
+              "options": {
+                "A": "Ctrl + Z",
+                "B": "Ctrl + Y",
+                "C": "Ctrl + X",
+                "D": "Ctrl + C"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + Z để Undo (hoàn tác). Ctrl + Y để Redo (làm lại).",
+              "created_at": "2025-12-09T03:43:12.330Z",
+              "order": 8
+            },
+            {
+              "title": "Sao chép văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để sao chép văn bản đã chọn?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + C để Copy. Ctrl + X để Cut. Ctrl + V để Paste.",
+              "created_at": "2025-12-09T03:43:13.330Z",
+              "order": 9
+            },
+            {
+              "title": "Dán văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để dán văn bản đã sao chép?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + V để Paste (dán) văn bản đã Copy hoặc Cut.",
+              "created_at": "2025-12-09T03:43:14.330Z",
+              "order": 10
+            },
+            {
+              "title": "In nghiêng chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để in nghiêng chữ?",
+              "options": {
+                "A": "Ctrl + B",
+                "B": "Ctrl + I",
+                "C": "Ctrl + U",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + I (Italic) để in nghiêng. Ctrl + B (Bold) để in đậm. Ctrl + U (Underline) để gạch chân.",
+              "created_at": "2025-12-09T03:43:15.330Z",
+              "order": 11
+            },
+            {
+              "title": "Gạch chân chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để gạch chân chữ?",
+              "options": {
+                "A": "Ctrl + B",
+                "B": "Ctrl + I",
+                "C": "Ctrl + U",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + U (Underline) để gạch chân. Ctrl + B để in đậm. Ctrl + I để in nghiêng.",
+              "created_at": "2025-12-09T03:43:16.330Z",
+              "order": 12
+            },
+            {
+              "title": "Căn lề trái",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để căn lề trái đoạn văn?",
+              "options": {
+                "A": "Ctrl + L",
+                "B": "Ctrl + E",
+                "C": "Ctrl + R",
+                "D": "Ctrl + J"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + L để căn trái. Ctrl + E để căn giữa. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
+              "created_at": "2025-12-09T03:43:17.330Z",
+              "order": 13
+            },
+            {
+              "title": "Căn lề giữa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để căn lề giữa đoạn văn?",
+              "options": {
+                "A": "Ctrl + L",
+                "B": "Ctrl + E",
+                "C": "Ctrl + R",
+                "D": "Ctrl + J"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + E để căn giữa. Ctrl + L để căn trái. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
+              "created_at": "2025-12-09T03:43:18.330Z",
+              "order": 14
+            },
+            {
+              "title": "Chọn toàn bộ văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để chọn toàn bộ văn bản?",
+              "options": {
+                "A": "Ctrl + A",
+                "B": "Ctrl + S",
+                "C": "Ctrl + C",
+                "D": "Ctrl + V"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + A để Select All (chọn tất cả). Rất hữu ích khi muốn áp dụng định dạng cho toàn bộ văn bản.",
+              "created_at": "2025-12-09T03:43:19.330Z",
+              "order": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Bảng tính với Excel",
+      "lessons": [
+        {
+          "code": "INFO5-CH4-L3",
+          "title": "Sử dụng công thức đơn giản",
+          "exercises": [
+            {
+              "title": "Công thức phức tạp",
+              "type": "multiple_choice",
+              "points": 3,
+              "question": "Công thức nào đúng để tính: (A1 + B1) * C1?",
+              "options": {
+                "A": "=A1+B1*C1",
+                "B": "=(A1+B1)*C1",
+                "C": "=A1+B1.C1",
+                "D": "=A1+B1xC1"
+              },
+              "correctOption": "B",
+              "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
+              "created_at": "2025-01-01T00:04:10.000Z"
+            },
+            {
+              "title": "Công thức chia",
+              "type": "essay",
+              "points": 5,
+              "question": "Em hãy viết công thức Excel để tính trung bình cộng của 3 số trong ô A1, B1, C1.",
+              "hint": "Trung bình cộng = tổng chia cho số lượng. Công thức: =(A1+B1+C1)/3",
+              "answer": "Công thức: =(A1+B1+C1)/3. Hoặc có thể dùng hàm: =AVERAGE(A1:C1).",
+              "created_at": "2025-01-01T00:04:11.000Z"
+            },
+            {
+              "title": "Hàng và cột trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trong Excel, hàng được đánh số như thế nào?",
+              "options": {
+                "A": "A, B, C...",
+                "B": "1, 2, 3...",
+                "C": "I, II, III...",
+                "D": "a, b, c..."
+              },
+              "correctOption": "B",
+              "hint": "Hàng được đánh số: 1, 2, 3... Cột được đánh chữ: A, B, C...",
+              "created_at": "2025-12-09T03:43:08.331Z",
+              "order": 3
+            },
+            {
+              "title": "Cột trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trong Excel, cột được đánh chữ như thế nào?",
+              "options": {
+                "A": "A, B, C...",
+                "B": "1, 2, 3...",
+                "C": "I, II, III...",
+                "D": "a, b, c..."
+              },
+              "correctOption": "A",
+              "hint": "Cột được đánh chữ: A, B, C... Hàng được đánh số: 1, 2, 3...",
+              "created_at": "2025-12-09T03:43:09.331Z",
+              "order": 4
+            },
+            {
+              "title": "Chọn nhiều ô",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn nhiều ô liên tiếp trong Excel?",
+              "options": {
+                "A": "Click và kéo chuột",
+                "B": "Click từng ô một",
+                "C": "Double-click",
+                "D": "Right-click"
+              },
+              "correctOption": "A",
+              "hint": "Click vào ô đầu, giữ chuột và kéo đến ô cuối để chọn nhiều ô liên tiếp.",
+              "created_at": "2025-12-09T03:43:10.331Z",
+              "order": 5
+            },
+            {
+              "title": "Chọn cả cột",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn cả cột trong Excel?",
+              "options": {
+                "A": "Click vào tiêu đề cột (A, B, C...)",
+                "B": "Click vào ô đầu tiên",
+                "C": "Double-click vào cột",
+                "D": "Right-click vào cột"
+              },
+              "correctOption": "A",
+              "hint": "Click vào tiêu đề cột (chữ A, B, C...) để chọn cả cột.",
+              "created_at": "2025-12-09T03:43:11.331Z",
+              "order": 6
+            },
+            {
+              "title": "Chọn cả hàng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn cả hàng trong Excel?",
+              "options": {
+                "A": "Click vào tiêu đề hàng (1, 2, 3...)",
+                "B": "Click vào ô đầu tiên",
+                "C": "Double-click vào hàng",
+                "D": "Right-click vào hàng"
+              },
+              "correctOption": "A",
+              "hint": "Click vào tiêu đề hàng (số 1, 2, 3...) để chọn cả hàng.",
+              "created_at": "2025-12-09T03:43:12.331Z",
+              "order": 7
+            },
+            {
+              "title": "Công thức trừ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính hiệu của A1 và B1?",
+              "options": {
+                "A": "A1-B1",
+                "B": "=A1-B1",
+                "C": "=A1/B1",
+                "D": "=A1*B1"
+              },
+              "correctOption": "B",
+              "hint": "Công thức trừ: =A1-B1. Nhớ bắt đầu bằng dấu =.",
+              "created_at": "2025-12-09T03:43:13.331Z",
+              "order": 8
+            },
+            {
+              "title": "Công thức nhân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính tích của A1 và B1?",
+              "options": {
+                "A": "=A1xB1",
+                "B": "=A1*B1",
+                "C": "=A1.B1",
+                "D": "=A1+B1"
+              },
+              "correctOption": "B",
+              "hint": "Trong Excel, dấu nhân là * (không phải x). Công thức: =A1*B1.",
+              "created_at": "2025-12-09T03:43:14.331Z",
+              "order": 9
+            },
+            {
+              "title": "Công thức chia",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính thương của A1 và B1?",
+              "options": {
+                "A": "=A1÷B1",
+                "B": "=A1/B1",
+                "C": "=A1\\B1",
+                "D": "=A1:B1"
+              },
+              "correctOption": "B",
+              "hint": "Trong Excel, dấu chia là / (dấu gạch chéo). Công thức: =A1/B1.",
+              "created_at": "2025-12-09T03:43:15.331Z",
+              "order": 10
+            },
+            {
+              "title": "Công thức phức tạp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính: (A1 + B1) * C1?",
+              "options": {
+                "A": "=A1+B1*C1",
+                "B": "=(A1+B1)*C1",
+                "C": "=A1+B1.C1",
+                "D": "=A1+B1xC1"
+              },
+              "correctOption": "B",
+              "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
+              "created_at": "2025-12-09T03:43:16.331Z",
+              "order": 11
+            },
+            {
+              "title": "Lưu file Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để lưu file Excel?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + S để Save (lưu file). Giống như Word và các phần mềm khác.",
+              "created_at": "2025-12-09T03:43:17.331Z",
+              "order": 12
+            },
+            {
+              "title": "Định dạng số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi nhập số 001 vào Excel, nếu muốn giữ số 0 ở đầu, em cần làm gì?",
+              "options": {
+                "A": "Thêm dấu nháy đơn trước: '001",
+                "B": "Định dạng ô là Text",
+                "C": "Cả A và B",
+                "D": "Không thể giữ số 0"
+              },
+              "correctOption": "C",
+              "hint": "Có 2 cách: thêm dấu nháy đơn '001, hoặc định dạng ô là Text trước khi nhập.",
+              "created_at": "2025-12-09T03:43:18.331Z",
+              "order": 13
+            },
+            {
+              "title": "Câu hỏi bổ sung 1",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi về Chương 4: Bảng tính với Excel (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Bảng tính với Excel.",
+              "created_at": "2025-12-09T03:43:19.331Z",
+              "order": 14
+            },
+            {
+              "title": "Câu hỏi bổ sung 2",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi về Chương 4: Bảng tính với Excel (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Bảng tính với Excel.",
+              "created_at": "2025-12-09T03:43:20.331Z",
+              "order": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useMemo } from 'react';
 import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import { subjectRepository, type Subject } from '@/repositories/subject.repository';
 import { renderTextWithLatex } from '@/components/LatexRenderer';
@@ -18,24 +18,45 @@ export default function SubjectPage() {
   const [subject, setSubject] = useState<Subject | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const requestIdRef = useRef<number>(0);
+  const fetchingRef = useRef<boolean>(false); // Track if currently fetching
+  const lastFetchedSubjectIdRef = useRef<string | null>(null); // Track last fetched subjectId
+  const toastShownRef = useRef<boolean>(false); // Track if toast has been shown
 
+  // Memoize draft param value
+  const draftParam = useMemo(() => searchParams.get('draft'), [searchParams]);
+
+  // Separate useEffect for toast - only runs once when draft param is present
+  useEffect(() => {
+    if (draftParam === 'true' && !toastShownRef.current) {
+      toast.success('Đã lưu nháp thành công! Bạn có thể tiếp tục làm bài sau.');
+      toastShownRef.current = true;
+      // Remove query param from URL without triggering re-fetch
+      const newUrl = `/subjects/${subjectId}`;
+      window.history.replaceState({}, '', newUrl);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Only run once on mount
+
+  // Separate useEffect for fetching - only depends on subjectId
   useEffect(() => {
     if (!subjectId) {
       return;
     }
     
-    // Check if redirected from draft save
-    const draftParam = searchParams.get('draft');
-    if (draftParam === 'true') {
-      toast.success('Đã lưu nháp thành công! Bạn có thể tiếp tục làm bài sau.');
-      // Remove query param from URL
-      router.replace(`/subjects/${subjectId}`, { scroll: false });
+    // Skip if already fetching this subjectId
+    if (fetchingRef.current && lastFetchedSubjectIdRef.current === subjectId) {
+      return;
     }
     
-    // Generate unique request ID for this fetch attempt
-    const currentRequestId = ++requestIdRef.current;
-    const isCancelledRef = { current: false };
+    // Skip if already fetched this subjectId (check state directly)
+    if (lastFetchedSubjectIdRef.current === subjectId && subject && subject.id === parseInt(subjectId)) {
+      setLoading(false);
+      return;
+    }
+    
+    // Mark as fetching
+    fetchingRef.current = true;
+    lastFetchedSubjectIdRef.current = subjectId;
     
     const fetchSubject = async () => {
       try {
@@ -44,14 +65,15 @@ export default function SubjectPage() {
         
         const data = await subjectRepository.getSubjectById(parseInt(subjectId));
         
-        // Only update state if this request hasn't been cancelled
-        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
+        // Only update if still fetching the same subjectId
+        if (lastFetchedSubjectIdRef.current === subjectId) {
           setSubject(data.subject);
           setLoading(false);
+          fetchingRef.current = false;
         }
       } catch (err) {
-        // Only update state if this request hasn't been cancelled
-        if (!isCancelledRef.current && currentRequestId === requestIdRef.current) {
+        // Only update if still fetching the same subjectId
+        if (lastFetchedSubjectIdRef.current === subjectId) {
           const errorMessage = err instanceof Error ? err.message : 'Không thể tải thông tin môn học';
           if (errorMessage.includes('404') || errorMessage.includes('Không tìm thấy')) {
             setError('Không tìm thấy môn học');
@@ -59,18 +81,14 @@ export default function SubjectPage() {
             setError(errorMessage);
           }
           setLoading(false);
+          fetchingRef.current = false;
           console.error('Failed to fetch subject:', err);
         }
       }
     };
 
     fetchSubject();
-    
-    // Cleanup function - mark this request as cancelled
-    return () => {
-      isCancelledRef.current = true;
-    };
-  }, [subjectId, searchParams, router]);
+  }, [subjectId]); // Only depend on subjectId - check subject state in effect body
 
 
   if (loading) {
@@ -209,6 +227,37 @@ export default function SubjectPage() {
                   </div>
                   <div className="ml-4 flex-shrink-0 flex flex-col gap-2">
                     {(() => {
+                      // Check chapter status first - if submitted or completed, show "Xem đáp án"
+                      if (chapter.progress && (chapter.progress.status === 'submitted' || chapter.progress.status === 'completed')) {
+                        return (
+                          <button
+                            onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
+                            className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
+                          >
+                            <svg
+                              className="w-4 h-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                              />
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                              />
+                            </svg>
+                            Xem đáp án
+                          </button>
+                        );
+                      }
+                      
                       // Check if chapter has any draft exercises
                       const hasDraftExercises = chapter.sections.some((section) =>
                         section.exercises.some((exercise) => exercise.attempt?.status === 'draft')
@@ -239,60 +288,28 @@ export default function SubjectPage() {
                         );
                       }
                       
-                      // If chapter has progress and is in progress, show "Tiếp tục" only (no "Xem đáp án" until completed)
-                      if (chapter.progress && chapter.progress.status !== 'not_started') {
+                      // If chapter has progress and is in progress, show "Tiếp tục"
+                      if (chapter.progress && chapter.progress.status === 'in_progress') {
                         return (
-                          <>
-                            {chapter.progress.status === 'in_progress' ? (
-                              // Chapter in progress - only show "Tiếp tục", no "Xem đáp án"
-                              <button
-                                onClick={() => router.push(`/chapters/${chapter.id}`)}
-                                className="btn btn-primary whitespace-nowrap flex items-center gap-2"
-                              >
-                                <svg
-                                  className="w-5 h-5"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                                  />
-                                </svg>
-                                Tiếp tục
-                              </button>
-                            ) : chapter.progress.status === 'completed' ? (
-                              // Chapter completed - only show "Xem đáp án"
-                              <button
-                                onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                                className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
-                              >
-                                <svg
-                                  className="w-4 h-4"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                                  />
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                                  />
-                                </svg>
-                                Xem đáp án
-                              </button>
-                            ) : null}
-                          </>
+                          <button
+                            onClick={() => router.push(`/chapters/${chapter.id}`)}
+                            className="btn btn-primary whitespace-nowrap flex items-center gap-2"
+                          >
+                            <svg
+                              className="w-5 h-5"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                              />
+                            </svg>
+                            Tiếp tục
+                          </button>
                         );
                       }
                       

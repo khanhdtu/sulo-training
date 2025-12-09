@@ -1,0 +1,270 @@
+{
+  "grade": {
+    "name": "Lớp 7",
+    "level": 7,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Địa lý",
+    "code": "GEO7",
+    "description": "Chương trình Địa lý lớp 7 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "Chương 1: Thành phần nhân văn của môi trường",
+      "order": 1,
+      "description": "Dân cư, dân tộc, tôn giáo và các hoạt động kinh tế của con người",
+      "sections": [
+        {
+          "name": "Dân cư thế giới",
+          "order": 1,
+          "description": "Đặc điểm dân số và phân bố dân cư thế giới",
+          "lessons": [
+            {
+              "title": "Dân số thế giới",
+              "type": "text",
+              "order": 1,
+              "content": "Dân số thế giới hiện nay khoảng 8 tỷ người và đang tăng nhanh. Tốc độ tăng dân số khác nhau giữa các châu lục: châu Á và châu Phi tăng nhanh, châu Âu tăng chậm. Dân số tập trung đông ở các khu vực có điều kiện tự nhiên thuận lợi.",
+              "attachments": []
+            },
+            {
+              "title": "Phân bố dân cư",
+              "type": "text",
+              "order": 2,
+              "content": "Dân cư phân bố không đều trên thế giới. Các khu vực đông dân: Đông Á, Nam Á, Đông Nam Á, Tây Âu, Đông Bắc Hoa Kỳ. Các khu vực thưa dân: Bắc Cực, sa mạc, rừng rậm nhiệt đới, vùng núi cao.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Các chủng tộc",
+          "order": 2,
+          "description": "Các chủng tộc trên thế giới",
+          "lessons": [
+            {
+              "title": "Ba chủng tộc chính",
+              "type": "text",
+              "order": 1,
+              "content": "Thế giới có ba chủng tộc chính: Môn-gô-lô-ít (châu Á, châu Mỹ), Ơ-rô-pê-ô-ít (châu Âu, Trung Đông, Bắc Phi), Nê-grô-ít (châu Phi). Tất cả các chủng tộc đều bình đẳng, có giá trị như nhau.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 2: Các môi trường địa lý",
+      "order": 2,
+      "description": "Đặc điểm các môi trường địa lý trên Trái Đất",
+      "sections": [
+        {
+          "name": "Môi trường đới nóng",
+          "order": 1,
+          "description": "Môi trường xích đạo ẩm, nhiệt đới, nhiệt đới gió mùa",
+          "lessons": [
+            {
+              "title": "Môi trường xích đạo ẩm",
+              "type": "text",
+              "order": 1,
+              "content": "Môi trường xích đạo ẩm nằm trong khoảng 5°B - 5°N. Đặc điểm: nóng ẩm quanh năm, nhiệt độ trung bình 25-27°C, mưa nhiều 1.500-2.500mm/năm. Rừng rậm xanh quanh năm, đa dạng sinh học cao.",
+              "attachments": []
+            },
+            {
+              "title": "Môi trường nhiệt đới",
+              "type": "text",
+              "order": 2,
+              "content": "Môi trường nhiệt đới nằm từ 5°-20° vĩ độ. Có 2 mùa: mùa mưa và mùa khô. Nhiệt độ cao quanh năm, lượng mưa giảm dần từ xích đạo về hai cực. Rừng thưa, xavan phát triển.",
+              "attachments": []
+            },
+            {
+              "title": "Môi trường nhiệt đới gió mùa",
+              "type": "text",
+              "order": 3,
+              "content": "Môi trường nhiệt đới gió mùa ở Nam Á, Đông Nam Á. Có 2 mùa: mùa mưa (gió mùa mùa hạ) và mùa khô (gió mùa mùa đông). Mưa tập trung vào mùa hạ, mùa đông khô hanh. Rừng nhiệt đới gió mùa phát triển.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Môi trường đới ôn hòa",
+          "order": 2,
+          "description": "Các kiểu môi trường đới ôn hòa",
+          "lessons": [
+            {
+              "title": "Môi trường ôn đới hải dương",
+              "type": "text",
+              "order": 1,
+              "content": "Môi trường ôn đới hải dương ở ven biển Tây Âu, Tây Bắc Mỹ. Mùa hè mát, mùa đông ấm, mưa quanh năm. Rừng lá rộng ôn đới phát triển. Thuận lợi cho nông nghiệp và dân cư.",
+              "attachments": []
+            },
+            {
+              "title": "Môi trường ôn đới lục địa",
+              "type": "text",
+              "order": 2,
+              "content": "Môi trường ôn đới lục địa ở nội địa châu Á, châu Âu, Bắc Mỹ. Mùa hè nóng, mùa đông lạnh, biên độ nhiệt lớn. Mưa ít, tập trung vào mùa hạ. Thảo nguyên, rừng lá kim phát triển.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 3: Thiên nhiên và con người ở các châu lục",
+      "order": 3,
+      "description": "Đặc điểm tự nhiên và con người ở các châu lục",
+      "sections": [
+        {
+          "name": "Châu Á",
+          "order": 1,
+          "description": "Thiên nhiên và con người châu Á",
+          "lessons": [
+            {
+              "title": "Vị trí và địa hình châu Á",
+              "type": "text",
+              "order": 1,
+              "content": "Châu Á là châu lục lớn nhất thế giới, chiếm 1/3 diện tích đất liền. Nằm ở nửa cầu Bắc, trải dài từ vùng cực Bắc đến gần xích đạo. Địa hình đa dạng: núi cao (Himalaya), cao nguyên (Tây Tạng), đồng bằng rộng lớn.",
+              "attachments": []
+            },
+            {
+              "title": "Khí hậu châu Á",
+              "type": "text",
+              "order": 2,
+              "content": "Châu Á có khí hậu đa dạng: cực và cận cực (Bắc Á), ôn đới (Đông Á, Trung Á), nhiệt đới (Nam Á, Đông Nam Á). Gió mùa ảnh hưởng mạnh ở Đông Á và Nam Á. Lượng mưa phân bố không đều.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Châu Phi",
+          "order": 2,
+          "description": "Thiên nhiên và con người châu Phi",
+          "lessons": [
+            {
+              "title": "Đặc điểm tự nhiên châu Phi",
+              "type": "text",
+              "order": 1,
+              "content": "Châu Phi có địa hình tương đối đơn giản: cao nguyên chiếm phần lớn, ít núi cao, đồng bằng ven biển hẹp. Khí hậu nóng, khô, đối xứng qua xích đạo. Có nhiều sa mạc lớn: Sahara, Kalahari, Namib.",
+              "attachments": []
+            },
+            {
+              "title": "Dân cư châu Phi",
+              "type": "text",
+              "order": 2,
+              "content": "Châu Phi có dân số khoảng 1,4 tỷ người, tăng nhanh. Dân cư phân bố không đều, tập trung ở ven biển, thung lũng sông. Đa số dân cư sống ở nông thôn, làm nông nghiệp. Nhiều quốc gia nghèo, kém phát triển.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 4: Địa lý các châu lục (tiếp)",
+      "order": 4,
+      "description": "Châu Mỹ, châu Đại Dương, châu Nam Cực",
+      "sections": [
+        {
+          "name": "Châu Mỹ",
+          "order": 1,
+          "description": "Thiên nhiên và con người châu Mỹ",
+          "lessons": [
+            {
+              "title": "Vị trí và địa hình châu Mỹ",
+              "type": "text",
+              "order": 1,
+              "content": "Châu Mỹ gồm Bắc Mỹ, Trung Mỹ và Nam Mỹ. Có dãy núi trẻ Cordillera chạy dọc theo bờ Tây. Ở giữa là đồng bằng rộng lớn. Phía Đông có núi già Appalaches. Châu Mỹ trải dài từ Bắc Cực đến gần Nam Cực.",
+              "attachments": []
+            },
+            {
+              "title": "Khí hậu và cảnh quan",
+              "type": "text",
+              "order": 2,
+              "content": "Châu Mỹ có đầy đủ các đới khí hậu: cực, ôn đới, nhiệt đới. Rừng Amazon là rừng mưa nhiệt đới lớn nhất thế giới. Có nhiều cảnh quan đa dạng: rừng, thảo nguyên, sa mạc, núi cao.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Châu Đại Dương và Nam Cực",
+          "order": 2,
+          "description": "Đặc điểm châu Đại Dương và châu Nam Cực",
+          "lessons": [
+            {
+              "title": "Châu Đại Dương",
+              "type": "text",
+              "order": 1,
+              "content": "Châu Đại Dương gồm lục địa Australia và các đảo Thái Bình Dương. Australia có khí hậu khô hạn, nhiều sa mạc. Các đảo có khí hậu nhiệt đới, mưa nhiều. Dân cư thưa thớt, chủ yếu sống ở ven biển.",
+              "attachments": []
+            },
+            {
+              "title": "Châu Nam Cực",
+              "type": "text",
+              "order": 2,
+              "content": "Châu Nam Cực là lục địa lạnh nhất, khô nhất, nhiều gió nhất. Toàn bộ bị băng phủ, dày trung bình 2.000m. Không có dân cư thường trú, chỉ có các nhà khoa học. Có nhiều tài nguyên khoáng sản chưa khai thác.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 5: Thiên nhiên, con người ở các châu lục (tiếp)",
+      "order": 5,
+      "description": "Châu Âu và các vấn đề môi trường",
+      "sections": [
+        {
+          "name": "Châu Âu",
+          "order": 1,
+          "description": "Thiên nhiên và con người châu Âu",
+          "lessons": [
+            {
+              "title": "Vị trí và địa hình châu Âu",
+              "type": "text",
+              "order": 1,
+              "content": "Châu Âu nằm ở Tây Bắc lục địa Á-Âu, có đường bờ biển dài, nhiều bán đảo và đảo. Địa hình đa dạng: đồng bằng rộng (Đông Âu), núi già (Alps, Pyrenees), cao nguyên. Có nhiều sông lớn: Volga, Danube, Rhine.",
+              "attachments": []
+            },
+            {
+              "title": "Khí hậu và dân cư",
+              "type": "text",
+              "order": 2,
+              "content": "Châu Âu chủ yếu có khí hậu ôn đới, mát mẻ. Ven biển Tây có khí hậu ôn đới hải dương, ấm ẩm. Dân cư khoảng 750 triệu người, mật độ cao. Đô thị hóa cao, nhiều thành phố lớn. Kinh tế phát triển.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Môi trường và phát triển",
+          "order": 2,
+          "description": "Các vấn đề môi trường toàn cầu",
+          "lessons": [
+            {
+              "title": "Ô nhiễm môi trường",
+              "type": "text",
+              "order": 1,
+              "content": "Các vấn đề môi trường chính: ô nhiễm không khí, nước, đất; biến đổi khí hậu; suy giảm đa dạng sinh học; suy thoái tài nguyên. Nguyên nhân: hoạt động công nghiệp, giao thông, nông nghiệp, đô thị hóa.",
+              "attachments": []
+            },
+            {
+              "title": "Bảo vệ môi trường",
+              "type": "text",
+              "order": 2,
+              "content": "Cần có các biện pháp: sử dụng năng lượng sạch, giảm phát thải khí nhà kính, bảo vệ rừng, xử lý chất thải, phát triển bền vững. Các quốc gia cần hợp tác để giải quyết vấn đề môi trường toàn cầu.",
+              "attachments": []
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    }
+  ]
+}
+

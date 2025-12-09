@@ -1,0 +1,123 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Địa lý",
+  "subjectCode": "GEO5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Việt Nam - Đất nước chúng ta",
+      "lessons": [
+        {
+          "code": "GEO5-CH1-L1",
+          "title": "Vị trí địa lý Việt Nam"
+        },
+        {
+          "code": "GEO5-CH1-L2",
+          "title": "Hình dạng lãnh thổ"
+        },
+        {
+          "code": "GEO5-CH1-L3",
+          "title": "Miền Bắc"
+        },
+        {
+          "code": "GEO5-CH1-L4",
+          "title": "Miền Trung"
+        },
+        {
+          "code": "GEO5-CH1-L5",
+          "title": "Miền Nam"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Địa hình và khí hậu",
+      "lessons": [
+        {
+          "code": "GEO5-CH2-L1",
+          "title": "Đồng bằng"
+        },
+        {
+          "code": "GEO5-CH2-L2",
+          "title": "Núi và cao nguyên"
+        },
+        {
+          "code": "GEO5-CH2-L3",
+          "title": "Khí hậu miền Bắc"
+        },
+        {
+          "code": "GEO5-CH2-L4",
+          "title": "Khí hậu miền Nam"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Sông ngòi và biển đảo",
+      "lessons": [
+        {
+          "code": "GEO5-CH3-L1",
+          "title": "Sông Hồng"
+        },
+        {
+          "code": "GEO5-CH3-L2",
+          "title": "Sông Cửu Long"
+        },
+        {
+          "code": "GEO5-CH3-L3",
+          "title": "Biển Đông"
+        },
+        {
+          "code": "GEO5-CH3-L4",
+          "title": "Các đảo lớn"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Dân cư và các dân tộc",
+      "lessons": [
+        {
+          "code": "GEO5-CH4-L1",
+          "title": "Dân số và phân bố"
+        },
+        {
+          "code": "GEO5-CH4-L2",
+          "title": "Các thành phố lớn"
+        },
+        {
+          "code": "GEO5-CH4-L3",
+          "title": "Dân tộc Kinh"
+        },
+        {
+          "code": "GEO5-CH4-L4",
+          "title": "Các dân tộc thiểu số"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Kinh tế Việt Nam",
+      "lessons": [
+        {
+          "code": "GEO5-CH5-L1",
+          "title": "Trồng trọt"
+        },
+        {
+          "code": "GEO5-CH5-L2",
+          "title": "Chăn nuôi"
+        },
+        {
+          "code": "GEO5-CH5-L3",
+          "title": "Công nghiệp"
+        },
+        {
+          "code": "GEO5-CH5-L4",
+          "title": "Du lịch"
+        }
+      ]
+    }
+  ]
+}
+

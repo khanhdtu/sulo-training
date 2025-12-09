@@ -4,6 +4,7 @@ import { PrismaPg } from '@prisma/adapter-pg';
 import { config } from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
+import { randomUUID } from 'crypto';
 
 // Load .env file
 config();
@@ -210,18 +211,34 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
     // Process exercises for this lesson
     let exerciseOrder = 1;
     for (const exerciseData of lessonData.exercises) {
-        // Check if exercise already exists
-        let exercise = await prisma.exercise.findFirst({
-          where: {
-            sectionId: lessonInfo.sectionId,
-            difficulty: difficulty,
-            title: exerciseData.title,
-          },
-        });
+        // Check if exercise already exists by UUID first (to prevent duplicates)
+        let exercise = null;
+        if (exerciseData.uuid) {
+          exercise = await prisma.exercise.findFirst({
+            where: {
+              uuid: exerciseData.uuid,
+            },
+          });
+        }
+        
+        // Fallback: check by title and difficulty if no UUID
+        if (!exercise) {
+          exercise = await prisma.exercise.findFirst({
+            where: {
+              sectionId: lessonInfo.sectionId,
+              difficulty: difficulty,
+              title: exerciseData.title,
+            },
+          });
+        }
+
+        // Generate UUID if not provided
+        const exerciseUuid = exerciseData.uuid || randomUUID();
 
         if (!exercise) {
           exercise = await prisma.exercise.create({
             data: {
+              uuid: exerciseUuid,
               title: exerciseData.title,
               description: exerciseData.description || '',
               sectionId: lessonInfo.sectionId,
@@ -234,10 +251,11 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
           });
           totalExercises++;
         } else {
-          // Update existing exercise
+          // Update existing exercise (preserve UUID if exists, otherwise set new one)
           exercise = await prisma.exercise.update({
             where: { id: exercise.id },
             data: {
+              uuid: exercise.uuid || exerciseUuid, // Keep existing UUID or set new one
               description: exerciseData.description || '',
               type: exerciseData.type,
               points: exerciseData.points || 10,

@@ -76,6 +76,13 @@ async function seedCurriculumTable() {
     console.log('\n📚 Seeding English curriculum...');
     await seedCurriculumFromFile('fixtures/curriculum/grade7-2025-2026-english.json');
 
+    // Seed Informatics curriculum
+    console.log('\n📚 Seeding Grade 5 Informatics curriculum...');
+    await seedCurriculumFromFile('fixtures/curriculum/grade5-2025-2026-informatics.json');
+
+    console.log('\n📚 Seeding Grade 7 Informatics curriculum...');
+    await seedCurriculumFromFile('fixtures/curriculum/grade7-2025-2026-informatics.json');
+
     console.log('\n✅ Curriculum table seeding completed successfully!');
   } catch (error) {
     console.error('❌ Error seeding curriculum table:', error);

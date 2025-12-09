@@ -1,0 +1,171 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Tin học",
+  "subjectCode": "INFO7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Mạng máy tính và Internet",
+      "lessons": [
+        {
+          "code": "INFO7-CH1-L1",
+          "title": "Mạng máy tính là gì?"
+        },
+        {
+          "code": "INFO7-CH1-L2",
+          "title": "Các thành phần của mạng"
+        },
+        {
+          "code": "INFO7-CH1-L3",
+          "title": "Internet và World Wide Web"
+        },
+        {
+          "code": "INFO7-CH1-L4",
+          "title": "Email và các dịch vụ trực tuyến"
+        },
+        {
+          "code": "INFO7-CH1-L5",
+          "title": "Bảo mật thông tin cá nhân"
+        },
+        {
+          "code": "INFO7-CH1-L6",
+          "title": "Virus và phần mềm độc hại"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Lập trình cơ bản với Scratch",
+      "lessons": [
+        {
+          "code": "INFO7-CH2-L1",
+          "title": "Lập trình là gì?"
+        },
+        {
+          "code": "INFO7-CH2-L2",
+          "title": "Ngôn ngữ lập trình Scratch"
+        },
+        {
+          "code": "INFO7-CH2-L3",
+          "title": "Khối lệnh di chuyển"
+        },
+        {
+          "code": "INFO7-CH2-L4",
+          "title": "Vòng lặp và điều kiện"
+        },
+        {
+          "code": "INFO7-CH2-L5",
+          "title": "Tạo animation đơn giản"
+        },
+        {
+          "code": "INFO7-CH2-L6",
+          "title": "Tạo game đơn giản"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Thuật toán và tư duy lập trình",
+      "lessons": [
+        {
+          "code": "INFO7-CH3-L1",
+          "title": "Thuật toán là gì?"
+        },
+        {
+          "code": "INFO7-CH3-L2",
+          "title": "Biểu diễn thuật toán"
+        },
+        {
+          "code": "INFO7-CH3-L3",
+          "title": "Cấu trúc tuần tự"
+        },
+        {
+          "code": "INFO7-CH3-L4",
+          "title": "Cấu trúc rẽ nhánh"
+        },
+        {
+          "code": "INFO7-CH3-L5",
+          "title": "Cấu trúc vòng lặp"
+        },
+        {
+          "code": "INFO7-CH3-L6",
+          "title": "Phân tích bài toán"
+        },
+        {
+          "code": "INFO7-CH3-L7",
+          "title": "Ví dụ: Tính tổng các số từ 1 đến n"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Xử lý dữ liệu với Excel nâng cao",
+      "lessons": [
+        {
+          "code": "INFO7-CH4-L1",
+          "title": "Hàm SUM và AVERAGE"
+        },
+        {
+          "code": "INFO7-CH4-L2",
+          "title": "Hàm MAX, MIN, COUNT"
+        },
+        {
+          "code": "INFO7-CH4-L3",
+          "title": "Hàm IF"
+        },
+        {
+          "code": "INFO7-CH4-L4",
+          "title": "Sắp xếp dữ liệu"
+        },
+        {
+          "code": "INFO7-CH4-L5",
+          "title": "Lọc dữ liệu (Filter)"
+        },
+        {
+          "code": "INFO7-CH4-L6",
+          "title": "Tạo biểu đồ"
+        },
+        {
+          "code": "INFO7-CH4-L7",
+          "title": "Chỉnh sửa biểu đồ"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Thiết kế và trình bày với PowerPoint",
+      "lessons": [
+        {
+          "code": "INFO7-CH5-L1",
+          "title": "Giao diện PowerPoint"
+        },
+        {
+          "code": "INFO7-CH5-L2",
+          "title": "Tạo slide mới"
+        },
+        {
+          "code": "INFO7-CH5-L3",
+          "title": "Chèn hình ảnh và video"
+        },
+        {
+          "code": "INFO7-CH5-L4",
+          "title": "Thiết kế theme và màu sắc"
+        },
+        {
+          "code": "INFO7-CH5-L5",
+          "title": "Hiệu ứng và animation"
+        },
+        {
+          "code": "INFO7-CH5-L6",
+          "title": "Chế độ trình bày"
+        },
+        {
+          "code": "INFO7-CH5-L7",
+          "title": "Lưu và chia sẻ"
+        }
+      ]
+    }
+  ]
+}
+

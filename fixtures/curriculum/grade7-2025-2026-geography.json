@@ -1,0 +1,119 @@
+{
+  "grade": 7,
+  "courseYear": "2025-2026",
+  "subject": "Địa lý",
+  "subjectCode": "GEO7",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Thành phần nhân văn của môi trường",
+      "lessons": [
+        {
+          "code": "GEO7-CH1-L1",
+          "title": "Dân số thế giới"
+        },
+        {
+          "code": "GEO7-CH1-L2",
+          "title": "Phân bố dân cư"
+        },
+        {
+          "code": "GEO7-CH1-L3",
+          "title": "Ba chủng tộc chính"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Các môi trường địa lý",
+      "lessons": [
+        {
+          "code": "GEO7-CH2-L1",
+          "title": "Môi trường xích đạo ẩm"
+        },
+        {
+          "code": "GEO7-CH2-L2",
+          "title": "Môi trường nhiệt đới"
+        },
+        {
+          "code": "GEO7-CH2-L3",
+          "title": "Môi trường nhiệt đới gió mùa"
+        },
+        {
+          "code": "GEO7-CH2-L4",
+          "title": "Môi trường ôn đới hải dương"
+        },
+        {
+          "code": "GEO7-CH2-L5",
+          "title": "Môi trường ôn đới lục địa"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Thiên nhiên và con người ở các châu lục",
+      "lessons": [
+        {
+          "code": "GEO7-CH3-L1",
+          "title": "Vị trí và địa hình châu Á"
+        },
+        {
+          "code": "GEO7-CH3-L2",
+          "title": "Khí hậu châu Á"
+        },
+        {
+          "code": "GEO7-CH3-L3",
+          "title": "Đặc điểm tự nhiên châu Phi"
+        },
+        {
+          "code": "GEO7-CH3-L4",
+          "title": "Dân cư châu Phi"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Địa lý các châu lục (tiếp)",
+      "lessons": [
+        {
+          "code": "GEO7-CH4-L1",
+          "title": "Vị trí và địa hình châu Mỹ"
+        },
+        {
+          "code": "GEO7-CH4-L2",
+          "title": "Khí hậu và cảnh quan"
+        },
+        {
+          "code": "GEO7-CH4-L3",
+          "title": "Châu Đại Dương"
+        },
+        {
+          "code": "GEO7-CH4-L4",
+          "title": "Châu Nam Cực"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Thiên nhiên, con người ở các châu lục (tiếp)",
+      "lessons": [
+        {
+          "code": "GEO7-CH5-L1",
+          "title": "Vị trí và địa hình châu Âu"
+        },
+        {
+          "code": "GEO7-CH5-L2",
+          "title": "Khí hậu và dân cư"
+        },
+        {
+          "code": "GEO7-CH5-L3",
+          "title": "Ô nhiễm môi trường"
+        },
+        {
+          "code": "GEO7-CH5-L4",
+          "title": "Bảo vệ môi trường"
+        }
+      ]
+    }
+  ]
+}
+

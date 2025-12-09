@@ -4,6 +4,7 @@ import { PrismaPg } from '@prisma/adapter-pg';
 import { config } from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';
+import { randomUUID } from 'crypto';
 
 // Load .env file
 config();
@@ -287,34 +288,35 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
     // Process exercises for this lesson
     let exerciseOrder = 1;
     for (const exerciseData of lessonData.exercises) {
-      // Check if exercise already exists by created_at (if provided) or by title
-      const exerciseCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
-      
+      // Check if exercise already exists by UUID first (to prevent duplicates)
       let exercise = null;
-      
-      // First, try to find by title and section (most reliable)
-      exercise = await prisma.exercise.findFirst({
-        where: {
-          sectionId: lessonInfo.sectionId,
-          difficulty: difficulty,
-          title: exerciseData.title,
-        },
-      });
-      
-      // If found by title, check if created_at matches (if provided)
-      if (exercise && exerciseCreatedAt) {
-        if (exercise.createdAt) {
-          const diff = Math.abs(exercise.createdAt.getTime() - exerciseCreatedAt.getTime());
-          // If created_at doesn't match (more than 1 second difference), treat as different exercise
-          if (diff > 1000) {
-            exercise = null; // Don't use this exercise, will create new one
-          }
-        }
+      if (exerciseData.uuid) {
+        exercise = await prisma.exercise.findFirst({
+          where: {
+            uuid: exerciseData.uuid,
+          },
+        });
       }
+      
+      // Fallback: check by title and difficulty if no UUID
+      if (!exercise) {
+        exercise = await prisma.exercise.findFirst({
+          where: {
+            sectionId: lessonInfo.sectionId,
+            difficulty: difficulty,
+            title: exerciseData.title,
+          },
+        });
+      }
+
+      // Generate UUID if not provided
+      const exerciseUuid = exerciseData.uuid || randomUUID();
+      const exerciseCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
 
       if (!exercise) {
         exercise = await prisma.exercise.create({
           data: {
+            uuid: exerciseUuid,
             title: exerciseData.title,
             description: exerciseData.description || '',
             sectionId: lessonInfo.sectionId,
@@ -327,43 +329,43 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
           },
         });
         totalExercises++;
-        console.log(`      ✓ Created exercise: ${exerciseData.title}`);
       } else {
-        // Skip if already exists (don't update to avoid overwriting)
-        console.log(`      ⊘ Skipped existing exercise: ${exerciseData.title}`);
+        // Update existing exercise (preserve UUID if exists, otherwise set new one)
+        exercise = await prisma.exercise.update({
+          where: { id: exercise.id },
+          data: {
+            uuid: exercise.uuid || exerciseUuid, // Keep existing UUID or set new one
+            description: exerciseData.description || '',
+            type: exerciseData.type,
+            points: exerciseData.points || 10,
+            timeLimit: exerciseData.timeLimit || null,
+            order: exerciseOrder,
+          },
+        });
+        totalExercises++;
       }
 
       // Process exercise questions
       const questionText = exerciseData.question || exerciseData.title;
       
       if (questionText) {
-        // Check if question already exists by created_at (if provided) or by question text
-        const questionCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
-        
-        // First, try to find by question text
-        let existingQuestion = await prisma.exerciseQuestion.findFirst({
+        // Check if question already exists
+        const existingQuestion = await prisma.exerciseQuestion.findFirst({
           where: {
             exerciseId: exercise.id,
             question: questionText,
           },
         });
-        
-        // If found by question text, check if created_at matches (if provided)
-        if (existingQuestion && questionCreatedAt) {
-          if (existingQuestion.createdAt) {
-            const diff = Math.abs(existingQuestion.createdAt.getTime() - questionCreatedAt.getTime());
-            // If created_at doesn't match (more than 1 second difference), treat as different question
-            if (diff > 1000) {
-              existingQuestion = null; // Don't use this question, will create new one
-            }
-          }
-        }
 
         // Determine answer
         let answer = exerciseData.answer || '';
         if (!answer && exerciseData.correctOption) {
-          answer = exerciseData.correctOption;
+          // For multiple choice, answer is the option text
+          const optionText = exerciseData.options?.[exerciseData.correctOption];
+          answer = optionText || exerciseData.correctOption;
         }
+
+        const questionCreatedAt = exerciseData.created_at ? new Date(exerciseData.created_at) : null;
 
         if (!existingQuestion) {
           await prisma.exerciseQuestion.create({
@@ -373,16 +375,24 @@ async function seedExercisesFromFixture(fixturePath: string, difficulty: string)
               answer: answer,
               options: exerciseData.options || null,
               hint: exerciseData.hint || null,
-              order: 0,
+              order: exerciseData.order || 1,
               points: exerciseData.points || 1,
-              createdAt: exerciseCreatedAt || new Date(),
+              createdAt: questionCreatedAt || new Date(),
             },
           });
           totalQuestions++;
-          console.log(`      ✓ Created question: ${questionText.substring(0, 50)}...`);
         } else {
-          // Skip if already exists (don't update to avoid overwriting)
-          console.log(`      ⊘ Skipped existing question: ${questionText.substring(0, 50)}...`);
+          // Update existing question
+          await prisma.exerciseQuestion.update({
+            where: { id: existingQuestion.id },
+            data: {
+              answer: answer,
+              options: exerciseData.options || null,
+              hint: exerciseData.hint || null,
+              points: exerciseData.points || 1,
+            },
+          });
+          totalQuestions++;
         }
       }
 

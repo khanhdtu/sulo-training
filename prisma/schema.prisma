@@ -10,182 +10,192 @@ datasource db {
 // Seed script configuration
 
 model Grade {
-  id        Int       @id @default(autoincrement())
+  id        Int          @id @default(autoincrement())
+  uuid      String?      @unique
   name      String
-  level     Int       // 1-12
+  level     Int // 1-12
   subjects  Subject[]
-  users     User[]    // Users enrolled in this grade
+  users     User[] // Users enrolled in this grade
   curricula Curriculum[]
   classes   Class[]
-  createdAt DateTime  @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
+  createdAt DateTime     @default(now()) @map("created_at")
+  updatedAt DateTime     @updatedAt @map("updated_at")
 
   @@map("grades")
 }
 
 // Curriculum model - chương trình học chung cho tất cả các level
 model Curriculum {
-  id          Int       @id @default(autoincrement())
-  gradeId     Int       @map("grade_id")
-  grade       Grade     @relation(fields: [gradeId], references: [id])
-  courseYear  String    @map("course_year") // Khóa học, ví dụ: "2025-2026"
-  subject     String    // Môn học, ví dụ: "Toán", "Tiếng Anh"
-  lessons     Json      // Array of lessons (không chứa exercises)
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  id         Int      @id @default(autoincrement())
+  uuid       String?  @unique
+  gradeId    Int      @map("grade_id")
+  grade      Grade    @relation(fields: [gradeId], references: [id])
+  courseYear String   @map("course_year") // Khóa học, ví dụ: "2025-2026"
+  subject    String // Môn học, ví dụ: "Toán", "Tiếng Anh"
+  lessons    Json // Array of lessons (không chứa exercises)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
 
   @@unique([gradeId, courseYear, subject])
   @@map("curricula")
 }
 
 model Subject {
-  id          Int       @id @default(autoincrement())
+  id          Int         @id @default(autoincrement())
+  uuid        String?     @unique
   name        String
-  gradeId     Int       @map("grade_id")
+  gradeId     Int         @map("grade_id")
   description String?
-  order       Int       @default(0)
-  grade       Grade     @relation(fields: [gradeId], references: [id])
+  order       Int         @default(0)
+  grade       Grade       @relation(fields: [gradeId], references: [id])
   chapters    Chapter[]
   userLevels  UserLevel[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime    @default(now()) @map("created_at")
+  updatedAt   DateTime    @updatedAt @map("updated_at")
 
   @@map("subjects")
 }
 
 model Chapter {
-  id          Int       @id @default(autoincrement())
+  id          Int                   @id @default(autoincrement())
+  uuid        String?               @unique
   name        String
-  subjectId   Int       @map("subject_id")
+  subjectId   Int                   @map("subject_id")
   description String?
-  order       Int       @default(0)
-  subject     Subject   @relation(fields: [subjectId], references: [id])
+  order       Int                   @default(0)
+  subject     Subject               @relation(fields: [subjectId], references: [id])
   sections    Section[]
   progress    UserChapterProgress[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime              @default(now()) @map("created_at")
+  updatedAt   DateTime              @updatedAt @map("updated_at")
 
   @@map("chapters")
 }
 
 model Section {
-  id          Int       @id @default(autoincrement())
+  id          Int                   @id @default(autoincrement())
+  uuid        String?               @unique
   name        String
-  chapterId   Int       @map("chapter_id")
+  chapterId   Int                   @map("chapter_id")
   description String?
-  order       Int       @default(0)
-  chapter     Chapter   @relation(fields: [chapterId], references: [id])
+  order       Int                   @default(0)
+  chapter     Chapter               @relation(fields: [chapterId], references: [id])
   lessons     Lesson[]
   exercises   Exercise[]
   progress    UserSectionProgress[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime              @default(now()) @map("created_at")
+  updatedAt   DateTime              @updatedAt @map("updated_at")
 
   @@map("sections")
 }
 
 model Lesson {
-  id          Int       @id @default(autoincrement())
+  id          Int                  @id @default(autoincrement())
+  uuid        String?              @unique
   title       String
-  content     String    @db.Text
-  sectionId   Int       @map("section_id")
-  type        String    // video/pdf/text/slide
-  mediaUrl    String?   @map("media_url")
-  attachments Json?     // Array of attachment URLs
-  order       Int       @default(0)
-  section     Section   @relation(fields: [sectionId], references: [id])
+  content     String               @db.Text
+  sectionId   Int                  @map("section_id")
+  type        String // video/pdf/text/slide
+  mediaUrl    String?              @map("media_url")
+  attachments Json? // Array of attachment URLs
+  order       Int                  @default(0)
+  section     Section              @relation(fields: [sectionId], references: [id])
   progress    UserLessonProgress[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime             @default(now()) @map("created_at")
+  updatedAt   DateTime             @updatedAt @map("updated_at")
 
   @@map("lessons")
 }
 
 model Exercise {
-  id          Int       @id @default(autoincrement())
+  id          Int                   @id @default(autoincrement())
+  uuid        String?               @unique
   title       String
-  description String    @db.Text
-  sectionId   Int       @map("section_id")
-  difficulty  String    // easy/medium/hard
-  type        String    // multiple_choice/essay
-  points      Int       @default(10)
-  timeLimit   Int?      @map("time_limit") // minutes
-  order       Int       @default(0)
-  section     Section   @relation(fields: [sectionId], references: [id])
+  description String                @db.Text
+  sectionId   Int                   @map("section_id")
+  difficulty  String // easy/medium/hard
+  type        String // multiple_choice/essay
+  points      Int                   @default(10)
+  timeLimit   Int?                  @map("time_limit") // minutes
+  order       Int                   @default(0)
+  section     Section               @relation(fields: [sectionId], references: [id])
   questions   ExerciseQuestion[]
-  attempts   UserExerciseAttempt[]
+  attempts    UserExerciseAttempt[]
   assignments Assignment[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime              @default(now()) @map("created_at")
+  updatedAt   DateTime              @updatedAt @map("updated_at")
 
   @@map("exercises")
 }
 
 model ExerciseQuestion {
-  id         Int       @id @default(autoincrement())
+  id         Int      @id @default(autoincrement())
+  uuid       String?  @unique
   exerciseId Int      @map("exercise_id")
   question   String   @db.Text
   answer     String   @db.Text
-  options    Json?    // For multiple choice: { A: "...", B: "...", C: "...", D: "..." }
+  options    Json? // For multiple choice: { A: "...", B: "...", C: "...", D: "..." }
   hint       String?  @db.Text // Hint for the question
   order      Int      @default(0)
   points     Int      @default(1)
   exercise   Exercise @relation(fields: [exerciseId], references: [id])
   createdAt  DateTime @default(now()) @map("created_at")
-  updatedAt DateTime  @updatedAt @map("updated_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
 
   @@map("exercise_questions")
 }
 
 model User {
-  id           Int       @id @default(autoincrement())
-  username     String    @unique
-  passwordHash String    @map("password_hash")
-  email        String?
-  name         String
-  displayName  String?   @map("display_name") // Optional display name
-  role         String    @default("student") // admin/student
-  phone        String?
-  parentEmail  String?   @map("parent_email") // Parent email for notifications
-  parentPhone  String?   @map("parent_phone") // Parent phone for notifications
-  avatarUrl    String?   @map("avatar_url")
-  isActive     Boolean   @default(true) @map("is_active")
-  gradeId      Int?      @map("grade_id") // Reference to Grade
-  grade        Grade?    @relation(fields: [gradeId], references: [id])
-  level        Int?      // User level (1-12 or custom level)
-  userLevels   UserLevel[]
-  notifications Notification[]
-  lessonProgress UserLessonProgress[]
-  exerciseAttempts UserExerciseAttempt[]
-  sectionProgress UserSectionProgress[]
-  chapterProgress UserChapterProgress[]
-  conversations Conversation[]
-  activities Activity[]
-  studentAssignments Assignment[] @relation("StudentAssignments")
-  teacherAssignments Assignment[] @relation("TeacherAssignments")
-  submissions Submission[]
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
+  id                 Int                   @id @default(autoincrement())
+  uuid               String?               @unique
+  username           String                @unique
+  passwordHash       String                @map("password_hash")
+  email              String?
+  name               String
+  displayName        String?               @map("display_name") // Optional display name
+  role               String                @default("student") // admin/student
+  phone              String?
+  parentEmail        String?               @map("parent_email") // Parent email for notifications
+  parentPhone        String?               @map("parent_phone") // Parent phone for notifications
+  avatarUrl          String?               @map("avatar_url")
+  isActive           Boolean               @default(true) @map("is_active")
+  gradeId            Int?                  @map("grade_id") // Reference to Grade
+  grade              Grade?                @relation(fields: [gradeId], references: [id])
+  level              Int? // User level (1-12 or custom level)
+  userLevels         UserLevel[]
+  notifications      Notification[]
+  lessonProgress     UserLessonProgress[]
+  exerciseAttempts   UserExerciseAttempt[]
+  sectionProgress    UserSectionProgress[]
+  chapterProgress    UserChapterProgress[]
+  conversations      Conversation[]
+  activities         Activity[]
+  studentAssignments Assignment[]          @relation("StudentAssignments")
+  teacherAssignments Assignment[]          @relation("TeacherAssignments")
+  submissions        Submission[]
+  createdAt          DateTime              @default(now()) @map("created_at")
+  updatedAt          DateTime              @updatedAt @map("updated_at")
 
   @@map("users")
 }
 
 model UserLevel {
-  id              Int      @id @default(autoincrement())
-  userId          Int      @map("user_id")
-  subjectId       Int      @map("subject_id")
-  levelScore      Decimal  @default(0) @map("level_score") @db.Decimal(5, 2)
-  totalExercises  Int      @default(0) @map("total_exercises")
-  correctExercises Int     @default(0) @map("correct_exercises")
-  accuracyRate    Decimal  @default(0) @map("accuracy_rate") @db.Decimal(5, 2)
-  progress        Int      @default(0) // Overall progress percentage 0-100 for the subject
-  status          String   @default("not_started") // not_started, in_progress, completed
-  lastAccessedAt  DateTime? @map("last_accessed_at")
-  completedAt     DateTime? @map("completed_at")
-  user            User     @relation(fields: [userId], references: [id])
-  subject         Subject  @relation(fields: [subjectId], references: [id])
-  lastUpdated     DateTime @default(now()) @map("last_updated")
-  createdAt       DateTime @default(now()) @map("created_at")
+  id               Int       @id @default(autoincrement())
+  uuid             String?   @unique
+  userId           Int       @map("user_id")
+  subjectId        Int       @map("subject_id")
+  levelScore       Decimal   @default(0) @map("level_score") @db.Decimal(5, 2)
+  totalExercises   Int       @default(0) @map("total_exercises")
+  correctExercises Int       @default(0) @map("correct_exercises")
+  accuracyRate     Decimal   @default(0) @map("accuracy_rate") @db.Decimal(5, 2)
+  progress         Int       @default(0) // Overall progress percentage 0-100 for the subject
+  status           String    @default("not_started") // not_started, in_progress, completed
+  lastAccessedAt   DateTime? @map("last_accessed_at")
+  completedAt      DateTime? @map("completed_at")
+  user             User      @relation(fields: [userId], references: [id])
+  subject          Subject   @relation(fields: [subjectId], references: [id])
+  lastUpdated      DateTime  @default(now()) @map("last_updated")
+  createdAt        DateTime  @default(now()) @map("created_at")
 
   @@unique([userId, subjectId])
   @@map("user_levels")
@@ -193,17 +203,18 @@ model UserLevel {
 
 // Track user progress for each lesson
 model UserLessonProgress {
-  id            Int      @id @default(autoincrement())
-  userId        Int      @map("user_id")
-  lessonId      Int      @map("lesson_id")
-  status        String   @default("not_started") // not_started, in_progress, completed
-  progress      Int      @default(0) // Percentage 0-100
+  id             Int       @id @default(autoincrement())
+  uuid           String?   @unique
+  userId         Int       @map("user_id")
+  lessonId       Int       @map("lesson_id")
+  status         String    @default("not_started") // not_started, in_progress, completed
+  progress       Int       @default(0) // Percentage 0-100
   lastAccessedAt DateTime? @map("last_accessed_at")
-  completedAt   DateTime? @map("completed_at")
-  user          User     @relation(fields: [userId], references: [id])
-  lesson        Lesson   @relation(fields: [lessonId], references: [id])
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
+  completedAt    DateTime? @map("completed_at")
+  user           User      @relation(fields: [userId], references: [id])
+  lesson         Lesson    @relation(fields: [lessonId], references: [id])
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
 
   @@unique([userId, lessonId])
   @@map("user_lesson_progress")
@@ -211,41 +222,43 @@ model UserLessonProgress {
 
 // Track user attempts and scores for exercises
 model UserExerciseAttempt {
-  id            Int      @id @default(autoincrement())
-  userId        Int      @map("user_id")
-  exerciseId    Int      @map("exercise_id")
-  answers       Json?    // For multiple choice: { questionId: "answer" }, for essay: { questionId: "answer text" }
-  images        Json?    // Array of image URLs for essay answers
-  score         Decimal? @db.Decimal(5, 2) // Score out of total points
-  totalPoints   Int      @default(0) @map("total_points")
-  isCompleted   Boolean  @default(false) @map("is_completed")
-  status        String   @default("draft") // draft, submitted, completed
-  completedAt   DateTime? @map("completed_at")
-  user          User     @relation(fields: [userId], references: [id])
-  exercise      Exercise @relation(fields: [exerciseId], references: [id])
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
+  id          Int       @id @default(autoincrement())
+  uuid        String?   @unique
+  userId      Int       @map("user_id")
+  exerciseId  Int       @map("exercise_id")
+  answers     Json? // For multiple choice: { questionId: "answer" }, for essay: { questionId: "answer text" }
+  images      Json? // Array of image URLs for essay answers
+  score       Decimal?  @db.Decimal(5, 2) // Score out of total points
+  totalPoints Int       @default(0) @map("total_points")
+  isCompleted Boolean   @default(false) @map("is_completed")
+  status      String    @default("draft") // draft, submitted, completed
+  completedAt DateTime? @map("completed_at")
+  user        User      @relation(fields: [userId], references: [id])
+  exercise    Exercise  @relation(fields: [exerciseId], references: [id])
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
 
   @@map("user_exercise_attempts")
 }
 
 // Track user progress for each section
 model UserSectionProgress {
-  id            Int      @id @default(autoincrement())
-  userId        Int      @map("user_id")
-  sectionId      Int      @map("section_id")
-  status        String   @default("not_started") // not_started, in_progress, completed
-  progress      Int      @default(0) // Percentage 0-100 (calculated from lessons + exercises)
-  completedLessons Int   @default(0) @map("completed_lessons") // Number of completed lessons
-  totalLessons  Int      @default(0) @map("total_lessons") // Total lessons in section
-  completedExercises Int  @default(0) @map("completed_exercises") // Number of completed exercises
-  totalExercises Int     @default(0) @map("total_exercises") // Total exercises in section
-  lastAccessedAt DateTime? @map("last_accessed_at")
-  completedAt   DateTime? @map("completed_at")
-  user          User     @relation(fields: [userId], references: [id])
-  section       Section  @relation(fields: [sectionId], references: [id])
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
+  id                 Int       @id @default(autoincrement())
+  uuid               String?   @unique
+  userId             Int       @map("user_id")
+  sectionId          Int       @map("section_id")
+  status             String    @default("not_started") // not_started, in_progress, completed
+  progress           Int       @default(0) // Percentage 0-100 (calculated from lessons + exercises)
+  completedLessons   Int       @default(0) @map("completed_lessons") // Number of completed lessons
+  totalLessons       Int       @default(0) @map("total_lessons") // Total lessons in section
+  completedExercises Int       @default(0) @map("completed_exercises") // Number of completed exercises
+  totalExercises     Int       @default(0) @map("total_exercises") // Total exercises in section
+  lastAccessedAt     DateTime? @map("last_accessed_at")
+  completedAt        DateTime? @map("completed_at")
+  user               User      @relation(fields: [userId], references: [id])
+  section            Section   @relation(fields: [sectionId], references: [id])
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
 
   @@unique([userId, sectionId])
   @@map("user_section_progress")
@@ -253,23 +266,24 @@ model UserSectionProgress {
 
 // Track user progress for each chapter
 model UserChapterProgress {
-  id            Int      @id @default(autoincrement())
-  userId        Int      @map("user_id")
-  chapterId     Int      @map("chapter_id")
-  subjectId     Int      @map("subject_id") // Store subjectId for quick access
-  gradeId       Int      @map("grade_id") // Store gradeId for quick access
-  status        String   @default("not_started") // not_started, in_progress, completed
-  progress      Int      @default(0) // Percentage 0-100 (calculated from sections)
-  completedSections Int  @default(0) @map("completed_sections") // Number of completed sections
-  totalSections Int      @default(0) @map("total_sections") // Total sections in chapter
-  completedExercises Int  @default(0) @map("completed_exercises") // Number of completed exercises
-  totalExercises Int     @default(0) @map("total_exercises") // Total exercises in chapter
-  lastAccessedAt DateTime? @map("last_accessed_at")
-  completedAt   DateTime? @map("completed_at")
-  user          User     @relation(fields: [userId], references: [id])
-  chapter       Chapter  @relation(fields: [chapterId], references: [id])
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
+  id                 Int       @id @default(autoincrement())
+  uuid               String?   @unique
+  userId             Int       @map("user_id")
+  chapterId          Int       @map("chapter_id")
+  subjectId          Int       @map("subject_id") // Store subjectId for quick access
+  gradeId            Int       @map("grade_id") // Store gradeId for quick access
+  status             String    @default("not_started") // not_started, in_progress, submitted, completed
+  progress           Int       @default(0) // Percentage 0-100 (calculated from sections)
+  completedSections  Int       @default(0) @map("completed_sections") // Number of completed sections
+  totalSections      Int       @default(0) @map("total_sections") // Total sections in chapter
+  completedExercises Int       @default(0) @map("completed_exercises") // Number of completed exercises
+  totalExercises     Int       @default(0) @map("total_exercises") // Total exercises in chapter
+  lastAccessedAt     DateTime? @map("last_accessed_at")
+  completedAt        DateTime? @map("completed_at")
+  user               User      @relation(fields: [userId], references: [id])
+  chapter            Chapter   @relation(fields: [chapterId], references: [id])
+  createdAt          DateTime  @default(now()) @map("created_at")
+  updatedAt          DateTime  @updatedAt @map("updated_at")
 
   @@unique([userId, chapterId])
   @@index([userId, subjectId])
@@ -278,60 +292,64 @@ model UserChapterProgress {
 }
 
 model Notification {
-  id          Int      @id @default(autoincrement())
-  userId      Int      @map("user_id")
-  type        String   // progress_update/achievement/reminder
+  id          Int       @id @default(autoincrement())
+  uuid        String?   @unique
+  userId      Int       @map("user_id")
+  type        String // progress_update/achievement/reminder
   title       String
-  message     String   @db.Text
-  channel     String   // email/sms/push
-  isSent      Boolean  @default(false) @map("is_sent")
+  message     String    @db.Text
+  channel     String // email/sms/push
+  isSent      Boolean   @default(false) @map("is_sent")
   sentAt      DateTime? @map("sent_at")
   scheduledAt DateTime? @map("scheduled_at")
-  user        User     @relation(fields: [userId], references: [id])
-  createdAt   DateTime @default(now()) @map("created_at")
+  user        User      @relation(fields: [userId], references: [id])
+  createdAt   DateTime  @default(now()) @map("created_at")
 
   @@map("notifications")
 }
 
 model ConversationConfig {
-  id          Int       @id @default(autoincrement())
-  name        String
-  systemPrompt String   @db.Text @map("system_prompt")
-  responseFormat Json?   @map("response_format") // Config for response format
-  metadata    Json?     // Additional config options
-  isDefault   Boolean   @default(false) @map("is_default")
-  conversations Conversation[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  id             Int            @id @default(autoincrement())
+  uuid           String?        @unique
+  name           String
+  systemPrompt   String         @map("system_prompt") @db.Text
+  responseFormat Json?          @map("response_format") // Config for response format
+  metadata       Json? // Additional config options
+  isDefault      Boolean        @default(false) @map("is_default")
+  conversations  Conversation[]
+  createdAt      DateTime       @default(now()) @map("created_at")
+  updatedAt      DateTime       @updatedAt @map("updated_at")
 
   @@map("conversation_configs")
 }
 
 model Conversation {
-  id            Int       @id @default(autoincrement())
-  userId        Int       @map("user_id")
-  configId      Int       @map("config_id")
-  type          String     // essay_review/free_chat
-  title         String     // Conversation title
-  status        String     @default("active") // active/completed/archived
-  metadata      Json?     // Additional metadata
-  lastMessageAt DateTime?  @map("last_message_at")
-  user          User       @relation(fields: [userId], references: [id])
+  id            Int                @id @default(autoincrement())
+  uuid          String?            @unique
+  userId        Int                @map("user_id")
+  configId      Int                @map("config_id")
+  type          String // essay_review/free_chat
+  title         String // Conversation title
+  status        String             @default("active") // active/completed/archived
+  metadata      Json? // Additional metadata
+  lastMessageAt DateTime?          @map("last_message_at")
+  user          User               @relation(fields: [userId], references: [id])
   config        ConversationConfig @relation(fields: [configId], references: [id])
   messages      Message[]
-  createdAt     DateTime   @default(now()) @map("created_at")
-  updatedAt     DateTime   @updatedAt @map("updated_at")
+  createdAt     DateTime           @default(now()) @map("created_at")
+  updatedAt     DateTime           @updatedAt @map("updated_at")
 
   @@map("conversations")
 }
 
 model Message {
   id             Int          @id @default(autoincrement())
+  uuid           String?      @unique
   conversationId Int          @map("conversation_id")
-  role           String       // user/assistant/system
+  role           String // user/assistant/system
   content        String       @db.Text
-  metadata       Json?        // Additional data (tokens, model, etc.)
-  order          Int          // Message order in conversation
+  metadata       Json? // Additional data (tokens, model, etc.)
+  order          Int // Message order in conversation
   conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
   createdAt      DateTime     @default(now()) @map("created_at")
 
@@ -341,18 +359,19 @@ model Message {
 
 // Track user activities (automatically logged by middleware)
 model Activity {
-  id          Int      @id @default(autoincrement())
-  userId      Int?     @map("user_id") // Nullable for unauthenticated requests
-  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
-  action      String   // HTTP method (GET, POST, PUT, DELETE, etc.)
-  endpoint    String   // API endpoint or page path
-  method      String   // HTTP method (same as action, for consistency)
-  statusCode  Int      @map("status_code") // HTTP status code
-  ipAddress   String?  @map("ip_address") // Client IP address
-  userAgent   String?  @map("user_agent") // User agent string
-  metadata    Json?    // Additional metadata (request body, query params, etc.)
-  duration    Int?     // Request duration in milliseconds
-  createdAt   DateTime @default(now()) @map("created_at")
+  id         Int      @id @default(autoincrement())
+  uuid       String?  @unique
+  userId     Int?     @map("user_id") // Nullable for unauthenticated requests
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action     String // HTTP method (GET, POST, PUT, DELETE, etc.)
+  endpoint   String // API endpoint or page path
+  method     String // HTTP method (same as action, for consistency)
+  statusCode Int      @map("status_code") // HTTP status code
+  ipAddress  String?  @map("ip_address") // Client IP address
+  userAgent  String?  @map("user_agent") // User agent string
+  metadata   Json? // Additional metadata (request body, query params, etc.)
+  duration   Int? // Request duration in milliseconds
+  createdAt  DateTime @default(now()) @map("created_at")
 
   @@index([userId, createdAt])
   @@index([endpoint, createdAt])
@@ -362,15 +381,16 @@ model Activity {
 
 // Cache for conversation responses to avoid duplicate OpenAI API calls
 model ConversationCache {
-  id          Int      @id @default(autoincrement())
-  questionHash String  @unique @map("question_hash") // Hash of normalized question for fast lookup
-  question    String   @db.Text // Original user question
-  response    String   @db.Text // Cached OpenAI response
-  metadata    Json?    // Additional metadata (model, tokens, etc.)
-  hitCount    Int      @default(0) @map("hit_count") // Number of times this cache was used
-  createdAt   DateTime @default(now()) @map("created_at")
-  updatedAt   DateTime @updatedAt @map("updated_at")
-  expiresAt   DateTime? @map("expires_at") // Optional TTL for cache expiration
+  id           Int       @id @default(autoincrement())
+  uuid         String?   @unique
+  questionHash String    @unique @map("question_hash") // Hash of normalized question for fast lookup
+  question     String    @db.Text // Original user question
+  response     String    @db.Text // Cached OpenAI response
+  metadata     Json? // Additional metadata (model, tokens, etc.)
+  hitCount     Int       @default(0) @map("hit_count") // Number of times this cache was used
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+  expiresAt    DateTime? @map("expires_at") // Optional TTL for cache expiration
 
   @@index([questionHash])
   @@index([expiresAt])
@@ -379,43 +399,45 @@ model ConversationCache {
 
 // Assignment model - assignments created by teachers for students
 model Assignment {
-  id          Int       @id @default(autoincrement())
+  id          Int          @id @default(autoincrement())
+  uuid        String?      @unique
   title       String
-  description String?   @db.Text
-  exerciseId  Int       @map("exercise_id")
-  classId     Int?      @map("class_id")
-  userId      Int?      @map("user_id") // If assigned to specific user
-  assignedBy  Int       @map("assigned_by") // Teacher/admin who created assignment
+  description String?      @db.Text
+  exerciseId  Int          @map("exercise_id")
+  classId     Int?         @map("class_id")
+  userId      Int?         @map("user_id") // If assigned to specific user
+  assignedBy  Int          @map("assigned_by") // Teacher/admin who created assignment
   deadline    DateTime?
-  minScore    Int?      @map("min_score")
-  isActive    Boolean   @default(true) @map("is_active")
-  exercise    Exercise  @relation(fields: [exerciseId], references: [id])
-  class       Class?    @relation(fields: [classId], references: [id])
-  student     User?     @relation("StudentAssignments", fields: [userId], references: [id])
-  teacher     User      @relation("TeacherAssignments", fields: [assignedBy], references: [id])
+  minScore    Int?         @map("min_score")
+  isActive    Boolean      @default(true) @map("is_active")
+  exercise    Exercise     @relation(fields: [exerciseId], references: [id])
+  class       Class?       @relation(fields: [classId], references: [id])
+  student     User?        @relation("StudentAssignments", fields: [userId], references: [id])
+  teacher     User         @relation("TeacherAssignments", fields: [assignedBy], references: [id])
   submissions Submission[]
-  createdAt   DateTime  @default(now()) @map("created_at")
-  updatedAt   DateTime  @updatedAt @map("updated_at")
+  createdAt   DateTime     @default(now()) @map("created_at")
+  updatedAt   DateTime     @updatedAt @map("updated_at")
 
   @@map("assignments")
 }
 
 // Submission model - student submissions for assignments
 model Submission {
-  id          Int        @id @default(autoincrement())
-  assignmentId Int       @map("assignment_id")
-  userId      Int        @map("user_id")
-  answers     Json?      // For multiple choice: { questionId: "answer" }
-  images      Json?      // Array of image URLs for essay
-  aiFeedback  String?    @db.Text @map("ai_feedback")
-  score       Decimal?   @db.Decimal(5, 2)
-  status      String     @default("pending") // pending, graded, completed
-  submittedAt DateTime?  @map("submitted_at")
-  gradedAt    DateTime?  @map("graded_at")
-  assignment  Assignment @relation(fields: [assignmentId], references: [id])
-  user        User       @relation(fields: [userId], references: [id])
-  createdAt   DateTime   @default(now()) @map("created_at")
-  updatedAt   DateTime   @updatedAt @map("updated_at")
+  id           Int        @id @default(autoincrement())
+  uuid         String?    @unique
+  assignmentId Int        @map("assignment_id")
+  userId       Int        @map("user_id")
+  answers      Json? // For multiple choice: { questionId: "answer" }
+  images       Json? // Array of image URLs for essay
+  aiFeedback   String?    @map("ai_feedback") @db.Text
+  score        Decimal?   @db.Decimal(5, 2)
+  status       String     @default("pending") // pending, graded, completed
+  submittedAt  DateTime?  @map("submitted_at")
+  gradedAt     DateTime?  @map("graded_at")
+  assignment   Assignment @relation(fields: [assignmentId], references: [id])
+  user         User       @relation(fields: [userId], references: [id])
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
 
   @@unique([assignmentId, userId])
   @@map("submissions")
@@ -423,14 +445,15 @@ model Submission {
 
 // Class model - for organizing students into classes
 model Class {
-  id          Int         @id @default(autoincrement())
+  id          Int          @id @default(autoincrement())
+  uuid        String?      @unique
   name        String
-  description String?     @db.Text
-  gradeId     Int?        @map("grade_id")
-  grade       Grade?      @relation(fields: [gradeId], references: [id])
+  description String?      @db.Text
+  gradeId     Int?         @map("grade_id")
+  grade       Grade?       @relation(fields: [gradeId], references: [id])
   assignments Assignment[]
-  createdAt   DateTime    @default(now()) @map("created_at")
-  updatedAt   DateTime    @updatedAt @map("updated_at")
+  createdAt   DateTime     @default(now()) @map("created_at")
+  updatedAt   DateTime     @updatedAt @map("updated_at")
 
   @@map("classes")
 }

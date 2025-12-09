@@ -1,12 +1,12 @@
 #!/usr/bin/env tsx
 /**
- * Test Submit Chapter API Script
+ * Test Submit Chapter Full Flow Script
  * 
- * This script tests the submit chapter API endpoint.
- * Usage: npx tsx scripts/test-submit-chapter.ts <username> <password> [chapterId] [status]
+ * This script tests the full flow of submitting a chapter and verifying the status.
+ * Usage: npx tsx scripts/test-submit-chapter-full-flow.ts <username> <password> [chapterId] [level] [status]
  * 
  * Example:
- *   npx tsx scripts/test-submit-chapter.ts nhahan nhahan@123 26 submitted
+ *   npx tsx scripts/test-submit-chapter-full-flow.ts nhahan nhahan@123 22 medium submitted
  */
 
 import { config } from 'dotenv';
@@ -14,11 +14,12 @@ import { config } from 'dotenv';
 // Load .env file FIRST before any other imports
 config();
 
-async function login(username: string, password: string): Promise<string | null> {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+async function login(username: string, password: string, port?: number): Promise<string | null> {
+  const defaultUrl = port ? `http://localhost:${port}` : (process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000');
+  const baseUrl = defaultUrl;
   const loginUrl = `${baseUrl}/api/auth/login`;
 
-  console.log('🔐 Logging in...\n');
+  console.log('🔐 Step 1: Logging in...\n');
   console.log(`Username: ${username}`);
   console.log(`URL: ${loginUrl}\n`);
 
@@ -48,7 +49,7 @@ async function login(username: string, password: string): Promise<string | null>
       console.log(`Error: ${data.error || data.message || 'Unknown error'}`);
       return null;
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('❌ Error during login:');
     if (error instanceof Error) {
       console.error(`  Message: ${error.message}`);
@@ -116,30 +117,11 @@ async function getChapterData(chapterId: number) {
 
     console.log(`   Total exercises: ${allExercises.length}\n`);
 
-    // Log exercises details
-    allExercises.forEach((exercise, idx) => {
-      console.log(`   Exercise ${idx + 1}:`);
-      console.log(`     ID: ${exercise.id}`);
-      console.log(`     Title: ${exercise.title}`);
-      console.log(`     Type: ${exercise.type}`);
-      console.log(`     Difficulty: ${exercise.difficulty}`);
-      console.log(`     Questions: ${exercise.questions.length}`);
-      exercise.questions.forEach((q, qIdx) => {
-        console.log(`       Q${qIdx + 1} (ID: ${q.id}): ${q.question.substring(0, 50)}...`);
-        if (exercise.type === 'multiple_choice' && q.options) {
-          const options = q.options as Record<string, string>;
-          console.log(`         Options: ${Object.keys(options).join(', ')}`);
-          console.log(`         Correct Answer: ${q.answer}`);
-        }
-      });
-      console.log('');
-    });
-
     return {
       chapter,
       exercises: allExercises,
     };
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('❌ Error fetching chapter data:');
     if (error instanceof Error) {
       console.error(`  Message: ${error.message}`);
@@ -185,12 +167,14 @@ async function submitChapter(
   chapterId: number,
   exercises: Record<string, Record<string, string>>,
   status: 'draft' | 'submitted',
-  level?: 'easy' | 'medium' | 'hard'
+  level?: 'easy' | 'medium' | 'hard',
+  port?: number
 ) {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+  const defaultUrl = port ? `http://localhost:${port}` : (process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000');
+  const baseUrl = defaultUrl;
   const submitUrl = `${baseUrl}/api/chapters/${chapterId}/submit`;
 
-  console.log(`\n📤 Submitting chapter ${chapterId}...\n`);
+  console.log(`\n📤 Step 2: Submitting chapter ${chapterId}...\n`);
   console.log(`URL: ${submitUrl}`);
   console.log(`Status: ${status}`);
   if (level) {
@@ -225,22 +209,117 @@ async function submitChapter(
       console.log('✅ Submit successful!\n');
       console.log('Response Data:');
       console.log(JSON.stringify(data, null, 2));
-      return true;
+      return data;
     } else {
       console.log('❌ Submit failed!\n');
       console.log(`Error: ${data.message || data.error || 'Unknown error'}`);
       if (data.details) {
         console.log('Details:', JSON.stringify(data.details, null, 2));
       }
-      return false;
+      return null;
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('❌ Error during submit:');
     if (error instanceof Error) {
       console.error(`  Message: ${error.message}`);
     } else {
       console.error('  Error:', error);
     }
+    return null;
+  }
+}
+
+async function getChapterById(
+  token: string,
+  chapterId: number,
+  port?: number
+): Promise<any> {
+  const defaultUrl = port ? `http://localhost:${port}` : (process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000');
+  const baseUrl = defaultUrl;
+  const getChapterUrl = `${baseUrl}/api/chapters/${chapterId}`;
+
+  console.log(`\n📋 Step 3: Getting chapter ${chapterId} by ID...\n`);
+  console.log(`URL: ${getChapterUrl}\n`);
+
+  try {
+    const response = await fetch(getChapterUrl, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    const data = await response.json();
+
+    console.log(`Response Status: ${response.status}\n`);
+
+    if (response.ok) {
+      console.log('✅ Get chapter successful!\n');
+      return data;
+    } else {
+      console.log('❌ Get chapter failed!\n');
+      console.log(`Error: ${data.message || data.error || 'Unknown error'}`);
+      if (data.details) {
+        console.log('Details:', JSON.stringify(data.details, null, 2));
+      }
+      return null;
+    }
+  } catch (error: unknown) {
+    console.error('❌ Error during get chapter:');
+    if (error instanceof Error) {
+      console.error(`  Message: ${error.message}`);
+    } else {
+      console.error('  Error:', error);
+    }
+    return null;
+  }
+}
+
+function checkChapterStatus(chapterData: any, expectedStatus: string) {
+  console.log('\n🔍 Step 4: Checking chapter status...\n');
+
+  if (!chapterData) {
+    console.log('❌ Invalid chapter data');
+    console.log('Response:', JSON.stringify(chapterData, null, 2));
+    return false;
+  }
+
+  // Handle different response structures
+  let chapterProgress = null;
+  if (chapterData.data && chapterData.data.chapterProgress) {
+    chapterProgress = chapterData.data.chapterProgress;
+  } else if (chapterData.chapterProgress) {
+    chapterProgress = chapterData.chapterProgress;
+  } else if (chapterData.data) {
+    // Try to find chapterProgress in data
+    chapterProgress = chapterData.data.chapterProgress || null;
+  }
+  
+  if (!chapterProgress) {
+    console.log('⚠️  No chapter progress found');
+    console.log('   Response structure:', JSON.stringify(chapterData, null, 2));
+    console.log('   This might mean the chapter has not been started yet.');
+    return false;
+  }
+
+  const actualStatus = chapterProgress.status;
+  const expectedStatusLower = expectedStatus.toLowerCase();
+
+  console.log(`Expected Status: ${expectedStatus}`);
+  console.log(`Actual Status: ${actualStatus}\n`);
+
+  if (actualStatus === expectedStatusLower) {
+    console.log('✅ Status matches! Chapter status is correct.\n');
+    console.log('Chapter Progress Details:');
+    console.log(`  Status: ${chapterProgress.status}`);
+    console.log(`  Progress: ${chapterProgress.progress || 0}%`);
+    console.log(`  Completed Sections: ${chapterProgress.completedSections || 0} / ${chapterProgress.totalSections || 0}`);
+    return true;
+  } else {
+    console.log('❌ Status mismatch!');
+    console.log(`   Expected: ${expectedStatus}`);
+    console.log(`   Actual: ${actualStatus}`);
     return false;
   }
 }
@@ -250,16 +329,17 @@ async function main() {
   const args = process.argv.slice(2);
 
   if (args.length < 2) {
-    console.error('Usage: npx tsx scripts/test-submit-chapter.ts <username> <password> [chapterId] [status] [level]');
+    console.error('Usage: npx tsx scripts/test-submit-chapter-full-flow.ts <username> <password> [chapterId] [level] [status] [port]');
     console.error('\nExample:');
-    console.error('  npx tsx scripts/test-submit-chapter.ts nhahan nhahan@123 26 submitted medium');
+    console.error('  npx tsx scripts/test-submit-chapter-full-flow.ts nhahan nhahan@123 22 medium submitted 9999');
     process.exit(1);
   }
 
-  const [username, password, chapterIdStr, statusStr, levelStr] = args;
-  const chapterId = chapterIdStr ? parseInt(chapterIdStr) : 26;
-  const status = (statusStr as 'draft' | 'submitted') || 'submitted';
+  const [username, password, chapterIdStr, levelStr, statusStr, portStr] = args;
+  const port = portStr ? parseInt(portStr) : undefined;
+  const chapterId = chapterIdStr ? parseInt(chapterIdStr) : 22;
   const level = levelStr ? (levelStr as 'easy' | 'medium' | 'hard') : undefined;
+  const status = (statusStr as 'draft' | 'submitted') || 'submitted';
 
   if (isNaN(chapterId)) {
     console.error('❌ Invalid chapterId. Must be a number.');
@@ -276,17 +356,21 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('🧪 Test Submit Chapter API\n');
-  console.log('='.repeat(50));
+  console.log('🧪 Test Submit Chapter Full Flow\n');
+  console.log('='.repeat(60));
   console.log(`Chapter ID: ${chapterId}`);
   console.log(`Status: ${status}`);
   if (level) {
     console.log(`Level: ${level}`);
   }
-  console.log('='.repeat(50));
+  if (port) {
+    console.log(`Port: ${port}`);
+  }
+  console.log('='.repeat(60));
+  console.log('');
 
   // Step 1: Login
-  const token = await login(username, password);
+  const token = await login(username, password, port);
   if (!token) {
     console.error('\n❌ Failed to login. Exiting...');
     process.exit(1);
@@ -313,14 +397,39 @@ async function main() {
   // Step 4: Generate answers
   const answers = generateAnswers(exercisesToSubmit);
 
-  // Step 5: Submit
-  const success = await submitChapter(token, chapterId, answers, status, level);
+  // Step 5: Submit chapter
+  const submitResult = await submitChapter(token, chapterId, answers, status, level, port);
+  if (!submitResult) {
+    console.error('\n❌ Failed to submit chapter. Exiting...');
+    process.exit(1);
+  }
 
-  if (success) {
-    console.log('\n🎉 Test completed successfully!');
+  // Step 6: Get chapter by ID to verify status
+  const chapterResponse = await getChapterById(token, chapterId, port);
+  if (!chapterResponse) {
+    console.error('\n❌ Failed to get chapter. Exiting...');
+    process.exit(1);
+  }
+
+  // Step 7: Check status
+  const statusMatches = checkChapterStatus(chapterResponse, status);
+
+  // Final summary
+  console.log('\n' + '='.repeat(60));
+  console.log('📊 TEST SUMMARY');
+  console.log('='.repeat(60));
+  console.log(`✅ Login: Success`);
+  console.log(`✅ Get Chapter Data: Success`);
+  console.log(`✅ Submit Chapter: Success`);
+  console.log(`✅ Get Chapter by ID: Success`);
+  console.log(`${statusMatches ? '✅' : '❌'} Status Check: ${statusMatches ? 'PASSED' : 'FAILED'}`);
+  console.log('='.repeat(60));
+
+  if (statusMatches) {
+    console.log('\n🎉 All tests passed!');
     process.exit(0);
   } else {
-    console.log('\n❌ Test failed');
+    console.log('\n❌ Status check failed');
     process.exit(1);
   }
 }

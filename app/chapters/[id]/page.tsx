@@ -16,6 +16,7 @@ export default function ChapterPage() {
   const [exercises, setExercises] = useState<ChapterExercise[]>([]);
   const [currentExercise, setCurrentExercise] = useState<ChapterExercise | null>(null);
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState<number | null>(null);
+  const [chapterProgress, setChapterProgress] = useState<ChapterResponse['chapterProgress'] | null>(null);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -60,6 +61,7 @@ export default function ChapterPage() {
         setExercises(data.exercises);
         setCurrentExercise(data.currentExercise);
         setCurrentExerciseIndex(data.currentExerciseIndex);
+        setChapterProgress(data.chapterProgress);
 
         // Initialize answers for current exercise
         if (data.currentExercise) {
@@ -168,6 +170,9 @@ export default function ChapterPage() {
 
   // Check if current exercise is draft
   const isCurrentExerciseDraft = currentExercise?.attempt?.status === 'draft';
+
+  // Check if chapter is submitted (user cannot continue working)
+  const isChapterSubmitted = chapterProgress?.status === 'submitted' || chapterProgress?.status === 'completed';
 
   const handleAnswerChange = (questionId: number, answer: string) => {
     setAnswers((prev) => {
@@ -326,6 +331,36 @@ export default function ChapterPage() {
         return;
       }
 
+      // Determine level from exercises being submitted
+      // Get all exercises that are being submitted and their difficulties
+      const submittedExerciseIds = Object.keys(exercisesAnswers).map(id => parseInt(id));
+      const submittedExercises = exercises.filter(ex => submittedExerciseIds.includes(ex.id));
+      const difficulties = submittedExercises.map(ex => ex.difficulty).filter(Boolean) as ('easy' | 'medium' | 'hard')[];
+      
+      // Use the most common difficulty, or the first one if all are different
+      // If all exercises have the same difficulty, use that
+      let level: 'easy' | 'medium' | 'hard' | undefined;
+      if (difficulties.length > 0) {
+        // Count occurrences of each difficulty
+        const difficultyCounts = difficulties.reduce((acc, diff) => {
+          acc[diff] = (acc[diff] || 0) + 1;
+          return acc;
+        }, {} as Record<string, number>);
+        
+        // Find the most common difficulty
+        const mostCommon = Object.entries(difficultyCounts).reduce((a, b) => 
+          a[1] > b[1] ? a : b
+        );
+        
+        // If all exercises have the same difficulty, use it
+        if (mostCommon[1] === difficulties.length) {
+          level = mostCommon[0] as 'easy' | 'medium' | 'hard';
+        } else {
+          // Otherwise, use the first exercise's difficulty
+          level = difficulties[0];
+        }
+      }
+
       // Submit all exercises in one request
       const response = await fetch(`/api/chapters/${chapterId}/submit`, {
         method: 'POST',
@@ -337,6 +372,7 @@ export default function ChapterPage() {
           chapterId: parseInt(chapterId), // Include chapterId in request body
           exercises: exercisesAnswers,
           status: isDraft ? 'draft' : 'submitted',
+          level: level, // Include level (difficulty) based on exercises being submitted
         }),
       });
 
@@ -350,19 +386,20 @@ export default function ChapterPage() {
         toast.success('Đã lưu nháp thành công!');
         // Redirect to subjects page after saving draft
         if (chapter && chapter.subject) {
-          router.push(`/subjects/${chapter.subject.id}?draft=true`);
+          router.replace(`/subjects/${chapter.subject.id}?draft=true`);
         } else {
-          router.push('/dashboard');
+          router.replace('/dashboard');
         }
       } else {
-      toast.success(data.message || 'Đã nộp bài thành công!');
+        toast.success(data.message || 'Đã nộp bài thành công!');
 
-      // Redirect to chapters list page after successful submission
-      if (chapter && chapter.subject) {
-        router.push(`/subjects/${chapter.subject.id}`);
-      } else {
-        // Fallback to dashboard if chapter info is not available
-        router.push('/dashboard');
+        // Redirect to chapters list page after successful submission
+        // Use replace instead of push to avoid adding to history and prevent duplicate API calls
+        if (chapter && chapter.subject) {
+          router.replace(`/subjects/${chapter.subject.id}`);
+        } else {
+          // Fallback to dashboard if chapter info is not available
+          router.replace('/dashboard');
         }
       }
     } catch (error) {
@@ -485,8 +522,23 @@ export default function ChapterPage() {
 
         {/* Exercise Card */}
         <div className="card mb-6">
+          {/* Chapter Submitted Status Warning */}
+          {isChapterSubmitted && (
+            <div className="mb-4 p-3 bg-blue-50 border-l-4 border-blue-400 rounded-r">
+              <div className="flex items-start gap-2">
+                <span className="text-blue-600 text-lg">ℹ️</span>
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-blue-800">Bạn đã nộp bài cho chương này</p>
+                  <p className="text-xs text-blue-700 mt-1">
+                    Bạn không thể tiếp tục chỉnh sửa câu trả lời. Vui lòng quay lại danh sách chương để xem đáp án.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+          
           {/* Draft Status Warning */}
-          {isCurrentExerciseDraft && (
+          {!isChapterSubmitted && isCurrentExerciseDraft && (
             <div className="mb-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 rounded-r">
               <div className="flex items-start gap-2">
                 <span className="text-yellow-600 text-lg">⚠️</span>
@@ -600,7 +652,11 @@ export default function ChapterPage() {
                           return (
                             <label
                               key={optIndex}
-                              className="flex items-center p-3 border rounded-lg cursor-pointer hover:bg-gray-50 transition-colors"
+                              className={`flex items-center p-3 border rounded-lg transition-colors ${
+                                isChapterSubmitted 
+                                  ? 'cursor-not-allowed opacity-60 bg-gray-100' 
+                                  : 'cursor-pointer hover:bg-gray-50'
+                              }`}
                             >
                               <input
                                 type="radio"
@@ -608,6 +664,7 @@ export default function ChapterPage() {
                                 value={key}
                                 checked={isChecked}
                                 onChange={(e) => handleAnswerChange(question.id, e.target.value)}
+                                disabled={isChapterSubmitted}
                                 className="mr-3"
                               />
                               <span className="font-medium mr-2">{key}:</span>
@@ -623,7 +680,10 @@ export default function ChapterPage() {
                             value={getAnswerValue(answers[question.id.toString()])}
                             onChange={(e) => handleAnswerChange(question.id, e.target.value)}
                             placeholder="Nhập câu trả lời của bạn..."
-                            className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent pr-12"
+                            disabled={isChapterSubmitted}
+                            className={`w-full p-3 border rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent pr-12 ${
+                              isChapterSubmitted ? 'cursor-not-allowed opacity-60 bg-gray-100' : ''
+                            }`}
                             rows={4}
                           />
                           <button
@@ -983,7 +1043,7 @@ export default function ChapterPage() {
               </button>
               <button
                 onClick={handleSaveDraft}
-                disabled={submitting}
+                disabled={submitting || isChapterSubmitted}
                 className="btn btn-secondary flex-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
               >
                 {submitting ? (
@@ -1005,7 +1065,7 @@ export default function ChapterPage() {
               </button>
             <button
               onClick={handleSubmitClick}
-              disabled={submitting}
+              disabled={submitting || isChapterSubmitted}
                 className="btn btn-primary flex-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
             >
                 {submitting ? (

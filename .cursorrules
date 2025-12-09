@@ -94,3 +94,126 @@ metadata: metadata as any,
 - Avoid type assertions unless absolutely necessary
 - Use `as const` for literal types when needed
 
+## Fixtures Data Requirements
+
+### Exercise Requirements
+- **MANDATORY**: Each chapter MUST have at least **15 exercises** (questions) across all difficulty levels (easy, medium, hard)
+- **MANDATORY**: Each lesson MUST have at least **1 essay question** (type: "essay")
+- Exercises can be distributed across multiple lessons within a chapter
+- The total count of exercises per chapter should be verified before seeding
+
+### Exercise Structure
+- Each exercise must have:
+  - `uuid`: String (REQUIRED) - Unique identifier to prevent database duplicates. Must be a valid UUID v4 format
+  - `title`: String - descriptive title
+  - `type`: "multiple_choice" | "essay"
+  - `points`: Number - points for this question
+  - `question`: String - the question text
+  - `hint`: String (optional) - hint for the question
+  - `created_at`: ISO 8601 date string
+
+### Multiple Choice Exercises
+- Must include:
+  - `options`: Object with keys A, B, C, D (or more)
+  - `correctOption`: String - the correct option key (e.g., "A", "B", "C", "D")
+
+### Essay Exercises
+- Must include:
+  - `answer`: String - sample answer or answer template
+  - `type`: "essay"
+- Essay questions should test deeper understanding and application
+
+### UUID Requirements
+- **MANDATORY**: Every exercise MUST have a `uuid` field
+- UUID format: Must be valid UUID v4 (e.g., "550e8400-e29b-41d4-a716-446655440000")
+- Purpose: Prevent duplicate exercises in database when seeding
+- Generation: Use `crypto.randomUUID()` or similar UUID generator
+- Uniqueness: Each exercise must have a unique UUID across all fixtures
+
+### Validation Checklist
+Before creating or updating fixtures, ensure:
+- [ ] Each chapter has at least 15 exercises total
+- [ ] Each lesson has at least 1 essay question
+- [ ] All exercises have required fields (uuid, title, type, points, question)
+- [ ] All exercises have unique UUID values
+- [ ] UUID format is valid (UUID v4)
+- [ ] Multiple choice exercises have options and correctOption
+- [ ] Essay exercises have answer field
+- [ ] All timestamps are valid ISO 8601 format
+- [ ] Exercise order is logical and sequential
+
+### Examples
+
+#### Good: Chapter with 15+ exercises
+```json
+{
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Example",
+      "lessons": [
+        {
+          "code": "SUBJECT-CH1-L1",
+          "title": "Lesson 1",
+          "exercises": [
+            {
+              "uuid": "550e8400-e29b-41d4-a716-446655440001",
+              "title": "Multiple choice question",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "What is...?",
+              "options": { "A": "...", "B": "...", "C": "...", "D": "..." },
+              "correctOption": "A",
+              "hint": "Hint text",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "uuid": "550e8400-e29b-41d4-a716-446655440002",
+              "title": "Essay question",
+              "type": "essay",
+              "points": 2,
+              "question": "Explain...",
+              "answer": "Sample answer",
+              "hint": "Hint text",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### Bad: Chapter with insufficient exercises
+```json
+{
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Example",
+      "lessons": [
+        {
+          "code": "SUBJECT-CH1-L1",
+          "title": "Lesson 1",
+          "exercises": [
+            // ❌ BAD: Only 3 exercises, need at least 15 per chapter
+            // ❌ BAD: No essay question in this lesson
+            // ❌ BAD: Missing uuid field
+            {
+              "title": "Question 1",
+              "type": "multiple_choice",
+              // ... missing fields (uuid, options, correctOption, etc.)
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Scripts for Validation
+- Use `scripts/add-questions-to-informatics.ts` as reference for adding questions programmatically
+- Always verify exercise count before seeding: `npx tsx scripts/seed-informatics.ts`
+

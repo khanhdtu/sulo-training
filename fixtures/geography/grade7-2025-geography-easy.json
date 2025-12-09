@@ -1,0 +1,1607 @@
+{
+  "grade": 7,
+  "subject": "Địa lý",
+  "subjectCode": "GEO7",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 7 Geography (Lớp 7 Địa lý) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Thành phần nhân văn của môi trường",
+      "lessons": [
+        {
+          "code": "GEO7-CH1-L1",
+          "title": "Dân số thế giới",
+          "exercises": [
+            {
+              "uuid": "6457647c-28f9-4432-ae9e-47a77f90fedc",
+              "title": "Tự luận: Nêu hiểu biết của em về Dân số thế giới",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Dân số thế giới. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Dân số thế giới.",
+              "answer": "Đây là câu trả lời ngắn gọn về Dân số thế giới. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "c6110ac5-6f21-4ee7-9f10-a4817a4e4a86",
+              "title": "Câu hỏi bổ sung về Dân số thế giới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân số thế giới (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân số thế giới.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "94c4ec3b-c939-4ff5-a368-67cf958c2cfb",
+              "title": "Câu hỏi bổ sung về Dân số thế giới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân số thế giới (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân số thế giới.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "2cd3e34d-2fe3-492d-ace3-f9e7543335bc",
+              "title": "Câu hỏi bổ sung về Dân số thế giới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân số thế giới (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân số thế giới.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "262a46f2-7ebe-41a4-a809-363788f21fd9",
+              "title": "Câu hỏi bổ sung về Dân số thế giới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân số thế giới (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân số thế giới.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "uuid": "3f5b2832-8935-474b-a4f6-28c2b03e8085",
+              "title": "Câu hỏi bổ sung về Dân số thế giới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân số thế giới (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân số thế giới.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH1-L2",
+          "title": "Phân bố dân cư",
+          "exercises": [
+            {
+              "uuid": "f68694da-527a-4656-9994-3a0c72114568",
+              "title": "Tự luận: Nêu hiểu biết của em về Phân bố dân cư",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Phân bố dân cư. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Phân bố dân cư.",
+              "answer": "Đây là câu trả lời ngắn gọn về Phân bố dân cư. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "54e1cbfc-ffca-48cd-bd1a-ab651d253dfc",
+              "title": "Câu hỏi bổ sung về Phân bố dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phân bố dân cư (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân bố dân cư.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "12240ed7-922d-4b8a-a8d2-2217d3780ee9",
+              "title": "Câu hỏi bổ sung về Phân bố dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phân bố dân cư (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân bố dân cư.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "c40a8a0d-c6f8-437b-849f-41180524ef3b",
+              "title": "Câu hỏi bổ sung về Phân bố dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phân bố dân cư (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân bố dân cư.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "18f3565d-2f45-4e57-b81f-94f4a757285a",
+              "title": "Câu hỏi bổ sung về Phân bố dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phân bố dân cư (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân bố dân cư.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "uuid": "6aee2e2d-cc34-4a58-a606-e0db3629c3c2",
+              "title": "Câu hỏi bổ sung về Phân bố dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phân bố dân cư (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân bố dân cư.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH1-L3",
+          "title": "Ba chủng tộc chính",
+          "exercises": [
+            {
+              "uuid": "92a97076-4136-42ba-82df-5d3856afa8c3",
+              "title": "Tự luận: Nêu hiểu biết của em về Ba chủng tộc chính",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Ba chủng tộc chính. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Ba chủng tộc chính.",
+              "answer": "Đây là câu trả lời ngắn gọn về Ba chủng tộc chính. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "64a579d5-3193-4962-8924-1c9a2e56da7f",
+              "title": "Câu hỏi bổ sung về Ba chủng tộc chính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ba chủng tộc chính (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba chủng tộc chính.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "c9c45c90-1b05-4918-a173-1c92920d3eba",
+              "title": "Câu hỏi bổ sung về Ba chủng tộc chính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ba chủng tộc chính (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba chủng tộc chính.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "4a86d85b-0a72-4cd5-a2c7-f4b67740e539",
+              "title": "Câu hỏi bổ sung về Ba chủng tộc chính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ba chủng tộc chính (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba chủng tộc chính.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "9dce2f2d-1644-43b1-993e-87c40fd88025",
+              "title": "Câu hỏi bổ sung về Ba chủng tộc chính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ba chủng tộc chính (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba chủng tộc chính.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "uuid": "9e113468-1f2b-4715-9547-d2e319f8cab7",
+              "title": "Câu hỏi bổ sung về Ba chủng tộc chính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ba chủng tộc chính (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ba chủng tộc chính.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Các môi trường địa lý",
+      "lessons": [
+        {
+          "code": "GEO7-CH2-L1",
+          "title": "Môi trường xích đạo ẩm",
+          "exercises": [
+            {
+              "uuid": "043413f5-775d-4ec0-9308-2e3c741959fc",
+              "title": "Tự luận: Nêu hiểu biết của em về Môi trường xích đạo ẩm",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Môi trường xích đạo ẩm. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường xích đạo ẩm.",
+              "answer": "Đây là câu trả lời ngắn gọn về Môi trường xích đạo ẩm. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "ee62dc85-4521-410c-8abe-08a31b31903c",
+              "title": "Câu hỏi bổ sung về Môi trường xích đạo ẩm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường xích đạo ẩm (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường xích đạo ẩm.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "d67511b9-e3ef-4fe7-8d35-a39166ab85dd",
+              "title": "Câu hỏi bổ sung về Môi trường xích đạo ẩm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường xích đạo ẩm (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường xích đạo ẩm.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "21dc4463-1363-4d9e-8e5f-df27f6fc858c",
+              "title": "Câu hỏi bổ sung về Môi trường xích đạo ẩm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường xích đạo ẩm (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường xích đạo ẩm.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH2-L2",
+          "title": "Môi trường nhiệt đới",
+          "exercises": [
+            {
+              "uuid": "d150b50e-b818-4128-9fc4-2361e81b332d",
+              "title": "Tự luận: Nêu hiểu biết của em về Môi trường nhiệt đới",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Môi trường nhiệt đới. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường nhiệt đới.",
+              "answer": "Đây là câu trả lời ngắn gọn về Môi trường nhiệt đới. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "2179b301-e6a6-4b50-8fca-bf79dbd5a619",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "16c99654-4ca1-4589-ab40-81adf138c63d",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "cee1c323-eafe-4bbc-9560-2ba7b031bc4d",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH2-L3",
+          "title": "Môi trường nhiệt đới gió mùa",
+          "exercises": [
+            {
+              "uuid": "6269c3a5-4d66-456e-b3cf-316bc7b50079",
+              "title": "Tự luận: Nêu hiểu biết của em về Môi trường nhiệt đới gió mùa",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Môi trường nhiệt đới gió mùa. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường nhiệt đới gió mùa.",
+              "answer": "Đây là câu trả lời ngắn gọn về Môi trường nhiệt đới gió mùa. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "92744f1f-41a0-40c8-8962-e32e8c51de74",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới gió mùa.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "69bf335d-8eb4-4b71-bdcb-bca25787b760",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới gió mùa.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "2808fdf6-b1d7-4d89-b274-c822ab445830",
+              "title": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường nhiệt đới gió mùa (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường nhiệt đới gió mùa.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH2-L4",
+          "title": "Môi trường ôn đới hải dương",
+          "exercises": [
+            {
+              "uuid": "961f75ad-1932-4cf4-a107-b77ba8141137",
+              "title": "Tự luận: Nêu hiểu biết của em về Môi trường ôn đới hải dương",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Môi trường ôn đới hải dương. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường ôn đới hải dương.",
+              "answer": "Đây là câu trả lời ngắn gọn về Môi trường ôn đới hải dương. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "88fde1c8-55d1-48c6-94ba-674d180bbb9e",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới hải dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới hải dương (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới hải dương.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "8b0b0b90-cb7b-474c-8979-1c218a66ff0b",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới hải dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới hải dương (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới hải dương.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "0242bb7d-9e57-4e74-9c64-d77880123931",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới hải dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới hải dương (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới hải dương.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH2-L5",
+          "title": "Môi trường ôn đới lục địa",
+          "exercises": [
+            {
+              "uuid": "3f3604a3-c361-4e20-b7a0-e2227e612027",
+              "title": "Tự luận: Nêu hiểu biết của em về Môi trường ôn đới lục địa",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Môi trường ôn đới lục địa. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường ôn đới lục địa.",
+              "answer": "Đây là câu trả lời ngắn gọn về Môi trường ôn đới lục địa. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "96b5a0c9-6e30-4170-8128-427ee147295c",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới lục địa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới lục địa (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới lục địa.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "076b9b0f-60e8-4d2a-8b15-bd4452411b60",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới lục địa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới lục địa (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới lục địa.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "4ac5fc60-a542-4fc9-803c-2af6d5985724",
+              "title": "Câu hỏi bổ sung về Môi trường ôn đới lục địa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Môi trường ôn đới lục địa (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường ôn đới lục địa.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Thiên nhiên và con người ở các châu lục",
+      "lessons": [
+        {
+          "code": "GEO7-CH3-L1",
+          "title": "Vị trí và địa hình châu Á",
+          "exercises": [
+            {
+              "uuid": "518d15ad-fc9d-4006-96ac-423c37680ce7",
+              "title": "Tự luận: Nêu hiểu biết của em về Vị trí và địa hình châu Á",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Vị trí và địa hình châu Á. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Vị trí và địa hình châu Á.",
+              "answer": "Đây là câu trả lời ngắn gọn về Vị trí và địa hình châu Á. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "4fb39047-045c-42e5-af42-97ed8a2b7a7e",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Á (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Á.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "4f630ada-a921-4807-9497-e060c5ce26fa",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Á (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Á.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "b619fd78-c1fa-4944-bcea-c2a51f7d2f0d",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Á (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Á.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "b8c198e2-5c8d-4930-b088-67ec465d8e58",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Á (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Á.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH3-L2",
+          "title": "Khí hậu châu Á",
+          "exercises": [
+            {
+              "uuid": "cb108622-06da-40af-bfde-8d63952a5ec5",
+              "title": "Tự luận: Nêu hiểu biết của em về Khí hậu châu Á",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Khí hậu châu Á. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khí hậu châu Á.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khí hậu châu Á. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "b8fbf9c4-0477-4cf0-9973-0b14170409bf",
+              "title": "Câu hỏi bổ sung về Khí hậu châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu châu Á (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu châu Á.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "14c55444-df4f-4e12-92f9-3dd08806607d",
+              "title": "Câu hỏi bổ sung về Khí hậu châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu châu Á (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu châu Á.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "14806b91-3928-4f8a-8ebf-2501a6812b97",
+              "title": "Câu hỏi bổ sung về Khí hậu châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu châu Á (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu châu Á.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "52e3a799-5873-4e58-80bf-71139461a018",
+              "title": "Câu hỏi bổ sung về Khí hậu châu Á",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu châu Á (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu châu Á.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH3-L3",
+          "title": "Đặc điểm tự nhiên châu Phi",
+          "exercises": [
+            {
+              "uuid": "54ac2864-c4e2-4e81-baab-a687b293cef4",
+              "title": "Tự luận: Nêu hiểu biết của em về Đặc điểm tự nhiên châu Phi",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Đặc điểm tự nhiên châu Phi. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Đặc điểm tự nhiên châu Phi.",
+              "answer": "Đây là câu trả lời ngắn gọn về Đặc điểm tự nhiên châu Phi. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "f8ebb297-6641-4032-9e2f-30ee14c9b701",
+              "title": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đặc điểm tự nhiên châu Phi.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "eb4b800f-a4f3-4e47-a67f-cb677f1f7dc1",
+              "title": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đặc điểm tự nhiên châu Phi.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "2e67868c-8e0a-4143-ae2e-cf2c18e4d40a",
+              "title": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đặc điểm tự nhiên châu Phi.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "b22454cb-2e84-4a16-93c6-c6173539299b",
+              "title": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đặc điểm tự nhiên châu Phi (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đặc điểm tự nhiên châu Phi.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH3-L4",
+          "title": "Dân cư châu Phi",
+          "exercises": [
+            {
+              "uuid": "87d07156-4cea-44c4-a38e-d3f6307294d4",
+              "title": "Tự luận: Nêu hiểu biết của em về Dân cư châu Phi",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Dân cư châu Phi. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Dân cư châu Phi.",
+              "answer": "Đây là câu trả lời ngắn gọn về Dân cư châu Phi. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "32412c8b-24d5-42cb-9ef2-83c3fc85f435",
+              "title": "Câu hỏi bổ sung về Dân cư châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân cư châu Phi (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân cư châu Phi.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "4651d862-7d9a-4a45-aa3f-1ee034369792",
+              "title": "Câu hỏi bổ sung về Dân cư châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân cư châu Phi (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân cư châu Phi.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "035b3afb-a7de-42b7-9bec-5a0c2bb8b0e1",
+              "title": "Câu hỏi bổ sung về Dân cư châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân cư châu Phi (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân cư châu Phi.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "6821b9c7-5d64-4cbb-b589-8fb8d5fc4441",
+              "title": "Câu hỏi bổ sung về Dân cư châu Phi",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Dân cư châu Phi (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Dân cư châu Phi.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Địa lý các châu lục (tiếp)",
+      "lessons": [
+        {
+          "code": "GEO7-CH4-L1",
+          "title": "Vị trí và địa hình châu Mỹ",
+          "exercises": [
+            {
+              "uuid": "54641b1a-150f-43ae-aff7-df94fed76c72",
+              "title": "Tự luận: Nêu hiểu biết của em về Vị trí và địa hình châu Mỹ",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Vị trí và địa hình châu Mỹ. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Vị trí và địa hình châu Mỹ.",
+              "answer": "Đây là câu trả lời ngắn gọn về Vị trí và địa hình châu Mỹ. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "f89de708-ff35-465f-bc64-2883ff30a074",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Mỹ.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "20f70cbf-4770-401d-9b48-cf9dc479aa75",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Mỹ.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "74991b04-09fe-456e-82bb-6b4e0fa90b11",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Mỹ.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "7e3403f9-54dd-4d56-b07a-c9384b4348a3",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Mỹ (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Mỹ.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH4-L2",
+          "title": "Khí hậu và cảnh quan",
+          "exercises": [
+            {
+              "uuid": "31a5f65e-950c-4e7b-a912-589b864fdbc8",
+              "title": "Tự luận: Nêu hiểu biết của em về Khí hậu và cảnh quan",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Khí hậu và cảnh quan. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khí hậu và cảnh quan.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khí hậu và cảnh quan. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "c401f396-a5a8-4758-a474-e9cad8e7a05c",
+              "title": "Câu hỏi bổ sung về Khí hậu và cảnh quan",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và cảnh quan (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và cảnh quan.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "c84b6a59-9f46-480e-aca4-d6377fb63916",
+              "title": "Câu hỏi bổ sung về Khí hậu và cảnh quan",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và cảnh quan (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và cảnh quan.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "b05858a4-e186-4d60-b691-85a124153b8f",
+              "title": "Câu hỏi bổ sung về Khí hậu và cảnh quan",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và cảnh quan (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và cảnh quan.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "41afa38e-ed3e-4404-911f-038e1b5ad255",
+              "title": "Câu hỏi bổ sung về Khí hậu và cảnh quan",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và cảnh quan (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và cảnh quan.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH4-L3",
+          "title": "Châu Đại Dương",
+          "exercises": [
+            {
+              "uuid": "062610ce-47f1-454b-b82f-374bad46bb3e",
+              "title": "Tự luận: Nêu hiểu biết của em về Châu Đại Dương",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Châu Đại Dương. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Châu Đại Dương.",
+              "answer": "Đây là câu trả lời ngắn gọn về Châu Đại Dương. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "25ad7446-167f-4356-a8a2-4d00c0a13c79",
+              "title": "Câu hỏi bổ sung về Châu Đại Dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Đại Dương (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Đại Dương.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "e02c6dca-1064-4248-9422-a31f770514b7",
+              "title": "Câu hỏi bổ sung về Châu Đại Dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Đại Dương (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Đại Dương.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "15601db4-465d-487a-8225-c9ad7bde6c76",
+              "title": "Câu hỏi bổ sung về Châu Đại Dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Đại Dương (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Đại Dương.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "734cd79f-5068-4fb2-bd27-d4bfb69bf2ab",
+              "title": "Câu hỏi bổ sung về Châu Đại Dương",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Đại Dương (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Đại Dương.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH4-L4",
+          "title": "Châu Nam Cực",
+          "exercises": [
+            {
+              "uuid": "06db5596-ed08-4d5b-a1ec-ae91488adae1",
+              "title": "Tự luận: Nêu hiểu biết của em về Châu Nam Cực",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Châu Nam Cực. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Châu Nam Cực.",
+              "answer": "Đây là câu trả lời ngắn gọn về Châu Nam Cực. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "50ae33bf-1904-48c7-97ad-9ea94e31f6af",
+              "title": "Câu hỏi bổ sung về Châu Nam Cực",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Nam Cực (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Nam Cực.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "cfcdbae3-cac6-4ec2-a777-9ad2810ea112",
+              "title": "Câu hỏi bổ sung về Châu Nam Cực",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Nam Cực (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Nam Cực.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "0122742d-0eb3-46fa-a928-d2cf049df2a5",
+              "title": "Câu hỏi bổ sung về Châu Nam Cực",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Nam Cực (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Nam Cực.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "cc63d2a5-904e-459c-85d3-4f3004419fe9",
+              "title": "Câu hỏi bổ sung về Châu Nam Cực",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Châu Nam Cực (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Châu Nam Cực.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Thiên nhiên, con người ở các châu lục (tiếp)",
+      "lessons": [
+        {
+          "code": "GEO7-CH5-L1",
+          "title": "Vị trí và địa hình châu Âu",
+          "exercises": [
+            {
+              "uuid": "373670c4-7267-46f9-965a-c31f6f0e6ac3",
+              "title": "Tự luận: Nêu hiểu biết của em về Vị trí và địa hình châu Âu",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Vị trí và địa hình châu Âu. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Vị trí và địa hình châu Âu.",
+              "answer": "Đây là câu trả lời ngắn gọn về Vị trí và địa hình châu Âu. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "72af9292-6bfd-4c40-823a-0b6b7e03a063",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Âu.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "4639ef55-ba07-4f16-84cc-0d6700a105fc",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Âu.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "c771766a-295c-43e6-9f84-c1171f67f953",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Âu.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "a06c3c17-8de3-4217-8faf-d3a0eec58ce7",
+              "title": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Vị trí và địa hình châu Âu (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vị trí và địa hình châu Âu.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH5-L2",
+          "title": "Khí hậu và dân cư",
+          "exercises": [
+            {
+              "uuid": "189fd165-cb6b-4178-9938-dc99785fc055",
+              "title": "Tự luận: Nêu hiểu biết của em về Khí hậu và dân cư",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Khí hậu và dân cư. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Khí hậu và dân cư.",
+              "answer": "Đây là câu trả lời ngắn gọn về Khí hậu và dân cư. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "12c5b432-e46b-4894-abb4-251568052b04",
+              "title": "Câu hỏi bổ sung về Khí hậu và dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và dân cư (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và dân cư.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "2a6440aa-e09a-453f-8dde-d090288ab266",
+              "title": "Câu hỏi bổ sung về Khí hậu và dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và dân cư (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và dân cư.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "704b34b6-ec51-4c65-8061-ca2d787a3a02",
+              "title": "Câu hỏi bổ sung về Khí hậu và dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và dân cư (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và dân cư.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "2099e2af-fb7b-4493-9681-7848ab1e7b63",
+              "title": "Câu hỏi bổ sung về Khí hậu và dân cư",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Khí hậu và dân cư (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí hậu và dân cư.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH5-L3",
+          "title": "Ô nhiễm môi trường",
+          "exercises": [
+            {
+              "uuid": "d189dc46-aa71-4838-a89d-a25517e90f07",
+              "title": "Tự luận: Nêu hiểu biết của em về Ô nhiễm môi trường",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Ô nhiễm môi trường. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Ô nhiễm môi trường.",
+              "answer": "Đây là câu trả lời ngắn gọn về Ô nhiễm môi trường. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "da5264c3-c53d-4e65-9333-f07931c2d26a",
+              "title": "Câu hỏi bổ sung về Ô nhiễm môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ô nhiễm môi trường (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "300490d5-144f-46a4-aa5e-1a59a0ed4dd6",
+              "title": "Câu hỏi bổ sung về Ô nhiễm môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ô nhiễm môi trường (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "9cc03bb5-71ec-475c-ad25-3bed85b70605",
+              "title": "Câu hỏi bổ sung về Ô nhiễm môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ô nhiễm môi trường (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "a970c2ee-3996-49ea-8b18-948e6cff4b0a",
+              "title": "Câu hỏi bổ sung về Ô nhiễm môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ô nhiễm môi trường (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ô nhiễm môi trường.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "GEO7-CH5-L4",
+          "title": "Bảo vệ môi trường",
+          "exercises": [
+            {
+              "uuid": "b212a7ee-1cf8-4b5b-9e2e-184459eafebe",
+              "title": "Tự luận: Nêu hiểu biết của em về Bảo vệ môi trường",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Bảo vệ môi trường. Hãy trình bày ngắn gọn và rõ ràng.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Bảo vệ môi trường.",
+              "answer": "Đây là câu trả lời ngắn gọn về Bảo vệ môi trường. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "uuid": "825414eb-c89e-4574-9e8a-37672d21d7c7",
+              "title": "Câu hỏi bổ sung về Bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Bảo vệ môi trường (Câu 2/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "uuid": "0e583692-ce7f-4900-80fc-577ead11d52a",
+              "title": "Câu hỏi bổ sung về Bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Bảo vệ môi trường (Câu 3/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "uuid": "7faa2349-cc54-42cd-9bd9-d22283d3cdf7",
+              "title": "Câu hỏi bổ sung về Bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Bảo vệ môi trường (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:07.000Z"
+            },
+            {
+              "uuid": "f5dd04f3-0377-4c1a-adda-064b4173cc18",
+              "title": "Câu hỏi bổ sung về Bảo vệ môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Bảo vệ môi trường (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảo vệ môi trường.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

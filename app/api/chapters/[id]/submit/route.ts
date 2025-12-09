@@ -8,6 +8,7 @@ const submitChapterSchema = z.object({
   chapterId: z.number().optional(), // Optional, can also get from URL params
   exercises: z.record(z.string(), z.record(z.string(), z.string())), // { exerciseId: { questionId: "answer" } }
   status: z.enum(['draft', 'submitted']).optional().default('submitted'), // draft or submitted
+  level: z.enum(['easy', 'medium', 'hard']).optional(), // Độ khó: easy, medium, hard
 });
 
 export async function POST(
@@ -34,10 +35,12 @@ export async function POST(
     
     let exercisesAnswers: Record<string, Record<string, string>>;
     let submitStatus: 'draft' | 'submitted' = 'submitted';
+    let level: 'easy' | 'medium' | 'hard' | undefined;
     try {
       const parsed = submitChapterSchema.parse(body);
       exercisesAnswers = parsed.exercises;
       submitStatus = parsed.status || 'submitted';
+      level = parsed.level;
       
       // Use chapterId from body if provided, otherwise use from URL params
       if (parsed.chapterId) {
@@ -55,12 +58,14 @@ export async function POST(
     }
 
     // Get chapter with all exercises
+    // If level is provided, filter exercises by difficulty
     const chapter = await prisma.chapter.findUnique({
       where: { id: chapterId },
       include: {
         sections: {
           include: {
             exercises: {
+              ...(level ? { where: { difficulty: level } } : {}), // Filter by level if provided
               include: {
                 questions: {
                   orderBy: { order: 'asc' },
@@ -85,6 +90,7 @@ export async function POST(
     const results: Array<{
       exerciseId: number;
       correctCount: number;
+      answeredCount: number;
       totalQuestions: number;
       score: number;
       isCompleted: boolean;
@@ -112,49 +118,80 @@ export async function POST(
         continue;
       }
 
+      // Validate exercise difficulty matches the specified level (if provided)
+      if (level && exercise.difficulty !== level) {
+        console.warn(`Exercise ${exerciseId} has difficulty ${exercise.difficulty}, but submission specifies level ${level}. Skipping.`);
+        continue;
+      }
+
       // Calculate score and mark correct/incorrect for each question
+      // Only calculate for questions that user has answered
       let correctCount = 0;
-      let totalPoints = 0;
+      let answeredCount = 0;
+      let totalPoints = 0; // Total points of ALL questions (for percentage calculation)
+      let answeredPoints = 0; // Total points of answered questions only
       let earnedPoints = 0;
-      const questionResults: Record<string, { answer: string; isCorrect: boolean; points: number; earnedPoints: number }> = {};
+      const questionResults: Record<string, { answer: string; isCorrect: boolean; points: number; earnedPoints: number; isAnswered: boolean }> = {};
 
       exercise.questions.forEach((question: any) => {
-        totalPoints += question.points;
-        const userAnswer = (answers as Record<string, string>)[question.id.toString()] || '';
+        totalPoints += question.points; // Always add to total (for percentage)
+        const questionId = question.id.toString();
+        const userAnswer = (answers as Record<string, string>)[questionId];
+        const hasAnswer = userAnswer !== undefined && userAnswer !== null && userAnswer.trim() !== '';
         
-        // For multiple choice, userAnswer is the option key (A, B, C, D)
-        // Compare directly with question.answer (which should also be option key)
-        let isCorrect = false;
-        
-        if (exercise.type === 'multiple_choice') {
-          // Normalize option keys for comparison (A, B, C, D)
-          const normalizedUserAnswer = userAnswer.trim().toUpperCase();
-          const normalizedCorrectAnswer = question.answer.trim().toUpperCase();
-          isCorrect = normalizedUserAnswer === normalizedCorrectAnswer;
-        } else {
-          // For essay questions, compare text answers
-          const normalizedUserAnswer = userAnswer.trim().toLowerCase();
-          const normalizedCorrectAnswer = question.answer.trim().toLowerCase();
-          isCorrect = normalizedUserAnswer === normalizedCorrectAnswer;
-        }
-        
-        const earnedPointsForQuestion = isCorrect ? question.points : 0;
-        
-        questionResults[question.id.toString()] = {
-          answer: userAnswer,
-          isCorrect,
-          points: question.points,
-          earnedPoints: earnedPointsForQuestion,
-        };
+        // Only process if user has answered this question
+        if (hasAnswer) {
+          answeredCount++;
+          answeredPoints += question.points;
+          
+          // For multiple choice, userAnswer is the option key (A, B, C, D)
+          // Compare directly with question.answer (which should also be option key)
+          let isCorrect = false;
+          
+          if (exercise.type === 'multiple_choice') {
+            // Normalize option keys for comparison (A, B, C, D)
+            const normalizedUserAnswer = userAnswer.trim().toUpperCase();
+            const normalizedCorrectAnswer = question.answer.trim().toUpperCase();
+            isCorrect = normalizedUserAnswer === normalizedCorrectAnswer;
+          } else {
+            // For essay questions, compare text answers
+            const normalizedUserAnswer = userAnswer.trim().toLowerCase();
+            const normalizedCorrectAnswer = question.answer.trim().toLowerCase();
+            isCorrect = normalizedUserAnswer === normalizedCorrectAnswer;
+          }
+          
+          const earnedPointsForQuestion = isCorrect ? question.points : 0;
+          
+          questionResults[questionId] = {
+            answer: userAnswer,
+            isCorrect,
+            points: question.points,
+            earnedPoints: earnedPointsForQuestion,
+            isAnswered: true,
+          };
 
-        if (isCorrect) {
-          correctCount++;
-          earnedPoints += question.points;
+          if (isCorrect) {
+            correctCount++;
+            earnedPoints += question.points;
+          }
+        } else {
+          // Question not answered - mark as unanswered
+          questionResults[questionId] = {
+            answer: '',
+            isCorrect: false,
+            points: question.points,
+            earnedPoints: 0,
+            isAnswered: false,
+          };
         }
       });
 
+      // Calculate score based on answered questions only
+      // Score = (earned points / total points of all questions) * 100
+      // This gives percentage based on full exercise, not just answered questions
       const score = totalPoints > 0 ? (earnedPoints / totalPoints) * 100 : 0;
-      const isCompleted = correctCount === exercise.questions.length;
+      // Exercise is completed only if ALL questions are answered AND ALL are correct
+      const isCompleted = answeredCount === exercise.questions.length && correctCount === exercise.questions.length;
 
       // For draft status, don't calculate score or mark as completed
       // Only save answers without grading
@@ -163,18 +200,34 @@ export async function POST(
       const finalIsCompleted = submitStatus === 'draft' ? false : isCompleted;
 
       // Prepare answers with results for storage
+      // Store ALL questions (answered and unanswered) for consistency
       // For draft, don't include isCorrect in answers
       const answersWithResults: Record<string, any> = {};
-      Object.keys(answers as Record<string, string>).forEach((questionId) => {
+      exercise.questions.forEach((question: any) => {
+        const questionId = question.id.toString();
+        const questionResult = questionResults[questionId];
+        
         if (submitStatus === 'draft') {
-          // For draft, just save the answer without correctness
-          answersWithResults[questionId] = (answers as Record<string, string>)[questionId];
+          // For draft, only save answered questions without correctness
+          if (questionResult?.isAnswered) {
+            answersWithResults[questionId] = (answers as Record<string, string>)[questionId];
+          }
         } else {
-          // For submitted, include correctness
-          answersWithResults[questionId] = {
-            answer: (answers as Record<string, string>)[questionId],
-            isCorrect: questionResults[questionId]?.isCorrect || false,
-          };
+          // For submitted, include all questions (answered and unanswered)
+          // This allows tracking which questions were not answered
+          if (questionResult?.isAnswered) {
+            answersWithResults[questionId] = {
+              answer: questionResult.answer,
+              isCorrect: questionResult.isCorrect,
+            };
+          } else {
+            // Mark unanswered questions explicitly
+            answersWithResults[questionId] = {
+              answer: '',
+              isCorrect: false,
+              isAnswered: false,
+            };
+          }
         }
       });
 
@@ -248,6 +301,7 @@ export async function POST(
       results.push({
         exerciseId,
         correctCount,
+        answeredCount,
         totalQuestions: exercise.questions.length,
         score,
         isCompleted,
@@ -322,33 +376,16 @@ export async function POST(
         return isSubmitted;
       });
     
-    // Determine chapter status:
+    // Determine chapter status based on submitStatus from payload:
     // - If draft: always 'in_progress'
-    // - If submitted and all exercises submitted (not draft): 'completed'
-    //   (Note: We check if all exercises are submitted, not if all are correct)
-    // - If submitted but not all exercises submitted: 'in_progress'
-    let chapterStatus: 'not_started' | 'in_progress' | 'completed' = 'in_progress';
+    // - If submitted: use 'submitted' status (as specified in payload)
+    //   Note: 'completed' status should be set separately when all exercises are fully completed
+    let chapterStatus: 'not_started' | 'in_progress' | 'submitted' | 'completed' = 'in_progress';
     if (submitStatus === 'draft') {
       chapterStatus = 'in_progress';
     } else if (submitStatus === 'submitted') {
-      // When submitting, check if all exercises in chapter are now submitted
-      // This includes exercises submitted in this request + previously submitted exercises
-      if (allExercisesSubmitted) {
-        chapterStatus = 'completed';
-      } else {
-        // Check if all exercises that were submitted in this request cover all exercises in chapter
-        // OR if all exercises in chapter are now submitted (including previous submissions)
-        const exercisesSubmittedInThisRequest = submittedExerciseIds.size;
-        const totalExercisesInChapter = allExerciseIds.length;
-        
-        // If we submitted all exercises in this request, mark as completed
-        // Otherwise, if all exercises are now submitted (from this request + previous), mark as completed
-        if (exercisesSubmittedInThisRequest === totalExercisesInChapter || allExercisesSubmitted) {
-          chapterStatus = 'completed';
-        } else {
-          chapterStatus = 'in_progress';
-        }
-      }
+      // When status = submitted in payload, set chapter status to 'submitted'
+      chapterStatus = 'submitted';
     } else {
       chapterStatus = 'in_progress';
     }
@@ -391,6 +428,7 @@ export async function POST(
         results,
         chapterId: chapterId, // Include chapterId in response
         chapterStatus: chapterProgressResult.status, // Include updated chapter status
+        level: level || undefined, // Include level in response if provided
       },
       submitStatus === 'draft' 
         ? `Đã lưu nháp ${submittedCount} bài tập!`

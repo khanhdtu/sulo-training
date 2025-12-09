@@ -1,0 +1,115 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Tin học",
+  "subjectCode": "INFO5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Làm quen với máy tính",
+      "lessons": [
+        {
+          "code": "INFO5-CH1-L1",
+          "title": "Giới thiệu về máy tính"
+        },
+        {
+          "code": "INFO5-CH1-L2",
+          "title": "Các thành phần phần cứng"
+        },
+        {
+          "code": "INFO5-CH1-L3",
+          "title": "Sử dụng chuột máy tính"
+        },
+        {
+          "code": "INFO5-CH1-L4",
+          "title": "Sử dụng bàn phím"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Hệ điều hành Windows",
+      "lessons": [
+        {
+          "code": "INFO5-CH2-L1",
+          "title": "Màn hình Desktop và các biểu tượng"
+        },
+        {
+          "code": "INFO5-CH2-L2",
+          "title": "Thư mục và file"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Soạn thảo văn bản với Word",
+      "lessons": [
+        {
+          "code": "INFO5-CH3-L1",
+          "title": "Giao diện Microsoft Word"
+        },
+        {
+          "code": "INFO5-CH3-L2",
+          "title": "Tạo và lưu văn bản"
+        },
+        {
+          "code": "INFO5-CH3-L3",
+          "title": "Định dạng chữ"
+        },
+        {
+          "code": "INFO5-CH3-L4",
+          "title": "Định dạng đoạn văn"
+        },
+        {
+          "code": "INFO5-CH3-L5",
+          "title": "Chèn hình ảnh vào văn bản"
+        },
+        {
+          "code": "INFO5-CH3-L6",
+          "title": "Tạo và chỉnh sửa bảng"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Bảng tính với Excel",
+      "lessons": [
+        {
+          "code": "INFO5-CH4-L1",
+          "title": "Giao diện Microsoft Excel"
+        },
+        {
+          "code": "INFO5-CH4-L2",
+          "title": "Nhập dữ liệu vào ô"
+        },
+        {
+          "code": "INFO5-CH4-L3",
+          "title": "Sử dụng công thức đơn giản"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Internet và trình duyệt web",
+      "lessons": [
+        {
+          "code": "INFO5-CH5-L1",
+          "title": "Internet là gì?"
+        },
+        {
+          "code": "INFO5-CH5-L2",
+          "title": "An toàn trên Internet"
+        },
+        {
+          "code": "INFO5-CH5-L3",
+          "title": "Trình duyệt web"
+        },
+        {
+          "code": "INFO5-CH5-L4",
+          "title": "Tìm kiếm thông tin"
+        }
+      ]
+    }
+  ]
+}
+

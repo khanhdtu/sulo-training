@@ -1,0 +1,521 @@
+{
+  "grade": {
+    "name": "Lớp 7",
+    "level": 7,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Tin học",
+    "code": "INFO7",
+    "description": "Chương trình Tin học lớp 7 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "Chương 1: Mạng máy tính và Internet",
+      "order": 1,
+      "description": "Tìm hiểu về mạng máy tính, Internet và các dịch vụ trên Internet",
+      "sections": [
+        {
+          "name": "Khái niệm mạng máy tính",
+          "order": 1,
+          "description": "Tìm hiểu về mạng máy tính và các loại mạng",
+          "lessons": [
+            {
+              "title": "Mạng máy tính là gì?",
+              "type": "text",
+              "order": 1,
+              "content": "Mạng máy tính là hệ thống kết nối nhiều máy tính với nhau để chia sẻ tài nguyên và thông tin. Các loại mạng: LAN (mạng cục bộ), WAN (mạng diện rộng), Internet.",
+              "attachments": []
+            },
+            {
+              "title": "Các thành phần của mạng",
+              "type": "text",
+              "order": 2,
+              "content": "Các thành phần: máy tính, switch, router, cáp mạng, WiFi. Router kết nối mạng nội bộ với Internet.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về mạng máy tính",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Internet và các dịch vụ",
+          "order": 2,
+          "description": "Tìm hiểu về Internet và các dịch vụ phổ biến",
+          "lessons": [
+            {
+              "title": "Internet và World Wide Web",
+              "type": "text",
+              "order": 1,
+              "content": "Internet là mạng toàn cầu kết nối hàng tỷ máy tính. WWW là hệ thống thông tin trên Internet. URL là địa chỉ của trang web.",
+              "attachments": []
+            },
+            {
+              "title": "Email và các dịch vụ trực tuyến",
+              "type": "text",
+              "order": 2,
+              "content": "Email dùng để gửi nhận thư điện tử. Các dịch vụ: Google Drive (lưu trữ), YouTube (video), mạng xã hội.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về Internet",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        },
+        {
+          "name": "An toàn thông tin trên mạng",
+          "order": 3,
+          "description": "Học cách bảo vệ thông tin và an toàn trên Internet",
+          "lessons": [
+            {
+              "title": "Bảo mật thông tin cá nhân",
+              "type": "text",
+              "order": 1,
+              "content": "Không chia sẻ mật khẩu, thông tin cá nhân. Sử dụng mật khẩu mạnh (chữ, số, ký tự đặc biệt). Không click vào link lạ.",
+              "attachments": []
+            },
+            {
+              "title": "Virus và phần mềm độc hại",
+              "type": "text",
+              "order": 2,
+              "content": "Virus là phần mềm độc hại. Cách phòng tránh: cài phần mềm diệt virus, không tải file lạ, cập nhật hệ điều hành.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập an toàn thông tin",
+              "difficulty": "hard",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 2: Lập trình cơ bản với Scratch",
+      "order": 2,
+      "description": "Học lập trình cơ bản bằng ngôn ngữ Scratch",
+      "sections": [
+        {
+          "name": "Giới thiệu về lập trình",
+          "order": 1,
+          "description": "Tìm hiểu lập trình là gì và ngôn ngữ Scratch",
+          "lessons": [
+            {
+              "title": "Lập trình là gì?",
+              "type": "text",
+              "order": 1,
+              "content": "Lập trình là viết các lệnh để máy tính thực hiện công việc. Lập trình viên viết code, máy tính thực thi code.",
+              "attachments": []
+            },
+            {
+              "title": "Ngôn ngữ lập trình Scratch",
+              "type": "text",
+              "order": 2,
+              "content": "Scratch là ngôn ngữ lập trình kéo thả, dễ học cho người mới. Giao diện gồm: sân khấu (stage), nhân vật (sprite), khối lệnh (blocks).",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập giới thiệu Scratch",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Các khối lệnh cơ bản",
+          "order": 2,
+          "description": "Học các khối lệnh di chuyển, vòng lặp, điều kiện",
+          "lessons": [
+            {
+              "title": "Khối lệnh di chuyển",
+              "type": "text",
+              "order": 1,
+              "content": "Các khối: 'di chuyển 10 bước', 'quay 15 độ', 'đi tới vị trí x y'. Sử dụng để điều khiển nhân vật di chuyển.",
+              "attachments": []
+            },
+            {
+              "title": "Vòng lặp và điều kiện",
+              "type": "text",
+              "order": 2,
+              "content": "Vòng lặp 'lặp lại' để thực hiện lệnh nhiều lần. Điều kiện 'nếu...thì' để thực hiện lệnh khi điều kiện đúng.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập khối lệnh Scratch",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        },
+        {
+          "name": "Tạo dự án Scratch đơn giản",
+          "order": 3,
+          "description": "Thực hành tạo game hoặc animation đơn giản",
+          "lessons": [
+            {
+              "title": "Tạo animation đơn giản",
+              "type": "text",
+              "order": 1,
+              "content": "Tạo nhân vật di chuyển, đổi trang phục, phát âm thanh. Sử dụng vòng lặp để tạo hiệu ứng.",
+              "attachments": []
+            },
+            {
+              "title": "Tạo game đơn giản",
+              "type": "text",
+              "order": 2,
+              "content": "Tạo game như mèo đuổi chuột: nhân vật di chuyển theo chuột, tính điểm, kết thúc game.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập dự án Scratch",
+              "difficulty": "hard",
+              "type": "essay",
+              "order": 1,
+              "timeLimit": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 3: Thuật toán và tư duy lập trình",
+      "order": 3,
+      "description": "Học về thuật toán và cách giải quyết vấn đề bằng lập trình",
+      "sections": [
+        {
+          "name": "Khái niệm thuật toán",
+          "order": 1,
+          "description": "Tìm hiểu thuật toán là gì và cách biểu diễn",
+          "lessons": [
+            {
+              "title": "Thuật toán là gì?",
+              "type": "text",
+              "order": 1,
+              "content": "Thuật toán là các bước rõ ràng để giải quyết một vấn đề. Thuật toán phải: rõ ràng, có đầu vào/đầu ra, hữu hạn, hiệu quả.",
+              "attachments": []
+            },
+            {
+              "title": "Biểu diễn thuật toán",
+              "type": "text",
+              "order": 2,
+              "content": "Có thể biểu diễn bằng: liệt kê các bước, sơ đồ khối (flowchart), mã giả (pseudocode).",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về thuật toán",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        },
+        {
+          "name": "Các cấu trúc điều khiển",
+          "order": 2,
+          "description": "Học về tuần tự, rẽ nhánh, vòng lặp",
+          "lessons": [
+            {
+              "title": "Cấu trúc tuần tự",
+              "type": "text",
+              "order": 1,
+              "content": "Thực hiện các lệnh theo thứ tự từ trên xuống dưới. Ví dụ: nhập số a, nhập số b, tính tổng = a + b, in tổng.",
+              "attachments": []
+            },
+            {
+              "title": "Cấu trúc rẽ nhánh",
+              "type": "text",
+              "order": 2,
+              "content": "Nếu điều kiện đúng thì làm A, nếu sai thì làm B. Ví dụ: nếu điểm >= 5 thì đậu, ngược lại thì rớt.",
+              "attachments": []
+            },
+            {
+              "title": "Cấu trúc vòng lặp",
+              "type": "text",
+              "order": 3,
+              "content": "Lặp lại một nhóm lệnh nhiều lần. Vòng lặp có điều kiện: lặp khi điều kiện còn đúng. Vòng lặp với số lần xác định.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập cấu trúc điều khiển",
+              "difficulty": "hard",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        },
+        {
+          "name": "Giải quyết bài toán bằng thuật toán",
+          "order": 3,
+          "description": "Thực hành phân tích và giải quyết các bài toán",
+          "lessons": [
+            {
+              "title": "Phân tích bài toán",
+              "type": "text",
+              "order": 1,
+              "content": "Bước 1: Đọc kỹ đề bài. Bước 2: Xác định đầu vào, đầu ra. Bước 3: Tìm cách giải. Bước 4: Viết thuật toán. Bước 5: Kiểm tra.",
+              "attachments": []
+            },
+            {
+              "title": "Ví dụ: Tính tổng các số từ 1 đến n",
+              "type": "text",
+              "order": 2,
+              "content": "Đầu vào: số n. Đầu ra: tổng. Thuật toán: khởi tạo tổng = 0, lặp i từ 1 đến n, cộng i vào tổng, in tổng.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập giải quyết bài toán",
+              "difficulty": "hard",
+              "type": "essay",
+              "order": 1,
+              "timeLimit": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 4: Xử lý dữ liệu với Excel nâng cao",
+      "order": 4,
+      "description": "Học các chức năng nâng cao của Excel",
+      "sections": [
+        {
+          "name": "Hàm trong Excel",
+          "order": 1,
+          "description": "Học các hàm SUM, AVERAGE, MAX, MIN, IF",
+          "lessons": [
+            {
+              "title": "Hàm SUM và AVERAGE",
+              "type": "text",
+              "order": 1,
+              "content": "SUM(vùng) tính tổng các số trong vùng. AVERAGE(vùng) tính trung bình. Ví dụ: =SUM(A1:A10), =AVERAGE(B1:B5).",
+              "attachments": []
+            },
+            {
+              "title": "Hàm MAX, MIN, COUNT",
+              "type": "text",
+              "order": 2,
+              "content": "MAX(vùng) tìm số lớn nhất. MIN(vùng) tìm số nhỏ nhất. COUNT(vùng) đếm số ô có số.",
+              "attachments": []
+            },
+            {
+              "title": "Hàm IF",
+              "type": "text",
+              "order": 3,
+              "content": "IF(điều kiện, giá trị nếu đúng, giá trị nếu sai). Ví dụ: =IF(A1>=5, \"Đậu\", \"Rớt\").",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập hàm Excel",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        },
+        {
+          "name": "Sắp xếp và lọc dữ liệu",
+          "order": 2,
+          "description": "Học cách sắp xếp và lọc dữ liệu trong bảng",
+          "lessons": [
+            {
+              "title": "Sắp xếp dữ liệu",
+              "type": "text",
+              "order": 1,
+              "content": "Chọn vùng dữ liệu, vào Data > Sort. Sắp xếp tăng dần hoặc giảm dần theo cột. Có thể sắp xếp nhiều cột.",
+              "attachments": []
+            },
+            {
+              "title": "Lọc dữ liệu (Filter)",
+              "type": "text",
+              "order": 2,
+              "content": "Chọn vùng, vào Data > Filter. Click mũi tên ở tiêu đề cột để lọc. Có thể lọc theo giá trị, điều kiện.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập sắp xếp và lọc",
+              "difficulty": "hard",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        },
+        {
+          "name": "Biểu đồ trong Excel",
+          "order": 3,
+          "description": "Học cách tạo và chỉnh sửa biểu đồ",
+          "lessons": [
+            {
+              "title": "Tạo biểu đồ",
+              "type": "text",
+              "order": 1,
+              "content": "Chọn vùng dữ liệu, vào Insert > Chart. Chọn loại biểu đồ: cột, tròn, đường. Biểu đồ giúp trực quan hóa dữ liệu.",
+              "attachments": []
+            },
+            {
+              "title": "Chỉnh sửa biểu đồ",
+              "type": "text",
+              "order": 2,
+              "content": "Thêm tiêu đề, nhãn trục, chú giải. Thay đổi màu sắc, kiểu biểu đồ. Định dạng các thành phần.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập biểu đồ Excel",
+              "difficulty": "hard",
+              "type": "essay",
+              "order": 1,
+              "timeLimit": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 5: Thiết kế và trình bày với PowerPoint",
+      "order": 5,
+      "description": "Học cách tạo bài thuyết trình với PowerPoint",
+      "sections": [
+        {
+          "name": "Làm quen với PowerPoint",
+          "order": 1,
+          "description": "Giới thiệu PowerPoint và cách tạo slide",
+          "lessons": [
+            {
+              "title": "Giao diện PowerPoint",
+              "type": "text",
+              "order": 1,
+              "content": "PowerPoint dùng để tạo bài thuyết trình. Giao diện: slide pane (danh sách slide), slide area (vùng soạn thảo), notes pane (ghi chú).",
+              "attachments": []
+            },
+            {
+              "title": "Tạo slide mới",
+              "type": "text",
+              "order": 2,
+              "content": "Home > New Slide để thêm slide. Chọn layout (bố cục): Title Slide, Title and Content, Blank. Thêm nội dung vào slide.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập cơ bản PowerPoint",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Thiết kế slide",
+          "order": 2,
+          "description": "Học cách thiết kế slide đẹp và chuyên nghiệp",
+          "lessons": [
+            {
+              "title": "Chèn hình ảnh và video",
+              "type": "text",
+              "order": 1,
+              "content": "Insert > Pictures để chèn hình. Insert > Video để chèn video. Điều chỉnh kích thước, vị trí. Thêm hiệu ứng.",
+              "attachments": []
+            },
+            {
+              "title": "Thiết kế theme và màu sắc",
+              "type": "text",
+              "order": 2,
+              "content": "Design > Themes để chọn theme. Thay đổi màu sắc, font chữ. Tạo slide master để đồng nhất thiết kế.",
+              "attachments": []
+            },
+            {
+              "title": "Hiệu ứng và animation",
+              "type": "text",
+              "order": 3,
+              "content": "Animation > Add Animation để thêm hiệu ứng. Transition để chuyển slide. Timing để điều chỉnh tốc độ.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập thiết kế PowerPoint",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        },
+        {
+          "name": "Trình bày bài thuyết trình",
+          "order": 3,
+          "description": "Học cách trình bày và chia sẻ bài thuyết trình",
+          "lessons": [
+            {
+              "title": "Chế độ trình bày",
+              "type": "text",
+              "order": 1,
+              "content": "F5 hoặc Slide Show > From Beginning để bắt đầu trình bày. Mũi tên để chuyển slide. ESC để thoát. Presenter View để xem ghi chú.",
+              "attachments": []
+            },
+            {
+              "title": "Lưu và chia sẻ",
+              "type": "text",
+              "order": 2,
+              "content": "Lưu file .pptx. File > Export để xuất PDF, video. Share để chia sẻ online. In handout để in slide.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập trình bày PowerPoint",
+              "difficulty": "hard",
+              "type": "essay",
+              "order": 1,
+              "timeLimit": 40
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

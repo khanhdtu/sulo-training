@@ -300,30 +300,39 @@ export async function GET(
           : 0;
         
         // Determine status based on exercises of user's difficulty level
-        // Priority: 1. Check draft exercises (highest priority), 2. Check completed exercises, 3. Check DB status
+        // Priority: 1. Check DB status (submitted/completed) - highest priority, 2. Check draft exercises, 3. Check completed exercises
         let status = 'not_started';
         
-        // First priority: Check if there are draft exercises (for user's difficulty level)
+        // FIRST PRIORITY: Check DB status - if chapter is already submitted or completed, use DB status
+        // This ensures that once a chapter is submitted, the status remains 'submitted' or 'completed'
+        if (chapterProgressData && (chapterProgressData.status === 'submitted' || chapterProgressData.status === 'completed')) {
+          status = chapterProgressData.status;
+        }
+        // Second priority: Check if there are draft exercises (for user's difficulty level)
         // If has draft exercises, always set to 'in_progress' (user is working on it)
-        if (hasDraftExercises) {
+        else if (hasDraftExercises) {
           status = 'in_progress';
         } 
-        // Second priority: Check if all exercises of user's level are completed
+        // Third priority: Check if all exercises of user's level are completed
         else if (totalExercises > 0 && completedExercises === totalExercises) {
           status = 'completed';
         }
-        // Third priority: Check if there are any attempts (submitted exercises of user's level)
+        // Fourth priority: Check if there are any attempts (submitted exercises of user's level)
         else if (hasAnyAttempts) {
           status = 'in_progress';
         }
-        // Fourth priority: Check chapterProgressData from DB (as fallback, but recalculate based on user's level)
+        // Fifth priority: Check chapterProgressData from DB (as fallback)
         // Only use DB status if we have no exercises of user's level and DB has data
         else if (totalExercises === 0 && chapterProgressData && (chapterProgressData.status === 'in_progress' || chapterProgressData.status === 'completed')) {
           // If no exercises of user's level exist, use DB status as fallback
           status = chapterProgressData.status;
         }
+        // Sixth priority: Use DB status if available (for not_started or in_progress)
+        else if (chapterProgressData && chapterProgressData.status) {
+          status = chapterProgressData.status;
+        }
         
-        // Use calculated status (which is based on exercises of user's difficulty level)
+        // Use calculated status (which respects DB status for submitted/completed chapters)
         const finalStatus = status;
         
         return {

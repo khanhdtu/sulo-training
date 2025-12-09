@@ -1,0 +1,359 @@
+{
+  "grade": {
+    "name": "Lớp 5",
+    "level": 5,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Tin học",
+    "code": "INFO5",
+    "description": "Chương trình Tin học lớp 5 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "Chương 1: Làm quen với máy tính",
+      "order": 1,
+      "description": "Giới thiệu các thành phần cơ bản của máy tính và cách sử dụng",
+      "sections": [
+        {
+          "name": "Các thành phần của máy tính",
+          "order": 1,
+          "description": "Tìm hiểu về các bộ phận chính của máy tính",
+          "lessons": [
+            {
+              "title": "Giới thiệu về máy tính",
+              "type": "text",
+              "order": 1,
+              "content": "Máy tính là công cụ giúp chúng ta học tập, làm việc và giải trí. Máy tính gồm các bộ phận chính: màn hình, bàn phím, chuột, thân máy (CPU).",
+              "attachments": []
+            },
+            {
+              "title": "Các thành phần phần cứng",
+              "type": "text",
+              "order": 2,
+              "content": "Phần cứng là các bộ phận vật lý của máy tính: màn hình, bàn phím, chuột, loa, webcam. Mỗi bộ phận có chức năng riêng.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập nhận biết các thành phần máy tính",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Cách sử dụng chuột và bàn phím",
+          "order": 2,
+          "description": "Học cách sử dụng chuột và bàn phím cơ bản",
+          "lessons": [
+            {
+              "title": "Sử dụng chuột máy tính",
+              "type": "text",
+              "order": 1,
+              "content": "Chuột có các nút: nút trái, nút phải, bánh lăn. Các thao tác: click, double-click, right-click, kéo thả.",
+              "attachments": []
+            },
+            {
+              "title": "Sử dụng bàn phím",
+              "type": "text",
+              "order": 2,
+              "content": "Bàn phím có các phím chữ, số, phím chức năng. Cách gõ phím đúng tư thế và nhanh.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập thực hành chuột và bàn phím",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 2: Hệ điều hành Windows",
+      "order": 2,
+      "description": "Tìm hiểu về hệ điều hành và cách sử dụng cơ bản",
+      "sections": [
+        {
+          "name": "Màn hình Desktop",
+          "order": 1,
+          "description": "Làm quen với màn hình Desktop và các biểu tượng",
+          "lessons": [
+            {
+              "title": "Màn hình Desktop và các biểu tượng",
+              "type": "text",
+              "order": 1,
+              "content": "Desktop là màn hình chính của Windows. Trên Desktop có các biểu tượng (icon) đại diện cho chương trình, thư mục, file.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về Desktop",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Quản lý thư mục và file",
+          "order": 2,
+          "description": "Học cách tạo, đổi tên, xóa thư mục và file",
+          "lessons": [
+            {
+              "title": "Thư mục và file",
+              "type": "text",
+              "order": 1,
+              "content": "Thư mục dùng để chứa các file và thư mục khác. File chứa dữ liệu. Cách tạo, đổi tên, xóa thư mục và file.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập quản lý thư mục",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 3: Soạn thảo văn bản với Word",
+      "order": 3,
+      "description": "Học cách sử dụng Microsoft Word để soạn thảo văn bản",
+      "sections": [
+        {
+          "name": "Làm quen với Word",
+          "order": 1,
+          "description": "Giới thiệu giao diện và các chức năng cơ bản",
+          "lessons": [
+            {
+              "title": "Giao diện Microsoft Word",
+              "type": "text",
+              "order": 1,
+              "content": "Word là phần mềm soạn thảo văn bản. Giao diện gồm: thanh tiêu đề, thanh công cụ, vùng soạn thảo, thanh cuộn.",
+              "attachments": []
+            },
+            {
+              "title": "Tạo và lưu văn bản",
+              "type": "text",
+              "order": 2,
+              "content": "Cách tạo văn bản mới, gõ chữ, lưu văn bản với tên file. Các định dạng file: .docx, .doc.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập cơ bản về Word",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Định dạng văn bản",
+          "order": 2,
+          "description": "Học cách định dạng chữ, đoạn văn",
+          "lessons": [
+            {
+              "title": "Định dạng chữ",
+              "type": "text",
+              "order": 1,
+              "content": "Cách thay đổi font chữ, cỡ chữ, màu chữ, in đậm, in nghiêng, gạch chân.",
+              "attachments": []
+            },
+            {
+              "title": "Định dạng đoạn văn",
+              "type": "text",
+              "order": 2,
+              "content": "Căn lề trái, phải, giữa, đều hai bên. Khoảng cách dòng, khoảng cách đoạn.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập định dạng văn bản",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        },
+        {
+          "name": "Chèn hình ảnh và bảng",
+          "order": 3,
+          "description": "Học cách chèn hình ảnh và tạo bảng",
+          "lessons": [
+            {
+              "title": "Chèn hình ảnh vào văn bản",
+              "type": "text",
+              "order": 1,
+              "content": "Cách chèn hình ảnh từ máy tính vào văn bản. Điều chỉnh kích thước, vị trí hình ảnh.",
+              "attachments": []
+            },
+            {
+              "title": "Tạo và chỉnh sửa bảng",
+              "type": "text",
+              "order": 2,
+              "content": "Cách tạo bảng, thêm/xóa hàng cột, định dạng bảng.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập chèn hình và bảng",
+              "difficulty": "hard",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 4: Bảng tính với Excel",
+      "order": 4,
+      "description": "Học cách sử dụng Microsoft Excel cơ bản",
+      "sections": [
+        {
+          "name": "Làm quen với Excel",
+          "order": 1,
+          "description": "Giới thiệu về Excel và giao diện",
+          "lessons": [
+            {
+              "title": "Giao diện Microsoft Excel",
+              "type": "text",
+              "order": 1,
+              "content": "Excel là phần mềm bảng tính. Giao diện gồm: các ô (cell), hàng (row), cột (column), thanh công thức.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập cơ bản về Excel",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 15
+            }
+          ]
+        },
+        {
+          "name": "Nhập dữ liệu và công thức",
+          "order": 2,
+          "description": "Học cách nhập dữ liệu và sử dụng công thức đơn giản",
+          "lessons": [
+            {
+              "title": "Nhập dữ liệu vào ô",
+              "type": "text",
+              "order": 1,
+              "content": "Cách nhập số, chữ, ngày tháng vào các ô. Định dạng dữ liệu.",
+              "attachments": []
+            },
+            {
+              "title": "Sử dụng công thức đơn giản",
+              "type": "text",
+              "order": 2,
+              "content": "Công thức bắt đầu bằng dấu =. Các phép toán: +, -, *, /. Ví dụ: =A1+B1, =SUM(A1:A5).",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập công thức Excel",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chương 5: Internet và trình duyệt web",
+      "order": 5,
+      "description": "Tìm hiểu về Internet và cách sử dụng trình duyệt web",
+      "sections": [
+        {
+          "name": "Giới thiệu về Internet",
+          "order": 1,
+          "description": "Tìm hiểu Internet là gì và các ứng dụng",
+          "lessons": [
+            {
+              "title": "Internet là gì?",
+              "type": "text",
+              "order": 1,
+              "content": "Internet là mạng máy tính toàn cầu. Internet giúp tìm kiếm thông tin, gửi email, xem video, chơi game online.",
+              "attachments": []
+            },
+            {
+              "title": "An toàn trên Internet",
+              "type": "text",
+              "order": 2,
+              "content": "Không chia sẻ thông tin cá nhân, không mở email lạ, không tải file không rõ nguồn gốc. Luôn hỏi người lớn khi gặp điều lạ.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập về Internet",
+              "difficulty": "easy",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        },
+        {
+          "name": "Sử dụng trình duyệt web",
+          "order": 2,
+          "description": "Học cách sử dụng trình duyệt để truy cập website",
+          "lessons": [
+            {
+              "title": "Trình duyệt web",
+              "type": "text",
+              "order": 1,
+              "content": "Trình duyệt web như Chrome, Edge dùng để xem các trang web. Thanh địa chỉ (address bar) để nhập địa chỉ website.",
+              "attachments": []
+            },
+            {
+              "title": "Tìm kiếm thông tin",
+              "type": "text",
+              "order": 2,
+              "content": "Cách sử dụng Google để tìm kiếm thông tin. Nhập từ khóa vào ô tìm kiếm, chọn kết quả phù hợp.",
+              "attachments": []
+            }
+          ],
+          "exercises": [
+            {
+              "title": "Bài tập sử dụng trình duyệt",
+              "difficulty": "medium",
+              "type": "multiple_choice",
+              "order": 1,
+              "timeLimit": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

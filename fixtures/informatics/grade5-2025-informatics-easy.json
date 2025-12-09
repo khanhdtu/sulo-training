@@ -1,0 +1,1334 @@
+{
+  "grade": 5,
+  "subject": "Tin học",
+  "subjectCode": "INFO5",
+  "difficulty": "easy",
+  "description": "Easy exercises for Grade 5 Informatics (Lớp 5 Tin học) - basic practice",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Chương 1: Làm quen với máy tính",
+      "lessons": [
+        {
+          "code": "INFO5-CH1-L1",
+          "title": "Giới thiệu về máy tính",
+          "exercises": [
+            {
+              "title": "Nhận biết các thành phần máy tính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thành phần nào sau đây KHÔNG phải là phần cứng của máy tính?",
+              "options": {
+                "A": "Màn hình",
+                "B": "Bàn phím",
+                "C": "Microsoft Word",
+                "D": "Chuột"
+              },
+              "correctOption": "C",
+              "hint": "Phần cứng là các bộ phận vật lý có thể sờ được. Phần mềm là chương trình chạy trên máy tính.",
+              "created_at": "2025-01-01T00:00:00.000Z"
+            },
+            {
+              "title": "Chức năng của màn hình",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Màn hình máy tính có chức năng gì?",
+              "options": {
+                "A": "Hiển thị thông tin",
+                "B": "Nhập dữ liệu",
+                "C": "Lưu trữ dữ liệu",
+                "D": "Xử lý dữ liệu"
+              },
+              "correctOption": "A",
+              "hint": "Màn hình dùng để hiển thị hình ảnh, văn bản cho người dùng xem.",
+              "created_at": "2025-01-01T00:00:01.000Z"
+            },
+            {
+              "title": "Các bộ phận chính của máy tính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bộ phận nào được gọi là 'bộ não' của máy tính?",
+              "options": {
+                "A": "Màn hình",
+                "B": "CPU (thân máy)",
+                "C": "Bàn phím",
+                "D": "Chuột"
+              },
+              "correctOption": "B",
+              "hint": "CPU (Central Processing Unit) là bộ xử lý trung tâm, xử lý mọi thông tin và lệnh.",
+              "created_at": "2025-01-01T00:00:02.000Z"
+            },
+            {
+              "title": "Phân biệt phần cứng và phần mềm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ví dụ nào sau đây là phần mềm?",
+              "options": {
+                "A": "Màn hình",
+                "B": "Bàn phím",
+                "C": "Microsoft Word",
+                "D": "Chuột"
+              },
+              "correctOption": "C",
+              "hint": "Phần mềm là chương trình chạy trên máy tính, không phải thiết bị vật lý.",
+              "created_at": "2025-01-01T00:00:03.000Z"
+            },
+            {
+              "title": "Chức năng của bàn phím",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bàn phím máy tính dùng để làm gì?",
+              "options": {
+                "A": "Hiển thị thông tin",
+                "B": "Nhập dữ liệu vào máy tính",
+                "C": "Lưu trữ dữ liệu",
+                "D": "Xử lý dữ liệu"
+              },
+              "correctOption": "B",
+              "hint": "Bàn phím là thiết bị nhập, dùng để gõ chữ, số và các ký tự vào máy tính.",
+              "created_at": "2025-01-01T00:00:04.000Z"
+            },
+            {
+              "title": "Chức năng của chuột",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Chuột máy tính dùng để làm gì?",
+              "options": {
+                "A": "Hiển thị thông tin",
+                "B": "Điều khiển con trỏ trên màn hình",
+                "C": "Lưu trữ dữ liệu",
+                "D": "Xử lý dữ liệu"
+              },
+              "correctOption": "B",
+              "hint": "Chuột dùng để di chuyển con trỏ, click, chọn và điều khiển các đối tượng trên màn hình.",
+              "created_at": "2025-01-01T00:00:05.000Z"
+            },
+            {
+              "title": "Ổ cứng máy tính",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ổ cứng (hard drive) của máy tính dùng để làm gì?",
+              "options": {
+                "A": "Hiển thị thông tin",
+                "B": "Nhập dữ liệu",
+                "C": "Lưu trữ dữ liệu lâu dài",
+                "D": "Xử lý dữ liệu"
+              },
+              "correctOption": "C",
+              "hint": "Ổ cứng lưu trữ dữ liệu như file, chương trình, hình ảnh... ngay cả khi tắt máy.",
+              "created_at": "2025-01-01T00:00:06.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH1-L3",
+          "title": "Sử dụng chuột máy tính",
+          "exercises": [
+            {
+              "title": "Thao tác click chuột",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để chọn một biểu tượng trên màn hình, em cần thao tác gì?",
+              "options": {
+                "A": "Double-click (nhấp đúp)",
+                "B": "Click một lần (nhấp đơn)",
+                "C": "Right-click (nhấp phải)",
+                "D": "Kéo thả"
+              },
+              "correctOption": "B",
+              "hint": "Click một lần (single-click) dùng để chọn đối tượng. Double-click để mở.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "title": "Thao tác double-click",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thao tác double-click (nhấp đúp) dùng để làm gì?",
+              "options": {
+                "A": "Chọn đối tượng",
+                "B": "Mở đối tượng",
+                "C": "Xóa đối tượng",
+                "D": "Sao chép đối tượng"
+              },
+              "correctOption": "B",
+              "hint": "Double-click (nhấp đúp) dùng để mở file, thư mục hoặc chương trình.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "title": "Thao tác right-click",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thao tác right-click (nhấp phải) dùng để làm gì?",
+              "options": {
+                "A": "Mở đối tượng",
+                "B": "Hiển thị menu ngữ cảnh",
+                "C": "Xóa đối tượng",
+                "D": "Sao chép đối tượng"
+              },
+              "correctOption": "B",
+              "hint": "Right-click (nhấp phải) hiển thị menu ngữ cảnh với các tùy chọn như Copy, Paste, Delete...",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "title": "Thao tác kéo thả",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thao tác kéo thả (drag and drop) dùng để làm gì?",
+              "options": {
+                "A": "Chọn đối tượng",
+                "B": "Di chuyển hoặc sao chép file/thư mục",
+                "C": "Xóa đối tượng",
+                "D": "Mở đối tượng"
+              },
+              "correctOption": "B",
+              "hint": "Kéo thả: nhấn giữ chuột trái, di chuyển đến vị trí mới, thả ra để di chuyển hoặc sao chép.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "title": "Con trỏ chuột",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Con trỏ chuột (cursor) trên màn hình di chuyển theo gì?",
+              "options": {
+                "A": "Di chuyển của bàn phím",
+                "B": "Di chuyển của chuột",
+                "C": "Di chuyển của màn hình",
+                "D": "Tự động di chuyển"
+              },
+              "correctOption": "B",
+              "hint": "Con trỏ chuột di chuyển theo chuyển động của chuột trên bàn di chuột hoặc mặt phẳng.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "title": "Nút chuột trái",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nút chuột trái dùng để làm gì?",
+              "options": {
+                "A": "Chọn, mở, kéo thả",
+                "B": "Hiển thị menu",
+                "C": "Cuộn trang",
+                "D": "Xóa đối tượng"
+              },
+              "correctOption": "A",
+              "hint": "Nút chuột trái dùng để chọn, mở, kéo thả đối tượng. Đây là nút được dùng nhiều nhất.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH1-L4",
+          "title": "Sử dụng bàn phím",
+          "exercises": [
+            {
+              "title": "Phím Enter",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Enter trên bàn phím có chức năng gì?",
+              "options": {
+                "A": "Xóa ký tự",
+                "B": "Xuống dòng mới hoặc xác nhận lệnh",
+                "C": "In hoa chữ",
+                "D": "Cách chữ"
+              },
+              "correctOption": "B",
+              "hint": "Phím Enter dùng để xuống dòng mới khi soạn thảo hoặc xác nhận một lệnh.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "title": "Phím Space",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Space (phím cách) dùng để làm gì?",
+              "options": {
+                "A": "Xuống dòng",
+                "B": "Tạo khoảng trống giữa các từ",
+                "C": "Xóa ký tự",
+                "D": "In hoa"
+              },
+              "correctOption": "B",
+              "hint": "Phím Space (phím dài nhất) dùng để tạo khoảng trống giữa các từ khi gõ.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "title": "Phím Backspace",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Backspace dùng để làm gì?",
+              "options": {
+                "A": "Xuống dòng",
+                "B": "Xóa ký tự bên trái con trỏ",
+                "C": "Tạo khoảng trống",
+                "D": "In hoa"
+              },
+              "correctOption": "B",
+              "hint": "Phím Backspace (mũi tên trái) xóa ký tự bên trái con trỏ, dùng để sửa lỗi khi gõ.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "title": "Phím Delete",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Delete dùng để làm gì?",
+              "options": {
+                "A": "Xóa ký tự bên trái con trỏ",
+                "B": "Xóa ký tự bên phải con trỏ",
+                "C": "Tạo khoảng trống",
+                "D": "Xuống dòng"
+              },
+              "correctOption": "B",
+              "hint": "Phím Delete xóa ký tự bên phải con trỏ, khác với Backspace xóa bên trái.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "title": "Phím Shift",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Shift dùng để làm gì?",
+              "options": {
+                "A": "Xóa ký tự",
+                "B": "Gõ chữ hoa hoặc ký tự trên",
+                "C": "Xuống dòng",
+                "D": "Cách chữ"
+              },
+              "correctOption": "B",
+              "hint": "Giữ phím Shift và nhấn phím chữ sẽ gõ chữ hoa. Giữ Shift và nhấn phím số sẽ gõ ký tự trên (ví dụ: !, @, #).",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "title": "Phím Caps Lock",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím Caps Lock dùng để làm gì?",
+              "options": {
+                "A": "Xóa ký tự",
+                "B": "Bật/tắt chế độ gõ chữ hoa",
+                "C": "Xuống dòng",
+                "D": "Cách chữ"
+              },
+              "correctOption": "B",
+              "hint": "Caps Lock bật/tắt chế độ gõ chữ hoa. Khi bật, tất cả chữ sẽ là chữ hoa cho đến khi tắt.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Chương 2: Hệ điều hành Windows",
+      "lessons": [
+        {
+          "code": "INFO5-CH2-L1",
+          "title": "Màn hình Desktop và các biểu tượng",
+          "exercises": [
+            {
+              "title": "Màn hình Desktop",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Màn hình Desktop là gì?",
+              "options": {
+                "A": "Màn hình chính khi bật máy tính",
+                "B": "Màn hình tắt máy",
+                "C": "Màn hình khóa",
+                "D": "Màn hình đăng nhập"
+              },
+              "correctOption": "A",
+              "hint": "Desktop là màn hình làm việc chính của Windows, nơi có các biểu tượng và thanh taskbar.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "title": "Biểu tượng trên Desktop",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Biểu tượng (icon) trên Desktop đại diện cho gì?",
+              "options": {
+                "A": "Chương trình, thư mục, file",
+                "B": "Chỉ chương trình",
+                "C": "Chỉ thư mục",
+                "D": "Chỉ file"
+              },
+              "correctOption": "A",
+              "hint": "Biểu tượng có thể đại diện cho chương trình, thư mục, file hoặc shortcut.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH2-L2",
+          "title": "Thư mục và file",
+          "exercises": [
+            {
+              "title": "Thư mục là gì?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thư mục (folder) dùng để làm gì?",
+              "options": {
+                "A": "Chứa các file và thư mục khác",
+                "B": "Chỉ chứa file",
+                "C": "Chỉ chứa thư mục",
+                "D": "Lưu trữ dữ liệu tạm thời"
+              },
+              "correctOption": "A",
+              "hint": "Thư mục dùng để tổ chức và chứa các file, thư mục con để dễ quản lý.",
+              "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "title": "Tạo thư mục mới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào sau đây để tạo thư mục mới?",
+              "options": {
+                "A": "Click phải > New > Folder",
+                "B": "Double-click vào màn hình",
+                "C": "Nhấn phím Delete",
+                "D": "Kéo thả file"
+              },
+              "correctOption": "A",
+              "hint": "Click phải vào vùng trống, chọn New > Folder để tạo thư mục mới.",
+              "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "title": "Thanh Taskbar",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thanh Taskbar trong Windows nằm ở đâu?",
+              "options": {
+                "A": "Trên cùng màn hình",
+                "B": "Dưới cùng màn hình (thường)",
+                "C": "Bên trái",
+                "D": "Bên phải"
+              },
+              "correctOption": "B",
+              "hint": "Taskbar thường nằm ở dưới cùng màn hình, chứa nút Start, các chương trình đang chạy, đồng hồ.",
+              "created_at": "2025-12-09T03:43:08.301Z",
+              "order": 3
+            },
+            {
+              "title": "Nút Start",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nút Start trong Windows dùng để làm gì?",
+              "options": {
+                "A": "Tắt máy",
+                "B": "Mở menu chương trình và tìm kiếm",
+                "C": "Xóa file",
+                "D": "Lưu file"
+              },
+              "correctOption": "B",
+              "hint": "Nút Start mở menu Start, nơi có thể tìm và mở các chương trình, tìm kiếm file, cài đặt.",
+              "created_at": "2025-12-09T03:43:09.301Z",
+              "order": 4
+            },
+            {
+              "title": "Cửa sổ Windows",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nút X ở góc trên bên phải cửa sổ dùng để làm gì?",
+              "options": {
+                "A": "Thu nhỏ cửa sổ",
+                "B": "Đóng cửa sổ",
+                "C": "Phóng to cửa sổ",
+                "D": "Di chuyển cửa sổ"
+              },
+              "correctOption": "B",
+              "hint": "Nút X (màu đỏ) dùng để đóng cửa sổ. Nút _ để thu nhỏ, nút □ để phóng to/thu nhỏ.",
+              "created_at": "2025-12-09T03:43:10.301Z",
+              "order": 5
+            },
+            {
+              "title": "File Explorer",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "File Explorer (Windows Explorer) dùng để làm gì?",
+              "options": {
+                "A": "Soạn thảo văn bản",
+                "B": "Quản lý file và thư mục",
+                "C": "Tính toán",
+                "D": "Trình chiếu"
+              },
+              "correctOption": "B",
+              "hint": "File Explorer là công cụ quản lý file và thư mục, cho phép xem, sao chép, di chuyển, xóa file.",
+              "created_at": "2025-12-09T03:43:11.301Z",
+              "order": 6
+            },
+            {
+              "title": "Đổi tên file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào sau đây để đổi tên file?",
+              "options": {
+                "A": "Double-click vào file",
+                "B": "Click phải > Rename, hoặc click chậm 2 lần vào tên file",
+                "C": "Nhấn phím Delete",
+                "D": "Kéo thả file"
+              },
+              "correctOption": "B",
+              "hint": "Có 2 cách: click phải > Rename, hoặc click chậm 2 lần vào tên file (không phải double-click nhanh).",
+              "created_at": "2025-12-09T03:43:12.301Z",
+              "order": 7
+            },
+            {
+              "title": "Sao chép file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để sao chép file?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + C để Copy (sao chép). Ctrl + X để Cut (cắt). Ctrl + V để Paste (dán).",
+              "created_at": "2025-12-09T03:43:13.301Z",
+              "order": 8
+            },
+            {
+              "title": "Dán file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để dán file đã sao chép?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + V để Paste (dán) file đã Copy hoặc Cut vào vị trí mới.",
+              "created_at": "2025-12-09T03:43:14.301Z",
+              "order": 9
+            },
+            {
+              "title": "Thùng rác",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi xóa file bằng phím Delete, file sẽ đi đâu?",
+              "options": {
+                "A": "Mất vĩnh viễn",
+                "B": "Vào thùng rác (Recycle Bin)",
+                "C": "Vào thư mục khác",
+                "D": "Không thể xóa"
+              },
+              "correctOption": "B",
+              "hint": "Xóa bằng Delete sẽ đưa file vào Recycle Bin. Có thể khôi phục lại. Shift+Delete mới xóa vĩnh viễn.",
+              "created_at": "2025-12-09T03:43:15.301Z",
+              "order": 10
+            },
+            {
+              "title": "Khôi phục file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Làm thế nào để khôi phục file từ thùng rác?",
+              "options": {
+                "A": "Mở Recycle Bin > click phải file > Restore",
+                "B": "Nhấn phím Delete",
+                "C": "Kéo thả file",
+                "D": "Không thể khôi phục"
+              },
+              "correctOption": "A",
+              "hint": "Mở Recycle Bin, click phải vào file cần khôi phục, chọn Restore để đưa file về vị trí cũ.",
+              "created_at": "2025-12-09T03:43:16.301Z",
+              "order": 11
+            },
+            {
+              "title": "Tìm kiếm file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để tìm kiếm file trong Windows?",
+              "options": {
+                "A": "Nhấn phím Windows + S",
+                "B": "Click vào ô tìm kiếm trên Taskbar",
+                "C": "Cả A và B",
+                "D": "Không thể tìm kiếm"
+              },
+              "correctOption": "C",
+              "hint": "Có thể nhấn Windows + S hoặc click vào ô tìm kiếm trên Taskbar để tìm file, chương trình.",
+              "created_at": "2025-12-09T03:43:17.301Z",
+              "order": 12
+            },
+            {
+              "title": "Phím tắt mở File Explorer",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để mở File Explorer?",
+              "options": {
+                "A": "Windows + E",
+                "B": "Windows + S",
+                "C": "Ctrl + E",
+                "D": "Alt + E"
+              },
+              "correctOption": "A",
+              "hint": "Windows + E mở File Explorer nhanh chóng.",
+              "created_at": "2025-12-09T03:43:18.301Z",
+              "order": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Chương 3: Soạn thảo văn bản với Word",
+      "lessons": [
+        {
+          "code": "INFO5-CH3-L1",
+          "title": "Giao diện Microsoft Word",
+          "exercises": [
+            {
+              "title": "Phần mềm Word",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Microsoft Word là phần mềm dùng để làm gì?",
+              "options": {
+                "A": "Soạn thảo văn bản",
+                "B": "Tính toán",
+                "C": "Trình chiếu",
+                "D": "Vẽ hình"
+              },
+              "correctOption": "A",
+              "hint": "Word là phần mềm soạn thảo văn bản, dùng để gõ chữ, định dạng, in ấn.",
+              "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "title": "Vùng soạn thảo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vùng soạn thảo trong Word là nơi nào?",
+              "options": {
+                "A": "Thanh tiêu đề",
+                "B": "Vùng trắng lớn ở giữa màn hình",
+                "C": "Thanh công cụ",
+                "D": "Thanh cuộn"
+              },
+              "correctOption": "B",
+              "hint": "Vùng soạn thảo là vùng trắng lớn ở giữa, nơi em gõ chữ và soạn thảo văn bản.",
+              "created_at": "2025-01-01T00:00:51.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH3-L3",
+          "title": "Định dạng chữ",
+          "exercises": [
+            {
+              "title": "In đậm chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để in đậm chữ trong Word, em chọn chữ rồi nhấn phím tắt nào?",
+              "options": {
+                "A": "Ctrl + B",
+                "B": "Ctrl + I",
+                "C": "Ctrl + U",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + B (Bold) để in đậm. Ctrl + I (Italic) để in nghiêng. Ctrl + U (Underline) để gạch chân.",
+              "created_at": "2025-01-01T00:01:00.000Z"
+            },
+            {
+              "title": "Thay đổi cỡ chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để thay đổi cỡ chữ trong Word, em làm thế nào?",
+              "options": {
+                "A": "Chọn chữ > chọn cỡ chữ trong thanh công cụ",
+                "B": "Double-click vào chữ",
+                "C": "Nhấn phím Delete",
+                "D": "Kéo thả chữ"
+              },
+              "correctOption": "A",
+              "hint": "Chọn chữ cần đổi cỡ, sau đó chọn cỡ chữ (ví dụ: 12, 14, 16) trong thanh công cụ Home.",
+              "created_at": "2025-01-01T00:01:01.000Z"
+            },
+            {
+              "title": "Tạo văn bản mới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để tạo văn bản mới trong Word?",
+              "options": {
+                "A": "File > New > Blank Document",
+                "B": "File > Open",
+                "C": "File > Save",
+                "D": "File > Print"
+              },
+              "correctOption": "A",
+              "hint": "File > New > Blank Document để tạo văn bản mới. Hoặc nhấn Ctrl + N.",
+              "created_at": "2025-12-09T03:43:08.302Z",
+              "order": 3
+            },
+            {
+              "title": "Lưu văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để lưu văn bản trong Word?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + S để Save (lưu). Ctrl + N để New (mới). Ctrl + O để Open (mở). Ctrl + P để Print (in).",
+              "created_at": "2025-12-09T03:43:09.302Z",
+              "order": 4
+            },
+            {
+              "title": "Mở văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để mở file văn bản?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + O để Open (mở file). File > Open cũng có thể dùng.",
+              "created_at": "2025-12-09T03:43:10.302Z",
+              "order": 5
+            },
+            {
+              "title": "In văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để in văn bản?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "D",
+              "hint": "Ctrl + P để Print (in). File > Print cũng có thể dùng.",
+              "created_at": "2025-12-09T03:43:11.302Z",
+              "order": 6
+            },
+            {
+              "title": "Hoàn tác (Undo)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để hoàn tác thao tác vừa làm?",
+              "options": {
+                "A": "Ctrl + Z",
+                "B": "Ctrl + Y",
+                "C": "Ctrl + X",
+                "D": "Ctrl + C"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + Z để Undo (hoàn tác). Ctrl + Y để Redo (làm lại).",
+              "created_at": "2025-12-09T03:43:12.302Z",
+              "order": 7
+            },
+            {
+              "title": "Sao chép văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để sao chép văn bản đã chọn?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + C để Copy. Ctrl + X để Cut. Ctrl + V để Paste.",
+              "created_at": "2025-12-09T03:43:13.302Z",
+              "order": 8
+            },
+            {
+              "title": "Dán văn bản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để dán văn bản đã sao chép?",
+              "options": {
+                "A": "Ctrl + X",
+                "B": "Ctrl + C",
+                "C": "Ctrl + V",
+                "D": "Ctrl + Z"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + V để Paste (dán) văn bản đã Copy hoặc Cut.",
+              "created_at": "2025-12-09T03:43:14.302Z",
+              "order": 9
+            },
+            {
+              "title": "In nghiêng chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để in nghiêng chữ?",
+              "options": {
+                "A": "Ctrl + B",
+                "B": "Ctrl + I",
+                "C": "Ctrl + U",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + I (Italic) để in nghiêng. Ctrl + B (Bold) để in đậm. Ctrl + U (Underline) để gạch chân.",
+              "created_at": "2025-12-09T03:43:15.302Z",
+              "order": 10
+            },
+            {
+              "title": "Gạch chân chữ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để gạch chân chữ?",
+              "options": {
+                "A": "Ctrl + B",
+                "B": "Ctrl + I",
+                "C": "Ctrl + U",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + U (Underline) để gạch chân. Ctrl + B để in đậm. Ctrl + I để in nghiêng.",
+              "created_at": "2025-12-09T03:43:16.302Z",
+              "order": 11
+            },
+            {
+              "title": "Căn lề trái",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để căn lề trái đoạn văn?",
+              "options": {
+                "A": "Ctrl + L",
+                "B": "Ctrl + E",
+                "C": "Ctrl + R",
+                "D": "Ctrl + J"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + L để căn trái. Ctrl + E để căn giữa. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
+              "created_at": "2025-12-09T03:43:17.302Z",
+              "order": 12
+            },
+            {
+              "title": "Căn lề giữa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để căn lề giữa đoạn văn?",
+              "options": {
+                "A": "Ctrl + L",
+                "B": "Ctrl + E",
+                "C": "Ctrl + R",
+                "D": "Ctrl + J"
+              },
+              "correctOption": "B",
+              "hint": "Ctrl + E để căn giữa. Ctrl + L để căn trái. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
+              "created_at": "2025-12-09T03:43:18.302Z",
+              "order": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Chương 4: Bảng tính với Excel",
+      "lessons": [
+        {
+          "code": "INFO5-CH4-L1",
+          "title": "Giao diện Microsoft Excel",
+          "exercises": [
+            {
+              "title": "Phần mềm Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Microsoft Excel là phần mềm dùng để làm gì?",
+              "options": {
+                "A": "Soạn thảo văn bản",
+                "B": "Tính toán, lập bảng tính",
+                "C": "Trình chiếu",
+                "D": "Vẽ hình"
+              },
+              "correctOption": "B",
+              "hint": "Excel là phần mềm bảng tính, dùng để tính toán, lập bảng, vẽ biểu đồ.",
+              "created_at": "2025-01-01T00:01:10.000Z"
+            },
+            {
+              "title": "Ô trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ô (cell) trong Excel được xác định bởi gì?",
+              "options": {
+                "A": "Tên hàng",
+                "B": "Tên cột",
+                "C": "Tên cột và số hàng (ví dụ: A1, B2)",
+                "D": "Màu sắc"
+              },
+              "correctOption": "C",
+              "hint": "Mỗi ô có địa chỉ là tên cột (A, B, C...) kết hợp với số hàng (1, 2, 3...), ví dụ: A1, B2, C3.",
+              "created_at": "2025-01-01T00:01:11.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH4-L3",
+          "title": "Sử dụng công thức đơn giản",
+          "exercises": [
+            {
+              "title": "Công thức trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức trong Excel phải bắt đầu bằng ký tự gì?",
+              "options": {
+                "A": "+",
+                "B": "=",
+                "C": "-",
+                "D": "*"
+              },
+              "correctOption": "B",
+              "hint": "Mọi công thức trong Excel phải bắt đầu bằng dấu =, ví dụ: =A1+B1, =SUM(A1:A5).",
+              "created_at": "2025-01-01T00:01:20.000Z"
+            },
+            {
+              "title": "Công thức cộng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Để tính tổng của ô A1 và B1, em viết công thức như thế nào?",
+              "options": {
+                "A": "A1+B1",
+                "B": "=A1+B1",
+                "C": "SUM(A1,B1)",
+                "D": "=SUM(A1,B1)"
+              },
+              "correctOption": "B",
+              "hint": "Công thức cộng: =A1+B1. Hoặc có thể dùng hàm: =SUM(A1,B1).",
+              "created_at": "2025-01-01T00:01:21.000Z"
+            },
+            {
+              "title": "Hàng và cột trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trong Excel, hàng được đánh số như thế nào?",
+              "options": {
+                "A": "A, B, C...",
+                "B": "1, 2, 3...",
+                "C": "I, II, III...",
+                "D": "a, b, c..."
+              },
+              "correctOption": "B",
+              "hint": "Hàng được đánh số: 1, 2, 3... Cột được đánh chữ: A, B, C...",
+              "created_at": "2025-12-09T03:43:08.302Z",
+              "order": 3
+            },
+            {
+              "title": "Cột trong Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trong Excel, cột được đánh chữ như thế nào?",
+              "options": {
+                "A": "A, B, C...",
+                "B": "1, 2, 3...",
+                "C": "I, II, III...",
+                "D": "a, b, c..."
+              },
+              "correctOption": "A",
+              "hint": "Cột được đánh chữ: A, B, C... Hàng được đánh số: 1, 2, 3...",
+              "created_at": "2025-12-09T03:43:09.302Z",
+              "order": 4
+            },
+            {
+              "title": "Chọn nhiều ô",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn nhiều ô liên tiếp trong Excel?",
+              "options": {
+                "A": "Click và kéo chuột",
+                "B": "Click từng ô một",
+                "C": "Double-click",
+                "D": "Right-click"
+              },
+              "correctOption": "A",
+              "hint": "Click vào ô đầu, giữ chuột và kéo đến ô cuối để chọn nhiều ô liên tiếp.",
+              "created_at": "2025-12-09T03:43:10.302Z",
+              "order": 5
+            },
+            {
+              "title": "Chọn cả cột",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn cả cột trong Excel?",
+              "options": {
+                "A": "Click vào tiêu đề cột (A, B, C...)",
+                "B": "Click vào ô đầu tiên",
+                "C": "Double-click vào cột",
+                "D": "Right-click vào cột"
+              },
+              "correctOption": "A",
+              "hint": "Click vào tiêu đề cột (chữ A, B, C...) để chọn cả cột.",
+              "created_at": "2025-12-09T03:43:11.302Z",
+              "order": 6
+            },
+            {
+              "title": "Chọn cả hàng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cách nào để chọn cả hàng trong Excel?",
+              "options": {
+                "A": "Click vào tiêu đề hàng (1, 2, 3...)",
+                "B": "Click vào ô đầu tiên",
+                "C": "Double-click vào hàng",
+                "D": "Right-click vào hàng"
+              },
+              "correctOption": "A",
+              "hint": "Click vào tiêu đề hàng (số 1, 2, 3...) để chọn cả hàng.",
+              "created_at": "2025-12-09T03:43:12.302Z",
+              "order": 7
+            },
+            {
+              "title": "Công thức trừ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính hiệu của A1 và B1?",
+              "options": {
+                "A": "A1-B1",
+                "B": "=A1-B1",
+                "C": "=A1/B1",
+                "D": "=A1*B1"
+              },
+              "correctOption": "B",
+              "hint": "Công thức trừ: =A1-B1. Nhớ bắt đầu bằng dấu =.",
+              "created_at": "2025-12-09T03:43:13.302Z",
+              "order": 8
+            },
+            {
+              "title": "Công thức nhân",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính tích của A1 và B1?",
+              "options": {
+                "A": "=A1xB1",
+                "B": "=A1*B1",
+                "C": "=A1.B1",
+                "D": "=A1+B1"
+              },
+              "correctOption": "B",
+              "hint": "Trong Excel, dấu nhân là * (không phải x). Công thức: =A1*B1.",
+              "created_at": "2025-12-09T03:43:14.302Z",
+              "order": 9
+            },
+            {
+              "title": "Công thức chia",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính thương của A1 và B1?",
+              "options": {
+                "A": "=A1÷B1",
+                "B": "=A1/B1",
+                "C": "=A1\\B1",
+                "D": "=A1:B1"
+              },
+              "correctOption": "B",
+              "hint": "Trong Excel, dấu chia là / (dấu gạch chéo). Công thức: =A1/B1.",
+              "created_at": "2025-12-09T03:43:15.302Z",
+              "order": 10
+            },
+            {
+              "title": "Công thức phức tạp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công thức nào đúng để tính: (A1 + B1) * C1?",
+              "options": {
+                "A": "=A1+B1*C1",
+                "B": "=(A1+B1)*C1",
+                "C": "=A1+B1.C1",
+                "D": "=A1+B1xC1"
+              },
+              "correctOption": "B",
+              "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
+              "created_at": "2025-12-09T03:43:16.302Z",
+              "order": 11
+            },
+            {
+              "title": "Lưu file Excel",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để lưu file Excel?",
+              "options": {
+                "A": "Ctrl + S",
+                "B": "Ctrl + N",
+                "C": "Ctrl + O",
+                "D": "Ctrl + P"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + S để Save (lưu file). Giống như Word và các phần mềm khác.",
+              "created_at": "2025-12-09T03:43:17.302Z",
+              "order": 12
+            },
+            {
+              "title": "Định dạng số",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi nhập số 001 vào Excel, nếu muốn giữ số 0 ở đầu, em cần làm gì?",
+              "options": {
+                "A": "Thêm dấu nháy đơn trước: '001",
+                "B": "Định dạng ô là Text",
+                "C": "Cả A và B",
+                "D": "Không thể giữ số 0"
+              },
+              "correctOption": "C",
+              "hint": "Có 2 cách: thêm dấu nháy đơn '001, hoặc định dạng ô là Text trước khi nhập.",
+              "created_at": "2025-12-09T03:43:18.302Z",
+              "order": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Chương 5: Internet và trình duyệt web",
+      "lessons": [
+        {
+          "code": "INFO5-CH5-L1",
+          "title": "Internet là gì?",
+          "exercises": [
+            {
+              "title": "Internet là gì?",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Internet là gì?",
+              "options": {
+                "A": "Mạng máy tính toàn cầu",
+                "B": "Một phần mềm",
+                "C": "Một website",
+                "D": "Một thiết bị"
+              },
+              "correctOption": "A",
+              "hint": "Internet là mạng máy tính toàn cầu, kết nối hàng tỷ máy tính trên thế giới.",
+              "created_at": "2025-01-01T00:01:30.000Z"
+            },
+            {
+              "title": "Lợi ích của Internet",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Internet giúp chúng ta làm gì?",
+              "options": {
+                "A": "Tìm kiếm thông tin, học tập, giải trí",
+                "B": "Chỉ chơi game",
+                "C": "Chỉ xem video",
+                "D": "Chỉ gửi email"
+              },
+              "correctOption": "A",
+              "hint": "Internet có nhiều lợi ích: tìm kiếm thông tin, học tập, giải trí, giao tiếp, mua sắm...",
+              "created_at": "2025-01-01T00:01:31.000Z"
+            }
+          ]
+        },
+        {
+          "code": "INFO5-CH5-L3",
+          "title": "Trình duyệt web",
+          "exercises": [
+            {
+              "title": "Trình duyệt web",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trình duyệt web dùng để làm gì?",
+              "options": {
+                "A": "Xem các trang web",
+                "B": "Soạn thảo văn bản",
+                "C": "Tính toán",
+                "D": "Vẽ hình"
+              },
+              "correctOption": "A",
+              "hint": "Trình duyệt web (Chrome, Edge, Firefox) dùng để truy cập và xem các trang web trên Internet.",
+              "created_at": "2025-01-01T00:01:40.000Z"
+            },
+            {
+              "title": "Thanh địa chỉ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thanh địa chỉ (address bar) trong trình duyệt dùng để làm gì?",
+              "options": {
+                "A": "Nhập địa chỉ website",
+                "B": "Tìm kiếm thông tin",
+                "C": "Cả A và B",
+                "D": "Xem lịch sử"
+              },
+              "correctOption": "C",
+              "hint": "Thanh địa chỉ có thể nhập URL website hoặc từ khóa tìm kiếm trực tiếp.",
+              "created_at": "2025-01-01T00:01:41.000Z"
+            },
+            {
+              "title": "Trình duyệt phổ biến",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Trình duyệt web nào sau đây phổ biến nhất?",
+              "options": {
+                "A": "Google Chrome",
+                "B": "Microsoft Word",
+                "C": "Excel",
+                "D": "PowerPoint"
+              },
+              "correctOption": "A",
+              "hint": "Google Chrome là trình duyệt web phổ biến. Các trình duyệt khác: Edge, Firefox, Safari.",
+              "created_at": "2025-12-09T03:43:08.302Z",
+              "order": 3
+            },
+            {
+              "title": "Địa chỉ website",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Địa chỉ website thường bắt đầu bằng gì?",
+              "options": {
+                "A": "http:// hoặc https://",
+                "B": "www.",
+                "C": ".com",
+                "D": "file://"
+              },
+              "correctOption": "A",
+              "hint": "URL website thường bắt đầu bằng http:// hoặc https:// (s là secure - an toàn hơn).",
+              "created_at": "2025-12-09T03:43:09.302Z",
+              "order": 4
+            },
+            {
+              "title": "Bookmark",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bookmark (dấu trang) dùng để làm gì?",
+              "options": {
+                "A": "Lưu địa chỉ website yêu thích",
+                "B": "Xóa website",
+                "C": "Tải file",
+                "D": "In trang web"
+              },
+              "correctOption": "A",
+              "hint": "Bookmark lưu địa chỉ website để truy cập nhanh sau này. Phím tắt: Ctrl + D.",
+              "created_at": "2025-12-09T03:43:10.302Z",
+              "order": 5
+            },
+            {
+              "title": "Làm mới trang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để làm mới (refresh) trang web?",
+              "options": {
+                "A": "F5",
+                "B": "F1",
+                "C": "F2",
+                "D": "F3"
+              },
+              "correctOption": "A",
+              "hint": "F5 hoặc Ctrl + R để refresh (làm mới) trang web, tải lại nội dung.",
+              "created_at": "2025-12-09T03:43:11.302Z",
+              "order": 6
+            },
+            {
+              "title": "Quay lại trang trước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để quay lại trang trước?",
+              "options": {
+                "A": "Alt + Left Arrow",
+                "B": "Alt + Right Arrow",
+                "C": "Ctrl + Left Arrow",
+                "D": "Ctrl + Right Arrow"
+              },
+              "correctOption": "A",
+              "hint": "Alt + Left Arrow (mũi tên trái) để quay lại. Alt + Right Arrow để tiến tới.",
+              "created_at": "2025-12-09T03:43:12.302Z",
+              "order": 7
+            },
+            {
+              "title": "Tab mới",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để mở tab mới trong trình duyệt?",
+              "options": {
+                "A": "Ctrl + T",
+                "B": "Ctrl + N",
+                "C": "Ctrl + W",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + T để mở tab mới. Ctrl + W để đóng tab hiện tại. Ctrl + N để mở cửa sổ mới.",
+              "created_at": "2025-12-09T03:43:13.302Z",
+              "order": 8
+            },
+            {
+              "title": "Đóng tab",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để đóng tab hiện tại?",
+              "options": {
+                "A": "Ctrl + T",
+                "B": "Ctrl + N",
+                "C": "Ctrl + W",
+                "D": "Ctrl + S"
+              },
+              "correctOption": "C",
+              "hint": "Ctrl + W để đóng tab hiện tại. Ctrl + T để mở tab mới.",
+              "created_at": "2025-12-09T03:43:14.302Z",
+              "order": 9
+            },
+            {
+              "title": "Tìm kiếm trên trang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để tìm kiếm từ khóa trên trang web?",
+              "options": {
+                "A": "Ctrl + F",
+                "B": "Ctrl + S",
+                "C": "Ctrl + H",
+                "D": "Ctrl + G"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + F để Find (tìm kiếm) từ khóa trên trang web hiện tại.",
+              "created_at": "2025-12-09T03:43:15.302Z",
+              "order": 10
+            },
+            {
+              "title": "Tải file",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Khi click vào link tải file, file sẽ được lưu ở đâu?",
+              "options": {
+                "A": "Thư mục Downloads (Tải xuống)",
+                "B": "Desktop",
+                "C": "Thư mục Documents",
+                "D": "Thùng rác"
+              },
+              "correctOption": "A",
+              "hint": "File tải xuống thường được lưu vào thư mục Downloads (Tải xuống) của máy tính.",
+              "created_at": "2025-12-09T03:43:16.302Z",
+              "order": 11
+            },
+            {
+              "title": "Lịch sử duyệt web",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phím tắt nào để xem lịch sử duyệt web?",
+              "options": {
+                "A": "Ctrl + H",
+                "B": "Ctrl + S",
+                "C": "Ctrl + F",
+                "D": "Ctrl + G"
+              },
+              "correctOption": "A",
+              "hint": "Ctrl + H để History (lịch sử), xem các trang web đã truy cập trước đó.",
+              "created_at": "2025-12-09T03:43:17.302Z",
+              "order": 12
+            },
+            {
+              "title": "Công cụ tìm kiếm",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Công cụ tìm kiếm phổ biến nhất trên Internet là gì?",
+              "options": {
+                "A": "Google",
+                "B": "Microsoft",
+                "C": "Apple",
+                "D": "Facebook"
+              },
+              "correctOption": "A",
+              "hint": "Google là công cụ tìm kiếm phổ biến nhất. Các công cụ khác: Bing, Yahoo, DuckDuckGo.",
+              "created_at": "2025-12-09T03:43:18.302Z",
+              "order": 13
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
