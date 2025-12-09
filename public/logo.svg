@@ -1,0 +1,115 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc107;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pencilGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4caf50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffc107;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle (optional, can be removed if you want transparent) -->
+  <circle cx="100" cy="100" r="95" fill="white" opacity="0.9"/>
+  
+  <!-- Open Book (Left Page) -->
+  <path d="M 50 60 L 50 140 Q 50 150 60 150 L 100 150 Q 100 150 100 140 L 100 60 Q 100 50 90 50 L 60 50 Q 50 50 50 60 Z" 
+        fill="url(#bookGradient)" 
+        filter="url(#shadow)"
+        stroke="#e55a2b" 
+        stroke-width="2"/>
+  
+  <!-- Book Pages (Left) -->
+  <line x1="60" y1="70" x2="95" y2="70" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="85" x2="95" y2="85" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="100" x2="95" y2="100" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="115" x2="95" y2="115" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="60" y1="130" x2="95" y2="130" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Open Book (Right Page) -->
+  <path d="M 100 60 L 100 140 Q 100 150 110 150 L 150 150 Q 150 150 150 140 L 150 60 Q 150 50 140 50 L 110 50 Q 100 50 100 60 Z" 
+        fill="url(#bookGradient)" 
+        filter="url(#shadow)"
+        stroke="#e55a2b" 
+        stroke-width="2"/>
+  
+  <!-- Book Pages (Right) -->
+  <line x1="105" y1="70" x2="145" y2="70" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="105" y1="85" x2="145" y2="85" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="105" y1="100" x2="145" y2="100" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="105" y1="115" x2="145" y2="115" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  <line x1="105" y1="130" x2="145" y2="130" stroke="#fff8f0" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Book Spine (Center) -->
+  <path d="M 100 50 L 100 150" 
+        stroke="#d4a574" 
+        stroke-width="3" 
+        stroke-linecap="round"/>
+  
+  <!-- Pencil -->
+  <g transform="translate(120, 40) rotate(25)">
+    <!-- Pencil Body -->
+    <rect x="0" y="0" width="35" height="8" rx="4" 
+          fill="url(#pencilGradient)" 
+          filter="url(#shadow)"
+          stroke="#1976d2" 
+          stroke-width="1"/>
+    
+    <!-- Pencil Tip -->
+    <path d="M 35 0 L 45 4 L 35 8 Z" 
+          fill="#ff6b35" 
+          filter="url(#shadow)"/>
+    
+    <!-- Pencil Eraser -->
+    <rect x="-5" y="1" width="5" height="6" rx="2" 
+          fill="#e91e63" 
+          filter="url(#shadow)"/>
+    
+    <!-- Pencil Band (Metal) -->
+    <rect x="28" y="1" width="2" height="6" 
+          fill="#9e9e9e" 
+          opacity="0.8"/>
+  </g>
+  
+  <!-- Star (Achievement Badge) -->
+  <g transform="translate(65, 35)">
+    <path d="M 20 5 L 24 15 L 35 15 L 26 22 L 30 32 L 20 25 L 10 32 L 14 22 L 5 15 L 16 15 Z" 
+          fill="url(#starGradient)" 
+          filter="url(#shadow)"
+          stroke="#ffb300" 
+          stroke-width="1.5"/>
+  </g>
+  
+  <!-- Decorative Sparkles -->
+  <circle cx="40" cy="45" r="2" fill="#ffc107" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="45" r="2" fill="#ff6b35" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35" cy="155" r="2" fill="#2196f3" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="165" cy="155" r="2" fill="#4caf50" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
+
