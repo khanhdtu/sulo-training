@@ -229,32 +229,73 @@ export default function SubjectPage() {
                     {(() => {
                       // Check chapter status first - if submitted or completed, show "Xem đáp án"
                       if (chapter.progress && (chapter.progress.status === 'submitted' || chapter.progress.status === 'completed')) {
+                        // Calculate completion percentage
+                        const correctQuestions = chapter.progress.correctQuestions ?? 0;
+                        const totalQuestions = chapter.progress.totalQuestions ?? 0;
+                        const completionPercentage = totalQuestions > 0 
+                          ? (correctQuestions / totalQuestions) * 100 
+                          : 0;
+
+                        // Determine status and icon based on percentage
+                        let statusText = '';
+                        let statusColor = '';
+                        let statusEmoji = '';
+
+                        if (completionPercentage > 90) {
+                          statusText = 'Xuất sắc';
+                          statusColor = 'text-green-600 bg-green-50 border-green-200';
+                          statusEmoji = '😊'; // Happy face
+                        } else if (completionPercentage >= 75) {
+                          statusText = 'Tốt';
+                          statusColor = 'text-blue-600 bg-blue-50 border-blue-200';
+                          statusEmoji = '🙂'; // Slightly smiling face
+                        } else if (completionPercentage >= 60) {
+                          statusText = 'Đạt';
+                          statusColor = 'text-yellow-600 bg-yellow-50 border-yellow-200';
+                          statusEmoji = '😐'; // Neutral face
+                        } else if (completionPercentage >= 45) {
+                          statusText = 'Chưa đạt';
+                          statusColor = 'text-orange-600 bg-orange-50 border-orange-200';
+                          statusEmoji = '😕'; // Slightly frowning face
+                        } else {
+                          statusText = 'Yếu';
+                          statusColor = 'text-red-600 bg-red-50 border-red-200';
+                          statusEmoji = '😢'; // Crying face
+                        }
+
                         return (
-                          <button
-                            onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
-                            className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
-                          >
-                            <svg
-                              className="w-4 h-4"
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
+                          <div className="flex flex-col gap-2">
+                            <button
+                              onClick={() => router.push(`/chapters/${chapter.id}/answers`)}
+                              className="btn btn-outline whitespace-nowrap text-sm flex items-center gap-2"
                             >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                              />
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                              />
-                            </svg>
-                            Xem đáp án
-                          </button>
+                              <svg
+                                className="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                />
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                />
+                              </svg>
+                              Xem đáp án
+                            </button>
+                            {/* Status Badge */}
+                            <div className={`flex items-center justify-center gap-2 px-3 py-2 rounded-lg border ${statusColor} text-sm font-medium`}>
+                              <span className="text-lg">{statusEmoji}</span>
+                              <span>{statusText}</span>
+                            </div>
+                          </div>
                         );
                       }
                       

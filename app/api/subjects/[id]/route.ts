@@ -127,6 +127,7 @@ export async function GET(
     // Get user exercise attempts (including answers to calculate correct questions)
     // IMPORTANT: Only get attempts for exercises matching user's difficulty level
     // This ensures chapter progress is calculated correctly for the user's level
+    // Order by updatedAt desc to get the latest attempt for each exercise
     const exerciseAttemptsRaw = await prisma.userExerciseAttempt.findMany({
       where: {
         userId: user.id,
@@ -139,18 +140,31 @@ export async function GET(
           },
         },
       },
+      orderBy: {
+        updatedAt: 'desc', // Get latest attempt first
+      },
     });
     
     // Map to include status field (which exists in DB but may not be in Prisma types yet)
-    const exerciseAttempts = exerciseAttemptsRaw.map((a: any) => ({
-      exerciseId: a.exerciseId,
-      score: a.score,
-      totalPoints: a.totalPoints,
-      isCompleted: a.isCompleted,
-      status: (a as any).status || 'draft', // Get status field from DB, default to 'draft' if not set
-      completedAt: a.completedAt,
-      answers: a.answers,
-    }));
+    // Group by exerciseId to get only the latest attempt for each exercise
+    const attemptMapByExercise = new Map<number, any>();
+    exerciseAttemptsRaw.forEach((a: any) => {
+      const exerciseId = a.exerciseId;
+      // Only keep the first (latest) attempt for each exercise
+      if (!attemptMapByExercise.has(exerciseId)) {
+        attemptMapByExercise.set(exerciseId, {
+          exerciseId: a.exerciseId,
+          score: a.score,
+          totalPoints: a.totalPoints,
+          isCompleted: a.isCompleted,
+          status: (a as any).status || 'draft', // Get status field from DB, default to 'draft' if not set
+          completedAt: a.completedAt,
+          answers: a.answers,
+        });
+      }
+    });
+    
+    const exerciseAttempts = Array.from(attemptMapByExercise.values());
 
     // Get user chapter progress
     // NOTE: Chapter progress in DB may contain data from all difficulty levels
@@ -277,16 +291,18 @@ export async function GET(
         });
         
         // Count correct questions from attempts - only count from unique exercises
+        // IMPORTANT: Count all questions that were answered correctly across all attempts
+        // For submitted attempts: answers format is { questionId: { answer: string, isCorrect: boolean, isAnswered: boolean } }
+        // For draft attempts: answers format is { questionId: "answer" } - skip these (not graded yet)
         let correctQuestions = 0;
         uniqueExercises.forEach((exercise) => {
           const attempt = attemptMap.get(exercise.id) as any;
-          if (attempt && attempt.answers) {
-            // answers format: { questionId: { answer: string, isCorrect: boolean, ... } } for submitted
-            // or { questionId: "answer" } for draft
+          if (attempt && attempt.answers && attempt.status !== 'draft') {
+            // Only count from submitted/completed attempts (not draft)
             const answers = attempt.answers as Record<string, any>;
-            Object.values(answers).forEach((answerData: any) => {
-              // For draft, answerData is just a string, not an object
+            Object.entries(answers).forEach(([questionId, answerData]: [string, any]) => {
               // For submitted, answerData is an object with isCorrect property
+              // For draft, answerData is just a string - skip (not graded yet)
               if (typeof answerData === 'object' && answerData.isCorrect === true) {
                 correctQuestions++;
               }

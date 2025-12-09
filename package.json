@@ -29,6 +29,7 @@
     "env:check": "tsx scripts/check-env.ts",
     "email:test": "tsx scripts/test-email.ts",
     "email:send-daily": "tsx scripts/send-daily-activity-email.ts",
+    "email:send-daily-all": "tsx scripts/send-daily-activity-email-all.ts",
     "test:cache": "tsx scripts/test-conversation-cache.ts",
     "email:send-weekly": "tsx scripts/send-weekly-activity-email.ts",
     "test:submit-chapter": "tsx scripts/test-submit-chapter.ts",

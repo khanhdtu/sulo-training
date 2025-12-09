@@ -1,13 +1,9 @@
 #!/usr/bin/env tsx
 /**
- * Send Daily Activity Email Script
+ * Send Daily Activity Email to All Users Script
  * 
- * This script sends daily activity report email to a user.
- * Usage: npx tsx scripts/send-daily-activity-email.ts <username> [email]
- * 
- * Example:
- *   npx tsx scripts/send-daily-activity-email.ts nhahan
- *   npx tsx scripts/send-daily-activity-email.ts nhahan parent@example.com
+ * This script sends daily activity report emails to all active students with email addresses.
+ * Usage: npx tsx scripts/send-daily-activity-email-all.ts
  */
 
 import { config } from 'dotenv';
@@ -321,8 +317,6 @@ async function getDailyActivityStats(username: string): Promise<DailyActivitySta
 }
 
 async function sendDailyActivityEmail(username: string, recipientEmail?: string) {
-  console.log(`\n📧 Sending daily activity email for user: ${username}\n`);
-
   // Dynamic import to ensure env is loaded first
   const { prisma } = await import('../lib/prisma');
   const { sendEmail } = await import('../lib/email');
@@ -348,48 +342,33 @@ async function sendDailyActivityEmail(username: string, recipientEmail?: string)
   const email = recipientEmail || user.email;
   if (!email) {
     console.error(`❌ No email address found for user "${username}"`);
-    console.error('   Please provide email as second argument or set email in user profile');
     return false;
   }
 
-  console.log(`📬 Recipient: ${email}`);
-  console.log(`👤 Student: ${user.displayName || user.name || user.username}\n`);
-
   // Get daily activity stats
-  console.log('📊 Fetching daily activity stats...');
   const stats = await getDailyActivityStats(username);
 
   if (!stats) {
-    console.error('❌ Failed to get daily activity stats');
     return false;
   }
 
   // Check if there's any activity
   const totalQuestions = stats.subjectStats.reduce((sum, s) => sum + s.questionCount, 0) + stats.aiQuestionCount;
   if (totalQuestions === 0) {
-    console.log('⚠️  No activity found for today. Email not sent.');
     return false;
   }
-
-  console.log(`✅ Found activity:`);
-  console.log(`   Subjects: ${stats.subjectStats.length}`);
-  console.log(`   Total questions: ${totalQuestions}`);
-  console.log(`   AI questions: ${stats.aiQuestionCount}\n`);
 
   // Generate email HTML
   const emailHTML = generateEmailHTML(stats, username);
 
   // Send email
   try {
-    console.log('📤 Sending email...');
-    const result = await sendEmail({
+    await sendEmail({
       to: email,
       subject: `Báo cáo hoạt động học tập - ${stats.studentName || username}`,
       html: emailHTML,
     });
 
-    console.log('✅ Email sent successfully!');
-    console.log(`   Email ID: ${result?.id || 'N/A'}\n`);
     return true;
   } catch (error) {
     console.error('❌ Failed to send email:', error);
@@ -401,34 +380,74 @@ async function sendDailyActivityEmail(username: string, recipientEmail?: string)
 }
 
 async function main() {
-  const args = process.argv.slice(2);
-
-  if (args.length < 1) {
-    console.error('Usage: npx tsx scripts/send-daily-activity-email.ts <username> [email]');
-    console.error('\nExample:');
-    console.error('  npx tsx scripts/send-daily-activity-email.ts nhahan');
-    console.error('  npx tsx scripts/send-daily-activity-email.ts nhahan parent@example.com');
-    process.exit(1);
-  }
-
-  const [username, recipientEmail] = args;
-
-  console.log('📧 Daily Activity Email Sender\n');
-  console.log('='.repeat(50));
-  console.log(`Username: ${username}`);
-  if (recipientEmail) {
-    console.log(`Recipient Email: ${recipientEmail}`);
-  }
+  console.log('📧 Daily Activity Email Sender - All Users\n');
   console.log('='.repeat(50));
 
-  const success = await sendDailyActivityEmail(username, recipientEmail);
+  // Dynamic import to ensure env is loaded first
+  const { prisma } = await import('../lib/prisma');
 
-  if (success) {
-    console.log('🎉 Email sent successfully!');
-    process.exit(0);
-  } else {
-    console.log('❌ Failed to send email');
+  try {
+    // Get all active users with email
+    const users = await prisma.user.findMany({
+      where: {
+        isActive: true,
+        email: {
+          not: null,
+        },
+        role: 'student', // Only send to students
+      },
+      select: {
+        id: true,
+        username: true,
+        name: true,
+        displayName: true,
+        email: true,
+      },
+    });
+
+    console.log(`📋 Found ${users.length} active students with email addresses\n`);
+
+    let successCount = 0;
+    let failCount = 0;
+    let skippedCount = 0;
+
+    for (const user of users) {
+      try {
+        console.log(`📬 Processing: ${user.username} (${user.displayName || user.name || user.username})`);
+        
+        const success = await sendDailyActivityEmail(user.username, user.email || undefined);
+        
+        if (success) {
+          successCount++;
+          console.log(`   ✅ Email sent successfully\n`);
+        } else {
+          skippedCount++;
+          console.log(`   ⚠️  No activity today or failed to send\n`);
+        }
+
+        // Add delay to avoid rate limiting (2 requests/second for Resend)
+        await new Promise(resolve => setTimeout(resolve, 600)); // 600ms delay = ~1.67 requests/second
+      } catch (error) {
+        console.error(`   ❌ Failed to send email to ${user.username}:`, error);
+        failCount++;
+      }
+    }
+
+    console.log('='.repeat(50));
+    console.log('\n📊 Summary:');
+    console.log(`   ✅ Success: ${successCount}`);
+    console.log(`   ⚠️  Skipped: ${skippedCount}`);
+    console.log(`   ❌ Failed: ${failCount}`);
+    console.log(`   📋 Total: ${users.length}\n`);
+
+    if (successCount > 0) {
+      console.log('🎉 Daily activity emails sent successfully!');
+    }
+  } catch (error) {
+    console.error('\n❌ Unexpected error:', error);
     process.exit(1);
+  } finally {
+    await prisma.$disconnect();
   }
 }
 
@@ -437,10 +456,5 @@ main()
   .catch((error) => {
     console.error('\n❌ Unexpected error:', error);
     process.exit(1);
-  })
-  .finally(async () => {
-    // Dynamic import to ensure env is loaded first
-    const { prisma } = await import('../lib/prisma');
-    await prisma.$disconnect();
   });
 
