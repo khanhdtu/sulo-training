@@ -1,0 +1,218 @@
+{
+  "grade": {
+    "name": "Lớp 5",
+    "level": 5,
+    "academicYear": "2025"
+  },
+  "subject": {
+    "name": "Lịch sử",
+    "code": "LS5",
+    "description": "Chương trình Lịch sử lớp 5 năm 2025"
+  },
+  "chapters": [
+    {
+      "name": "Chương 1: Buổi đầu dựng nước và giữ nước",
+      "order": 1,
+      "description": "Lịch sử Việt Nam từ thời kỳ dựng nước đến thời kỳ Bắc thuộc",
+      "sections": [
+        {
+          "name": "Thời kỳ dựng nước",
+          "order": 1,
+          "description": "Thời kỳ các vua Hùng dựng nước Văn Lang",
+          "lessons": [
+            {
+              "title": "Nước Văn Lang",
+              "type": "text",
+              "order": 1,
+              "content": "Nước Văn Lang là nhà nước đầu tiên của người Việt, được thành lập vào khoảng thế kỷ VII TCN. Kinh đô đặt ở Phong Châu (Phú Thọ ngày nay). Vua Hùng là người đứng đầu nhà nước.",
+              "attachments": [],
+              "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+            },
+            {
+              "title": "Đời sống của người Việt cổ",
+              "type": "text",
+              "order": 2,
+              "content": "Người Việt cổ sống bằng nghề trồng lúa nước, đánh cá, săn bắn. Họ biết làm đồ gốm, đúc đồng. Xã hội có sự phân chia giai cấp: vua, quan, dân.",
+              "attachments": [],
+              "uuid": "b2c3d4e5-f6a7-8901-bcde-f23456789012"
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Thời kỳ Bắc thuộc",
+          "order": 2,
+          "description": "Thời kỳ đất nước bị các triều đại phong kiến phương Bắc đô hộ",
+          "lessons": [
+            {
+              "title": "Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 40, Hai Bà Trưng (Trưng Trắc và Trưng Nhị) phất cờ khởi nghĩa chống lại ách đô hộ của nhà Hán. Cuộc khởi nghĩa giành thắng lợi, đất nước độc lập trong 3 năm.",
+              "attachments": [],
+              "uuid": "c3d4e5f6-a7b8-9012-cdef-345678901234"
+            },
+            {
+              "title": "Cuộc khởi nghĩa Bà Triệu",
+              "type": "text",
+              "order": 2,
+              "content": "Năm 248, Bà Triệu (Triệu Thị Trinh) lãnh đạo cuộc khởi nghĩa chống lại nhà Ngô. Bà là một nữ tướng dũng cảm, được nhân dân tôn vinh.",
+              "attachments": [],
+              "uuid": "d4e5f6a7-b8c9-0123-defa-456789012345"
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 2: Nước ta dưới thời kỳ độc lập",
+      "order": 2,
+      "description": "Lịch sử Việt Nam từ thế kỷ X đến thế kỷ XV",
+      "sections": [
+        {
+          "name": "Nhà Ngô, Đinh, Tiền Lê",
+          "order": 1,
+          "description": "Các triều đại đầu tiên sau khi giành độc lập",
+          "lessons": [
+            {
+              "title": "Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng, chấm dứt hơn 1000 năm Bắc thuộc. Ông lên ngôi vua, đóng đô ở Cổ Loa.",
+              "attachments": [],
+              "uuid": "e5f6a7b8-c9d0-1234-efab-567890123456"
+            },
+            {
+              "title": "Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "text",
+              "order": 2,
+              "content": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập ra nhà Đinh năm 968. Ông lên ngôi hoàng đế, đặt tên nước là Đại Cồ Việt.",
+              "attachments": [],
+              "uuid": "f6a7b8c9-d0e1-2345-fabc-678901234567"
+            }
+          ],
+          "exercises": []
+        },
+        {
+          "name": "Nhà Lý",
+          "order": 2,
+          "description": "Triều đại nhà Lý (1009-1225)",
+          "lessons": [
+            {
+              "title": "Lý Công Uẩn dời đô về Thăng Long",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 1010, Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long (Hà Nội ngày nay). Đây là một quyết định sáng suốt, mở ra thời kỳ phát triển rực rỡ của đất nước.",
+              "attachments": [],
+              "uuid": "a7b8c9d0-e1f2-3456-abcd-789012345678"
+            },
+            {
+              "title": "Cuộc kháng chiến chống Tống",
+              "type": "text",
+              "order": 2,
+              "content": "Năm 1075-1077, nhà Lý đánh thắng quân Tống xâm lược. Lý Thường Kiệt là vị tướng tài ba, đã chỉ huy quân đội đánh bại quân thù.",
+              "attachments": [],
+              "uuid": "b8c9d0e1-f2a3-4567-bcde-890123456789"
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 3: Nước Đại Việt thời Trần",
+      "order": 3,
+      "description": "Triều đại nhà Trần (1225-1400)",
+      "sections": [
+        {
+          "name": "Ba lần kháng chiến chống Nguyên Mông",
+          "order": 1,
+          "description": "Cuộc kháng chiến vĩ đại của dân tộc",
+          "lessons": [
+            {
+              "title": "Lần thứ nhất (1258)",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 1258, quân Nguyên Mông xâm lược nước ta lần thứ nhất. Quân dân nhà Trần dưới sự chỉ huy của Trần Thái Tông đã đánh bại quân thù.",
+              "attachments": [],
+              "uuid": "c9d0e1f2-a3b4-5678-cdef-901234567890"
+            },
+            {
+              "title": "Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "text",
+              "order": 2,
+              "content": "Năm 1285 và 1287-1288, quân Nguyên Mông lại xâm lược. Dưới sự lãnh đạo của Trần Hưng Đạo, quân dân ta đã đánh thắng quân thù, bảo vệ độc lập dân tộc.",
+              "attachments": [],
+              "uuid": "d0e1f2a3-b4c5-6789-defa-012345678901"
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 4: Nước Đại Việt thời Lê",
+      "order": 4,
+      "description": "Triều đại nhà Lê (1428-1789)",
+      "sections": [
+        {
+          "name": "Khởi nghĩa Lam Sơn",
+          "order": 1,
+          "description": "Cuộc khởi nghĩa giải phóng đất nước",
+          "lessons": [
+            {
+              "title": "Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 1418, Lê Lợi phất cờ khởi nghĩa ở Lam Sơn (Thanh Hóa) chống lại ách đô hộ của nhà Minh. Sau 10 năm chiến đấu gian khổ, cuộc khởi nghĩa giành thắng lợi năm 1428.",
+              "attachments": [],
+              "uuid": "e1f2a3b4-c5d6-7890-efab-123456789012"
+            },
+            {
+              "title": "Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "text",
+              "order": 2,
+              "content": "Nguyễn Trãi là nhà quân sự, chính trị, văn học kiệt xuất. Ông là quân sư của Lê Lợi, tác giả của Bình Ngô đại cáo - bản tuyên ngôn độc lập của dân tộc.",
+              "attachments": [],
+              "uuid": "f2a3b4c5-d6e7-8901-fabc-234567890123"
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "name": "Chương 5: Việt Nam thế kỷ XIX",
+      "order": 5,
+      "description": "Lịch sử Việt Nam thế kỷ XIX",
+      "sections": [
+        {
+          "name": "Thực dân Pháp xâm lược",
+          "order": 1,
+          "description": "Quá trình thực dân Pháp xâm lược và đô hộ Việt Nam",
+          "lessons": [
+            {
+              "title": "Thực dân Pháp xâm lược Việt Nam",
+              "type": "text",
+              "order": 1,
+              "content": "Năm 1858, thực dân Pháp nổ súng xâm lược Việt Nam. Sau nhiều năm chiến đấu, năm 1884, triều đình nhà Nguyễn ký hiệp ước đầu hàng, chấp nhận sự đô hộ của Pháp.",
+              "attachments": [],
+              "uuid": "a3b4c5d6-e7f8-9012-abcd-345678901234"
+            },
+            {
+              "title": "Phong trào đấu tranh chống Pháp",
+              "type": "text",
+              "order": 2,
+              "content": "Nhân dân ta không chịu khuất phục, đã nổi dậy đấu tranh chống Pháp. Các phong trào như Cần Vương, Yên Thế... thể hiện tinh thần yêu nước của dân tộc.",
+              "attachments": [],
+              "uuid": "b4c5d6e7-f8a9-0123-bcde-456789012345"
+            }
+          ],
+          "exercises": []
+        }
+      ]
+    }
+  ]
+}
+

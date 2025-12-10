@@ -1,0 +1,3399 @@
+{
+  "grade": 5,
+  "subject": "Lịch sử",
+  "subjectCode": "LS5",
+  "difficulty": "hard",
+  "description": "hard exercises for Grade 5 History (Lớp 5 Lịch sử)",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Buổi đầu dựng nước và giữ nước",
+      "lessons": [
+        {
+          "code": "LS5-CH1-L1",
+          "title": "Nước Văn Lang",
+          "exercises": [
+            {
+              "uuid": "7cd42ee4-51c1-4ad1-be4e-5be36ad15cb8",
+              "title": "Tự luận: Em hãy nêu hiểu biết của em về nước Văn Lang",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy nêu hiểu biết của em về nước Văn Lang. Hãy trình bày ngắn gọn về thời gian thành lập, kinh đô và đời sống của người dân.",
+              "hint": "Hãy viết về nước Văn Lang - nhà nước đầu tiên của người Việt, kinh đô ở Phong Châu, đời sống người dân trồng lúa nước, làm đồ gốm và đúc đồng.",
+              "answer": "Nước Văn Lang là nhà nước đầu tiên của người Việt, được thành lập vào khoảng thế kỷ VII TCN. Kinh đô đặt ở Phong Châu (Phú Thọ ngày nay). Vua Hùng là người đứng đầu nhà nước. Người Việt cổ sống bằng nghề trồng lúa nước, đánh cá, săn bắn. Họ đã biết làm đồ gốm và đúc đồng. Xã hội có sự phân chia giai cấp: vua, quan, dân.",
+              "created_at": "2025-01-01T00:00:10.000Z"
+            },
+            {
+              "uuid": "85b7eaa3-6ea9-4bc7-b5af-615216f571ea",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước Văn Lang được thành lập vào khoảng thời gian nào?",
+              "options": {
+                "A": "Thế kỷ VIII TCN",
+                "B": "Thế kỷ VII TCN",
+                "C": "Thế kỷ VI TCN",
+                "D": "Thế kỷ V TCN"
+              },
+              "correctOption": "B",
+              "hint": "Nước Văn Lang là nhà nước đầu tiên của người Việt, được thành lập vào khoảng thế kỷ VII TCN.",
+              "created_at": "2025-01-01T00:00:11.000Z"
+            },
+            {
+              "uuid": "7c6c9a63-f760-45d8-9eb5-473aaa128176",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kinh đô của nước Văn Lang đặt ở đâu?",
+              "options": {
+                "A": "Cổ Loa (Hà Nội)",
+                "B": "Phong Châu (Phú Thọ)",
+                "C": "Hoa Lư (Ninh Bình)",
+                "D": "Thăng Long (Hà Nội)"
+              },
+              "correctOption": "B",
+              "hint": "Kinh đô của nước Văn Lang đặt ở Phong Châu, thuộc Phú Thọ ngày nay.",
+              "created_at": "2025-01-01T00:00:12.000Z"
+            },
+            {
+              "uuid": "d0b5de78-5f88-4462-a680-ac24a4713adb",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người đứng đầu nước Văn Lang?",
+              "options": {
+                "A": "Vua Hùng",
+                "B": "Vua An Dương Vương",
+                "C": "Vua Đinh Tiên Hoàng",
+                "D": "Vua Lý Thái Tổ"
+              },
+              "correctOption": "A",
+              "hint": "Vua Hùng là người đứng đầu nước Văn Lang, có 18 đời vua Hùng.",
+              "created_at": "2025-01-01T00:00:13.000Z"
+            },
+            {
+              "uuid": "54d72a08-d18c-4fdc-b936-316068c97dfd",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ sống chủ yếu bằng nghề gì?",
+              "options": {
+                "A": "Trồng lúa nước",
+                "B": "Chăn nuôi gia súc",
+                "C": "Buôn bán",
+                "D": "Làm thủ công"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ sống chủ yếu bằng nghề trồng lúa nước, đánh cá và săn bắn.",
+              "created_at": "2025-01-01T00:00:14.000Z"
+            },
+            {
+              "uuid": "241f951c-974e-4b6b-bbe6-bb3de34f7c4b",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ đã biết làm gì?",
+              "options": {
+                "A": "Làm đồ gốm và đúc đồng",
+                "B": "Làm giấy và in ấn",
+                "C": "Làm sắt và thép",
+                "D": "Làm thủy tinh"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ đã biết làm đồ gốm và đúc đồng, tạo ra những sản phẩm tinh xảo.",
+              "created_at": "2025-01-01T00:00:15.000Z"
+            },
+            {
+              "uuid": "144f63ae-a883-447a-ba86-c947606513db",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước Văn Lang có bao nhiêu đời vua Hùng?",
+              "options": {
+                "A": "16 đời",
+                "B": "17 đời",
+                "C": "18 đời",
+                "D": "19 đời"
+              },
+              "correctOption": "C",
+              "hint": "Nước Văn Lang có 18 đời vua Hùng trị vì.",
+              "created_at": "2025-01-01T00:00:16.000Z"
+            },
+            {
+              "uuid": "b15d6b44-a870-4058-99c4-45704a9ebc6b",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Xã hội thời Văn Lang có sự phân chia như thế nào?",
+              "options": {
+                "A": "Vua, quan, dân",
+                "B": "Quý tộc, nông dân, nô lệ",
+                "C": "Thương nhân, thợ thủ công, nông dân",
+                "D": "Quan lại, sĩ phu, thường dân"
+              },
+              "correctOption": "A",
+              "hint": "Xã hội thời Văn Lang có sự phân chia giai cấp: vua, quan, dân.",
+              "created_at": "2025-01-01T00:00:17.000Z"
+            },
+            {
+              "uuid": "0068a9a2-1526-48c6-993b-ce3b0064002c",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ trồng loại cây lương thực chính nào?",
+              "options": {
+                "A": "Lúa nước",
+                "B": "Ngô",
+                "C": "Khoai lang",
+                "D": "Sắn"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ trồng lúa nước làm cây lương thực chính.",
+              "created_at": "2025-01-01T00:00:18.000Z"
+            },
+            {
+              "uuid": "113b8282-20f9-4d65-8645-db0bdf2d8755",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước Văn Lang là nhà nước đầu tiên của dân tộc nào?",
+              "options": {
+                "A": "Người Việt",
+                "B": "Người Chăm",
+                "C": "Người Khmer",
+                "D": "Người Thái"
+              },
+              "correctOption": "A",
+              "hint": "Nước Văn Lang là nhà nước đầu tiên của người Việt.",
+              "created_at": "2025-01-01T00:00:19.000Z"
+            },
+            {
+              "uuid": "56126003-04d5-4b49-9a98-5f7eeab0a622",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Phong Châu (kinh đô Văn Lang) thuộc tỉnh nào ngày nay?",
+              "options": {
+                "A": "Hà Nội",
+                "B": "Phú Thọ",
+                "C": "Vĩnh Phúc",
+                "D": "Tuyên Quang"
+              },
+              "correctOption": "B",
+              "hint": "Phong Châu là kinh đô của nước Văn Lang, thuộc Phú Thọ ngày nay.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "uuid": "9d4679a4-7e82-4d33-a6ac-c1222a2da2b6",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ đã biết sử dụng kim loại nào?",
+              "options": {
+                "A": "Đồng",
+                "B": "Sắt",
+                "C": "Vàng",
+                "D": "Bạc"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ đã biết đúc đồng, tạo ra những sản phẩm bằng đồng.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "uuid": "d32a2f9c-fde7-4013-812a-ab231ded7a1e",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nghề nào là nghề chính của người Việt cổ?",
+              "options": {
+                "A": "Nông nghiệp trồng lúa nước",
+                "B": "Thương mại",
+                "C": "Thủ công nghiệp",
+                "D": "Chăn nuôi"
+              },
+              "correctOption": "A",
+              "hint": "Nghề chính của người Việt cổ là nông nghiệp trồng lúa nước.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "uuid": "a72d988f-1bc1-4345-906a-e09da2fe45b6",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước Văn Lang tồn tại trong khoảng thời gian nào?",
+              "options": {
+                "A": "Từ thế kỷ VII TCN đến thế kỷ III TCN",
+                "B": "Từ thế kỷ VIII TCN đến thế kỷ II TCN",
+                "C": "Từ thế kỷ VI TCN đến thế kỷ I TCN",
+                "D": "Từ thế kỷ V TCN đến thế kỷ I SCN"
+              },
+              "correctOption": "A",
+              "hint": "Nước Văn Lang tồn tại từ khoảng thế kỷ VII TCN đến thế kỷ III TCN.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "uuid": "78e3c8e2-ff82-4e86-b020-f7c4e51198e0",
+              "title": "Câu hỏi về Nước Văn Lang",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vua Hùng được coi là gì trong lịch sử Việt Nam?",
+              "options": {
+                "A": "Tổ tiên của dân tộc Việt Nam",
+                "B": "Vị vua đầu tiên",
+                "C": "Người sáng lập đất nước",
+                "D": "Cả A, B và C đều đúng"
+              },
+              "correctOption": "D",
+              "hint": "Vua Hùng được coi là tổ tiên của dân tộc Việt Nam, vị vua đầu tiên và người sáng lập đất nước.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH1-L2",
+          "title": "Đời sống của người Việt cổ",
+          "exercises": [
+            {
+              "uuid": "a5025033-a3e7-44f1-a847-684e19e51509",
+              "title": "Tự luận: Em hãy mô tả đời sống của người Việt cổ thời Văn Lang",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy mô tả đời sống của người Việt cổ thời Văn Lang. Hãy nêu về nghề nghiệp và các sản phẩm họ tạo ra.",
+              "hint": "Hãy viết về nghề trồng lúa nước, đánh cá, săn bắn và việc làm đồ gốm, đúc đồng của người Việt cổ.",
+              "answer": "Người Việt cổ sống chủ yếu bằng nghề trồng lúa nước, đánh cá và săn bắn. Họ đã biết làm đồ gốm và đúc đồng, tạo ra những sản phẩm tinh xảo. Xã hội có sự phân chia giai cấp: vua, quan, dân. Đời sống của người dân gắn liền với nông nghiệp và thủ công nghiệp.",
+              "created_at": "2025-01-01T00:00:20.000Z"
+            },
+            {
+              "uuid": "e67e7230-599d-4db9-9cd9-20c40e168d37",
+              "title": "Câu hỏi về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ sống bằng nghề gì?",
+              "options": {
+                "A": "Trồng lúa nước, đánh cá, săn bắn",
+                "B": "Chăn nuôi và buôn bán",
+                "C": "Làm thủ công và thương mại",
+                "D": "Khai thác mỏ và luyện kim"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ sống chủ yếu bằng nghề trồng lúa nước, đánh cá và săn bắn.",
+              "created_at": "2025-01-01T00:00:21.000Z"
+            },
+            {
+              "uuid": "cd10bc0f-9f2a-4595-bb07-ace335281355",
+              "title": "Câu hỏi về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Người Việt cổ đã biết làm những sản phẩm gì?",
+              "options": {
+                "A": "Đồ gốm và đồ đồng",
+                "B": "Giấy và mực",
+                "C": "Vải lụa và tơ tằm",
+                "D": "Gỗ và tre"
+              },
+              "correctOption": "A",
+              "hint": "Người Việt cổ đã biết làm đồ gốm và đúc đồng, tạo ra những sản phẩm có giá trị.",
+              "created_at": "2025-01-01T00:00:22.000Z"
+            },
+            {
+              "uuid": "785d4094-e2f5-4844-91ec-4136136fbe1a",
+              "title": "Câu hỏi về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Xã hội thời Văn Lang có sự phân chia như thế nào?",
+              "options": {
+                "A": "Vua, quan, dân",
+                "B": "Quý tộc, nông dân, nô lệ",
+                "C": "Thương nhân, thợ thủ công, nông dân",
+                "D": "Quan lại, sĩ phu, thường dân"
+              },
+              "correctOption": "A",
+              "hint": "Xã hội thời Văn Lang có sự phân chia giai cấp: vua, quan, dân.",
+              "created_at": "2025-01-01T00:00:23.000Z"
+            },
+            {
+              "uuid": "77cf45dc-72d7-4f01-bde3-e38f694da5db",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:24.000Z"
+            },
+            {
+              "uuid": "fa1be12e-4b6d-4566-826e-3a0b5d385934",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:25.000Z"
+            },
+            {
+              "uuid": "a80718d3-7e7b-4795-b506-3ef6a9d76ef4",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:26.000Z"
+            },
+            {
+              "uuid": "619d8624-4785-4f89-8cd1-2980d4bcce0f",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:27.000Z"
+            },
+            {
+              "uuid": "80a6f4dd-d7e1-4b15-89e9-f9235122670f",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:28.000Z"
+            },
+            {
+              "uuid": "ea9099ca-cdbe-4f1f-aa36-3ed6ebbd60fa",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:29.000Z"
+            },
+            {
+              "uuid": "de48762b-e566-4fd4-9cea-a5e5f4c9b818",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "uuid": "28edca6a-5b47-4df5-abc7-75d1455f7a35",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "uuid": "bfab334c-f942-4c53-abdf-615b914104d0",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "uuid": "8a365ce4-cfb0-4574-9dc7-eb446dd390b6",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "uuid": "e6599a52-0147-4f94-8cc3-c30136519cc2",
+              "title": "Câu hỏi bổ sung về Đời sống của người Việt cổ",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đời sống của người Việt cổ (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đời sống của người Việt cổ.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH1-L3",
+          "title": "Cuộc khởi nghĩa Hai Bà Trưng",
+          "exercises": [
+            {
+              "uuid": "d0ec53c6-c010-4625-9dac-fba057e03938",
+              "title": "Tự luận: Em hãy trình bày về cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về cuộc khởi nghĩa Hai Bà Trưng. Hãy nêu thời gian, lãnh đạo và ý nghĩa của cuộc khởi nghĩa.",
+              "hint": "Hãy viết về cuộc khởi nghĩa năm 40, do Hai Bà Trưng (Trưng Trắc và Trưng Nhị) lãnh đạo, chống lại nhà Hán.",
+              "answer": "Năm 40, Hai Bà Trưng (Trưng Trắc và Trưng Nhị) phất cờ khởi nghĩa chống lại ách đô hộ của nhà Hán. Cuộc khởi nghĩa giành thắng lợi, đất nước độc lập trong 3 năm. Đây là cuộc khởi nghĩa đầu tiên của phụ nữ Việt Nam chống lại ách đô hộ của phong kiến phương Bắc, thể hiện tinh thần yêu nước và ý chí độc lập của dân tộc.",
+              "created_at": "2025-01-01T00:00:30.000Z"
+            },
+            {
+              "uuid": "f71fcfba-eae4-426c-8a83-e443d2abf0b7",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Hai Bà Trưng diễn ra vào năm nào?",
+              "options": {
+                "A": "Năm 39",
+                "B": "Năm 40",
+                "C": "Năm 41",
+                "D": "Năm 42"
+              },
+              "correctOption": "B",
+              "hint": "Năm 40, Hai Bà Trưng phất cờ khởi nghĩa chống lại ách đô hộ của nhà Hán.",
+              "created_at": "2025-01-01T00:00:31.000Z"
+            },
+            {
+              "uuid": "87c15085-826b-4912-b7a6-47ad859efbf3",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Hai Bà Trưng là ai?",
+              "options": {
+                "A": "Trưng Trắc và Trưng Nhị",
+                "B": "Trưng Vương và Trưng Nữ Vương",
+                "C": "Hai chị em họ Trưng",
+                "D": "Hai nữ tướng của vua Hùng"
+              },
+              "correctOption": "A",
+              "hint": "Hai Bà Trưng là Trưng Trắc và Trưng Nhị, hai chị em đã lãnh đạo cuộc khởi nghĩa chống quân Hán.",
+              "created_at": "2025-01-01T00:00:32.000Z"
+            },
+            {
+              "uuid": "a29e7e19-d715-4a4e-8e0a-cab994951e52",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Hai Bà Trưng giành thắng lợi trong bao lâu?",
+              "options": {
+                "A": "1 năm",
+                "B": "2 năm",
+                "C": "3 năm",
+                "D": "4 năm"
+              },
+              "correctOption": "C",
+              "hint": "Cuộc khởi nghĩa Hai Bà Trưng giành thắng lợi, đất nước độc lập trong 3 năm.",
+              "created_at": "2025-01-01T00:00:33.000Z"
+            },
+            {
+              "uuid": "e2998d49-ae56-4789-9297-baceae07cdd6",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Hai Bà Trưng chống lại ai?",
+              "options": {
+                "A": "Nhà Tần",
+                "B": "Nhà Hán",
+                "C": "Nhà Đường",
+                "D": "Nhà Tống"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc khởi nghĩa Hai Bà Trưng chống lại ách đô hộ của nhà Hán.",
+              "created_at": "2025-01-01T00:00:34.000Z"
+            },
+            {
+              "uuid": "08dcb054-135e-402c-a5e5-1819fcc291ed",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:35.000Z"
+            },
+            {
+              "uuid": "f6a0ea99-fea2-4171-a213-e1331a5ec8d1",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:36.000Z"
+            },
+            {
+              "uuid": "a48413c4-66fa-485d-9bab-d546ab3ce392",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:37.000Z"
+            },
+            {
+              "uuid": "4993da1d-9506-43a1-a149-40191a8b4ec6",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:38.000Z"
+            },
+            {
+              "uuid": "9f71e5f7-729a-4d4b-b8df-ada79ce62b8d",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:39.000Z"
+            },
+            {
+              "uuid": "23519adb-81cd-4583-8f9b-e570c3d3123f",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "uuid": "92adcf68-274f-427d-81fd-b9d0d198935c",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "uuid": "6510f421-333d-4dc2-80ca-5c674186bd6a",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:42.000Z"
+            },
+            {
+              "uuid": "bf029aac-e8fa-4439-b0e5-6f62def32ab2",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:43.000Z"
+            },
+            {
+              "uuid": "1192ba47-e5fa-4ba7-8a01-13a028e7f795",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Hai Bà Trưng (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Hai Bà Trưng.",
+              "created_at": "2025-01-01T00:00:44.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH1-L4",
+          "title": "Cuộc khởi nghĩa Bà Triệu",
+          "exercises": [
+            {
+              "uuid": "e3dc7819-970d-48ae-8cf9-ae18e33c4775",
+              "title": "Tự luận: Em hãy nêu hiểu biết của em về cuộc khởi nghĩa Bà Triệu",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy nêu hiểu biết của em về cuộc khởi nghĩa Bà Triệu. Hãy trình bày về thời gian, lãnh đạo và ý nghĩa.",
+              "hint": "Hãy viết về cuộc khởi nghĩa năm 248, do Bà Triệu (Triệu Thị Trinh) lãnh đạo, chống lại nhà Ngô.",
+              "answer": "Năm 248, Bà Triệu (Triệu Thị Trinh) lãnh đạo cuộc khởi nghĩa chống lại nhà Ngô. Bà là một nữ tướng dũng cảm, được nhân dân tôn vinh. Cuộc khởi nghĩa thể hiện tinh thần yêu nước và ý chí đấu tranh chống lại ách đô hộ của phong kiến phương Bắc.",
+              "created_at": "2025-01-01T00:00:40.000Z"
+            },
+            {
+              "uuid": "99055205-0e9b-46a7-918f-437162b69f2c",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Bà Triệu diễn ra vào năm nào?",
+              "options": {
+                "A": "Năm 246",
+                "B": "Năm 247",
+                "C": "Năm 248",
+                "D": "Năm 249"
+              },
+              "correctOption": "C",
+              "hint": "Năm 248, Bà Triệu (Triệu Thị Trinh) lãnh đạo cuộc khởi nghĩa chống lại nhà Ngô.",
+              "created_at": "2025-01-01T00:00:41.000Z"
+            },
+            {
+              "uuid": "b436bc1b-9556-4e7f-8fab-3d2fea8d3881",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bà Triệu có tên thật là gì?",
+              "options": {
+                "A": "Triệu Thị Trinh",
+                "B": "Triệu Thị Nga",
+                "C": "Triệu Thị Hoa",
+                "D": "Triệu Thị Lan"
+              },
+              "correctOption": "A",
+              "hint": "Bà Triệu có tên thật là Triệu Thị Trinh, là một nữ tướng dũng cảm.",
+              "created_at": "2025-01-01T00:00:42.000Z"
+            },
+            {
+              "uuid": "31c334b4-8503-4f45-ab58-1a2597888a68",
+              "title": "Câu hỏi về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bà Triệu khởi nghĩa chống lại triều đại nào?",
+              "options": {
+                "A": "Nhà Hán",
+                "B": "Nhà Ngô",
+                "C": "Nhà Tấn",
+                "D": "Nhà Tùy"
+              },
+              "correctOption": "B",
+              "hint": "Bà Triệu khởi nghĩa chống lại nhà Ngô vào năm 248.",
+              "created_at": "2025-01-01T00:00:43.000Z"
+            },
+            {
+              "uuid": "385c764f-fb3b-4d80-bbc4-f8d9952a9534",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:44.000Z"
+            },
+            {
+              "uuid": "fcc85401-7951-4f45-9315-72ff694ed0bb",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:45.000Z"
+            },
+            {
+              "uuid": "496e1098-19e9-43ce-b4cc-7598201a7b6a",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:46.000Z"
+            },
+            {
+              "uuid": "513cb6b5-2f2d-4f92-ae4a-d3944d2b4d8d",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:47.000Z"
+            },
+            {
+              "uuid": "020d6500-11f1-406a-baf9-f8062e56e667",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:48.000Z"
+            },
+            {
+              "uuid": "52f2f085-111b-4bab-a85f-102c53fbe655",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:49.000Z"
+            },
+            {
+              "uuid": "61e19c41-0d27-4c0e-bf74-8df35933ee8c",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "uuid": "aba3deba-880e-4d53-badc-ec50f678b0ef",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:51.000Z"
+            },
+            {
+              "uuid": "75f572b0-b703-4136-91f2-3d6ad4faeb1a",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:52.000Z"
+            },
+            {
+              "uuid": "e82a22b2-c08c-4848-ab12-38ac3d8c30e3",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:53.000Z"
+            },
+            {
+              "uuid": "266ccba1-13f9-4594-9b25-2ea0d3e45fca",
+              "title": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc khởi nghĩa Bà Triệu (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc khởi nghĩa Bà Triệu.",
+              "created_at": "2025-01-01T00:00:54.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Nước ta dưới thời kỳ độc lập",
+      "lessons": [
+        {
+          "code": "LS5-CH2-L1",
+          "title": "Ngô Quyền và chiến thắng Bạch Đằng",
+          "exercises": [
+            {
+              "uuid": "35110340-4fb8-4e0f-917a-de1cabf24214",
+              "title": "Tự luận: Em hãy trình bày về chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về chiến thắng Bạch Đằng năm 938 của Ngô Quyền. Hãy nêu thời gian, địa điểm và ý nghĩa của chiến thắng này.",
+              "hint": "Hãy viết về chiến thắng năm 938 trên sông Bạch Đằng, đánh thắng quân Nam Hán, chấm dứt hơn 1000 năm Bắc thuộc.",
+              "answer": "Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng, chấm dứt hơn 1000 năm Bắc thuộc. Ông lên ngôi vua, đóng đô ở Cổ Loa. Chiến thắng này mở ra thời kỳ độc lập mới cho đất nước, khẳng định ý chí độc lập và tinh thần yêu nước của dân tộc Việt Nam.",
+              "created_at": "2025-01-01T00:00:50.000Z"
+            },
+            {
+              "uuid": "63610742-0de8-4ee0-9056-627e4edcd528",
+              "title": "Câu hỏi về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng vào năm nào?",
+              "options": {
+                "A": "Năm 936",
+                "B": "Năm 937",
+                "C": "Năm 938",
+                "D": "Năm 939"
+              },
+              "correctOption": "C",
+              "hint": "Năm 938, Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng, chấm dứt hơn 1000 năm Bắc thuộc.",
+              "created_at": "2025-01-01T00:00:51.000Z"
+            },
+            {
+              "uuid": "df475fdf-3cb9-4387-a47f-ef79a13226d2",
+              "title": "Câu hỏi về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ngô Quyền đánh thắng quân nào trên sông Bạch Đằng?",
+              "options": {
+                "A": "Quân Tống",
+                "B": "Quân Nam Hán",
+                "C": "Quân Đường",
+                "D": "Quân Minh"
+              },
+              "correctOption": "B",
+              "hint": "Ngô Quyền đánh thắng quân Nam Hán trên sông Bạch Đằng năm 938.",
+              "created_at": "2025-01-01T00:00:52.000Z"
+            },
+            {
+              "uuid": "4107227c-42da-444f-864e-0260353d0242",
+              "title": "Câu hỏi về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Sau khi đánh thắng quân Nam Hán, Ngô Quyền đóng đô ở đâu?",
+              "options": {
+                "A": "Cổ Loa",
+                "B": "Hoa Lư",
+                "C": "Thăng Long",
+                "D": "Phong Châu"
+              },
+              "correctOption": "A",
+              "hint": "Sau khi đánh thắng, Ngô Quyền lên ngôi vua, đóng đô ở Cổ Loa.",
+              "created_at": "2025-01-01T00:00:53.000Z"
+            },
+            {
+              "uuid": "22e59c75-d2ed-4c3e-87d0-2910d668ef17",
+              "title": "Câu hỏi về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Chiến thắng Bạch Đằng năm 938 có ý nghĩa gì?",
+              "options": {
+                "A": "Chấm dứt hơn 1000 năm Bắc thuộc",
+                "B": "Mở ra thời kỳ độc lập mới",
+                "C": "Cả A và B đều đúng",
+                "D": "Chỉ là một chiến thắng nhỏ"
+              },
+              "correctOption": "C",
+              "hint": "Chiến thắng Bạch Đằng năm 938 chấm dứt hơn 1000 năm Bắc thuộc, mở ra thời kỳ độc lập mới cho đất nước.",
+              "created_at": "2025-01-01T00:00:54.000Z"
+            },
+            {
+              "uuid": "43ed2265-7724-440d-bdcf-a9024f60e9f3",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:00:55.000Z"
+            },
+            {
+              "uuid": "d8a44efc-f5bd-46e7-9e9b-1350f8d5f336",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:00:56.000Z"
+            },
+            {
+              "uuid": "f49230a3-2530-446b-8ed5-abd29b278a08",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:00:57.000Z"
+            },
+            {
+              "uuid": "2e4baf77-75d3-4678-958e-6a2dcadc5265",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:00:58.000Z"
+            },
+            {
+              "uuid": "32b22bf9-6ee6-413e-8ce5-cc200727154f",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:00:59.000Z"
+            },
+            {
+              "uuid": "e87f4f00-d7e6-4435-a6b8-7209946bf8f2",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:01:00.000Z"
+            },
+            {
+              "uuid": "f9d0770a-a926-47cf-9640-e1e0c66f3f35",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:01:01.000Z"
+            },
+            {
+              "uuid": "eeb8e1b7-9cc5-4287-96fd-ebeb07c324a0",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:01:02.000Z"
+            },
+            {
+              "uuid": "90122ad0-03bc-4a81-8c39-48db43e29858",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:01:03.000Z"
+            },
+            {
+              "uuid": "c4ff21e4-06b1-419b-ac84-88e92ee62c46",
+              "title": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Ngô Quyền và chiến thắng Bạch Đằng (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ngô Quyền và chiến thắng Bạch Đằng.",
+              "created_at": "2025-01-01T00:01:04.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH2-L2",
+          "title": "Đinh Bộ Lĩnh thống nhất đất nước",
+          "exercises": [
+            {
+              "uuid": "cc99a431-cc31-4be0-b916-4d3ccd44b194",
+              "title": "Tự luận: Em hãy trình bày về công lao của Đinh Bộ Lĩnh trong việc thống nhất đất nước",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về công lao của Đinh Bộ Lĩnh trong việc thống nhất đất nước. Hãy nêu về việc dẹp loạn 12 sứ quân và lập ra nhà Đinh.",
+              "hint": "Hãy viết về việc Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập ra nhà Đinh năm 968, đặt tên nước là Đại Cồ Việt.",
+              "answer": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập ra nhà Đinh năm 968. Ông lên ngôi hoàng đế, đặt tên nước là Đại Cồ Việt. Công lao của Đinh Bộ Lĩnh là rất lớn trong việc thống nhất đất nước sau thời kỳ loạn lạc, mở ra một thời kỳ mới trong lịch sử dân tộc.",
+              "created_at": "2025-01-01T00:01:00.000Z"
+            },
+            {
+              "uuid": "72ca7995-5d1a-4b17-b1e3-68fdaff8b7ee",
+              "title": "Câu hỏi về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Đinh Bộ Lĩnh dẹp loạn bao nhiêu sứ quân?",
+              "options": {
+                "A": "10 sứ quân",
+                "B": "11 sứ quân",
+                "C": "12 sứ quân",
+                "D": "13 sứ quân"
+              },
+              "correctOption": "C",
+              "hint": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:01.000Z"
+            },
+            {
+              "uuid": "9640f53c-94d6-4c2f-8cf9-541433e4c2c2",
+              "title": "Câu hỏi về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Đinh Bộ Lĩnh lập ra nhà Đinh vào năm nào?",
+              "options": {
+                "A": "Năm 966",
+                "B": "Năm 967",
+                "C": "Năm 968",
+                "D": "Năm 969"
+              },
+              "correctOption": "C",
+              "hint": "Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước, lập ra nhà Đinh năm 968.",
+              "created_at": "2025-01-01T00:01:02.000Z"
+            },
+            {
+              "uuid": "62ddd435-8d36-459e-b85c-b1c93f3a2925",
+              "title": "Câu hỏi về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Đinh Bộ Lĩnh đặt tên nước là gì?",
+              "options": {
+                "A": "Đại Việt",
+                "B": "Đại Cồ Việt",
+                "C": "Việt Nam",
+                "D": "An Nam"
+              },
+              "correctOption": "B",
+              "hint": "Đinh Bộ Lĩnh lên ngôi hoàng đế, đặt tên nước là Đại Cồ Việt.",
+              "created_at": "2025-01-01T00:01:03.000Z"
+            },
+            {
+              "uuid": "372c579d-ac94-4c5e-a723-266cb1a09c18",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:04.000Z"
+            },
+            {
+              "uuid": "ca147bbb-0595-471b-a0df-8f725a5460c7",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:05.000Z"
+            },
+            {
+              "uuid": "506737ee-d86f-4fcd-bfda-785aa3610e28",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:06.000Z"
+            },
+            {
+              "uuid": "d5009d2d-8ff5-4a9d-8efe-ef6828887d94",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:07.000Z"
+            },
+            {
+              "uuid": "6fcd9064-20ee-4303-b7fc-9ce59b9feb67",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:08.000Z"
+            },
+            {
+              "uuid": "540f76ae-cfef-423a-9f74-664962ec66d9",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:09.000Z"
+            },
+            {
+              "uuid": "3478ab02-0103-4fad-86b0-d452c25b16cb",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:10.000Z"
+            },
+            {
+              "uuid": "8bb33f25-3134-4e7c-ba41-7f8a01e6b5e6",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:11.000Z"
+            },
+            {
+              "uuid": "afde0ca0-6f14-4777-9264-96167c63724c",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:12.000Z"
+            },
+            {
+              "uuid": "9cc35d0f-cc76-429c-a9f7-d7fbdd6aee1b",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:13.000Z"
+            },
+            {
+              "uuid": "5d50b2dc-aa1e-40cd-aaa7-53f13c78afce",
+              "title": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Đinh Bộ Lĩnh thống nhất đất nước (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đinh Bộ Lĩnh thống nhất đất nước.",
+              "created_at": "2025-01-01T00:01:14.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH2-L3",
+          "title": "Lý Công Uẩn dời đô về Thăng Long",
+          "exercises": [
+            {
+              "uuid": "387cbd99-31c5-43e4-b7bb-68a4d2938774",
+              "title": "Tự luận: Em hãy trình bày về việc Lý Công Uẩn dời đô về Thăng Long",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về việc Lý Công Uẩn dời đô về Thăng Long. Hãy nêu thời gian, địa điểm và ý nghĩa của việc dời đô này.",
+              "hint": "Hãy viết về việc dời đô năm 1010 từ Hoa Lư về Thăng Long (Hà Nội), mở ra thời kỳ phát triển mới.",
+              "answer": "Năm 1010, Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long (Hà Nội ngày nay). Đây là một quyết định sáng suốt, mở ra thời kỳ phát triển rực rỡ của đất nước. Thăng Long có vị trí địa lý thuận lợi, là trung tâm chính trị, kinh tế, văn hóa của cả nước.",
+              "created_at": "2025-01-01T00:01:10.000Z"
+            },
+            {
+              "uuid": "d9e45618-e4f3-4bdc-8ea9-c5d7331d5c6f",
+              "title": "Câu hỏi về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long vào năm nào?",
+              "options": {
+                "A": "Năm 1009",
+                "B": "Năm 1010",
+                "C": "Năm 1011",
+                "D": "Năm 1012"
+              },
+              "correctOption": "B",
+              "hint": "Năm 1010, Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long (Hà Nội ngày nay).",
+              "created_at": "2025-01-01T00:01:11.000Z"
+            },
+            {
+              "uuid": "bddaad9f-aa59-467e-91d7-60839ad2619b",
+              "title": "Câu hỏi về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lý Công Uẩn dời đô từ đâu về Thăng Long?",
+              "options": {
+                "A": "Từ Cổ Loa",
+                "B": "Từ Hoa Lư",
+                "C": "Từ Phong Châu",
+                "D": "Từ Thăng Long cũ"
+              },
+              "correctOption": "B",
+              "hint": "Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long năm 1010.",
+              "created_at": "2025-01-01T00:01:12.000Z"
+            },
+            {
+              "uuid": "7fc5facb-e353-467c-9284-e4e77403fd33",
+              "title": "Câu hỏi về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thăng Long là tên cũ của thành phố nào?",
+              "options": {
+                "A": "Hà Nội",
+                "B": "Huế",
+                "C": "Sài Gòn",
+                "D": "Đà Nẵng"
+              },
+              "correctOption": "A",
+              "hint": "Thăng Long là tên cũ của Hà Nội ngày nay.",
+              "created_at": "2025-01-01T00:01:13.000Z"
+            },
+            {
+              "uuid": "0ca7c4c5-0daa-4a9b-b5e9-1e655bff28e8",
+              "title": "Câu hỏi về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Việc dời đô về Thăng Long có ý nghĩa gì?",
+              "options": {
+                "A": "Mở ra thời kỳ phát triển rực rỡ của đất nước",
+                "B": "Thăng Long có vị trí địa lý thuận lợi hơn",
+                "C": "Cả A và B đều đúng",
+                "D": "Chỉ là một quyết định bình thường"
+              },
+              "correctOption": "C",
+              "hint": "Việc dời đô về Thăng Long là một quyết định sáng suốt, mở ra thời kỳ phát triển rực rỡ của đất nước.",
+              "created_at": "2025-01-01T00:01:14.000Z"
+            },
+            {
+              "uuid": "c7c4d88b-04ae-4f77-99b4-8115bcb6e6ef",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:15.000Z"
+            },
+            {
+              "uuid": "2dcce846-1c34-42ce-82ce-811cb358a03b",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:16.000Z"
+            },
+            {
+              "uuid": "a58d775c-ffc5-4086-98b6-bb4a5609bc35",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:17.000Z"
+            },
+            {
+              "uuid": "de459619-33e9-4df7-951b-dc11a65198e1",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:18.000Z"
+            },
+            {
+              "uuid": "0b2b35ce-ec58-4f22-b096-99fc9b4f4146",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:19.000Z"
+            },
+            {
+              "uuid": "168ff85f-6f01-4efa-b92a-480f6c8261fc",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:20.000Z"
+            },
+            {
+              "uuid": "203a45f4-1974-45e6-bd26-a03a8dfd4be4",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:21.000Z"
+            },
+            {
+              "uuid": "a0ac5a7c-b015-4f92-a212-0ea197600948",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:22.000Z"
+            },
+            {
+              "uuid": "4ae52ca3-c96c-44df-9833-4398a28eacf1",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:23.000Z"
+            },
+            {
+              "uuid": "9df3f1d8-e780-4363-9fc9-8d57433a0719",
+              "title": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lý Công Uẩn dời đô về Thăng Long (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lý Công Uẩn dời đô về Thăng Long.",
+              "created_at": "2025-01-01T00:01:24.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH2-L4",
+          "title": "Cuộc kháng chiến chống Tống",
+          "exercises": [
+            {
+              "uuid": "9780900a-bfa1-4ec5-9ad3-e3cd8fccb6e8",
+              "title": "Tự luận: Em hãy trình bày về cuộc kháng chiến chống Tống lần thứ hai",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về cuộc kháng chiến chống Tống lần thứ hai. Hãy nêu thời gian, lãnh đạo và kết quả.",
+              "hint": "Hãy viết về cuộc kháng chiến năm 1075-1077, do Lý Thường Kiệt chỉ huy, đánh thắng quân Tống.",
+              "answer": "Năm 1075-1077, nhà Lý đánh thắng quân Tống xâm lược. Lý Thường Kiệt là vị tướng tài ba, đã chỉ huy quân đội đánh bại quân thù. Cuộc kháng chiến này thể hiện tinh thần yêu nước và khả năng quân sự của dân tộc Việt Nam.",
+              "created_at": "2025-01-01T00:01:20.000Z"
+            },
+            {
+              "uuid": "c640ac73-02d9-4a2d-bb1e-15c90d69094b",
+              "title": "Câu hỏi về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc kháng chiến chống Tống lần thứ hai diễn ra vào những năm nào?",
+              "options": {
+                "A": "1073-1075",
+                "B": "1074-1076",
+                "C": "1075-1077",
+                "D": "1076-1078"
+              },
+              "correctOption": "C",
+              "hint": "Năm 1075-1077, nhà Lý đánh thắng quân Tống xâm lược.",
+              "created_at": "2025-01-01T00:01:21.000Z"
+            },
+            {
+              "uuid": "2179f409-8f16-4e92-9d7a-b340a85c3207",
+              "title": "Câu hỏi về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là vị tướng chỉ huy cuộc kháng chiến chống Tống?",
+              "options": {
+                "A": "Lý Thường Kiệt",
+                "B": "Trần Hưng Đạo",
+                "C": "Nguyễn Trãi",
+                "D": "Lê Lợi"
+              },
+              "correctOption": "A",
+              "hint": "Lý Thường Kiệt là vị tướng tài ba, đã chỉ huy quân đội đánh bại quân Tống.",
+              "created_at": "2025-01-01T00:01:22.000Z"
+            },
+            {
+              "uuid": "15966256-2219-4e51-a93c-17af7e10cd77",
+              "title": "Câu hỏi về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc kháng chiến chống Tống lần thứ hai chống lại quân nào?",
+              "options": {
+                "A": "Quân Nam Hán",
+                "B": "Quân Tống",
+                "C": "Quân Nguyên Mông",
+                "D": "Quân Minh"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc kháng chiến chống Tống lần thứ hai chống lại quân Tống xâm lược.",
+              "created_at": "2025-01-01T00:01:23.000Z"
+            },
+            {
+              "uuid": "f14a3608-7cbb-4bcd-84f6-5d434078ced6",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:24.000Z"
+            },
+            {
+              "uuid": "4e3ee3fd-a42b-4b73-84a3-60a1ed8f4471",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:25.000Z"
+            },
+            {
+              "uuid": "80f0edf4-cd9f-49ff-b490-4758b7950284",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:26.000Z"
+            },
+            {
+              "uuid": "82b07a60-a86f-4925-9f77-5108bb8f950c",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:27.000Z"
+            },
+            {
+              "uuid": "d3963d15-41f7-426a-a3d6-04d9f2f3def3",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:28.000Z"
+            },
+            {
+              "uuid": "7e29a9a8-ade4-4bae-b744-adcd0b744724",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:29.000Z"
+            },
+            {
+              "uuid": "06118252-a65e-48aa-9a65-93213a8181c7",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:30.000Z"
+            },
+            {
+              "uuid": "28519974-8e33-4a03-a5b2-214ece4118c7",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:31.000Z"
+            },
+            {
+              "uuid": "249b50dd-37bc-48ac-b328-c50100522f3b",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:32.000Z"
+            },
+            {
+              "uuid": "90df49ef-8629-4230-9724-224951bac111",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:33.000Z"
+            },
+            {
+              "uuid": "e9e4f0a7-dad0-405c-945e-b25c41658563",
+              "title": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Cuộc kháng chiến chống Tống (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cuộc kháng chiến chống Tống.",
+              "created_at": "2025-01-01T00:01:34.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Nước Đại Việt thời Trần",
+      "lessons": [
+        {
+          "code": "LS5-CH3-L1",
+          "title": "Lần thứ nhất (1258)",
+          "exercises": [
+            {
+              "uuid": "6fd4fc8e-619b-44a8-879d-fa89ff61a1ec",
+              "title": "Tự luận: Em hãy trình bày về cuộc kháng chiến chống Nguyên Mông lần thứ nhất",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về cuộc kháng chiến chống Nguyên Mông lần thứ nhất. Hãy nêu thời gian và kết quả.",
+              "hint": "Hãy viết về cuộc kháng chiến năm 1258, do Trần Thái Tông chỉ huy, đánh bại quân Nguyên Mông.",
+              "answer": "Năm 1258, quân Nguyên Mông xâm lược nước ta lần thứ nhất. Quân dân nhà Trần dưới sự chỉ huy của Trần Thái Tông đã đánh bại quân thù. Đây là chiến thắng đầu tiên trong ba lần đánh thắng quân Nguyên Mông, thể hiện tinh thần đoàn kết và ý chí chiến đấu của dân tộc.",
+              "created_at": "2025-01-01T00:01:30.000Z"
+            },
+            {
+              "uuid": "05f54a9d-0b85-4042-8e75-fe5b27242d0f",
+              "title": "Câu hỏi về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Quân Nguyên Mông xâm lược nước ta lần thứ nhất vào năm nào?",
+              "options": {
+                "A": "Năm 1256",
+                "B": "Năm 1257",
+                "C": "Năm 1258",
+                "D": "Năm 1259"
+              },
+              "correctOption": "C",
+              "hint": "Năm 1258, quân Nguyên Mông xâm lược nước ta lần thứ nhất.",
+              "created_at": "2025-01-01T00:01:31.000Z"
+            },
+            {
+              "uuid": "f1988ecc-0a61-4fb4-a0f2-c04c0ae19a3d",
+              "title": "Câu hỏi về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người chỉ huy quân dân nhà Trần trong cuộc kháng chiến lần thứ nhất?",
+              "options": {
+                "A": "Trần Thái Tông",
+                "B": "Trần Hưng Đạo",
+                "C": "Trần Nhân Tông",
+                "D": "Trần Anh Tông"
+              },
+              "correctOption": "A",
+              "hint": "Quân dân nhà Trần dưới sự chỉ huy của Trần Thái Tông đã đánh bại quân Nguyên Mông lần thứ nhất.",
+              "created_at": "2025-01-01T00:01:32.000Z"
+            },
+            {
+              "uuid": "2ecc3d24-7eba-47e7-bc69-2360145a1776",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:33.000Z"
+            },
+            {
+              "uuid": "78c56719-be6c-4f4f-8fc3-e46be98ccc72",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:34.000Z"
+            },
+            {
+              "uuid": "8699355e-9263-4372-8409-813cc7a4f72c",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:35.000Z"
+            },
+            {
+              "uuid": "93c4ad54-6741-4446-9fc8-551a5c857994",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:36.000Z"
+            },
+            {
+              "uuid": "75414f85-90e5-48ca-bdaa-9dcc708bbed2",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:37.000Z"
+            },
+            {
+              "uuid": "8cc525d6-6247-4063-b4b8-09729b808534",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:38.000Z"
+            },
+            {
+              "uuid": "ff55cd07-ab55-4d8d-b2f8-ba6122e20ecb",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:39.000Z"
+            },
+            {
+              "uuid": "93eae663-25df-4dc6-8ef6-0552e55e93a8",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:40.000Z"
+            },
+            {
+              "uuid": "0a11e9ec-f76e-4e60-ae83-25c47fbb2f2a",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:41.000Z"
+            },
+            {
+              "uuid": "0fa8695b-62a3-4b4f-8f3d-1c34a98a94e9",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:42.000Z"
+            },
+            {
+              "uuid": "d51d7c68-acd2-4b81-80ff-0f7f27d87177",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:43.000Z"
+            },
+            {
+              "uuid": "4acfda44-1256-48c3-a22a-f1f4a41ab0dc",
+              "title": "Câu hỏi bổ sung về Lần thứ nhất (1258)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ nhất (1258) (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ nhất (1258).",
+              "created_at": "2025-01-01T00:01:44.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH3-L2",
+          "title": "Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+          "exercises": [
+            {
+              "uuid": "2c4e8523-5573-4b3d-a67f-6eda995dcd96",
+              "title": "Tự luận: Em hãy trình bày về các cuộc kháng chiến chống Nguyên Mông lần thứ hai và thứ ba",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về các cuộc kháng chiến chống Nguyên Mông lần thứ hai và thứ ba. Hãy nêu thời gian, lãnh đạo và ý nghĩa.",
+              "hint": "Hãy viết về các cuộc kháng chiến năm 1285 và 1287-1288, do Trần Hưng Đạo lãnh đạo, đánh thắng quân Nguyên Mông.",
+              "answer": "Năm 1285 và 1287-1288, quân Nguyên Mông lại xâm lược. Dưới sự lãnh đạo của Trần Hưng Đạo, quân dân ta đã đánh thắng quân thù, bảo vệ độc lập dân tộc. Ba lần đánh thắng quân Nguyên Mông là một kỳ tích vĩ đại trong lịch sử dân tộc, thể hiện tinh thần yêu nước và tài năng quân sự của nhà Trần.",
+              "created_at": "2025-01-01T00:01:40.000Z"
+            },
+            {
+              "uuid": "c763b263-d1e2-4acf-abfa-2e8f7edb33ab",
+              "title": "Câu hỏi về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Quân Nguyên Mông xâm lược nước ta lần thứ hai vào năm nào?",
+              "options": {
+                "A": "Năm 1284",
+                "B": "Năm 1285",
+                "C": "Năm 1286",
+                "D": "Năm 1287"
+              },
+              "correctOption": "B",
+              "hint": "Năm 1285, quân Nguyên Mông lại xâm lược nước ta lần thứ hai.",
+              "created_at": "2025-01-01T00:01:41.000Z"
+            },
+            {
+              "uuid": "384f0508-bded-4d08-83ec-479d629cc259",
+              "title": "Câu hỏi về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Quân Nguyên Mông xâm lược nước ta lần thứ ba vào những năm nào?",
+              "options": {
+                "A": "1286-1287",
+                "B": "1287-1288",
+                "C": "1288-1289",
+                "D": "1289-1290"
+              },
+              "correctOption": "B",
+              "hint": "Năm 1287-1288, quân Nguyên Mông lại xâm lược nước ta lần thứ ba.",
+              "created_at": "2025-01-01T00:01:42.000Z"
+            },
+            {
+              "uuid": "64214804-1664-4cf4-b0f4-1d2e116d41f7",
+              "title": "Câu hỏi về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Ai là người lãnh đạo quân dân nhà Trần trong các cuộc kháng chiến chống Nguyên Mông lần thứ hai và thứ ba?",
+              "options": {
+                "A": "Trần Thái Tông",
+                "B": "Trần Hưng Đạo",
+                "C": "Trần Nhân Tông",
+                "D": "Trần Anh Tông"
+              },
+              "correctOption": "B",
+              "hint": "Dưới sự lãnh đạo của Trần Hưng Đạo, quân dân ta đã đánh thắng quân Nguyên Mông lần thứ hai và thứ ba.",
+              "created_at": "2025-01-01T00:01:43.000Z"
+            },
+            {
+              "uuid": "c3aad2bb-6b18-4dff-b07d-be7a7aebbbb7",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:44.000Z"
+            },
+            {
+              "uuid": "b344c124-a92e-4f76-97a1-311842964380",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:45.000Z"
+            },
+            {
+              "uuid": "5162bd68-753b-47cf-9e9b-9a8b8bdf6281",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:46.000Z"
+            },
+            {
+              "uuid": "ab6c3be7-9ca9-4076-8d9c-9651cb7ce8fd",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:47.000Z"
+            },
+            {
+              "uuid": "baae2f33-32f9-4951-9847-1257613dda80",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:48.000Z"
+            },
+            {
+              "uuid": "95327a7d-fa2f-4be8-a9c5-e80fd34078bc",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:49.000Z"
+            },
+            {
+              "uuid": "0014dae1-6f1d-4939-a2ca-85c033afe324",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:50.000Z"
+            },
+            {
+              "uuid": "b430947c-d4ef-4c3a-95a2-fe54126ff17b",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:51.000Z"
+            },
+            {
+              "uuid": "21e605e4-e4a8-48ae-a1bd-ccd739dea0b5",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:52.000Z"
+            },
+            {
+              "uuid": "41f7c785-7471-418c-841b-a4d6f09e407d",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:53.000Z"
+            },
+            {
+              "uuid": "e84d4e81-1a36-4f05-aa6e-2eca415e05f2",
+              "title": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288)",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lần thứ hai (1285) và lần thứ ba (1287-1288) (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lần thứ hai (1285) và lần thứ ba (1287-1288).",
+              "created_at": "2025-01-01T00:01:54.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Nước Đại Việt thời Lê",
+      "lessons": [
+        {
+          "code": "LS5-CH4-L1",
+          "title": "Lê Lợi và khởi nghĩa Lam Sơn",
+          "exercises": [
+            {
+              "uuid": "d396ccc8-dcb7-4230-904c-295c99c08d2d",
+              "title": "Tự luận: Em hãy trình bày về cuộc khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về cuộc khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo. Hãy nêu thời gian, địa điểm và kết quả.",
+              "hint": "Hãy viết về cuộc khởi nghĩa năm 1418 ở Lam Sơn (Thanh Hóa), giành thắng lợi năm 1428, chống lại nhà Minh.",
+              "answer": "Năm 1418, Lê Lợi phất cờ khởi nghĩa ở Lam Sơn (Thanh Hóa) chống lại ách đô hộ của nhà Minh. Sau 10 năm chiến đấu gian khổ, cuộc khởi nghĩa giành thắng lợi năm 1428. Đây là một trong những cuộc khởi nghĩa vĩ đại nhất trong lịch sử dân tộc, thể hiện tinh thần yêu nước và ý chí đấu tranh kiên cường của nhân dân ta.",
+              "created_at": "2025-01-01T00:01:50.000Z"
+            },
+            {
+              "uuid": "5834a246-2baa-40a3-b255-0950f6733dc7",
+              "title": "Câu hỏi về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lê Lợi phất cờ khởi nghĩa ở đâu?",
+              "options": {
+                "A": "Lam Sơn (Thanh Hóa)",
+                "B": "Hoa Lư (Ninh Bình)",
+                "C": "Thăng Long (Hà Nội)",
+                "D": "Phong Châu (Phú Thọ)"
+              },
+              "correctOption": "A",
+              "hint": "Năm 1418, Lê Lợi phất cờ khởi nghĩa ở Lam Sơn (Thanh Hóa) chống lại ách đô hộ của nhà Minh.",
+              "created_at": "2025-01-01T00:01:51.000Z"
+            },
+            {
+              "uuid": "9f285e42-00af-4b0a-840c-044c826f9a32",
+              "title": "Câu hỏi về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Lê Lợi phất cờ khởi nghĩa vào năm nào?",
+              "options": {
+                "A": "Năm 1416",
+                "B": "Năm 1417",
+                "C": "Năm 1418",
+                "D": "Năm 1419"
+              },
+              "correctOption": "C",
+              "hint": "Năm 1418, Lê Lợi phất cờ khởi nghĩa ở Lam Sơn.",
+              "created_at": "2025-01-01T00:01:52.000Z"
+            },
+            {
+              "uuid": "9d64f956-9d0b-435b-9033-eaaf3d959d91",
+              "title": "Câu hỏi về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Lam Sơn giành thắng lợi vào năm nào?",
+              "options": {
+                "A": "Năm 1426",
+                "B": "Năm 1427",
+                "C": "Năm 1428",
+                "D": "Năm 1429"
+              },
+              "correctOption": "C",
+              "hint": "Sau 10 năm chiến đấu gian khổ, cuộc khởi nghĩa giành thắng lợi năm 1428.",
+              "created_at": "2025-01-01T00:01:53.000Z"
+            },
+            {
+              "uuid": "c1e8f5cc-190b-4133-aa01-66aa24c94ea3",
+              "title": "Câu hỏi về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cuộc khởi nghĩa Lam Sơn chống lại ách đô hộ của triều đại nào?",
+              "options": {
+                "A": "Nhà Nguyên",
+                "B": "Nhà Minh",
+                "C": "Nhà Thanh",
+                "D": "Nhà Tống"
+              },
+              "correctOption": "B",
+              "hint": "Cuộc khởi nghĩa Lam Sơn chống lại ách đô hộ của nhà Minh.",
+              "created_at": "2025-01-01T00:01:54.000Z"
+            },
+            {
+              "uuid": "2132407c-1972-4dd7-8186-440c68d1c7f7",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:01:55.000Z"
+            },
+            {
+              "uuid": "cc9a4222-fae9-4f9a-8f22-a52e7cebc58e",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:01:56.000Z"
+            },
+            {
+              "uuid": "3e31fab8-9bb9-4d44-b61d-edb7697f5ce2",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:01:57.000Z"
+            },
+            {
+              "uuid": "fd777d81-554d-4cda-b2ad-b98daa411efc",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:01:58.000Z"
+            },
+            {
+              "uuid": "caf560f4-b775-43f7-85fc-2060c1636000",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:01:59.000Z"
+            },
+            {
+              "uuid": "5d1e7b78-97f3-45fc-b23a-a16ca1e0ca84",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:02:00.000Z"
+            },
+            {
+              "uuid": "8b2b0fba-e379-48a2-9515-f4544da7a7a7",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:02:01.000Z"
+            },
+            {
+              "uuid": "7f3d347d-c66e-4d45-8333-4957bea8ef87",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:02:02.000Z"
+            },
+            {
+              "uuid": "5feb5a95-2b8c-4ca2-839d-cd7f02511795",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:02:03.000Z"
+            },
+            {
+              "uuid": "516ca07b-be87-413d-a16f-cff4cd551f04",
+              "title": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Lê Lợi và khởi nghĩa Lam Sơn (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Lê Lợi và khởi nghĩa Lam Sơn.",
+              "created_at": "2025-01-01T00:02:04.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH4-L2",
+          "title": "Nguyễn Trãi và Bình Ngô đại cáo",
+          "exercises": [
+            {
+              "uuid": "859f009b-93b3-4c35-912f-b2d3c7f38599",
+              "title": "Tự luận: Em hãy trình bày về Nguyễn Trãi và tác phẩm Bình Ngô đại cáo",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về Nguyễn Trãi và tác phẩm Bình Ngô đại cáo. Hãy nêu vai trò của Nguyễn Trãi và ý nghĩa của tác phẩm.",
+              "hint": "Hãy viết về Nguyễn Trãi - quân sư của Lê Lợi, tác giả của Bình Ngô đại cáo - bản tuyên ngôn độc lập.",
+              "answer": "Nguyễn Trãi là nhà quân sự, chính trị, văn học kiệt xuất. Ông là quân sư của Lê Lợi, tác giả của Bình Ngô đại cáo - bản tuyên ngôn độc lập của dân tộc. Bình Ngô đại cáo khẳng định chủ quyền độc lập của dân tộc Việt Nam, là một trong những tác phẩm văn học chính trị vĩ đại nhất trong lịch sử dân tộc.",
+              "created_at": "2025-01-01T00:02:00.000Z"
+            },
+            {
+              "uuid": "867962b7-5c82-4592-8873-1255bc351ac3",
+              "title": "Câu hỏi về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nguyễn Trãi là ai?",
+              "options": {
+                "A": "Nhà quân sự, chính trị, văn học kiệt xuất",
+                "B": "Vị tướng tài ba",
+                "C": "Nhà thơ nổi tiếng",
+                "D": "Quan lại triều đình"
+              },
+              "correctOption": "A",
+              "hint": "Nguyễn Trãi là nhà quân sự, chính trị, văn học kiệt xuất, quân sư của Lê Lợi.",
+              "created_at": "2025-01-01T00:02:01.000Z"
+            },
+            {
+              "uuid": "75149158-d26f-48d0-91e5-fe0a8fdf5b5f",
+              "title": "Câu hỏi về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nguyễn Trãi là tác giả của tác phẩm nào?",
+              "options": {
+                "A": "Bình Ngô đại cáo",
+                "B": "Hịch tướng sĩ",
+                "C": "Nam quốc sơn hà",
+                "D": "Tuyên ngôn độc lập"
+              },
+              "correctOption": "A",
+              "hint": "Nguyễn Trãi là tác giả của Bình Ngô đại cáo - bản tuyên ngôn độc lập của dân tộc.",
+              "created_at": "2025-01-01T00:02:02.000Z"
+            },
+            {
+              "uuid": "ae3095c9-7c44-4be6-9d6a-354d945a9c82",
+              "title": "Câu hỏi về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Bình Ngô đại cáo được coi là gì?",
+              "options": {
+                "A": "Bản tuyên ngôn độc lập của dân tộc",
+                "B": "Bài thơ yêu nước",
+                "C": "Bản hịch tướng sĩ",
+                "D": "Bài văn tế"
+              },
+              "correctOption": "A",
+              "hint": "Bình Ngô đại cáo là bản tuyên ngôn độc lập của dân tộc, do Nguyễn Trãi soạn thảo.",
+              "created_at": "2025-01-01T00:02:03.000Z"
+            },
+            {
+              "uuid": "d6ff26a5-c40e-4ba0-b0b0-9bb3df2b3f6f",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:04.000Z"
+            },
+            {
+              "uuid": "1d8dbf06-3fe3-4d1d-aae5-4f49deeedd59",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:05.000Z"
+            },
+            {
+              "uuid": "43637a53-3828-48ac-b68a-5d96692b36b2",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:06.000Z"
+            },
+            {
+              "uuid": "d32364da-bb0c-496e-a71c-407defd48bd8",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:07.000Z"
+            },
+            {
+              "uuid": "55f468b4-1bc4-4081-9120-6df2983cdb5d",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:08.000Z"
+            },
+            {
+              "uuid": "31291cc1-706f-47b6-a26c-aa6131c5a6b9",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:09.000Z"
+            },
+            {
+              "uuid": "5d2a820b-cb88-4152-91c1-1e68ac5071a8",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:10.000Z"
+            },
+            {
+              "uuid": "7ee7a924-e62b-493c-b023-e65d96d5d4be",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:11.000Z"
+            },
+            {
+              "uuid": "ec51df51-964b-47be-9050-117897b59c81",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:12.000Z"
+            },
+            {
+              "uuid": "24915769-eba7-42e9-850d-694f0551fdb3",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:13.000Z"
+            },
+            {
+              "uuid": "4591bae2-41f5-4181-a699-1fbbe61ea839",
+              "title": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Nguyễn Trãi và Bình Ngô đại cáo (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyễn Trãi và Bình Ngô đại cáo.",
+              "created_at": "2025-01-01T00:02:14.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Việt Nam thế kỷ XIX",
+      "lessons": [
+        {
+          "code": "LS5-CH5-L1",
+          "title": "Thực dân Pháp xâm lược Việt Nam",
+          "exercises": [
+            {
+              "uuid": "f185092d-5e0d-4cf3-a2b0-41ba65cc3276",
+              "title": "Tự luận: Em hãy trình bày về quá trình thực dân Pháp xâm lược Việt Nam",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về quá trình thực dân Pháp xâm lược Việt Nam. Hãy nêu thời gian bắt đầu và thời gian triều đình nhà Nguyễn đầu hàng.",
+              "hint": "Hãy viết về việc Pháp xâm lược năm 1858 và triều đình nhà Nguyễn đầu hàng năm 1884.",
+              "answer": "Năm 1858, thực dân Pháp nổ súng xâm lược Việt Nam. Sau nhiều năm chiến đấu, năm 1884, triều đình nhà Nguyễn ký hiệp ước đầu hàng, chấp nhận sự đô hộ của Pháp. Đây là bước đầu của quá trình thực dân hóa Việt Nam, mở ra một thời kỳ đen tối trong lịch sử dân tộc.",
+              "created_at": "2025-01-01T00:02:10.000Z"
+            },
+            {
+              "uuid": "075261b4-7959-4088-8541-e6f05b2b2f43",
+              "title": "Câu hỏi về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thực dân Pháp nổ súng xâm lược Việt Nam vào năm nào?",
+              "options": {
+                "A": "Năm 1856",
+                "B": "Năm 1857",
+                "C": "Năm 1858",
+                "D": "Năm 1859"
+              },
+              "correctOption": "C",
+              "hint": "Năm 1858, thực dân Pháp nổ súng xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:11.000Z"
+            },
+            {
+              "uuid": "659e6067-eeea-48b8-a362-7adf37a056f9",
+              "title": "Câu hỏi về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Triều đình nhà Nguyễn ký hiệp ước đầu hàng Pháp vào năm nào?",
+              "options": {
+                "A": "Năm 1882",
+                "B": "Năm 1883",
+                "C": "Năm 1884",
+                "D": "Năm 1885"
+              },
+              "correctOption": "C",
+              "hint": "Năm 1884, triều đình nhà Nguyễn ký hiệp ước đầu hàng, chấp nhận sự đô hộ của Pháp.",
+              "created_at": "2025-01-01T00:02:12.000Z"
+            },
+            {
+              "uuid": "c407bb0e-aa00-49ca-a693-61df6f2d6e35",
+              "title": "Câu hỏi về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thực dân Pháp xâm lược Việt Nam nhằm mục đích gì?",
+              "options": {
+                "A": "Giúp đỡ Việt Nam phát triển",
+                "B": "Bảo vệ Việt Nam",
+                "C": "Khai thác tài nguyên và bóc lột nhân dân",
+                "D": "Hợp tác với Việt Nam"
+              },
+              "correctOption": "C",
+              "hint": "Thực dân Pháp xâm lược Việt Nam nhằm khai thác tài nguyên và bóc lột nhân dân.",
+              "created_at": "2025-01-01T00:02:13.000Z"
+            },
+            {
+              "uuid": "6da30f88-b653-4763-9807-a48d203b1007",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:14.000Z"
+            },
+            {
+              "uuid": "45ea28a1-0302-4a30-90d4-2bbd9089719c",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:15.000Z"
+            },
+            {
+              "uuid": "14c8ff32-cad4-48ef-a56f-5a2e40c3dc40",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:16.000Z"
+            },
+            {
+              "uuid": "b304a162-32b5-478b-a1cb-d6fd52b58974",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:17.000Z"
+            },
+            {
+              "uuid": "0747950d-991d-4238-86ad-dda7d44b8b13",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:18.000Z"
+            },
+            {
+              "uuid": "518f533d-f2c1-4fbd-ace9-daecc32638b9",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:19.000Z"
+            },
+            {
+              "uuid": "5be583c4-e739-467a-beaa-0b8048d70d94",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:20.000Z"
+            },
+            {
+              "uuid": "a69b25d2-df68-4961-b5e4-15dea43a6b0d",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:21.000Z"
+            },
+            {
+              "uuid": "a2679134-307a-4de9-9f61-a4c74d00688a",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:22.000Z"
+            },
+            {
+              "uuid": "95643284-2631-4492-a817-2bd912e048b6",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:23.000Z"
+            },
+            {
+              "uuid": "30393840-17f3-484f-bb61-e9ea9e23490a",
+              "title": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Thực dân Pháp xâm lược Việt Nam (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Thực dân Pháp xâm lược Việt Nam.",
+              "created_at": "2025-01-01T00:02:24.000Z"
+            }
+          ]
+        },
+        {
+          "code": "LS5-CH5-L2",
+          "title": "Phong trào đấu tranh chống Pháp",
+          "exercises": [
+            {
+              "uuid": "4004e29f-30d9-4f4b-95fa-33531231c882",
+              "title": "Tự luận: Em hãy trình bày về các phong trào đấu tranh chống Pháp của nhân dân ta",
+              "type": "essay",
+              "points": 4,
+              "question": "Em hãy trình bày về các phong trào đấu tranh chống Pháp của nhân dân ta. Hãy nêu tên một số phong trào và ý nghĩa của chúng.",
+              "hint": "Hãy viết về các phong trào như Cần Vương, Yên Thế... thể hiện tinh thần yêu nước.",
+              "answer": "Nhân dân ta không chịu khuất phục, đã nổi dậy đấu tranh chống Pháp. Các phong trào như Cần Vương, Yên Thế... thể hiện tinh thần yêu nước của dân tộc. Mặc dù các phong trào này chưa giành được thắng lợi hoàn toàn, nhưng chúng đã thể hiện ý chí đấu tranh kiên cường và tinh thần yêu nước bất diệt của nhân dân ta.",
+              "created_at": "2025-01-01T00:02:20.000Z"
+            },
+            {
+              "uuid": "9d8a69e0-b386-4f05-87c1-35a025258f06",
+              "title": "Câu hỏi về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nhân dân ta có chịu khuất phục trước ách đô hộ của Pháp không?",
+              "options": {
+                "A": "Có, chịu khuất phục hoàn toàn",
+                "B": "Không, đã nổi dậy đấu tranh",
+                "C": "Một phần chịu khuất phục",
+                "D": "Không có phản ứng gì"
+              },
+              "correctOption": "B",
+              "hint": "Nhân dân ta không chịu khuất phục, đã nổi dậy đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:21.000Z"
+            },
+            {
+              "uuid": "63a25ef2-cf9c-4c42-b6aa-8ce2f92ead0a",
+              "title": "Câu hỏi về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Các phong trào đấu tranh chống Pháp bao gồm những phong trào nào?",
+              "options": {
+                "A": "Cần Vương, Yên Thế",
+                "B": "Đông Du, Duy Tân",
+                "C": "Cả A và B đều đúng",
+                "D": "Chỉ có Cần Vương"
+              },
+              "correctOption": "C",
+              "hint": "Các phong trào đấu tranh như Cần Vương, Yên Thế, Đông Du, Duy Tân... thể hiện tinh thần yêu nước của dân tộc.",
+              "created_at": "2025-01-01T00:02:22.000Z"
+            },
+            {
+              "uuid": "3e14c115-9aad-4c5b-890b-9cb778fae727",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 4/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:23.000Z"
+            },
+            {
+              "uuid": "f78e9bce-e4f2-4c6c-97eb-9d08cc0d3c90",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 5/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:24.000Z"
+            },
+            {
+              "uuid": "155db44e-689d-40b0-b6c6-07e456ee9f4e",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 6/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:25.000Z"
+            },
+            {
+              "uuid": "ff7b5477-4594-4116-acba-30f8fc5bd7ac",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 7/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:26.000Z"
+            },
+            {
+              "uuid": "c51fffbb-708f-4e0d-9d87-811e4d33fd4a",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 8/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:27.000Z"
+            },
+            {
+              "uuid": "93e8eec2-f2dc-426a-a52d-daca4ab669aa",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 9/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:28.000Z"
+            },
+            {
+              "uuid": "2b3ea9b9-7b64-411d-a4ff-12b1ed39f93b",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 10/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:29.000Z"
+            },
+            {
+              "uuid": "5267c8ca-a341-43e6-903e-fb34286737ba",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 11/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:30.000Z"
+            },
+            {
+              "uuid": "a7fdc08b-475b-4ff3-a4fe-1bdcb2f8545f",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 12/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:31.000Z"
+            },
+            {
+              "uuid": "ec7339db-8428-4394-a597-ae27d7d228d8",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 13/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:32.000Z"
+            },
+            {
+              "uuid": "f1e5d829-eb0e-40b4-90fa-8989491d1cb6",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 14/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:33.000Z"
+            },
+            {
+              "uuid": "9ab2a0bc-11b0-4249-830b-86d43b0a8c36",
+              "title": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Câu hỏi bổ sung về Phong trào đấu tranh chống Pháp (Câu 15/15)",
+              "options": {
+                "A": "Đáp án A",
+                "B": "Đáp án B (Đúng)",
+                "C": "Đáp án C",
+                "D": "Đáp án D"
+              },
+              "correctOption": "B",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phong trào đấu tranh chống Pháp.",
+              "created_at": "2025-01-01T00:02:34.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

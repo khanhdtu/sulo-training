@@ -51,18 +51,18 @@
             },
             {
               "uuid": "ad079592-f481-4fad-81e1-78bfb9c2dbed",
-              "title": "Câu hỏi về Sự sinh sản",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Kiến thức về sự sinh sản là gì?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
@@ -109,18 +109,18 @@
             },
             {
               "uuid": "2442b004-62a7-4659-a614-0df230df94a0",
-              "title": "Câu hỏi về Vệ sinh tuổi dậy thì",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Vệ sinh tuổi dậy thì có tầm quan trọng như thế nào?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vệ sinh tuổi dậy thì.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -273,18 +273,18 @@
             },
             {
               "uuid": "d4d82e46-f933-4fda-92f2-238d14fb7f86",
-              "title": "Câu hỏi về Tính chất của nước",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Nước có những tính chất nào?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của nước.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
@@ -331,18 +331,18 @@
             },
             {
               "uuid": "54a9fcdd-f7a6-4bc1-a5ca-2a9fdbd28cb0",
-              "title": "Câu hỏi về Sự chuyển thể của nước",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Nước có thể chuyển thể như thế nào?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển thể của nước.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -495,18 +495,18 @@
             },
             {
               "uuid": "b6e91d8a-2f9a-4205-982b-3cc0e48d68f2",
-              "title": "Câu hỏi về Cơ quan sinh sản của thực vật có hoa",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Cơ quan sinh sản của thực vật có hoa gồm những bộ phận nào?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cơ quan sinh sản của thực vật có hoa.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
@@ -553,18 +553,18 @@
             },
             {
               "uuid": "ec359857-0227-4f3b-9ea0-a3fa917bfb8c",
-              "title": "Câu hỏi về Sự sinh sản của thực vật có hoa",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Thực vật có hoa sinh sản bằng cách nào?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản của thực vật có hoa.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -717,18 +717,18 @@
             },
             {
               "uuid": "6af1587a-9a9b-4663-b855-d38841a353cd",
-              "title": "Câu hỏi về Môi trường",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Môi trường là gì?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
@@ -775,18 +775,18 @@
             },
             {
               "uuid": "89e5e559-97c2-46ec-99bd-3986e0dc4f6b",
-              "title": "Câu hỏi về Tài nguyên thiên nhiên",
+              "title": "Phân tích về sự sinh sản",
               "type": "multiple_choice",
               "points": 1,
-              "question": "Tài nguyên thiên nhiên bao gồm những gì?",
+              "question": "Tại sao sự sinh sản lại quan trọng đối với các loài sinh vật?",
               "options": {
-                "A": "Lựa chọn A - Đây là đáp án đúng",
-                "B": "Lựa chọn B - Đây là đáp án sai",
-                "C": "Lựa chọn C - Đây là đáp án sai",
-                "D": "Lựa chọn D - Đây là đáp án sai"
+                "A": "Vì giúp duy trì nòi giống và tạo ra thế hệ mới",
+                "B": "Vì giúp sinh vật lớn lên",
+                "C": "Vì giúp sinh vật ăn uống",
+                "D": "Vì giúp sinh vật di chuyễn"
               },
               "correctOption": "A",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tài nguyên thiên nhiên.",
+              "hint": "Sự sinh sản giúp duy trì nòi giống và tạo ra thế hệ mới, đảm bảo sự tồn tại của các loài.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]

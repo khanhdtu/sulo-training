@@ -1,0 +1,95 @@
+{
+  "grade": 5,
+  "courseYear": "2025-2026",
+  "subject": "Lịch sử",
+  "subjectCode": "LS5",
+  "chapters": [
+    {
+      "code": "CH1",
+      "name": "Buổi đầu dựng nước và giữ nước",
+      "lessons": [
+        {
+          "code": "LS5-CH1-L1",
+          "title": "Nước Văn Lang"
+        },
+        {
+          "code": "LS5-CH1-L2",
+          "title": "Đời sống của người Việt cổ"
+        },
+        {
+          "code": "LS5-CH1-L3",
+          "title": "Cuộc khởi nghĩa Hai Bà Trưng"
+        },
+        {
+          "code": "LS5-CH1-L4",
+          "title": "Cuộc khởi nghĩa Bà Triệu"
+        }
+      ]
+    },
+    {
+      "code": "CH2",
+      "name": "Nước ta dưới thời kỳ độc lập",
+      "lessons": [
+        {
+          "code": "LS5-CH2-L1",
+          "title": "Ngô Quyền và chiến thắng Bạch Đằng"
+        },
+        {
+          "code": "LS5-CH2-L2",
+          "title": "Đinh Bộ Lĩnh thống nhất đất nước"
+        },
+        {
+          "code": "LS5-CH2-L3",
+          "title": "Lý Công Uẩn dời đô về Thăng Long"
+        },
+        {
+          "code": "LS5-CH2-L4",
+          "title": "Cuộc kháng chiến chống Tống"
+        }
+      ]
+    },
+    {
+      "code": "CH3",
+      "name": "Nước Đại Việt thời Trần",
+      "lessons": [
+        {
+          "code": "LS5-CH3-L1",
+          "title": "Lần thứ nhất (1258)"
+        },
+        {
+          "code": "LS5-CH3-L2",
+          "title": "Lần thứ hai (1285) và lần thứ ba (1287-1288)"
+        }
+      ]
+    },
+    {
+      "code": "CH4",
+      "name": "Nước Đại Việt thời Lê",
+      "lessons": [
+        {
+          "code": "LS5-CH4-L1",
+          "title": "Lê Lợi và khởi nghĩa Lam Sơn"
+        },
+        {
+          "code": "LS5-CH4-L2",
+          "title": "Nguyễn Trãi và Bình Ngô đại cáo"
+        }
+      ]
+    },
+    {
+      "code": "CH5",
+      "name": "Việt Nam thế kỷ XIX",
+      "lessons": [
+        {
+          "code": "LS5-CH5-L1",
+          "title": "Thực dân Pháp xâm lược Việt Nam"
+        },
+        {
+          "code": "LS5-CH5-L2",
+          "title": "Phong trào đấu tranh chống Pháp"
+        }
+      ]
+    }
+  ]
+}
+
