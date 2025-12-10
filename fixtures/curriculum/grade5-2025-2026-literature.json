@@ -10,19 +10,23 @@
       "lessons": [
         {
           "code": "LIT5-CH1-L1",
-          "title": "Tập đọc: Thư gửi các học sinh"
+          "title": "Tập đọc: Thư gửi các học sinh",
+          "uuid": "60ce6674-4279-4bfe-aaa0-1a3a15371bd7"
         },
         {
           "code": "LIT5-CH1-L2",
-          "title": "Chính tả: Nghe - viết: Việt Nam thân yêu"
+          "title": "Chính tả: Nghe - viết: Việt Nam thân yêu",
+          "uuid": "4cd16811-5f3e-4aad-aad9-28c5415b912c"
         },
         {
           "code": "LIT5-CH1-L3",
-          "title": "Luyện từ và câu: Từ đồng nghĩa"
+          "title": "Luyện từ và câu: Từ đồng nghĩa",
+          "uuid": "b9af90af-8634-4421-8b0b-56ed27924108"
         },
         {
           "code": "LIT5-CH1-L4",
-          "title": "Tập làm văn: Cấu tạo của bài văn tả cảnh"
+          "title": "Tập làm văn: Cấu tạo của bài văn tả cảnh",
+          "uuid": "fcdf1e53-a330-43f0-a84b-667fb1699719"
         }
       ]
     },
@@ -32,19 +36,23 @@
       "lessons": [
         {
           "code": "LIT5-CH2-L1",
-          "title": "Tập đọc: Những con sếu bằng giấy"
+          "title": "Tập đọc: Những con sếu bằng giấy",
+          "uuid": "356f8f47-56f6-4e22-a676-7a0611e298af"
         },
         {
           "code": "LIT5-CH2-L2",
-          "title": "Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ"
+          "title": "Chính tả: Nghe - viết: Anh bộ đội Cụ Hồ gốc Bỉ",
+          "uuid": "c0b932fd-f6c2-4cb8-abd9-1741ef9263ad"
         },
         {
           "code": "LIT5-CH2-L3",
-          "title": "Luyện từ và câu: Từ trái nghĩa"
+          "title": "Luyện từ và câu: Từ trái nghĩa",
+          "uuid": "c37ba468-ef53-40aa-b6ee-67f86886ca63"
         },
         {
           "code": "LIT5-CH2-L4",
-          "title": "Tập làm văn: Luyện tập tả cảnh"
+          "title": "Tập làm văn: Luyện tập tả cảnh",
+          "uuid": "c9283925-f67a-42d3-9bdd-184bd0712a40"
         }
       ]
     },
@@ -54,19 +62,23 @@
       "lessons": [
         {
           "code": "LIT5-CH3-L1",
-          "title": "Tập đọc: Những người bạn tốt"
+          "title": "Tập đọc: Những người bạn tốt",
+          "uuid": "21d2870d-ac4f-4bea-bdc3-a1707893f771"
         },
         {
           "code": "LIT5-CH3-L2",
-          "title": "Chính tả: Nghe - viết: Dòng kinh quê hương"
+          "title": "Chính tả: Nghe - viết: Dòng kinh quê hương",
+          "uuid": "72652cd8-4ad2-4e92-9d85-43d8e7080c1f"
         },
         {
           "code": "LIT5-CH3-L3",
-          "title": "Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên"
+          "title": "Luyện từ và câu: Mở rộng vốn từ: Thiên nhiên",
+          "uuid": "0f436114-b3bc-4942-bc11-9e7827e6d890"
         },
         {
           "code": "LIT5-CH3-L4",
-          "title": "Tập làm văn: Luyện tập tả cảnh thiên nhiên"
+          "title": "Tập làm văn: Luyện tập tả cảnh thiên nhiên",
+          "uuid": "bd71a8a6-4571-474e-b935-a038903c2f1b"
         }
       ]
     },
@@ -76,19 +88,23 @@
       "lessons": [
         {
           "code": "LIT5-CH4-L1",
-          "title": "Tập đọc: Một chuyên gia máy xúc"
+          "title": "Tập đọc: Một chuyên gia máy xúc",
+          "uuid": "c80fd290-758e-4acc-8949-d37824bc69a6"
         },
         {
           "code": "LIT5-CH4-L2",
-          "title": "Chính tả: Nghe - viết: Luật Bảo vệ môi trường"
+          "title": "Chính tả: Nghe - viết: Luật Bảo vệ môi trường",
+          "uuid": "44f1111a-dee8-4219-957c-ce0712c3f052"
         },
         {
           "code": "LIT5-CH4-L3",
-          "title": "Luyện từ và câu: Đại từ"
+          "title": "Luyện từ và câu: Đại từ",
+          "uuid": "86e5c862-ca64-4916-9dc7-2dcf00aceacd"
         },
         {
           "code": "LIT5-CH4-L4",
-          "title": "Tập làm văn: Luyện tập tả người"
+          "title": "Tập làm văn: Luyện tập tả người",
+          "uuid": "cef956af-8004-4a85-946b-9318a60794cb"
         }
       ]
     },
@@ -98,23 +114,26 @@
       "lessons": [
         {
           "code": "LIT5-CH5-L1",
-          "title": "Tập đọc: Chuỗi ngọc lam"
+          "title": "Tập đọc: Chuỗi ngọc lam",
+          "uuid": "7c07f146-c140-4399-8b64-729a513f7f74"
         },
         {
           "code": "LIT5-CH5-L2",
-          "title": "Chính tả: Nghe - viết: Mùa thảo quả"
+          "title": "Chính tả: Nghe - viết: Mùa thảo quả",
+          "uuid": "7fcfe01c-dfce-4842-889a-660e38814155"
         },
         {
           "code": "LIT5-CH5-L3",
-          "title": "Luyện từ và câu: Tổng kết vốn từ"
+          "title": "Luyện từ và câu: Tổng kết vốn từ",
+          "uuid": "3b4eb43b-45f0-40b8-80d1-1d9fc24c0f56"
         },
         {
           "code": "LIT5-CH5-L4",
-          "title": "Tập làm văn: Luyện tập làm đơn"
+          "title": "Tập làm văn: Luyện tập làm đơn",
+          "uuid": "aabf2fec-5484-4fb6-8d94-c6b80f6d6d01"
         }
       ]
     }
   ],
   "created_at": "2025-01-01T00:00:00.000Z"
 }
-

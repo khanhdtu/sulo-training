@@ -26,7 +26,8 @@
               },
               "correctOption": "A",
               "hint": "Phân số có tử số là số phần được tô màu, mẫu số là tổng số phần.",
-              "created_at": "2025-01-01T00:00:00.000Z"
+              "created_at": "2025-01-01T00:00:00.000Z",
+              "uuid": "f8b7f3fa-b44b-4265-aa6e-8c204b284f3f"
             },
             {
               "title": "Cộng hai phân số cùng mẫu",
@@ -41,7 +42,8 @@
               },
               "correctOption": "B",
               "hint": "Khi cộng hai phân số cùng mẫu, giữ nguyên mẫu số và cộng tử số.",
-              "created_at": "2025-01-01T00:00:01.000Z"
+              "created_at": "2025-01-01T00:00:01.000Z",
+              "uuid": "fb2ab993-2dfa-4b53-930e-40c998868636"
             },
             {
               "title": "Trừ hai phân số cùng mẫu",
@@ -56,7 +58,8 @@
               },
               "correctOption": "B",
               "hint": "Khi trừ hai phân số cùng mẫu, giữ nguyên mẫu số và trừ tử số.",
-              "created_at": "2025-01-01T00:00:02.000Z"
+              "created_at": "2025-01-01T00:00:02.000Z",
+              "uuid": "7fef992b-b86c-4c14-8428-e3e14cfd79bf"
             },
             {
               "title": "Tự luận: Tính $\\frac{1}{3} + \\frac{1}{6}$",
@@ -65,7 +68,8 @@
               "question": "Tính: $\\frac{1}{3} + \\frac{1}{6}$",
               "hint": "Quy đồng mẫu số trước khi cộng. Mẫu số chung của 3 và 6 là 6.",
               "answer": "Quy đồng mẫu số: $\\frac{1}{3} = \\frac{2}{6}$. Tính: $\\frac{2}{6} + \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$.",
-              "created_at": "2025-01-01T00:00:03.000Z"
+              "created_at": "2025-01-01T00:00:03.000Z",
+              "uuid": "4deaafe3-3755-4958-85d1-d8cdd24d2363"
             },
             {
               "title": "Câu hỏi cơ bản về Phân số và phép tính với phân số",
@@ -80,7 +84,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phân số và phép tính với phân số.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "5ad82d40-1316-45fb-891d-24dfd59fd604"
             },
             {
               "title": "Nêu hiểu biết của em về Phân số và phép tính với phân số",
@@ -89,7 +94,8 @@
               "question": "Nêu hiểu biết của em về Phân số và phép tính với phân số (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Phân số và phép tính với phân số.",
               "answer": "Đây là câu trả lời ngắn gọn về Phân số và phép tính với phân số. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "b309ea18-3533-4eb9-8f09-092be241f6b5"
             }
           ]
         },
@@ -110,7 +116,8 @@
               },
               "correctOption": "B",
               "hint": "Hỗn số = phần nguyên × mẫu số + tử số, giữ nguyên mẫu số. $2\\frac{1}{3} = \\frac{2 \\times 3 + 1}{3} = \\frac{7}{3}$.",
-              "created_at": "2025-01-01T00:00:04.000Z"
+              "created_at": "2025-01-01T00:00:04.000Z",
+              "uuid": "39736b9b-1ed7-4bba-ae2e-4432ececebaf"
             },
             {
               "title": "Chuyển phân số thành hỗn số",
@@ -125,7 +132,8 @@
               },
               "correctOption": "B",
               "hint": "Chia tử số cho mẫu số: $8 \\div 3 = 2$ dư $2$. Vậy $\\frac{8}{3} = 2\\frac{2}{3}$.",
-              "created_at": "2025-01-01T00:00:05.000Z"
+              "created_at": "2025-01-01T00:00:05.000Z",
+              "uuid": "163f9843-53bd-4919-99ed-18bf8e96df79"
             },
             {
               "title": "Tự luận: Chuyển $\\frac{11}{4}$ thành hỗn số",
@@ -134,7 +142,8 @@
               "question": "Chuyển phân số $\\frac{11}{4}$ thành hỗn số",
               "hint": "Chia 11 cho 4: 11 ÷ 4 = 2 dư 3.",
               "answer": "$11 \\div 4 = 2$ dư $3$. Vậy $\\frac{11}{4} = 2\\frac{3}{4}$.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "1755d356-7c91-41d7-b158-14e0a356b2c3"
             },
             {
               "title": "Hiểu biết cơ bản về Hỗn số",
@@ -149,7 +158,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hỗn số.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "b7a1af56-6d9d-423b-9483-a981f541ffed"
             },
             {
               "title": "Trình bày ngắn gọn về Hỗn số",
@@ -158,7 +168,8 @@
               "question": "Trình bày ngắn gọn về Hỗn số (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Hỗn số.",
               "answer": "Đây là câu trả lời ngắn gọn về Hỗn số. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "94586f0a-8469-4a6f-b20a-74d95bacef3c"
             }
           ]
         },
@@ -179,7 +190,8 @@
               },
               "correctOption": "B",
               "hint": "Khi so sánh hai phân số cùng mẫu, phân số nào có tử số lớn hơn thì lớn hơn.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "750cf738-f005-42cf-80bb-eb68b0c7f556"
             },
             {
               "title": "So sánh hai phân số khác mẫu",
@@ -194,7 +206,8 @@
               },
               "correctOption": "A",
               "hint": "Quy đồng mẫu số: $\\frac{1}{2} = \\frac{5}{10}$, $\\frac{2}{5} = \\frac{4}{10}$. Vậy $\\frac{1}{2} > \\frac{2}{5}$.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "06465cd2-8ba8-4f7c-9742-130b8c4cda10"
             },
             {
               "title": "Tự luận: Sắp xếp các phân số $\\frac{1}{3}$, $\\frac{1}{2}$, $\\frac{1}{4}$ theo thứ tự tăng dần",
@@ -203,7 +216,8 @@
               "question": "Sắp xếp các phân số $\\frac{1}{3}$, $\\frac{1}{2}$, $\\frac{1}{4}$ theo thứ tự tăng dần",
               "hint": "Quy đồng mẫu số hoặc so sánh trực tiếp: phân số có cùng tử số, mẫu số càng lớn thì phân số càng nhỏ.",
               "answer": "Vì các phân số có cùng tử số là 1, nên phân số nào có mẫu số lớn hơn thì nhỏ hơn. Thứ tự tăng dần: $\\frac{1}{4} < \\frac{1}{3} < \\frac{1}{2}$.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "6ac88f7f-e35f-4831-8208-60c5f644e5db"
             },
             {
               "title": "Câu hỏi đơn giản về So sánh phân số",
@@ -218,7 +232,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của So sánh phân số.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "c2022b53-7410-4e67-bbe5-e1f46830b355"
             }
           ]
         }
@@ -245,7 +260,8 @@
               },
               "correctOption": "A",
               "hint": "Số thập phân 2,5 được đọc là 'hai phẩy năm'.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "a056292c-a529-4750-8649-e728535a3481"
             },
             {
               "title": "Viết số thập phân",
@@ -260,7 +276,8 @@
               },
               "correctOption": "A",
               "hint": "Số thập phân 'ba phẩy bảy' được viết là 3,7 (dùng dấu phẩy trong tiếng Việt).",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "50b5ac73-078a-4a08-9115-1cc175ead70c"
             },
             {
               "title": "Tự luận: Viết phân số $\\frac{3}{10}$ dưới dạng số thập phân",
@@ -269,7 +286,8 @@
               "question": "Viết phân số $\\frac{3}{10}$ dưới dạng số thập phân",
               "hint": "Phân số có mẫu số là 10 thì viết thành số thập phân có 1 chữ số sau dấu phẩy.",
               "answer": "$\\frac{3}{10} = 0,3$",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "344c641e-ad2c-4205-aff0-32ceba3f0ae1"
             },
             {
               "title": "Câu hỏi cơ bản về Khái niệm số thập phân",
@@ -284,7 +302,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khái niệm số thập phân.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "0aeee98e-ff42-4cff-85c1-28179b53e1af"
             },
             {
               "title": "Nêu hiểu biết của em về Khái niệm số thập phân",
@@ -293,7 +312,8 @@
               "question": "Nêu hiểu biết của em về Khái niệm số thập phân (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Khái niệm số thập phân.",
               "answer": "Đây là câu trả lời ngắn gọn về Khái niệm số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "1c4ed335-26a2-4c26-9c3f-1524d866227b"
             }
           ]
         },
@@ -314,7 +334,8 @@
               },
               "correctOption": "B",
               "hint": "Cộng số thập phân: đặt tính thẳng hàng, cộng như số tự nhiên, đặt dấu phẩy ở kết quả thẳng cột với dấu phẩy của các số hạng.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "aa695e76-74ab-4883-9923-4b0a8ac92709"
             },
             {
               "title": "Trừ số thập phân",
@@ -329,7 +350,8 @@
               },
               "correctOption": "A",
               "hint": "Trừ số thập phân: đặt tính thẳng hàng, trừ như số tự nhiên, đặt dấu phẩy ở kết quả thẳng cột với dấu phẩy của số bị trừ và số trừ.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "557fab37-9076-41a3-b666-066a0a9d3392"
             },
             {
               "title": "Tự luận: Tính 12,5 + 8,75",
@@ -338,7 +360,8 @@
               "question": "Tính: 12,5 + 8,75",
               "hint": "Viết 12,5 = 12,50 rồi cộng với 8,75.",
               "answer": "12,5 + 8,75 = 12,50 + 8,75 = 21,25",
-              "created_at": "2025-01-01T00:00:15.000Z"
+              "created_at": "2025-01-01T00:00:15.000Z",
+              "uuid": "48fb564b-924d-4a40-af47-ef9edac35194"
             },
             {
               "title": "Hiểu biết cơ bản về Phép cộng, trừ số thập phân",
@@ -353,7 +376,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phép cộng, trừ số thập phân.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "2799cac3-fef3-465d-b90a-70b45596f83a"
             },
             {
               "title": "Trình bày ngắn gọn về Phép cộng, trừ số thập phân",
@@ -362,7 +386,8 @@
               "question": "Trình bày ngắn gọn về Phép cộng, trừ số thập phân (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Phép cộng, trừ số thập phân.",
               "answer": "Đây là câu trả lời ngắn gọn về Phép cộng, trừ số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "6f9807e2-bd4a-415a-9a29-ecfc0028e50f"
             }
           ]
         },
@@ -383,7 +408,8 @@
               },
               "correctOption": "A",
               "hint": "Nhân số thập phân với số tự nhiên: nhân như số tự nhiên, đếm số chữ số sau dấu phẩy của số thập phân rồi đặt dấu phẩy vào kết quả.",
-              "created_at": "2025-01-01T00:00:16.000Z"
+              "created_at": "2025-01-01T00:00:16.000Z",
+              "uuid": "7e0caaf4-d813-4ab5-9f01-94264ee25714"
             },
             {
               "title": "Chia số thập phân cho số tự nhiên",
@@ -398,7 +424,8 @@
               },
               "correctOption": "A",
               "hint": "Chia số thập phân cho số tự nhiên: chia như số tự nhiên, khi lấy chữ số đầu tiên ở phần thập phân thì đặt dấu phẩy vào thương.",
-              "created_at": "2025-01-01T00:00:17.000Z"
+              "created_at": "2025-01-01T00:00:17.000Z",
+              "uuid": "9885f45b-b444-4583-aa10-b885338b55fe"
             },
             {
               "title": "Tự luận: Tính 3,6 × 2,5",
@@ -407,7 +434,8 @@
               "question": "Tính: 3,6 × 2,5",
               "hint": "Nhân như số tự nhiên: 36 × 25 = 900. Đếm tổng số chữ số sau dấu phẩy (1 + 1 = 2), đặt dấu phẩy vào kết quả: 9,00 = 9.",
               "answer": "3,6 × 2,5 = 9",
-              "created_at": "2025-01-01T00:00:18.000Z"
+              "created_at": "2025-01-01T00:00:18.000Z",
+              "uuid": "2ed7123c-8bf9-4d03-883b-154fe4298329"
             },
             {
               "title": "So sánh số thập phân",
@@ -422,7 +450,8 @@
               },
               "correctOption": "A",
               "hint": "So sánh phần nguyên trước (2 = 2), rồi so sánh phần thập phân (5 > 3).",
-              "created_at": "2025-01-01T00:00:41.000Z"
+              "created_at": "2025-01-01T00:00:41.000Z",
+              "uuid": "d596ea06-70bb-4f6f-985f-0cc1553cac97"
             },
             {
               "title": "Câu hỏi đơn giản về Phép nhân, chia số thập phân",
@@ -437,7 +466,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phép nhân, chia số thập phân.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "355f5250-59ec-4ea6-af82-9a80f33c240a"
             }
           ]
         }
@@ -464,7 +494,8 @@
               },
               "correctOption": "B",
               "hint": "Hình tam giác có 3 cạnh và 3 góc.",
-              "created_at": "2025-01-01T00:00:19.000Z"
+              "created_at": "2025-01-01T00:00:19.000Z",
+              "uuid": "d8d4547f-014a-48f4-84c4-6daf3ad893bd"
             },
             {
               "title": "Nhận biết hình thang",
@@ -479,7 +510,8 @@
               },
               "correctOption": "B",
               "hint": "Hình thang có một cặp cạnh đối song song.",
-              "created_at": "2025-01-01T00:00:20.000Z"
+              "created_at": "2025-01-01T00:00:20.000Z",
+              "uuid": "15548f2a-57f0-461c-8a9f-6ec35afb0c4e"
             },
             {
               "title": "Tự luận: Vẽ một hình tam giác và nêu đặc điểm của nó",
@@ -488,7 +520,8 @@
               "question": "Vẽ một hình tam giác và nêu đặc điểm của nó",
               "hint": "Hình tam giác có 3 cạnh, 3 góc, tổng 3 góc bằng 180 độ.",
               "answer": "Hình tam giác có 3 cạnh, 3 đỉnh, 3 góc. Tổng 3 góc trong tam giác bằng 180 độ.",
-              "created_at": "2025-01-01T00:00:21.000Z"
+              "created_at": "2025-01-01T00:00:21.000Z",
+              "uuid": "621ba4c7-dfa9-49f1-a0aa-7a73aba8a3e0"
             },
             {
               "title": "Câu hỏi cơ bản về Hình tam giác, hình thang",
@@ -503,7 +536,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hình tam giác, hình thang.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "dec20530-456c-4099-b479-b96774fe16ed"
             },
             {
               "title": "Nêu hiểu biết của em về Hình tam giác, hình thang",
@@ -512,7 +546,8 @@
               "question": "Nêu hiểu biết của em về Hình tam giác, hình thang (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Hình tam giác, hình thang.",
               "answer": "Đây là câu trả lời ngắn gọn về Hình tam giác, hình thang. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "695ebd3d-64d6-4ceb-aa60-525b7ee23fdc"
             }
           ]
         },
@@ -533,7 +568,8 @@
               },
               "correctOption": "B",
               "hint": "Diện tích tam giác = (đáy × chiều cao) : 2 = (6 × 4) : 2 = 12 cm².",
-              "created_at": "2025-01-01T00:00:22.000Z"
+              "created_at": "2025-01-01T00:00:22.000Z",
+              "uuid": "17515d3d-656f-432d-aa2f-d48450de174a"
             },
             {
               "title": "Tính diện tích hình thang",
@@ -548,7 +584,8 @@
               },
               "correctOption": "A",
               "hint": "Diện tích hình thang = (đáy lớn + đáy nhỏ) × chiều cao : 2 = (8 + 4) × 5 : 2 = 30 cm².",
-              "created_at": "2025-01-01T00:00:23.000Z"
+              "created_at": "2025-01-01T00:00:23.000Z",
+              "uuid": "58db72e9-3b59-40c0-9c68-f655e1a66624"
             },
             {
               "title": "Tự luận: Tính diện tích hình tam giác có đáy 10 cm và chiều cao 6 cm",
@@ -557,7 +594,8 @@
               "question": "Tính diện tích hình tam giác có đáy 10 cm và chiều cao 6 cm",
               "hint": "Sử dụng công thức: Diện tích = (đáy × chiều cao) : 2",
               "answer": "Diện tích = (10 × 6) : 2 = 60 : 2 = 30 cm²",
-              "created_at": "2025-01-01T00:00:24.000Z"
+              "created_at": "2025-01-01T00:00:24.000Z",
+              "uuid": "aea4b840-7ad5-407b-8eb2-711f1d75b293"
             },
             {
               "title": "Hiểu biết cơ bản về Diện tích hình tam giác, hình thang",
@@ -572,7 +610,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Diện tích hình tam giác, hình thang.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "4e670cf5-2a0f-4d96-9aa5-80fe4dd27708"
             },
             {
               "title": "Trình bày ngắn gọn về Diện tích hình tam giác, hình thang",
@@ -581,7 +620,8 @@
               "question": "Trình bày ngắn gọn về Diện tích hình tam giác, hình thang (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Diện tích hình tam giác, hình thang.",
               "answer": "Đây là câu trả lời ngắn gọn về Diện tích hình tam giác, hình thang. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "d1935fa8-1222-49ba-93a0-7d2d7f85686f"
             }
           ]
         },
@@ -602,7 +642,8 @@
               },
               "correctOption": "B",
               "hint": "Hình tròn là hình có tất cả các điểm cách đều một điểm cố định gọi là tâm.",
-              "created_at": "2025-01-01T00:00:25.000Z"
+              "created_at": "2025-01-01T00:00:25.000Z",
+              "uuid": "d69af0aa-5b11-438a-b7fa-91e1b3f1b87e"
             },
             {
               "title": "Nhận biết hình hộp chữ nhật",
@@ -617,7 +658,8 @@
               },
               "correctOption": "C",
               "hint": "Hình hộp chữ nhật có 6 mặt, mỗi mặt là một hình chữ nhật.",
-              "created_at": "2025-01-01T00:00:26.000Z"
+              "created_at": "2025-01-01T00:00:26.000Z",
+              "uuid": "6252de9a-678e-4ba1-bf08-9a9c39be8466"
             },
             {
               "title": "Tự luận: Nêu đặc điểm của hình lập phương",
@@ -626,7 +668,8 @@
               "question": "Nêu đặc điểm của hình lập phương",
               "hint": "Hình lập phương có 6 mặt, 12 cạnh, 8 đỉnh, tất cả các cạnh bằng nhau.",
               "answer": "Hình lập phương có: 6 mặt, mỗi mặt là hình vuông; 12 cạnh, tất cả các cạnh bằng nhau; 8 đỉnh.",
-              "created_at": "2025-01-01T00:00:27.000Z"
+              "created_at": "2025-01-01T00:00:27.000Z",
+              "uuid": "7f7c3e26-fa8c-4ee1-acd5-28705599d709"
             },
             {
               "title": "Nhận biết hình vuông",
@@ -641,7 +684,8 @@
               },
               "correctOption": "A",
               "hint": "Hình vuông có 4 cạnh bằng nhau và 4 góc vuông.",
-              "created_at": "2025-01-01T00:00:42.000Z"
+              "created_at": "2025-01-01T00:00:42.000Z",
+              "uuid": "198260cd-d62f-44eb-b3b3-22c8b5e1e85f"
             },
             {
               "title": "Câu hỏi đơn giản về Hình tròn, hình hộp chữ nhật, hình lập phương",
@@ -656,7 +700,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hình tròn, hình hộp chữ nhật, hình lập phương.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "ea0d2570-084f-40f3-b10a-d5b2cabed279"
             }
           ]
         }
@@ -683,7 +728,8 @@
               },
               "correctOption": "B",
               "hint": "1 giờ = 60 phút, vậy 2 giờ = 2 × 60 = 120 phút.",
-              "created_at": "2025-01-01T00:00:28.000Z"
+              "created_at": "2025-01-01T00:00:28.000Z",
+              "uuid": "d2c0755b-30ae-462e-b469-a1da9c0d91f3"
             },
             {
               "title": "Đổi phút sang giờ",
@@ -698,7 +744,8 @@
               },
               "correctOption": "B",
               "hint": "180 phút = 180 : 60 = 3 giờ.",
-              "created_at": "2025-01-01T00:00:29.000Z"
+              "created_at": "2025-01-01T00:00:29.000Z",
+              "uuid": "d14fa0af-6337-4427-9e47-b65fba756e11"
             },
             {
               "title": "Tự luận: Đổi 3 giờ 30 phút sang phút",
@@ -707,7 +754,8 @@
               "question": "Đổi 3 giờ 30 phút sang phút",
               "hint": "3 giờ = 180 phút, cộng thêm 30 phút.",
               "answer": "3 giờ 30 phút = 3 × 60 + 30 = 180 + 30 = 210 phút",
-              "created_at": "2025-01-01T00:00:30.000Z"
+              "created_at": "2025-01-01T00:00:30.000Z",
+              "uuid": "f53837e1-9d70-4e3c-b7d8-e899474a8875"
             },
             {
               "title": "Câu hỏi cơ bản về Bảng đơn vị đo thời gian",
@@ -722,7 +770,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Bảng đơn vị đo thời gian.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "f6765e16-74a8-4f47-a9a6-466db3b2f06f"
             },
             {
               "title": "Nêu hiểu biết của em về Bảng đơn vị đo thời gian",
@@ -731,7 +780,8 @@
               "question": "Nêu hiểu biết của em về Bảng đơn vị đo thời gian (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Bảng đơn vị đo thời gian.",
               "answer": "Đây là câu trả lời ngắn gọn về Bảng đơn vị đo thời gian. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "499ee4f0-b66a-446a-b080-ca9557d83f18"
             }
           ]
         },
@@ -752,7 +802,8 @@
               },
               "correctOption": "A",
               "hint": "Cộng giờ với giờ, phút với phút: 2 giờ + 1 giờ = 3 giờ, 15 phút + 30 phút = 45 phút.",
-              "created_at": "2025-01-01T00:00:31.000Z"
+              "created_at": "2025-01-01T00:00:31.000Z",
+              "uuid": "6221b801-9ddd-4fd8-8110-4af8de51b90e"
             },
             {
               "title": "Trừ số đo thời gian",
@@ -767,7 +818,8 @@
               },
               "correctOption": "A",
               "hint": "Đổi 3 giờ 20 phút = 2 giờ 80 phút. Trừ: 2 giờ 80 phút - 1 giờ 45 phút = 1 giờ 35 phút.",
-              "created_at": "2025-01-01T00:00:32.000Z"
+              "created_at": "2025-01-01T00:00:32.000Z",
+              "uuid": "fbe44323-5ee9-4357-8289-f1100134c653"
             },
             {
               "title": "Tự luận: Tính 4 giờ 25 phút + 2 giờ 40 phút",
@@ -776,7 +828,8 @@
               "question": "Tính: 4 giờ 25 phút + 2 giờ 40 phút",
               "hint": "Cộng giờ và phút riêng, nếu phút >= 60 thì đổi sang giờ.",
               "answer": "4 giờ 25 phút + 2 giờ 40 phút = 6 giờ 65 phút = 7 giờ 5 phút (vì 65 phút = 1 giờ 5 phút)",
-              "created_at": "2025-01-01T00:00:33.000Z"
+              "created_at": "2025-01-01T00:00:33.000Z",
+              "uuid": "d8f752ec-7c13-450a-8d2b-667ee9f153fe"
             },
             {
               "title": "Hiểu biết cơ bản về Cộng, trừ số đo thời gian",
@@ -791,7 +844,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cộng, trừ số đo thời gian.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "91f9103f-b80f-402d-8545-5997a3666c0d"
             },
             {
               "title": "Trình bày ngắn gọn về Cộng, trừ số đo thời gian",
@@ -800,7 +854,8 @@
               "question": "Trình bày ngắn gọn về Cộng, trừ số đo thời gian (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Cộng, trừ số đo thời gian.",
               "answer": "Đây là câu trả lời ngắn gọn về Cộng, trừ số đo thời gian. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "adbe0d42-7403-4b36-b953-418bb9e6b76c"
             }
           ]
         },
@@ -821,7 +876,8 @@
               },
               "correctOption": "B",
               "hint": "Nhân từng phần: 2 giờ × 3 = 6 giờ, 15 phút × 3 = 45 phút.",
-              "created_at": "2025-01-01T00:00:34.000Z"
+              "created_at": "2025-01-01T00:00:34.000Z",
+              "uuid": "3746f808-d669-488c-92c7-0639a5f2d5c9"
             },
             {
               "title": "Chia số đo thời gian",
@@ -836,7 +892,8 @@
               },
               "correctOption": "A",
               "hint": "Chia từng phần: 4 giờ : 2 = 2 giờ, 20 phút : 2 = 10 phút.",
-              "created_at": "2025-01-01T00:00:35.000Z"
+              "created_at": "2025-01-01T00:00:35.000Z",
+              "uuid": "e0a93d58-5924-4bdb-956a-c2d1fd957597"
             },
             {
               "title": "Tự luận: Tính 3 giờ 30 phút : 2",
@@ -845,7 +902,8 @@
               "question": "Tính: 3 giờ 30 phút : 2",
               "hint": "Chia từng phần: 3 giờ : 2 = 1 giờ 30 phút, 30 phút : 2 = 15 phút. Cộng lại.",
               "answer": "3 giờ 30 phút : 2 = 1 giờ 30 phút + 15 phút = 1 giờ 45 phút",
-              "created_at": "2025-01-01T00:00:36.000Z"
+              "created_at": "2025-01-01T00:00:36.000Z",
+              "uuid": "0f670a6e-7c39-4771-9a4c-142f3bac2387"
             },
             {
               "title": "Đổi ngày sang giờ",
@@ -860,7 +918,8 @@
               },
               "correctOption": "B",
               "hint": "1 ngày = 24 giờ, vậy 2 ngày = 2 × 24 = 48 giờ.",
-              "created_at": "2025-01-01T00:00:43.000Z"
+              "created_at": "2025-01-01T00:00:43.000Z",
+              "uuid": "6b666d19-6639-448f-b920-146b7fdefb40"
             },
             {
               "title": "Câu hỏi đơn giản về Nhân, chia số đo thời gian",
@@ -875,7 +934,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nhân, chia số đo thời gian.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "93782265-65ad-4531-a324-c042ad138320"
             }
           ]
         }
@@ -902,7 +962,8 @@
               },
               "correctOption": "B",
               "hint": "$\\frac{1}{2} = 0,5$",
-              "created_at": "2025-01-01T00:00:37.000Z"
+              "created_at": "2025-01-01T00:00:37.000Z",
+              "uuid": "550f2250-5b17-4742-ba8f-dd65880ca105"
             },
             {
               "title": "Tự luận: Tính $\\frac{1}{4} + 0,5$",
@@ -911,7 +972,8 @@
               "question": "Tính: $\\frac{1}{4} + 0,5$",
               "hint": "Đổi $\\frac{1}{4} = 0,25$ rồi cộng với 0,5.",
               "answer": "$\\frac{1}{4} + 0,5 = 0,25 + 0,5 = 0,75$",
-              "created_at": "2025-01-01T00:00:38.000Z"
+              "created_at": "2025-01-01T00:00:38.000Z",
+              "uuid": "395502cc-8cd1-4981-a2b0-5d3f46e41706"
             },
             {
               "title": "Tính giá trị biểu thức với phân số",
@@ -926,7 +988,8 @@
               },
               "correctOption": "B",
               "hint": "Cộng hai phân số cùng mẫu: giữ nguyên mẫu số, cộng tử số.",
-              "created_at": "2025-01-01T00:00:44.000Z"
+              "created_at": "2025-01-01T00:00:44.000Z",
+              "uuid": "9a7b473c-0835-4649-81fa-59c2ad576074"
             },
             {
               "title": "Tự luận: Tính $\\frac{3}{4} - \\frac{1}{4}$",
@@ -935,7 +998,8 @@
               "question": "Tính: $\\frac{3}{4} - \\frac{1}{4}$",
               "hint": "Trừ hai phân số cùng mẫu: giữ nguyên mẫu số, trừ tử số.",
               "answer": "$\\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}$",
-              "created_at": "2025-01-01T00:00:45.000Z"
+              "created_at": "2025-01-01T00:00:45.000Z",
+              "uuid": "923d793a-ee43-402c-838d-d00c36b45d59"
             },
             {
               "title": "Chuyển phân số sang số thập phân",
@@ -950,7 +1014,8 @@
               },
               "correctOption": "A",
               "hint": "$\\frac{3}{10} = 0,3$",
-              "created_at": "2025-01-01T00:00:46.000Z"
+              "created_at": "2025-01-01T00:00:46.000Z",
+              "uuid": "3c0db508-94aa-441c-856c-3a11c42d5973"
             },
             {
               "title": "Tự luận: Tính 2,5 + 1,3",
@@ -959,7 +1024,8 @@
               "question": "Tính: 2,5 + 1,3",
               "hint": "Cộng số thập phân: đặt tính thẳng hàng, cộng như số tự nhiên.",
               "answer": "2,5 + 1,3 = 3,8",
-              "created_at": "2025-01-01T00:00:47.000Z"
+              "created_at": "2025-01-01T00:00:47.000Z",
+              "uuid": "eb480718-53ef-48ff-bd5f-cdc1d8cb0ef2"
             },
             {
               "title": "Hiểu biết cơ bản về Ôn tập về số tự nhiên, phân số, số thập phân",
@@ -974,7 +1040,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ôn tập về số tự nhiên, phân số, số thập phân.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "44a131f8-5677-400f-917f-df0448f156fb"
             },
             {
               "title": "Trình bày ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân",
@@ -983,7 +1050,8 @@
               "question": "Trình bày ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Ôn tập về số tự nhiên, phân số, số thập phân.",
               "answer": "Đây là câu trả lời ngắn gọn về Ôn tập về số tự nhiên, phân số, số thập phân. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "f635d853-5299-4752-a5f5-a0e41f590073"
             }
           ]
         },
@@ -1004,7 +1072,8 @@
               },
               "correctOption": "B",
               "hint": "Chu vi = (chiều dài + chiều rộng) × 2 = (8 + 5) × 2 = 26 cm.",
-              "created_at": "2025-01-01T00:00:39.000Z"
+              "created_at": "2025-01-01T00:00:39.000Z",
+              "uuid": "985b9ef7-82ad-48b3-a546-e5d3901653d1"
             },
             {
               "title": "Tự luận: Tính diện tích hình chữ nhật có chiều dài 6 cm và chiều rộng 4 cm",
@@ -1013,7 +1082,8 @@
               "question": "Tính diện tích hình chữ nhật có chiều dài 6 cm và chiều rộng 4 cm",
               "hint": "Diện tích = chiều dài × chiều rộng",
               "answer": "Diện tích = 6 × 4 = 24 cm²",
-              "created_at": "2025-01-01T00:00:40.000Z"
+              "created_at": "2025-01-01T00:00:40.000Z",
+              "uuid": "abbf00c6-f11b-4fbf-9c7b-0948e967d0b5"
             },
             {
               "title": "Tính chu vi hình vuông",
@@ -1028,7 +1098,8 @@
               },
               "correctOption": "B",
               "hint": "Chu vi hình vuông = cạnh × 4 = 5 × 4 = 20 cm.",
-              "created_at": "2025-01-01T00:00:48.000Z"
+              "created_at": "2025-01-01T00:00:48.000Z",
+              "uuid": "40ce52c0-103d-4c23-985b-64e0d1dd6318"
             },
             {
               "title": "Tự luận: Tính diện tích hình vuông có cạnh 6 cm",
@@ -1037,7 +1108,8 @@
               "question": "Tính diện tích hình vuông có cạnh 6 cm",
               "hint": "Diện tích hình vuông = cạnh × cạnh",
               "answer": "Diện tích = 6 × 6 = 36 cm²",
-              "created_at": "2025-01-01T00:00:49.000Z"
+              "created_at": "2025-01-01T00:00:49.000Z",
+              "uuid": "7259cda7-a2fd-403f-9d7a-3af81abb6b29"
             },
             {
               "title": "Đổi đơn vị đo độ dài",
@@ -1052,7 +1124,8 @@
               },
               "correctOption": "B",
               "hint": "1 m = 100 cm, vậy 5 m = 5 × 100 = 500 cm.",
-              "created_at": "2025-01-01T00:00:50.000Z"
+              "created_at": "2025-01-01T00:00:50.000Z",
+              "uuid": "d40104de-fadc-4852-af99-22e59d5653b2"
             },
             {
               "title": "Tự luận: Đổi 3 km sang mét",
@@ -1061,7 +1134,8 @@
               "question": "Đổi 3 km sang mét",
               "hint": "1 km = 1000 m",
               "answer": "3 km = 3 × 1000 = 3000 m",
-              "created_at": "2025-01-01T00:00:51.000Z"
+              "created_at": "2025-01-01T00:00:51.000Z",
+              "uuid": "dce1ba59-7e98-41c0-bac4-d903c75cd1aa"
             },
             {
               "title": "Câu hỏi đơn giản về Ôn tập về hình học và đo lường",
@@ -1076,11 +1150,13 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Ôn tập về hình học và đo lường.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "dd9b1fc1-f57f-4a72-a042-df335b2af3c5"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "1e703001-8bef-46ff-bcd5-3c59a18d981d"
 }

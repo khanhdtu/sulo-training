@@ -16,6 +16,7 @@ interface ExerciseItem {
   answer?: string;
   hint?: string;
   created_at?: string;
+  difficulty?: string; // Added for displaying difficulty in table
 }
 
 interface Lesson {
@@ -58,6 +59,7 @@ export default function DataPreviewerPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [selectedRows, setSelectedRows] = useState<Set<number>>(new Set());
+  const [searchText, setSearchText] = useState('');
 
   // Load available grades and subjects from fixtures
   useEffect(() => {
@@ -133,17 +135,6 @@ export default function DataPreviewerPage() {
       setError('');
       
       try {
-        // Map subject name to folder name
-        const subjectMap: Record<string, string> = {
-          'Toán': 'math',
-          'Tiếng Anh': 'english',
-          'Địa lý': 'geography',
-          'Tin học': 'informatics',
-          'Khoa học': 'science',
-          'Lịch sử': 'history',
-          'Ngữ văn': 'literature',
-        };
-
         // Determine which difficulties to load
         const difficultiesToLoad = selectedDifficulty === 'all' 
           ? ['easy', 'medium', 'hard'] 
@@ -247,6 +238,75 @@ export default function DataPreviewerPage() {
     loadFixtureData();
   }, [selectedGrade, selectedSubject, selectedDifficulty]);
 
+  // Function to search and select rows
+  const handleSearchAndSelect = () => {
+    if (!searchText.trim() || tableData.length === 0) {
+      return;
+    }
+
+    const searchLower = searchText.trim().toLowerCase();
+    const matchingIndices = new Set<number>();
+
+    tableData.forEach((row, index) => {
+      // Search in chapter name
+      if (row.chapterName.toLowerCase().includes(searchLower)) {
+        matchingIndices.add(index);
+        return;
+      }
+
+      // Search in lesson title
+      if (row.lessonTitle.toLowerCase().includes(searchLower)) {
+        matchingIndices.add(index);
+        return;
+      }
+
+      // Search in answer
+      if (row.answer.toLowerCase().includes(searchLower)) {
+        matchingIndices.add(index);
+        return;
+      }
+
+      // Search in exercise items (question, title, options)
+      row.exerciseItems.forEach((exercise) => {
+        // Search in title
+        if (exercise.title?.toLowerCase().includes(searchLower)) {
+          matchingIndices.add(index);
+          return;
+        }
+
+        // Search in question
+        if (exercise.question?.toLowerCase().includes(searchLower)) {
+          matchingIndices.add(index);
+          return;
+        }
+
+        // Search in options
+        if (exercise.options) {
+          const optionsText = Object.values(exercise.options).join(' ').toLowerCase();
+          if (optionsText.includes(searchLower)) {
+            matchingIndices.add(index);
+            return;
+          }
+        }
+
+        // Search in hint
+        if (exercise.hint?.toLowerCase().includes(searchLower)) {
+          matchingIndices.add(index);
+          return;
+        }
+
+        // Search in answer (for essay type)
+        if (exercise.answer?.toLowerCase().includes(searchLower)) {
+          matchingIndices.add(index);
+          return;
+        }
+      });
+    });
+
+    // Update selected rows (add matching indices)
+    setSelectedRows(matchingIndices);
+  };
+
   return (
     <div className="min-h-screen relative">
       <nav className="bg-white shadow-colored">
@@ -321,6 +381,43 @@ export default function DataPreviewerPage() {
         {error && (
           <div className="card mb-6 bg-red-50 border-red-200">
             <p className="text-red-600">{error}</p>
+          </div>
+        )}
+
+        {/* Search and Select Section */}
+        {!loading && tableData.length > 0 && (
+          <div className="card mb-6">
+            <div className="flex gap-4 items-end">
+              <div className="flex-1">
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Tìm kiếm và tự động chọn
+                </label>
+                <input
+                  type="text"
+                  value={searchText}
+                  onChange={(e) => setSearchText(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      handleSearchAndSelect();
+                    }
+                  }}
+                  placeholder="Nhập từ khóa để tìm kiếm (tìm trong câu hỏi, đáp án, chương, bài học...)"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+              <button
+                onClick={handleSearchAndSelect}
+                disabled={!searchText.trim()}
+                className="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed whitespace-nowrap"
+              >
+                🔍 Tìm và chọn
+              </button>
+            </div>
+            {searchText.trim() && (
+              <p className="mt-2 text-sm text-gray-500">
+                Tìm kiếm không phân biệt hoa thường. Tìm trong: tên chương, tên bài học, câu hỏi, đáp án, và các lựa chọn.
+              </p>
+            )}
           </div>
         )}
 
@@ -478,6 +575,54 @@ export default function DataPreviewerPage() {
             <p className="text-gray-600 text-center py-8">
               Không có dữ liệu cho {selectedSubject} lớp {selectedGrade}
             </p>
+          </div>
+        )}
+
+        {/* Selected Items Section */}
+        {!loading && selectedRows.size > 0 && (
+          <div className="card mt-6">
+            <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              Các item đã chọn ({selectedRows.size})
+            </h2>
+            <div className="space-y-2">
+              <div className="flex flex-wrap gap-2">
+                {Array.from(selectedRows).map((rowIndex) => {
+                  const row = tableData[rowIndex];
+                  return (
+                    <div
+                      key={rowIndex}
+                      className="px-3 py-2 bg-indigo-50 border border-indigo-200 rounded-lg"
+                    >
+                      <code className="text-sm font-mono text-indigo-700">
+                        {row.id}
+                      </code>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="mt-4 pt-4 border-t border-gray-200">
+                <p className="text-sm text-gray-600 mb-2">Danh sách UUID (copy để sử dụng):</p>
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
+                  <code className="text-xs font-mono text-gray-700 break-all">
+                    {Array.from(selectedRows)
+                      .map((rowIndex) => tableData[rowIndex].id)
+                      .join(', ')}
+                  </code>
+                </div>
+                <button
+                  onClick={() => {
+                    const uuids = Array.from(selectedRows)
+                      .map((rowIndex) => tableData[rowIndex].id)
+                      .join(', ');
+                    navigator.clipboard.writeText(uuids);
+                    // Could add a toast notification here if needed
+                  }}
+                  className="mt-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-sm"
+                >
+                  📋 Copy tất cả UUID
+                </button>
+              </div>
+            </div>
           </div>
         )}
       </div>

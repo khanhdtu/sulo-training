@@ -26,7 +26,8 @@
               },
               "correctOption": "A",
               "hint": "We live in a house or an apartment.",
-              "created_at": "2025-01-01T00:00:00.000Z"
+              "created_at": "2025-01-01T00:00:00.000Z",
+              "uuid": "289f0b95-e372-4aca-a207-6bff9af76012"
             },
             {
               "title": "Complete the sentence: What's your ______? (A) address (B) name (C) age",
@@ -41,7 +42,8 @@
               },
               "correctOption": "A",
               "hint": "We ask 'What's your address?' to know where someone lives.",
-              "created_at": "2025-01-01T00:00:01.000Z"
+              "created_at": "2025-01-01T00:00:01.000Z",
+              "uuid": "f2b9d709-6430-4a22-b9d6-5cae6f425fa3"
             },
             {
               "title": "Choose the correct answer: Where do you live?",
@@ -56,7 +58,8 @@
               },
               "correctOption": "A",
               "hint": "When asked 'Where do you live?', we answer with a place.",
-              "created_at": "2025-01-01T00:00:02.000Z"
+              "created_at": "2025-01-01T00:00:02.000Z",
+              "uuid": "af4da254-c89b-4035-b51c-1a67d6b42793"
             },
             {
               "title": "Tự luận: Write 3 sentences about where you live",
@@ -65,7 +68,8 @@
               "question": "Write 3 sentences about where you live",
               "hint": "Use: I live in..., My address is..., I live in a...",
               "answer": "Example: I live in Hanoi. My address is 123 Le Loi Street. I live in a house.",
-              "created_at": "2025-01-01T00:00:03.000Z"
+              "created_at": "2025-01-01T00:00:03.000Z",
+              "uuid": "e43e2100-23f0-47ec-b445-f8ace9294c1c"
             },
             {
               "title": "Choose the correct answer: What's your address?",
@@ -80,7 +84,8 @@
               },
               "correctOption": "A",
               "hint": "When asked about address, we answer with 'My address is...'",
-              "created_at": "2025-01-01T00:00:29.000Z"
+              "created_at": "2025-01-01T00:00:29.000Z",
+              "uuid": "444cdbb4-4d7f-45ba-9e6e-a2874f182336"
             },
             {
               "title": "Nêu hiểu biết của em về Asking and answering about addresses",
@@ -89,7 +94,8 @@
               "question": "Nêu hiểu biết của em về Asking and answering about addresses (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Asking and answering about addresses.",
               "answer": "Đây là câu trả lời ngắn gọn về Asking and answering about addresses. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "a782443e-9c14-45b2-8000-31ca56c2442c"
             },
             {
               "title": "Hiểu biết cơ bản về Asking and answering about addresses",
@@ -104,7 +110,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Asking and answering about addresses.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "a613f5ac-a9da-4dc1-a578-6bbab24d8153"
             }
           ]
         },
@@ -125,7 +132,8 @@
               },
               "correctOption": "A",
               "hint": "Villages are usually quiet places.",
-              "created_at": "2025-01-01T00:00:04.000Z"
+              "created_at": "2025-01-01T00:00:04.000Z",
+              "uuid": "30c77c7a-6abe-4313-a01b-04c4c794f109"
             },
             {
               "title": "Tự luận: Describe your hometown in 3 sentences",
@@ -134,7 +142,8 @@
               "question": "Describe your hometown in 3 sentences",
               "hint": "Use words like: big, small, quiet, busy, beautiful...",
               "answer": "Example: My hometown is Hanoi. It is a big city. It is very busy and beautiful.",
-              "created_at": "2025-01-01T00:00:05.000Z"
+              "created_at": "2025-01-01T00:00:05.000Z",
+              "uuid": "19ea5139-fc31-45c4-9d2f-3c266d729d0c"
             },
             {
               "title": "Choose the correct word: The city is very ______ (big / small).",
@@ -149,7 +158,8 @@
               },
               "correctOption": "A",
               "hint": "Cities are usually big places.",
-              "created_at": "2025-01-01T00:00:30.000Z"
+              "created_at": "2025-01-01T00:00:30.000Z",
+              "uuid": "fa7843ef-6205-462d-a5c4-c0b215d3c1f7"
             },
             {
               "title": "Tự luận: Write 2 sentences comparing a city and a village",
@@ -158,7 +168,8 @@
               "question": "Write 2 sentences comparing a city and a village",
               "hint": "Use: big/small, busy/quiet...",
               "answer": "Example: A city is big and busy. A village is small and quiet.",
-              "created_at": "2025-01-01T00:00:31.000Z"
+              "created_at": "2025-01-01T00:00:31.000Z",
+              "uuid": "dbb78509-9a4e-43ca-b2d7-cc82fd3a35f5"
             },
             {
               "title": "Trình bày ngắn gọn về Describing places",
@@ -167,7 +178,8 @@
               "question": "Trình bày ngắn gọn về Describing places (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Describing places.",
               "answer": "Đây là câu trả lời ngắn gọn về Describing places. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "cb974c44-7eaa-413d-83f4-155189fc50e9"
             },
             {
               "title": "Câu hỏi đơn giản về Describing places",
@@ -182,7 +194,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Describing places.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "e699a47a-82c2-4768-b45f-890ba7d4674e"
             }
           ]
         },
@@ -203,7 +216,8 @@
               },
               "correctOption": "A",
               "hint": "We use 'Where' to ask about places.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "994ceeb4-8034-4118-a9c2-396b9272dbac"
             },
             {
               "title": "Tự luận: Write 2 questions and answers about addresses",
@@ -212,7 +226,8 @@
               "question": "Write 2 questions and answers about addresses",
               "hint": "Use: Where do you live? What's your address?",
               "answer": "Example: Q: Where do you live? A: I live in Ho Chi Minh City. Q: What's your address? A: My address is 456 Nguyen Hue Street.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "071df1cf-0e07-45d4-8016-432227393a4d"
             }
           ]
         }
@@ -239,7 +254,8 @@
               },
               "correctOption": "A",
               "hint": "We say 'get up' for waking up in the morning.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "79cbe35f-3cf9-4e4d-b3d0-aa628e47e73f"
             },
             {
               "title": "Choose the correct sentence: I ______ breakfast at 7 a.m.",
@@ -254,7 +270,8 @@
               },
               "correctOption": "A",
               "hint": "We say 'have breakfast' to mean eating breakfast.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "6daff0a3-6c9b-4715-983d-5f79f0c20177"
             },
             {
               "title": "Tự luận: Write 4 sentences about your daily routine",
@@ -263,7 +280,8 @@
               "question": "Write 4 sentences about your daily routine",
               "hint": "Use: get up, have breakfast, go to school, go to bed...",
               "answer": "Example: I get up at 6 o'clock. I have breakfast at 7 a.m. I go to school at 7:30. I go to bed at 9 p.m.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "ec1ba35a-cc27-4d58-af28-dec63faf7823"
             },
             {
               "title": "Choose the correct word: I ______ to school at 7:30. (A) go (B) get (C) have",
@@ -278,7 +296,8 @@
               },
               "correctOption": "A",
               "hint": "We say 'go to school' to mean going to school.",
-              "created_at": "2025-01-01T00:00:32.000Z"
+              "created_at": "2025-01-01T00:00:32.000Z",
+              "uuid": "ad4e4b51-9b6e-47b7-99b0-36d9186ac786"
             },
             {
               "title": "Câu hỏi cơ bản về Daily routines",
@@ -293,7 +312,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Daily routines.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "23519b46-1009-41a8-8ee6-0feed7047053"
             },
             {
               "title": "Nêu hiểu biết của em về Daily routines",
@@ -302,7 +322,8 @@
               "question": "Nêu hiểu biết của em về Daily routines (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Daily routines.",
               "answer": "Đây là câu trả lời ngắn gọn về Daily routines. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "8fb389ab-f6c0-423a-8b31-dbb521a11448"
             }
           ]
         },
@@ -323,7 +344,8 @@
               },
               "correctOption": "A",
               "hint": "We always brush our teeth every day.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "dd34a534-c5f9-459b-a7a6-6be4d2e592eb"
             },
             {
               "title": "Tự luận: Write 3 sentences using 'always', 'sometimes', 'never'",
@@ -332,7 +354,8 @@
               "question": "Write 3 sentences using 'always', 'sometimes', 'never'",
               "hint": "Example: I always do homework. I sometimes play games. I never go to bed late.",
               "answer": "Example: I always do my homework. I sometimes play football. I never watch TV late at night.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "e8e10f31-2ca8-4559-a0c1-6dd0ea81096f"
             },
             {
               "title": "Choose the correct word: I ______ play football on weekends. (A) always (B) sometimes (C) never",
@@ -347,7 +370,8 @@
               },
               "correctOption": "B",
               "hint": "We sometimes play football, not always or never.",
-              "created_at": "2025-01-01T00:00:33.000Z"
+              "created_at": "2025-01-01T00:00:33.000Z",
+              "uuid": "d4f1e377-3162-4117-ae6b-770282f8fc58"
             },
             {
               "title": "Hiểu biết cơ bản về Talking about frequency",
@@ -362,7 +386,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Talking about frequency.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "39a07344-ed98-49c6-ab82-b659d28d2dd8"
             },
             {
               "title": "Trình bày ngắn gọn về Talking about frequency",
@@ -371,7 +396,8 @@
               "question": "Trình bày ngắn gọn về Talking about frequency (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Talking about frequency.",
               "answer": "Đây là câu trả lời ngắn gọn về Talking about frequency. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "5c1864b8-7619-406c-8a98-b0679b817759"
             }
           ]
         },
@@ -392,7 +418,8 @@
               },
               "correctOption": "B",
               "hint": "We sometimes go to the park, not always or never.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "f1137160-876e-4a50-95f1-00bffbfb79a2"
             },
             {
               "title": "Tự luận: Write sentences about what you always, sometimes, and never do",
@@ -401,7 +428,8 @@
               "question": "Write sentences about what you always, sometimes, and never do",
               "hint": "Use adverbs of frequency: always, usually, often, sometimes, never",
               "answer": "Example: I always go to school. I sometimes play games. I never skip breakfast.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "ff6b37c5-274e-4499-b5bd-ba9188f9287c"
             },
             {
               "title": "Choose the correct word: I ______ go to bed late. (A) always (B) sometimes (C) never",
@@ -416,7 +444,8 @@
               },
               "correctOption": "C",
               "hint": "We never go to bed late because it's not good for health.",
-              "created_at": "2025-01-01T00:00:37.000Z"
+              "created_at": "2025-01-01T00:00:37.000Z",
+              "uuid": "397a8a83-3bc9-415e-874e-8036caa9755e"
             },
             {
               "title": "Câu hỏi đơn giản về Grammar: Adverbs of frequency",
@@ -431,7 +460,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Adverbs of frequency.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "8b363bb7-f0a5-448c-b216-c3b2bbe0460a"
             }
           ]
         }
@@ -458,7 +488,8 @@
               },
               "correctOption": "B",
               "hint": "We use 'went' (past tense of 'go') when talking about the past.",
-              "created_at": "2025-01-01T00:00:15.000Z"
+              "created_at": "2025-01-01T00:00:15.000Z",
+              "uuid": "95cdf3c0-b97e-484a-a3c6-ae8366ac4695"
             },
             {
               "title": "Choose the correct verb: Last week, I ______ my grandparents. (A) visit (B) visited (C) visits",
@@ -473,7 +504,8 @@
               },
               "correctOption": "B",
               "hint": "We use 'visited' (past tense) when talking about the past.",
-              "created_at": "2025-01-01T00:00:16.000Z"
+              "created_at": "2025-01-01T00:00:16.000Z",
+              "uuid": "61546fb1-5009-4e78-8f79-395b5437c171"
             },
             {
               "title": "Tự luận: Write 3 sentences about what you did last weekend",
@@ -482,7 +514,8 @@
               "question": "Write 3 sentences about what you did last weekend",
               "hint": "Use past tense verbs: went, played, visited, watched...",
               "answer": "Example: Last weekend, I went to the park. I played football with my friends. I visited my grandparents.",
-              "created_at": "2025-01-01T00:00:17.000Z"
+              "created_at": "2025-01-01T00:00:17.000Z",
+              "uuid": "45387b94-6018-4570-9691-e2edf42bd31a"
             },
             {
               "title": "Choose the correct verb: Last week, I ______ my friend. (A) visit (B) visited (C) visits",
@@ -497,7 +530,8 @@
               },
               "correctOption": "B",
               "hint": "We use 'visited' (past tense) when talking about the past.",
-              "created_at": "2025-01-01T00:00:34.000Z"
+              "created_at": "2025-01-01T00:00:34.000Z",
+              "uuid": "2b61702a-b8be-45ff-a5bd-100476d18f2a"
             },
             {
               "title": "Câu hỏi cơ bản về Past simple tense",
@@ -512,7 +546,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Past simple tense.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "d2acb389-6770-4c46-87f1-5394418e9409"
             },
             {
               "title": "Nêu hiểu biết của em về Past simple tense",
@@ -521,7 +556,8 @@
               "question": "Nêu hiểu biết của em về Past simple tense (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Past simple tense.",
               "answer": "Đây là câu trả lời ngắn gọn về Past simple tense. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "a3955c6c-d54a-4d24-ae88-56a297cc3db5"
             }
           ]
         },
@@ -542,7 +578,8 @@
               },
               "correctOption": "A",
               "hint": "We use 'Where' to ask about places.",
-              "created_at": "2025-01-01T00:00:18.000Z"
+              "created_at": "2025-01-01T00:00:18.000Z",
+              "uuid": "0989c8ea-f227-47e2-96bd-b9a7ec3b62cf"
             },
             {
               "title": "Tự luận: Write about your last holiday (4 sentences)",
@@ -551,7 +588,8 @@
               "question": "Write about your last holiday (4 sentences)",
               "hint": "Use: Where did you go? What did you do? Who did you go with?",
               "answer": "Example: Last summer, I went to Da Lat with my family. We visited many beautiful places. We took many photos. I had a great time.",
-              "created_at": "2025-01-01T00:00:19.000Z"
+              "created_at": "2025-01-01T00:00:19.000Z",
+              "uuid": "bc16de22-07d5-4af3-bc9c-d62e8241bd3d"
             },
             {
               "title": "Choose the correct question: ______ did you go on holiday? (A) Where (B) What (C) Who",
@@ -566,7 +604,8 @@
               },
               "correctOption": "A",
               "hint": "We use 'Where' to ask about places.",
-              "created_at": "2025-01-01T00:00:35.000Z"
+              "created_at": "2025-01-01T00:00:35.000Z",
+              "uuid": "c3ae7d6d-0ebb-422b-b0b6-508b7187ae8f"
             },
             {
               "title": "Hiểu biết cơ bản về Talking about holidays",
@@ -581,7 +620,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Talking about holidays.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "2c7633d2-6edb-4bff-9890-9dab003e4c7f"
             },
             {
               "title": "Trình bày ngắn gọn về Talking about holidays",
@@ -590,7 +630,8 @@
               "question": "Trình bày ngắn gọn về Talking about holidays (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Talking about holidays.",
               "answer": "Đây là câu trả lời ngắn gọn về Talking about holidays. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "21b697be-5102-41d3-b4e2-ff9b8ffdc359"
             }
           ]
         },
@@ -611,7 +652,8 @@
               },
               "correctOption": "A",
               "hint": "'Read' is the same in present and past tense, but pronounced differently.",
-              "created_at": "2025-01-01T00:00:20.000Z"
+              "created_at": "2025-01-01T00:00:20.000Z",
+              "uuid": "c13b8da4-7486-4b3a-9a40-4d6b97bc90df"
             },
             {
               "title": "Tự luận: Write 3 sentences using past tense verbs (regular and irregular)",
@@ -620,7 +662,8 @@
               "question": "Write 3 sentences using past tense verbs (regular and irregular)",
               "hint": "Regular: played, visited, watched. Irregular: went, saw, ate.",
               "answer": "Example: I played football yesterday. I went to the zoo last week. I ate ice cream.",
-              "created_at": "2025-01-01T00:00:21.000Z"
+              "created_at": "2025-01-01T00:00:21.000Z",
+              "uuid": "0504136d-ddb9-4a0f-b79d-c8113151476c"
             },
             {
               "title": "Choose the correct past tense: I ______ football yesterday. (A) play (B) played (C) plays",
@@ -635,7 +678,8 @@
               },
               "correctOption": "B",
               "hint": "We use 'played' (past tense) when talking about the past.",
-              "created_at": "2025-01-01T00:00:38.000Z"
+              "created_at": "2025-01-01T00:00:38.000Z",
+              "uuid": "321cbdb3-f6a6-493d-a13d-0468bb053bdc"
             },
             {
               "title": "Câu hỏi đơn giản về Grammar: Past simple with regular and irregular verbs",
@@ -650,7 +694,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Past simple with regular and irregular verbs.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "79c7099b-517a-4499-8d4a-8b5179c65281"
             }
           ]
         }
@@ -677,7 +722,8 @@
               },
               "correctOption": "A",
               "hint": "Headache is a health problem.",
-              "created_at": "2025-01-01T00:00:22.000Z"
+              "created_at": "2025-01-01T00:00:22.000Z",
+              "uuid": "6c59acc5-7d17-4280-8d5f-1707bb734236"
             },
             {
               "title": "Choose the correct answer: What's the matter with you?",
@@ -692,7 +738,8 @@
               },
               "correctOption": "A",
               "hint": "When asked about health problems, we answer with 'I have a...'",
-              "created_at": "2025-01-01T00:00:23.000Z"
+              "created_at": "2025-01-01T00:00:23.000Z",
+              "uuid": "ae9444b4-ec09-42d7-98df-02e18559344f"
             },
             {
               "title": "Tự luận: Write 3 sentences about health problems",
@@ -701,7 +748,8 @@
               "question": "Write 3 sentences about health problems",
               "hint": "Use: I have a headache, I have a fever, I have a cold...",
               "answer": "Example: I have a headache. My friend has a toothache. My sister has a fever.",
-              "created_at": "2025-01-01T00:00:24.000Z"
+              "created_at": "2025-01-01T00:00:24.000Z",
+              "uuid": "e52acc9a-9ab9-4bb6-91fe-09c5ad560151"
             },
             {
               "title": "Choose the correct word: I have a ______ (toothache / happy).",
@@ -716,7 +764,8 @@
               },
               "correctOption": "A",
               "hint": "Toothache is a health problem.",
-              "created_at": "2025-01-01T00:00:36.000Z"
+              "created_at": "2025-01-01T00:00:36.000Z",
+              "uuid": "af3cdfc6-0d4d-4f7d-997f-3f859bc6f82b"
             },
             {
               "title": "Câu hỏi cơ bản về Health problems",
@@ -731,7 +780,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Health problems.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "75c42ac4-fb94-4b13-a248-587d53eb055f"
             },
             {
               "title": "Nêu hiểu biết của em về Health problems",
@@ -740,7 +790,8 @@
               "question": "Nêu hiểu biết của em về Health problems (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Health problems.",
               "answer": "Đây là câu trả lời ngắn gọn về Health problems. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "5c5b2137-0620-43c6-a3cf-5caaa04c3466"
             }
           ]
         },
@@ -761,7 +812,8 @@
               },
               "correctOption": "A",
               "hint": "We use 'should' to give advice.",
-              "created_at": "2025-01-01T00:00:25.000Z"
+              "created_at": "2025-01-01T00:00:25.000Z",
+              "uuid": "5bc26701-3b8c-4002-9160-d4ea0a0cc848"
             },
             {
               "title": "Tự luận: Give advice to someone who has a cold (3 sentences)",
@@ -770,7 +822,8 @@
               "question": "Give advice to someone who has a cold (3 sentences)",
               "hint": "Use: You should..., You shouldn't...",
               "answer": "Example: You should rest. You should drink warm water. You shouldn't go out in the cold.",
-              "created_at": "2025-01-01T00:00:26.000Z"
+              "created_at": "2025-01-01T00:00:26.000Z",
+              "uuid": "4a11ce13-e4b1-4d53-9c20-0b4c07635295"
             },
             {
               "title": "Choose the correct word: You ______ eat too much candy. (A) should (B) shouldn't",
@@ -785,7 +838,8 @@
               },
               "correctOption": "B",
               "hint": "We shouldn't eat too much candy because it's not good for health.",
-              "created_at": "2025-01-01T00:00:39.000Z"
+              "created_at": "2025-01-01T00:00:39.000Z",
+              "uuid": "e546179a-cafa-4c70-80bb-a38b8edbcc47"
             },
             {
               "title": "Tự luận: Write 2 sentences about healthy habits using 'should'",
@@ -794,7 +848,8 @@
               "question": "Write 2 sentences about healthy habits using 'should'",
               "hint": "Example: You should exercise. You should eat vegetables.",
               "answer": "Example: You should exercise every day. You should eat fruits and vegetables.",
-              "created_at": "2025-01-01T00:00:40.000Z"
+              "created_at": "2025-01-01T00:00:40.000Z",
+              "uuid": "681fa195-7b3e-4351-aeca-fc798587b4a7"
             },
             {
               "title": "Hiểu biết cơ bản về Giving advice",
@@ -809,7 +864,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Giving advice.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "7b64a584-2a2e-4448-bf5e-7819962eff15"
             },
             {
               "title": "Trình bày ngắn gọn về Giving advice",
@@ -818,7 +874,8 @@
               "question": "Trình bày ngắn gọn về Giving advice (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Giving advice.",
               "answer": "Đây là câu trả lời ngắn gọn về Giving advice. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "1c3eb6eb-c7af-449d-ba3e-b7cde755dc82"
             }
           ]
         },
@@ -839,7 +896,8 @@
               },
               "correctOption": "B",
               "hint": "We shouldn't eat too much candy because it's not good for health.",
-              "created_at": "2025-01-01T00:00:27.000Z"
+              "created_at": "2025-01-01T00:00:27.000Z",
+              "uuid": "93c6dd75-75a0-4ecc-86b0-9a8e1ae1d5bd"
             },
             {
               "title": "Tự luận: Write 3 sentences using 'should' and 'shouldn't' about healthy habits",
@@ -848,7 +906,8 @@
               "question": "Write 3 sentences using 'should' and 'shouldn't' about healthy habits",
               "hint": "Example: You should exercise. You should eat vegetables. You shouldn't stay up late.",
               "answer": "Example: You should exercise every day. You should eat fruits and vegetables. You shouldn't watch TV too much.",
-              "created_at": "2025-01-01T00:00:28.000Z"
+              "created_at": "2025-01-01T00:00:28.000Z",
+              "uuid": "cd70c6dc-2f69-401c-a99c-8e3103e72173"
             },
             {
               "title": "Câu hỏi đơn giản về Grammar: Should/Shouldn't",
@@ -863,11 +922,13 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Grammar: Should/Shouldn't.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "c97fef79-3015-4008-8792-41e80fd026ef"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "2636d80b-6d38-40e0-b3e2-99a4ada48355"
 }

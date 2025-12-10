@@ -10,11 +10,13 @@
       "lessons": [
         {
           "code": "MATH7-CH1-L1",
-          "title": "Nhắc lại khái niệm số hữu tỉ"
+          "title": "Nhắc lại khái niệm số hữu tỉ",
+          "uuid": "92db1826-5385-4bc8-a158-34cb4e93a2a4"
         },
         {
           "code": "MATH7-CH1-L2",
-          "title": "Phép toán với số hữu tỉ"
+          "title": "Phép toán với số hữu tỉ",
+          "uuid": "7576d532-4c0b-4bce-8c57-158e2ef40aa0"
         }
       ]
     },
@@ -24,11 +26,13 @@
       "lessons": [
         {
           "code": "MATH7-CH2-L1",
-          "title": "Căn bậc hai và số vô tỉ"
+          "title": "Căn bậc hai và số vô tỉ",
+          "uuid": "da345180-0583-4990-997c-43a996c6568b"
         },
         {
           "code": "MATH7-CH2-L2",
-          "title": "Số thực trên trục số"
+          "title": "Số thực trên trục số",
+          "uuid": "9f9664ce-f924-4263-b6c3-adf0a3e8517d"
         }
       ]
     },
@@ -38,11 +42,13 @@
       "lessons": [
         {
           "code": "MATH7-CH3-L1",
-          "title": "Phân loại các loại góc"
+          "title": "Phân loại các loại góc",
+          "uuid": "6491d27e-3c66-49bb-b192-20ccf709124f"
         },
         {
           "code": "MATH7-CH3-L2",
-          "title": "Góc so le trong, đồng vị, trong cùng phía"
+          "title": "Góc so le trong, đồng vị, trong cùng phía",
+          "uuid": "040d09e7-d02e-41b9-9e19-0e9c71e2fff6"
         }
       ]
     },
@@ -52,11 +58,13 @@
       "lessons": [
         {
           "code": "MATH7-CH4-L1",
-          "title": "Các trường hợp bằng nhau của tam giác"
+          "title": "Các trường hợp bằng nhau của tam giác",
+          "uuid": "1233b5c8-5f74-469d-805a-bf105d06f365"
         },
         {
           "code": "MATH7-CH4-L2",
-          "title": "Giải bài toán dùng tam giác bằng nhau"
+          "title": "Giải bài toán dùng tam giác bằng nhau",
+          "uuid": "dfd96ddf-b3de-4d64-9354-69a881314318"
         }
       ]
     },
@@ -66,11 +74,13 @@
       "lessons": [
         {
           "code": "MATH7-CH5-L1",
-          "title": "Thu thập dữ liệu"
+          "title": "Thu thập dữ liệu",
+          "uuid": "4bc12fdf-a3c7-461f-8615-83319a730150"
         },
         {
           "code": "MATH7-CH5-L2",
-          "title": "Biểu đồ cột và biểu đồ đoạn thẳng"
+          "title": "Biểu đồ cột và biểu đồ đoạn thẳng",
+          "uuid": "590e972c-44db-453a-993e-1b3ca31520c5"
         }
       ]
     },
@@ -80,11 +90,13 @@
       "lessons": [
         {
           "code": "MATH7-CH6-L1",
-          "title": "Ôn tập chương Số hữu tỉ và Số thực"
+          "title": "Ôn tập chương Số hữu tỉ và Số thực",
+          "uuid": "a9843847-45bd-43d4-b392-c01a018147e7"
         },
         {
           "code": "MATH7-CH6-L2",
-          "title": "Ôn tập hình học và dữ liệu"
+          "title": "Ôn tập hình học và dữ liệu",
+          "uuid": "07164ed6-a93c-4c5c-bb82-bd3fdea07d10"
         }
       ]
     }

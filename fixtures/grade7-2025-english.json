@@ -25,14 +25,16 @@
               "type": "text",
               "order": 1,
               "content": "Vocabulary: living room, bedroom, kitchen, bathroom, garden, balcony, etc. Simple sentences describing your house.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a27baba2-363e-4300-b405-4981bce70cd8"
             },
             {
               "title": "Places at school",
               "type": "text",
               "order": 2,
               "content": "Vocabulary: classroom, library, playground, canteen, laboratory, etc. Practice with \"There is / There are\".",
-              "attachments": []
+              "attachments": [],
+              "uuid": "b25358cc-73b2-40fc-a1a7-f51df9e55132"
             }
           ],
           "exercises": [
@@ -41,7 +43,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "83481215-e15a-4e81-bff7-902030548be2"
             }
           ]
         },
@@ -55,7 +58,8 @@
               "type": "text",
               "order": 1,
               "content": "Affirmative, negative and question forms of Present Simple. Adverbs of frequency (always, usually, often, sometimes, never).",
-              "attachments": []
+              "attachments": [],
+              "uuid": "ced2fae5-caa5-46f6-9a9a-ca8d0586d6bf"
             }
           ],
           "exercises": [
@@ -64,7 +68,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "9fbdb418-b4bc-426b-b482-435c27e75e3b"
             }
           ]
         }
@@ -85,7 +90,8 @@
               "type": "text",
               "order": 1,
               "content": "Vocabulary: headache, stomachache, toothache, fever, flu, etc. Using \"should / shouldn't\" to give advice.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "988293ec-5e3f-4393-a5bc-371ed626d730"
             }
           ],
           "exercises": [
@@ -94,7 +100,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "310eeea8-1378-4e58-862a-1c204c23cbba"
             }
           ]
         },
@@ -108,7 +115,8 @@
               "type": "text",
               "order": 1,
               "content": "Expressions: \"I like / love / enjoy\", \"I am interested in\", \"My favourite hobby is ...\". Simple dialogue examples.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "3cc68414-114d-4a25-9a5f-318f9abfad9a"
             }
           ],
           "exercises": [
@@ -117,7 +125,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "ab28ca84-daac-4e82-a9b8-12da20640315"
             }
           ]
         }
@@ -125,7 +134,3 @@
     }
   ]
 }
-
-
-
-

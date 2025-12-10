@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "ENG7-CH1-L1",
-          "title": "Rooms in the house"
+          "title": "Rooms in the house",
+          "uuid": "c858eaa9-193b-4412-9a24-45476209cf34"
         },
         {
           "code": "ENG7-CH1-L2",
-          "title": "Places at school"
+          "title": "Places at school",
+          "uuid": "bc00a0e6-6e9f-4ac4-9513-4cd65319e8af"
         },
         {
           "code": "ENG7-CH1-L3",
-          "title": "Daily routines – Present Simple"
+          "title": "Daily routines – Present Simple",
+          "uuid": "9212bec5-6644-4eb5-8940-b98a270c0c8d"
         }
       ]
     },
@@ -28,11 +31,13 @@
       "lessons": [
         {
           "code": "ENG7-CH2-L1",
-          "title": "Health problems and advice"
+          "title": "Health problems and advice",
+          "uuid": "dc4e4757-5dea-4b5b-a975-3b5fb756a683"
         },
         {
           "code": "ENG7-CH2-L2",
-          "title": "Talking about hobbies"
+          "title": "Talking about hobbies",
+          "uuid": "dfef4965-123e-477b-ad61-967d704565b3"
         }
       ]
     }

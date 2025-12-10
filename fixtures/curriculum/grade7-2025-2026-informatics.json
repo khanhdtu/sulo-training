@@ -10,27 +10,33 @@
       "lessons": [
         {
           "code": "INFO7-CH1-L1",
-          "title": "Mạng máy tính là gì?"
+          "title": "Mạng máy tính là gì?",
+          "uuid": "13c225ec-817a-48f3-9e3a-ad6fdf4d71bb"
         },
         {
           "code": "INFO7-CH1-L2",
-          "title": "Các thành phần của mạng"
+          "title": "Các thành phần của mạng",
+          "uuid": "0d264166-1404-4421-9509-164c239ab475"
         },
         {
           "code": "INFO7-CH1-L3",
-          "title": "Internet và World Wide Web"
+          "title": "Internet và World Wide Web",
+          "uuid": "cf0a558d-ec3d-4bda-8adc-eb9d23993d2b"
         },
         {
           "code": "INFO7-CH1-L4",
-          "title": "Email và các dịch vụ trực tuyến"
+          "title": "Email và các dịch vụ trực tuyến",
+          "uuid": "ad3a1e25-7621-427e-921d-a82afd23001e"
         },
         {
           "code": "INFO7-CH1-L5",
-          "title": "Bảo mật thông tin cá nhân"
+          "title": "Bảo mật thông tin cá nhân",
+          "uuid": "1fd5e853-1d15-4b13-9f2f-45fffe490d0f"
         },
         {
           "code": "INFO7-CH1-L6",
-          "title": "Virus và phần mềm độc hại"
+          "title": "Virus và phần mềm độc hại",
+          "uuid": "7efe1288-b208-4019-affb-6253dbcdd749"
         }
       ]
     },
@@ -40,27 +46,33 @@
       "lessons": [
         {
           "code": "INFO7-CH2-L1",
-          "title": "Lập trình là gì?"
+          "title": "Lập trình là gì?",
+          "uuid": "57b8a7e5-629b-43ee-a7e2-3a58a66e72e8"
         },
         {
           "code": "INFO7-CH2-L2",
-          "title": "Ngôn ngữ lập trình Scratch"
+          "title": "Ngôn ngữ lập trình Scratch",
+          "uuid": "82cf92a4-5276-4e61-af37-dc5a3cf72a4a"
         },
         {
           "code": "INFO7-CH2-L3",
-          "title": "Khối lệnh di chuyển"
+          "title": "Khối lệnh di chuyển",
+          "uuid": "5288531b-71ca-4562-a01b-222b8042633f"
         },
         {
           "code": "INFO7-CH2-L4",
-          "title": "Vòng lặp và điều kiện"
+          "title": "Vòng lặp và điều kiện",
+          "uuid": "24733c77-c2a2-438f-a3bd-bb61458e803c"
         },
         {
           "code": "INFO7-CH2-L5",
-          "title": "Tạo animation đơn giản"
+          "title": "Tạo animation đơn giản",
+          "uuid": "482f26ae-8c59-415e-9d4e-09939f24553f"
         },
         {
           "code": "INFO7-CH2-L6",
-          "title": "Tạo game đơn giản"
+          "title": "Tạo game đơn giản",
+          "uuid": "7e7b38c4-1d9c-435d-a03c-b4a162894520"
         }
       ]
     },
@@ -70,31 +82,38 @@
       "lessons": [
         {
           "code": "INFO7-CH3-L1",
-          "title": "Thuật toán là gì?"
+          "title": "Thuật toán là gì?",
+          "uuid": "3ba7b3ee-5207-41a2-837e-4022393a2075"
         },
         {
           "code": "INFO7-CH3-L2",
-          "title": "Biểu diễn thuật toán"
+          "title": "Biểu diễn thuật toán",
+          "uuid": "b0ab54be-e659-4bf8-864c-2ef3b8f27f9f"
         },
         {
           "code": "INFO7-CH3-L3",
-          "title": "Cấu trúc tuần tự"
+          "title": "Cấu trúc tuần tự",
+          "uuid": "8b68cad0-c7db-44ae-b1c4-23c8c5df8065"
         },
         {
           "code": "INFO7-CH3-L4",
-          "title": "Cấu trúc rẽ nhánh"
+          "title": "Cấu trúc rẽ nhánh",
+          "uuid": "e5a0141c-8bc9-43f6-83e3-625ebe9bf5da"
         },
         {
           "code": "INFO7-CH3-L5",
-          "title": "Cấu trúc vòng lặp"
+          "title": "Cấu trúc vòng lặp",
+          "uuid": "f4a10df7-b6e7-46ee-a09f-d51a45345bc8"
         },
         {
           "code": "INFO7-CH3-L6",
-          "title": "Phân tích bài toán"
+          "title": "Phân tích bài toán",
+          "uuid": "1a0aac99-b2b8-4451-9d56-425c8972ad43"
         },
         {
           "code": "INFO7-CH3-L7",
-          "title": "Ví dụ: Tính tổng các số từ 1 đến n"
+          "title": "Ví dụ: Tính tổng các số từ 1 đến n",
+          "uuid": "fbaf6aab-e470-49b1-9700-07549d19c881"
         }
       ]
     },
@@ -104,31 +123,38 @@
       "lessons": [
         {
           "code": "INFO7-CH4-L1",
-          "title": "Hàm SUM và AVERAGE"
+          "title": "Hàm SUM và AVERAGE",
+          "uuid": "eeb29914-a226-4954-98f6-47ecacf310ea"
         },
         {
           "code": "INFO7-CH4-L2",
-          "title": "Hàm MAX, MIN, COUNT"
+          "title": "Hàm MAX, MIN, COUNT",
+          "uuid": "c7911ea8-8c38-4b13-84c5-98e06d57b79f"
         },
         {
           "code": "INFO7-CH4-L3",
-          "title": "Hàm IF"
+          "title": "Hàm IF",
+          "uuid": "a6e58a43-d897-4974-b770-62bf8961d3ae"
         },
         {
           "code": "INFO7-CH4-L4",
-          "title": "Sắp xếp dữ liệu"
+          "title": "Sắp xếp dữ liệu",
+          "uuid": "fb4d738a-4ae3-49a9-a8c7-f020611c3c1a"
         },
         {
           "code": "INFO7-CH4-L5",
-          "title": "Lọc dữ liệu (Filter)"
+          "title": "Lọc dữ liệu (Filter)",
+          "uuid": "a77280ab-5f5b-4231-bee8-2b9375db9473"
         },
         {
           "code": "INFO7-CH4-L6",
-          "title": "Tạo biểu đồ"
+          "title": "Tạo biểu đồ",
+          "uuid": "4e514b2a-c377-43b0-b119-7aa949287085"
         },
         {
           "code": "INFO7-CH4-L7",
-          "title": "Chỉnh sửa biểu đồ"
+          "title": "Chỉnh sửa biểu đồ",
+          "uuid": "e4eeeb39-4154-4dcb-9246-b402f6cea3d6"
         }
       ]
     },
@@ -138,34 +164,40 @@
       "lessons": [
         {
           "code": "INFO7-CH5-L1",
-          "title": "Giao diện PowerPoint"
+          "title": "Giao diện PowerPoint",
+          "uuid": "3a035ecb-5067-4bd7-8231-bddb4d8c8024"
         },
         {
           "code": "INFO7-CH5-L2",
-          "title": "Tạo slide mới"
+          "title": "Tạo slide mới",
+          "uuid": "34507c32-63c4-42ab-a0cb-186ad0af190a"
         },
         {
           "code": "INFO7-CH5-L3",
-          "title": "Chèn hình ảnh và video"
+          "title": "Chèn hình ảnh và video",
+          "uuid": "c0480b02-b323-4bf8-98a5-f69593f320a4"
         },
         {
           "code": "INFO7-CH5-L4",
-          "title": "Thiết kế theme và màu sắc"
+          "title": "Thiết kế theme và màu sắc",
+          "uuid": "06625820-32b9-4344-ace7-54177565d61e"
         },
         {
           "code": "INFO7-CH5-L5",
-          "title": "Hiệu ứng và animation"
+          "title": "Hiệu ứng và animation",
+          "uuid": "b5d7d431-875b-41fa-b5f6-4385fa3ede45"
         },
         {
           "code": "INFO7-CH5-L6",
-          "title": "Chế độ trình bày"
+          "title": "Chế độ trình bày",
+          "uuid": "1fb1864e-c4e1-476b-8e6c-e58d60eea32b"
         },
         {
           "code": "INFO7-CH5-L7",
-          "title": "Lưu và chia sẻ"
+          "title": "Lưu và chia sẻ",
+          "uuid": "97d4b1f2-10eb-4893-ab70-d41dc24a234c"
         }
       ]
     }
   ]
 }
-

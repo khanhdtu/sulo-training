@@ -10,23 +10,28 @@
       "lessons": [
         {
           "code": "GEO5-CH1-L1",
-          "title": "Vị trí địa lý Việt Nam"
+          "title": "Vị trí địa lý Việt Nam",
+          "uuid": "9d572699-17a0-40de-883d-d0e6053a128a"
         },
         {
           "code": "GEO5-CH1-L2",
-          "title": "Hình dạng lãnh thổ"
+          "title": "Hình dạng lãnh thổ",
+          "uuid": "5a940516-1fd7-416e-bf18-0ded9f571863"
         },
         {
           "code": "GEO5-CH1-L3",
-          "title": "Miền Bắc"
+          "title": "Miền Bắc",
+          "uuid": "cf9297f0-b6c1-498a-be9a-dd4220115712"
         },
         {
           "code": "GEO5-CH1-L4",
-          "title": "Miền Trung"
+          "title": "Miền Trung",
+          "uuid": "ea294b6c-ed24-4303-ab8e-1d616d12a881"
         },
         {
           "code": "GEO5-CH1-L5",
-          "title": "Miền Nam"
+          "title": "Miền Nam",
+          "uuid": "f3bc1ffa-a06c-467c-bb4c-562abd3fff75"
         }
       ]
     },
@@ -36,19 +41,23 @@
       "lessons": [
         {
           "code": "GEO5-CH2-L1",
-          "title": "Đồng bằng"
+          "title": "Đồng bằng",
+          "uuid": "8deb634a-36ef-4616-9d0e-dce2da9c576f"
         },
         {
           "code": "GEO5-CH2-L2",
-          "title": "Núi và cao nguyên"
+          "title": "Núi và cao nguyên",
+          "uuid": "f0feb8b8-8c23-4bf4-bb48-848d9a90236d"
         },
         {
           "code": "GEO5-CH2-L3",
-          "title": "Khí hậu miền Bắc"
+          "title": "Khí hậu miền Bắc",
+          "uuid": "f344ca19-a276-46fa-8fa6-c1750c864c6b"
         },
         {
           "code": "GEO5-CH2-L4",
-          "title": "Khí hậu miền Nam"
+          "title": "Khí hậu miền Nam",
+          "uuid": "4bc8a05e-e87c-40e2-810e-3267e237af17"
         }
       ]
     },
@@ -58,19 +67,23 @@
       "lessons": [
         {
           "code": "GEO5-CH3-L1",
-          "title": "Sông Hồng"
+          "title": "Sông Hồng",
+          "uuid": "ea5f13a9-e5ce-492b-b5f9-95d2b237309e"
         },
         {
           "code": "GEO5-CH3-L2",
-          "title": "Sông Cửu Long"
+          "title": "Sông Cửu Long",
+          "uuid": "077ed2df-9b83-41b3-bfb6-0fff6e061384"
         },
         {
           "code": "GEO5-CH3-L3",
-          "title": "Biển Đông"
+          "title": "Biển Đông",
+          "uuid": "2bc561a0-2a2e-4592-9153-64b184ad454b"
         },
         {
           "code": "GEO5-CH3-L4",
-          "title": "Các đảo lớn"
+          "title": "Các đảo lớn",
+          "uuid": "d0db5ea3-6ef7-412e-9f3a-ce610c811167"
         }
       ]
     },
@@ -80,19 +93,23 @@
       "lessons": [
         {
           "code": "GEO5-CH4-L1",
-          "title": "Dân số và phân bố"
+          "title": "Dân số và phân bố",
+          "uuid": "d6572b63-8eba-4e4d-884f-d3309f645c74"
         },
         {
           "code": "GEO5-CH4-L2",
-          "title": "Các thành phố lớn"
+          "title": "Các thành phố lớn",
+          "uuid": "6df30d4d-b387-40f1-a5df-957ee5f234bc"
         },
         {
           "code": "GEO5-CH4-L3",
-          "title": "Dân tộc Kinh"
+          "title": "Dân tộc Kinh",
+          "uuid": "fc621f33-17a8-41ad-a972-a7e3bcc15e7b"
         },
         {
           "code": "GEO5-CH4-L4",
-          "title": "Các dân tộc thiểu số"
+          "title": "Các dân tộc thiểu số",
+          "uuid": "d86db047-220e-4a32-acb3-ed25e1733eb6"
         }
       ]
     },
@@ -102,22 +119,25 @@
       "lessons": [
         {
           "code": "GEO5-CH5-L1",
-          "title": "Trồng trọt"
+          "title": "Trồng trọt",
+          "uuid": "2e755a66-fc05-4aba-9b46-eb5efd182898"
         },
         {
           "code": "GEO5-CH5-L2",
-          "title": "Chăn nuôi"
+          "title": "Chăn nuôi",
+          "uuid": "d196c472-a657-4533-be2e-6fa380b44435"
         },
         {
           "code": "GEO5-CH5-L3",
-          "title": "Công nghiệp"
+          "title": "Công nghiệp",
+          "uuid": "118a921f-4b21-437c-87b6-02b3adbfdebb"
         },
         {
           "code": "GEO5-CH5-L4",
-          "title": "Du lịch"
+          "title": "Du lịch",
+          "uuid": "833c8bab-11fa-43c7-8004-287b92629033"
         }
       ]
     }
   ]
 }
-

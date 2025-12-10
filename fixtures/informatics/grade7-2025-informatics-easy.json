@@ -26,7 +26,8 @@
               },
               "correctOption": "B",
               "hint": "Mạng máy tính là hệ thống kết nối nhiều máy tính để chia sẻ tài nguyên và thông tin.",
-              "created_at": "2025-01-01T00:05:00.000Z"
+              "created_at": "2025-01-01T00:05:00.000Z",
+              "uuid": "30305d13-bdf9-4a4d-9eee-ad9862084ac0"
             },
             {
               "title": "Các loại mạng",
@@ -41,7 +42,8 @@
               },
               "correctOption": "B",
               "hint": "LAN (Local Area Network) là mạng cục bộ, kết nối các máy tính trong một khu vực nhỏ như nhà, trường học.",
-              "created_at": "2025-01-01T00:05:01.000Z"
+              "created_at": "2025-01-01T00:05:01.000Z",
+              "uuid": "12470f27-27ca-481f-ab8a-f5e22455211d"
             }
           ]
         },
@@ -62,7 +64,8 @@
               },
               "correctOption": "B",
               "hint": "Router (bộ định tuyến) kết nối mạng nội bộ (LAN) với Internet (WAN).",
-              "created_at": "2025-01-01T00:05:10.000Z"
+              "created_at": "2025-01-01T00:05:10.000Z",
+              "uuid": "46e5e164-539d-492b-b39b-d110bff451ca"
             }
           ]
         },
@@ -83,7 +86,8 @@
               },
               "correctOption": "A",
               "hint": "Internet là mạng máy tính toàn cầu, kết nối hàng tỷ máy tính trên thế giới.",
-              "created_at": "2025-01-01T00:05:20.000Z"
+              "created_at": "2025-01-01T00:05:20.000Z",
+              "uuid": "8cd109b9-71f0-4535-9943-e33f83cd54a6"
             },
             {
               "title": "URL là gì?",
@@ -98,7 +102,8 @@
               },
               "correctOption": "A",
               "hint": "URL (Uniform Resource Locator) là địa chỉ của trang web, ví dụ: https://www.google.com",
-              "created_at": "2025-01-01T00:05:21.000Z"
+              "created_at": "2025-01-01T00:05:21.000Z",
+              "uuid": "df5bbd96-cf13-4e1b-92dc-bc84d514eac7"
             },
             {
               "title": "RAM và bộ nhớ",
@@ -114,7 +119,8 @@
               "correctOption": "B",
               "hint": "RAM lưu trữ dữ liệu tạm thời để CPU xử lý nhanh. Khi tắt máy, dữ liệu trong RAM sẽ mất.",
               "created_at": "2025-12-09T03:43:08.335Z",
-              "order": 3
+              "order": 3,
+              "uuid": "28f49765-3715-4f12-a398-58305453080f"
             },
             {
               "title": "USB và thiết bị lưu trữ",
@@ -130,7 +136,8 @@
               "correctOption": "B",
               "hint": "USB (Universal Serial Bus) là thiết bị lưu trữ di động, dùng để lưu và chuyển file giữa các máy tính.",
               "created_at": "2025-12-09T03:43:09.335Z",
-              "order": 4
+              "order": 4,
+              "uuid": "199bc811-2597-4eca-9a86-5b3f60276afd"
             },
             {
               "title": "Loa và âm thanh",
@@ -146,7 +153,8 @@
               "correctOption": "B",
               "hint": "Loa dùng để phát âm thanh, nhạc, tiếng từ máy tính ra ngoài.",
               "created_at": "2025-12-09T03:43:10.335Z",
-              "order": 5
+              "order": 5,
+              "uuid": "d20cd05c-b3a4-4796-affc-978d62db5348"
             },
             {
               "title": "Webcam",
@@ -162,7 +170,8 @@
               "correctOption": "A",
               "hint": "Webcam là camera gắn trên máy tính, dùng để chụp ảnh, quay video, video call.",
               "created_at": "2025-12-09T03:43:11.335Z",
-              "order": 6
+              "order": 6,
+              "uuid": "75615d80-73f3-4174-b078-48c4b2eb39e2"
             },
             {
               "title": "Máy in",
@@ -178,7 +187,8 @@
               "correctOption": "B",
               "hint": "Máy in dùng để in tài liệu, hình ảnh từ máy tính ra giấy.",
               "created_at": "2025-12-09T03:43:12.335Z",
-              "order": 7
+              "order": 7,
+              "uuid": "bc44f779-67d8-43fd-95c3-c9f689ed651a"
             },
             {
               "title": "Câu hỏi bổ sung 1",
@@ -194,7 +204,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 1: Mạng máy tính và Internet.",
               "created_at": "2025-12-09T03:43:13.335Z",
-              "order": 8
+              "order": 8,
+              "uuid": "4dae6900-3d6e-482c-a29c-9e0e997248f8"
             },
             {
               "title": "Câu hỏi bổ sung 2",
@@ -210,7 +221,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 1: Mạng máy tính và Internet.",
               "created_at": "2025-12-09T03:43:14.335Z",
-              "order": 9
+              "order": 9,
+              "uuid": "fdd0395b-2a0a-4044-8ea0-d6802bf3ffae"
             },
             {
               "title": "Câu hỏi bổ sung 3",
@@ -226,7 +238,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 1: Mạng máy tính và Internet.",
               "created_at": "2025-12-09T03:43:15.335Z",
-              "order": 10
+              "order": 10,
+              "uuid": "8098ff9e-f06a-483f-bfed-49a3714397b9"
             },
             {
               "title": "Câu hỏi bổ sung 4",
@@ -242,7 +255,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 1: Mạng máy tính và Internet.",
               "created_at": "2025-12-09T03:43:16.335Z",
-              "order": 11
+              "order": 11,
+              "uuid": "f8dc6454-064d-4059-b4af-93b205daba47"
             },
             {
               "title": "Câu hỏi bổ sung 5",
@@ -258,7 +272,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 1: Mạng máy tính và Internet.",
               "created_at": "2025-12-09T03:43:17.335Z",
-              "order": 12
+              "order": 12,
+              "uuid": "2c2fc4fd-f63a-469d-b0a7-24532a206bdf"
             }
           ]
         }
@@ -285,7 +300,8 @@
               },
               "correctOption": "A",
               "hint": "Lập trình là viết code (mã lệnh) để máy tính hiểu và thực hiện các công việc theo yêu cầu.",
-              "created_at": "2025-01-01T00:05:30.000Z"
+              "created_at": "2025-01-01T00:05:30.000Z",
+              "uuid": "d0c00a58-620b-454b-b292-2865aac00c69"
             }
           ]
         },
@@ -306,7 +322,8 @@
               },
               "correctOption": "A",
               "hint": "Scratch là ngôn ngữ lập trình kéo thả các khối lệnh, rất phù hợp cho người mới học lập trình.",
-              "created_at": "2025-01-01T00:05:40.000Z"
+              "created_at": "2025-01-01T00:05:40.000Z",
+              "uuid": "ca903817-a70f-4ad7-ba1c-304591374928"
             },
             {
               "title": "Giao diện Scratch",
@@ -321,7 +338,8 @@
               },
               "correctOption": "A",
               "hint": "Stage (sân khấu) là vùng hiển thị kết quả, nơi nhân vật (sprite) di chuyển và tương tác.",
-              "created_at": "2025-01-01T00:05:41.000Z"
+              "created_at": "2025-01-01T00:05:41.000Z",
+              "uuid": "8ff1025e-b48b-403a-a7a9-41bcdf4578a4"
             }
           ]
         },
@@ -342,7 +360,8 @@
               },
               "correctOption": "A",
               "hint": "Khối 'di chuyển 10 bước' làm nhân vật di chuyển 10 bước về hướng hiện tại.",
-              "created_at": "2025-01-01T00:05:50.000Z"
+              "created_at": "2025-01-01T00:05:50.000Z",
+              "uuid": "0c7a941f-96e3-499f-a05a-c32d0b39a7e0"
             },
             {
               "title": "Thanh Taskbar",
@@ -358,7 +377,8 @@
               "correctOption": "B",
               "hint": "Taskbar thường nằm ở dưới cùng màn hình, chứa nút Start, các chương trình đang chạy, đồng hồ.",
               "created_at": "2025-12-09T03:43:08.336Z",
-              "order": 2
+              "order": 2,
+              "uuid": "2259c529-4ee0-41f5-a243-a569deed2263"
             },
             {
               "title": "Nút Start",
@@ -374,7 +394,8 @@
               "correctOption": "B",
               "hint": "Nút Start mở menu Start, nơi có thể tìm và mở các chương trình, tìm kiếm file, cài đặt.",
               "created_at": "2025-12-09T03:43:09.336Z",
-              "order": 3
+              "order": 3,
+              "uuid": "08cec0ad-9aca-4b46-980a-00ef40d39d60"
             },
             {
               "title": "Cửa sổ Windows",
@@ -390,7 +411,8 @@
               "correctOption": "B",
               "hint": "Nút X (màu đỏ) dùng để đóng cửa sổ. Nút _ để thu nhỏ, nút □ để phóng to/thu nhỏ.",
               "created_at": "2025-12-09T03:43:10.336Z",
-              "order": 4
+              "order": 4,
+              "uuid": "e25a2f1b-edf8-46e2-ba64-064c5be26ca8"
             },
             {
               "title": "File Explorer",
@@ -406,7 +428,8 @@
               "correctOption": "B",
               "hint": "File Explorer là công cụ quản lý file và thư mục, cho phép xem, sao chép, di chuyển, xóa file.",
               "created_at": "2025-12-09T03:43:11.336Z",
-              "order": 5
+              "order": 5,
+              "uuid": "3ec307ac-1da9-47d7-9969-a8105bedfc58"
             },
             {
               "title": "Đổi tên file",
@@ -422,7 +445,8 @@
               "correctOption": "B",
               "hint": "Có 2 cách: click phải > Rename, hoặc click chậm 2 lần vào tên file (không phải double-click nhanh).",
               "created_at": "2025-12-09T03:43:12.336Z",
-              "order": 6
+              "order": 6,
+              "uuid": "bc458579-fa37-40ea-ad21-9ccab67f24a5"
             },
             {
               "title": "Sao chép file",
@@ -438,7 +462,8 @@
               "correctOption": "B",
               "hint": "Ctrl + C để Copy (sao chép). Ctrl + X để Cut (cắt). Ctrl + V để Paste (dán).",
               "created_at": "2025-12-09T03:43:13.336Z",
-              "order": 7
+              "order": 7,
+              "uuid": "455fdd41-cc4d-4275-a8c4-b9c4fac17f43"
             },
             {
               "title": "Dán file",
@@ -454,7 +479,8 @@
               "correctOption": "C",
               "hint": "Ctrl + V để Paste (dán) file đã Copy hoặc Cut vào vị trí mới.",
               "created_at": "2025-12-09T03:43:14.336Z",
-              "order": 8
+              "order": 8,
+              "uuid": "4da6dd4f-1f17-46dd-9468-5c5146668b72"
             },
             {
               "title": "Thùng rác",
@@ -470,7 +496,8 @@
               "correctOption": "B",
               "hint": "Xóa bằng Delete sẽ đưa file vào Recycle Bin. Có thể khôi phục lại. Shift+Delete mới xóa vĩnh viễn.",
               "created_at": "2025-12-09T03:43:15.336Z",
-              "order": 9
+              "order": 9,
+              "uuid": "db930768-e6d4-4a15-b5c9-562f3f76cc0e"
             },
             {
               "title": "Khôi phục file",
@@ -486,7 +513,8 @@
               "correctOption": "A",
               "hint": "Mở Recycle Bin, click phải vào file cần khôi phục, chọn Restore để đưa file về vị trí cũ.",
               "created_at": "2025-12-09T03:43:16.336Z",
-              "order": 10
+              "order": 10,
+              "uuid": "412ad5cf-b341-4eac-bbfa-3fe5ea820527"
             },
             {
               "title": "Tìm kiếm file",
@@ -502,7 +530,8 @@
               "correctOption": "C",
               "hint": "Có thể nhấn Windows + S hoặc click vào ô tìm kiếm trên Taskbar để tìm file, chương trình.",
               "created_at": "2025-12-09T03:43:17.336Z",
-              "order": 11
+              "order": 11,
+              "uuid": "85998523-353a-40ec-93b2-f7176c0e3c7d"
             },
             {
               "title": "Phím tắt mở File Explorer",
@@ -518,7 +547,8 @@
               "correctOption": "A",
               "hint": "Windows + E mở File Explorer nhanh chóng.",
               "created_at": "2025-12-09T03:43:18.336Z",
-              "order": 12
+              "order": 12,
+              "uuid": "8eb2a69e-5ec1-4574-9b39-770ebf02ed17"
             }
           ]
         }
@@ -545,7 +575,8 @@
               },
               "correctOption": "A",
               "hint": "Thuật toán là tập hợp các bước rõ ràng, có thứ tự để giải quyết một bài toán cụ thể.",
-              "created_at": "2025-01-01T00:06:00.000Z"
+              "created_at": "2025-01-01T00:06:00.000Z",
+              "uuid": "fd18eed6-ed4a-4120-bc3a-49236ebcdc7b"
             },
             {
               "title": "Đặc điểm của thuật toán",
@@ -560,7 +591,8 @@
               },
               "correctOption": "A",
               "hint": "Thuật toán phải: rõ ràng (dễ hiểu), có đầu vào và đầu ra, hữu hạn (có điểm kết thúc), hiệu quả.",
-              "created_at": "2025-01-01T00:06:01.000Z"
+              "created_at": "2025-01-01T00:06:01.000Z",
+              "uuid": "cf2312b6-7327-41ff-ae1d-6f4599798170"
             },
             {
               "title": "Tạo văn bản mới",
@@ -576,7 +608,8 @@
               "correctOption": "A",
               "hint": "File > New > Blank Document để tạo văn bản mới. Hoặc nhấn Ctrl + N.",
               "created_at": "2025-12-09T03:43:08.341Z",
-              "order": 3
+              "order": 3,
+              "uuid": "eae62ab9-5716-42c1-a59c-49b824f32a79"
             },
             {
               "title": "Lưu văn bản",
@@ -592,7 +625,8 @@
               "correctOption": "A",
               "hint": "Ctrl + S để Save (lưu). Ctrl + N để New (mới). Ctrl + O để Open (mở). Ctrl + P để Print (in).",
               "created_at": "2025-12-09T03:43:09.341Z",
-              "order": 4
+              "order": 4,
+              "uuid": "33629dbe-65ec-430e-b291-ab77cbf58ead"
             },
             {
               "title": "Mở văn bản",
@@ -608,7 +642,8 @@
               "correctOption": "C",
               "hint": "Ctrl + O để Open (mở file). File > Open cũng có thể dùng.",
               "created_at": "2025-12-09T03:43:10.341Z",
-              "order": 5
+              "order": 5,
+              "uuid": "0f0db009-ab0d-49e3-9afc-a6357037ead0"
             },
             {
               "title": "In văn bản",
@@ -624,7 +659,8 @@
               "correctOption": "D",
               "hint": "Ctrl + P để Print (in). File > Print cũng có thể dùng.",
               "created_at": "2025-12-09T03:43:11.341Z",
-              "order": 6
+              "order": 6,
+              "uuid": "680ff721-7144-4533-820d-57bec700b786"
             },
             {
               "title": "Hoàn tác (Undo)",
@@ -640,7 +676,8 @@
               "correctOption": "A",
               "hint": "Ctrl + Z để Undo (hoàn tác). Ctrl + Y để Redo (làm lại).",
               "created_at": "2025-12-09T03:43:12.341Z",
-              "order": 7
+              "order": 7,
+              "uuid": "702a0f09-a6bd-4a71-b066-6874e6730c29"
             },
             {
               "title": "Sao chép văn bản",
@@ -656,7 +693,8 @@
               "correctOption": "B",
               "hint": "Ctrl + C để Copy. Ctrl + X để Cut. Ctrl + V để Paste.",
               "created_at": "2025-12-09T03:43:13.341Z",
-              "order": 8
+              "order": 8,
+              "uuid": "9c4606cb-de65-47cb-b35b-3ebb5cca70bb"
             },
             {
               "title": "Dán văn bản",
@@ -672,7 +710,8 @@
               "correctOption": "C",
               "hint": "Ctrl + V để Paste (dán) văn bản đã Copy hoặc Cut.",
               "created_at": "2025-12-09T03:43:14.341Z",
-              "order": 9
+              "order": 9,
+              "uuid": "36449a87-7552-4467-9adf-00750a4ebe3b"
             },
             {
               "title": "In nghiêng chữ",
@@ -688,7 +727,8 @@
               "correctOption": "B",
               "hint": "Ctrl + I (Italic) để in nghiêng. Ctrl + B (Bold) để in đậm. Ctrl + U (Underline) để gạch chân.",
               "created_at": "2025-12-09T03:43:15.341Z",
-              "order": 10
+              "order": 10,
+              "uuid": "9134bb01-2966-4018-803b-43f59dbd37e3"
             },
             {
               "title": "Gạch chân chữ",
@@ -704,7 +744,8 @@
               "correctOption": "C",
               "hint": "Ctrl + U (Underline) để gạch chân. Ctrl + B để in đậm. Ctrl + I để in nghiêng.",
               "created_at": "2025-12-09T03:43:16.341Z",
-              "order": 11
+              "order": 11,
+              "uuid": "44987837-8dbf-4d62-884b-d2008e41d8c4"
             },
             {
               "title": "Căn lề trái",
@@ -720,7 +761,8 @@
               "correctOption": "A",
               "hint": "Ctrl + L để căn trái. Ctrl + E để căn giữa. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
               "created_at": "2025-12-09T03:43:17.341Z",
-              "order": 12
+              "order": 12,
+              "uuid": "4ea4cb6a-8fc4-4b08-bcc2-20bcb55ec9c3"
             },
             {
               "title": "Căn lề giữa",
@@ -736,7 +778,8 @@
               "correctOption": "B",
               "hint": "Ctrl + E để căn giữa. Ctrl + L để căn trái. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
               "created_at": "2025-12-09T03:43:18.341Z",
-              "order": 13
+              "order": 13,
+              "uuid": "a77ddc36-a01a-4758-9f43-5f8a8e10d0d5"
             },
             {
               "title": "Chọn toàn bộ văn bản",
@@ -752,7 +795,8 @@
               "correctOption": "A",
               "hint": "Ctrl + A để Select All (chọn tất cả). Rất hữu ích khi muốn áp dụng định dạng cho toàn bộ văn bản.",
               "created_at": "2025-12-09T03:43:19.341Z",
-              "order": 14
+              "order": 14,
+              "uuid": "7e1dec68-3da4-4667-91df-55c8faec899d"
             },
             {
               "title": "Câu hỏi bổ sung 1",
@@ -768,7 +812,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 3: Thuật toán và tư duy lập trình.",
               "created_at": "2025-12-09T03:43:20.341Z",
-              "order": 15
+              "order": 15,
+              "uuid": "9966d24a-ca1d-4282-9151-a4e04b8c2897"
             }
           ]
         }
@@ -795,7 +840,8 @@
               },
               "correctOption": "A",
               "hint": "SUM(vùng) tính tổng các số trong vùng. Ví dụ: =SUM(A1:A10) tính tổng từ A1 đến A10.",
-              "created_at": "2025-01-01T00:06:10.000Z"
+              "created_at": "2025-01-01T00:06:10.000Z",
+              "uuid": "4032bd30-3816-4c91-856e-c0b6179abfe8"
             },
             {
               "title": "Hàm AVERAGE",
@@ -810,7 +856,8 @@
               },
               "correctOption": "B",
               "hint": "AVERAGE tính trung bình cộng = tổng chia cho số lượng. =AVERAGE(A1:A5) = (A1+A2+A3+A4+A5)/5.",
-              "created_at": "2025-01-01T00:06:11.000Z"
+              "created_at": "2025-01-01T00:06:11.000Z",
+              "uuid": "08061b87-e18e-4b53-94ff-73e2509df57c"
             },
             {
               "title": "Hàng và cột trong Excel",
@@ -826,7 +873,8 @@
               "correctOption": "B",
               "hint": "Hàng được đánh số: 1, 2, 3... Cột được đánh chữ: A, B, C...",
               "created_at": "2025-12-09T03:43:08.348Z",
-              "order": 3
+              "order": 3,
+              "uuid": "6ffc8582-0238-4e16-a08e-6b9a369e25dd"
             },
             {
               "title": "Cột trong Excel",
@@ -842,7 +890,8 @@
               "correctOption": "A",
               "hint": "Cột được đánh chữ: A, B, C... Hàng được đánh số: 1, 2, 3...",
               "created_at": "2025-12-09T03:43:09.348Z",
-              "order": 4
+              "order": 4,
+              "uuid": "8efadba5-87cc-438f-b5d9-b145832d5ebd"
             },
             {
               "title": "Chọn nhiều ô",
@@ -858,7 +907,8 @@
               "correctOption": "A",
               "hint": "Click vào ô đầu, giữ chuột và kéo đến ô cuối để chọn nhiều ô liên tiếp.",
               "created_at": "2025-12-09T03:43:10.348Z",
-              "order": 5
+              "order": 5,
+              "uuid": "2a84113b-c079-461a-9da0-9ef1fc74ac1b"
             },
             {
               "title": "Chọn cả cột",
@@ -874,7 +924,8 @@
               "correctOption": "A",
               "hint": "Click vào tiêu đề cột (chữ A, B, C...) để chọn cả cột.",
               "created_at": "2025-12-09T03:43:11.348Z",
-              "order": 6
+              "order": 6,
+              "uuid": "87f22925-9dc6-4b21-9b7a-daae79e73f5c"
             },
             {
               "title": "Chọn cả hàng",
@@ -890,7 +941,8 @@
               "correctOption": "A",
               "hint": "Click vào tiêu đề hàng (số 1, 2, 3...) để chọn cả hàng.",
               "created_at": "2025-12-09T03:43:12.348Z",
-              "order": 7
+              "order": 7,
+              "uuid": "3b776282-2b58-4b67-8857-1f57e2dd905c"
             },
             {
               "title": "Công thức trừ",
@@ -906,7 +958,8 @@
               "correctOption": "B",
               "hint": "Công thức trừ: =A1-B1. Nhớ bắt đầu bằng dấu =.",
               "created_at": "2025-12-09T03:43:13.348Z",
-              "order": 8
+              "order": 8,
+              "uuid": "27ea0fe3-bdb2-498d-ac14-d8785906d114"
             },
             {
               "title": "Công thức nhân",
@@ -922,7 +975,8 @@
               "correctOption": "B",
               "hint": "Trong Excel, dấu nhân là * (không phải x). Công thức: =A1*B1.",
               "created_at": "2025-12-09T03:43:14.348Z",
-              "order": 9
+              "order": 9,
+              "uuid": "1125a5fb-dc82-4ecd-a600-01eb903579cb"
             },
             {
               "title": "Công thức chia",
@@ -938,7 +992,8 @@
               "correctOption": "B",
               "hint": "Trong Excel, dấu chia là / (dấu gạch chéo). Công thức: =A1/B1.",
               "created_at": "2025-12-09T03:43:15.348Z",
-              "order": 10
+              "order": 10,
+              "uuid": "dad3e6ee-f7a4-4178-8064-29e4bebaaf8b"
             },
             {
               "title": "Công thức phức tạp",
@@ -954,7 +1009,8 @@
               "correctOption": "B",
               "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
               "created_at": "2025-12-09T03:43:16.348Z",
-              "order": 11
+              "order": 11,
+              "uuid": "52b35e83-7536-4525-8814-90d6e38e07b8"
             },
             {
               "title": "Lưu file Excel",
@@ -970,7 +1026,8 @@
               "correctOption": "A",
               "hint": "Ctrl + S để Save (lưu file). Giống như Word và các phần mềm khác.",
               "created_at": "2025-12-09T03:43:17.348Z",
-              "order": 12
+              "order": 12,
+              "uuid": "d0db0453-714c-419f-a6f9-5547dfbdf212"
             },
             {
               "title": "Định dạng số",
@@ -986,7 +1043,8 @@
               "correctOption": "C",
               "hint": "Có 2 cách: thêm dấu nháy đơn '001, hoặc định dạng ô là Text trước khi nhập.",
               "created_at": "2025-12-09T03:43:18.348Z",
-              "order": 13
+              "order": 13,
+              "uuid": "58b9d3ad-1df4-4de6-b9ce-80845bc4baa0"
             },
             {
               "title": "Câu hỏi bổ sung 1",
@@ -1002,7 +1060,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Xử lý dữ liệu với Excel nâng cao.",
               "created_at": "2025-12-09T03:43:19.348Z",
-              "order": 14
+              "order": 14,
+              "uuid": "3c829383-a341-49e8-aafe-91b53b13326b"
             },
             {
               "title": "Câu hỏi bổ sung 2",
@@ -1018,7 +1077,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Xử lý dữ liệu với Excel nâng cao.",
               "created_at": "2025-12-09T03:43:20.348Z",
-              "order": 15
+              "order": 15,
+              "uuid": "7281024b-caa8-4dd7-bf5d-144753a738cc"
             }
           ]
         }
@@ -1045,7 +1105,8 @@
               },
               "correctOption": "A",
               "hint": "PowerPoint là phần mềm tạo bài thuyết trình (presentation), dùng để trình bày ý tưởng, dự án.",
-              "created_at": "2025-01-01T00:06:20.000Z"
+              "created_at": "2025-01-01T00:06:20.000Z",
+              "uuid": "b6ddaff3-4293-4bd0-91dc-39c247ba4d41"
             },
             {
               "title": "Slide trong PowerPoint",
@@ -1060,7 +1121,8 @@
               },
               "correctOption": "A",
               "hint": "Slide là một trang trong bài thuyết trình. Một bài thuyết trình có nhiều slide.",
-              "created_at": "2025-01-01T00:06:21.000Z"
+              "created_at": "2025-01-01T00:06:21.000Z",
+              "uuid": "055e82f6-6c25-4fb5-a9b2-2dd41584eced"
             },
             {
               "title": "Trình duyệt phổ biến",
@@ -1076,7 +1138,8 @@
               "correctOption": "A",
               "hint": "Google Chrome là trình duyệt web phổ biến. Các trình duyệt khác: Edge, Firefox, Safari.",
               "created_at": "2025-12-09T03:43:08.349Z",
-              "order": 3
+              "order": 3,
+              "uuid": "067e6da0-7e54-4a68-8719-d28ac9ccd8a7"
             },
             {
               "title": "Địa chỉ website",
@@ -1092,7 +1155,8 @@
               "correctOption": "A",
               "hint": "URL website thường bắt đầu bằng http:// hoặc https:// (s là secure - an toàn hơn).",
               "created_at": "2025-12-09T03:43:09.349Z",
-              "order": 4
+              "order": 4,
+              "uuid": "d73d5671-bda2-416d-9b77-be2ea8b0f8c9"
             },
             {
               "title": "Bookmark",
@@ -1108,7 +1172,8 @@
               "correctOption": "A",
               "hint": "Bookmark lưu địa chỉ website để truy cập nhanh sau này. Phím tắt: Ctrl + D.",
               "created_at": "2025-12-09T03:43:10.349Z",
-              "order": 5
+              "order": 5,
+              "uuid": "10210759-0b2b-4251-9e15-6d3b21604ae5"
             },
             {
               "title": "Làm mới trang",
@@ -1124,7 +1189,8 @@
               "correctOption": "A",
               "hint": "F5 hoặc Ctrl + R để refresh (làm mới) trang web, tải lại nội dung.",
               "created_at": "2025-12-09T03:43:11.349Z",
-              "order": 6
+              "order": 6,
+              "uuid": "40e0e3bf-4311-47ba-b06a-965987f4607f"
             },
             {
               "title": "Quay lại trang trước",
@@ -1140,7 +1206,8 @@
               "correctOption": "A",
               "hint": "Alt + Left Arrow (mũi tên trái) để quay lại. Alt + Right Arrow để tiến tới.",
               "created_at": "2025-12-09T03:43:12.349Z",
-              "order": 7
+              "order": 7,
+              "uuid": "ccaac1d9-75d7-40e0-9a6c-6bfa4e69a72f"
             },
             {
               "title": "Tab mới",
@@ -1156,7 +1223,8 @@
               "correctOption": "A",
               "hint": "Ctrl + T để mở tab mới. Ctrl + W để đóng tab hiện tại. Ctrl + N để mở cửa sổ mới.",
               "created_at": "2025-12-09T03:43:13.349Z",
-              "order": 8
+              "order": 8,
+              "uuid": "fa0e139f-9d62-488b-945f-0fbeb4a5e31b"
             },
             {
               "title": "Đóng tab",
@@ -1172,7 +1240,8 @@
               "correctOption": "C",
               "hint": "Ctrl + W để đóng tab hiện tại. Ctrl + T để mở tab mới.",
               "created_at": "2025-12-09T03:43:14.349Z",
-              "order": 9
+              "order": 9,
+              "uuid": "f1b29d73-77a4-4248-bab5-882f135456be"
             },
             {
               "title": "Tìm kiếm trên trang",
@@ -1188,7 +1257,8 @@
               "correctOption": "A",
               "hint": "Ctrl + F để Find (tìm kiếm) từ khóa trên trang web hiện tại.",
               "created_at": "2025-12-09T03:43:15.349Z",
-              "order": 10
+              "order": 10,
+              "uuid": "3f867724-bfce-4613-a849-38ae25d48efd"
             },
             {
               "title": "Tải file",
@@ -1204,7 +1274,8 @@
               "correctOption": "A",
               "hint": "File tải xuống thường được lưu vào thư mục Downloads (Tải xuống) của máy tính.",
               "created_at": "2025-12-09T03:43:16.349Z",
-              "order": 11
+              "order": 11,
+              "uuid": "daa25f3d-51d6-485e-8347-ad5a15dc0919"
             },
             {
               "title": "Lịch sử duyệt web",
@@ -1220,7 +1291,8 @@
               "correctOption": "A",
               "hint": "Ctrl + H để History (lịch sử), xem các trang web đã truy cập trước đó.",
               "created_at": "2025-12-09T03:43:17.349Z",
-              "order": 12
+              "order": 12,
+              "uuid": "2cf02b3c-1840-44d5-8d16-910ecff4b0cf"
             },
             {
               "title": "Công cụ tìm kiếm",
@@ -1236,7 +1308,8 @@
               "correctOption": "A",
               "hint": "Google là công cụ tìm kiếm phổ biến nhất. Các công cụ khác: Bing, Yahoo, DuckDuckGo.",
               "created_at": "2025-12-09T03:43:18.349Z",
-              "order": 13
+              "order": 13,
+              "uuid": "1bdd0c6b-d184-4c1f-ac8d-6bc3c85b2576"
             },
             {
               "title": "Từ khóa tìm kiếm",
@@ -1252,7 +1325,8 @@
               "correctOption": "A",
               "hint": "Từ khóa càng cụ thể, kết quả càng chính xác. Ví dụ: \"cách nuôi cá vàng\" tốt hơn \"cá\".",
               "created_at": "2025-12-09T03:43:19.349Z",
-              "order": 14
+              "order": 14,
+              "uuid": "1f79c92b-a53a-4bdd-b753-c9d733f23224"
             },
             {
               "title": "Câu hỏi bổ sung 1",
@@ -1268,11 +1342,13 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 5: Thiết kế và trình bày với PowerPoint.",
               "created_at": "2025-12-09T03:43:20.349Z",
-              "order": 15
+              "order": 15,
+              "uuid": "29d21929-be65-4ab7-aa5e-c7e6158734d5"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "efc575bf-3310-402a-b98c-98dc335fe2e8"
 }

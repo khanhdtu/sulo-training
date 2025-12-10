@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "MATH5-CH1-L1",
-          "title": "Phân số và phép tính với phân số"
+          "title": "Phân số và phép tính với phân số",
+          "uuid": "03969981-5fc8-4e2a-bab5-9465ba9f024b"
         },
         {
           "code": "MATH5-CH1-L2",
-          "title": "Hỗn số"
+          "title": "Hỗn số",
+          "uuid": "b15bd318-d8a4-4c9b-8ec1-e53df31616e1"
         },
         {
           "code": "MATH5-CH1-L3",
-          "title": "So sánh phân số"
+          "title": "So sánh phân số",
+          "uuid": "fd321d8f-e140-4d98-904e-7f3f41f99033"
         }
       ]
     },
@@ -28,15 +31,18 @@
       "lessons": [
         {
           "code": "MATH5-CH2-L1",
-          "title": "Khái niệm số thập phân"
+          "title": "Khái niệm số thập phân",
+          "uuid": "3d6f33be-8088-4165-858b-59a01ac4f8e6"
         },
         {
           "code": "MATH5-CH2-L2",
-          "title": "Phép cộng, trừ số thập phân"
+          "title": "Phép cộng, trừ số thập phân",
+          "uuid": "2afa31e2-9f6c-4179-a020-f66c6c1a7e96"
         },
         {
           "code": "MATH5-CH2-L3",
-          "title": "Phép nhân, chia số thập phân"
+          "title": "Phép nhân, chia số thập phân",
+          "uuid": "4da44aab-790f-4892-9463-fff8e1ecd4c7"
         }
       ]
     },
@@ -46,15 +52,18 @@
       "lessons": [
         {
           "code": "MATH5-CH3-L1",
-          "title": "Hình tam giác, hình thang"
+          "title": "Hình tam giác, hình thang",
+          "uuid": "4fc97a20-477a-4176-96e9-8745af3dab4c"
         },
         {
           "code": "MATH5-CH3-L2",
-          "title": "Diện tích hình tam giác, hình thang"
+          "title": "Diện tích hình tam giác, hình thang",
+          "uuid": "3e10c475-790b-49d7-9542-4ceccedb9a1e"
         },
         {
           "code": "MATH5-CH3-L3",
-          "title": "Hình tròn, hình hộp chữ nhật, hình lập phương"
+          "title": "Hình tròn, hình hộp chữ nhật, hình lập phương",
+          "uuid": "4e6b3c94-5582-439a-b00d-9c5c7448a498"
         }
       ]
     },
@@ -64,15 +73,18 @@
       "lessons": [
         {
           "code": "MATH5-CH4-L1",
-          "title": "Bảng đơn vị đo thời gian"
+          "title": "Bảng đơn vị đo thời gian",
+          "uuid": "801405e7-094a-490e-8816-0aa5a5930e84"
         },
         {
           "code": "MATH5-CH4-L2",
-          "title": "Cộng, trừ số đo thời gian"
+          "title": "Cộng, trừ số đo thời gian",
+          "uuid": "15193763-84e4-4397-9507-79c65e19e8c6"
         },
         {
           "code": "MATH5-CH4-L3",
-          "title": "Nhân, chia số đo thời gian"
+          "title": "Nhân, chia số đo thời gian",
+          "uuid": "7318addc-d78e-4020-91e0-50c0bbc37aac"
         }
       ]
     },
@@ -82,15 +94,16 @@
       "lessons": [
         {
           "code": "MATH5-CH5-L1",
-          "title": "Ôn tập về số tự nhiên, phân số, số thập phân"
+          "title": "Ôn tập về số tự nhiên, phân số, số thập phân",
+          "uuid": "7bc2e793-0c49-4e50-8851-ee3f849e0416"
         },
         {
           "code": "MATH5-CH5-L2",
-          "title": "Ôn tập về hình học và đo lường"
+          "title": "Ôn tập về hình học và đo lường",
+          "uuid": "d6eec0e5-a787-4c1f-b2b1-b101c97f06c9"
         }
       ]
     }
   ],
   "created_at": "2025-01-01T00:00:00.000Z"
 }
-

@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "KHTN7-CH1-L1",
-          "title": "Tính chất của chất"
+          "title": "Tính chất của chất",
+          "uuid": "a3416e33-ccf0-48ca-9907-0331dbd0bd7a"
         },
         {
           "code": "KHTN7-CH1-L2",
-          "title": "Sự biến đổi vật lí và hóa học"
+          "title": "Sự biến đổi vật lí và hóa học",
+          "uuid": "61826b7d-55a9-4d7a-943b-46065dff04db"
         },
         {
           "code": "KHTN7-CH1-L3",
-          "title": "Nguyên tử và phân tử"
+          "title": "Nguyên tử và phân tử",
+          "uuid": "8ad27711-6f41-4bbe-ac7a-509bded7eb04"
         }
       ]
     },
@@ -28,15 +31,18 @@
       "lessons": [
         {
           "code": "KHTN7-CH2-L1",
-          "title": "Năng lượng và các dạng năng lượng"
+          "title": "Năng lượng và các dạng năng lượng",
+          "uuid": "72d67ff5-3188-4e47-ad92-22321caa2830"
         },
         {
           "code": "KHTN7-CH2-L2",
-          "title": "Sự chuyển hóa năng lượng"
+          "title": "Sự chuyển hóa năng lượng",
+          "uuid": "eab54af1-1fdb-473c-9b54-f07c3b46c359"
         },
         {
           "code": "KHTN7-CH2-L3",
-          "title": "Năng lượng trong đời sống"
+          "title": "Năng lượng trong đời sống",
+          "uuid": "eb27cb24-4490-4ec6-a269-c439b067d1d4"
         }
       ]
     },
@@ -46,15 +52,18 @@
       "lessons": [
         {
           "code": "KHTN7-CH3-L1",
-          "title": "Tế bào - Đơn vị cơ bản của sự sống"
+          "title": "Tế bào - Đơn vị cơ bản của sự sống",
+          "uuid": "99c68c33-a3af-469a-8bf6-21111bfe8d4f"
         },
         {
           "code": "KHTN7-CH3-L2",
-          "title": "Đa dạng sinh học"
+          "title": "Đa dạng sinh học",
+          "uuid": "a3251712-d2fa-4876-a6df-e92d89630334"
         },
         {
           "code": "KHTN7-CH3-L3",
-          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật"
+          "title": "Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
+          "uuid": "4d9014eb-4dc2-4faa-91dc-e1b9f8b3837d"
         }
       ]
     },
@@ -64,19 +73,21 @@
       "lessons": [
         {
           "code": "KHTN7-CH4-L1",
-          "title": "Cấu trúc Trái Đất"
+          "title": "Cấu trúc Trái Đất",
+          "uuid": "fdd4206e-3c46-47af-806a-3b9bafc727ac"
         },
         {
           "code": "KHTN7-CH4-L2",
-          "title": "Khí quyển và thời tiết"
+          "title": "Khí quyển và thời tiết",
+          "uuid": "0bd6e2bf-106d-4d86-95c1-fe64ff4c28f7"
         },
         {
           "code": "KHTN7-CH4-L3",
-          "title": "Hệ Mặt Trời và các hành tinh"
+          "title": "Hệ Mặt Trời và các hành tinh",
+          "uuid": "f505ba74-a7b6-4613-9c71-fb0b4190a018"
         }
       ]
     }
   ],
   "created_at": "2025-01-01T00:00:00.000Z"
 }
-

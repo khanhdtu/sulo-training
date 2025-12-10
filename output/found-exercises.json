@@ -1,0 +1,882 @@
+[
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "0824e7df-c411-496b-ad17-a7df81113ba2",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Sự sinh sản",
+    "exercise": {
+      "title": "Câu hỏi cơ bản về Sự sinh sản",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi cơ bản về Sự sinh sản (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "0824e7df-c411-496b-ad17-a7df81113ba2"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "7cca8677-93ca-4b04-b553-5253427398f1",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Vệ sinh tuổi dậy thì",
+    "exercise": {
+      "title": "Hiểu biết cơ bản về Vệ sinh tuổi dậy thì",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Hiểu biết cơ bản về Vệ sinh tuổi dậy thì (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vệ sinh tuổi dậy thì.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "7cca8677-93ca-4b04-b553-5253427398f1"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "924635c9-bec3-463a-8752-49774e76de1f",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+    "exercise": {
+      "title": "Câu hỏi đơn giản về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi đơn giản về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "924635c9-bec3-463a-8752-49774e76de1f"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "426ed513-6fed-4914-80c5-606f6386aff9",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Tính chất của nước",
+    "exercise": {
+      "title": "Câu hỏi cơ bản về Tính chất của nước",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi cơ bản về Tính chất của nước (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của nước.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "426ed513-6fed-4914-80c5-606f6386aff9"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "2c411ee1-30e6-43f4-9e24-6b546c62eb89",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Sự chuyển thể của nước",
+    "exercise": {
+      "title": "Hiểu biết cơ bản về Sự chuyển thể của nước",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Hiểu biết cơ bản về Sự chuyển thể của nước (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển thể của nước.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "2c411ee1-30e6-43f4-9e24-6b546c62eb89"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "3aed32ba-4016-4b31-93da-66d381f52b7c",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Năng lượng",
+    "exercise": {
+      "title": "Câu hỏi đơn giản về Năng lượng",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi đơn giản về Năng lượng (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "3aed32ba-4016-4b31-93da-66d381f52b7c"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "40679e18-e729-413d-9a47-b7c8504f7278",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cơ quan sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Câu hỏi cơ bản về Cơ quan sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi cơ bản về Cơ quan sinh sản của thực vật có hoa (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cơ quan sinh sản của thực vật có hoa.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "40679e18-e729-413d-9a47-b7c8504f7278"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "785e2c74-5b1b-404c-b186-454279905174",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Sự sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Hiểu biết cơ bản về Sự sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Hiểu biết cơ bản về Sự sinh sản của thực vật có hoa (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản của thực vật có hoa.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "785e2c74-5b1b-404c-b186-454279905174"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "4a3b76d7-43a8-4f81-8276-63c38068ae0a",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cây con mọc lên từ hạt",
+    "exercise": {
+      "title": "Câu hỏi đơn giản về Cây con mọc lên từ hạt",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi đơn giản về Cây con mọc lên từ hạt (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cây con mọc lên từ hạt.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "4a3b76d7-43a8-4f81-8276-63c38068ae0a"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "85ec8469-cd6a-4605-98dd-a68815eec84c",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Môi trường",
+    "exercise": {
+      "title": "Câu hỏi cơ bản về Môi trường",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi cơ bản về Môi trường (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "85ec8469-cd6a-4605-98dd-a68815eec84c"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "930e7886-f047-4ec4-92f9-9a31667762f6",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Tài nguyên thiên nhiên",
+    "exercise": {
+      "title": "Hiểu biết cơ bản về Tài nguyên thiên nhiên",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Hiểu biết cơ bản về Tài nguyên thiên nhiên (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tài nguyên thiên nhiên.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "930e7886-f047-4ec4-92f9-9a31667762f6"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-easy.json",
+    "uuid": "395562fe-016c-4f05-b87f-736d6129cfbd",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+    "exercise": {
+      "title": "Câu hỏi đơn giản về Vai trò của môi trường tự nhiên đối với đời sống con người",
+      "type": "multiple_choice",
+      "points": 1,
+      "question": "Câu hỏi đơn giản về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vai trò của môi trường tự nhiên đối với đời sống con người.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "395562fe-016c-4f05-b87f-736d6129cfbd"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "2c311629-03ca-43c1-8472-15ea756e591c",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Sự sinh sản",
+    "exercise": {
+      "title": "Phân tích phức tạp: Sự sinh sản",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Phân tích phức tạp: Sự sinh sản (Câu 9/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự sinh sản.",
+      "created_at": "2025-01-01T00:00:08.000Z",
+      "uuid": "2c311629-03ca-43c1-8472-15ea756e591c"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "c4304492-6582-4761-b426-c094e15a0b05",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Vệ sinh tuổi dậy thì",
+    "exercise": {
+      "title": "Câu hỏi phân tích sâu về Vệ sinh tuổi dậy thì",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi phân tích sâu về Vệ sinh tuổi dậy thì (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Vệ sinh tuổi dậy thì.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "c4304492-6582-4761-b426-c094e15a0b05"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "632d72ba-13ca-4fc8-8a6b-c019d8372d2e",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+    "exercise": {
+      "title": "Câu hỏi tổng hợp về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi tổng hợp về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "632d72ba-13ca-4fc8-8a6b-c019d8372d2e"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "b388da26-0366-4e3f-b6be-51840022fd04",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Phòng tránh HIV/AIDS",
+    "exercise": {
+      "title": "Câu hỏi đánh giá về Phòng tránh HIV/AIDS",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi đánh giá về Phòng tránh HIV/AIDS (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Phòng tránh HIV/AIDS.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "b388da26-0366-4e3f-b6be-51840022fd04"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "c9753039-05f5-4ce0-96f7-fb40987e191b",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Tính chất của nước",
+    "exercise": {
+      "title": "Phân tích phức tạp: Tính chất của nước",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Phân tích phức tạp: Tính chất của nước (Câu 9/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tính chất của nước.",
+      "created_at": "2025-01-01T00:00:08.000Z",
+      "uuid": "c9753039-05f5-4ce0-96f7-fb40987e191b"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "b47c57fe-e256-4004-82a1-142755e6531b",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Sự chuyển thể của nước",
+    "exercise": {
+      "title": "Câu hỏi phân tích sâu về Sự chuyển thể của nước",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi phân tích sâu về Sự chuyển thể của nước (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự chuyển thể của nước.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "b47c57fe-e256-4004-82a1-142755e6531b"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "04fe20e8-490c-457a-8663-3389a8edfac2",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Năng lượng",
+    "exercise": {
+      "title": "Câu hỏi tổng hợp về Năng lượng",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi tổng hợp về Năng lượng (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "04fe20e8-490c-457a-8663-3389a8edfac2"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "d2499a9b-fa3a-4b9b-a6bc-4ee7d5379b70",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Sử dụng năng lượng",
+    "exercise": {
+      "title": "Câu hỏi đánh giá về Sử dụng năng lượng",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi đánh giá về Sử dụng năng lượng (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sử dụng năng lượng.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "d2499a9b-fa3a-4b9b-a6bc-4ee7d5379b70"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "19771fae-40d2-4773-b40a-63b29ecae24a",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cơ quan sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Phân tích phức tạp: Cơ quan sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Phân tích phức tạp: Cơ quan sinh sản của thực vật có hoa (Câu 9/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cơ quan sinh sản của thực vật có hoa.",
+      "created_at": "2025-01-01T00:00:08.000Z",
+      "uuid": "19771fae-40d2-4773-b40a-63b29ecae24a"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "7136fda0-f01c-4619-81e8-ccf6d3d7f787",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Sự sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Câu hỏi phân tích sâu về Sự sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi phân tích sâu về Sự sinh sản của thực vật có hoa (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự sinh sản của thực vật có hoa.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "7136fda0-f01c-4619-81e8-ccf6d3d7f787"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "074593f3-2403-47d1-ac7e-d2ed9c08294a",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cây con mọc lên từ hạt",
+    "exercise": {
+      "title": "Câu hỏi tổng hợp về Cây con mọc lên từ hạt",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi tổng hợp về Cây con mọc lên từ hạt (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cây con mọc lên từ hạt.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "074593f3-2403-47d1-ac7e-d2ed9c08294a"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "39d83b92-aba3-4456-80d0-8e7000dfbfa6",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+    "exercise": {
+      "title": "Câu hỏi đánh giá về Cây con có thể mọc lên từ một số bộ phận của cây mẹ",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi đánh giá về Cây con có thể mọc lên từ một số bộ phận của cây mẹ (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cây con có thể mọc lên từ một số bộ phận của cây mẹ.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "39d83b92-aba3-4456-80d0-8e7000dfbfa6"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "cdeffd9f-6264-4986-bf7c-af6a874c0c18",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Môi trường",
+    "exercise": {
+      "title": "Phân tích phức tạp: Môi trường",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Phân tích phức tạp: Môi trường (Câu 9/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Môi trường.",
+      "created_at": "2025-01-01T00:00:08.000Z",
+      "uuid": "cdeffd9f-6264-4986-bf7c-af6a874c0c18"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "f399adc5-ebca-4d38-8f7f-98cbce1085b3",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Tài nguyên thiên nhiên",
+    "exercise": {
+      "title": "Câu hỏi phân tích sâu về Tài nguyên thiên nhiên",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi phân tích sâu về Tài nguyên thiên nhiên (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tài nguyên thiên nhiên.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "f399adc5-ebca-4d38-8f7f-98cbce1085b3"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "571a1e11-99f7-4304-833f-362dc3bdcec5",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+    "exercise": {
+      "title": "Câu hỏi tổng hợp về Vai trò của môi trường tự nhiên đối với đời sống con người",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi tổng hợp về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Vai trò của môi trường tự nhiên đối với đời sống con người.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "571a1e11-99f7-4304-833f-362dc3bdcec5"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-hard.json",
+    "uuid": "1855081d-2b1e-4c10-8de2-8e39767ef2b1",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Tác động của con người đến môi trường",
+    "exercise": {
+      "title": "Câu hỏi đánh giá về Tác động của con người đến môi trường",
+      "type": "multiple_choice",
+      "points": 3,
+      "question": "Câu hỏi đánh giá về Tác động của con người đến môi trường (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tác động của con người đến môi trường.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "1855081d-2b1e-4c10-8de2-8e39767ef2b1"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "4b3ef248-a8ac-47b7-9fd7-21fee815f3a8",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Sự sinh sản",
+    "exercise": {
+      "title": "Câu hỏi vận dụng về Sự sinh sản",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Câu hỏi vận dụng về Sự sinh sản (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Sự sinh sản để trả lời.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "4b3ef248-a8ac-47b7-9fd7-21fee815f3a8"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "501c2365-7acb-49cf-af5b-71c991ed57ad",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Vệ sinh tuổi dậy thì",
+    "exercise": {
+      "title": "Vận dụng hiểu biết về Vệ sinh tuổi dậy thì",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Vận dụng hiểu biết về Vệ sinh tuổi dậy thì (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Vệ sinh tuổi dậy thì để trả lời.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "501c2365-7acb-49cf-af5b-71c991ed57ad"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "3c0e8e48-3e17-4c9a-ad6c-4721635a9901",
+    "chapter": "Con người và sức khỏe",
+    "lesson": "Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+    "exercise": {
+      "title": "Phân tích về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Phân tích về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não để trả lời.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "3c0e8e48-3e17-4c9a-ad6c-4721635a9901"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "fcb0c35b-999c-421b-b157-a49ca79c552d",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Tính chất của nước",
+    "exercise": {
+      "title": "Câu hỏi vận dụng về Tính chất của nước",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Câu hỏi vận dụng về Tính chất của nước (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Tính chất của nước để trả lời.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "fcb0c35b-999c-421b-b157-a49ca79c552d"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "fec74a75-4855-472d-9fd2-b977e723fd40",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Sự chuyển thể của nước",
+    "exercise": {
+      "title": "Vận dụng hiểu biết về Sự chuyển thể của nước",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Vận dụng hiểu biết về Sự chuyển thể của nước (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Sự chuyển thể của nước để trả lời.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "fec74a75-4855-472d-9fd2-b977e723fd40"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "48165ebe-0aa1-438f-9030-a1d70e37f755",
+    "chapter": "Vật chất và năng lượng",
+    "lesson": "Năng lượng",
+    "exercise": {
+      "title": "Phân tích về Năng lượng",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Phân tích về Năng lượng (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Năng lượng để trả lời.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "48165ebe-0aa1-438f-9030-a1d70e37f755"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "8bc9a3ae-5d20-4b8d-966d-e1e6b2367e13",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cơ quan sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Câu hỏi vận dụng về Cơ quan sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Câu hỏi vận dụng về Cơ quan sinh sản của thực vật có hoa (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Cơ quan sinh sản của thực vật có hoa để trả lời.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "8bc9a3ae-5d20-4b8d-966d-e1e6b2367e13"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "985e70db-c2fb-4b8c-9633-48e9a47ccec1",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Sự sinh sản của thực vật có hoa",
+    "exercise": {
+      "title": "Vận dụng hiểu biết về Sự sinh sản của thực vật có hoa",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Vận dụng hiểu biết về Sự sinh sản của thực vật có hoa (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Sự sinh sản của thực vật có hoa để trả lời.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "985e70db-c2fb-4b8c-9633-48e9a47ccec1"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "084a6fac-5589-4358-8aae-78a941528f1c",
+    "chapter": "Thực vật và động vật",
+    "lesson": "Cây con mọc lên từ hạt",
+    "exercise": {
+      "title": "Phân tích về Cây con mọc lên từ hạt",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Phân tích về Cây con mọc lên từ hạt (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Cây con mọc lên từ hạt để trả lời.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "084a6fac-5589-4358-8aae-78a941528f1c"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "fdb5536f-b4ef-4fb1-ae21-697ab1fb4d4f",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Môi trường",
+    "exercise": {
+      "title": "Câu hỏi vận dụng về Môi trường",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Câu hỏi vận dụng về Môi trường (Câu 11/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Môi trường để trả lời.",
+      "created_at": "2025-01-01T00:00:10.000Z",
+      "uuid": "fdb5536f-b4ef-4fb1-ae21-697ab1fb4d4f"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "812dfede-a86a-43de-9d3b-21d1f8dd765b",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Tài nguyên thiên nhiên",
+    "exercise": {
+      "title": "Vận dụng hiểu biết về Tài nguyên thiên nhiên",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Vận dụng hiểu biết về Tài nguyên thiên nhiên (Câu 13/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Tài nguyên thiên nhiên để trả lời.",
+      "created_at": "2025-01-01T00:00:12.000Z",
+      "uuid": "812dfede-a86a-43de-9d3b-21d1f8dd765b"
+    }
+  },
+  {
+    "file": "fixtures\\science\\grade5-2025-science-medium.json",
+    "uuid": "b506551d-30cc-422c-b602-762ce88a2ee6",
+    "chapter": "Môi trường và tài nguyên thiên nhiên",
+    "lesson": "Vai trò của môi trường tự nhiên đối với đời sống con người",
+    "exercise": {
+      "title": "Phân tích về Vai trò của môi trường tự nhiên đối với đời sống con người",
+      "type": "multiple_choice",
+      "points": 2,
+      "question": "Phân tích về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 15/15)",
+      "options": {
+        "A": "Lựa chọn A",
+        "B": "Lựa chọn B (Đúng)",
+        "C": "Lựa chọn C",
+        "D": "Lựa chọn D"
+      },
+      "correctOption": "B",
+      "hint": "Vận dụng kiến thức đã học về Vai trò của môi trường tự nhiên đối với đời sống con người để trả lời.",
+      "created_at": "2025-01-01T00:00:14.000Z",
+      "uuid": "b506551d-30cc-422c-b602-762ce88a2ee6"
+    }
+  }
+]

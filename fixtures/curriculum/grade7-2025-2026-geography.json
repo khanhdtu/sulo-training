@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "GEO7-CH1-L1",
-          "title": "Dân số thế giới"
+          "title": "Dân số thế giới",
+          "uuid": "5e4f08ad-4fb4-46a9-91b6-e2fd2ced40e5"
         },
         {
           "code": "GEO7-CH1-L2",
-          "title": "Phân bố dân cư"
+          "title": "Phân bố dân cư",
+          "uuid": "ad9a2d2e-9e75-4821-a746-b2d747e04c27"
         },
         {
           "code": "GEO7-CH1-L3",
-          "title": "Ba chủng tộc chính"
+          "title": "Ba chủng tộc chính",
+          "uuid": "8ad8a274-3190-4bf6-a4a9-1e0daf877ee6"
         }
       ]
     },
@@ -28,23 +31,28 @@
       "lessons": [
         {
           "code": "GEO7-CH2-L1",
-          "title": "Môi trường xích đạo ẩm"
+          "title": "Môi trường xích đạo ẩm",
+          "uuid": "7e8d250f-ad50-4add-82e3-ddad61be6222"
         },
         {
           "code": "GEO7-CH2-L2",
-          "title": "Môi trường nhiệt đới"
+          "title": "Môi trường nhiệt đới",
+          "uuid": "e3ba4436-5387-4ece-a6ec-2dacfa28ba2c"
         },
         {
           "code": "GEO7-CH2-L3",
-          "title": "Môi trường nhiệt đới gió mùa"
+          "title": "Môi trường nhiệt đới gió mùa",
+          "uuid": "d37c5cc6-fe71-44b3-b36f-0412e142ab2c"
         },
         {
           "code": "GEO7-CH2-L4",
-          "title": "Môi trường ôn đới hải dương"
+          "title": "Môi trường ôn đới hải dương",
+          "uuid": "95c05797-792c-4b00-9ba8-037bd939c339"
         },
         {
           "code": "GEO7-CH2-L5",
-          "title": "Môi trường ôn đới lục địa"
+          "title": "Môi trường ôn đới lục địa",
+          "uuid": "f6a3f2ae-6972-45d6-9d2c-f695711e6ec7"
         }
       ]
     },
@@ -54,19 +62,23 @@
       "lessons": [
         {
           "code": "GEO7-CH3-L1",
-          "title": "Vị trí và địa hình châu Á"
+          "title": "Vị trí và địa hình châu Á",
+          "uuid": "d878f5e0-5ffd-40c7-8d96-ee4f1fd106f2"
         },
         {
           "code": "GEO7-CH3-L2",
-          "title": "Khí hậu châu Á"
+          "title": "Khí hậu châu Á",
+          "uuid": "7f89a514-e703-4fb1-ba96-46c5dd9da708"
         },
         {
           "code": "GEO7-CH3-L3",
-          "title": "Đặc điểm tự nhiên châu Phi"
+          "title": "Đặc điểm tự nhiên châu Phi",
+          "uuid": "88e85e29-1e83-4db1-b11c-1a6e3b14a5d5"
         },
         {
           "code": "GEO7-CH3-L4",
-          "title": "Dân cư châu Phi"
+          "title": "Dân cư châu Phi",
+          "uuid": "ccdcdbf7-331c-4d7e-958b-3d2b42b3364d"
         }
       ]
     },
@@ -76,19 +88,23 @@
       "lessons": [
         {
           "code": "GEO7-CH4-L1",
-          "title": "Vị trí và địa hình châu Mỹ"
+          "title": "Vị trí và địa hình châu Mỹ",
+          "uuid": "09ab6e41-f56b-4320-a71c-50496d496ef6"
         },
         {
           "code": "GEO7-CH4-L2",
-          "title": "Khí hậu và cảnh quan"
+          "title": "Khí hậu và cảnh quan",
+          "uuid": "449db5c6-2f59-4939-960e-47561fb00895"
         },
         {
           "code": "GEO7-CH4-L3",
-          "title": "Châu Đại Dương"
+          "title": "Châu Đại Dương",
+          "uuid": "c993760d-30ad-4c2f-80db-e059b12fa481"
         },
         {
           "code": "GEO7-CH4-L4",
-          "title": "Châu Nam Cực"
+          "title": "Châu Nam Cực",
+          "uuid": "37b0d992-b6e8-4d33-9822-207f8c89c513"
         }
       ]
     },
@@ -98,22 +114,25 @@
       "lessons": [
         {
           "code": "GEO7-CH5-L1",
-          "title": "Vị trí và địa hình châu Âu"
+          "title": "Vị trí và địa hình châu Âu",
+          "uuid": "79ea2a48-6622-4fa7-bc4f-632bbadd52e6"
         },
         {
           "code": "GEO7-CH5-L2",
-          "title": "Khí hậu và dân cư"
+          "title": "Khí hậu và dân cư",
+          "uuid": "04566c53-8c04-45c9-aa87-77d011c2f477"
         },
         {
           "code": "GEO7-CH5-L3",
-          "title": "Ô nhiễm môi trường"
+          "title": "Ô nhiễm môi trường",
+          "uuid": "cec1d3fe-be1a-422b-abf2-b5ab71c003b5"
         },
         {
           "code": "GEO7-CH5-L4",
-          "title": "Bảo vệ môi trường"
+          "title": "Bảo vệ môi trường",
+          "uuid": "16b110b6-c6e6-4a27-aee5-2385fcccae46"
         }
       ]
     }
   ]
 }
-

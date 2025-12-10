@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "ENG5-CH1-L1",
-          "title": "Asking and answering about addresses"
+          "title": "Asking and answering about addresses",
+          "uuid": "f78b50cc-8bee-4646-9d6f-b3f7687d1cf2"
         },
         {
           "code": "ENG5-CH1-L2",
-          "title": "Describing places"
+          "title": "Describing places",
+          "uuid": "68d202c2-207e-4042-ad66-1cdc17fa0624"
         },
         {
           "code": "ENG5-CH1-L3",
-          "title": "Grammar: Where do you live?"
+          "title": "Grammar: Where do you live?",
+          "uuid": "4c986a9f-fa61-4b63-a640-7cc84449d673"
         }
       ]
     },
@@ -28,15 +31,18 @@
       "lessons": [
         {
           "code": "ENG5-CH2-L1",
-          "title": "Daily routines"
+          "title": "Daily routines",
+          "uuid": "35b1098d-c942-4211-aed6-1c79194a92b3"
         },
         {
           "code": "ENG5-CH2-L2",
-          "title": "Talking about frequency"
+          "title": "Talking about frequency",
+          "uuid": "94e142a2-2879-4fc7-9a78-f7ed317d442a"
         },
         {
           "code": "ENG5-CH2-L3",
-          "title": "Grammar: Adverbs of frequency"
+          "title": "Grammar: Adverbs of frequency",
+          "uuid": "18b30573-780f-4348-a00f-3eaa5c8715a8"
         }
       ]
     },
@@ -46,15 +52,18 @@
       "lessons": [
         {
           "code": "ENG5-CH3-L1",
-          "title": "Past simple tense"
+          "title": "Past simple tense",
+          "uuid": "d54f18cd-8cc2-470b-b23c-872e243f0fc1"
         },
         {
           "code": "ENG5-CH3-L2",
-          "title": "Talking about holidays"
+          "title": "Talking about holidays",
+          "uuid": "abf38ca0-2328-4424-914c-95fc3fad1d57"
         },
         {
           "code": "ENG5-CH3-L3",
-          "title": "Grammar: Past simple with regular and irregular verbs"
+          "title": "Grammar: Past simple with regular and irregular verbs",
+          "uuid": "67dbf87a-f5b9-42a7-a5c9-3b0354ae4545"
         }
       ]
     },
@@ -64,19 +73,21 @@
       "lessons": [
         {
           "code": "ENG5-CH4-L1",
-          "title": "Health problems"
+          "title": "Health problems",
+          "uuid": "e3ffcf52-81d3-4601-ad13-8b3d52491fae"
         },
         {
           "code": "ENG5-CH4-L2",
-          "title": "Giving advice"
+          "title": "Giving advice",
+          "uuid": "130b7605-dbd0-43db-9de4-cd951681506c"
         },
         {
           "code": "ENG5-CH4-L3",
-          "title": "Grammar: Should/Shouldn't"
+          "title": "Grammar: Should/Shouldn't",
+          "uuid": "25e94ddc-daa0-41a7-9621-b506186f5458"
         }
       ]
     }
   ],
   "created_at": "2025-01-01T00:00:00.000Z"
 }
-

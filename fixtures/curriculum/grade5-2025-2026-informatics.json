@@ -10,19 +10,23 @@
       "lessons": [
         {
           "code": "INFO5-CH1-L1",
-          "title": "Giới thiệu về máy tính"
+          "title": "Giới thiệu về máy tính",
+          "uuid": "e692e044-ac72-41ca-80ef-a81fae8b4b45"
         },
         {
           "code": "INFO5-CH1-L2",
-          "title": "Các thành phần phần cứng"
+          "title": "Các thành phần phần cứng",
+          "uuid": "465d4a31-dc0c-4334-adc7-470be605a131"
         },
         {
           "code": "INFO5-CH1-L3",
-          "title": "Sử dụng chuột máy tính"
+          "title": "Sử dụng chuột máy tính",
+          "uuid": "f84c2dad-1f45-496a-a160-343055ba12af"
         },
         {
           "code": "INFO5-CH1-L4",
-          "title": "Sử dụng bàn phím"
+          "title": "Sử dụng bàn phím",
+          "uuid": "9537337f-05ad-423f-8321-515416d97960"
         }
       ]
     },
@@ -32,11 +36,13 @@
       "lessons": [
         {
           "code": "INFO5-CH2-L1",
-          "title": "Màn hình Desktop và các biểu tượng"
+          "title": "Màn hình Desktop và các biểu tượng",
+          "uuid": "86a6d6c0-84a2-4fd6-bfa7-1f7af31a774d"
         },
         {
           "code": "INFO5-CH2-L2",
-          "title": "Thư mục và file"
+          "title": "Thư mục và file",
+          "uuid": "4cecb0f1-aa67-4fea-abe3-2f97773cc7c5"
         }
       ]
     },
@@ -46,27 +52,33 @@
       "lessons": [
         {
           "code": "INFO5-CH3-L1",
-          "title": "Giao diện Microsoft Word"
+          "title": "Giao diện Microsoft Word",
+          "uuid": "89afa353-6d4f-424f-b5f8-6c5f8a6acf30"
         },
         {
           "code": "INFO5-CH3-L2",
-          "title": "Tạo và lưu văn bản"
+          "title": "Tạo và lưu văn bản",
+          "uuid": "51877a37-bc64-46e4-8b69-4c1f2651fbae"
         },
         {
           "code": "INFO5-CH3-L3",
-          "title": "Định dạng chữ"
+          "title": "Định dạng chữ",
+          "uuid": "a5101708-9ee3-41dc-b867-84ba2cd8f3c3"
         },
         {
           "code": "INFO5-CH3-L4",
-          "title": "Định dạng đoạn văn"
+          "title": "Định dạng đoạn văn",
+          "uuid": "9a8cf185-5a35-43bf-bccb-8300dd2f4659"
         },
         {
           "code": "INFO5-CH3-L5",
-          "title": "Chèn hình ảnh vào văn bản"
+          "title": "Chèn hình ảnh vào văn bản",
+          "uuid": "60a38643-5e84-4f1a-8a09-b61b3c47051b"
         },
         {
           "code": "INFO5-CH3-L6",
-          "title": "Tạo và chỉnh sửa bảng"
+          "title": "Tạo và chỉnh sửa bảng",
+          "uuid": "c9fe183d-020b-4c08-a8b3-ee6b32225c7a"
         }
       ]
     },
@@ -76,15 +88,18 @@
       "lessons": [
         {
           "code": "INFO5-CH4-L1",
-          "title": "Giao diện Microsoft Excel"
+          "title": "Giao diện Microsoft Excel",
+          "uuid": "24007b36-9ed2-4961-883a-2cdafb1bb6be"
         },
         {
           "code": "INFO5-CH4-L2",
-          "title": "Nhập dữ liệu vào ô"
+          "title": "Nhập dữ liệu vào ô",
+          "uuid": "c422c3e4-5d3c-4745-9d5c-d21f7b001bd3"
         },
         {
           "code": "INFO5-CH4-L3",
-          "title": "Sử dụng công thức đơn giản"
+          "title": "Sử dụng công thức đơn giản",
+          "uuid": "593cd468-631e-4d17-bef5-d338dc67240a"
         }
       ]
     },
@@ -94,22 +109,25 @@
       "lessons": [
         {
           "code": "INFO5-CH5-L1",
-          "title": "Internet là gì?"
+          "title": "Internet là gì?",
+          "uuid": "b32546a9-24a1-4f9e-8ceb-44729e545379"
         },
         {
           "code": "INFO5-CH5-L2",
-          "title": "An toàn trên Internet"
+          "title": "An toàn trên Internet",
+          "uuid": "0d619d99-8b64-4251-9b42-d1379d2d74b8"
         },
         {
           "code": "INFO5-CH5-L3",
-          "title": "Trình duyệt web"
+          "title": "Trình duyệt web",
+          "uuid": "170f161f-49b9-42e9-9fd1-27abd32d8315"
         },
         {
           "code": "INFO5-CH5-L4",
-          "title": "Tìm kiếm thông tin"
+          "title": "Tìm kiếm thông tin",
+          "uuid": "11956614-753b-4cce-bed3-d2452e209fc5"
         }
       ]
     }
   ]
 }
-

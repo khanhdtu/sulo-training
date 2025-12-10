@@ -25,14 +25,16 @@
               "type": "text",
               "order": 1,
               "content": "Việt Nam nằm ở khu vực Đông Nam Á, phía đông bán đảo Đông Dương. Phía bắc giáp Trung Quốc, phía tây giáp Lào và Campuchia, phía đông và nam giáp biển Đông. Việt Nam có diện tích khoảng 331.212 km².",
-              "attachments": []
+              "attachments": [],
+              "uuid": "c95e1c01-cc32-42db-a11c-08add71c357d"
             },
             {
               "title": "Hình dạng lãnh thổ",
               "type": "text",
               "order": 2,
               "content": "Lãnh thổ Việt Nam có hình chữ S, kéo dài từ Bắc xuống Nam khoảng 1.650 km. Bề ngang hẹp nhất chỉ khoảng 50 km (ở Quảng Bình). Việt Nam có đường bờ biển dài hơn 3.260 km.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "8149e75d-09b9-4175-b5f5-cf53880b2f60"
             }
           ],
           "exercises": []
@@ -47,21 +49,24 @@
               "type": "text",
               "order": 1,
               "content": "Miền Bắc có khí hậu nhiệt đới gió mùa, có mùa đông lạnh. Địa hình đa dạng với đồng bằng sông Hồng, trung du và miền núi phía Bắc. Các tỉnh thành phố lớn: Hà Nội, Hải Phòng, Quảng Ninh.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "8b55526c-8985-4c23-ac14-d8b963043272"
             },
             {
               "title": "Miền Trung",
               "type": "text",
               "order": 2,
               "content": "Miền Trung có địa hình hẹp, dốc từ Tây sang Đông. Có nhiều dãy núi chạy dọc theo bờ biển. Khí hậu khắc nghiệt, thường xuyên chịu ảnh hưởng của bão lũ. Các tỉnh thành: Đà Nẵng, Huế, Quy Nhơn.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a4bff39e-f698-4af5-a70f-39acc5272bbc"
             },
             {
               "title": "Miền Nam",
               "type": "text",
               "order": 3,
               "content": "Miền Nam có khí hậu nhiệt đới gió mùa, nóng quanh năm. Có đồng bằng sông Cửu Long rộng lớn, màu mỡ. Các thành phố lớn: Thành phố Hồ Chí Minh, Cần Thơ, An Giang.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "8ef3921f-7cad-40dd-8533-fdeaf67bd6c0"
             }
           ],
           "exercises": []
@@ -83,14 +88,16 @@
               "type": "text",
               "order": 1,
               "content": "Việt Nam có hai đồng bằng lớn: đồng bằng sông Hồng và đồng bằng sông Cửu Long. Đồng bằng sông Hồng rộng khoảng 15.000 km², là vùng trồng lúa quan trọng. Đồng bằng sông Cửu Long rộng khoảng 40.000 km², là vựa lúa lớn nhất cả nước.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "984b4309-ece9-482a-8d14-5f315fc84f05"
             },
             {
               "title": "Núi và cao nguyên",
               "type": "text",
               "order": 2,
               "content": "Địa hình núi chiếm 3/4 diện tích lãnh thổ. Các dãy núi chính: Hoàng Liên Sơn, Trường Sơn. Các cao nguyên: Tây Nguyên, Đông Bắc. Đỉnh núi cao nhất là Phan Xi Păng (3.143m).",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a8dc568f-ea4d-462d-873b-07f864d06df6"
             }
           ],
           "exercises": []
@@ -105,14 +112,16 @@
               "type": "text",
               "order": 1,
               "content": "Miền Bắc có khí hậu nhiệt đới gió mùa với 4 mùa rõ rệt: xuân, hạ, thu, đông. Mùa đông lạnh, có thể xuống dưới 10°C. Mùa hè nóng, nhiệt độ có thể lên trên 35°C. Lượng mưa trung bình 1.500-2.000mm/năm.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "f131fc37-fc9f-4ef5-b351-e56de2fa82d1"
             },
             {
               "title": "Khí hậu miền Nam",
               "type": "text",
               "order": 2,
               "content": "Miền Nam có khí hậu nhiệt đới gió mùa với 2 mùa: mùa khô (tháng 11-4) và mùa mưa (tháng 5-10). Nhiệt độ quanh năm cao, trung bình 25-27°C. Lượng mưa lớn, trung bình 1.500-2.500mm/năm.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "073ad56f-183f-4ff9-885d-832373a98b68"
             }
           ],
           "exercises": []
@@ -134,14 +143,16 @@
               "type": "text",
               "order": 1,
               "content": "Sông Hồng dài 1.149 km, bắt nguồn từ Trung Quốc, chảy qua các tỉnh Lào Cai, Yên Bái, Phú Thọ, Hà Nội, Hưng Yên, Thái Bình. Sông Hồng có vai trò quan trọng trong nông nghiệp và giao thông.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "80cb9dc5-6106-4767-bf4f-53fb50a7b66d"
             },
             {
               "title": "Sông Cửu Long",
               "type": "text",
               "order": 2,
               "content": "Sông Cửu Long (Mê Kông) dài 4.350 km, chảy qua 6 quốc gia. Đoạn chảy qua Việt Nam dài khoảng 220 km. Sông Cửu Long tạo nên đồng bằng sông Cửu Long màu mỡ, là vựa lúa lớn nhất cả nước.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "eee725c9-2b22-4c08-a5d6-eaeddeeb1225"
             }
           ],
           "exercises": []
@@ -156,14 +167,16 @@
               "type": "text",
               "order": 1,
               "content": "Việt Nam có đường bờ biển dài hơn 3.260 km. Biển Đông có vai trò quan trọng về kinh tế (đánh bắt cá, dầu khí, du lịch) và an ninh quốc phòng. Các vùng biển giàu tài nguyên: dầu khí, hải sản.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "f245146b-9289-447c-bb31-2d2c6c9ca7d3"
             },
             {
               "title": "Các đảo lớn",
               "type": "text",
               "order": 2,
               "content": "Việt Nam có hơn 3.000 đảo lớn nhỏ. Các đảo lớn: Phú Quốc (567 km²), Cát Bà, Côn Đảo, Lý Sơn. Các quần đảo: Hoàng Sa, Trường Sa. Đảo có vai trò quan trọng về kinh tế và chủ quyền biển đảo.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "11ebc277-dce7-44af-9f8a-8d00d854a04d"
             }
           ],
           "exercises": []
@@ -185,14 +198,16 @@
               "type": "text",
               "order": 1,
               "content": "Việt Nam có dân số khoảng 98 triệu người (2023). Dân cư phân bố không đều: tập trung đông ở đồng bằng, ven biển; thưa thớt ở miền núi. Mật độ dân số trung bình khoảng 296 người/km².",
-              "attachments": []
+              "attachments": [],
+              "uuid": "43140097-4b4e-4fee-90d9-1ebf5ec2946a"
             },
             {
               "title": "Các thành phố lớn",
               "type": "text",
               "order": 2,
               "content": "Các thành phố lớn nhất: Hà Nội (thủ đô), Thành phố Hồ Chí Minh, Đà Nẵng, Hải Phòng, Cần Thơ. Thành phố Hồ Chí Minh là thành phố đông dân nhất với hơn 9 triệu người.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "eacbfc6e-3c4f-4aa8-b103-03a1c15f6047"
             }
           ],
           "exercises": []
@@ -207,14 +222,16 @@
               "type": "text",
               "order": 1,
               "content": "Dân tộc Kinh chiếm khoảng 86% dân số, phân bố chủ yếu ở đồng bằng, ven biển. Là dân tộc đông nhất, có vai trò chủ đạo trong phát triển kinh tế - xã hội.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "71800e43-d6c1-4ae0-81f8-37a6d63b07c0"
             },
             {
               "title": "Các dân tộc thiểu số",
               "type": "text",
               "order": 2,
               "content": "Việt Nam có 53 dân tộc thiểu số, chiếm khoảng 14% dân số. Các dân tộc đông nhất: Tày, Thái, Mường, Khmer, H'Mông. Phân bố chủ yếu ở miền núi, trung du. Mỗi dân tộc có bản sắc văn hóa riêng.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "fe593247-00d8-48de-84f6-3a200a8ab901"
             }
           ],
           "exercises": []
@@ -236,14 +253,16 @@
               "type": "text",
               "order": 1,
               "content": "Việt Nam là nước nông nghiệp, lúa gạo là cây trồng chính. Sản lượng lúa gạo đứng thứ 2 thế giới về xuất khẩu. Các cây trồng quan trọng: lúa, cà phê, cao su, hồ tiêu, điều, cây ăn quả.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "2a22c621-2d20-4169-ada7-8d154483c78b"
             },
             {
               "title": "Chăn nuôi",
               "type": "text",
               "order": 2,
               "content": "Chăn nuôi phát triển với các vật nuôi chính: lợn, gà, trâu, bò. Sản phẩm chăn nuôi đáp ứng nhu cầu trong nước và xuất khẩu. Chăn nuôi tập trung ở đồng bằng và trung du.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "e5745310-9bf2-470e-92e8-c049374515fe"
             }
           ],
           "exercises": []
@@ -258,14 +277,16 @@
               "type": "text",
               "order": 1,
               "content": "Công nghiệp Việt Nam phát triển nhanh, các ngành chính: dệt may, giày dép, điện tử, dầu khí, thực phẩm. Các khu công nghiệp tập trung ở Hà Nội, TP.HCM, Đà Nẵng, Bình Dương.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "efbf485a-09a8-4c4d-9ea4-d756083ab0db"
             },
             {
               "title": "Du lịch",
               "type": "text",
               "order": 2,
               "content": "Du lịch là ngành kinh tế quan trọng. Các điểm du lịch nổi tiếng: Hạ Long, Sapa, Huế, Hội An, Phú Quốc, Đà Lạt. Du lịch đóng góp lớn vào GDP và tạo nhiều việc làm.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "92bf5e61-ecbd-426f-980c-9187e4337a3b"
             }
           ],
           "exercises": []
@@ -274,4 +295,3 @@
     }
   ]
 }
-

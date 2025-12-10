@@ -26,7 +26,8 @@
               },
               "correctOption": "B",
               "hint": "Kim loại dẫn điện tốt vì có các electron tự do trong cấu trúc tinh thể, có thể di chuyển khi có điện trường.",
-              "created_at": "2025-01-01T00:00:00.000Z"
+              "created_at": "2025-01-01T00:00:00.000Z",
+              "uuid": "5e10643c-aa67-4e9d-8940-22e7b11e3ced"
             },
             {
               "title": "Tự luận (nâng cao): Thiết kế thí nghiệm để phân biệt chất tinh khiết và hỗn hợp",
@@ -35,7 +36,8 @@
               "question": "Thiết kế thí nghiệm để phân biệt chất tinh khiết và hỗn hợp",
               "hint": "Chất tinh khiết có nhiệt độ sôi/nóng chảy cố định, hỗn hợp có khoảng nhiệt độ.",
               "answer": "Thí nghiệm: Đo nhiệt độ sôi của mẫu chất. Nếu là chất tinh khiết, nhiệt độ sôi sẽ cố định ở một giá trị nhất định. Nếu là hỗn hợp, nhiệt độ sôi sẽ thay đổi trong một khoảng. Hoặc dùng phương pháp cô cạn: chất tinh khiết cô cạn hoàn toàn, hỗn hợp có thể để lại cặn.",
-              "created_at": "2025-01-01T00:00:01.000Z"
+              "created_at": "2025-01-01T00:00:01.000Z",
+              "uuid": "53a9a7bf-8c44-416d-82ad-bd9004799deb"
             },
             {
               "title": "Vận dụng nâng cao: Tính chất của chất",
@@ -50,7 +52,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tính chất của chất.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "1f7447dd-ceb5-4bfa-a7f9-8711d9a87b6c"
             },
             {
               "title": "Trình bày và đánh giá về Tính chất của chất",
@@ -59,7 +62,8 @@
               "question": "Trình bày và đánh giá về Tính chất của chất (Câu 8/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tính chất của chất.",
               "answer": "Đây là câu trả lời phân tích sâu về Tính chất của chất. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "118380e3-6154-4533-9e40-2373c1025389"
             },
             {
               "title": "Phân tích phức tạp: Tính chất của chất",
@@ -74,7 +78,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tính chất của chất.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "e858942a-4b49-4646-8520-be159a07d690"
             }
           ]
         },
@@ -95,7 +100,8 @@
               },
               "correctOption": "B",
               "hint": "Tạo ra CO2 và H2O là các chất mới, khác với hợp chất ban đầu, chứng tỏ có phản ứng hóa học.",
-              "created_at": "2025-01-01T00:00:02.000Z"
+              "created_at": "2025-01-01T00:00:02.000Z",
+              "uuid": "24d7d9e8-6af7-40d1-a5c4-1155bdf21947"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích và giải thích tại sao một số biến đổi có thể đảo ngược và một số không thể",
@@ -104,7 +110,8 @@
               "question": "Phân tích và giải thích tại sao một số biến đổi có thể đảo ngược và một số không thể",
               "hint": "Biến đổi vật lí có thể đảo ngược vì không tạo chất mới. Biến đổi hóa học khó đảo ngược vì tạo chất mới.",
               "answer": "Biến đổi vật lí có thể đảo ngược vì không tạo ra chất mới, chỉ thay đổi hình dạng, trạng thái (ví dụ: nước đá ↔ nước lỏng ↔ hơi nước). Biến đổi hóa học khó hoặc không thể đảo ngược vì tạo ra các chất mới với tính chất khác hoàn toàn (ví dụ: đốt cháy gỗ tạo tro và CO2, không thể biến tro và CO2 trở lại thành gỗ bằng phương pháp đơn giản).",
-              "created_at": "2025-01-01T00:00:03.000Z"
+              "created_at": "2025-01-01T00:00:03.000Z",
+              "uuid": "bb7f6652-535b-416d-8022-d3dd3ee7418b"
             },
             {
               "title": "Viết bài phân tích về Sự biến đổi vật lí và hóa học",
@@ -113,7 +120,8 @@
               "question": "Viết bài phân tích về Sự biến đổi vật lí và hóa học (Câu 10/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự biến đổi vật lí và hóa học.",
               "answer": "Đây là câu trả lời phân tích sâu về Sự biến đổi vật lí và hóa học. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "e28f1f56-028d-4d38-811b-b30f79d7f473"
             },
             {
               "title": "Câu hỏi phân tích sâu về Sự biến đổi vật lí và hóa học",
@@ -128,7 +136,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự biến đổi vật lí và hóa học.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "ca0f6abe-38ef-44aa-bfbb-94c4c1e82f9a"
             },
             {
               "title": "Phân tích chi tiết và đưa ra nhận xét về Sự biến đổi vật lí và hóa học",
@@ -137,7 +146,8 @@
               "question": "Phân tích chi tiết và đưa ra nhận xét về Sự biến đổi vật lí và hóa học (Câu 12/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự biến đổi vật lí và hóa học.",
               "answer": "Đây là câu trả lời phân tích sâu về Sự biến đổi vật lí và hóa học. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "da3e9513-e933-4b58-9e82-79e7e1934aa9"
             }
           ]
         },
@@ -158,7 +168,8 @@
               },
               "correctOption": "B",
               "hint": "Nguyên tử trung hòa về điện vì số proton (điện tích dương) bằng số electron (điện tích âm).",
-              "created_at": "2025-01-01T00:00:04.000Z"
+              "created_at": "2025-01-01T00:00:04.000Z",
+              "uuid": "7feee6df-ca86-43ed-83d0-3db90977e00e"
             },
             {
               "title": "Tự luận (nâng cao): Giải thích tại sao các nguyên tử liên kết với nhau tạo thành phân tử",
@@ -167,7 +178,8 @@
               "question": "Giải thích tại sao các nguyên tử liên kết với nhau tạo thành phân tử",
               "hint": "Nguyên tử liên kết để đạt cấu trúc bền vững hơn, thường là lớp vỏ electron đầy đủ.",
               "answer": "Các nguyên tử liên kết với nhau để đạt cấu trúc bền vững hơn. Nguyên tử có xu hướng đạt cấu hình electron bền vững (thường là 8 electron ở lớp ngoài cùng). Bằng cách chia sẻ, nhận hoặc cho electron, các nguyên tử tạo thành liên kết hóa học (cộng hóa trị hoặc ion) để tạo thành phân tử ổn định.",
-              "created_at": "2025-01-01T00:00:05.000Z"
+              "created_at": "2025-01-01T00:00:05.000Z",
+              "uuid": "863f3825-c664-4b0a-9abb-1b5be24dbd63"
             },
             {
               "title": "Câu hỏi tổng hợp về Nguyên tử và phân tử",
@@ -182,7 +194,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nguyên tử và phân tử.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "0dbabdc4-36ee-4d71-9259-ee0a68d71f5c"
             },
             {
               "title": "Trình bày và đánh giá về Nguyên tử và phân tử",
@@ -191,7 +204,8 @@
               "question": "Trình bày và đánh giá về Nguyên tử và phân tử (Câu 14/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Nguyên tử và phân tử.",
               "answer": "Đây là câu trả lời phân tích sâu về Nguyên tử và phân tử. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "7f601fca-0f86-4d65-b972-a943b382eb24"
             },
             {
               "title": "Câu hỏi đánh giá về Nguyên tử và phân tử",
@@ -206,7 +220,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Nguyên tử và phân tử.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "fd509320-561f-425a-9a9f-f76a6f40e442"
             }
           ]
         }
@@ -233,7 +248,8 @@
               },
               "correctOption": "B",
               "hint": "Bóng đèn sợi đốt chuyển hóa chủ yếu thành nhiệt (khoảng 90%), chỉ một phần nhỏ thành ánh sáng, nên hiệu suất thấp.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "9f8e38a4-ffb8-4a81-8a16-b71ff406cb70"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích và so sánh hiệu suất chuyển hóa năng lượng của các thiết bị",
@@ -242,7 +258,8 @@
               "question": "Phân tích và so sánh hiệu suất chuyển hóa năng lượng của bóng đèn sợi đốt và bóng đèn LED",
               "hint": "Bóng đèn LED có hiệu suất cao hơn vì chuyển hóa nhiều điện năng thành ánh sáng, ít thành nhiệt.",
               "answer": "Bóng đèn sợi đốt: chuyển hóa khoảng 10% điện năng thành ánh sáng, 90% thành nhiệt, hiệu suất thấp. Bóng đèn LED: chuyển hóa khoảng 80-90% điện năng thành ánh sáng, chỉ 10-20% thành nhiệt, hiệu suất cao hơn nhiều, tiết kiệm năng lượng.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "c3c93684-6719-432b-a3cc-e7e4f96c66d8"
             },
             {
               "title": "Vận dụng nâng cao: Năng lượng và các dạng năng lượng",
@@ -257,7 +274,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng và các dạng năng lượng.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "c4917189-52d3-41e4-bcc2-7633509b8f26"
             },
             {
               "title": "Trình bày và đánh giá về Năng lượng và các dạng năng lượng",
@@ -266,7 +284,8 @@
               "question": "Trình bày và đánh giá về Năng lượng và các dạng năng lượng (Câu 8/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Năng lượng và các dạng năng lượng.",
               "answer": "Đây là câu trả lời phân tích sâu về Năng lượng và các dạng năng lượng. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "ae656e8a-aa30-472e-9329-bc3aca120fcb"
             },
             {
               "title": "Phân tích phức tạp: Năng lượng và các dạng năng lượng",
@@ -281,7 +300,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng và các dạng năng lượng.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "f742e5f9-e2d2-4fca-93a6-6eb87285fc51"
             }
           ]
         },
@@ -302,7 +322,8 @@
               },
               "correctOption": "B",
               "hint": "Theo định luật bảo toàn năng lượng, năng lượng không mất đi nhưng bị chuyển hóa một phần thành nhiệt, nên năng lượng có thể sử dụng giảm dần qua mỗi bậc.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "99ca5bdf-e411-4c0f-8166-e1688ccc00fc"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích và giải thích tại sao hiệu suất chuyển hóa năng lượng trong tự nhiên không đạt 100%",
@@ -311,7 +332,8 @@
               "question": "Phân tích và giải thích tại sao hiệu suất chuyển hóa năng lượng trong tự nhiên không đạt 100%",
               "hint": "Năng lượng bị mất mát dưới dạng nhiệt, không thể sử dụng hết do định luật nhiệt động học.",
               "answer": "Hiệu suất chuyển hóa năng lượng không đạt 100% vì: một phần năng lượng luôn bị chuyển hóa thành nhiệt (theo định luật nhiệt động học thứ hai); năng lượng bị mất mát do ma sát, phản xạ, hấp thụ không hoàn toàn; trong sinh vật, năng lượng dùng cho các hoạt động sống, chỉ một phần được tích trữ. Ví dụ: thực vật chỉ sử dụng khoảng 1-2% năng lượng ánh sáng cho quang hợp.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "44d6bfa2-95ad-4d66-98cf-e208aa22be20"
             },
             {
               "title": "Viết bài phân tích về Sự chuyển hóa năng lượng",
@@ -320,7 +342,8 @@
               "question": "Viết bài phân tích về Sự chuyển hóa năng lượng (Câu 10/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự chuyển hóa năng lượng.",
               "answer": "Đây là câu trả lời phân tích sâu về Sự chuyển hóa năng lượng. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "c8bf3794-c543-418b-9fd9-e6deffa1c2ea"
             },
             {
               "title": "Câu hỏi phân tích sâu về Sự chuyển hóa năng lượng",
@@ -335,7 +358,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Sự chuyển hóa năng lượng.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "5d9d34ca-c7d6-4ed6-9a59-cb75c15b3894"
             },
             {
               "title": "Phân tích chi tiết và đưa ra nhận xét về Sự chuyển hóa năng lượng",
@@ -344,7 +368,8 @@
               "question": "Phân tích chi tiết và đưa ra nhận xét về Sự chuyển hóa năng lượng (Câu 12/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Sự chuyển hóa năng lượng.",
               "answer": "Đây là câu trả lời phân tích sâu về Sự chuyển hóa năng lượng. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "d021f04b-fa39-4cbf-b337-b267a2271604"
             }
           ]
         },
@@ -365,7 +390,8 @@
               },
               "correctOption": "B",
               "hint": "Kết hợp năng lượng tái tạo (sạch, vô tận) với tiết kiệm năng lượng là giải pháp bền vững.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "fdd9dbaf-9db8-45d6-a83e-9aba25827101"
             },
             {
               "title": "Tự luận (nâng cao): Đề xuất kế hoạch sử dụng năng lượng bền vững cho một gia đình",
@@ -374,7 +400,8 @@
               "question": "Đề xuất kế hoạch sử dụng năng lượng bền vững cho một gia đình",
               "hint": "Kế hoạch nên bao gồm: sử dụng năng lượng tái tạo, tiết kiệm năng lượng, thay đổi thói quen.",
               "answer": "Kế hoạch: 1) Lắp đặt pin mặt trời trên mái nhà để tạo điện. 2) Sử dụng thiết bị tiết kiệm năng lượng (LED, điều hòa inverter). 3) Tắt thiết bị khi không dùng, rút phích cắm. 4) Tận dụng ánh sáng tự nhiên, thông gió tự nhiên. 5) Sử dụng nước nóng năng lượng mặt trời. 6) Giảm sử dụng xe máy, đi bộ hoặc xe đạp cho quãng ngắn.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "f0c4c04d-f4a2-4775-9da5-16868df02326"
             },
             {
               "title": "Câu hỏi tổng hợp về Năng lượng trong đời sống",
@@ -389,7 +416,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng trong đời sống.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "7d76ee3a-59bb-420b-bd3f-493c8aac8188"
             },
             {
               "title": "Trình bày và đánh giá về Năng lượng trong đời sống",
@@ -398,7 +426,8 @@
               "question": "Trình bày và đánh giá về Năng lượng trong đời sống (Câu 14/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Năng lượng trong đời sống.",
               "answer": "Đây là câu trả lời phân tích sâu về Năng lượng trong đời sống. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "289cdc13-0e47-4dc8-ae10-d07e43293849"
             },
             {
               "title": "Câu hỏi đánh giá về Năng lượng trong đời sống",
@@ -413,7 +442,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Năng lượng trong đời sống.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "15e4240f-cf5a-4e3a-8343-520270bb09a4"
             }
           ]
         }
@@ -440,7 +470,8 @@
               },
               "correctOption": "A",
               "hint": "Tế bào cơ cần nhiều năng lượng ATP cho hoạt động co cơ, nên có nhiều ti thể (nơi tạo ATP) hơn.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "3c66d1a1-baae-4bc6-afb4-3dd29113ccf3"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa cấu trúc và chức năng của các bào quan trong tế bào",
@@ -449,7 +480,8 @@
               "question": "Phân tích mối quan hệ giữa cấu trúc và chức năng của các bào quan trong tế bào",
               "hint": "Cấu trúc phù hợp với chức năng: lục lạp có diệp lục để quang hợp, ti thể có nhiều màng để tạo ATP.",
               "answer": "Cấu trúc phù hợp với chức năng: Lục lạp có nhiều màng và chứa diệp lục để hấp thụ ánh sáng, thực hiện quang hợp. Ti thể có nhiều màng gấp nếp để tăng diện tích, tạo nhiều ATP. Nhân có màng kép và lỗ nhân để bảo vệ và điều khiển trao đổi chất. Màng tế bào có cấu trúc lỏng lẻo để vận chuyển chất. Mỗi bào quan có cấu trúc đặc trưng phù hợp với chức năng riêng.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "4fbdbef8-b29f-447f-94c1-1be2c8c3f53f"
             },
             {
               "title": "Vận dụng nâng cao: Tế bào - Đơn vị cơ bản của sự sống",
@@ -464,7 +496,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tế bào - Đơn vị cơ bản của sự sống.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "5a63a12e-a4a2-42cf-82b9-66da02b60868"
             },
             {
               "title": "Trình bày và đánh giá về Tế bào - Đơn vị cơ bản của sự sống",
@@ -473,7 +506,8 @@
               "question": "Trình bày và đánh giá về Tế bào - Đơn vị cơ bản của sự sống (Câu 8/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Tế bào - Đơn vị cơ bản của sự sống.",
               "answer": "Đây là câu trả lời phân tích sâu về Tế bào - Đơn vị cơ bản của sự sống. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "add23e34-efb5-48b1-9160-bef2d606a7a9"
             },
             {
               "title": "Phân tích phức tạp: Tế bào - Đơn vị cơ bản của sự sống",
@@ -488,7 +522,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Tế bào - Đơn vị cơ bản của sự sống.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "ef5a05f3-e6db-49b7-8337-86c487800779"
             }
           ]
         },
@@ -509,7 +544,8 @@
               },
               "correctOption": "B",
               "hint": "Phá rừng làm mất môi trường sống của nhiều loài, gây suy giảm đa dạng sinh học.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "4e578dfd-6a16-475e-854b-11a3333febb6"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích nguyên nhân và đề xuất giải pháp bảo vệ đa dạng sinh học",
@@ -518,7 +554,8 @@
               "question": "Phân tích nguyên nhân và đề xuất giải pháp bảo vệ đa dạng sinh học",
               "hint": "Nguyên nhân: phá rừng, ô nhiễm, săn bắt. Giải pháp: bảo tồn, giáo dục, pháp luật.",
               "answer": "Nguyên nhân suy giảm: phá rừng làm mất môi trường sống; ô nhiễm môi trường; săn bắt quá mức; biến đổi khí hậu; xâm lấn loài ngoại lai. Giải pháp: thành lập khu bảo tồn; trồng rừng, phục hồi hệ sinh thái; giáo dục nâng cao nhận thức; ban hành và thực thi luật bảo vệ; nghiên cứu và nhân giống các loài quý hiếm; kiểm soát ô nhiễm môi trường.",
-              "created_at": "2025-01-01T00:00:15.000Z"
+              "created_at": "2025-01-01T00:00:15.000Z",
+              "uuid": "6b0f4ebe-3d04-4f75-b7c2-d12b0eb2afe9"
             },
             {
               "title": "Viết bài phân tích về Đa dạng sinh học",
@@ -527,7 +564,8 @@
               "question": "Viết bài phân tích về Đa dạng sinh học (Câu 10/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Đa dạng sinh học.",
               "answer": "Đây là câu trả lời phân tích sâu về Đa dạng sinh học. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "0a4b7089-dd0f-4488-b67d-f17bc7773928"
             },
             {
               "title": "Câu hỏi phân tích sâu về Đa dạng sinh học",
@@ -542,7 +580,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Đa dạng sinh học.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "1a31289c-9d84-442a-b7b4-be978edf5e25"
             },
             {
               "title": "Phân tích chi tiết và đưa ra nhận xét về Đa dạng sinh học",
@@ -551,7 +590,8 @@
               "question": "Phân tích chi tiết và đưa ra nhận xét về Đa dạng sinh học (Câu 12/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Đa dạng sinh học.",
               "answer": "Đây là câu trả lời phân tích sâu về Đa dạng sinh học. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "2163849a-dcec-4415-8798-48da72803ce3"
             }
           ]
         },
@@ -572,7 +612,8 @@
               },
               "correctOption": "B",
               "hint": "Quang hợp tạo đường và O2, hô hấp sử dụng đường và O2 để tạo năng lượng và CO2, tạo thành chu trình.",
-              "created_at": "2025-01-01T00:00:16.000Z"
+              "created_at": "2025-01-01T00:00:16.000Z",
+              "uuid": "5013b1e5-ce27-48f2-9094-33b0b2331bc0"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích vai trò của quang hợp và hô hấp trong chu trình carbon và oxy trong tự nhiên",
@@ -581,7 +622,8 @@
               "question": "Phân tích vai trò của quang hợp và hô hấp trong chu trình carbon và oxy trong tự nhiên",
               "hint": "Quang hợp: lấy CO2, thải O2. Hô hấp: lấy O2, thải CO2. Tạo chu trình cân bằng.",
               "answer": "Quang hợp: thực vật hấp thụ CO2 từ khí quyển, sử dụng năng lượng ánh sáng để tạo glucose và giải phóng O2. Hô hấp: sinh vật (thực vật, động vật) sử dụng O2 để phân giải glucose, giải phóng năng lượng và thải CO2. Hai quá trình này tạo thành chu trình: CO2 và O2 được tuần hoàn giữa khí quyển và sinh vật, duy trì cân bằng khí quyển và cung cấp năng lượng cho sự sống.",
-              "created_at": "2025-01-01T00:00:17.000Z"
+              "created_at": "2025-01-01T00:00:17.000Z",
+              "uuid": "fb43a05c-a49d-4299-a23e-d9811304d4f1"
             },
             {
               "title": "Câu hỏi tổng hợp về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
@@ -596,7 +638,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "11e7f534-71aa-4731-b892-66c6b8c0b891"
             },
             {
               "title": "Trình bày và đánh giá về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
@@ -605,7 +648,8 @@
               "question": "Trình bày và đánh giá về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 14/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
               "answer": "Đây là câu trả lời phân tích sâu về Trao đổi chất và chuyển hóa năng lượng ở sinh vật. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "19f769bf-d1b2-4afc-ae9f-11c28263a443"
             },
             {
               "title": "Câu hỏi đánh giá về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
@@ -620,7 +664,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "3537dda3-1249-4720-b908-68945dd1140d"
             }
           ]
         }
@@ -647,7 +692,8 @@
               },
               "correctOption": "C",
               "hint": "Sự chuyển động của các mảng kiến tạo gây ra nhiều hiện tượng: động đất (khi mảng va chạm), núi lửa (magma phun trào), hình thành núi (khi mảng đẩy lên).",
-              "created_at": "2025-01-01T00:00:18.000Z"
+              "created_at": "2025-01-01T00:00:18.000Z",
+              "uuid": "23942e15-e04c-4ea5-8985-cdcf4ed2c545"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích mối quan hệ giữa cấu trúc Trái Đất và các hiện tượng địa chất",
@@ -656,7 +702,8 @@
               "question": "Phân tích mối quan hệ giữa cấu trúc Trái Đất và các hiện tượng địa chất như động đất, núi lửa",
               "hint": "Nhiệt từ lõi làm nóng lớp phủ, tạo dòng đối lưu, làm chuyển động các mảng kiến tạo.",
               "answer": "Nhiệt từ lõi Trái Đất (nhiệt độ cao) làm nóng lớp phủ, tạo ra dòng đối lưu trong lớp phủ. Dòng đối lưu này làm chuyển động các mảng kiến tạo trên lớp vỏ. Khi các mảng va chạm, tách rời hoặc trượt lên nhau: tạo ra động đất (năng lượng giải phóng); tạo khe nứt cho magma phun trào (núi lửa); đẩy các mảng lên cao (hình thành núi). Vậy cấu trúc nhiệt và động lực học bên trong Trái Đất là nguyên nhân của các hiện tượng địa chất bề mặt.",
-              "created_at": "2025-01-01T00:00:19.000Z"
+              "created_at": "2025-01-01T00:00:19.000Z",
+              "uuid": "8557cb92-fe90-4c49-8f9d-6084d01d2766"
             },
             {
               "title": "Vận dụng nâng cao: Cấu trúc Trái Đất",
@@ -671,7 +718,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cấu trúc Trái Đất.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "8eb885bc-08e1-4602-9d38-284f91861fec"
             },
             {
               "title": "Trình bày và đánh giá về Cấu trúc Trái Đất",
@@ -680,7 +728,8 @@
               "question": "Trình bày và đánh giá về Cấu trúc Trái Đất (Câu 8/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Cấu trúc Trái Đất.",
               "answer": "Đây là câu trả lời phân tích sâu về Cấu trúc Trái Đất. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "fbefaba1-8b03-4b7f-8f2c-111dc3f3ebe0"
             },
             {
               "title": "Phân tích phức tạp: Cấu trúc Trái Đất",
@@ -695,7 +744,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Cấu trúc Trái Đất.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "38d1568e-5bff-4a01-a4cd-cdd817eaa3e7"
             }
           ]
         },
@@ -716,7 +766,8 @@
               },
               "correctOption": "A",
               "hint": "Hiệu ứng nhà kính: các khí như CO2, CH4 giữ nhiệt từ Mặt Trời, làm Trái Đất ấm lên, cần thiết cho sự sống nhưng quá mức gây biến đổi khí hậu.",
-              "created_at": "2025-01-01T00:00:20.000Z"
+              "created_at": "2025-01-01T00:00:20.000Z",
+              "uuid": "4bd37de7-ccc2-4305-ac7b-7df53bb9df28"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích nguyên nhân và hậu quả của biến đổi khí hậu, đề xuất giải pháp",
@@ -725,7 +776,8 @@
               "question": "Phân tích nguyên nhân và hậu quả của biến đổi khí hậu, đề xuất giải pháp",
               "hint": "Nguyên nhân: tăng CO2 từ đốt nhiên liệu hóa thạch. Hậu quả: nóng lên, băng tan, mực nước biển dâng. Giải pháp: giảm phát thải, sử dụng năng lượng sạch.",
               "answer": "Nguyên nhân: đốt nhiên liệu hóa thạch (than, dầu) tăng CO2; phá rừng giảm khả năng hấp thụ CO2; các hoạt động công nghiệp, nông nghiệp. Hậu quả: nhiệt độ Trái Đất tăng; băng tan ở hai cực; mực nước biển dâng; thời tiết cực đoan (bão, hạn hán); ảnh hưởng đến hệ sinh thái và nông nghiệp. Giải pháp: giảm phát thải khí nhà kính; chuyển sang năng lượng tái tạo; trồng rừng; tiết kiệm năng lượng; phát triển công nghệ xanh.",
-              "created_at": "2025-01-01T00:00:21.000Z"
+              "created_at": "2025-01-01T00:00:21.000Z",
+              "uuid": "d5b8388c-e450-4b84-a51c-f09f2f83770e"
             },
             {
               "title": "Viết bài phân tích về Khí quyển và thời tiết",
@@ -734,7 +786,8 @@
               "question": "Viết bài phân tích về Khí quyển và thời tiết (Câu 10/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Khí quyển và thời tiết.",
               "answer": "Đây là câu trả lời phân tích sâu về Khí quyển và thời tiết. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "7c2e6713-7667-41e8-bed8-8230c2976a1d"
             },
             {
               "title": "Câu hỏi phân tích sâu về Khí quyển và thời tiết",
@@ -749,7 +802,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Khí quyển và thời tiết.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "badaff31-1f1e-437f-a582-51d279785f7f"
             },
             {
               "title": "Phân tích chi tiết và đưa ra nhận xét về Khí quyển và thời tiết",
@@ -758,7 +812,8 @@
               "question": "Phân tích chi tiết và đưa ra nhận xét về Khí quyển và thời tiết (Câu 12/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Khí quyển và thời tiết.",
               "answer": "Đây là câu trả lời phân tích sâu về Khí quyển và thời tiết. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "896b1917-f3b2-4a7c-b5a1-3fff745cadec"
             }
           ]
         },
@@ -779,7 +834,8 @@
               },
               "correctOption": "B",
               "hint": "Sự sống cần nhiều điều kiện: nước lỏng, khí quyển có O2, nhiệt độ không quá nóng/lạnh, khoảng cách phù hợp để có nhiệt độ ổn định.",
-              "created_at": "2025-01-01T00:00:22.000Z"
+              "created_at": "2025-01-01T00:00:22.000Z",
+              "uuid": "1c697398-3a0c-46f3-b548-1c1a50bda808"
             },
             {
               "title": "Tự luận (nâng cao): Phân tích tại sao Trái Đất có sự sống trong khi các hành tinh khác không có",
@@ -788,7 +844,8 @@
               "question": "Phân tích tại sao Trái Đất có sự sống trong khi các hành tinh khác không có",
               "hint": "Trái Đất có: khoảng cách phù hợp với Mặt Trời, nước lỏng, khí quyển phù hợp, từ trường bảo vệ.",
               "answer": "Trái Đất có sự sống vì: 1) Khoảng cách phù hợp với Mặt Trời (vùng có thể sống được) - không quá nóng như Sao Thủy, Sao Kim, không quá lạnh như các hành tinh ngoài. 2) Có nước lỏng - nhiệt độ cho phép nước tồn tại ở dạng lỏng. 3) Có khí quyển phù hợp với O2, bảo vệ khỏi bức xạ. 4) Có từ trường bảo vệ khỏi gió mặt trời. 5) Kích thước và khối lượng phù hợp để giữ khí quyển. Các hành tinh khác thiếu một hoặc nhiều điều kiện này.",
-              "created_at": "2025-01-01T00:00:23.000Z"
+              "created_at": "2025-01-01T00:00:23.000Z",
+              "uuid": "aba1dc44-1f8e-4999-b0d4-c71bb2879ca6"
             },
             {
               "title": "Câu hỏi tổng hợp về Hệ Mặt Trời và các hành tinh",
@@ -803,7 +860,8 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Hệ Mặt Trời và các hành tinh.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "b50502f4-ac34-4954-97ef-99d2562ceeb5"
             },
             {
               "title": "Trình bày và đánh giá về Hệ Mặt Trời và các hành tinh",
@@ -812,7 +870,8 @@
               "question": "Trình bày và đánh giá về Hệ Mặt Trời và các hành tinh (Câu 14/15)",
               "hint": "Phân tích sâu, đa chiều và đưa ra đánh giá về Hệ Mặt Trời và các hành tinh.",
               "answer": "Đây là câu trả lời phân tích sâu về Hệ Mặt Trời và các hành tinh. Cần vận dụng nhiều kiến thức, phân tích đa chiều và đưa ra đánh giá. Câu trả lời cần thể hiện tư duy phản biện và khả năng tổng hợp.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "9c3891f0-b767-4a34-957f-8a881e18d757"
             },
             {
               "title": "Câu hỏi đánh giá về Hệ Mặt Trời và các hành tinh",
@@ -827,11 +886,13 @@
               },
               "correctOption": "B",
               "hint": "Phân tích kỹ các khái niệm và mối quan hệ trong Hệ Mặt Trời và các hành tinh.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "42ffd734-9d98-4cd4-bc46-07c58d4e1fbf"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "45fa4184-2491-4771-8c10-119f071f5eaf"
 }

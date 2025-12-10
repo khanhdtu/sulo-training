@@ -25,14 +25,16 @@
               "type": "text",
               "order": 1,
               "content": "Máy tính là công cụ giúp chúng ta học tập, làm việc và giải trí. Máy tính gồm các bộ phận chính: màn hình, bàn phím, chuột, thân máy (CPU).",
-              "attachments": []
+              "attachments": [],
+              "uuid": "1c101447-a61e-4101-bc74-3581fa6597df"
             },
             {
               "title": "Các thành phần phần cứng",
               "type": "text",
               "order": 2,
               "content": "Phần cứng là các bộ phận vật lý của máy tính: màn hình, bàn phím, chuột, loa, webcam. Mỗi bộ phận có chức năng riêng.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "5b13648e-c74a-446e-9912-2d4a59451689"
             }
           ],
           "exercises": [
@@ -41,7 +43,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "a5a01ad1-a7d0-4b20-a13c-9be41e5e4327"
             }
           ]
         },
@@ -55,14 +58,16 @@
               "type": "text",
               "order": 1,
               "content": "Chuột có các nút: nút trái, nút phải, bánh lăn. Các thao tác: click, double-click, right-click, kéo thả.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "69bacf54-a633-4f7c-8ef2-e44575f77011"
             },
             {
               "title": "Sử dụng bàn phím",
               "type": "text",
               "order": 2,
               "content": "Bàn phím có các phím chữ, số, phím chức năng. Cách gõ phím đúng tư thế và nhanh.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "8ff001f5-2506-4e2f-a975-dcb61ab813e0"
             }
           ],
           "exercises": [
@@ -71,7 +76,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "f3ee1eb2-4cd3-4f6d-b008-ea14ce23de47"
             }
           ]
         }
@@ -92,7 +98,8 @@
               "type": "text",
               "order": 1,
               "content": "Desktop là màn hình chính của Windows. Trên Desktop có các biểu tượng (icon) đại diện cho chương trình, thư mục, file.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "4e8ada21-7f0f-4c3b-acb5-4901be037c07"
             }
           ],
           "exercises": [
@@ -101,7 +108,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "d8cd08bb-a6c2-48d3-aaf8-ef2bb73dbc49"
             }
           ]
         },
@@ -115,7 +123,8 @@
               "type": "text",
               "order": 1,
               "content": "Thư mục dùng để chứa các file và thư mục khác. File chứa dữ liệu. Cách tạo, đổi tên, xóa thư mục và file.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "2a4a723c-434c-4332-ad40-bda8d0cfda1a"
             }
           ],
           "exercises": [
@@ -124,7 +133,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "5c5f0fe6-03d9-485a-b2a9-54fad4113055"
             }
           ]
         }
@@ -145,14 +155,16 @@
               "type": "text",
               "order": 1,
               "content": "Word là phần mềm soạn thảo văn bản. Giao diện gồm: thanh tiêu đề, thanh công cụ, vùng soạn thảo, thanh cuộn.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "9d376c71-ec10-4fd3-b254-9d8bb7e36158"
             },
             {
               "title": "Tạo và lưu văn bản",
               "type": "text",
               "order": 2,
               "content": "Cách tạo văn bản mới, gõ chữ, lưu văn bản với tên file. Các định dạng file: .docx, .doc.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "4534bb03-23f5-4f5d-a5b8-ff3520256618"
             }
           ],
           "exercises": [
@@ -161,7 +173,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "0e52edc9-2b64-4649-bcca-70bfd8c5cb79"
             }
           ]
         },
@@ -175,14 +188,16 @@
               "type": "text",
               "order": 1,
               "content": "Cách thay đổi font chữ, cỡ chữ, màu chữ, in đậm, in nghiêng, gạch chân.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a771df7b-9c69-411e-9ad6-07fe89b69b79"
             },
             {
               "title": "Định dạng đoạn văn",
               "type": "text",
               "order": 2,
               "content": "Căn lề trái, phải, giữa, đều hai bên. Khoảng cách dòng, khoảng cách đoạn.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "7c71d7a9-3f48-4e39-874d-2ef0bd9ff9b5"
             }
           ],
           "exercises": [
@@ -191,7 +206,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 25
+              "timeLimit": 25,
+              "uuid": "f560a59a-5141-402e-8fa8-012cd8e499ad"
             }
           ]
         },
@@ -205,14 +221,16 @@
               "type": "text",
               "order": 1,
               "content": "Cách chèn hình ảnh từ máy tính vào văn bản. Điều chỉnh kích thước, vị trí hình ảnh.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "2469db2d-c989-4abd-a3d4-440fde887d5d"
             },
             {
               "title": "Tạo và chỉnh sửa bảng",
               "type": "text",
               "order": 2,
               "content": "Cách tạo bảng, thêm/xóa hàng cột, định dạng bảng.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "fe5ac704-5a88-4640-a8c0-10d80eff9419"
             }
           ],
           "exercises": [
@@ -221,7 +239,8 @@
               "difficulty": "hard",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 30
+              "timeLimit": 30,
+              "uuid": "1d33c8d1-1593-413f-8a7d-91e3c7727624"
             }
           ]
         }
@@ -242,7 +261,8 @@
               "type": "text",
               "order": 1,
               "content": "Excel là phần mềm bảng tính. Giao diện gồm: các ô (cell), hàng (row), cột (column), thanh công thức.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a354b493-e9cf-4460-bec7-9b90f4097915"
             }
           ],
           "exercises": [
@@ -251,7 +271,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "a8c7df6e-ac7a-4218-8a36-84a434d6c022"
             }
           ]
         },
@@ -265,14 +286,16 @@
               "type": "text",
               "order": 1,
               "content": "Cách nhập số, chữ, ngày tháng vào các ô. Định dạng dữ liệu.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "e2e0b39e-70dc-4986-b79f-640c6f71b81b"
             },
             {
               "title": "Sử dụng công thức đơn giản",
               "type": "text",
               "order": 2,
               "content": "Công thức bắt đầu bằng dấu =. Các phép toán: +, -, *, /. Ví dụ: =A1+B1, =SUM(A1:A5).",
-              "attachments": []
+              "attachments": [],
+              "uuid": "7d0fa9e4-c3a8-45bf-8edc-21397fae4981"
             }
           ],
           "exercises": [
@@ -281,7 +304,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 25
+              "timeLimit": 25,
+              "uuid": "bcc6e2f8-533c-47de-981c-afb80c1ad11b"
             }
           ]
         }
@@ -302,14 +326,16 @@
               "type": "text",
               "order": 1,
               "content": "Internet là mạng máy tính toàn cầu. Internet giúp tìm kiếm thông tin, gửi email, xem video, chơi game online.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "9f00dae5-3c78-4706-9170-a849e0639ae7"
             },
             {
               "title": "An toàn trên Internet",
               "type": "text",
               "order": 2,
               "content": "Không chia sẻ thông tin cá nhân, không mở email lạ, không tải file không rõ nguồn gốc. Luôn hỏi người lớn khi gặp điều lạ.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "a752b89a-cb6f-4143-8e7f-b5ee9032dc00"
             }
           ],
           "exercises": [
@@ -318,7 +344,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "7a5fdf42-f874-4e81-a1ff-697cd9e1546a"
             }
           ]
         },
@@ -332,14 +359,16 @@
               "type": "text",
               "order": 1,
               "content": "Trình duyệt web như Chrome, Edge dùng để xem các trang web. Thanh địa chỉ (address bar) để nhập địa chỉ website.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "fcdda4fb-ccdf-401c-bbf4-3122dfba0146"
             },
             {
               "title": "Tìm kiếm thông tin",
               "type": "text",
               "order": 2,
               "content": "Cách sử dụng Google để tìm kiếm thông tin. Nhập từ khóa vào ô tìm kiếm, chọn kết quả phù hợp.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "78946c32-ef8e-4dca-9ad4-44f70fa97439"
             }
           ],
           "exercises": [
@@ -348,7 +377,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "7eec1a3d-bb83-407e-a1da-4da5ac821ac3"
             }
           ]
         }
@@ -356,4 +386,3 @@
     }
   ]
 }
-

@@ -26,7 +26,8 @@
               },
               "correctOption": "A",
               "hint": "Sự sinh sản là quá trình tạo ra thế hệ mới, duy trì nòi giống.",
-              "created_at": "2025-01-01T00:00:00.000Z"
+              "created_at": "2025-01-01T00:00:00.000Z",
+              "uuid": "00e6e4d1-ded4-4f4b-be30-1ff4d7f41b74"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của sự sinh sản",
@@ -35,22 +36,8 @@
               "question": "Viết 2-3 câu về tầm quan trọng của sự sinh sản",
               "hint": "Nêu tầm quan trọng: duy trì nòi giống, tạo ra thế hệ mới...",
               "answer": "Sự sinh sản rất quan trọng vì nó giúp duy trì nòi giống. Nhờ có sự sinh sản mà các loài sinh vật có thể tạo ra thế hệ mới. Sự sinh sản đảm bảo sự tồn tại của các loài trên Trái Đất.",
-              "created_at": "2025-01-01T00:00:01.000Z"
-            },
-            {
-              "title": "Câu hỏi cơ bản về Sự sinh sản",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi cơ bản về Sự sinh sản (Câu 11/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:01.000Z",
+              "uuid": "722756b5-aac7-4911-90c9-6fc014f0e0c1"
             },
             {
               "title": "Nêu hiểu biết của em về Sự sinh sản",
@@ -59,7 +46,24 @@
               "question": "Nêu hiểu biết của em về Sự sinh sản (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Sự sinh sản.",
               "answer": "Đây là câu trả lời ngắn gọn về Sự sinh sản. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "8b986441-99fc-4bff-aba4-2fe850bf799c"
+            },
+            {
+              "uuid": "7a37853c-34a2-468d-aab2-7812da7d6c7f",
+              "title": "Câu hỏi về Sự sinh sản",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Kiến thức về sự sinh sản là gì?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -80,7 +84,8 @@
               },
               "correctOption": "B",
               "hint": "Tuổi dậy thì thường bắt đầu từ khoảng 10-15 tuổi, tùy từng người.",
-              "created_at": "2025-01-01T00:00:02.000Z"
+              "created_at": "2025-01-01T00:00:02.000Z",
+              "uuid": "2b6ff997-2fb2-441c-8e9b-429e8461f5e4"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của vệ sinh trong tuổi dậy thì",
@@ -89,22 +94,8 @@
               "question": "Viết 2-3 câu về tầm quan trọng của vệ sinh trong tuổi dậy thì",
               "hint": "Nêu tầm quan trọng: giữ gìn sức khỏe, tránh bệnh tật...",
               "answer": "Vệ sinh trong tuổi dậy thì rất quan trọng. Giữ gìn vệ sinh giúp chúng ta khỏe mạnh và tránh được nhiều bệnh tật. Chúng ta nên tắm rửa sạch sẽ, thay quần áo thường xuyên.",
-              "created_at": "2025-01-01T00:00:03.000Z"
-            },
-            {
-              "title": "Hiểu biết cơ bản về Vệ sinh tuổi dậy thì",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Hiểu biết cơ bản về Vệ sinh tuổi dậy thì (Câu 13/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vệ sinh tuổi dậy thì.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:03.000Z",
+              "uuid": "1b62b21b-8468-4751-9e36-6767ae59af8a"
             },
             {
               "title": "Trình bày ngắn gọn về Vệ sinh tuổi dậy thì",
@@ -113,6 +104,23 @@
               "question": "Trình bày ngắn gọn về Vệ sinh tuổi dậy thì (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Vệ sinh tuổi dậy thì.",
               "answer": "Đây là câu trả lời ngắn gọn về Vệ sinh tuổi dậy thì. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "9ee9b4c6-bb38-492e-928a-84bdf4bb745d"
+            },
+            {
+              "uuid": "b928a319-aeaf-4226-9651-30ea7da887a6",
+              "title": "Câu hỏi về Vệ sinh tuổi dậy thì",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Vệ sinh tuổi dậy thì có tầm quan trọng như thế nào?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vệ sinh tuổi dậy thì.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -134,7 +142,8 @@
               },
               "correctOption": "B",
               "hint": "Để phòng bệnh sốt xuất huyết, cần diệt muỗi và lăng quăng, không để nước đọng.",
-              "created_at": "2025-01-01T00:00:04.000Z"
+              "created_at": "2025-01-01T00:00:04.000Z",
+              "uuid": "14bbab63-ecf0-4f9a-be1a-0a1b50bdb74a"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách phòng tránh bệnh sốt rét",
@@ -143,21 +152,17 @@
               "question": "Viết 2-3 câu về cách phòng tránh bệnh sốt rét",
               "hint": "Nêu các cách: ngủ màn, diệt muỗi, giữ vệ sinh...",
               "answer": "Để phòng bệnh sốt rét, chúng ta nên ngủ màn, đặc biệt là màn đã được tẩm hóa chất. Chúng ta cũng nên diệt muỗi và giữ vệ sinh môi trường sống. Khi có dấu hiệu bệnh, cần đến bác sĩ ngay.",
-              "created_at": "2025-01-01T00:00:05.000Z"
+              "created_at": "2025-01-01T00:00:05.000Z",
+              "uuid": "f4190cd8-9a6b-487e-9abc-32ab07da124a"
             },
             {
-              "title": "Câu hỏi đơn giản về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi đơn giản về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não (Câu 15/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
+              "uuid": "9dd3bdf4-26df-4e20-9f6f-7a17e18b8c86",
+              "title": "Tự luận: Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não",
+              "answer": "Đây là câu trả lời về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não. Học sinh cần trình bày kiến thức cơ bản về chủ đề này một cách rõ ràng và dễ hiểu. Kiến thức cần được giải thích phù hợp với độ tuổi và trình độ.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Phòng tránh bệnh sốt rét, sốt xuất huyết, viêm não.",
               "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
@@ -179,7 +184,8 @@
               },
               "correctOption": "B",
               "hint": "HIV/AIDS lây truyền chủ yếu qua đường máu, tình dục, và từ mẹ sang con.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "1ca5b1a6-855f-4b58-897b-3906abea32c7"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách phòng tránh HIV/AIDS",
@@ -188,7 +194,8 @@
               "question": "Viết 2-3 câu về cách phòng tránh HIV/AIDS",
               "hint": "Nêu các cách: không dùng chung kim tiêm, quan hệ tình dục an toàn...",
               "answer": "Để phòng tránh HIV/AIDS, chúng ta không nên dùng chung kim tiêm. Chúng ta cần có lối sống lành mạnh. Khi cần truyền máu, phải đảm bảo máu đã được kiểm tra an toàn.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "2217693a-0f7b-44b5-9ce1-a991129bd85a"
             },
             {
               "title": "Nhận biết các bệnh truyền nhiễm",
@@ -203,7 +210,8 @@
               },
               "correctOption": "B",
               "hint": "Sốt xuất huyết lây truyền qua muỗi vằn.",
-              "created_at": "2025-01-01T00:00:32.000Z"
+              "created_at": "2025-01-01T00:00:32.000Z",
+              "uuid": "a9df95d9-2c36-4dfe-b937-ab1a5b4ddbbb"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của việc giữ gìn sức khỏe",
@@ -212,7 +220,8 @@
               "question": "Viết 2-3 câu về tầm quan trọng của việc giữ gìn sức khỏe",
               "hint": "Nêu tầm quan trọng: học tập tốt, vui chơi, phát triển...",
               "answer": "Giữ gìn sức khỏe rất quan trọng. Khi khỏe mạnh, chúng ta có thể học tập tốt và vui chơi thoải mái. Chúng ta nên ăn uống đầy đủ, tập thể dục và nghỉ ngơi hợp lý.",
-              "created_at": "2025-01-01T00:00:33.000Z"
+              "created_at": "2025-01-01T00:00:33.000Z",
+              "uuid": "afd0e4ee-65a1-4751-a6b5-b81e02516a83"
             }
           ]
         }
@@ -239,7 +248,8 @@
               },
               "correctOption": "A",
               "hint": "Nước tinh khiết không màu, không mùi, không vị.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "81e9af27-84d8-4238-8079-a0b9a85a5d37"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của nước",
@@ -248,22 +258,8 @@
               "question": "Viết 2-3 câu về tầm quan trọng của nước",
               "hint": "Nêu tầm quan trọng: cần cho sự sống, sử dụng trong sinh hoạt...",
               "answer": "Nước rất quan trọng đối với sự sống. Con người, động vật và thực vật đều cần nước để sống. Nước cũng được sử dụng trong nhiều hoạt động sinh hoạt và sản xuất.",
-              "created_at": "2025-01-01T00:00:09.000Z"
-            },
-            {
-              "title": "Câu hỏi cơ bản về Tính chất của nước",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi cơ bản về Tính chất của nước (Câu 11/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của nước.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "b2a491ac-248b-4343-ba55-820f86e535c8"
             },
             {
               "title": "Nêu hiểu biết của em về Tính chất của nước",
@@ -272,7 +268,24 @@
               "question": "Nêu hiểu biết của em về Tính chất của nước (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Tính chất của nước.",
               "answer": "Đây là câu trả lời ngắn gọn về Tính chất của nước. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "dafce54a-60d8-41b4-b25d-5516236fcdf4"
+            },
+            {
+              "uuid": "4c59bb71-3bef-4503-9588-a7c8e8c3f4a8",
+              "title": "Câu hỏi về Tính chất của nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước có những tính chất nào?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của nước.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -293,7 +306,8 @@
               },
               "correctOption": "C",
               "hint": "Nước tồn tại ở 3 thể: rắn (nước đá), lỏng (nước), khí (hơi nước).",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "0fd2e46e-83ff-459e-90a6-6f16748913f0"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về sự chuyển thể của nước",
@@ -302,22 +316,8 @@
               "question": "Viết 2-3 câu về sự chuyển thể của nước",
               "hint": "Nêu các quá trình: đông đặc, nóng chảy, bay hơi, ngưng tụ...",
               "answer": "Nước có thể chuyển từ thể này sang thể khác. Khi đun nóng, nước lỏng chuyển thành hơi nước (bay hơi). Khi làm lạnh, nước lỏng chuyển thành nước đá (đông đặc).",
-              "created_at": "2025-01-01T00:00:11.000Z"
-            },
-            {
-              "title": "Hiểu biết cơ bản về Sự chuyển thể của nước",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Hiểu biết cơ bản về Sự chuyển thể của nước (Câu 13/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển thể của nước.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "a693cbd7-5b7d-4a6a-9061-c21e1002b6c2"
             },
             {
               "title": "Trình bày ngắn gọn về Sự chuyển thể của nước",
@@ -326,6 +326,23 @@
               "question": "Trình bày ngắn gọn về Sự chuyển thể của nước (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Sự chuyển thể của nước.",
               "answer": "Đây là câu trả lời ngắn gọn về Sự chuyển thể của nước. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "e2dfd86e-f9b0-47e1-8fbf-7b339bbf1301"
+            },
+            {
+              "uuid": "72201e00-0b3d-4598-aad6-1748c9ab5adb",
+              "title": "Câu hỏi về Sự chuyển thể của nước",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Nước có thể chuyển thể như thế nào?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển thể của nước.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -347,7 +364,8 @@
               },
               "correctOption": "A",
               "hint": "Năng lượng là khả năng thực hiện công, làm cho vật hoạt động.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "56725d1c-1237-4fe4-aae3-b9baacf5f9a3"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về các dạng năng lượng",
@@ -356,21 +374,17 @@
               "question": "Viết 2-3 câu về các dạng năng lượng",
               "hint": "Nêu các dạng: cơ năng, nhiệt năng, điện năng, quang năng...",
               "answer": "Có nhiều dạng năng lượng khác nhau như cơ năng, nhiệt năng, điện năng, quang năng. Năng lượng có thể chuyển hóa từ dạng này sang dạng khác. Năng lượng rất cần thiết cho mọi hoạt động.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "663ab19a-0925-400b-a0b7-cb642bd44f7d"
             },
             {
-              "title": "Câu hỏi đơn giản về Năng lượng",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi đơn giản về Năng lượng (Câu 15/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng.",
+              "uuid": "892aac3d-3dc8-4855-aa31-3155bdc41312",
+              "title": "Tự luận: Năng lượng",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Năng lượng",
+              "answer": "Đây là câu trả lời về Năng lượng. Học sinh cần trình bày kiến thức cơ bản về chủ đề này một cách rõ ràng và dễ hiểu. Kiến thức cần được giải thích phù hợp với độ tuổi và trình độ.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng.",
               "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
@@ -392,7 +406,8 @@
               },
               "correctOption": "B",
               "hint": "Để tiết kiệm năng lượng, nên tắt các thiết bị khi không sử dụng.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "3fef08e7-406e-45ed-953d-c1c1d51cad93"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách tiết kiệm năng lượng",
@@ -401,7 +416,8 @@
               "question": "Viết 2-3 câu về cách tiết kiệm năng lượng",
               "hint": "Nêu các cách: tắt đèn khi không dùng, sử dụng thiết bị tiết kiệm năng lượng...",
               "answer": "Để tiết kiệm năng lượng, chúng ta nên tắt đèn và các thiết bị điện khi không sử dụng. Chúng ta cũng nên sử dụng các thiết bị tiết kiệm năng lượng. Tiết kiệm năng lượng giúp bảo vệ môi trường.",
-              "created_at": "2025-01-01T00:00:15.000Z"
+              "created_at": "2025-01-01T00:00:15.000Z",
+              "uuid": "b759e70f-a4bf-40c7-b83c-f5b7be9398ae"
             },
             {
               "title": "Nhận biết các nguồn năng lượng",
@@ -416,7 +432,8 @@
               },
               "correctOption": "C",
               "hint": "Năng lượng mặt trời là năng lượng tái tạo, không bao giờ cạn kiệt.",
-              "created_at": "2025-01-01T00:00:34.000Z"
+              "created_at": "2025-01-01T00:00:34.000Z",
+              "uuid": "5b4601ab-bd60-4807-bdea-395d851dbe9d"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về các nguồn năng lượng",
@@ -425,7 +442,8 @@
               "question": "Viết 2-3 câu về các nguồn năng lượng",
               "hint": "Nêu các nguồn: mặt trời, gió, nước, than đá...",
               "answer": "Có nhiều nguồn năng lượng khác nhau như năng lượng mặt trời, năng lượng gió, năng lượng nước. Các nguồn năng lượng tái tạo như mặt trời và gió rất tốt cho môi trường. Chúng ta nên sử dụng các nguồn năng lượng sạch.",
-              "created_at": "2025-01-01T00:00:35.000Z"
+              "created_at": "2025-01-01T00:00:35.000Z",
+              "uuid": "0fbd953c-46de-4d85-87e6-3b041a71fc5d"
             }
           ]
         }
@@ -452,7 +470,8 @@
               },
               "correctOption": "C",
               "hint": "Hoa là cơ quan sinh sản của thực vật có hoa.",
-              "created_at": "2025-01-01T00:00:16.000Z"
+              "created_at": "2025-01-01T00:00:16.000Z",
+              "uuid": "f13c9032-9661-442c-b1b6-52aa85a6e542"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cấu tạo của hoa",
@@ -461,22 +480,8 @@
               "question": "Viết 2-3 câu về cấu tạo của hoa",
               "hint": "Nêu các bộ phận: đài hoa, cánh hoa, nhị, nhụy...",
               "answer": "Hoa có nhiều bộ phận như đài hoa, cánh hoa, nhị (cơ quan sinh sản đực), nhụy (cơ quan sinh sản cái). Nhị và nhụy là những bộ phận quan trọng nhất trong quá trình sinh sản.",
-              "created_at": "2025-01-01T00:00:17.000Z"
-            },
-            {
-              "title": "Câu hỏi cơ bản về Cơ quan sinh sản của thực vật có hoa",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi cơ bản về Cơ quan sinh sản của thực vật có hoa (Câu 11/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cơ quan sinh sản của thực vật có hoa.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:17.000Z",
+              "uuid": "f60637a9-1ab3-44cd-a816-ab613d078eb2"
             },
             {
               "title": "Nêu hiểu biết của em về Cơ quan sinh sản của thực vật có hoa",
@@ -485,7 +490,24 @@
               "question": "Nêu hiểu biết của em về Cơ quan sinh sản của thực vật có hoa (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Cơ quan sinh sản của thực vật có hoa.",
               "answer": "Đây là câu trả lời ngắn gọn về Cơ quan sinh sản của thực vật có hoa. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "ffb24915-caab-49ca-9d01-05207be0f2a3"
+            },
+            {
+              "uuid": "de0c8f5f-5c41-4dcd-bb9a-a3938f30fbda",
+              "title": "Câu hỏi về Cơ quan sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Cơ quan sinh sản của thực vật có hoa gồm những bộ phận nào?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cơ quan sinh sản của thực vật có hoa.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -506,7 +528,8 @@
               },
               "correctOption": "C",
               "hint": "Quá trình sinh sản bắt đầu từ hoa, sau đó tạo thành quả và hạt.",
-              "created_at": "2025-01-01T00:00:18.000Z"
+              "created_at": "2025-01-01T00:00:18.000Z",
+              "uuid": "c41efe8a-9244-4cc6-95cc-eaa8f2ed307a"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về quá trình sinh sản của thực vật có hoa",
@@ -515,22 +538,8 @@
               "question": "Viết 2-3 câu về quá trình sinh sản của thực vật có hoa",
               "hint": "Nêu các bước: thụ phấn, thụ tinh, tạo quả và hạt...",
               "answer": "Quá trình sinh sản của thực vật có hoa bắt đầu từ hoa. Sau khi thụ phấn và thụ tinh, hoa sẽ tạo thành quả. Trong quả có hạt, hạt sẽ nảy mầm thành cây mới.",
-              "created_at": "2025-01-01T00:00:19.000Z"
-            },
-            {
-              "title": "Hiểu biết cơ bản về Sự sinh sản của thực vật có hoa",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Hiểu biết cơ bản về Sự sinh sản của thực vật có hoa (Câu 13/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản của thực vật có hoa.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:19.000Z",
+              "uuid": "cb45be98-f2f0-49de-9ad8-3ff31c09b137"
             },
             {
               "title": "Trình bày ngắn gọn về Sự sinh sản của thực vật có hoa",
@@ -539,6 +548,23 @@
               "question": "Trình bày ngắn gọn về Sự sinh sản của thực vật có hoa (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Sự sinh sản của thực vật có hoa.",
               "answer": "Đây là câu trả lời ngắn gọn về Sự sinh sản của thực vật có hoa. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "b3816f18-b5ae-4982-8b39-6b27ce12e441"
+            },
+            {
+              "uuid": "b5845127-5478-4a5c-8f81-be5627cc6279",
+              "title": "Câu hỏi về Sự sinh sản của thực vật có hoa",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Thực vật có hoa sinh sản bằng cách nào?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự sinh sản của thực vật có hoa.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -560,7 +586,8 @@
               },
               "correctOption": "B",
               "hint": "Hạt cần nước, không khí và nhiệt độ thích hợp để nảy mầm.",
-              "created_at": "2025-01-01T00:00:20.000Z"
+              "created_at": "2025-01-01T00:00:20.000Z",
+              "uuid": "7f62dcc6-f084-482a-8eb9-38e5040f6cc9"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về quá trình hạt nảy mầm",
@@ -569,21 +596,17 @@
               "question": "Viết 2-3 câu về quá trình hạt nảy mầm",
               "hint": "Nêu các bước: hạt hút nước, nứt vỏ, mọc rễ, mọc chồi...",
               "answer": "Khi có đủ nước, không khí và nhiệt độ thích hợp, hạt sẽ nảy mầm. Đầu tiên hạt hút nước và nứt vỏ. Sau đó mọc rễ xuống đất và mọc chồi lên trên. Cây con sẽ lớn dần lên.",
-              "created_at": "2025-01-01T00:00:21.000Z"
+              "created_at": "2025-01-01T00:00:21.000Z",
+              "uuid": "93241e11-270f-4a5c-a1a4-1fe2662cbcda"
             },
             {
-              "title": "Câu hỏi đơn giản về Cây con mọc lên từ hạt",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi đơn giản về Cây con mọc lên từ hạt (Câu 15/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cây con mọc lên từ hạt.",
+              "uuid": "1be7cf21-190d-4746-ad03-260527198e36",
+              "title": "Tự luận: Cây con mọc lên từ hạt",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Cây con mọc lên từ hạt",
+              "answer": "Đây là câu trả lời về Cây con mọc lên từ hạt. Học sinh cần trình bày kiến thức cơ bản về chủ đề này một cách rõ ràng và dễ hiểu. Kiến thức cần được giải thích phù hợp với độ tuổi và trình độ.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Cây con mọc lên từ hạt.",
               "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
@@ -605,7 +628,8 @@
               },
               "correctOption": "B",
               "hint": "Cây con có thể mọc lên từ hạt, hoặc từ một số bộ phận như thân, rễ, lá của cây mẹ.",
-              "created_at": "2025-01-01T00:00:22.000Z"
+              "created_at": "2025-01-01T00:00:22.000Z",
+              "uuid": "ce7713ac-42c4-4fb4-80a8-a5bef859e327"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách nhân giống cây trồng",
@@ -614,7 +638,8 @@
               "question": "Viết 2-3 câu về cách nhân giống cây trồng",
               "hint": "Nêu các cách: gieo hạt, giâm cành, chiết cành...",
               "answer": "Có nhiều cách nhân giống cây trồng như gieo hạt, giâm cành, chiết cành. Mỗi cách có ưu điểm riêng. Việc nhân giống giúp tạo ra nhiều cây mới.",
-              "created_at": "2025-01-01T00:00:23.000Z"
+              "created_at": "2025-01-01T00:00:23.000Z",
+              "uuid": "878d2545-f436-4b51-b252-5b2d4d8f2cff"
             },
             {
               "title": "Nhận biết các bộ phận của cây",
@@ -629,7 +654,8 @@
               },
               "correctOption": "C",
               "hint": "Rễ giúp cây hút nước và chất dinh dưỡng từ đất.",
-              "created_at": "2025-01-01T00:00:36.000Z"
+              "created_at": "2025-01-01T00:00:36.000Z",
+              "uuid": "c9f31a8a-0a72-489a-87b4-320a5375e07c"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về vai trò của thực vật",
@@ -638,7 +664,8 @@
               "question": "Viết 2-3 câu về vai trò của thực vật",
               "hint": "Nêu các vai trò: cung cấp thức ăn, oxy, làm đẹp...",
               "answer": "Thực vật có vai trò rất quan trọng. Chúng cung cấp thức ăn, oxy cho con người và động vật. Thực vật cũng giúp làm đẹp môi trường và điều hòa khí hậu.",
-              "created_at": "2025-01-01T00:00:37.000Z"
+              "created_at": "2025-01-01T00:00:37.000Z",
+              "uuid": "a396e9b4-9133-4cd9-a852-00d5d2ca10a7"
             }
           ]
         }
@@ -665,7 +692,8 @@
               },
               "correctOption": "B",
               "hint": "Môi trường bao gồm không khí, đất, nước và các sinh vật sống trong đó.",
-              "created_at": "2025-01-01T00:00:24.000Z"
+              "created_at": "2025-01-01T00:00:24.000Z",
+              "uuid": "da7dbf66-4d7e-47bc-9ea9-77de1848364e"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của môi trường",
@@ -674,22 +702,8 @@
               "question": "Viết 2-3 câu về tầm quan trọng của môi trường",
               "hint": "Nêu tầm quan trọng: cung cấp không khí, nước, thức ăn...",
               "answer": "Môi trường rất quan trọng đối với sự sống. Môi trường cung cấp không khí, nước, thức ăn cho con người và các sinh vật. Chúng ta cần bảo vệ môi trường để có cuộc sống tốt đẹp.",
-              "created_at": "2025-01-01T00:00:25.000Z"
-            },
-            {
-              "title": "Câu hỏi cơ bản về Môi trường",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi cơ bản về Môi trường (Câu 11/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:25.000Z",
+              "uuid": "d0246bda-638b-48ff-a2d3-5dc891fdeb71"
             },
             {
               "title": "Nêu hiểu biết của em về Môi trường",
@@ -698,7 +712,24 @@
               "question": "Nêu hiểu biết của em về Môi trường (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Môi trường.",
               "answer": "Đây là câu trả lời ngắn gọn về Môi trường. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "6435d333-f1ec-4dc4-94b1-af6df540b2d3"
+            },
+            {
+              "uuid": "a8df47d0-adfa-4ad5-9098-196ae6f43110",
+              "title": "Câu hỏi về Môi trường",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Môi trường là gì?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Môi trường.",
+              "created_at": "2025-01-01T00:00:12.000Z"
             }
           ]
         },
@@ -719,7 +750,8 @@
               },
               "correctOption": "C",
               "hint": "Nước là tài nguyên có thể tái tạo thông qua vòng tuần hoàn nước.",
-              "created_at": "2025-01-01T00:00:26.000Z"
+              "created_at": "2025-01-01T00:00:26.000Z",
+              "uuid": "892b0395-3ae3-4601-bd0c-91892b47f42f"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách sử dụng tài nguyên thiên nhiên hợp lý",
@@ -728,22 +760,8 @@
               "question": "Viết 2-3 câu về cách sử dụng tài nguyên thiên nhiên hợp lý",
               "hint": "Nêu các cách: tiết kiệm, tái sử dụng, bảo vệ...",
               "answer": "Chúng ta cần sử dụng tài nguyên thiên nhiên một cách hợp lý. Nên tiết kiệm nước, điện và các tài nguyên khác. Chúng ta cũng nên tái sử dụng và bảo vệ tài nguyên để không bị cạn kiệt.",
-              "created_at": "2025-01-01T00:00:27.000Z"
-            },
-            {
-              "title": "Hiểu biết cơ bản về Tài nguyên thiên nhiên",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Hiểu biết cơ bản về Tài nguyên thiên nhiên (Câu 13/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tài nguyên thiên nhiên.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:27.000Z",
+              "uuid": "bfa49568-5616-4709-ad37-e322ddf19cdd"
             },
             {
               "title": "Trình bày ngắn gọn về Tài nguyên thiên nhiên",
@@ -752,6 +770,23 @@
               "question": "Trình bày ngắn gọn về Tài nguyên thiên nhiên (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Tài nguyên thiên nhiên.",
               "answer": "Đây là câu trả lời ngắn gọn về Tài nguyên thiên nhiên. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "29056ef0-4d79-4be7-b472-132db001d5cc"
+            },
+            {
+              "uuid": "8ffe945e-dae6-48d9-893c-ced52ab7004b",
+              "title": "Câu hỏi về Tài nguyên thiên nhiên",
+              "type": "multiple_choice",
+              "points": 1,
+              "question": "Tài nguyên thiên nhiên bao gồm những gì?",
+              "options": {
+                "A": "Lựa chọn A - Đây là đáp án đúng",
+                "B": "Lựa chọn B - Đây là đáp án sai",
+                "C": "Lựa chọn C - Đây là đáp án sai",
+                "D": "Lựa chọn D - Đây là đáp án sai"
+              },
+              "correctOption": "A",
+              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tài nguyên thiên nhiên.",
               "created_at": "2025-01-01T00:00:13.000Z"
             }
           ]
@@ -773,7 +808,8 @@
               },
               "correctOption": "B",
               "hint": "Môi trường tự nhiên cung cấp thức ăn, nước, không khí và nhiều nguyên liệu cho con người.",
-              "created_at": "2025-01-01T00:00:28.000Z"
+              "created_at": "2025-01-01T00:00:28.000Z",
+              "uuid": "6818dfe2-d150-479c-a644-5326183123a4"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về vai trò của môi trường đối với đời sống",
@@ -782,21 +818,17 @@
               "question": "Viết 2-3 câu về vai trò của môi trường đối với đời sống",
               "hint": "Nêu các vai trò: cung cấp tài nguyên, điều hòa khí hậu...",
               "answer": "Môi trường tự nhiên có vai trò rất quan trọng. Nó cung cấp thức ăn, nước, không khí và các tài nguyên cần thiết cho con người. Môi trường cũng giúp điều hòa khí hậu và tạo môi trường sống tốt.",
-              "created_at": "2025-01-01T00:00:29.000Z"
+              "created_at": "2025-01-01T00:00:29.000Z",
+              "uuid": "844dadbe-8c07-4db2-9ccd-5eacbe59c071"
             },
             {
-              "title": "Câu hỏi đơn giản về Vai trò của môi trường tự nhiên đối với đời sống con người",
-              "type": "multiple_choice",
-              "points": 1,
-              "question": "Câu hỏi đơn giản về Vai trò của môi trường tự nhiên đối với đời sống con người (Câu 15/15)",
-              "options": {
-                "A": "Lựa chọn A",
-                "B": "Lựa chọn B (Đúng)",
-                "C": "Lựa chọn C",
-                "D": "Lựa chọn D"
-              },
-              "correctOption": "B",
-              "hint": "Hãy suy nghĩ về kiến thức cơ bản của Vai trò của môi trường tự nhiên đối với đời sống con người.",
+              "uuid": "7bf28afd-192c-4bd6-9304-cbb109219214",
+              "title": "Tự luận: Vai trò của môi trường tự nhiên đối với đời sống con người",
+              "type": "essay",
+              "points": 2,
+              "question": "Nêu hiểu biết của em về Vai trò của môi trường tự nhiên đối với đời sống con người",
+              "answer": "Đây là câu trả lời về Vai trò của môi trường tự nhiên đối với đời sống con người. Học sinh cần trình bày kiến thức cơ bản về chủ đề này một cách rõ ràng và dễ hiểu. Kiến thức cần được giải thích phù hợp với độ tuổi và trình độ.",
+              "hint": "Hãy viết ngắn gọn, rõ ràng về Vai trò của môi trường tự nhiên đối với đời sống con người.",
               "created_at": "2025-01-01T00:00:14.000Z"
             }
           ]
@@ -818,7 +850,8 @@
               },
               "correctOption": "B",
               "hint": "Xả rác bừa bãi là hoạt động gây ô nhiễm môi trường.",
-              "created_at": "2025-01-01T00:00:30.000Z"
+              "created_at": "2025-01-01T00:00:30.000Z",
+              "uuid": "de738627-5e0e-40bf-b4c0-eed3bae8e9ec"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về cách giảm tác động xấu đến môi trường",
@@ -827,7 +860,8 @@
               "question": "Viết 2-3 câu về cách giảm tác động xấu đến môi trường",
               "hint": "Nêu các cách: không xả rác, trồng cây, tiết kiệm tài nguyên...",
               "answer": "Để giảm tác động xấu đến môi trường, chúng ta không nên xả rác bừa bãi. Chúng ta nên trồng nhiều cây xanh và tiết kiệm tài nguyên. Mọi người cần chung tay bảo vệ môi trường.",
-              "created_at": "2025-01-01T00:00:31.000Z"
+              "created_at": "2025-01-01T00:00:31.000Z",
+              "uuid": "ccc75a8b-5b74-4807-a557-0a48128131d0"
             },
             {
               "title": "Nhận biết các biện pháp bảo vệ môi trường",
@@ -842,7 +876,8 @@
               },
               "correctOption": "B",
               "hint": "Trồng nhiều cây xanh giúp làm sạch không khí và bảo vệ môi trường.",
-              "created_at": "2025-01-01T00:00:38.000Z"
+              "created_at": "2025-01-01T00:00:38.000Z",
+              "uuid": "e2cf60f0-bef1-41c6-b5cb-4d0184d290f0"
             },
             {
               "title": "Tự luận: Viết 2-3 câu về tầm quan trọng của việc bảo vệ môi trường",
@@ -851,11 +886,13 @@
               "question": "Viết 2-3 câu về tầm quan trọng của việc bảo vệ môi trường",
               "hint": "Nêu tầm quan trọng: cuộc sống tốt đẹp, sức khỏe, tương lai...",
               "answer": "Bảo vệ môi trường rất quan trọng. Môi trường sạch giúp chúng ta có cuộc sống khỏe mạnh. Chúng ta cần bảo vệ môi trường cho thế hệ tương lai.",
-              "created_at": "2025-01-01T00:00:39.000Z"
+              "created_at": "2025-01-01T00:00:39.000Z",
+              "uuid": "a9470fbb-8448-46f3-b367-71a2ded079f5"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "4fc55f2e-8d51-43c8-b707-117680f838fb"
 }

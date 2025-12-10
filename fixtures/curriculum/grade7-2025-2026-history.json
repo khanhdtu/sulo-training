@@ -10,15 +10,18 @@
       "lessons": [
         {
           "code": "LS7-CH1-L1",
-          "title": "Nước ta buổi đầu độc lập"
+          "title": "Nước ta buổi đầu độc lập",
+          "uuid": "1d8df961-7938-49e0-a89f-779dd5839618"
         },
         {
           "code": "LS7-CH1-L2",
-          "title": "Nhà Ngô, Đinh, Tiền Lê"
+          "title": "Nhà Ngô, Đinh, Tiền Lê",
+          "uuid": "659d3e80-76ab-4da0-b3c9-1023b58e5e82"
         },
         {
           "code": "LS7-CH1-L3",
-          "title": "Cuộc kháng chiến chống Tống lần thứ nhất (981)"
+          "title": "Cuộc kháng chiến chống Tống lần thứ nhất (981)",
+          "uuid": "55aef403-fc15-4097-8b6a-34727107a902"
         }
       ]
     },
@@ -28,15 +31,18 @@
       "lessons": [
         {
           "code": "LS7-CH2-L1",
-          "title": "Nhà Lý thành lập và xây dựng đất nước"
+          "title": "Nhà Lý thành lập và xây dựng đất nước",
+          "uuid": "4409f829-d9fe-4c4b-b68e-83965d781679"
         },
         {
           "code": "LS7-CH2-L2",
-          "title": "Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)"
+          "title": "Cuộc kháng chiến chống Tống lần thứ hai (1075-1077)",
+          "uuid": "1be760ad-2285-4a41-b079-adddeac28783"
         },
         {
           "code": "LS7-CH2-L3",
-          "title": "Văn hóa Đại Việt thời Lý"
+          "title": "Văn hóa Đại Việt thời Lý",
+          "uuid": "078e3f57-4884-4e5d-81ba-a4f9f5c3c000"
         }
       ]
     },
@@ -46,15 +52,18 @@
       "lessons": [
         {
           "code": "LS7-CH3-L1",
-          "title": "Nhà Trần thành lập và củng cố chính quyền"
+          "title": "Nhà Trần thành lập và củng cố chính quyền",
+          "uuid": "8a9723c4-7370-469d-8661-65991d481936"
         },
         {
           "code": "LS7-CH3-L2",
-          "title": "Ba lần kháng chiến chống quân xâm lược Mông - Nguyên"
+          "title": "Ba lần kháng chiến chống quân xâm lược Mông - Nguyên",
+          "uuid": "858aa784-5fa0-407c-bdde-ebf4fb079c44"
         },
         {
           "code": "LS7-CH3-L3",
-          "title": "Văn hóa Đại Việt thời Trần"
+          "title": "Văn hóa Đại Việt thời Trần",
+          "uuid": "6c8fb1d1-18a7-4a8e-a9bb-9d8d90a4b33f"
         }
       ]
     },
@@ -64,15 +73,18 @@
       "lessons": [
         {
           "code": "LS7-CH4-L1",
-          "title": "Khởi nghĩa Lam Sơn và sự thành lập nhà Lê"
+          "title": "Khởi nghĩa Lam Sơn và sự thành lập nhà Lê",
+          "uuid": "a9ef280c-4c8b-4d32-b398-fdab4ca98223"
         },
         {
           "code": "LS7-CH4-L2",
-          "title": "Tổ chức bộ máy nhà nước thời Lê sơ"
+          "title": "Tổ chức bộ máy nhà nước thời Lê sơ",
+          "uuid": "20b009a4-7aa8-44a9-94a8-5b569773193e"
         },
         {
           "code": "LS7-CH4-L3",
-          "title": "Văn hóa Đại Việt thời Lê sơ"
+          "title": "Văn hóa Đại Việt thời Lê sơ",
+          "uuid": "90a0f7ef-d49e-4108-b98c-7570868bf567"
         }
       ]
     },
@@ -82,19 +94,21 @@
       "lessons": [
         {
           "code": "LS7-CH5-L1",
-          "title": "Đất nước bị chia cắt"
+          "title": "Đất nước bị chia cắt",
+          "uuid": "aaf97180-a3c8-4c0f-8b52-10a7a82ad856"
         },
         {
           "code": "LS7-CH5-L2",
-          "title": "Phong trào nông dân Tây Sơn"
+          "title": "Phong trào nông dân Tây Sơn",
+          "uuid": "2e1a7d19-8ca7-4ffe-8c75-02020868a4f3"
         },
         {
           "code": "LS7-CH5-L3",
-          "title": "Văn hóa Việt Nam thế kỷ XVI-XVIII"
+          "title": "Văn hóa Việt Nam thế kỷ XVI-XVIII",
+          "uuid": "b654f723-d0f8-405a-89aa-07a3cecdc2fe"
         }
       ]
     }
   ],
   "created_at": "2025-01-01T00:00:00.000Z"
 }
-

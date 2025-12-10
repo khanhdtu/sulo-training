@@ -26,7 +26,8 @@
               },
               "correctOption": "B",
               "hint": "Tính chất vật lí là tính chất có thể quan sát được mà không làm thay đổi bản chất của chất.",
-              "created_at": "2025-01-01T00:00:00.000Z"
+              "created_at": "2025-01-01T00:00:00.000Z",
+              "uuid": "73a05c02-cf86-4f33-b6e3-14640cebbbad"
             },
             {
               "title": "Phân biệt chất và vật thể",
@@ -41,7 +42,8 @@
               },
               "correctOption": "B",
               "hint": "Đinh thường được làm từ sắt hoặc thép (hợp kim của sắt).",
-              "created_at": "2025-01-01T00:00:01.000Z"
+              "created_at": "2025-01-01T00:00:01.000Z",
+              "uuid": "d0db7d97-b58c-403a-933e-9b794b9f24fa"
             },
             {
               "title": "Nhận biết tính chất hóa học",
@@ -56,7 +58,8 @@
               },
               "correctOption": "C",
               "hint": "Tính chất hóa học là tính chất chỉ thể hiện khi có phản ứng hóa học xảy ra.",
-              "created_at": "2025-01-01T00:00:02.000Z"
+              "created_at": "2025-01-01T00:00:02.000Z",
+              "uuid": "50a7d8c2-8461-4f73-8921-15b9d2d76f67"
             },
             {
               "title": "Nhận biết chất tinh khiết và hỗn hợp",
@@ -71,7 +74,8 @@
               },
               "correctOption": "B",
               "hint": "Chất tinh khiết chỉ chứa một loại chất, không lẫn tạp chất.",
-              "created_at": "2025-01-01T00:00:03.000Z"
+              "created_at": "2025-01-01T00:00:03.000Z",
+              "uuid": "cef7b67e-a621-4380-bc74-6ad7f56053a9"
             },
             {
               "title": "Tự luận: Kể tên 3 tính chất vật lí và 2 tính chất hóa học của nước",
@@ -80,7 +84,8 @@
               "question": "Kể tên 3 tính chất vật lí và 2 tính chất hóa học của nước",
               "hint": "Tính chất vật lí: có thể quan sát trực tiếp. Tính chất hóa học: chỉ thể hiện khi có phản ứng.",
               "answer": "Tính chất vật lí: không màu, không mùi, không vị; nhiệt độ sôi 100°C; có thể hòa tan nhiều chất. Tính chất hóa học: tác dụng với kim loại kiềm; bị phân hủy ở nhiệt độ cao.",
-              "created_at": "2025-01-01T00:00:04.000Z"
+              "created_at": "2025-01-01T00:00:04.000Z",
+              "uuid": "e3ee0e6c-e1ac-4f5c-b5d6-406fd5def1e0"
             },
             {
               "title": "Hiểu biết cơ bản về Tính chất của chất",
@@ -95,7 +100,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tính chất của chất.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "4afefdc3-a9c3-413a-b537-3e27da2c4b63"
             }
           ]
         },
@@ -116,7 +122,8 @@
               },
               "correctOption": "C",
               "hint": "Hiện tượng vật lí không làm thay đổi bản chất của chất, chỉ thay đổi hình dạng, trạng thái.",
-              "created_at": "2025-01-01T00:00:05.000Z"
+              "created_at": "2025-01-01T00:00:05.000Z",
+              "uuid": "5eabcdc9-bc03-4d48-bf41-0f1c22220443"
             },
             {
               "title": "Nhận biết hiện tượng hóa học",
@@ -131,7 +138,8 @@
               },
               "correctOption": "C",
               "hint": "Hiện tượng hóa học tạo ra chất mới, có sự thay đổi bản chất của chất.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "426177cf-c7bc-4f4f-a14b-98499e413b38"
             },
             {
               "title": "Phân biệt biến đổi vật lí và hóa học",
@@ -146,7 +154,8 @@
               },
               "correctOption": "C",
               "hint": "Nến chảy là biến đổi vật lí, nến cháy tạo ra khí CO2 và hơi nước là biến đổi hóa học.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "fc27f0f0-5bae-435f-aed6-a57782d6444e"
             },
             {
               "title": "Tự luận: Giải thích tại sao hòa tan đường vào nước là hiện tượng vật lí",
@@ -155,7 +164,8 @@
               "question": "Giải thích tại sao hòa tan đường vào nước là hiện tượng vật lí",
               "hint": "Hiện tượng vật lí không tạo ra chất mới, chỉ thay đổi trạng thái hoặc hình dạng.",
               "answer": "Hòa tan đường vào nước là hiện tượng vật lí vì đường vẫn giữ nguyên bản chất, chỉ thay đổi từ dạng rắn sang dạng hòa tan trong nước. Ta có thể thu lại đường bằng cách cô cạn nước.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "f930d825-09ac-4f3d-8493-80c004bf8c58"
             },
             {
               "title": "Trình bày ngắn gọn về Sự biến đổi vật lí và hóa học",
@@ -164,7 +174,8 @@
               "question": "Trình bày ngắn gọn về Sự biến đổi vật lí và hóa học (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Sự biến đổi vật lí và hóa học.",
               "answer": "Đây là câu trả lời ngắn gọn về Sự biến đổi vật lí và hóa học. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "bab2563c-7b8b-4032-ae57-7bdb17c2ffda"
             }
           ]
         },
@@ -185,7 +196,8 @@
               },
               "correctOption": "B",
               "hint": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học, không thể chia nhỏ hơn bằng phương pháp hóa học.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "ed2fffb8-3398-4551-9a25-15d7153815c8"
             },
             {
               "title": "Nhận biết phân tử",
@@ -200,7 +212,8 @@
               },
               "correctOption": "C",
               "hint": "Phân tử là hạt gồm nhiều nguyên tử liên kết với nhau, là hạt nhỏ nhất của hợp chất.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "2c45c517-6e1d-4c8d-bab4-672a26f8ae65"
             },
             {
               "title": "Tự luận: Giải thích sự khác nhau giữa nguyên tử và phân tử",
@@ -209,7 +222,8 @@
               "question": "Giải thích sự khác nhau giữa nguyên tử và phân tử",
               "hint": "Nguyên tử là hạt của nguyên tố, phân tử là hạt của hợp chất gồm nhiều nguyên tử.",
               "answer": "Nguyên tử là hạt nhỏ nhất của nguyên tố hóa học, không thể chia nhỏ hơn bằng phương pháp hóa học. Phân tử là hạt gồm nhiều nguyên tử liên kết với nhau, là hạt nhỏ nhất của hợp chất, giữ nguyên tính chất hóa học của chất đó.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "a594335f-06f8-4464-a2f0-9b653db0dca0"
             },
             {
               "title": "Câu hỏi đơn giản về Nguyên tử và phân tử",
@@ -224,7 +238,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Nguyên tử và phân tử.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "ac726547-dc00-4329-9c31-2b67406876eb"
             }
           ]
         }
@@ -251,7 +266,8 @@
               },
               "correctOption": "C",
               "hint": "Năng lượng cơ học bao gồm động năng (vật chuyển động) và thế năng (vật ở độ cao).",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "233bfb83-4e55-4c78-a260-f69f38c820c3"
             },
             {
               "title": "Nhận biết nguồn năng lượng",
@@ -266,7 +282,8 @@
               },
               "correctOption": "C",
               "hint": "Năng lượng tái tạo là năng lượng có thể tái tạo được như năng lượng mặt trời, gió, nước.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "35cbd522-3f5a-4139-89f4-83ff1f4a8002"
             },
             {
               "title": "Tự luận: Kể tên 5 dạng năng lượng và cho ví dụ",
@@ -275,7 +292,8 @@
               "question": "Kể tên 5 dạng năng lượng và cho ví dụ",
               "hint": "Các dạng năng lượng phổ biến: cơ học, nhiệt, ánh sáng, hóa học, điện.",
               "answer": "1. Năng lượng cơ học: quả bóng đang lăn. 2. Năng lượng nhiệt: lửa đang cháy. 3. Năng lượng ánh sáng: ánh sáng mặt trời. 4. Năng lượng hóa học: pin, thức ăn. 5. Năng lượng điện: dòng điện trong dây dẫn.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "43baeb33-2f6c-4e06-bd6c-0c48b41381b1"
             },
             {
               "title": "Trình bày ngắn gọn về Năng lượng và các dạng năng lượng",
@@ -284,7 +302,8 @@
               "question": "Trình bày ngắn gọn về Năng lượng và các dạng năng lượng (Câu 8/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng và các dạng năng lượng.",
               "answer": "Đây là câu trả lời ngắn gọn về Năng lượng và các dạng năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "8cced5e5-f500-4927-8109-38cdd2650587"
             },
             {
               "title": "Kiến thức cơ bản: Năng lượng và các dạng năng lượng",
@@ -299,7 +318,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng và các dạng năng lượng.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "c8464caa-6f57-4011-8cf9-36778787e562"
             },
             {
               "title": "Viết 2-3 câu về Năng lượng và các dạng năng lượng",
@@ -308,7 +328,8 @@
               "question": "Viết 2-3 câu về Năng lượng và các dạng năng lượng (Câu 10/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng và các dạng năng lượng.",
               "answer": "Đây là câu trả lời ngắn gọn về Năng lượng và các dạng năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "9f6c67e1-85f8-42ce-8122-685cae507403"
             }
           ]
         },
@@ -329,7 +350,8 @@
               },
               "correctOption": "A",
               "hint": "Khi đạp xe, năng lượng hóa học từ thức ăn trong cơ thể chuyển hóa thành năng lượng cơ học để vận động.",
-              "created_at": "2025-01-01T00:00:15.000Z"
+              "created_at": "2025-01-01T00:00:15.000Z",
+              "uuid": "0d390b72-a268-47d0-9c37-42029516bed6"
             },
             {
               "title": "Tự luận: Mô tả sự chuyển hóa năng lượng trong pin",
@@ -338,7 +360,8 @@
               "question": "Mô tả sự chuyển hóa năng lượng trong pin",
               "hint": "Pin chuyển hóa năng lượng hóa học thành năng lượng điện.",
               "answer": "Trong pin, năng lượng hóa học được chuyển hóa thành năng lượng điện. Khi pin hoạt động, các phản ứng hóa học xảy ra bên trong pin tạo ra dòng điện, cung cấp năng lượng cho các thiết bị điện.",
-              "created_at": "2025-01-01T00:00:16.000Z"
+              "created_at": "2025-01-01T00:00:16.000Z",
+              "uuid": "9a8081a8-8633-4bd5-ae13-1d96f04392f2"
             },
             {
               "title": "Câu hỏi cơ bản về Sự chuyển hóa năng lượng",
@@ -353,7 +376,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển hóa năng lượng.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "343c221b-0633-4bc9-91af-6cea80686475"
             },
             {
               "title": "Nêu hiểu biết của em về Sự chuyển hóa năng lượng",
@@ -362,7 +386,8 @@
               "question": "Nêu hiểu biết của em về Sự chuyển hóa năng lượng (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Sự chuyển hóa năng lượng.",
               "answer": "Đây là câu trả lời ngắn gọn về Sự chuyển hóa năng lượng. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "c3d7461a-9d6c-4223-8a86-91c8199834e5"
             },
             {
               "title": "Hiểu biết cơ bản về Sự chuyển hóa năng lượng",
@@ -377,7 +402,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Sự chuyển hóa năng lượng.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "7edd4296-99f8-4ef7-ae70-19852ff5cbd0"
             }
           ]
         },
@@ -398,7 +424,8 @@
               },
               "correctOption": "B",
               "hint": "Tắt các thiết bị khi không sử dụng giúp tiết kiệm năng lượng điện.",
-              "created_at": "2025-01-01T00:00:17.000Z"
+              "created_at": "2025-01-01T00:00:17.000Z",
+              "uuid": "3ae9fa6c-81ea-402a-9a42-b09d9b96f1b9"
             },
             {
               "title": "Tự luận: Nêu 3 cách tiết kiệm năng lượng trong gia đình",
@@ -407,7 +434,8 @@
               "question": "Nêu 3 cách tiết kiệm năng lượng trong gia đình",
               "hint": "Các cách tiết kiệm năng lượng: tắt thiết bị khi không dùng, sử dụng thiết bị tiết kiệm năng lượng, tận dụng ánh sáng tự nhiên.",
               "answer": "1. Tắt các thiết bị điện khi không sử dụng. 2. Sử dụng bóng đèn LED tiết kiệm năng lượng. 3. Tận dụng ánh sáng tự nhiên thay vì bật đèn ban ngày.",
-              "created_at": "2025-01-01T00:00:18.000Z"
+              "created_at": "2025-01-01T00:00:18.000Z",
+              "uuid": "43f22eaa-79c3-40ca-a72e-d0dc52bd78b3"
             },
             {
               "title": "Trình bày ngắn gọn về Năng lượng trong đời sống",
@@ -416,7 +444,8 @@
               "question": "Trình bày ngắn gọn về Năng lượng trong đời sống (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Năng lượng trong đời sống.",
               "answer": "Đây là câu trả lời ngắn gọn về Năng lượng trong đời sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "7e6240e2-8d46-4bac-bc20-6d9ac78959ae"
             },
             {
               "title": "Câu hỏi đơn giản về Năng lượng trong đời sống",
@@ -431,7 +460,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Năng lượng trong đời sống.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "11b5545f-0f80-4240-bc1c-c184f92badea"
             }
           ]
         }
@@ -458,7 +488,8 @@
               },
               "correctOption": "C",
               "hint": "Nhân tế bào chứa ADN, là vật chất di truyền.",
-              "created_at": "2025-01-01T00:00:19.000Z"
+              "created_at": "2025-01-01T00:00:19.000Z",
+              "uuid": "6fc304e4-cd4e-4506-b1d6-2ca0f1f2abbb"
             },
             {
               "title": "Phân biệt tế bào thực vật và động vật",
@@ -473,7 +504,8 @@
               },
               "correctOption": "C",
               "hint": "Tế bào thực vật có thành tế bào cứng bằng cellulose, tế bào động vật không có.",
-              "created_at": "2025-01-01T00:00:20.000Z"
+              "created_at": "2025-01-01T00:00:20.000Z",
+              "uuid": "8c82583b-5e7e-4193-91f6-9cd27d4e9862"
             },
             {
               "title": "Tự luận: Mô tả cấu trúc cơ bản của tế bào",
@@ -482,7 +514,8 @@
               "question": "Mô tả cấu trúc cơ bản của tế bào",
               "hint": "Tế bào gồm: màng tế bào, tế bào chất, nhân tế bào.",
               "answer": "Tế bào có cấu trúc cơ bản gồm: màng tế bào (bao bọc và bảo vệ tế bào), tế bào chất (chứa các bào quan), nhân tế bào (chứa vật chất di truyền ADN).",
-              "created_at": "2025-01-01T00:00:21.000Z"
+              "created_at": "2025-01-01T00:00:21.000Z",
+              "uuid": "97fcdf4a-dc11-483f-b7df-7101f614866a"
             },
             {
               "title": "Trình bày ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống",
@@ -491,7 +524,8 @@
               "question": "Trình bày ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống (Câu 8/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Tế bào - Đơn vị cơ bản của sự sống.",
               "answer": "Đây là câu trả lời ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "05d0d423-7abd-42e8-b8c6-29119f54bc85"
             },
             {
               "title": "Kiến thức cơ bản: Tế bào - Đơn vị cơ bản của sự sống",
@@ -506,7 +540,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Tế bào - Đơn vị cơ bản của sự sống.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "339f1150-dd81-4572-9288-df7b2f8a4ccf"
             },
             {
               "title": "Viết 2-3 câu về Tế bào - Đơn vị cơ bản của sự sống",
@@ -515,7 +550,8 @@
               "question": "Viết 2-3 câu về Tế bào - Đơn vị cơ bản của sự sống (Câu 10/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Tế bào - Đơn vị cơ bản của sự sống.",
               "answer": "Đây là câu trả lời ngắn gọn về Tế bào - Đơn vị cơ bản của sự sống. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "18b7d4da-e411-4e76-b9f5-d40e5c3416af"
             }
           ]
         },
@@ -536,7 +572,8 @@
               },
               "correctOption": "B",
               "hint": "Thực vật là các sinh vật có khả năng quang hợp, tự tạo thức ăn.",
-              "created_at": "2025-01-01T00:00:22.000Z"
+              "created_at": "2025-01-01T00:00:22.000Z",
+              "uuid": "cd87049c-2f05-4692-a210-51466315ec4b"
             },
             {
               "title": "Tự luận: Kể tên 5 nhóm sinh vật và cho ví dụ",
@@ -545,7 +582,8 @@
               "question": "Kể tên 5 nhóm sinh vật và cho ví dụ",
               "hint": "Các nhóm sinh vật: động vật, thực vật, nấm, vi khuẩn, nguyên sinh vật.",
               "answer": "1. Động vật: con chó, con mèo. 2. Thực vật: cây lúa, cây ngô. 3. Nấm: nấm rơm, nấm hương. 4. Vi khuẩn: vi khuẩn E.coli. 5. Nguyên sinh vật: trùng roi, trùng giày.",
-              "created_at": "2025-01-01T00:00:23.000Z"
+              "created_at": "2025-01-01T00:00:23.000Z",
+              "uuid": "a3276837-bd4d-4348-9d26-085fe6479c06"
             },
             {
               "title": "Câu hỏi cơ bản về Đa dạng sinh học",
@@ -560,7 +598,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đa dạng sinh học.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "eac1d94b-f2bb-496e-9078-7f4145cc9160"
             },
             {
               "title": "Nêu hiểu biết của em về Đa dạng sinh học",
@@ -569,7 +608,8 @@
               "question": "Nêu hiểu biết của em về Đa dạng sinh học (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Đa dạng sinh học.",
               "answer": "Đây là câu trả lời ngắn gọn về Đa dạng sinh học. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "53bd17cc-ac32-444f-9393-60f857f79dde"
             },
             {
               "title": "Hiểu biết cơ bản về Đa dạng sinh học",
@@ -584,7 +624,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Đa dạng sinh học.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "96d63509-79f9-41c4-b1fd-e372250ad282"
             }
           ]
         },
@@ -605,7 +646,8 @@
               },
               "correctOption": "B",
               "hint": "Lục lạp chứa chất diệp lục, là nơi xảy ra quá trình quang hợp.",
-              "created_at": "2025-01-01T00:00:24.000Z"
+              "created_at": "2025-01-01T00:00:24.000Z",
+              "uuid": "380d533d-b05c-4bba-b735-c4abd53bc076"
             },
             {
               "title": "Tự luận: Mô tả quá trình quang hợp",
@@ -614,7 +656,8 @@
               "question": "Mô tả quá trình quang hợp",
               "hint": "Quang hợp là quá trình thực vật sử dụng ánh sáng, CO2 và nước để tạo ra đường và oxi.",
               "answer": "Quang hợp là quá trình thực vật sử dụng ánh sáng mặt trời, khí CO2 và nước để tạo ra đường (glucose) và khí oxi. Quá trình này xảy ra trong lục lạp của tế bào thực vật.",
-              "created_at": "2025-01-01T00:00:25.000Z"
+              "created_at": "2025-01-01T00:00:25.000Z",
+              "uuid": "2c185913-b9ca-469c-bd61-b2204bc4bf73"
             },
             {
               "title": "Trình bày ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
@@ -623,7 +666,8 @@
               "question": "Trình bày ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
               "answer": "Đây là câu trả lời ngắn gọn về Trao đổi chất và chuyển hóa năng lượng ở sinh vật. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "af8fa8fa-7e2f-4906-90bf-0a304444e4c2"
             },
             {
               "title": "Câu hỏi đơn giản về Trao đổi chất và chuyển hóa năng lượng ở sinh vật",
@@ -638,7 +682,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Trao đổi chất và chuyển hóa năng lượng ở sinh vật.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "ea0b1fce-66f6-4ffc-ba2f-98e944a6f4c5"
             }
           ]
         }
@@ -665,7 +710,8 @@
               },
               "correctOption": "C",
               "hint": "Lớp vỏ Trái Đất là lớp ngoài cùng, mỏng nhất, nơi chúng ta đang sống.",
-              "created_at": "2025-01-01T00:00:26.000Z"
+              "created_at": "2025-01-01T00:00:26.000Z",
+              "uuid": "d9f8d963-248c-4b21-aa5d-beb5b208be8a"
             },
             {
               "title": "Tự luận: Kể tên 3 lớp cấu trúc của Trái Đất",
@@ -674,7 +720,8 @@
               "question": "Kể tên 3 lớp cấu trúc của Trái Đất",
               "hint": "Trái Đất có 3 lớp chính: vỏ, phủ (mantle), và lõi (core).",
               "answer": "3 lớp cấu trúc của Trái Đất: 1. Lớp vỏ (crust) - lớp ngoài cùng, mỏng nhất. 2. Lớp phủ (mantle) - lớp giữa, dày nhất. 3. Lớp lõi (core) - lớp trong cùng, nóng nhất.",
-              "created_at": "2025-01-01T00:00:27.000Z"
+              "created_at": "2025-01-01T00:00:27.000Z",
+              "uuid": "8664a0cd-f853-4fbb-83f9-ca7e9ba825c5"
             },
             {
               "title": "Nhận biết kiến thức về Cấu trúc Trái Đất",
@@ -689,7 +736,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cấu trúc Trái Đất.",
-              "created_at": "2025-01-01T00:00:06.000Z"
+              "created_at": "2025-01-01T00:00:06.000Z",
+              "uuid": "6ae80609-b899-4603-9bcc-4e0b43d1adb1"
             },
             {
               "title": "Trình bày ngắn gọn về Cấu trúc Trái Đất",
@@ -698,7 +746,8 @@
               "question": "Trình bày ngắn gọn về Cấu trúc Trái Đất (Câu 8/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Cấu trúc Trái Đất.",
               "answer": "Đây là câu trả lời ngắn gọn về Cấu trúc Trái Đất. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:07.000Z"
+              "created_at": "2025-01-01T00:00:07.000Z",
+              "uuid": "417fdef5-45aa-42c4-ac64-83d68880b0f4"
             },
             {
               "title": "Kiến thức cơ bản: Cấu trúc Trái Đất",
@@ -713,7 +762,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Cấu trúc Trái Đất.",
-              "created_at": "2025-01-01T00:00:08.000Z"
+              "created_at": "2025-01-01T00:00:08.000Z",
+              "uuid": "30b0fce9-dbde-4429-8d15-d275c2ca4046"
             }
           ]
         },
@@ -734,7 +784,8 @@
               },
               "correctOption": "B",
               "hint": "Nitơ chiếm khoảng 78% thể tích khí quyển, là khí chiếm tỉ lệ lớn nhất.",
-              "created_at": "2025-01-01T00:00:28.000Z"
+              "created_at": "2025-01-01T00:00:28.000Z",
+              "uuid": "c35d1c6e-5bfb-4dab-85af-280432e2c56c"
             },
             {
               "title": "Tự luận: Giải thích tại sao có mưa",
@@ -743,7 +794,8 @@
               "question": "Giải thích tại sao có mưa",
               "hint": "Mưa xảy ra do quá trình bay hơi nước và ngưng tụ trong khí quyển.",
               "answer": "Mưa xảy ra do quá trình: nước ở các đại dương, sông, hồ bay hơi thành hơi nước. Hơi nước bay lên cao, gặp lạnh ngưng tụ thành những giọt nước nhỏ tạo thành mây. Khi các giọt nước đủ lớn và nặng, chúng rơi xuống đất tạo thành mưa.",
-              "created_at": "2025-01-01T00:00:29.000Z"
+              "created_at": "2025-01-01T00:00:29.000Z",
+              "uuid": "143a879d-ac02-4399-a19e-19cec47e5706"
             },
             {
               "title": "Viết 2-3 câu về Khí quyển và thời tiết",
@@ -752,7 +804,8 @@
               "question": "Viết 2-3 câu về Khí quyển và thời tiết (Câu 10/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Khí quyển và thời tiết.",
               "answer": "Đây là câu trả lời ngắn gọn về Khí quyển và thời tiết. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:09.000Z"
+              "created_at": "2025-01-01T00:00:09.000Z",
+              "uuid": "9878c48f-7e9f-487a-9461-46389d873e9b"
             },
             {
               "title": "Câu hỏi cơ bản về Khí quyển và thời tiết",
@@ -767,7 +820,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Khí quyển và thời tiết.",
-              "created_at": "2025-01-01T00:00:10.000Z"
+              "created_at": "2025-01-01T00:00:10.000Z",
+              "uuid": "3218828c-a53d-4754-829c-1b1a0347c899"
             },
             {
               "title": "Nêu hiểu biết của em về Khí quyển và thời tiết",
@@ -776,7 +830,8 @@
               "question": "Nêu hiểu biết của em về Khí quyển và thời tiết (Câu 12/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Khí quyển và thời tiết.",
               "answer": "Đây là câu trả lời ngắn gọn về Khí quyển và thời tiết. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:11.000Z"
+              "created_at": "2025-01-01T00:00:11.000Z",
+              "uuid": "7cff5a10-6b08-429c-94fd-22faf58a842f"
             }
           ]
         },
@@ -797,7 +852,8 @@
               },
               "correctOption": "B",
               "hint": "Sao Thủy là hành tinh gần Mặt Trời nhất trong hệ Mặt Trời.",
-              "created_at": "2025-01-01T00:00:30.000Z"
+              "created_at": "2025-01-01T00:00:30.000Z",
+              "uuid": "e98c9b76-55aa-4db6-b471-57da964658e8"
             },
             {
               "title": "Tự luận: Kể tên 4 hành tinh gần Mặt Trời nhất",
@@ -806,7 +862,8 @@
               "question": "Kể tên 4 hành tinh gần Mặt Trời nhất",
               "hint": "Các hành tinh gần Mặt Trời: Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa.",
               "answer": "4 hành tinh gần Mặt Trời nhất (theo thứ tự): 1. Sao Thủy, 2. Sao Kim, 3. Trái Đất, 4. Sao Hỏa.",
-              "created_at": "2025-01-01T00:00:31.000Z"
+              "created_at": "2025-01-01T00:00:31.000Z",
+              "uuid": "365eb89b-650a-4625-8156-de46b0677f7c"
             },
             {
               "title": "Hiểu biết cơ bản về Hệ Mặt Trời và các hành tinh",
@@ -821,7 +878,8 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hệ Mặt Trời và các hành tinh.",
-              "created_at": "2025-01-01T00:00:12.000Z"
+              "created_at": "2025-01-01T00:00:12.000Z",
+              "uuid": "66b4116e-5f73-4f41-9653-03fff9be50a6"
             },
             {
               "title": "Trình bày ngắn gọn về Hệ Mặt Trời và các hành tinh",
@@ -830,7 +888,8 @@
               "question": "Trình bày ngắn gọn về Hệ Mặt Trời và các hành tinh (Câu 14/15)",
               "hint": "Hãy viết ngắn gọn, rõ ràng về Hệ Mặt Trời và các hành tinh.",
               "answer": "Đây là câu trả lời ngắn gọn về Hệ Mặt Trời và các hành tinh. Kiến thức cơ bản cần được trình bày rõ ràng và dễ hiểu.",
-              "created_at": "2025-01-01T00:00:13.000Z"
+              "created_at": "2025-01-01T00:00:13.000Z",
+              "uuid": "9ec6e45b-4156-4e6a-952a-d71072be2b0b"
             },
             {
               "title": "Câu hỏi đơn giản về Hệ Mặt Trời và các hành tinh",
@@ -845,11 +904,13 @@
               },
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Hệ Mặt Trời và các hành tinh.",
-              "created_at": "2025-01-01T00:00:14.000Z"
+              "created_at": "2025-01-01T00:00:14.000Z",
+              "uuid": "4bd86ed0-8e91-419d-80df-f99601a80d84"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "258ef880-dbac-4c0a-87fc-1b3c9e39a0dd"
 }

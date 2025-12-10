@@ -26,7 +26,8 @@
               },
               "correctOption": "A",
               "hint": "Insert > Table, sau đó chọn số hàng và cột từ lưới hiển thị.",
-              "created_at": "2025-01-01T00:04:00.000Z"
+              "created_at": "2025-01-01T00:04:00.000Z",
+              "uuid": "9e7acf3e-2c5c-44f0-8e79-53335e29d7f4"
             },
             {
               "title": "Thêm hàng vào bảng",
@@ -41,7 +42,8 @@
               },
               "correctOption": "A",
               "hint": "Click phải vào hàng trong bảng, chọn Insert > Insert Rows Above (trên) hoặc Below (dưới).",
-              "created_at": "2025-01-01T00:04:01.000Z"
+              "created_at": "2025-01-01T00:04:01.000Z",
+              "uuid": "a458a0c3-fad0-4d4b-9544-62bad9e92839"
             },
             {
               "title": "Gộp ô trong bảng",
@@ -50,7 +52,8 @@
               "question": "Em hãy giải thích cách gộp nhiều ô thành một ô trong bảng Word.",
               "hint": "Chọn các ô cần gộp, sau đó click phải hoặc vào Layout > Merge Cells.",
               "answer": "Bước 1: Chọn các ô cần gộp bằng cách click và kéo. Bước 2: Click phải > Merge Cells, hoặc vào Layout > Merge Cells. Các ô sẽ được gộp thành một ô lớn.",
-              "created_at": "2025-01-01T00:04:02.000Z"
+              "created_at": "2025-01-01T00:04:02.000Z",
+              "uuid": "bfb29f0c-d18b-4acc-abda-99ba80bb7011"
             },
             {
               "title": "Tạo văn bản mới",
@@ -66,7 +69,8 @@
               "correctOption": "A",
               "hint": "File > New > Blank Document để tạo văn bản mới. Hoặc nhấn Ctrl + N.",
               "created_at": "2025-12-09T03:43:08.330Z",
-              "order": 4
+              "order": 4,
+              "uuid": "72087649-a475-4027-9de8-29fe7aba4dd6"
             },
             {
               "title": "Lưu văn bản",
@@ -82,7 +86,8 @@
               "correctOption": "A",
               "hint": "Ctrl + S để Save (lưu). Ctrl + N để New (mới). Ctrl + O để Open (mở). Ctrl + P để Print (in).",
               "created_at": "2025-12-09T03:43:09.330Z",
-              "order": 5
+              "order": 5,
+              "uuid": "2fdde85a-40d9-4d7b-b52f-a1e112cbf0d7"
             },
             {
               "title": "Mở văn bản",
@@ -98,7 +103,8 @@
               "correctOption": "C",
               "hint": "Ctrl + O để Open (mở file). File > Open cũng có thể dùng.",
               "created_at": "2025-12-09T03:43:10.330Z",
-              "order": 6
+              "order": 6,
+              "uuid": "2acb90e9-b99f-4e86-ae9b-4a306472438c"
             },
             {
               "title": "In văn bản",
@@ -114,7 +120,8 @@
               "correctOption": "D",
               "hint": "Ctrl + P để Print (in). File > Print cũng có thể dùng.",
               "created_at": "2025-12-09T03:43:11.330Z",
-              "order": 7
+              "order": 7,
+              "uuid": "159bf077-1682-4b26-8b3f-12a508550f7b"
             },
             {
               "title": "Hoàn tác (Undo)",
@@ -130,7 +137,8 @@
               "correctOption": "A",
               "hint": "Ctrl + Z để Undo (hoàn tác). Ctrl + Y để Redo (làm lại).",
               "created_at": "2025-12-09T03:43:12.330Z",
-              "order": 8
+              "order": 8,
+              "uuid": "0ebe68bf-b77a-4311-88c4-902d0fea5b24"
             },
             {
               "title": "Sao chép văn bản",
@@ -146,7 +154,8 @@
               "correctOption": "B",
               "hint": "Ctrl + C để Copy. Ctrl + X để Cut. Ctrl + V để Paste.",
               "created_at": "2025-12-09T03:43:13.330Z",
-              "order": 9
+              "order": 9,
+              "uuid": "782216d5-53a3-4cbf-871e-5c5386f156d6"
             },
             {
               "title": "Dán văn bản",
@@ -162,7 +171,8 @@
               "correctOption": "C",
               "hint": "Ctrl + V để Paste (dán) văn bản đã Copy hoặc Cut.",
               "created_at": "2025-12-09T03:43:14.330Z",
-              "order": 10
+              "order": 10,
+              "uuid": "540f4480-a942-4420-ae3e-2b020db5f7f5"
             },
             {
               "title": "In nghiêng chữ",
@@ -178,7 +188,8 @@
               "correctOption": "B",
               "hint": "Ctrl + I (Italic) để in nghiêng. Ctrl + B (Bold) để in đậm. Ctrl + U (Underline) để gạch chân.",
               "created_at": "2025-12-09T03:43:15.330Z",
-              "order": 11
+              "order": 11,
+              "uuid": "fcb45d51-09be-45b7-af12-3a6e67c7142c"
             },
             {
               "title": "Gạch chân chữ",
@@ -194,7 +205,8 @@
               "correctOption": "C",
               "hint": "Ctrl + U (Underline) để gạch chân. Ctrl + B để in đậm. Ctrl + I để in nghiêng.",
               "created_at": "2025-12-09T03:43:16.330Z",
-              "order": 12
+              "order": 12,
+              "uuid": "3850373a-e527-47ad-8360-a9a1608d6525"
             },
             {
               "title": "Căn lề trái",
@@ -210,7 +222,8 @@
               "correctOption": "A",
               "hint": "Ctrl + L để căn trái. Ctrl + E để căn giữa. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
               "created_at": "2025-12-09T03:43:17.330Z",
-              "order": 13
+              "order": 13,
+              "uuid": "9c86a009-305a-4d41-b3c1-782caf0e480e"
             },
             {
               "title": "Căn lề giữa",
@@ -226,7 +239,8 @@
               "correctOption": "B",
               "hint": "Ctrl + E để căn giữa. Ctrl + L để căn trái. Ctrl + R để căn phải. Ctrl + J để căn đều hai bên.",
               "created_at": "2025-12-09T03:43:18.330Z",
-              "order": 14
+              "order": 14,
+              "uuid": "a08f89f7-8d52-4508-88e4-f45f0bd81026"
             },
             {
               "title": "Chọn toàn bộ văn bản",
@@ -242,7 +256,8 @@
               "correctOption": "A",
               "hint": "Ctrl + A để Select All (chọn tất cả). Rất hữu ích khi muốn áp dụng định dạng cho toàn bộ văn bản.",
               "created_at": "2025-12-09T03:43:19.330Z",
-              "order": 15
+              "order": 15,
+              "uuid": "7a2610d0-ac6a-488b-abc9-3c0c6acbbb69"
             }
           ]
         }
@@ -269,7 +284,8 @@
               },
               "correctOption": "B",
               "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
-              "created_at": "2025-01-01T00:04:10.000Z"
+              "created_at": "2025-01-01T00:04:10.000Z",
+              "uuid": "96f6de62-e6ba-43d9-a623-13094161565c"
             },
             {
               "title": "Công thức chia",
@@ -278,7 +294,8 @@
               "question": "Em hãy viết công thức Excel để tính trung bình cộng của 3 số trong ô A1, B1, C1.",
               "hint": "Trung bình cộng = tổng chia cho số lượng. Công thức: =(A1+B1+C1)/3",
               "answer": "Công thức: =(A1+B1+C1)/3. Hoặc có thể dùng hàm: =AVERAGE(A1:C1).",
-              "created_at": "2025-01-01T00:04:11.000Z"
+              "created_at": "2025-01-01T00:04:11.000Z",
+              "uuid": "a6da0c2d-aeb1-4bb3-b896-4f39b86c8dbf"
             },
             {
               "title": "Hàng và cột trong Excel",
@@ -294,7 +311,8 @@
               "correctOption": "B",
               "hint": "Hàng được đánh số: 1, 2, 3... Cột được đánh chữ: A, B, C...",
               "created_at": "2025-12-09T03:43:08.331Z",
-              "order": 3
+              "order": 3,
+              "uuid": "3b1c6078-ac19-4eae-83da-1f2c81e238f3"
             },
             {
               "title": "Cột trong Excel",
@@ -310,7 +328,8 @@
               "correctOption": "A",
               "hint": "Cột được đánh chữ: A, B, C... Hàng được đánh số: 1, 2, 3...",
               "created_at": "2025-12-09T03:43:09.331Z",
-              "order": 4
+              "order": 4,
+              "uuid": "ea5f5b39-7c3b-4f6a-9cd5-84c0133b1ba8"
             },
             {
               "title": "Chọn nhiều ô",
@@ -326,7 +345,8 @@
               "correctOption": "A",
               "hint": "Click vào ô đầu, giữ chuột và kéo đến ô cuối để chọn nhiều ô liên tiếp.",
               "created_at": "2025-12-09T03:43:10.331Z",
-              "order": 5
+              "order": 5,
+              "uuid": "e973ba59-8001-4f44-8b95-62d18f682835"
             },
             {
               "title": "Chọn cả cột",
@@ -342,7 +362,8 @@
               "correctOption": "A",
               "hint": "Click vào tiêu đề cột (chữ A, B, C...) để chọn cả cột.",
               "created_at": "2025-12-09T03:43:11.331Z",
-              "order": 6
+              "order": 6,
+              "uuid": "e186d9a0-9e10-4767-ba68-23e47b2e492a"
             },
             {
               "title": "Chọn cả hàng",
@@ -358,7 +379,8 @@
               "correctOption": "A",
               "hint": "Click vào tiêu đề hàng (số 1, 2, 3...) để chọn cả hàng.",
               "created_at": "2025-12-09T03:43:12.331Z",
-              "order": 7
+              "order": 7,
+              "uuid": "b1686473-6e82-4e7b-bdd7-162c770cccbc"
             },
             {
               "title": "Công thức trừ",
@@ -374,7 +396,8 @@
               "correctOption": "B",
               "hint": "Công thức trừ: =A1-B1. Nhớ bắt đầu bằng dấu =.",
               "created_at": "2025-12-09T03:43:13.331Z",
-              "order": 8
+              "order": 8,
+              "uuid": "f964fed0-6c13-484f-9e95-51bf80857d9f"
             },
             {
               "title": "Công thức nhân",
@@ -390,7 +413,8 @@
               "correctOption": "B",
               "hint": "Trong Excel, dấu nhân là * (không phải x). Công thức: =A1*B1.",
               "created_at": "2025-12-09T03:43:14.331Z",
-              "order": 9
+              "order": 9,
+              "uuid": "1bc9bc2f-f531-4366-bc8b-2518aa246c68"
             },
             {
               "title": "Công thức chia",
@@ -406,7 +430,8 @@
               "correctOption": "B",
               "hint": "Trong Excel, dấu chia là / (dấu gạch chéo). Công thức: =A1/B1.",
               "created_at": "2025-12-09T03:43:15.331Z",
-              "order": 10
+              "order": 10,
+              "uuid": "cabd8af0-3250-4e0e-bf89-28efc6d380c3"
             },
             {
               "title": "Công thức phức tạp",
@@ -422,7 +447,8 @@
               "correctOption": "B",
               "hint": "Dùng dấu ngoặc đơn () để nhóm phép tính. Công thức: =(A1+B1)*C1.",
               "created_at": "2025-12-09T03:43:16.331Z",
-              "order": 11
+              "order": 11,
+              "uuid": "4b79e094-2959-469a-bb20-85eb2ce43514"
             },
             {
               "title": "Lưu file Excel",
@@ -438,7 +464,8 @@
               "correctOption": "A",
               "hint": "Ctrl + S để Save (lưu file). Giống như Word và các phần mềm khác.",
               "created_at": "2025-12-09T03:43:17.331Z",
-              "order": 12
+              "order": 12,
+              "uuid": "a88c2c57-83ee-4cbd-9616-f4f19c4c5586"
             },
             {
               "title": "Định dạng số",
@@ -454,7 +481,8 @@
               "correctOption": "C",
               "hint": "Có 2 cách: thêm dấu nháy đơn '001, hoặc định dạng ô là Text trước khi nhập.",
               "created_at": "2025-12-09T03:43:18.331Z",
-              "order": 13
+              "order": 13,
+              "uuid": "baecd6b3-f063-468b-9516-acc038fb58ea"
             },
             {
               "title": "Câu hỏi bổ sung 1",
@@ -470,7 +498,8 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Bảng tính với Excel.",
               "created_at": "2025-12-09T03:43:19.331Z",
-              "order": 14
+              "order": 14,
+              "uuid": "cfb9c55a-1fb7-4720-900c-b5c3f8fef8cd"
             },
             {
               "title": "Câu hỏi bổ sung 2",
@@ -486,11 +515,13 @@
               "correctOption": "B",
               "hint": "Hãy suy nghĩ về kiến thức cơ bản của Chương 4: Bảng tính với Excel.",
               "created_at": "2025-12-09T03:43:20.331Z",
-              "order": 15
+              "order": 15,
+              "uuid": "10af2b57-e194-434c-8bf4-f0c0fef76127"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "uuid": "9f763191-d27b-4820-9eee-0130f92c1e9b"
 }

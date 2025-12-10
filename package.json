@@ -33,7 +33,10 @@
     "test:cache": "tsx scripts/test-conversation-cache.ts",
     "email:send-weekly": "tsx scripts/send-weekly-activity-email.ts",
     "test:submit-chapter": "tsx scripts/test-submit-chapter.ts",
-    "check:all": "npm run env:check && npm run db:check && npm run supabase:check"
+    "check:all": "npm run env:check && npm run db:check && npm run supabase:check",
+    "fixtures:add-uuid": "tsx scripts/add-uuid-to-exercises.ts",
+    "fixtures:fix-uuids": "tsx scripts/fix-exercises-by-uuid.ts",
+    "fixtures:refill": "tsx scripts/refill-exercises-after-removal.ts"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.0.1",

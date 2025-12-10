@@ -25,7 +25,8 @@
               "type": "text",
               "order": 1,
               "content": "Nhắc lại định nghĩa số hữu tỉ, biểu diễn số hữu tỉ trên trục số, so sánh số hữu tỉ.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "94eb4c91-fd7f-4781-ac33-ecd52f28afed"
             }
           ],
           "exercises": [
@@ -34,7 +35,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "0743ed39-df85-497f-8d1d-c298380f65c7"
             }
           ]
         },
@@ -48,7 +50,8 @@
               "type": "text",
               "order": 1,
               "content": "Cộng, trừ, nhân, chia số hữu tỉ. Quy tắc đổi dấu, rút gọn biểu thức.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "31b853ce-a0bf-44d9-9a40-e18c064541b6"
             }
           ],
           "exercises": [
@@ -57,7 +60,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 25
+              "timeLimit": 25,
+              "uuid": "04dce5fb-3377-4065-8b3c-0dee8fce1c29"
             }
           ]
         }
@@ -78,7 +82,8 @@
               "type": "text",
               "order": 1,
               "content": "Định nghĩa căn bậc hai, căn bậc hai số học; ví dụ về số vô tỉ như căn 2, căn 3.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "288744ba-70de-4bf6-b3a2-44b3d3b96d26"
             }
           ],
           "exercises": [
@@ -87,7 +92,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 25
+              "timeLimit": 25,
+              "uuid": "369337ca-e8fb-49dc-8235-28d4d9415091"
             }
           ]
         },
@@ -101,7 +107,8 @@
               "type": "text",
               "order": 1,
               "content": "Biểu diễn số thực trên trục số; liên hệ giữa số hữu tỉ và số vô tỉ.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "0544c516-83a4-49c9-9423-4562fcc9369d"
             }
           ],
           "exercises": [
@@ -110,7 +117,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "952dfca5-8386-4228-a953-791372acb3df"
             }
           ]
         }
@@ -131,7 +139,8 @@
               "type": "text",
               "order": 1,
               "content": "Nhận biết và phân loại các loại góc cơ bản, tính số đo góc đơn giản.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "2a70bceb-f169-4fb0-8217-96b521450fb6"
             }
           ],
           "exercises": [
@@ -140,7 +149,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "59df8d43-04c2-4507-8f6c-df1249f3a6fe"
             }
           ]
         },
@@ -154,7 +164,8 @@
               "type": "text",
               "order": 1,
               "content": "Định nghĩa và tính chất của các cặp góc khi một đường thẳng cắt hai đường thẳng song song.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "3db85c16-c087-4327-be7b-7b71a9d7b7bd"
             }
           ],
           "exercises": [
@@ -163,7 +174,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 25
+              "timeLimit": 25,
+              "uuid": "65c5de34-1d75-424b-8176-2cfc850af454"
             }
           ]
         }
@@ -184,7 +196,8 @@
               "type": "text",
               "order": 1,
               "content": "Nêu và minh họa các trường hợp bằng nhau của tam giác, ví dụ minh họa.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "153f308c-7a90-4ce7-b8cc-ee6bd3988425"
             }
           ],
           "exercises": [
@@ -193,7 +206,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 30
+              "timeLimit": 30,
+              "uuid": "541feda4-89bf-4936-9912-a1225dfe1b9a"
             }
           ]
         },
@@ -207,7 +221,8 @@
               "type": "text",
               "order": 1,
               "content": "Áp dụng các trường hợp tam giác bằng nhau để chứng minh các đoạn thẳng, góc bằng nhau.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "9de43649-546a-430c-89a8-fa1ba9010b2d"
             }
           ],
           "exercises": [
@@ -216,7 +231,8 @@
               "difficulty": "hard",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 35
+              "timeLimit": 35,
+              "uuid": "9d92beba-e822-442a-886c-c7f0480500f7"
             }
           ]
         }
@@ -237,7 +253,8 @@
               "type": "text",
               "order": 1,
               "content": "Các bước thu thập dữ liệu, ví dụ về điều tra đơn giản trong lớp học.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "f8910468-8c61-4c06-9095-d2adafac9dce"
             }
           ],
           "exercises": [
@@ -246,7 +263,8 @@
               "difficulty": "easy",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 15
+              "timeLimit": 15,
+              "uuid": "1ed80b6e-decd-41d0-a236-a8c5ea6a8bc8"
             }
           ]
         },
@@ -260,7 +278,8 @@
               "type": "text",
               "order": 1,
               "content": "Cách vẽ và đọc biểu đồ cột, biểu đồ đoạn thẳng từ bảng số liệu.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "36d3dee5-c077-4651-9833-211bbcf60cd0"
             }
           ],
           "exercises": [
@@ -269,7 +288,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 20
+              "timeLimit": 20,
+              "uuid": "1a09eba5-44e9-4387-a015-f6964ecdbbff"
             }
           ]
         }
@@ -290,7 +310,8 @@
               "type": "text",
               "order": 1,
               "content": "Hệ thống lại các dạng bài tập quan trọng về số hữu tỉ và số thực.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "122c877f-31d5-412f-94dc-6bed7832f2c8"
             }
           ],
           "exercises": [
@@ -299,7 +320,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 40
+              "timeLimit": 40,
+              "uuid": "cc54be4b-b637-4ed4-98be-7b7ebd3b4762"
             }
           ]
         },
@@ -313,7 +335,8 @@
               "type": "text",
               "order": 1,
               "content": "Tóm tắt kiến thức về góc, đường thẳng song song, tam giác bằng nhau và thống kê đơn giản.",
-              "attachments": []
+              "attachments": [],
+              "uuid": "975f7bdb-b646-4cff-b105-382db154db21"
             }
           ],
           "exercises": [
@@ -322,7 +345,8 @@
               "difficulty": "medium",
               "type": "multiple_choice",
               "order": 1,
-              "timeLimit": 40
+              "timeLimit": 40,
+              "uuid": "897dd055-ecd7-4d2f-977c-8e2732994e53"
             }
           ]
         }
@@ -330,7 +354,3 @@
     }
   ]
 }
-
-
-
-
